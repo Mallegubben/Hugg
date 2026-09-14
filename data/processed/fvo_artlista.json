@@ -44,8 +44,8 @@
       "har_gbif_enrichment": 461,
       "har_ifiske_kontroll": 895,
       "har_kontroll_parity_fill": 199,
-      "har_ifiske_spegling": 905,
-      "jamtland_har_spegling": 120,
+      "har_ifiske_spegling": 908,
+      "jamtland_har_spegling": 123,
       "jamtland_totalt": 157
     },
     "antal_unika_arter": 60,
@@ -227500,10 +227500,15 @@
         "arter": []
       },
       "arter": [
+        "Abborre",
         "Gädda",
-        "Lake"
+        "Harr",
+        "Lake",
+        "Röding",
+        "Öring"
       ],
       "kallor": [
+        "ifiske_spegling",
         "slu_provfiske"
       ],
       "vatten": [
@@ -227549,7 +227554,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 2,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2,
@@ -227559,7 +227564,35 @@
         "Elritsa",
         "Gädda",
         "Lake"
-      ]
+      ],
+      "ifiske_spegling": {
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "url": "https://www.ifiske.se/fiske-ottsjon-offsjon-m-fl-vatten.htm",
+        "match_slug": "fiske-ottsjon-offsjon-m-fl-vatten.htm",
+        "notes": [
+          "jamtland_manual_slug"
+        ]
+      },
+      "ifiske_kontroll": {
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "parity_tillagda": [],
+        "url": "https://www.ifiske.se/fiske-ottsjon-offsjon-m-fl-vatten.htm",
+        "anmarkning": "Speglad manuellt via iFiske-slug"
+      }
     },
     {
       "original_id": 58,
@@ -326236,6 +326269,7 @@
         "Öring"
       ],
       "kallor": [
+        "ifiske_spegling",
         "fiskekartan",
         "slu_provfiske",
         "gbif"
@@ -326349,7 +326383,37 @@
         "Sik",
         "Simpa",
         "Öring"
-      ]
+      ],
+      "ifiske_spegling": {
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "url": "https://www.ifiske.se/fiske-valsjon-rengen-hotagen-med-flera-vatten.htm",
+        "match_slug": "fiske-valsjon-rengen-hotagen-med-flera-vatten.htm",
+        "notes": [
+          "jamtland_manual_slug"
+        ]
+      },
+      "ifiske_kontroll": {
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "parity_tillagda": [],
+        "url": "https://www.ifiske.se/fiske-valsjon-rengen-hotagen-med-flera-vatten.htm",
+        "anmarkning": "Speglad manuellt via iFiske-slug"
+      }
     },
     {
       "original_id": 1829,
@@ -375384,12 +375448,13 @@
         "arter": []
       },
       "arter": [
-        "Bäckröding",
+        "Kanadaröding",
         "Lake",
         "Röding",
         "Öring"
       ],
       "kallor": [
+        "ifiske_spegling",
         "slu_provfiske"
       ],
       "vatten": [
@@ -375551,7 +375616,31 @@
         "Lake",
         "Röding",
         "Öring"
-      ]
+      ],
+      "ifiske_spegling": {
+        "arter": [
+          "Kanadaröding",
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "url": "https://www.ifiske.se/fiske-aresjon-arealven-mfl.htm",
+        "match_slug": "fiske-aresjon-arealven-mfl.htm",
+        "notes": [
+          "jamtland_manual_slug"
+        ]
+      },
+      "ifiske_kontroll": {
+        "arter": [
+          "Kanadaröding",
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "parity_tillagda": [],
+        "url": "https://www.ifiske.se/fiske-aresjon-arealven-mfl.htm",
+        "anmarkning": "Speglad manuellt via iFiske-slug"
+      }
     },
     {
       "original_id": 1862,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T18:46:59.086943+00:00",
+  "generated_at": "2026-09-14T18:47:15.511956+00:00",
   "antal_fvo": 1907,
   "antal_arter": 60,
   "antal_vatten": 5520,
@@ -5206,6 +5206,7 @@
         1623,
         1624,
         1626,
+        1627,
         1628,
         1629,
         1630,
@@ -7878,7 +7879,6 @@
         1586,
         1603,
         1604,
-        1611,
         1612,
         1628,
         1642,
@@ -12018,6 +12018,7 @@
         1623,
         1624,
         1626,
+        1627,
         1628,
         1629,
         1631,
@@ -12503,6 +12504,7 @@
         1581,
         1588,
         1604,
+        1611,
         1622,
         1631,
         1645,
@@ -17137,6 +17139,7 @@
         1622,
         1623,
         1626,
+        1627,
         1628,
         1629,
         1631,
@@ -22269,6 +22272,7 @@
         1622,
         1623,
         1626,
+        1627,
         1628,
         1629,
         1631,
@@ -292221,11 +292225,16 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ottsjöns%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=791",
       "kallor": [
+        "ifiske_spegling",
         "slu_provfiske"
       ],
       "arter": [
+        "Abborre",
         "Gädda",
-        "Lake"
+        "Harr",
+        "Lake",
+        "Röding",
+        "Öring"
       ],
       "arter_utokad": [
         "Elritsa",
@@ -292233,7 +292242,7 @@
         "Lake"
       ],
       "fiskekartan_arter": [],
-      "ifiske_speglad": false,
+      "ifiske_speglad": true,
       "vatten": [
         {
           "typ": "vattendrag",
@@ -353650,6 +353659,7 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Valsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
+        "ifiske_spegling",
         "fiskekartan",
         "slu_provfiske",
         "gbif"
@@ -353687,7 +353697,7 @@
         "Sik",
         "Öring"
       ],
-      "ifiske_speglad": false,
+      "ifiske_speglad": true,
       "vatten": [
         {
           "typ": "sjö",
@@ -384660,10 +384670,11 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Östra%20Åresjöns%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=823",
       "kallor": [
+        "ifiske_spegling",
         "slu_provfiske"
       ],
       "arter": [
-        "Bäckröding",
+        "Kanadaröding",
         "Lake",
         "Röding",
         "Öring"
@@ -384676,7 +384687,7 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "ifiske_speglad": false,
+      "ifiske_speglad": true,
       "vatten": [
         {
           "typ": "sjö",
