@@ -1,0 +1,15 @@
+# Raw geospatial dumps (large)
+data/raw/fiskekartan_fvof/
+data/raw/fiskekartan_fvof.zip
+data/raw/external_pages/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
