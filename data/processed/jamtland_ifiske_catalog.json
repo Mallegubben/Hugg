@@ -1,0 +1,2393 @@
+[
+  {
+    "url": "https://www.ifiske.se/fiske-anvikssjons-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "anvikssjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bodsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bodsjo",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-granboforsen-indalsalven-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "granboforsens",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-greningssjon-halasjons-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "greningssjonhalasjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ismunden-boggsjon-stortjarnen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ismundens",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-harkan-indalsalven-sannan-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "litsbygden",
+    "species": [
+      "Abborre",
+      "Bergsimpa",
+      "Braxen",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-mjosjovattnets-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "mjosjovattnets",
+    "species": [
+      "Abborre",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "moostersjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Id",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Sutare",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-nedre-harkan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "nedreharkans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Sik",
+      "Stensimpa",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-nedre-langans-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "nedrelangans",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Ruda",
+      "Sik",
+      "Stensimpa",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-nackten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "nacktens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-sandvikssjon-edsforsen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sandvikssjonedsforsens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-singsjovattnens-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "singsjovattnens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-storsjon-i-jamtland.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "storsjonjamtland",
+    "species": [
+      "Abborre",
+      "Bergsimpa",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-sundsjon-och-ovriga-vatten-inom-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sundsjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-norra-svartsjon-mellansvartsjon-och-sodra-svartsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "svartsjoarnas",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-langan-harkan-indalsalven.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "trealvskortet",
+    "species": [
+      "Abborre",
+      "Braxen",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-anjan-grasjon-kallsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "anjangrasjons",
+    "species": [
+      "Abborre",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-acklingen-nordfjarden-torron-bergtjarn-grundtjarn-oxogat-och-sandtjarn.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "billerudkorsnaskolasen",
+    "species": [
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-damman.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "dammans",
+    "species": [
+      "Harr",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-duveds.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "duveds",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-froatjarn.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "froatjarns",
+    "species": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-enan-handolan-dragsan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "handolsskifteslagsamfallighetsforening",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-helgesjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "helgesjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-henan-hensjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "henanhensjons",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hushallningssallskapet-jamtland-medstugean-saxsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hushallningssallskapetjamtland",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-kallsjon-husa-smedjeviken.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "husasmedjevikens",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hackrens-kortfiskeomrade.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hackrens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-juvuln.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "juvulnskfo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-kallsjon-haggsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "kallkyrkslattssamfallighetsforening",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-klocktjarn-och-svarttjarn.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "klockassamff",
+    "species": [
+      "Bäckröding",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-liten-arealven-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "litenvastra",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-medstugans-samfallda-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "medstuganssamfallighetsforening",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-indalsalven-vid-morsil.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "morsils",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-norensjoarnas.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "norensjoarnas",
+    "species": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ockesjon-och-kvitslestrommarna.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ockesjonkvitslestrommarnas",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ottsjon-offsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ottsjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-kallsjon-gastjarn-utsulan-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "suljattens",
+    "species": [
+      "Abborre",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-sallsjo-fvof-sallsjon-baksjon-med-tillhorande-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sallsjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-vastra-gevsjon-tangbolestrommen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "tangbolebyalagssff",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-undersakersalven.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "undersakersalvens",
+    "species": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-liten-mellersta-delen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "upplands",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-vallaviken-annsjon-harsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "vallansskifteslagssff",
+    "species": [
+      "Kanadaröding",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-annsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "annsjonskortfiskeomrade",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-aresjon-arealven-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "arefiskesamfallighetsforening",
+    "species": [
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-arealvens-nedre-kfo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "arealvensnedrekfo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-brattlandsstrommen-aresjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ostraaresjons",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bellvik-rorstrom.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bellvikrorstroms",
+    "species": [
+      "Abborre",
+      "Braxen",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bjorkvattnet-m-fl-tjarnar.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bjorkvattnets",
+    "species": [
+      "Bäckröding",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bonaset-risnaset-aspnas.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bonasetrisnasochaspnassamfallighetsforening",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-stroms-vattudal-ogelstrommen-gardviken-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "dragans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-edessjon-grenassjon-tannsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "edegrenas",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-stamseleviken-faxalven-sporrsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "faxebygdens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-flasjon-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "flasjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-frostviken.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "frostvikenkortet",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-fagelberget.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "fagelbergets",
+    "species": [
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gaxsjon-storan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gaxsjonstorans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Röding",
+      "Sik"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gorviks-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gorviks",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ostra-fiskavattnet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "holmenfiske",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-jormsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "jormvattnets",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-jarilvattnet-vastervattnet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "jarilvattnets",
+    "species": [
+      "Abborre",
+      "Id",
+      "Kanadaröding",
+      "Mört",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-kvarnbergsvattnet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "kvarnbergsvattnetsjamtland",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-kycklingvattnet-kfo-kycklingvattnet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "kycklingvattnetkfo",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-laxsjo-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "laxsjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-lidsjobergs-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "lidsjobergs",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-lill-blasjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "lillablasjons",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-storvattnet-lillvattnet-gardstjarn-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ringvattnets",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-risede-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "risede",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-svaningens-fritidsomrade.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "rushnorthab",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-russfjarden-fangsjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "russfjardens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-solberg-vikens-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "solbergvikens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Stäm",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-stora-blasjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "storablasjonssamfallighetsforening",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-storsjougden.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "storsjougdensskattefiskeforening",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-trolling-i-stroms-vattudal.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "stromsvattudaltrollingkort",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-tasjons-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "tasjons",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-vattudalen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "vattudalskortet",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ojan-hans-ersa-stortjarnen-skarpabbortjarnen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "yxskaftkalens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-svaningssjon-straken-fagelsjon-m-fl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ovrevattudalens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ojarssjons-ojan-hundvagen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ovreojans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gaddede-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gaddede",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ohns-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ohns",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-osterangsgolen-och-svartgolen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "holmenfiske",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-alsensjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "alsensjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bakvattnet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bakvattnets",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-fiskevagenkortet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "fiskevagenkortetikrokom",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-lovsjostrommen-follingesjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "follingekyrkslatts",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gysens-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gysens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hissmofors-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hissmofors",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hotagen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hotagenkortet",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-harkan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "harkankortet",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hallsjons-fiskevardsomrade-krokom.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hallsjonskrokom",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-landogssjon-langan-akeran.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "landosjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hotagsstrommen-stora-kungsvattnet-lilla-kungsvattnet-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "laxvikens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-naldsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "naldsjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-forstjarn-ronnosjon-storan-yttre-oldsjon-langsan-till-langsafallet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ronnoforsoldens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-rorvattnet-skogsjo-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "rorvattnetskogsjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-st-brinnsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "stbrinnsjons",
+    "species": [
+      "Abborre",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-storan-lakavattnet-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "storabrannalakavattnets",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-valsjon-rengen-hotagen-med-flera-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "valsjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-akersjon-och-akeran.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "akersjons",
+    "species": [
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gunnarvattnet-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gunnarvattnets",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bortnans.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bortnans",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-bortnans-vastra-kfo-lovan-aran-flasjon-aloppan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bortnansvastrakfo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-fiska-i-berg-fiskaibergkortet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "fiskaiberg",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-funasfjallen-fiskepasset.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "fiskepassetifunasdalen",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gruckarna-ljungan-flasjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gruckarnasfvf",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-handsjon-langtjarnen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "handsjons",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hovermoan-hogans-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hovermoanhogans",
+    "species": [
+      "Harr",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-klovsjo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "klovsjokfo",
+    "species": [
+      "Abborre",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ljungan-ojon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ljungdalens",
+    "species": [
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ratans-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ratans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-skalans-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "skalans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-storsjon-solvbacka-strommar-skarkan-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "storsjobergskommun",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-svenstaan-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "svenstaans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Nors",
+      "Regnbåge",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-asarnas.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "asarnas",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-stortjarnen-horten-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ovrehoans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ansjo-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ansjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-flottringen-bensjon-bodtjarn-dysjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bensjo",
+    "species": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Signalkräfta",
+      "Sik",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-digerlemmarnas.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "digerlemmarnas",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-revsundssjon-grimnasfjarden-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "grimnaslandsomfjardens",
+    "species": [
+      "Abborre",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hungesjons-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hungesjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hallesjo-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hallesjo",
+    "species": [
+      "Abborre",
+      "Braxen",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-oratjarn-abborrtjarn-gronvattnet-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ragunda",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-revsundssjon-marlan-herrevadstrommen-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "revsundssjonssodra",
+    "species": [
+      "Abborre",
+      "Bergsimpa",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-revsundssjon-turistfiskekortet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "revsundssjonsturistfiskekort",
+    "species": [
+      "Abborre",
+      "Bergsimpa",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-sidsjon-stugusjon-blektjarn-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sidsjostugusjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-svedje-vastanede-ovsjo-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "svedjevastanedeovsjo",
+    "species": [
+      "Abborre",
+      "Braxen",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Ruda",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-giman-konsttjarnen-astjarnen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sorbygdens",
+    "species": [
+      "Abborre",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-sosjon-hemsjon-grasjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sosjonhemsjongrasjons",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Ål",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-torringen-overtjarn-nedertjarn.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "taljenasets",
+    "species": [
+      "Abborre",
+      "Flodkräfta",
+      "Gädda",
+      "Id",
+      "Mört",
+      "Röding",
+      "Sarv",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-revsundssjon-grotingen-skaltjarn-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ovregimansrevsundssjongrotingenskalt",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ovre-giman.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ovregimansovregiman",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-tarsjon-jaran-jarsjon-odingen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bispgardens",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-helgevattnet-fullsjon-oratjarnput-and-take.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "fullsjons",
+    "species": [
+      "Abborre",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-gesunden.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gesundens",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-fisklossjon-stor-gussjon-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "gussjopaljakka",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-indalsalven-fors-fvo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "indalsalvenfors",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-nedre-ammerans-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "nedreammerans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hornsjon-indalsalven-mortsjoarna-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "stuguns",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ovre-ammeran.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ovreammerans",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Stäm",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ljusnan-manserstjarnen-messmortjarn-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "bruksvallarnaskfo",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Lax",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-finnmarken.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "finnmarkens",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Gös",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ljusnan-svegssjon-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "glissjobergmosatt",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hede.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hedesff",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hedeviken.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hedevikens",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-han-vemdalens-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "hanvemdalens",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-orrmosjon-stensjon-harjean-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "lillhardals",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-linsell-ransjo.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "linsellransjo",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ljusnedals-kortfiskeomrade.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ljusnedalsfvf",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-lofsdalen-glote-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "lofsdalenglote",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-langa.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "langa",
+    "species": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-messlingssjon-mittan-brandastjarn-stadsan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "messlingens",
+    "species": [
+      "Abborre",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ransundet.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ransundets",
+    "species": [
+      "Abborre",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-randalen.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "randalens",
+    "species": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-svegssjon-ljusnan-hundsjon-oratjarn-mfl.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "svegherro",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ovre-sarvsjon-och-nedre-sarvsjon.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sarvsjonssamfallighetsforening",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-sorvattnets-fvf-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "sorvattnetsfvf",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-tanndalssjon-ostersjon-samt-tannan.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "tanndalssjonostersjons",
+    "species": [
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-tannas-funasdalens-fiskeomrade.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "tannasfiskecentrumab",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Stensimpa",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ytterbergs-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ytterbergs",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-ytterhogdals.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "ytterhogdals",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-angersjo-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "angersjoangersjo",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-angersjo-fvof-p-t.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "angersjoangersjopt",
+    "species": []
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-hoan-abborrtjarnen-rosangen-m-fl-vatten.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "overhogdals",
+    "species": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ]
+  },
+  {
+    "url": "https://www.ifiske.se/fiske-funasdalens-fvof.htm",
+    "title": "Användarmeny",
+    "fold": "anvandarmeny",
+    "title_fold": "funasdalens",
+    "species": []
+  }
+]

@@ -1,0 +1,2787 @@
+[
+  {
+    "namn": "Alsensjöns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-alsensjon.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Anjan-Gråsjöns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-anjan-grasjon-kallsjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Ansjö fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ansjo-fvof.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Anviksjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-anvikssjons-fvof.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Bakvattnets fvof",
+    "antal_arter": 2,
+    "arter": [
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-bakvattnet.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Bellvik-Rörströms fvof",
+    "antal_arter": 13,
+    "arter": [
+      "Abborre",
+      "Braxen",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-bellvik-rorstrom.htm",
+    "antal_arter_utokad": 16
+  },
+  {
+    "namn": "Bensjö fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Signalkräfta",
+      "Sik",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-flottringen-bensjon-bodtjarn-dysjon.htm",
+    "antal_arter_utokad": 18
+  },
+  {
+    "namn": "Bispgårdens fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Bergsimpa",
+      "Bäcknejonöga",
+      "Gädda",
+      "Lake",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 7
+  },
+  {
+    "namn": "Björkvattnets fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Bäckröding",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-bjorkvattnet-m-fl-tjarnar.htm",
+    "antal_arter_utokad": 4
+  },
+  {
+    "namn": "Bodsjöns fvof",
+    "antal_arter": 16,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 16
+  },
+  {
+    "namn": "Börtnans fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-bortnans.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Dammåns fvof",
+    "antal_arter": 22,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Björkna",
+      "Braxen",
+      "Bäckröding",
+      "Elritsa",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Harr",
+      "Karp",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Simpa",
+      "Sutare",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 22
+  },
+  {
+    "namn": "Digerlemmarnas fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Röding",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 6
+  },
+  {
+    "namn": "Dragans fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-stroms-vattudal-ogelstrommen-gardviken-m-fl-vatten.htm",
+    "antal_arter_utokad": 14
+  },
+  {
+    "namn": "Dravsjöns fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Sik"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Duveds fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Bäckröding",
+      "Elritsa",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Ede-Grenås fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-edessjon-grenassjon-tannsjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Faxebygdens fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Braxen",
+      "Gädda",
+      "Mört",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-rinnen-stensvattnet-stora-ulvsjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Fjällsjö fvof",
+    "antal_arter": 16,
+    "arter": [
+      "Abborre",
+      "Benlöja",
+      "Braxen",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Id",
+      "Lake",
+      "Lax",
+      "Mört",
+      "Nors",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stäm",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 16
+  },
+  {
+    "namn": "Flors fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Gös",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Flåsjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-flasjon-mfl.htm",
+    "antal_arter_utokad": 19
+  },
+  {
+    "namn": "Fröåtjärns fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-froatjarn.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Fullsjöns fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-helgevattnet-fullsjon-oratjarnput-and-take.htm",
+    "antal_arter_utokad": 6
+  },
+  {
+    "namn": "Fågelbergets fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-fagelberget.htm",
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Föllinge-Kyrkslätts fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-lovsjostrommen-follingesjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Gastsjö fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Gerilån-Halåns fvof",
+    "antal_arter": 13,
+    "arter": [
+      "Abborre",
+      "Bäcknejonöga",
+      "Elritsa",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Stäm",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Gesundens fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-gesunden.htm",
+    "antal_arter_utokad": 14
+  },
+  {
+    "namn": "Getsjöns fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Harr",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 4
+  },
+  {
+    "namn": "Gimdalens fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-gimdalens-fvof-idsjon.-lill-myssjon.-ulvsjon.-skasjon.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Glissjöberg-Mosätt fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ljusnan-svegssjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Granboforsens fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-granboforsen-indalsalven-m-fl-vatten.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Greningsjön-Halasjöns fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-greningssjon-halasjons-fvof.htm",
+    "antal_arter_utokad": 6
+  },
+  {
+    "namn": "Grimnäs-Landsomfjärdens fvof",
+    "antal_arter": 11,
+    "arter": [
+      "Abborre",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-revsundssjon-grimnasfjarden-m-fl-vatten.htm",
+    "antal_arter_utokad": 14
+  },
+  {
+    "namn": "Gunnarvattnets fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Elritsa",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 4
+  },
+  {
+    "namn": "Gussvattnet-Storvattnets fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Gysens fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-gysens-fvo.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Gäddede fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Röding",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 4
+  },
+  {
+    "namn": "Gärdessjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Gåxsjön-Storåns fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Röding",
+      "Sik"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-gaxsjon-storan.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Görviks fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-gorviks-fvof.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Handsjöns fvof",
+    "antal_arter": 11,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-handsjon-langtjarnen-m-fl-vatten.htm",
+    "antal_arter_utokad": 16
+  },
+  {
+    "namn": "Hedevikens fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hedeviken.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Helgesjöns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-helgesjon.htm",
+    "antal_arter_utokad": 7
+  },
+  {
+    "namn": "Hensjön-Henåns fvof",
+    "antal_arter": 2,
+    "arter": [
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-henan-hensjon.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Hissmofors fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hissmofors-fvof.htm",
+    "antal_arter_utokad": 20
+  },
+  {
+    "namn": "Hotings fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Gädda",
+      "Lake",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Hovermoån-Högåns fvof",
+    "antal_arter": 2,
+    "arter": [
+      "Harr",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hovermoan-hogans-fvof.htm",
+    "antal_arter_utokad": 7
+  },
+  {
+    "namn": "Hungesjöns fvof",
+    "antal_arter": 20,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Harr",
+      "Karp",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Röding",
+      "Sarv",
+      "Signalkräfta",
+      "Sik",
+      "Sutare",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 20
+  },
+  {
+    "namn": "Huså-Smedjevikens fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-kallsjon-husa-smedjeviken.htm",
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Hällesjö fvof",
+    "antal_arter": 17,
+    "arter": [
+      "Abborre",
+      "Benlöja",
+      "Bergsimpa",
+      "Braxen",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 17
+  },
+  {
+    "namn": "Hällsjöns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hallsjons-fiskevardsomrade-krokom.htm",
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Hällån-Hållstaåns fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Karp",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Sutare",
+      "Ål"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sportfiska-i-sovdesjon-ab-sovdesjon-.htm",
+    "antal_arter_utokad": 22
+  },
+  {
+    "namn": "Håckrens fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hackrens-kortfiskeomrade.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Håkafot-Häggnäsets fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Hån-Vemdalens fvof",
+    "antal_arter": 13,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Håsjö fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Lake",
+      "Mört",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Håvdsjö fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 15
+  },
+  {
+    "namn": "Indalsälven-Fors fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-indalsalven-fors-fvo.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Ismundens fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Jormvattnets fvof",
+    "antal_arter": 2,
+    "arter": [
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-jormsjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Järilvattnets fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Id",
+      "Kanadaröding",
+      "Mört",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-jarilvattnet-vastervattnet.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Kougstasjöns fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Harr",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 6
+  },
+  {
+    "namn": "Kvarnbergsvattnets fvof",
+    "antal_arter": 18,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Elritsa",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Karp",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Röding",
+      "Sarv",
+      "Signalkräfta",
+      "Sutare",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 18
+  },
+  {
+    "namn": "Köttsjöns fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Landsomsjöns fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Lake",
+      "Sik"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 4
+  },
+  {
+    "namn": "Landösjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-landogssjon-langan-akeran.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Laxsjö fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-laxsjo-fvof.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Laxvikens fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hotagsstrommen-stora-kungsvattnet-lilla-kungsvattnet-mfl.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Lidsjöbergs fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-lidsjobergs-fvo.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Lilla Blåsjöns fvof",
+    "antal_arter": 2,
+    "arter": [
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-lill-blasjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 3
+  },
+  {
+    "namn": "Lillhärdals fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-orrmosjon-stensjon-harjean-mfl.htm",
+    "antal_arter_utokad": 14
+  },
+  {
+    "namn": "Lillsjöhögens fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Linsell-Ransjö fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-linsell-ransjo.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Litens västra fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-liten-arealven-m-fl-vatten.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Litsbygdens fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Ljungdalens fvof",
+    "antal_arter": 23,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Björkna",
+      "Braxen",
+      "Elritsa",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Harr",
+      "Karp",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Röding",
+      "Sarv",
+      "Signalkräfta",
+      "Sik",
+      "Simpa",
+      "Sutare",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 23
+  },
+  {
+    "namn": "Locknesjöns fvof",
+    "antal_arter": 11,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Lofsdalen-Glöte fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-lofsdalen-glote-fvof.htm",
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Långå fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-langa.htm",
+    "antal_arter_utokad": 15
+  },
+  {
+    "namn": "Malmsjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Messlingens fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Abborre",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-messlingssjon-mittan-brandastjarn-stadsan.htm",
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Mjösjövattnens fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-mjosjovattnets-fvof.htm",
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Mo-Östersjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Gädda",
+      "Id",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Mörsils fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-indalsalven-vid-morsil.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Nedre Ammeråns fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-nedre-ammerans-fvof.htm",
+    "antal_arter_utokad": 15
+  },
+  {
+    "namn": "Nedre Hårkans fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Sik",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-nedre-harkan.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Nedre Långans fvof",
+    "antal_arter": 13,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Nordöstra Sundsjö fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Norensjöarnas fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-norensjoarnas.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Näcktens fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Näldsjöns fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-naldsjon.htm",
+    "antal_arter_utokad": 17
+  },
+  {
+    "namn": "Ockesjön-Kvissleströmmarnas fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ockesjon-och-kvitslestrommarna.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Ottsjö fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ottsjon-offsjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Ottsjöns fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Elritsa",
+      "Gädda",
+      "Lake"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 3
+  },
+  {
+    "namn": "Ragunda fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-oratjarn-abborrtjarn-gronvattnet-m-fl-vatten.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Ransundets fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Revsundssjöns södra fvof",
+    "antal_arter": 14,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-revsundssjon-marlan-herrevadstrommen-mfl.htm",
+    "antal_arter_utokad": 17
+  },
+  {
+    "namn": "Ringvattnets fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-storvattnet-lillvattnet-gardstjarn-mfl.htm",
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Risede fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-risede-fvof.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Rossöns fvof",
+    "antal_arter": 18,
+    "arter": [
+      "Abborre",
+      "Benlöja",
+      "Braxen",
+      "Bäcknejonöga",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Simpa",
+      "Stensimpa",
+      "Stäm",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 18
+  },
+  {
+    "namn": "Russfjärdens fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-russfjarden-fangsjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Rätans fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Råndalens fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Råssjöns fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Rönnöfors-Oldens fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-forstjarn-ronnosjon-storan-yttre-oldsjon-langsan-till-langsafallet.htm",
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Rörströmsälvens fvof",
+    "antal_arter": 25,
+    "arter": [
+      "Abborre",
+      "Benlöja",
+      "Bergsimpa",
+      "Braxen",
+      "Bäcknejonöga",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Id",
+      "Kanadaröding",
+      "Lake",
+      "Lax",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Simpa",
+      "Stensimpa",
+      "Stäm",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 25
+  },
+  {
+    "namn": "Rörvattnet-Skogsjö fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-rorvattnet-skogsjo-fvo.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Sandvikssjön-Edsforsens fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sandvikssjon-edsforsen-m-fl-vatten.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Sidsjö-Stugusjö fvof",
+    "antal_arter": 11,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sidsjon-stugusjon-blektjarn-m-fl-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Singsjövattnens fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Karp",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Sutare",
+      "Ål"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sportfiska-i-sovdesjon-ab-sovdesjon-.htm",
+    "antal_arter_utokad": 20
+  },
+  {
+    "namn": "Skålans fvof",
+    "antal_arter": 21,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Björkna",
+      "Braxen",
+      "Elritsa",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Harr",
+      "Karp",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Simpa",
+      "Sutare",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 21
+  },
+  {
+    "namn": "Solberg-Vikens fvof",
+    "antal_arter": 11,
+    "arter": [
+      "Abborre",
+      "Bäcknejonöga",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Stäm",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Stor Mjölkvattnets fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 3
+  },
+  {
+    "namn": "Stor-Brinnsjöns fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Abborre",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-st-brinnsjon.htm",
+    "antal_arter_utokad": 7
+  },
+  {
+    "namn": "Stor-Raftsjöns fvo",
+    "antal_arter": 1,
+    "arter": [
+      "Gädda"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 1
+  },
+  {
+    "namn": "Storsjö fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-storsjon-solvbacka-strommar-skarkan-m-fl-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Storsjön-Bergs fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Karp",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Sutare",
+      "Ål"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sportfiska-i-sovdesjon-ab-sovdesjon-.htm",
+    "antal_arter_utokad": 26
+  },
+  {
+    "namn": "Storsjön-Krokom fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-storsjon-i-jamtland.htm",
+    "antal_arter_utokad": 14
+  },
+  {
+    "namn": "Storsjön-Åre fvof",
+    "antal_arter": 14,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 14
+  },
+  {
+    "namn": "Storsjön-Östersund fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Mört",
+      "Nors",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-storsjon-i-jamtland.htm",
+    "antal_arter_utokad": 17
+  },
+  {
+    "namn": "Storåbränna-Lakavattnets fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-storan-lakavattnet-m-fl-vatten.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Storåsen-Albackens fvof",
+    "antal_arter": 16,
+    "arter": [
+      "Abborre",
+      "Bäcknejonöga",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 16
+  },
+  {
+    "namn": "Stuguns fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hornsjon-indalsalven-mortsjoarna-mfl.htm",
+    "antal_arter_utokad": 17
+  },
+  {
+    "namn": "Suljättens fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-kallsjon-gastjarn-utsulan-m-fl-vatten.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Sundsjöns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sundsjon-och-ovriga-vatten-inom-fvof.htm",
+    "antal_arter_utokad": 7
+  },
+  {
+    "namn": "Svartsjöarnas fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-norra-svartsjon-mellansvartsjon-och-sodra-svartsjon.htm",
+    "antal_arter_utokad": 6
+  },
+  {
+    "namn": "Svedje-Västanede-Övsjö fvof",
+    "antal_arter": 14,
+    "arter": [
+      "Abborre",
+      "Braxen",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Ruda",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-svedje-vastanede-ovsjo-fvo.htm",
+    "antal_arter_utokad": 21
+  },
+  {
+    "namn": "Sveg-Herrö fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Siklöja",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-svegssjon-ljusnan-hundsjon-oratjarn-mfl.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Svenstaåns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Nors",
+      "Regnbåge",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-svenstaan-m-fl-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Sällsjö fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sallsjo-fvof-sallsjon-baksjon-med-tillhorande-vatten.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Sörbygdens fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-giman-konsttjarnen-astjarnen-m-fl-vatten.htm",
+    "antal_arter_utokad": 16
+  },
+  {
+    "namn": "Sösjön-Hemsjön-Gråsjöns fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Gädda",
+      "Mört",
+      "Ruda",
+      "Signalkräfta",
+      "Sutare"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-aredasjon-vikasjon-m-fl-vatten.htm",
+    "antal_arter_utokad": 19
+  },
+  {
+    "namn": "Tänndalssjön-Östersjöns fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Harr",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-tanndalssjon-ostersjon-samt-tannan.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Tännsjöns fvof",
+    "antal_arter": 4,
+    "arter": [
+      "Bäckröding",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 4
+  },
+  {
+    "namn": "Tännäs Funäsdalens fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-tannas-funasdalens-fiskeomrade.htm",
+    "antal_arter_utokad": 15
+  },
+  {
+    "namn": "Tåsjöns fvof",
+    "antal_arter": 12,
+    "arter": [
+      "Abborre",
+      "Bäckröding",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Sik",
+      "Siklöja",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-tasjons-fvof.htm",
+    "antal_arter_utokad": 18
+  },
+  {
+    "namn": "Undersåkersälvens fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-undersakersalven.htm",
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Upplands fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Kanadaröding",
+      "Lake",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-liten-mellersta-delen.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Valsjöns fvof",
+    "antal_arter": 13,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Gärs",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Vängelälvens fvof",
+    "antal_arter": 13,
+    "arter": [
+      "Abborre",
+      "Benlöja",
+      "Bäcknejonöga",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Ytterbergs fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ytterbergs-fvof.htm",
+    "antal_arter_utokad": 12
+  },
+  {
+    "namn": "Ytterhogdals fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ytterhogdals.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Yxskaftkälens fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Karp",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Sutare",
+      "Ål"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sportfiska-i-sovdesjon-ab-sovdesjon-.htm",
+    "antal_arter_utokad": 19
+  },
+  {
+    "namn": "Älvros fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 10
+  },
+  {
+    "namn": "Ängersjö fvof",
+    "antal_arter": 6,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-angersjo-fvof.htm",
+    "antal_arter_utokad": 8
+  },
+  {
+    "namn": "Åkersjöns fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Björkna",
+      "Braxen",
+      "Flodkräfta",
+      "Gädda",
+      "Gärs",
+      "Gös",
+      "Karp",
+      "Mört",
+      "Nors",
+      "Ruda",
+      "Sarv",
+      "Signalkräfta",
+      "Sutare",
+      "Ål"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-sportfiska-i-sovdesjon-ab-sovdesjon-.htm",
+    "antal_arter_utokad": 18
+  },
+  {
+    "namn": "Åsarna fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Bergsimpa",
+      "Bäckröding",
+      "Elritsa",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 9
+  },
+  {
+    "namn": "Öns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Bergsimpa",
+      "Elritsa",
+      "Gädda",
+      "Lake",
+      "Simpa",
+      "Stensimpa",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 7
+  },
+  {
+    "namn": "Östra Åresjöns fvof",
+    "antal_arter": 5,
+    "arter": [
+      "Bäckröding",
+      "Elritsa",
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 5
+  },
+  {
+    "namn": "Överhogdals fvof",
+    "antal_arter": 8,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-hoan-abborrtjarnen-rosangen-m-fl-vatten.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Överoldsjöns-Korsvattnets fvof",
+    "antal_arter": 3,
+    "arter": [
+      "Lake",
+      "Röding",
+      "Öring"
+    ],
+    "speglad": false,
+    "url": null,
+    "antal_arter_utokad": 3
+  },
+  {
+    "namn": "Övre Ammeråns fvof",
+    "antal_arter": 10,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Id",
+      "Lake",
+      "Mört",
+      "Röding",
+      "Sik",
+      "Stäm",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ovre-ammeran.htm",
+    "antal_arter_utokad": 13
+  },
+  {
+    "namn": "Övre Gimåns fvof",
+    "antal_arter": 15,
+    "arter": [
+      "Abborre",
+      "Bergsimpa",
+      "Bäckröding",
+      "Flodkräfta",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Signalkräfta",
+      "Sik",
+      "Stensimpa",
+      "Ål",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-flottringen-bensjon-bodtjarn-dysjon.htm",
+    "antal_arter_utokad": 20
+  },
+  {
+    "namn": "Övre Hoans fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-stortjarnen-horten-m-fl-vatten.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Övre Vattudalens fvof",
+    "antal_arter": 9,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Regnbåge",
+      "Röding",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-svaningssjon-straken-fagelsjon-m-fl.htm",
+    "antal_arter_utokad": 11
+  },
+  {
+    "namn": "Övre Öjåns fvof",
+    "antal_arter": 7,
+    "arter": [
+      "Abborre",
+      "Gädda",
+      "Harr",
+      "Lake",
+      "Mört",
+      "Sik",
+      "Öring"
+    ],
+    "speglad": true,
+    "url": "https://www.ifiske.se/fiske-ojarssjons-ojan-hundvagen-m-fl-vatten.htm",
+    "antal_arter_utokad": 8
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "speglade": 885,
+    "oforandrade_utan_ifiske": 1022,
+    "jamtland_totalt": 157,
+    "jamtland_speglade": 100,
+    "jamtland_utan_ifiske": 57,
+    "nationellt_med_ifiske": 885
+  },
+  "coverage": {
+    "har_nagon_art": 1863,
+    "saknar_arter": 44,
+    "har_ifiske_spegling": 885,
+    "jamtland_har_spegling": 100,
+    "jamtland_totalt": 157
+  }
+}
