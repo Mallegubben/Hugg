@@ -21,6 +21,7 @@ Komplett artunderlag för Sveriges fiskevårdsområden (FVO), med
 | Fil | Innehåll |
 |-----|----------|
 | `data/processed/fvo_artlista.json` | Full artlista per FVO + vattenposter (NORS/SERS) |
+| `data/processed/fvo_komplett_index.json` | Komplett index: FVO + vatten + uppslag (art/län/namn/vatten) |
 | `data/processed/fvo_artlista_index.json` | Kompakt index för appar |
 | `data/processed/fvo_artlista.csv` | Tabellöversikt |
 | `data/processed/fvo_tackning_per_lan.csv` | Täckning per län |
@@ -49,6 +50,7 @@ pip install -r requirements.txt
 python scripts/fetch_raw_data.py
 python scripts/build_fvo_artlista.py
 python scripts/enrich_from_external_links.py
+python scripts/build_komplett_index.py
 ```
 
 Rågeometri (`data/raw/fiskekartan_fvof/`) är gitignorerad p.g.a. storlek.
