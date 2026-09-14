@@ -44,8 +44,8 @@
       "har_gbif_enrichment": 461,
       "har_ifiske_kontroll": 895,
       "har_kontroll_parity_fill": 199,
-      "har_ifiske_spegling": 907,
-      "jamtland_har_spegling": 122,
+      "har_ifiske_spegling": 905,
+      "jamtland_har_spegling": 120,
       "jamtland_totalt": 157
     },
     "antal_unika_arter": 60,
@@ -128167,16 +128167,7 @@
       },
       "arter": [
         "Abborre",
-        "Bäckröding",
-        "Gädda",
-        "Gärs",
         "Harr",
-        "Lake",
-        "Mört",
-        "Regnbåge",
-        "Sik",
-        "Siklöja",
-        "Stensimpa",
         "Öring"
       ],
       "kallor": [
@@ -128228,7 +128219,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2,
@@ -128241,48 +128232,7 @@
         "Harr",
         "Simpa",
         "Öring"
-      ],
-      "ifiske_spegling": {
-        "arter": [
-          "Abborre",
-          "Bäckröding",
-          "Gädda",
-          "Gärs",
-          "Harr",
-          "Lake",
-          "Mört",
-          "Regnbåge",
-          "Sik",
-          "Siklöja",
-          "Stensimpa",
-          "Öring"
-        ],
-        "url": "https://www.ifiske.se/fiske-tasjons-fvof.htm",
-        "match_slug": "fiske-tasjons-fvof.htm",
-        "score": 90,
-        "notes": [
-          "jamtland_slug_match"
-        ]
-      },
-      "ifiske_kontroll": {
-        "arter": [
-          "Abborre",
-          "Bäckröding",
-          "Gädda",
-          "Gärs",
-          "Harr",
-          "Lake",
-          "Mört",
-          "Regnbåge",
-          "Sik",
-          "Siklöja",
-          "Stensimpa",
-          "Öring"
-        ],
-        "parity_tillagda": [],
-        "url": "https://www.ifiske.se/fiske-tasjons-fvof.htm",
-        "anmarkning": "Speglad via iFiske URL-slug"
-      }
+      ]
     },
     {
       "original_id": 1367,
@@ -366281,13 +366231,8 @@
         "arter": []
       },
       "arter": [
-        "Abborre",
         "Gädda",
-        "Harr",
         "Lake",
-        "Mört",
-        "Röding",
-        "Sik",
         "Öring"
       ],
       "kallor": [
@@ -366455,7 +366400,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 7,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 7,
@@ -366469,40 +366414,7 @@
         "Simpa",
         "Stensimpa",
         "Öring"
-      ],
-      "ifiske_spegling": {
-        "arter": [
-          "Abborre",
-          "Gädda",
-          "Harr",
-          "Lake",
-          "Mört",
-          "Röding",
-          "Sik",
-          "Öring"
-        ],
-        "url": "https://www.ifiske.se/fiske-anvikssjons-fvof.htm",
-        "match_slug": "fiske-anvikssjons-fvof.htm",
-        "score": 90,
-        "notes": [
-          "jamtland_slug_match"
-        ]
-      },
-      "ifiske_kontroll": {
-        "arter": [
-          "Abborre",
-          "Gädda",
-          "Harr",
-          "Lake",
-          "Mört",
-          "Röding",
-          "Sik",
-          "Öring"
-        ],
-        "parity_tillagda": [],
-        "url": "https://www.ifiske.se/fiske-anvikssjons-fvof.htm",
-        "anmarkning": "Speglad via iFiske URL-slug"
-      }
+      ]
     },
     {
       "original_id": 1193,
