@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:11:34.855233+00:00",
+  "generated_at": "2026-09-14T19:21:56.925688+00:00",
   "antal_fvo": 1907,
   "antal_arter": 85,
   "antal_vatten": 5520,
@@ -5255,6 +5255,7 @@
         1659,
         1660,
         1662,
+        1664,
         1665,
         1666,
         1667,
@@ -5764,6 +5765,7 @@
         2304,
         2379,
         2380,
+        2383,
         2387
       ],
       "Asp": [
@@ -5795,6 +5797,7 @@
         1459,
         1472,
         1476,
+        1566,
         1747,
         1753,
         1757,
@@ -5944,6 +5947,7 @@
         452,
         454,
         456,
+        457,
         458,
         459,
         462,
@@ -7445,6 +7449,7 @@
         452,
         454,
         456,
+        457,
         458,
         459,
         461,
@@ -11866,6 +11871,7 @@
         2017,
         2018,
         2020,
+        2021,
         2022,
         2023,
         2024,
@@ -13362,6 +13368,7 @@
         1905,
         1914,
         1915,
+        1916,
         1918,
         1922,
         1925,
@@ -13384,8 +13391,10 @@
         1993,
         1994,
         1998,
+        2000,
         2012,
         2016,
+        2021,
         2022,
         2024,
         2025,
@@ -13431,6 +13440,7 @@
         2165,
         2166,
         2167,
+        2168,
         2169,
         2171,
         2174,
@@ -13466,6 +13476,7 @@
         2232,
         2234,
         2235,
+        2236,
         2303,
         2380,
         2383
@@ -13714,6 +13725,7 @@
         1242,
         1248,
         1250,
+        1255,
         1256,
         1260,
         1264,
@@ -13736,6 +13748,7 @@
         1333,
         1338,
         1341,
+        1343,
         1348,
         1352,
         1354,
@@ -13849,6 +13862,7 @@
         1664,
         1665,
         1666,
+        1667,
         1668,
         1669,
         1671,
@@ -13977,7 +13991,10 @@
         1809,
         1811,
         1864,
+        1905,
+        1916,
         1943,
+        1975,
         1981,
         2020,
         2078,
@@ -13986,6 +14003,9 @@
         2131,
         2134,
         2151,
+        2166,
+        2168,
+        2188,
         2189,
         2200,
         2205,
@@ -14106,6 +14126,7 @@
         887,
         898,
         899,
+        901,
         909,
         914,
         924,
@@ -14126,6 +14147,7 @@
         1023,
         1028,
         1029,
+        1030,
         1035,
         1044,
         1049,
@@ -14142,6 +14164,7 @@
         1104,
         1105,
         1108,
+        1116,
         1120,
         1123,
         1127,
@@ -14153,6 +14176,7 @@
         1143,
         1146,
         1153,
+        1157,
         1165,
         1206,
         1214,
@@ -14332,6 +14356,7 @@
         1604,
         1631,
         1645,
+        1667,
         1736,
         1758,
         1780,
@@ -14358,6 +14383,8 @@
         756,
         805,
         880,
+        901,
+        964,
         966,
         1148,
         1451,
@@ -14377,6 +14404,7 @@
         1893,
         1903,
         1905,
+        1916,
         1975,
         1981,
         1984,
@@ -14390,6 +14418,7 @@
         2134,
         2158,
         2166,
+        2168,
         2176,
         2178,
         2179,
@@ -14400,12 +14429,14 @@
         2199,
         2201,
         2202,
+        2205,
         2206,
         2210,
         2218,
         2219,
         2223,
-        2225
+        2225,
+        2236
       ],
       "Karpfisk obestämd": [
         126,
@@ -15200,6 +15231,7 @@
         1113,
         1114,
         1115,
+        1116,
         1117,
         1118,
         1119,
@@ -15281,6 +15313,7 @@
         1250,
         1251,
         1254,
+        1255,
         1256,
         1258,
         1260,
@@ -15538,6 +15571,7 @@
         1662,
         1665,
         1666,
+        1667,
         1668,
         1669,
         1671,
@@ -15703,11 +15737,13 @@
         1902,
         1903,
         1904,
+        1905,
         1908,
         1909,
         1913,
         1914,
         1915,
+        1916,
         1918,
         1919,
         1922,
@@ -15830,6 +15866,7 @@
         2165,
         2166,
         2167,
+        2168,
         2169,
         2170,
         2171,
@@ -16092,6 +16129,7 @@
         1908,
         1910,
         1914,
+        1916,
         1919,
         1938,
         1942,
@@ -16131,6 +16169,7 @@
         2165,
         2166,
         2167,
+        2168,
         2181,
         2188,
         2189,
@@ -16249,6 +16288,7 @@
         2177,
         2196,
         2203,
+        2205,
         2218,
         2228,
         2235
@@ -16995,6 +17035,7 @@
         1027,
         1028,
         1029,
+        1030,
         1031,
         1032,
         1033,
@@ -17064,6 +17105,7 @@
         1112,
         1113,
         1115,
+        1116,
         1117,
         1118,
         1119,
@@ -17095,6 +17137,7 @@
         1152,
         1153,
         1154,
+        1157,
         1158,
         1160,
         1161,
@@ -17349,6 +17392,7 @@
         1556,
         1559,
         1563,
+        1566,
         1568,
         1571,
         1578,
@@ -18796,6 +18840,7 @@
         1226,
         1233,
         1238,
+        1255,
         1260,
         1280,
         1283,
@@ -18917,6 +18962,7 @@
         1770,
         1771,
         1773,
+        1774,
         1775,
         1777,
         1780,
@@ -18953,6 +18999,7 @@
         1905,
         1914,
         1915,
+        1916,
         1931,
         1933,
         1937,
@@ -19010,6 +19057,7 @@
         2165,
         2166,
         2167,
+        2168,
         2178,
         2189,
         2201,
@@ -19377,6 +19425,7 @@
         110,
         113,
         139,
+        167,
         187,
         207,
         215,
@@ -19454,6 +19503,7 @@
         1040,
         1041,
         1043,
+        1046,
         1048,
         1049,
         1051,
@@ -19491,6 +19541,7 @@
         1110,
         1111,
         1112,
+        1114,
         1116,
         1120,
         1122,
@@ -19537,6 +19588,7 @@
         1247,
         1251,
         1254,
+        1255,
         1260,
         1267,
         1279,
@@ -19664,6 +19716,7 @@
         1627,
         1628,
         1629,
+        1630,
         1631,
         1635,
         1638,
@@ -19729,6 +19782,7 @@
         1768,
         1770,
         1772,
+        1774,
         1777,
         1781,
         1782,
@@ -19748,6 +19802,7 @@
         1903,
         1913,
         1931,
+        1933,
         1939,
         1952,
         1961,
@@ -19760,6 +19815,7 @@
         2051,
         2052,
         2053,
+        2056,
         2074,
         2086,
         2106,
@@ -19774,7 +19830,8 @@
         2165,
         2167,
         2172,
-        2270
+        2270,
+        2383
       ],
       "Rödspätta": [
         146
@@ -19969,6 +20026,7 @@
         454,
         455,
         456,
+        457,
         458,
         459,
         461,
@@ -20781,6 +20839,7 @@
         139,
         148,
         162,
+        167,
         178,
         179,
         187,
@@ -21217,6 +21276,7 @@
         1624,
         1628,
         1629,
+        1630,
         1631,
         1634,
         1635,
@@ -21377,7 +21437,8 @@
         2221,
         2228,
         2268,
-        2270
+        2270,
+        2383
       ],
       "Sikl": [
         1745
@@ -21490,6 +21551,7 @@
         367,
         372,
         374,
+        375,
         378,
         385,
         390,
@@ -21507,6 +21569,7 @@
         436,
         439,
         443,
+        457,
         458,
         459,
         469,
@@ -23130,6 +23193,7 @@
         655,
         657,
         667,
+        805,
         818,
         822,
         833,
@@ -23267,15 +23331,18 @@
         1904,
         1908,
         1911,
+        1933,
         1951,
         1991,
+        2021,
         2026,
         2039,
         2069,
         2090,
         2134,
         2148,
-        2151
+        2151,
+        2205
       ],
       "Su": [
         1843
@@ -23513,6 +23580,7 @@
         452,
         454,
         455,
+        457,
         458,
         459,
         461,
@@ -23676,6 +23744,7 @@
         892,
         896,
         900,
+        901,
         907,
         909,
         912,
@@ -24206,6 +24275,7 @@
         445,
         451,
         452,
+        457,
         459,
         469,
         472,
@@ -24427,6 +24497,7 @@
         1424,
         1428,
         1430,
+        1431,
         1432,
         1433,
         1437,
@@ -24935,6 +25006,7 @@
         450,
         451,
         452,
+        457,
         458,
         469,
         470,
@@ -25039,6 +25111,7 @@
         790,
         795,
         799,
+        800,
         805,
         806,
         812,
@@ -25616,6 +25689,7 @@
         1655,
         1656,
         1657,
+        1658,
         1659,
         1660,
         1661,
@@ -153306,7 +153380,8 @@
       "url_fvof": "www.vattenagarna.se/jonkopings-lans-fiskevattenagareforbund/?o=899",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -153318,6 +153393,7 @@
         "Lake",
         "Mört",
         "Sarv",
+        "Siklöja",
         "Sutare",
         "Öring"
       ],
@@ -155375,7 +155451,8 @@
       "url_fvof": "www.armsjoarnasfvo.se/",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -155387,6 +155464,7 @@
         "Lake",
         "Mört",
         "Nors",
+        "Röding",
         "Siklöja",
         "Simpa",
         "Stensimpa",
@@ -157816,7 +157894,8 @@
       "url_fvof": null,
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -157827,6 +157906,8 @@
         "Grönling",
         "Gädda",
         "Gärs",
+        "Gös",
+        "Karp",
         "Lake",
         "Mört",
         "Ruda",
@@ -161116,7 +161197,9 @@
         "Elritsa",
         "Gädda",
         "Harr",
+        "Id",
         "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -165556,6 +165639,8 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Id",
+        "Karp",
         "Kräfta obestämd",
         "Lake",
         "Mört",
@@ -165563,6 +165648,7 @@
         "Regnbåge",
         "Signalkräfta",
         "Siklöja",
+        "Sutare",
         "Ål",
         "Öring"
       ],
@@ -168316,6 +168402,7 @@
         "Harr",
         "Lake",
         "Regnbåge",
+        "Röding",
         "Sik",
         "Öring"
       ],
@@ -171162,13 +171249,16 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Böljesjöns%20fvof&sp=false",
       "url_fvof": "www.abborresjon.se",
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
         "Bäckröding",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Stäm",
         "Öring"
       ],
       "fiskekartan_arter": [],
@@ -180256,14 +180346,22 @@
       "url_fvof": "flatenfiske.se/",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
+        "Benlöja",
+        "Braxen",
         "Gädda",
         "Gös",
         "Lake",
-        "Mört"
+        "Mört",
+        "Sarv",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
       "fiskekartan_arter": [
         "Abborre",
@@ -182095,13 +182193,17 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Forsa-Veka%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
+        "Gädda",
+        "Gös",
         "Lake",
         "Mört",
         "Signalkräfta",
+        "Stäm",
         "Öring"
       ],
       "fiskekartan_arter": [],
@@ -186017,7 +186119,8 @@
       "url_fvof": "www.gagneffiske.se",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -186035,7 +186138,9 @@
         "Lake",
         "Mört",
         "Nejonöga",
+        "Regnbåge",
         "Ruda",
+        "Röding",
         "Signalkräfta",
         "Sik",
         "Siklöja",
@@ -188757,7 +188862,8 @@
       "url_fvof": "glansfvo.se/",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -188782,7 +188888,8 @@
         "Siklöja",
         "Simpa",
         "Stensimpa",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
       "fiskekartan_arter": [
         "Abborre",
@@ -189102,7 +189209,8 @@
       "url_fvof": "gnestafiske.se/",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -189115,7 +189223,8 @@
         "Lake",
         "Mört",
         "Sarv",
-        "Sutare"
+        "Sutare",
+        "Öring"
       ],
       "fiskekartan_arter": [
         "Abborre",
@@ -190272,7 +190381,8 @@
         "Gädda",
         "Harr",
         "Mört",
-        "Sik"
+        "Sik",
+        "Öring"
       ],
       "fiskekartan_arter": [
         "Abborre",
@@ -191698,6 +191808,8 @@
         "Harr",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Sutare",
         "Öring"
       ],
@@ -197926,6 +198038,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Harr",
         "Havsöring",
         "Lake",
         "Lax",
@@ -223013,7 +223126,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Kävlingeåns-Löddeåns%20fvof&sp=false",
       "url_fvof": "loddean-fiske.se/",
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -223023,6 +223137,7 @@
         "Grönling",
         "Gädda",
         "Gärs",
+        "Havsöring",
         "Id",
         "Lake",
         "Lax",
@@ -240201,6 +240316,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Id",
         "Karp",
         "Karpfisk obestämd",
@@ -240688,7 +240804,9 @@
         "Elritsa",
         "Gädda",
         "Harr",
+        "Id",
         "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -241790,15 +241908,18 @@
       "url_fvof": "www.langafisket.se",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
+        "Asp",
         "Bergsimpa",
         "Elritsa",
         "Gädda",
         "Harr",
         "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -257642,10 +257763,12 @@
         "Gärs",
         "Gös",
         "Havsöring",
+        "Karp",
         "Karpfisk obestämd",
         "Lake",
         "Lax",
         "Lax_Öring_Hybrid",
+        "Mal",
         "Mört",
         "Nejonöga",
         "Ruda",
@@ -257654,6 +257777,7 @@
         "Signalkräfta",
         "Spigg obestämd",
         "Storspigg",
+        "Stäm",
         "Sutare",
         "Vimma",
         "Ål",
@@ -258725,10 +258849,14 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Harr",
         "Havsöring",
+        "Lake",
         "Lax",
         "Mört",
+        "Regnbåge",
         "Ruda",
+        "Röding",
         "Öring"
       ],
       "fiskekartan_arter": [],
@@ -265232,6 +265360,9 @@
         "Abborre",
         "Gädda",
         "Harr",
+        "Id",
+        "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -266485,6 +266616,7 @@
         "Abborre",
         "Braxen",
         "Gädda",
+        "Gös",
         "Mört",
         "Regnbåge",
         "Signalkräfta"
@@ -267822,7 +267954,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
@@ -267840,6 +267973,7 @@
         "Mört",
         "Nors",
         "Ruda",
+        "Stäm",
         "Sutare",
         "Ål",
         "Öring"
@@ -285824,6 +285958,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Karp",
         "Lake",
         "Lax",
@@ -304729,6 +304864,7 @@
         "Kräfta obestämd",
         "Mört",
         "Regnbåge",
+        "Röding",
         "Signalkräfta",
         "Sik",
         "Ål",
@@ -316978,12 +317114,19 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sörbergens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
         "Bäckröding",
         "Gädda",
+        "Gös",
+        "Havsöring",
+        "Karp",
+        "Lake",
+        "Lax",
+        "Regnbåge",
         "Signalkräfta",
         "Ål",
         "Öring"
@@ -327000,15 +327143,22 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Tösjön%20Häcksjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
         "Elritsa",
         "Gädda",
+        "Gös",
         "Harr",
+        "Havsöring",
         "Id",
+        "Karp",
+        "Lake",
+        "Lax",
         "Mört",
+        "Regnbåge",
         "Signalkräfta"
       ],
       "fiskekartan_arter": [],
@@ -328422,13 +328572,17 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Upplands%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=813",
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "arter": [
         "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Gädda",
+        "Harr",
+        "Kanadaröding",
+        "Lake",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -336938,6 +337092,7 @@
         "Gärs",
         "Gös",
         "Id",
+        "Karp",
         "Kräfta obestämd",
         "Lake",
         "Mört",
@@ -339498,10 +339653,13 @@
         "extern_fvof"
       ],
       "arter": [
+        "Abborre",
         "Gädda",
         "Gös",
         "Harr",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Öring"
       ],
       "fiskekartan_arter": [],
@@ -340252,7 +340410,9 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Karp",
+        "Lake",
         "Lax",
         "Mört",
         "Regnbåge",
@@ -342567,6 +342727,8 @@
         "Lake",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Öring"
       ],
       "fiskekartan_arter": [
@@ -347949,6 +348111,7 @@
         "extern_fvof"
       ],
       "arter": [
+        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",

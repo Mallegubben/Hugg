@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T19:11:34.535896+00:00",
+    "generated_at": "2026-09-14T19:21:43.978442+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -32,7 +32,7 @@
     ],
     "policy": {
       "ifiske_artdata": false,
-      "ifiske_anvandning": "Jämförelse + tips till FVOF-länkar. Artdata hämtas från FVOF/Fiskekartan/SLU/GBIF."
+      "ifiske_anvandning": "Jämförelse/spegel + tips till FVOF-länkar (t.ex. \"Gå till hemsida\"). Artdata hämtas från FVOF/Fiskekartan/SLU/GBIF – aldrig från iFiske."
     },
     "coverage": {
       "har_fiskekartan_arter": 994,
@@ -40,7 +40,7 @@
       "har_nagon_art": 1863,
       "saknar_arter": 44,
       "har_vattenposter": 1565,
-      "har_extern_enrichment": 239,
+      "har_extern_enrichment": 254,
       "har_gbif_enrichment": 556,
       "har_ifiske_spegel_kontroll": 884
     },
@@ -67,15 +67,16 @@
       "kvarvarande_luckor_mot_spegel": 1679
     },
     "fvof_link_pass": {
-      "enriched_fvo": 204,
-      "added_species_entries": 427,
-      "mirror_gaps_closed": 170,
+      "enriched_fvo": 34,
+      "added_species_entries": 74,
+      "mirror_gaps_closed": 45,
+      "tipslankar_sparade_fvo": 168,
       "spegel_stats": {
-        "battre": 370,
-        "lika": 25,
-        "samre": 489,
+        "battre": 374,
+        "lika": 26,
+        "samre": 484,
         "med_spegel": 884,
-        "kvar_luckor": 1509
+        "kvar_luckor": 1464
       }
     }
   },
@@ -6956,12 +6957,14 @@
         "Lake",
         "Mört",
         "Sarv",
+        "Siklöja",
         "Sutare",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -6989,7 +6992,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -7012,6 +7015,29 @@
         ],
         "url": "https://www.ifiske.se/fiske-anebysjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.malsanna.se"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Siklöja"
+        ],
+        "kallor_url:er": [
+          "https://www.vattenagarna.se/jonkopings-lans-fiskevattenagareforbund/?o=899",
+          "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/riksforbundets-styrelse/",
+          "https://www.vattenagarna.se/att-aga-fiskevatten/",
+          "https://www.vattenagarna.se/kontaktuppgifter-till-lans-regionforbund/",
+          "https://www.vattenagarna.se/informationsskrift-om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/personuppgiftspolicy/",
+          "https://www.vattenagarna.se/kontakta-kansliet/",
+          "https://www.vattenagarna.se/pa-gang/",
+          "http://www.malsanna.se/",
+          "https://www.malsanna.se/aktiviteter/fiska/",
+          "https://www.malsanna.se/om-oss/gastbok/#gb-entry_1968",
+          "https://www.malsanna.se/om-oss/gastbok/#gb-entry_1965"
+        ]
       }
     },
     {
@@ -10217,6 +10243,7 @@
         "Lake",
         "Mört",
         "Nors",
+        "Röding",
         "Siklöja",
         "Simpa",
         "Stensimpa",
@@ -10224,7 +10251,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -10389,7 +10417,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 7,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 4
@@ -10407,11 +10435,36 @@
           "Stensimpa",
           "Öring"
         ],
-        "luckor_ej_funna_hos_fvof": [
-          "Röding"
-        ],
+        "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-vastansjo-lilltjarn-storarmsjo-lillarmsjo-mfl.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://armsjoarnasfvo.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Röding"
+        ],
+        "kallor_url:er": [
+          "https://www.armsjoarnasfvo.se/",
+          "https://www.armsjoarnasfvo.se/fiskeomrade/",
+          "https://www.armsjoarnasfvo.se/fiskeomrade/fiske_lillarmsjo.html",
+          "https://www.armsjoarnasfvo.se/fiskeomrade/fiske_ritjarn.html",
+          "https://www.armsjoarnasfvo.se/fiskeomrade/fiske_storarmsjo.html",
+          "https://www.armsjoarnasfvo.se/fiskeomrade/fiske_vastansjo.html",
+          "https://www.armsjoarnasfvo.se/fiskeomrade/fiske_lilltjarn.html",
+          "https://www.armsjoarnasfvo.se/fiskekort/",
+          "https://www.armsjoarnasfvo.se/fiskekort/kort_ifiske.html",
+          "https://armsjoarnasfvo.se/",
+          "https://armsjoarnasfvo.se/fiskeomrade/",
+          "https://armsjoarnasfvo.se/fiskeomrade/fiske_lillarmsjo.html",
+          "https://armsjoarnasfvo.se/fiskeomrade/fiske_ritjarn.html",
+          "https://armsjoarnasfvo.se/fiskeomrade/fiske_storarmsjo.html",
+          "https://armsjoarnasfvo.se/fiskeomrade/fiske_vastansjo.html",
+          "https://armsjoarnasfvo.se/fiskeomrade/fiske_lilltjarn.html",
+          "https://armsjoarnasfvo.se/fiskekort/"
+        ]
       }
     },
     {
@@ -11834,7 +11887,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sjon-aspen-varmland.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://langserud.nu/i-langserud/foreningar/aspens-fiskevardsforening/"
+      ]
     },
     {
       "original_id": 1398,
@@ -12877,7 +12933,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-attmar-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://attmarfvo.se/"
+      ]
     },
     {
       "original_id": 488,
@@ -14128,6 +14187,8 @@
         "Grönling",
         "Gädda",
         "Gärs",
+        "Gös",
+        "Karp",
         "Lake",
         "Mört",
         "Ruda",
@@ -14139,7 +14200,8 @@
       ],
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -14243,7 +14305,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 2
@@ -14286,12 +14348,24 @@
           "Ål"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Färna",
-          "Gös",
-          "Karp"
+          "Färna"
         ],
         "url": "https://www.ifiske.se/fiske-ballingslovssjon-ottarpasjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.fiske.ballingslov.nu/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös",
+          "Karp"
+        ],
+        "kallor_url:er": [
+          "http://www.fiske.ballingslov.nu/",
+          "http://www.fiske.ballingslov.nu/left.htm",
+          "http://www.fiske.ballingslov.nu/main.htm"
+        ]
       }
     },
     {
@@ -14955,7 +15029,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-barken-flaten-snuvtjarn-m-fl-sjoar.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://barkensjoarnasfvof.se/",
+        "https://www.barkensjoarnasfvof.se/"
+      ]
     },
     {
       "original_id": 310,
@@ -15721,7 +15799,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nedre-indalsalven.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://bergeforsfisket.com/"
+      ]
     },
     {
       "original_id": 2160,
@@ -16792,7 +16873,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-bjannsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.dbnet.se/?TM=178&SM=180",
+        "http://www.dbnet.se/?TM=178&SM=197"
+      ]
     },
     {
       "original_id": 1758,
@@ -19545,7 +19630,9 @@
         "Elritsa",
         "Gädda",
         "Harr",
+        "Id",
         "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -19588,7 +19675,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -19596,6 +19683,8 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Harr",
+          "Id",
+          "Mört",
           "Regnbåge",
           "Röding"
         ],
@@ -19603,7 +19692,11 @@
           "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/bjorksele-fiskevardsomrade/",
           "https://sodralappland.nu/fiskekort/",
           "https://sodralappland.nu/fiskeomraden/",
-          "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/"
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/",
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-dorotea/",
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/",
+          "https://sodralappland.nu/fiskarter/",
+          "https://sodralappland.nu/djupkartor/"
         ]
       },
       "ifiske_spegel_kontroll": {
@@ -19624,13 +19717,14 @@
         ],
         "luckor_ej_funna_hos_fvof": [
           "Gärs",
-          "Id",
-          "Mört",
           "Stäm"
         ],
         "url": "https://www.ifiske.se/fiske-hallbymagasinet-stenbittjarn-abborrtjarn-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/bjorksele-fiskevardsomrade/"
+      ]
     },
     {
       "original_id": 1565,
@@ -23667,7 +23761,10 @@
           "http://bollnasfvf.se/text1_11.html",
           "http://bollnasfvf.se/text1_30.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://bollnasfvf.se/"
+      ]
     },
     {
       "original_id": 5,
@@ -24921,7 +25018,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-boren.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.borensfvo.se/"
+      ]
     },
     {
       "original_id": 1132,
@@ -25793,7 +25893,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-dalalven-batstasjon-bysjon-mfl.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://borlangecentralafiskevo.blogspot.com/"
+      ]
     },
     {
       "original_id": 380,
@@ -26638,6 +26741,8 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Id",
+        "Karp",
         "Kräfta obestämd",
         "Lake",
         "Mört",
@@ -26645,6 +26750,7 @@
         "Regnbåge",
         "Signalkräfta",
         "Siklöja",
+        "Sutare",
         "Ål",
         "Öring"
       ],
@@ -27088,7 +27194,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 21,
         "antal_vatten_med_survey": 19,
         "antal_sjoar_survey": 9,
         "antal_vattendrag_survey": 10
@@ -27096,7 +27202,10 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Gös",
-          "Regnbåge"
+          "Id",
+          "Karp",
+          "Regnbåge",
+          "Sutare"
         ],
         "kallor_url:er": [
           "https://edafiske.se/",
@@ -27106,7 +27215,16 @@
           "https://www.vattenagarna.se/att-aga-fiskevatten/",
           "https://edafiske.se/fiske-och-natur-i-eda/",
           "https://edafiske.se/fiske-och-natur-i-eda/eda-fiskekrets.html",
-          "https://edafiske.se/fiske-och-natur-i-eda/fiske-och-natur.html"
+          "https://edafiske.se/fiske-och-natur-i-eda/fiske-och-natur.html",
+          "https://www.vattenagarna.se/kontaktuppgifter-till-lans-regionforbund/",
+          "https://www.vattenagarna.se/informationsskrift-om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/personuppgiftspolicy/",
+          "https://www.vattenagarna.se/kontakta-kansliet/",
+          "https://www.vattenagarna.se/pa-gang/",
+          "https://edafiske.se/fiske-och-natur-i-eda/upplev-eda-pa-egen-hand.html",
+          "https://edafiske.se/upplevelser-naturturism/kurt-emtman.html",
+          "https://edafiske.se/upplevelser-naturturism/fiskeguide-viktor-olsson.html",
+          "https://edafiske.se/upplevelser-naturturism/fiskeguide-erik-sandelin.html"
         ]
       },
       "ifiske_spegel_kontroll": {
@@ -27130,12 +27248,14 @@
         "luckor_ej_funna_hos_fvof": [
           "Björkna",
           "Ruda",
-          "Sarv",
-          "Sutare"
+          "Sarv"
         ],
         "url": "https://www.ifiske.se/fiske-stora-bogtjarnet-vallen-borgsjon-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.edafiske.se/"
+      ]
     },
     {
       "original_id": 2046,
@@ -29704,7 +29824,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-helge-a-broby-genastorp.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.b-gfvo.se/"
+      ]
     },
     {
       "original_id": 213,
@@ -31073,6 +31196,7 @@
         "Harr",
         "Lake",
         "Regnbåge",
+        "Röding",
         "Sik",
         "Öring"
       ],
@@ -31204,7 +31328,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 3
@@ -31247,16 +31371,26 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Gös",
-          "Regnbåge"
+          "Regnbåge",
+          "Röding"
         ],
         "kallor_url:er": [
           "http://bollnasfvf.se/",
           "http://bollnasfvf.se/news_1.html",
           "http://bollnasfvf.se/text1_10.html",
           "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
+          "http://bollnasfvf.se/text1_30.html",
+          "https://malungs-fiske.se/index.html",
+          "https://malungs-fiske.se/fiskekort-2.html",
+          "https://malungs-fiske.se/fisketillsyn-2.html",
+          "https://malungs-fiske.se/varavatten/",
+          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 1127,
@@ -31555,7 +31689,13 @@
         ],
         "url": "https://www.ifiske.se/fiske-nedre-burealven.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.burealven.se/",
+        "http://www.burealven.se",
+        "https://www.krafta.nu",
+        "https://www.burealven.se"
+      ]
     },
     {
       "original_id": 1109,
@@ -33178,7 +33318,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-byskealvens-ovre-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://byskealvensovre.se/"
+      ]
     },
     {
       "original_id": 1104,
@@ -35773,14 +35916,17 @@
         "Bäckröding",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Stäm",
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -35811,11 +35957,29 @@
           "Öring"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Gädda",
-          "Röding"
+          "Gädda"
         ],
         "url": "https://www.ifiske.se/fiske-abborresjon-boljesjon-ottersjon-stora-kroksjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.abborresjon.se/",
+        "https://youtu.be/vwHxUHs8jpw"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Röding",
+          "Stäm"
+        ],
+        "kallor_url:er": [
+          "https://www.abborresjon.se/",
+          "https://www.abborresjon.se/abborresjons_sportfiske.html",
+          "https://www.abborresjon.se/flugfiske.html",
+          "https://www.abborresjon.se/v%25252525c3%25252525a5ra-fiskevatten-ver2.html",
+          "https://www.abborresjon.se/fiskekort-2.html",
+          "https://www.abborresjon.se/fisketips-2.html",
+          "https://www.abborresjon.se/om%252520oss.html"
+        ]
       }
     },
     {
@@ -37519,7 +37683,10 @@
           "http://dansjonfurenfiske.se/natfiske/",
           "http://dansjonfurenfiske.se/fiskekort/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://dansjonfurenfiske.se/"
+      ]
     },
     {
       "original_id": 228,
@@ -47080,7 +47247,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-norrtaljean-erken-langsjon-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://sportfiskarna.se/",
+        "https://kartor.eniro.se/m/QYT6O"
+      ]
     },
     {
       "original_id": 2118,
@@ -49216,7 +49387,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-finnmarken.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.finnmarken.info/"
+      ]
     },
     {
       "original_id": 809,
@@ -50351,14 +50525,22 @@
       },
       "arter": [
         "Abborre",
+        "Benlöja",
+        "Braxen",
         "Gädda",
         "Gös",
         "Lake",
-        "Mört"
+        "Mört",
+        "Sarv",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -50384,7 +50566,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -50410,19 +50592,37 @@
         ],
         "luckor_ej_funna_hos_fvof": [
           "Asp",
-          "Braxen",
           "Id",
           "Mal",
           "Ruda",
+          "Signalkräfta"
+        ],
+        "url": "https://www.ifiske.se/fiske-flaten-bysjon-melsjon-yttre-vrangen-mfl.htm",
+        "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.flatenfiske.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Benlöja",
+          "Braxen",
           "Sarv",
-          "Signalkräfta",
           "Siklöja",
           "Sutare",
           "Ål",
           "Öring"
         ],
-        "url": "https://www.ifiske.se/fiske-flaten-bysjon-melsjon-yttre-vrangen-mfl.htm",
-        "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+        "kallor_url:er": [
+          "https://flatenfiske.se/",
+          "https://flatenfiske.se/om-oss/",
+          "https://flatenfiske.se/styrelsen/",
+          "https://flatenfiske.se/kontakta-oss/",
+          "https://flatenfiske.se/vara-sjoar/",
+          "https://flatenfiske.se/fiskekort/",
+          "https://flatenfiske.se/regler-och-tillsyn/",
+          "https://flatenfiske.se/medlemsinformation/"
+        ]
       }
     },
     {
@@ -51536,7 +51736,10 @@
           "http://flodafiske.se/fiskeregler/",
           "http://flodafiske.se/kontakt/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://flodafiske.se/"
+      ]
     },
     {
       "original_id": 1494,
@@ -53285,7 +53488,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-storsjon-langsjon-kyrksjon-matnasviken-svartsjon-bartjarn-mfl.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.forsafvo.se/",
+        "https://www.genesismaps.com/SocialMap"
+      ]
     },
     {
       "original_id": 2021,
@@ -53307,13 +53514,17 @@
       },
       "arter": [
         "Abborre",
+        "Gädda",
+        "Gös",
         "Lake",
         "Mört",
         "Signalkräfta",
+        "Stäm",
         "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -53363,7 +53574,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -53376,11 +53587,32 @@
           "Öring"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Gädda",
           "Ål"
         ],
         "url": "https://www.ifiske.se/fiske-atran-forsa-till-veka.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.projektatranoring.se/",
+        "https://www.projektatranoring.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gädda",
+          "Gös",
+          "Stäm"
+        ],
+        "kallor_url:er": [
+          "https://projektatranoring.se/",
+          "https://projektatranoring.se/fiske/fiske-22966539",
+          "https://projektatranoring.se/fiske/fiskeregler-22966544",
+          "https://projektatranoring.se/fiske/s%C3%A5-h%C3%A4r-hanterar-du-fisken-31965759",
+          "https://projektatranoring.se/fiske/fiskev%C3%A5rdsomr%C3%A5den-26126249",
+          "https://projektatranoring.se/fiske/%C3%B6ringfiske-26126281",
+          "https://projektatranoring.se/fiske/fiskev%C3%A5rd-26126292",
+          "https://projektatranoring.se/fiske/fiskerapport-26126398",
+          "https://projektatranoring.se/fiske/sponsorer-27797740"
+        ]
       }
     },
     {
@@ -53738,7 +53970,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-forshagaforsen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.forshagaforsen.com/"
+      ]
     },
     {
       "original_id": 1118,
@@ -56861,7 +57096,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-stora-fargen-mellan-fargen-sodra-fargen-yabergssjon-hallasjon-holmsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://fargensjoarna.se/"
+      ]
     },
     {
       "original_id": 2049,
@@ -58133,7 +58371,10 @@
           "http://www.farnebofjarden.org/Fiskekort-och-regler",
           "http://www.farnebofjarden.org/F%C3%A4rnebofj%C3%A4rdens-fiskev%C3%A5rdsomr%C3%A5de-f%C3%B6r-den-naturliga-reproduktionen"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.farnebofjarden.org/"
+      ]
     },
     {
       "original_id": 135,
@@ -59723,7 +59964,9 @@
         "Lake",
         "Mört",
         "Nejonöga",
+        "Regnbåge",
         "Ruda",
+        "Röding",
         "Signalkräfta",
         "Sik",
         "Siklöja",
@@ -59733,7 +59976,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -60324,7 +60568,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 22,
+        "antal_arter": 24,
         "antal_vatten_med_survey": 26,
         "antal_sjoar_survey": 4,
         "antal_vattendrag_survey": 22
@@ -60356,8 +60600,6 @@
           "Öring"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Regnbåge",
-          "Röding",
           "Sarv",
           "Stäm",
           "Sutare",
@@ -60366,6 +60608,25 @@
         ],
         "url": "https://www.ifiske.se/fiske-mockfjard.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "https://www.gagneffiske.se/index.php"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Regnbåge",
+          "Röding"
+        ],
+        "kallor_url:er": [
+          "https://www.gagneffiske.se/",
+          "https://www.gagneffiske.se/index.php",
+          "https://www.gagneffiske.se/index.php/fiskekort-och-priser/fiskekort-och-priser",
+          "https://www.gagneffiske.se/index.php/fiska/regler-fiskekort",
+          "https://www.gagneffiske.se/index.php/fiska/fiskutsaettningsplan-2026",
+          "https://www.gagneffiske.se/index.php/fiska/kraeftfisket-2026",
+          "https://www.gagneffiske.se/index.php/fiska/aktuell-vattenfoering-ialven",
+          "https://www.gagneffiske.se/index.php/fiska/fiskeknutar"
+        ]
       }
     },
     {
@@ -61047,7 +61308,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-laxsele.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.laxsele.se/"
+      ]
     },
     {
       "original_id": 747,
@@ -61870,7 +62134,13 @@
         ],
         "url": "https://www.ifiske.se/fiske-gesunden.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.gesundensfvo.se/fiskekort.html",
+        "https://www.gesundensfvo.se/Fastigheter%20med%20fiskeratt.html",
+        "https://www.gesundensfvo.se/",
+        "http://www.gesundensfvo.se/"
+      ]
     },
     {
       "original_id": 1897,
@@ -63336,7 +63606,10 @@
           "https://gimmenfiske.se/svarttjarn/",
           "https://gimmenfiske.se/lissjon/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.gimmenfiske.se/"
+      ]
     },
     {
       "original_id": 1886,
@@ -64272,7 +64545,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-glafsfjorden.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://glafsfjordensfvof.se/"
+      ]
     },
     {
       "original_id": 1431,
@@ -64347,11 +64623,13 @@
         "Siklöja",
         "Simpa",
         "Stensimpa",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -64432,7 +64710,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 23,
+        "antal_arter": 24,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 2
@@ -64460,11 +64738,25 @@
           "Ål"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Vimma",
-          "Ål"
+          "Vimma"
         ],
         "url": "https://www.ifiske.se/fiske-glan.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.glansfvo.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://glansfvo.se/",
+          "https://glansfvo.se/fiskebest%C3%A4mmelser-40810538",
+          "https://glansfvo.se/fiskekort-40810540",
+          "https://glansfvo.se/provfiske-40810544",
+          "https://glansfvo.se/sj%C3%B6n-glan-40810542"
+        ]
       }
     },
     {
@@ -64785,7 +65077,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-nedre-glottern-ovre-glottern-mfl.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.glotternfiske.se/",
+        "https://www.glotternfiske.se"
+      ]
     },
     {
       "original_id": 1395,
@@ -64886,11 +65182,13 @@
         "Lake",
         "Mört",
         "Sarv",
-        "Sutare"
+        "Sutare",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -64963,7 +65261,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 0
@@ -64986,6 +65284,25 @@
         ],
         "url": "https://www.ifiske.se/fiske-gnestaortens-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://gnestafiske.se/",
+        "https://goo.gl/maps/M2fHxMVu9taWbBMWA"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://gnestafiske.se/",
+          "https://gnestafiske.se/karta-over-sjoarna/",
+          "https://gnestafiske.se/fiskekort/",
+          "https://gnestafiske.se/tillsynsman/",
+          "https://gnestafiske.se/karta-over-sjoarna-2/",
+          "https://gnestafiske.se/inplantering-helgeaoring/",
+          "https://gnestafiske.se/109-2/",
+          "https://gnestafiske.se/protokoll-arsstamman/"
+        ]
       }
     },
     {
@@ -66842,7 +67159,8 @@
         "Gädda",
         "Harr",
         "Mört",
-        "Sik"
+        "Sik",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
@@ -66850,7 +67168,7 @@
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -66864,22 +67182,26 @@
           "Sik",
           "Öring"
         ],
-        "luckor_ej_funna_hos_fvof": [
-          "Öring"
-        ],
+        "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-greningssjon-halasjons-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
         "tillagda_arter": [
           "Harr",
-          "Mört"
+          "Mört",
+          "Öring"
         ],
         "kallor_url:er": [
           "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=808",
           "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
-          "https://www.vattenagarna.se/att-aga-fiskevatten/"
+          "https://www.vattenagarna.se/att-aga-fiskevatten/",
+          "https://www.vattenagarna.se/kontaktuppgifter-till-lans-regionforbund/",
+          "https://www.vattenagarna.se/informationsskrift-om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/personuppgiftspolicy/",
+          "https://www.vattenagarna.se/kontakta-kansliet/",
+          "https://www.vattenagarna.se/pa-gang/"
         ]
       }
     },
@@ -69197,6 +69519,8 @@
         "Harr",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Sutare",
         "Öring"
       ],
@@ -69228,7 +69552,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -69271,6 +69595,8 @@
           "Gös",
           "Harr",
           "Regnbåge",
+          "Röding",
+          "Sik",
           "Öring"
         ],
         "kallor_url:er": [
@@ -69278,9 +69604,18 @@
           "http://bollnasfvf.se/news_1.html",
           "http://bollnasfvf.se/text1_10.html",
           "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
+          "http://bollnasfvf.se/text1_30.html",
+          "https://malungs-fiske.se/index.html",
+          "https://malungs-fiske.se/fiskekort-2.html",
+          "https://malungs-fiske.se/fisketillsyn-2.html",
+          "https://malungs-fiske.se/varavatten/",
+          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 1126,
@@ -70497,7 +70832,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-gunnarbacken-juktans-nedre-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://gunnarbacken-juktansnedre.se/"
+      ]
     },
     {
       "original_id": 1600,
@@ -73219,7 +73557,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-gardvikssjon-stortjarn.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.gardviksfvof.se/"
+      ]
     },
     {
       "original_id": 966,
@@ -74955,7 +75296,10 @@
           "https://www.sportfiskarna.net/fredriks-sjo",
           "https://www.sportfiskarna.net/arrangera-tavling"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.sportfiskarna.net/"
+      ]
     },
     {
       "original_id": 1981,
@@ -75168,7 +75512,11 @@
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
           "https://www.sportfiskarna.se/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ]
     },
     {
       "original_id": 195,
@@ -79314,6 +79662,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Harr",
         "Havsöring",
         "Lake",
         "Lax",
@@ -79441,7 +79790,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 3
@@ -79480,23 +79829,35 @@
           "Sik",
           "Öring"
         ],
-        "luckor_ej_funna_hos_fvof": [
-          "Harr"
-        ],
+        "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-helgum-gadeans-fvof-samt-nassjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
         "tillagda_arter": [
+          "Harr",
           "Havsöring"
         ],
         "kallor_url:er": [
           "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=541",
           "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
-          "https://www.vattenagarna.se/att-aga-fiskevatten/"
+          "https://www.vattenagarna.se/att-aga-fiskevatten/",
+          "https://www.vattenagarna.se/kontaktuppgifter-till-lans-regionforbund/",
+          "https://www.vattenagarna.se/informationsskrift-om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/personuppgiftspolicy/",
+          "https://www.vattenagarna.se/kontakta-kansliet/",
+          "https://www.vattenagarna.se/pa-gang/",
+          "https://yippieharnosand.se/innehall/sport-fritid/flugornas-herrar/",
+          "https://yippieharnosand.se/tag/fiske/",
+          "https://yippieharnosand.se/tag/flugfiske/",
+          "https://yippieharnosand.se/tag/helgums-och-gadeans-fiskevardsomrade/",
+          "https://yippieharnosand.se/djur-natur/magiskt-fiske-vid-skymning/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://yippieharnosand.se/innehall/sport-fritid/flugornas-herrar/"
+      ]
     },
     {
       "original_id": 626,
@@ -82440,7 +82801,10 @@
           "https://www.hinsenlogarden.one/tr%2525C3%2525A4ningsschema.html",
           "https://www.hinsenlogarden.one/%C3%B6vriga-vatten.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.hinsenlogarden.one/"
+      ]
     },
     {
       "original_id": 989,
@@ -85950,7 +86314,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-holjean.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.holjean.se/"
+      ]
     },
     {
       "original_id": 612,
@@ -88044,7 +88411,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-ljungbyan-i-hossmo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://hossmofiske.se/"
+      ]
     },
     {
       "original_id": 1537,
@@ -88710,7 +89080,10 @@
           "https://www.sfk-kroken.se/page/karpfiske",
           "https://www.sfk-kroken.se/page/fisketillsyn"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sfk-kroken.se/"
+      ]
     },
     {
       "original_id": 550,
@@ -89286,7 +89659,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-ovingen-furusjon-myingen-mfl.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.lovshults-fotbollsgolf.se"
+      ]
     },
     {
       "original_id": 1851,
@@ -89594,7 +89970,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-hummeln.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://hummeln.se/"
+      ]
     },
     {
       "original_id": 1371,
@@ -90566,7 +90945,12 @@
         ],
         "url": "https://www.ifiske.se/fiske-husby-hedemora-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://husbyhedemorafvo.se/",
+        "http://www.husbyhedemorafvo.se",
+        "https://www.husbyhedemorafvo.se"
+      ]
     },
     {
       "original_id": 1548,
@@ -91840,7 +92224,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-stor-hallsjon-lill-hallsjon-morttjarn.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://sundsvall.se/uppleva-och-gora/friluftsliv-och-natur/fiske-i-sundsvall/fiskevardsomraden-fvo/hallsjo-fvo/"
+      ]
     },
     {
       "original_id": 1985,
@@ -92380,7 +92767,10 @@
           "http://bollnasfvf.se/text1_11.html",
           "http://bollnasfvf.se/text1_30.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 1465,
@@ -94801,7 +95191,10 @@
           "https://edafiske.se/fiskevardsomradesforeningarna/halteby-rinnens-fvof/",
           "https://edafiske.se/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://edafiske.se/fiskevardsomradesforeningarna/halteby-rinnens-fvof/"
+      ]
     },
     {
       "original_id": 796,
@@ -96594,7 +96987,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-hogsjons-fvof-med-sjoarna-hogsjon-hallesjon-och-amtasjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.hogsjon.se/"
+      ]
     },
     {
       "original_id": 1091,
@@ -98061,7 +98457,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-hokesjons-fvof-habo-kommun.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://hokesjon.se/"
+      ]
     },
     {
       "original_id": 608,
@@ -99303,7 +99702,12 @@
         ],
         "url": "https://www.ifiske.se/fiske-hornan.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.hornansfiske.se/",
+        "https://www.hornansfiske.se",
+        "https://www.gladalaxarna.se"
+      ]
     },
     {
       "original_id": 1026,
@@ -100915,7 +101319,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-ingsjoarna-oxsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.molndal.se/startsida/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/pfas-i-vastra-ingsjon.html"
+      ]
     },
     {
       "original_id": 602,
@@ -101664,7 +102071,11 @@
           "https://www.ivosjon.eu/",
           "https://www.ivosjon.eu/regler"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ivosjon.eu/",
+        "https://www.ivosjon.eu"
+      ]
     },
     {
       "original_id": 1122,
@@ -112378,7 +112789,11 @@
           "https://www.visitvarmland.com/munkfors/tema-aktiviteter/fiska-i-munkfors/",
           "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/fiske-i-munkfors"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.vattenagarna.se/medlemmar/varmlands-lans-fiskevardsforbund/varmland?o=727",
+        "http://www.visitmunkfors.se"
+      ]
     },
     {
       "original_id": 959,
@@ -113237,7 +113652,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-bastutrasket-klocktrasket-klintforsan-stortjarn.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://klintfors.se/"
+      ]
     },
     {
       "original_id": 998,
@@ -119964,6 +120382,7 @@
         "Grönling",
         "Gädda",
         "Gärs",
+        "Havsöring",
         "Id",
         "Lake",
         "Lax",
@@ -119978,7 +120397,8 @@
         "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -120054,7 +120474,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 19,
+        "antal_arter": 20,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -120075,12 +120495,30 @@
         ],
         "luckor_ej_funna_hos_fvof": [
           "Braxen",
-          "Havsöring",
           "Sarv",
           "Sutare"
         ],
         "url": "https://www.ifiske.se/fiske-kavlingeans-loddeans-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.loddean-fiske.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Havsöring"
+        ],
+        "kallor_url:er": [
+          "https://loddean-fiske.se/",
+          "https://loddean-fiske.se/om-fiskevardsomradet",
+          "https://loddean-fiske.se/karta-fiskev%C3%A5rdsomr%C3%A5det",
+          "https://loddean-fiske.se/fiskeplatser/mynning-norra-sidan",
+          "https://loddean-fiske.se/fiskekort",
+          "https://loddean-fiske.se/fiskeregler",
+          "https://loddean-fiske.se/styrelsen-2",
+          "https://loddean-fiske.se/fiskevard",
+          "https://loddean-fiske.se/fiskevard/fiskvagar"
+        ]
       }
     },
     {
@@ -121641,7 +122079,11 @@
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
           "https://www.sportfiskarna.se/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ]
     },
     {
       "original_id": 1990,
@@ -123803,7 +124245,10 @@
           "https://landosjon.se/",
           "https://landosjon.se/fiskeregler.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://landosjon.se/"
+      ]
     },
     {
       "original_id": 1357,
@@ -124380,7 +124825,11 @@
           "https://www.xn--laxsj-nua.se/fiske",
           "https://www.xn--laxsj-nua.se/fiske/gl%C3%A4djensdag"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.xn--laxsj-nua.se/fiske",
+        "http://www.laxsjö.se"
+      ]
     },
     {
       "original_id": 1843,
@@ -124644,7 +125093,10 @@
           "http://www.fiskailaxsjon.se/laxsjon/",
           "http://www.fiskailaxsjon.se/fiskekort/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.fiskailaxsjon.se/"
+      ]
     },
     {
       "original_id": 1635,
@@ -126590,7 +127042,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-lekvattnets-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.lekvattnet.se/foreningar/valkommen-till-lekvattnets-fvof/"
+      ]
     },
     {
       "original_id": 1891,
@@ -127617,7 +128072,11 @@
           "https://www.ivosjon.eu/",
           "https://www.ivosjon.eu/regler"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ivosjon.eu/",
+        "https://www.ivosjon.eu"
+      ]
     },
     {
       "original_id": 1974,
@@ -128831,7 +129290,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-liljan-skommartjarnen-javan-svedstjarnen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://liljansfvof.webnode.se/"
+      ]
     },
     {
       "original_id": 1059,
@@ -129511,7 +129973,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-lillnommen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.lillnommen.se/"
+      ]
     },
     {
       "original_id": 537,
@@ -133671,7 +134136,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-norrtaljean-erken-langsjon-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://sportfiskarna.se/",
+        "https://kartor.eniro.se/m/QYT6O"
+      ]
     },
     {
       "original_id": 2011,
@@ -136169,7 +136638,11 @@
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
           "https://www.vattenagarna.se/att-aga-fiskevatten/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.linsell-ransjo.se/fiske/fiskeinformation/",
+        "https://www.vattendata.se/info/ljus-vikarsjon.html"
+      ]
     },
     {
       "original_id": 883,
@@ -138505,7 +138978,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-ljusdals-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ljusdalsfvo.se/"
+      ]
     },
     {
       "original_id": 1713,
@@ -141230,7 +141706,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-lofsdalen-glote-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.fiskailofsdalenglote.se/",
+        "http://www.fiskailofsdalenglote.se"
+      ]
     },
     {
       "original_id": 1716,
@@ -145152,7 +145632,10 @@
           "https://lyckebyansfvo.se/fiskekort",
           "https://lyckebyansfvo.se/fiskeregler"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.lyckebyansfvo.se/"
+      ]
     },
     {
       "original_id": 1108,
@@ -147324,6 +147807,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Id",
         "Karp",
         "Karpfisk obestämd",
@@ -147609,7 +148093,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 30,
+        "antal_arter": 31,
         "antal_vatten_med_survey": 9,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 9
@@ -147650,6 +148134,7 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Gös",
+          "Havsöring",
           "Karp",
           "Regnbåge",
           "Sik"
@@ -147660,9 +148145,19 @@
           "https://www.sportfiskarna.se/medlem/bli-medlem/",
           "https://www.sportfiskarna.se/medlem/ungdom/",
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
-          "https://www.sportfiskarna.se/"
+          "https://www.sportfiskarna.se/",
+          "https://www.googletagmanager.com/ns.html?id=GTM-TBRBQFL",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelov/",
+          "https://www.sportfiskarna.se/medlem/ungdom/artkampen/",
+          "https://www.sportfiskarna.se/medlem/familj/",
+          "https://www.sportfiskarna.se/medlem/medlemsformaner/",
+          "https://www.sportfiskarna.se/fiske/fiskevatten/fiske-i-goteborg/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ]
     },
     {
       "original_id": 917,
@@ -148108,7 +148603,9 @@
         "Elritsa",
         "Gädda",
         "Harr",
+        "Id",
         "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -148223,7 +148720,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 4
@@ -148238,14 +148735,14 @@
           "Sik",
           "Öring"
         ],
-        "luckor_ej_funna_hos_fvof": [
-          "Mört"
-        ],
+        "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-logdealven-stortjarn-trattarmyrtjarn-m-fl-backar-och-sjoar.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
         "tillagda_arter": [
+          "Id",
+          "Mört",
           "Regnbåge",
           "Röding",
           "Sik"
@@ -148254,9 +148751,16 @@
           "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/langbacken-lillogda-fiskevardsomrade/",
           "https://sodralappland.nu/fiskekort/",
           "https://sodralappland.nu/fiskeomraden/",
-          "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/"
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/",
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-dorotea/",
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/",
+          "https://sodralappland.nu/fiskarter/",
+          "https://sodralappland.nu/djupkartor/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://sodralappland.nu/fiskeomraden/fiskeomraden-asele/langbacken-lillogda-fiskevardsomrade/"
+      ]
     },
     {
       "original_id": 544,
@@ -148498,7 +149002,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-langen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.skaraborgsfiske.se/langen"
+      ]
     },
     {
       "original_id": 1693,
@@ -150129,11 +150636,13 @@
       },
       "arter": [
         "Abborre",
+        "Asp",
         "Bergsimpa",
         "Elritsa",
         "Gädda",
         "Harr",
         "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -150142,7 +150651,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -150272,7 +150782,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 5
@@ -150294,11 +150804,33 @@
         ],
         "luckor_ej_funna_hos_fvof": [
           "Bäckröding",
-          "Mört",
           "Siklöja"
         ],
         "url": "https://www.ifiske.se/fiske-langa.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.langafisket.se/",
+        "https://www.langafisket.se/anan-och-mittan/",
+        "https://www.langafisket.se"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Asp",
+          "Mört"
+        ],
+        "kallor_url:er": [
+          "https://www.langafisket.se/",
+          "https://xn--vder24-bua.se/vader-widget/?widgettype=white&widgetcity=hede",
+          "https://www.langafisket.se/fisket/",
+          "https://www.langafisket.se/fisket/fiskeomradet/",
+          "https://www.langafisket.se/langafiskets-fyra-stora/",
+          "https://www.langafisket.se/gadda/",
+          "https://www.langafisket.se/fisket/fiskevattnen/",
+          "https://www.langafisket.se/broschyr/",
+          "https://www.langafisket.se/fisket/fisketider/",
+          "https://www.langafisket.se/anan-och-mittan/"
+        ]
       }
     },
     {
@@ -157710,7 +158242,10 @@
           "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
           "https://malungs-fiske.se/index.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 1031,
@@ -160195,7 +160730,10 @@
           "https://www.vastsverige.com/en/bengtsfors/produkter/marsjons-fvo/",
           "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.vastsverige.com/en/bengtsfors/produkter/marsjons-fvo/"
+      ]
     },
     {
       "original_id": 609,
@@ -170194,7 +170732,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-mycklaflon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.mycklaflon-fvof.se/"
+      ]
     },
     {
       "original_id": 1960,
@@ -175078,10 +175619,12 @@
         "Gärs",
         "Gös",
         "Havsöring",
+        "Karp",
         "Karpfisk obestämd",
         "Lake",
         "Lax",
         "Lax_Öring_Hybrid",
+        "Mal",
         "Mört",
         "Nejonöga",
         "Ruda",
@@ -175090,6 +175633,7 @@
         "Signalkräfta",
         "Spigg obestämd",
         "Storspigg",
+        "Stäm",
         "Sutare",
         "Vimma",
         "Ål",
@@ -175254,18 +175798,27 @@
         }
       ],
       "statistik": {
-        "antal_arter": 29,
+        "antal_arter": 32,
         "antal_vatten_med_survey": 5,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 2
       },
       "extern_enrichment": {
         "tillagda_arter": [
-          "Havsöring"
+          "Havsöring",
+          "Karp",
+          "Mal",
+          "Stäm"
         ],
         "kallor_url:er": [
           "https://www.nedrehelgean.se/",
-          "https://www.nedrehelgean.se/"
+          "https://www.nedrehelgean.se/fiskekort",
+          "https://www.nedrehelgean.se/fangstrapportering",
+          "https://www.nedrehelgean.se/kartor-over-fvo",
+          "https://www.nedrehelgean.se/fiskebestand",
+          "https://www.nedrehelgean.se/fiskevard",
+          "https://www.nedrehelgean.se/fiskeregler",
+          "https://www.nedrehelgean.se/dansk-fiskekort"
         ]
       },
       "ifiske_spegel_kontroll": {
@@ -175295,13 +175848,15 @@
         ],
         "luckor_ej_funna_hos_fvof": [
           "Id",
-          "Karp",
-          "Mal",
           "Regnbåge"
         ],
         "url": "https://www.ifiske.se/fiske-nedre-helgeans-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.nedrehelgean.se/",
+        "https://www.nedrehelgean.se"
+      ]
     },
     {
       "original_id": 1288,
@@ -175977,7 +176532,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-nedre-klaralven.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.nedreklaralven.nu/",
+        "https://www.nedreklaralven.nu"
+      ]
     },
     {
       "original_id": 1235,
@@ -176779,10 +177338,14 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Harr",
         "Havsöring",
+        "Lake",
         "Lax",
         "Mört",
+        "Regnbåge",
         "Ruda",
+        "Röding",
         "Öring"
       ],
       "kallor": [
@@ -176874,7 +177437,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 10,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 3
@@ -176882,16 +177445,23 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Gädda",
+          "Harr",
           "Havsöring",
+          "Lake",
           "Lax",
-          "Ruda"
+          "Regnbåge",
+          "Ruda",
+          "Röding"
         ],
         "kallor_url:er": [
           "http://www.moalven.se/",
           "http://www.moalven.se/14/1/startsida/",
           "http://www.moalven.se/1/2/fiskekort/",
           "http://www.moalven.se/3/6/fiskevatten/",
-          "http://www.moalven.se/12/5/fiskeforum/"
+          "http://www.moalven.se/12/5/fiskeforum/",
+          "http://www.moalven.se/3/8/fangstrapport/",
+          "http://www.moalven.se/0/7/fiskebestammelser/",
+          "http://www.moalven.se/0/12/fiskerattsagare/"
         ]
       },
       "ifiske_spegel_kontroll": {
@@ -176915,9 +177485,7 @@
         ],
         "luckor_ej_funna_hos_fvof": [
           "Bäckröding",
-          "Harr",
           "Id",
-          "Lake",
           "Nors",
           "Sik",
           "Siklöja",
@@ -176925,7 +177493,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-moalven-sjalevadsfjarden-veckefjarden-happstafjarden.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.moalven.se/"
+      ]
     },
     {
       "original_id": 970,
@@ -177746,7 +178317,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nedre-upperudsalvens-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://nedreupperudsalvensfvo.dinstudio.se/"
+      ]
     },
     {
       "original_id": 1062,
@@ -178964,7 +179538,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nissan.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.nissansportfiske.se/"
+      ]
     },
     {
       "original_id": 294,
@@ -180262,7 +180839,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-astjarnarna-igeltjarn-orrsjon-och-%22ovriga-vatten%22.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://nsfvo.wordpress.com/"
+      ]
     },
     {
       "original_id": 1984,
@@ -180655,7 +181235,10 @@
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
           "https://www.vattenagarna.se/att-aga-fiskevatten/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://fiskeisundsvall.se/fiskeomraden/16-nora-vastansjo-fvo/"
+      ]
     },
     {
       "original_id": 1690,
@@ -186115,7 +186698,11 @@
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
           "https://www.sportfiskarna.se/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ]
     },
     {
       "original_id": 295,
@@ -186976,6 +187563,9 @@
         "Abborre",
         "Gädda",
         "Harr",
+        "Id",
+        "Lake",
+        "Mört",
         "Regnbåge",
         "Röding",
         "Sik",
@@ -187009,7 +187599,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -187035,10 +187625,7 @@
         "luckor_ej_funna_hos_fvof": [
           "Braxen",
           "Bäckröding",
-          "Id",
-          "Lake",
           "Lax",
-          "Mört",
           "Siklöja",
           "Stäm"
         ],
@@ -187048,6 +187635,9 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Harr",
+          "Id",
+          "Lake",
+          "Mört",
           "Röding",
           "Sik"
         ],
@@ -187055,9 +187645,16 @@
           "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/noretbyarnas-fiskeomrade/",
           "https://sodralappland.nu/fiskekort/",
           "https://sodralappland.nu/fiskeomraden/",
-          "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/"
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/",
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-dorotea/",
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/",
+          "https://sodralappland.nu/fiskarter/",
+          "https://sodralappland.nu/djupkartor/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/noretbyarnas-fiskeomrade/"
+      ]
     },
     {
       "original_id": 247,
@@ -189149,6 +189746,7 @@
         "Abborre",
         "Braxen",
         "Gädda",
+        "Gös",
         "Mört",
         "Regnbåge",
         "Signalkräfta"
@@ -189160,7 +189758,7 @@
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 6,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -189192,6 +189790,7 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Braxen",
+          "Gös",
           "Mört"
         ],
         "kallor_url:er": [
@@ -189200,9 +189799,29 @@
           "https://www.sportfiskarna.se/medlem/bli-medlem/",
           "https://www.sportfiskarna.se/medlem/ungdom/",
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
-          "https://www.sportfiskarna.se/"
+          "https://www.sportfiskarna.se/",
+          "https://www.googletagmanager.com/ns.html?id=GTM-TBRBQFL",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelov/",
+          "https://www.sportfiskarna.se/medlem/ungdom/artkampen/",
+          "https://www.sportfiskarna.se/medlem/familj/",
+          "https://www.sportfiskarna.se/medlem/medlemsformaner/",
+          "https://www.sportfiskarna.se/om-oss/aktuellt/nyheter/fiske/gaddfiskekort/",
+          "https://www.vasttrafik.se/",
+          "https://www.vasttrafik.se/reseplanering/hallplatser/",
+          "https://www.vasttrafik.se/reseplanering/mer-om-reseplanering/linjekartor/",
+          "https://www.vasttrafik.se/reseplanering/mer-om-reseplanering/testa-nartrafiken/",
+          "https://www.vasttrafik.se/reseplanering/anropsstyrd-trafik/nartrafik/",
+          "https://www.vasttrafik.se/biljetter/rabatter/snart-halveras-priset-pa-manadsbiljetter/",
+          "https://www.vasttrafik.se/resa-med-oss/under-resan/Regler-ombord/",
+          "https://www.vasttrafik.se/om-vasttrafik/nyhetsarkiv/sa-utvecklas-kollektivtrafiken-nasta-ar/",
+          "https://www.vasttrafik.se/reseplanering/abc/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Om-oss/Aktuellt/ArticleID/16274/gaddfiskekort",
+        "https://www.vasttrafik.se/"
+      ]
     },
     {
       "original_id": 245,
@@ -191303,13 +191922,15 @@
         "Mört",
         "Nors",
         "Ruda",
+        "Stäm",
         "Sutare",
         "Ål",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -191335,7 +191956,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -191365,6 +191986,19 @@
         ],
         "url": "https://www.ifiske.se/fiske-norra-nykopingsan.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "http://www.lodge-langhalsen.se/",
+        "http://www.skavstajakthandel.com/butiken.html"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Stäm"
+        ],
+        "kallor_url:er": [
+          "https://www.lodge-langhalsen.se/",
+          "https://www.lodge-langhalsen.se/byggfirma"
+        ]
       }
     },
     {
@@ -194584,7 +195218,10 @@
           "https://www.sportfiskarna.net/fredriks-sjo",
           "https://www.sportfiskarna.net/arrangera-tavling"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.sportfiskarna.net/"
+      ]
     },
     {
       "original_id": 411,
@@ -195995,7 +196632,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nysockensjons-amotsalven-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ottebol.net/fiskevard"
+      ]
     },
     {
       "original_id": 1524,
@@ -197425,7 +198065,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nasolen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.genesismaps.com/SocialMap/Index?mwID=1259662"
+      ]
     },
     {
       "original_id": 459,
@@ -198621,7 +199264,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nommen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.rodjenas.com/"
+      ]
     },
     {
       "original_id": 1939,
@@ -204873,7 +205519,10 @@
           "https://ofvo.nu/fiskevard/",
           "https://ofvo.nu/kop-fiskekort/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://ofvo.nu/"
+      ]
     },
     {
       "original_id": 2203,
@@ -207413,7 +208062,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-pentasjoki-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.pentasjoki.se/"
+      ]
     },
     {
       "original_id": 1047,
@@ -208430,7 +209082,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-oratjarn-abborrtjarn-gronvattnet-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.ragundafvo.se/"
+      ]
     },
     {
       "original_id": 994,
@@ -209095,7 +209750,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nadden-gnien-kolbacksan-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ramnasfiskeforening.se/"
+      ]
     },
     {
       "original_id": 1711,
@@ -211412,7 +212070,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-rastsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.rastsjön.se/"
+      ]
     },
     {
       "original_id": 740,
@@ -212812,7 +213473,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-norrtaljean-erken-langsjon-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://sportfiskarna.se/",
+        "https://kartor.eniro.se/m/QYT6O"
+      ]
     },
     {
       "original_id": 2178,
@@ -212986,7 +213651,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-ringsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ringsjon.net/"
+      ]
     },
     {
       "original_id": 1669,
@@ -220359,6 +221027,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Karp",
         "Lake",
         "Lax",
@@ -220481,7 +221150,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 17,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 3
@@ -220523,6 +221192,7 @@
       },
       "extern_enrichment": {
         "tillagda_arter": [
+          "Havsöring",
           "Karp",
           "Lax",
           "Regnbåge",
@@ -220534,9 +221204,19 @@
           "https://www.sportfiskarna.se/medlem/bli-medlem/",
           "https://www.sportfiskarna.se/medlem/ungdom/",
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
-          "https://www.sportfiskarna.se/"
+          "https://www.sportfiskarna.se/",
+          "https://www.googletagmanager.com/ns.html?id=GTM-TBRBQFL",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelov/",
+          "https://www.sportfiskarna.se/medlem/ungdom/artkampen/",
+          "https://www.sportfiskarna.se/medlem/familj/",
+          "https://www.sportfiskarna.se/medlem/medlemsformaner/",
+          "https://www.sportfiskarna.se/fiske/fiskevatten/fiske-i-goteborg/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ]
     },
     {
       "original_id": 945,
@@ -222847,7 +223527,10 @@
           "https://ronningefiske.se/fiskeregler/",
           "https://ronningefiske.se/om_foreningen/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://ronningefiske.se/"
+      ]
     },
     {
       "original_id": 787,
@@ -225635,7 +226318,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sammakkosjon-storsjon-sangersjon-linaalv-nikkossjon-mattissjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sammakko.info/fiskef2.html"
+      ]
     },
     {
       "original_id": 381,
@@ -229855,7 +230541,10 @@
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
           "https://www.vattenagarna.se/att-aga-fiskevatten/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.siljan.se/"
+      ]
     },
     {
       "original_id": 1790,
@@ -230425,7 +231114,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-siljansnas-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.siljansnasfvof.se/"
+      ]
     },
     {
       "original_id": 1822,
@@ -231390,7 +232082,10 @@
           "http://bollnasfvf.se/text1_11.html",
           "http://bollnasfvf.se/text1_30.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 765,
@@ -231575,7 +232270,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sjoarp-oasjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://ydrefiske.se/"
+      ]
     },
     {
       "original_id": 598,
@@ -232777,7 +233475,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-skagern.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.skagern.com/",
+        "https://www.fortum.se/vara-vattenkraftverk/gullspangsalven/gullspangs-kraftverk"
+      ]
     },
     {
       "original_id": 517,
@@ -236136,7 +236838,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-skargens-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.skärgen.se/"
+      ]
     },
     {
       "original_id": 341,
@@ -240227,7 +240932,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-siljan-norra-och-sodra-fjardarna-saxen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sollero-fvof.se/"
+      ]
     },
     {
       "original_id": 455,
@@ -240556,7 +241264,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-sommen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.sommen.org/",
+        "http://www.sommen.nu/index.php/sv/sommens-fvo/kontakta-formular"
+      ]
     },
     {
       "original_id": 2204,
@@ -240868,7 +241580,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-soutujarvi.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://youtu.be/RkjrMAyzgyQ"
+      ]
     },
     {
       "original_id": 2128,
@@ -241143,7 +241858,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-spexhultasjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.spexhultasjon.se/"
+      ]
     },
     {
       "original_id": 1414,
@@ -241798,7 +242516,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-stengardshultasjon-lillesjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.stengardshultasjon.n.nu/"
+      ]
     },
     {
       "original_id": 1060,
@@ -244232,7 +244953,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-stora-bygdetrasket-goksjon-talltrasket-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.storabygdetrasketsfvo.se/"
+      ]
     },
     {
       "original_id": 962,
@@ -245012,7 +245736,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-glaskogen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.storaglafvof.se/"
+      ]
     },
     {
       "original_id": 531,
@@ -245102,7 +245829,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-stora-hensjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.storahensjon.se/"
+      ]
     },
     {
       "original_id": 415,
@@ -246591,7 +247321,10 @@
           "https://edafiske.se/fiskevardsomradesforeningarna/stora-och-lilla-hogs-fvof/",
           "https://edafiske.se/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://edafiske.se/fiskevardsomradesforeningarna/stora-och-lilla-hogs-fvof/"
+      ]
     },
     {
       "original_id": 2153,
@@ -247184,7 +247917,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-dalalven-trylamnet-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.fiska-i-stora-skedvi.se/"
+      ]
     },
     {
       "original_id": 165,
@@ -251327,6 +252063,7 @@
         "Kräfta obestämd",
         "Mört",
         "Regnbåge",
+        "Röding",
         "Signalkräfta",
         "Sik",
         "Ål",
@@ -251433,7 +252170,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 4
@@ -251472,16 +252209,26 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Harr",
-          "Regnbåge"
+          "Regnbåge",
+          "Röding"
         ],
         "kallor_url:er": [
           "http://bollnasfvf.se/",
           "http://bollnasfvf.se/news_1.html",
           "http://bollnasfvf.se/text1_10.html",
           "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
+          "http://bollnasfvf.se/text1_30.html",
+          "https://malungs-fiske.se/index.html",
+          "https://malungs-fiske.se/fiskekort-2.html",
+          "https://malungs-fiske.se/fisketillsyn-2.html",
+          "https://malungs-fiske.se/varavatten/",
+          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 916,
@@ -257081,7 +257828,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-magsjon-ostersjon-vastersjon-samt-del-av-kolbacksan.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.surafvof.com/",
+        "http://www.surafvof.com/kontakta-oss.html"
+      ]
     },
     {
       "original_id": 1963,
@@ -258220,7 +258971,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-svansjoarna-ammeskogsjon-eldan-mfl.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.svansjöarnasfvo.se/"
+      ]
     },
     {
       "original_id": 1399,
@@ -258984,7 +259738,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-svedje-vastanede-ovsjo-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://maps.app.goo.gl/X2MU8GwDXtDsgmvp7"
+      ]
     },
     {
       "original_id": 1654,
@@ -259403,7 +260160,10 @@
           "https://vildmarksporten.se/fiske/stromfiske/",
           "https://vildmarksporten.se/fiske/att-fiska-och-ata-fisken/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://vildmarksporten.se/fiske/fiskeomraden-i-berg/svenstaan/"
+      ]
     },
     {
       "original_id": 2213,
@@ -260391,7 +261151,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-svardsjon-agsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.svardsjo-agsjonsfvof.se/"
+      ]
     },
     {
       "original_id": 1440,
@@ -261872,7 +262635,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sabysjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.sabysjon.se/"
+      ]
     },
     {
       "original_id": 24,
@@ -264556,7 +265322,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sarna-idre.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sarnaidrefvo.se/"
+      ]
     },
     {
       "original_id": 1746,
@@ -264955,7 +265724,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sater.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://Nej, info på iFiske/"
+      ]
     },
     {
       "original_id": 1322,
@@ -268530,7 +269302,10 @@
           "https://www.bunnfiske.se/item/fiskekort.html",
           "https://www.bunnfiske.se/item/fisk-i-bunn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.bunnfiske.se/"
+      ]
     },
     {
       "original_id": 933,
@@ -269008,7 +269783,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sodra-horken-stora-avlangen-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.grangesfiske.se/"
+      ]
     },
     {
       "original_id": 2018,
@@ -269410,7 +270188,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sodra-lelang.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://lelang.se/"
+      ]
     },
     {
       "original_id": 1988,
@@ -271275,16 +272056,23 @@
         "Abborre",
         "Bäckröding",
         "Gädda",
+        "Gös",
+        "Havsöring",
+        "Karp",
+        "Lake",
+        "Lax",
+        "Regnbåge",
         "Signalkräfta",
         "Ål",
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 6,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -271334,12 +272122,7 @@
           "Björkna",
           "Braxen",
           "Färna",
-          "Gös",
           "Id",
-          "Karp",
-          "Lake",
-          "Lax",
-          "Regnbåge",
           "Ruda",
           "Röding",
           "Sarv",
@@ -271348,6 +272131,33 @@
         ],
         "url": "https://www.ifiske.se/fiske-gula-kortet-goteborg.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös",
+          "Havsöring",
+          "Karp",
+          "Lake",
+          "Lax",
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://www.sportfiskarna.se/",
+          "https://www.googletagmanager.com/ns.html?id=GTM-TBRBQFL",
+          "https://www.sportfiskarna.se/medlem/",
+          "https://www.sportfiskarna.se/medlem/bli-medlem/",
+          "https://www.sportfiskarna.se/medlem/ungdom/",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelov/",
+          "https://www.sportfiskarna.se/medlem/ungdom/artkampen/",
+          "https://www.sportfiskarna.se/medlem/familj/",
+          "https://www.sportfiskarna.se/medlem/medlemsformaner/",
+          "https://www.sportfiskarna.se/fiske/fiskevatten/fiske-i-goteborg/"
+        ]
       }
     },
     {
@@ -271479,7 +272289,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-giman-konsttjarnen-astjarnen-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.sorbygdenfiske.se/"
+      ]
     },
     {
       "original_id": 1101,
@@ -272602,7 +273415,10 @@
           "http://bollnasfvf.se/text1_11.html",
           "http://bollnasfvf.se/text1_30.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 555,
@@ -280470,7 +281286,10 @@
           "https://www.transtrandfiske.se/Kopa-fiskekort",
           "https://www.transtrandfiske.se/Regler"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.transtrandfiske.se/"
+      ]
     },
     {
       "original_id": 791,
@@ -281269,7 +282088,10 @@
           "https://trosaafk.se/wp/?page_id=797745",
           "https://trosaafk.se/wp/?page_id=797622"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://trosaafk.se/"
+      ]
     },
     {
       "original_id": 1022,
@@ -287385,7 +288207,14 @@
         ],
         "url": "https://www.ifiske.se/fiske-torn-och-torngols-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://tornfvof.se/#depthcharts",
+        "https://tornfvof.se/",
+        "http://tornfvof.se/#depthcharts",
+        "http://tornfvof.se/#areas",
+        "https://tornfvof.se"
+      ]
     },
     {
       "original_id": 412,
@@ -287512,17 +288341,24 @@
         "Abborre",
         "Elritsa",
         "Gädda",
+        "Gös",
         "Harr",
+        "Havsöring",
         "Id",
+        "Karp",
+        "Lake",
+        "Lax",
         "Mört",
+        "Regnbåge",
         "Signalkräfta"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -287574,11 +288410,6 @@
           "Björkna",
           "Braxen",
           "Färna",
-          "Gös",
-          "Karp",
-          "Lake",
-          "Lax",
-          "Regnbåge",
           "Ruda",
           "Röding",
           "Sarv",
@@ -287589,6 +288420,33 @@
         ],
         "url": "https://www.ifiske.se/fiske-gula-kortet-goteborg.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös",
+          "Havsöring",
+          "Karp",
+          "Lake",
+          "Lax",
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://www.sportfiskarna.se/",
+          "https://www.googletagmanager.com/ns.html?id=GTM-TBRBQFL",
+          "https://www.sportfiskarna.se/medlem/",
+          "https://www.sportfiskarna.se/medlem/bli-medlem/",
+          "https://www.sportfiskarna.se/medlem/ungdom/",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelov/",
+          "https://www.sportfiskarna.se/medlem/ungdom/artkampen/",
+          "https://www.sportfiskarna.se/medlem/familj/",
+          "https://www.sportfiskarna.se/medlem/medlemsformaner/",
+          "https://www.sportfiskarna.se/fiske/fiskevatten/fiske-i-goteborg/"
+        ]
       }
     },
     {
@@ -289906,17 +290764,21 @@
         "Bergsimpa",
         "Bäckröding",
         "Gädda",
+        "Harr",
+        "Kanadaröding",
+        "Lake",
         "Regnbåge",
         "Röding",
         "Sik",
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -289954,13 +290816,27 @@
           "Sik",
           "Öring"
         ],
-        "luckor_ej_funna_hos_fvof": [
+        "luckor_ej_funna_hos_fvof": [],
+        "url": "https://www.ifiske.se/fiske-liten-mellersta-delen.htm",
+        "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
           "Harr",
           "Kanadaröding",
           "Lake"
         ],
-        "url": "https://www.ifiske.se/fiske-liten-mellersta-delen.htm",
-        "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+        "kallor_url:er": [
+          "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=813",
+          "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/riksforbundets-styrelse/",
+          "https://www.vattenagarna.se/att-aga-fiskevatten/",
+          "https://www.vattenagarna.se/kontaktuppgifter-till-lans-regionforbund/",
+          "https://www.vattenagarna.se/informationsskrift-om-sveriges-fiskevattenagareforbund/",
+          "https://www.vattenagarna.se/personuppgiftspolicy/",
+          "https://www.vattenagarna.se/kontakta-kansliet/",
+          "https://www.vattenagarna.se/pa-gang/"
+        ]
       }
     },
     {
@@ -290372,7 +291248,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-fasjons-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.usken.se/uskens-fiskevardsforening"
+      ]
     },
     {
       "original_id": 2112,
@@ -292882,7 +293761,10 @@
           "https://www.vallsjonsfvo.se/kraftfiske/",
           "https://www.vallsjonsfvo.se/batramp/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.vallsjonsfvo.se/"
+      ]
     },
     {
       "original_id": 1900,
@@ -294632,7 +295514,13 @@
         ],
         "url": "https://www.ifiske.se/fiske-vaxsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ullstorp.se",
+        "http://www.grottbyn.se",
+        "http://www.akersberg.se",
+        "https://hoorsgastis.se"
+      ]
     },
     {
       "original_id": 490,
@@ -294921,7 +295809,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-vedevagssjon-vagaren-hogstabosjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.vedevaghogstabodafvof.wordpress.com/"
+      ]
     },
     {
       "original_id": 2230,
@@ -296206,7 +297097,10 @@
         "kallor_url:er": [
           "https://venjan.se/upplevobesoka/fiske/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://venjan.se/upplevobesoka/fiske/"
+      ]
     },
     {
       "original_id": 2210,
@@ -298635,7 +299529,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-vindommen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://vindommen.com/"
+      ]
     },
     {
       "original_id": 513,
@@ -299099,7 +299996,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-virens-fvo-viren-med-flera-sjoars-fiskevardsomrade.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.virenfiske.se/"
+      ]
     },
     {
       "original_id": 565,
@@ -303506,6 +304406,7 @@
         "Gärs",
         "Gös",
         "Id",
+        "Karp",
         "Kräfta obestämd",
         "Lake",
         "Mört",
@@ -303672,18 +304573,25 @@
         }
       ],
       "statistik": {
-        "antal_arter": 24,
+        "antal_arter": 25,
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 6
       },
       "extern_enrichment": {
         "tillagda_arter": [
+          "Karp",
           "Regnbåge"
         ],
         "kallor_url:er": [
           "https://edafiske.se/",
-          "https://edafiske.se/"
+          "https://edafiske.se/fiske-och-natur-i-eda/",
+          "https://edafiske.se/fiske-och-natur-i-eda/eda-fiskekrets.html",
+          "https://edafiske.se/fiske-och-natur-i-eda/fiske-och-natur.html",
+          "https://edafiske.se/fiske-och-natur-i-eda/upplev-eda-pa-egen-hand.html",
+          "https://edafiske.se/upplevelser-naturturism/kurt-emtman.html",
+          "https://edafiske.se/upplevelser-naturturism/fiskeguide-viktor-olsson.html",
+          "https://edafiske.se/upplevelser-naturturism/fiskeguide-erik-sandelin.html"
         ]
       },
       "ifiske_spegel_kontroll": {
@@ -303717,7 +304625,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-vrangsalven-m-fl-tjarnar.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.edafiske.se/"
+      ]
     },
     {
       "original_id": 527,
@@ -306329,7 +307240,10 @@
           "http://www.ostanbackfiske.com/fiskegalleri.html",
           "http://www.ostanbackfiske.com/svartan.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ostanbackfiske.se/"
+      ]
     },
     {
       "original_id": 913,
@@ -307779,10 +308693,13 @@
         "arter": []
       },
       "arter": [
+        "Abborre",
         "Gädda",
         "Gös",
         "Harr",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Öring"
       ],
       "kallor": [
@@ -307790,7 +308707,7 @@
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -307814,7 +308731,6 @@
           "Ål"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Abborre",
           "Björkna",
           "Braxen",
           "Flodkräfta",
@@ -307833,10 +308749,13 @@
       },
       "extern_enrichment": {
         "tillagda_arter": [
+          "Abborre",
           "Gädda",
           "Gös",
           "Harr",
           "Regnbåge",
+          "Röding",
+          "Sik",
           "Öring"
         ],
         "kallor_url:er": [
@@ -307844,9 +308763,18 @@
           "http://bollnasfvf.se/news_1.html",
           "http://bollnasfvf.se/text1_10.html",
           "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
+          "http://bollnasfvf.se/text1_30.html",
+          "https://malungs-fiske.se/index.html",
+          "https://malungs-fiske.se/fiskekort-2.html",
+          "https://malungs-fiske.se/fisketillsyn-2.html",
+          "https://malungs-fiske.se/varavatten/",
+          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 2074,
@@ -309000,7 +309928,9 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Karp",
+        "Lake",
         "Lax",
         "Mört",
         "Regnbåge",
@@ -309124,7 +310054,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 5,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 2
@@ -309157,7 +310087,6 @@
           "Braxen",
           "Färna",
           "Id",
-          "Lake",
           "Ruda",
           "Röding",
           "Sarv"
@@ -309168,6 +310097,8 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Gös",
+          "Havsöring",
+          "Lake",
           "Lax",
           "Regnbåge",
           "Sik"
@@ -309178,9 +310109,19 @@
           "https://www.sportfiskarna.se/medlem/bli-medlem/",
           "https://www.sportfiskarna.se/medlem/ungdom/",
           "https://www.sportfiskarna.se/medlem/ungdom/fiskelager/",
-          "https://www.sportfiskarna.se/"
+          "https://www.sportfiskarna.se/",
+          "https://www.googletagmanager.com/ns.html?id=GTM-TBRBQFL",
+          "https://www.sportfiskarna.se/medlem/ungdom/fiskelov/",
+          "https://www.sportfiskarna.se/medlem/ungdom/artkampen/",
+          "https://www.sportfiskarna.se/medlem/familj/",
+          "https://www.sportfiskarna.se/medlem/medlemsformaner/",
+          "https://www.sportfiskarna.se/fiske/fiskevatten/fiske-i-goteborg/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.sportfiskarna.se/",
+        "https://www.sportfiskarna.se/Fiske/Fiske-i-G%C3%B6teborg/Fiskevatten"
+      ]
     },
     {
       "original_id": 757,
@@ -310814,7 +311755,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-ylen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://ylen-fiske.se/"
+      ]
     },
     {
       "original_id": 2148,
@@ -312682,7 +313626,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-yxesjoarna-mjogesjoarna-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.yxesjoarna.se/"
+      ]
     },
     {
       "original_id": 788,
@@ -312893,6 +313840,8 @@
         "Lake",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Öring"
       ],
       "kallor": [
@@ -312948,7 +313897,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -312990,16 +313939,27 @@
       "extern_enrichment": {
         "tillagda_arter": [
           "Gös",
-          "Regnbåge"
+          "Regnbåge",
+          "Röding",
+          "Sik"
         ],
         "kallor_url:er": [
           "http://bollnasfvf.se/",
           "http://bollnasfvf.se/news_1.html",
           "http://bollnasfvf.se/text1_10.html",
           "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
+          "http://bollnasfvf.se/text1_30.html",
+          "https://malungs-fiske.se/index.html",
+          "https://malungs-fiske.se/fiskekort-2.html",
+          "https://malungs-fiske.se/fisketillsyn-2.html",
+          "https://malungs-fiske.se/varavatten/",
+          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 433,
@@ -319690,7 +320650,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-arlangen-rengensjoarnas-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.vattenagarna.se/medlemmar/ostergotlands-lans-fiskevattenagareforbund/ostergotland?o=3426"
+      ]
     },
     {
       "original_id": 382,
@@ -320430,7 +321393,11 @@
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
           "https://www.vattenagarna.se/att-aga-fiskevatten/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.falkenberg.se/upptack/naturen/fiska/fiska-i-atrans-nedre.html",
+        "https://www.falkenberg.se/se-gora/aktiviteter/fiske/fiska-i-atrans-nedre/"
+      ]
     },
     {
       "original_id": 589,
@@ -320746,7 +321713,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-abyalven-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.abyalven.se/",
+        "https://www.abyalven.se/"
+      ]
     },
     {
       "original_id": 1052,
@@ -321364,6 +322335,7 @@
         ]
       },
       "arter": [
+        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",
@@ -321405,7 +322377,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -321446,7 +322418,6 @@
           "Ål"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Abborre",
           "Björkna",
           "Braxen",
           "Flodkräfta",
@@ -321464,6 +322435,7 @@
       },
       "extern_enrichment": {
         "tillagda_arter": [
+          "Abborre",
           "Gädda",
           "Gös",
           "Harr",
@@ -321474,9 +322446,18 @@
           "http://bollnasfvf.se/news_1.html",
           "http://bollnasfvf.se/text1_10.html",
           "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
+          "http://bollnasfvf.se/text1_30.html",
+          "https://malungs-fiske.se/index.html",
+          "https://malungs-fiske.se/fiskekort-2.html",
+          "https://malungs-fiske.se/fisketillsyn-2.html",
+          "https://malungs-fiske.se/varavatten/",
+          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://malungs-fiske.se/index.html"
+      ]
     },
     {
       "original_id": 1950,
@@ -323416,7 +324397,10 @@
           "https://www.amot.nu/f%C3%B6reningar/arthur-asps-minnesfond",
           "https://www.amot.nu/service/hj%C3%A4rtstartare"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.amot.nu/f%C3%B6reningar/fiskevardsforeningen"
+      ]
     },
     {
       "original_id": 1035,
@@ -325646,7 +326630,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-asnen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.asnensfvo.se/"
+      ]
     },
     {
       "original_id": 1428,
@@ -326462,7 +327449,10 @@
           "https://www.odevatagardshotell.se/de/start/",
           "https://www.odevatagardshotell.se/aktiviteter/fiske/"
         ]
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://www.odevata.se"
+      ]
     },
     {
       "original_id": 1332,
@@ -328887,7 +329877,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-onskasjon-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.onskasjon.se/"
+      ]
     },
     {
       "original_id": 1148,
@@ -330072,7 +331065,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-oresjoarnas-fvof-vastra-och-ostra-oresjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://Öresjöarnas FVOF/"
+      ]
     },
     {
       "original_id": 2058,
@@ -331422,7 +332418,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-orlen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://orlen.nu/index.htm"
+      ]
     },
     {
       "original_id": 744,
@@ -332009,7 +333008,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-orsjon-lillasjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.orsjon-lillasjon.se/"
+      ]
     },
     {
       "original_id": 377,
@@ -332277,7 +333279,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-orsjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.orsjon.se/"
+      ]
     },
     {
       "original_id": 1020,
@@ -335677,7 +336682,11 @@
         ],
         "url": "https://www.ifiske.se/fiske-ostra-lagern.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "http://www.ostralagern.se/",
+        "https://www.ostralagern.se"
+      ]
     },
     {
       "original_id": 2384,
@@ -340239,7 +341248,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-flottringen-bensjon-bodtjarn-dysjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "ifiske_tipslankar": [
+        "https://gimriver.se/"
+      ]
     },
     {
       "original_id": 955,

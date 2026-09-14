@@ -3,9 +3,9 @@
 **[`data/index.json`](data/index.json)** – en enda indexfil.
 
 ## Policy
-1. **Jämför** gärna med iFiske (spegel/kontroll)
-2. **Hämta aldrig artdata från iFiske**
-3. Använd iFiske för **tips/länkar** till respektive FVO-sida, och hämta artdata därifrån
+1. **Jämför** med iFiske (spegel/kontroll av vilka arter som “borde” finnas)
+2. **Hämta aldrig artdata från iFiske** (inga artikoner → `arter`)
+3. Använd iFiske för **tips/länkar** till respektive FVO/föreningssida (t.ex. “Gå till hemsida”), och hämta artdata därifrån
 4. Övriga tillåtna källor: Fiskekartan, SLU (NORS/SERS/KUL), GBIF
 
 ## Köra om

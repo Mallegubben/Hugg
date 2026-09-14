@@ -185,8 +185,34 @@ def fetch(session: requests.Session, url: str, *, allow_ifiske: bool = False):
         return None, url, type(e).__name__
 
 
+def extract_species_from_lists(text: str) -> set[str]:
+    """Hitta arter i listor: 'abborre, braxen, gös, gädda och karp'."""
+    accepted: set[str] = set()
+    names = sorted(CANONICAL | set(SPECIES_ALIASES.keys()), key=len, reverse=True)
+    # Meningar/stycken som nämner flera arter nära varandra
+    for chunk in re.split(r"[\n.!?]|(?<=\s)/(?=\s)", text):
+        chunk = chunk.strip()
+        if len(chunk) < 8:
+            continue
+        found_here: list[str] = []
+        for name in names:
+            if re.search(rf"(?<![A-Za-zÅÄÖåäö]){re.escape(name)}(?![A-Za-zÅÄÖåäö])", chunk, re.I):
+                c = canon(name)
+                if c and c not in found_here:
+                    found_here.append(c)
+        if len(found_here) >= 2:
+            for c in found_here:
+                if c in AMBIGUOUS and len(found_here) < 3:
+                    continue
+                accepted.add(c)
+    return accepted
+
+
 def extract_species(html: str) -> list[str]:
-    text = BeautifulSoup(html, "lxml").get_text("\n", strip=True)
+    soup = BeautifulSoup(html, "lxml")
+    text = soup.get_text("\n", strip=True)
+    accepted = extract_species_from_lists(text)
+
     names = sorted(CANONICAL | set(SPECIES_ALIASES.keys()), key=len, reverse=True)
     hits: list[tuple[int, str]] = []
     for name in names:
@@ -195,27 +221,41 @@ def extract_species(html: str) -> list[str]:
             c = canon(name)
             if c:
                 hits.append((m.start(), c))
-    if not hits:
-        return []
-    keyword = re.compile(
-        r"(artlista|fiskarter|fiskar(?:t|ter)?|förekom|bestånd|vanliga arter|övriga arter|fiskevårds|fiskekort)",
-        re.I,
-    )
-    kw = [m.start() for m in keyword.finditer(text)]
-    accepted: set[str] = set()
-    for i, (pos, c) in enumerate(hits):
-        near_other = any(abs(pos - p2) <= 100 and c != c2 for j, (p2, c2) in enumerate(hits) if i != j)
-        near_kw = any(abs(pos - k) <= 140 for k in kw)
-        if c in AMBIGUOUS:
-            if near_other or near_kw:
+    if hits:
+        keyword = re.compile(
+            r"(artlista|fiskarter|fiskar(?:t|ter)?|förekom|bestånd|vanliga arter|"
+            r"övriga arter|fiskevårds|fiskekort|finns (?:bland annat|även)|gott om)",
+            re.I,
+        )
+        kw = [m.start() for m in keyword.finditer(text)]
+        for i, (pos, c) in enumerate(hits):
+            near_other = any(
+                abs(pos - p2) <= 100 and c != c2 for j, (p2, c2) in enumerate(hits) if i != j
+            )
+            near_kw = any(abs(pos - k) <= 160 for k in kw)
+            if c in AMBIGUOUS:
+                if near_other or near_kw:
+                    accepted.add(c)
+            elif near_other or near_kw or len(hits) <= 12:
                 accepted.add(c)
-        elif near_other or near_kw or len(hits) <= 12:
-            # small pages: accept all clear species hits
-            accepted.add(c)
     return sorted(accepted, key=lambda s: s.casefold())
 
 
+def frame_urls(html: str, base: str) -> list[str]:
+    soup = BeautifulSoup(html, "lxml")
+    out = []
+    for tag in soup.find_all(["frame", "iframe"]):
+        src = tag.get("src")
+        if not src:
+            continue
+        abs_url = urljoin(base, src)
+        if abs_url.startswith("http"):
+            out.append(abs_url)
+    return out
+
+
 def discover_links_from_ifiske(html: str, base: str, fvo_namn: str) -> list[str]:
+    """Tips från iFiske: hemsida/föreningslänkar – aldrig artikoner."""
     soup = BeautifulSoup(html, "lxml")
     tokens = set()
     base_name = re.sub(r"\b(fvof|fvo|förening)\b", " ", fvo_namn or "", flags=re.I)
@@ -223,28 +263,46 @@ def discover_links_from_ifiske(html: str, base: str, fvo_namn: str) -> list[str]
         t = fold(p)
         if len(t) >= 4:
             tokens.add(t)
-    out = []
-    seen = set()
+
+    prioritized: list[str] = []
+    normal: list[str] = []
+    seen: set[str] = set()
+
+    def add(url: str, *, priority: bool = False) -> None:
+        u = normalize_url(url)
+        if not u or not u.startswith("http") or is_ifiske(u) or is_blocked(u) or u in seen:
+            return
+        seen.add(u)
+        (prioritized if priority else normal).append(u)
+
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         text = (a.get_text(" ", strip=True) or "").casefold()
         abs_url = urljoin(base, href)
-        if not abs_url.startswith("http") or is_ifiske(abs_url) or is_blocked(abs_url):
-            continue
         h = host_of(abs_url)
         host_f = fold(h)
+        hemsida = any(k in text for k in ("hemsida", "gå till", "webbplats", "besök vår"))
         relevant = (
-            any(k in h for k in ("fvof", "fvo", "fiske", "natureit"))
+            hemsida
+            or any(k in h for k in ("fvof", "fvo", "fiske", "natureit", "blogspot"))
             or any(t in host_f for t in tokens)
-            or any(k in text for k in ("hemsida", "förening", "webbplats", "fiskevårds", "besök"))
+            or any(k in text for k in ("förening", "fiskevårds", "föreningens"))
             or ("vattenagarna.se" in h and "o=" in abs_url)
         )
-        if not relevant:
-            continue
-        if abs_url not in seen:
-            seen.add(abs_url)
-            out.append(abs_url)
-    return out[:10]
+        if relevant:
+            add(abs_url, priority=hemsida)
+
+    # Rena URL:er i brödtext (ibland utan <a>)
+    plain = soup.get_text(" ")
+    for m in re.finditer(
+        r"(?:https?://|www\.)[a-z0-9\-]+(?:\.[a-z0-9\-]+)+(?:/[^\s<>\"']*)?",
+        plain,
+        re.I,
+    ):
+        raw = m.group(0).rstrip(".,);]")
+        add(raw, priority=False)
+
+    return (prioritized + normal)[:14]
 
 
 def same_site_art_links(html: str, base: str) -> list[str]:
@@ -255,17 +313,32 @@ def same_site_art_links(html: str, base: str) -> list[str]:
         abs_url = urljoin(base, a["href"])
         if host_of(abs_url) != base_host:
             continue
+        # Hoppa över generiska vattenagarna-portalsidor utan ?o=
+        if "vattenagarna.se" in base_host and is_blocked(abs_url):
+            continue
         text = (a.get_text(" ", strip=True) + " " + a["href"]).casefold()
-        if any(k in text for k in ("fisk", "art", "sjö", "vatten", "fångst", "regler")):
+        if any(
+            k in text
+            for k in (
+                "fisk",
+                "art",
+                "sjö",
+                "vatten",
+                "fångst",
+                "regler",
+                "omrade",
+                "område",
+                "sjo",
+            )
+        ):
             out.append(abs_url)
-    # dedupe preserve
     seen = set()
     uniq = []
     for u in out:
         if u not in seen:
             seen.add(u)
             uniq.append(u)
-    return uniq[:6]
+    return uniq[:10]
 
 
 def scrape_site(session: requests.Session, url: str) -> tuple[set[str], list[str], list[str]]:
@@ -275,15 +348,38 @@ def scrape_site(session: requests.Session, url: str) -> tuple[set[str], list[str
     html, final, err = fetch(session, url)
     if not html:
         return found, scraped, [f"skip:{host_of(url)}:{err}"]
-    scraped.append(final or url)
+    base = final or url
+    scraped.append(base)
     found |= set(extract_species(html))
-    for sub in same_site_art_links(html, final or url)[:4]:
+
+    # Frames (vanligt på äldre FVOF-sajter)
+    for fr in frame_urls(html, base)[:4]:
+        html_f, final_f, err_f = fetch(session, fr)
+        if not html_f:
+            notes.append(f"frame_fel:{err_f}")
+            continue
+        scraped.append(final_f or fr)
+        found |= set(extract_species(html_f))
+
+    for sub in same_site_art_links(html, base)[:8]:
+        if sub in scraped:
+            continue
         html2, final2, err2 = fetch(session, sub)
         if not html2:
             notes.append(f"sub_fel:{err2}")
             continue
         scraped.append(final2 or sub)
         found |= set(extract_species(html2))
+        # En nivå till för frames på undersidor
+        for fr in frame_urls(html2, final2 or sub)[:2]:
+            if fr in scraped:
+                continue
+            html3, final3, err3 = fetch(session, fr)
+            if html3:
+                scraped.append(final3 or fr)
+                found |= set(extract_species(html3))
+            else:
+                notes.append(f"frame_fel:{err3}")
     return found, scraped, notes
 
 
@@ -291,52 +387,87 @@ def process_fvo(fvo: dict, session: requests.Session) -> dict:
     namn = fvo.get("namn") or ""
     our = set(fvo.get("arter") or [])
     gaps = set((fvo.get("ifiske_spegel_kontroll") or {}).get("luckor_ej_funna_hos_fvof") or [])
-    # Also treat empty/low lists as needing enrichment
-    need = bool(gaps) or len(our) < 3
+    need = bool(gaps) or len(our) < 3 or not our
 
     candidates: list[str] = []
     fvof = normalize_url(fvo.get("url_fvof"))
     if fvof and not is_ifiske(fvof) and not is_blocked(fvof):
         candidates.append(fvof)
-    elif fvof and "vattenagarna.se" in (fvof or "") and "o=" in fvof:
+    elif fvof and "vattenagarna.se" in (fvof or "") and "o=" in (fvof or ""):
         candidates.append(fvof)
 
-    ifiske = normalize_url(fvo.get("url_ifiske_for_externa_lankar") or fvo.get("url_fiskekort"))
+    # Tidigare funna tipslänkar
+    for u in fvo.get("ifiske_tipslankar") or []:
+        nu = normalize_url(u)
+        if nu and nu not in candidates and not is_ifiske(nu) and not is_blocked(nu):
+            candidates.append(nu)
+
+    ifiske = normalize_url(
+        fvo.get("url_ifiske_for_externa_lankar")
+        or (fvo.get("ifiske_spegel_kontroll") or {}).get("url")
+        or fvo.get("url_fiskekort")
+    )
+    tip_links: list[str] = []
     if ifiske and is_ifiske(ifiske):
         html, final, err = fetch(session, ifiske, allow_ifiske=True)
         if html:
-            # follow to fiske- page if needed for more links
             pages = [(html, final)]
             if "/fiskekort-" in (final or ""):
                 alt = (final or "").replace("/fiskekort-", "/fiske-")
                 html2, final2, _ = fetch(session, alt, allow_ifiske=True)
                 if html2:
                     pages.append((html2, final2))
-            for a in BeautifulSoup(html, "lxml").find_all("a", href=True):
-                if re.search(r"fiske-[a-z0-9\-]+\.htm", a["href"] or "", re.I):
-                    cu = urljoin(final or ifiske, a["href"])
-                    html3, final3, _ = fetch(session, cu, allow_ifiske=True)
-                    if html3:
-                        pages.append((html3, final3))
-                        break
+            if "/fiske-" not in (final or ""):
+                for a in BeautifulSoup(html, "lxml").find_all("a", href=True):
+                    if re.search(r"fiske-[a-z0-9\-]+\.htm", a["href"] or "", re.I):
+                        cu = urljoin(final or ifiske, a["href"])
+                        html3, final3, _ = fetch(session, cu, allow_ifiske=True)
+                        if html3:
+                            pages.append((html3, final3))
+                            break
             for page_html, page_url in pages:
                 for u in discover_links_from_ifiske(page_html, page_url, namn):
+                    if u not in tip_links:
+                        tip_links.append(u)
                     if u not in candidates:
                         candidates.append(u)
+        else:
+            return {
+                "original_id": fvo.get("original_id"),
+                "namn": namn,
+                "tillagda": [],
+                "scraped": [],
+                "notes": [f"ifiske_tip_fel:{err}"],
+                "candidates": candidates[:10],
+                "tipslankar": tip_links,
+            }
 
-    if not need and not candidates:
+    if not need:
         return {
             "original_id": fvo.get("original_id"),
             "namn": namn,
             "tillagda": [],
             "scraped": [],
             "notes": ["skip_no_need"],
+            "candidates": [],
+            "tipslankar": tip_links,
+        }
+
+    if not candidates:
+        return {
+            "original_id": fvo.get("original_id"),
+            "namn": namn,
+            "tillagda": [],
+            "scraped": [],
+            "notes": ["no_tip_links"],
+            "candidates": [],
+            "tipslankar": tip_links,
         }
 
     added: set[str] = set()
     scraped_all: list[str] = []
     notes: list[str] = []
-    for url in candidates[:8]:
+    for url in candidates[:10]:
         spp, scraped, n = scrape_site(session, url)
         scraped_all.extend(scraped)
         notes.extend(n)
@@ -352,7 +483,8 @@ def process_fvo(fvo: dict, session: requests.Session) -> dict:
         "traffade_luckor": sorted(added & gaps, key=lambda s: s.casefold()) if gaps else [],
         "scraped": list(dict.fromkeys(scraped_all)),
         "notes": notes,
-        "candidates": candidates[:8],
+        "candidates": candidates[:10],
+        "tipslankar": tip_links,
     }
 
 
@@ -360,32 +492,39 @@ def main() -> None:
     data = json.loads(ARTLISTA.read_text(encoding="utf-8"))
     fvos = data["fvo"]
 
-    # Prioritize FVO with mirror gaps or missing/few species
+    # Fokus: spegelluckor + tomma artlistor (iFiske tips → FVOF)
+    todo = [
+        f
+        for f in fvos
+        if (
+            (f.get("ifiske_spegel_kontroll") or {}).get("luckor_ej_funna_hos_fvof")
+            or not f.get("arter")
+            or len(f.get("arter") or []) < 3
+        )
+        and (
+            f.get("url_fvof")
+            or f.get("url_ifiske_for_externa_lankar")
+            or f.get("url_fiskekort")
+            or (f.get("ifiske_spegel_kontroll") or {}).get("url")
+            or f.get("ifiske_tipslankar")
+        )
+    ]
     todo = sorted(
-        fvos,
+        todo,
         key=lambda f: (
             0 if (f.get("ifiske_spegel_kontroll") or {}).get("luckor_ej_funna_hos_fvof") else 1,
             0 if not f.get("arter") else 1,
             len(f.get("arter") or []),
-            0 if f.get("ansvarigt_lan") == "Jämtland" else 1,
             f.get("namn") or "",
         ),
     )
-    # Keep those with some path to follow
-    todo = [
-        f
-        for f in todo
-        if f.get("url_fvof")
-        or f.get("url_ifiske_for_externa_lankar")
-        or f.get("url_fiskekort")
-    ]
-    print(f"Följer FVOF-länkar för {len(todo)} FVO…")
+    print(f"Följer iFiske-tipslänkar → FVOF för {len(todo)} FVO…")
 
     session = requests.Session()
     session.headers.update({"User-Agent": UA, "Accept": "text/html"})
 
     results = []
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=6) as ex:
         futs = {ex.submit(process_fvo, f, session): f for f in todo}
         done = 0
         for fut in as_completed(futs):
@@ -401,19 +540,28 @@ def main() -> None:
                         "tillagda": [],
                         "scraped": [],
                         "notes": [f"exception:{type(e).__name__}"],
+                        "tipslankar": [],
                     }
                 )
-            if done % 50 == 0:
+            if done % 40 == 0:
                 print(f"  {done}/{len(todo)}")
-            time.sleep(0.01)
+            time.sleep(0.02)
 
     by_id = {r["original_id"]: r for r in results}
     enriched = 0
     added_total = 0
     gaps_closed = 0
+    tips_saved = 0
     for fvo in fvos:
         r = by_id.get(fvo["original_id"])
-        if not r or not r.get("tillagda"):
+        if not r:
+            continue
+        tips = list(dict.fromkeys((fvo.get("ifiske_tipslankar") or []) + (r.get("tipslankar") or [])))
+        if tips:
+            fvo["ifiske_tipslankar"] = tips
+            tips_saved += 1
+
+        if not r.get("tillagda"):
             continue
         before = set(fvo.get("arter") or [])
         after = sorted(before | set(r["tillagda"]), key=lambda s: s.casefold())
@@ -501,11 +649,15 @@ def main() -> None:
         "enriched_fvo": enriched,
         "added_species_entries": added_total,
         "mirror_gaps_closed": gaps_closed,
+        "tipslankar_sparade_fvo": tips_saved,
         "spegel_stats": spegel_stats,
     }
     data["meta"]["policy"] = {
         "ifiske_artdata": False,
-        "ifiske_anvandning": "Jämförelse + tips till FVOF-länkar. Artdata hämtas från FVOF/Fiskekartan/SLU/GBIF.",
+        "ifiske_anvandning": (
+            "Jämförelse/spegel + tips till FVOF-länkar (t.ex. \"Gå till hemsida\"). "
+            "Artdata hämtas från FVOF/Fiskekartan/SLU/GBIF – aldrig från iFiske."
+        ),
     }
     data["arter_katalog"] = sorted(catalog, key=lambda s: s.casefold())
     ARTLISTA.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -541,6 +693,7 @@ def main() -> None:
                 "enriched_fvo": enriched,
                 "added": added_total,
                 "gaps_closed": gaps_closed,
+                "tipslankar_sparade_fvo": tips_saved,
                 "remaining_gap_fvo": len(gaps),
                 "spegel_stats": spegel_stats,
                 "coverage": coverage,
