@@ -7,6 +7,7 @@ Regler:
 - Om Fiskekartan pekar på iFiske (URL_FKORT), hämta sidan ENBART för att
   plocka ut externa länkar (FVOF-hemsidor m.m.), och scrapa sedan dessa.
 - Scrapa också URL_FVOF från Fiskekartan.
+- Generiska portaler (fiskerätt, länsförbund, etc.) ignoreras.
 """
 
 from __future__ import annotations
@@ -14,6 +15,7 @@ from __future__ import annotations
 import json
 import re
 import time
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,13 +26,11 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "processed"
-CACHE = ROOT / "data" / "raw" / "external_pages"
 UA = (
     "HuggFVOBot/1.0 (+https://github.com/Mallegubben/Hugg; research; "
     "artförekomst för fritidsfiske)"
 )
 
-# Same normalizer as build script (kept local to avoid import path issues)
 SPECIES_ALIASES = {
     "gers": "Gärs",
     "gärs": "Gärs",
@@ -85,11 +85,42 @@ CANONICAL_SPECIES = set(SPECIES_ALIASES.values()) | {
     "Simpa",
     "Kräfta",
     "Groplöja",
-    "Skärkniv",
-    "Tånglake",
 }
 
-IFISKE_HOSTS = {"ifiske.se", "www.ifiske.se"}
+# Short / ambiguous names need list-context before acceptance
+AMBIGUOUS = {"Id", "Mal", "Asp", "Sik", "Lax", "Ål", "Nors", "Lake", "Kräfta"}
+
+GENERIC_HOST_PARTS = (
+    "facebook.com",
+    "instagram.com",
+    "youtube.com",
+    "twitter.com",
+    "x.com",
+    "google.",
+    "swish",
+    "paypal",
+    "bankid",
+    "2glux.com",
+    "wikipedia.org",
+    "tiktok.com",
+    "linkedin.com",
+    "apple.com",
+    "play.google",
+    "schemas.",
+    "w3.org",
+    "fiskeratt.se",
+    "fiskekartan.se",
+    "havochvatten.se",
+    "lansstyrelsen.se",
+    "vattenagarna.se",
+    "sportfiskarna.se",
+    "fiskevattenagarna.se",
+    "ifiske.",  # any ifiske TLD
+    "youtube.",
+    "booking.com",
+    "airbnb.",
+    "tripadvisor.",
+)
 
 
 def normalize_url(url: str | None) -> str | None:
@@ -112,14 +143,75 @@ def host_of(url: str) -> str:
 
 def is_ifiske(url: str) -> bool:
     h = host_of(url)
-    return h in IFISKE_HOSTS or h.endswith(".ifiske.se")
+    return "ifiske." in h
 
 
-def fetch(url: str, session: requests.Session, timeout: int = 25) -> tuple[str | None, str | None]:
+def is_generic_host(url: str) -> bool:
+    h = host_of(url)
+    return any(part in h for part in GENERIC_HOST_PARTS)
+
+
+def fold(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+
+def fvo_tokens(namn: str) -> set[str]:
+    base = re.sub(
+        r"\b(fvof|fvo|fiskevardsomrade|fiskevårdsområde|fiskevårdsområdesförening|"
+        r"förening|forening|besparingsskog|bygdens|sjöarnas|sjoarnas)\b",
+        " ",
+        namn,
+        flags=re.I,
+    )
+    parts = re.split(r"[\s\-–,_/]+", base)
+    out = set()
+    for p in parts:
+        f = fold(p)
+        if len(f) >= 4:
+            out.add(f)
+    return out
+
+
+def url_relevant_to_fvo(url: str, namn: str) -> bool:
+    """Keep only FVO-ish hosts or hosts that share name tokens with the FVO."""
+    h = host_of(url)
+    if not h or is_generic_host(url) or is_ifiske(url):
+        return False
+    if any(k in h for k in ("fvof", "fvo", "flugfiske", "sportfiske")):
+        return True
+    # bare domain label(s)
+    labels = re.split(r"[.-]", h)
+    host_fold = fold(h)
+    tokens = fvo_tokens(namn)
+    if not tokens:
+        return False
+    for t in tokens:
+        if t in host_fold:
+            return True
+        for lab in labels:
+            if fold(lab) == t:
+                return True
+    return False
+
+
+def fetch(
+    url: str,
+    session: requests.Session,
+    timeout: int = 25,
+    *,
+    allow_ifiske: bool = False,
+) -> tuple[str | None, str | None]:
     try:
         r = session.get(url, timeout=timeout, allow_redirects=True)
         if r.status_code >= 400:
             return None, f"http_{r.status_code}"
+        # Reject if redirected onto blocked hosts (unless explicitly allowed for link harvest)
+        if not allow_ifiske and (is_ifiske(r.url) or is_generic_host(r.url)):
+            return None, "blocked_redirect"
+        if allow_ifiske and is_generic_host(r.url) and not is_ifiske(r.url):
+            return None, "blocked_redirect"
         ctype = (r.headers.get("content-type") or "").lower()
         if "html" not in ctype and "text" not in ctype and "xml" not in ctype:
             return None, f"skip_ctype:{ctype}"
@@ -129,7 +221,7 @@ def fetch(url: str, session: requests.Session, timeout: int = 25) -> tuple[str |
         return None, type(e).__name__
 
 
-def extract_external_links(html: str, base_url: str) -> list[str]:
+def extract_external_links(html: str, base_url: str, fvo_namn: str) -> list[str]:
     soup = BeautifulSoup(html, "lxml")
     links = []
     seen = set()
@@ -140,34 +232,7 @@ def extract_external_links(html: str, base_url: str) -> list[str]:
         abs_url = urljoin(base_url, href)
         if not abs_url.startswith("http"):
             continue
-        if is_ifiske(abs_url):
-            continue
-        # Skip social / payment / generic noise
-        h = host_of(abs_url)
-        if any(
-            x in h
-            for x in (
-                "facebook.com",
-                "instagram.com",
-                "youtube.com",
-                "twitter.com",
-                "x.com",
-                "google.",
-                "swish",
-                "paypal",
-                "bankid",
-                "2glux.com",
-                "joomla",
-                "wordpress.org",
-                "wikipedia.org",
-                "tiktok.com",
-                "linkedin.com",
-                "apple.com",
-                "play.google",
-                "schemas.",
-                "w3.org",
-            )
-        ):
+        if not url_relevant_to_fvo(abs_url, fvo_namn):
             continue
         path = urlparse(abs_url).path.lower()
         if any(x in path for x in ("/login", "/cart", "/checkout", "/cdn-cgi")):
@@ -175,39 +240,56 @@ def extract_external_links(html: str, base_url: str) -> list[str]:
         if abs_url not in seen:
             seen.add(abs_url)
             links.append(abs_url)
-    # Prefer association / fishing-looking hosts
-    def score(u: str) -> tuple:
-        h = host_of(u)
-        s = 0
-        if any(k in h for k in ("fvof", "fvo", "fiske", "sportfiske", "flugfiske")):
-            s -= 10
-        if h.endswith(".se"):
-            s -= 1
-        return (s, u)
-
-    return sorted(links, key=score)
+    return links
 
 
 def extract_species_from_html(html: str) -> list[str]:
-    """Hitta kända fiskartnamn i sidtext (heuristik)."""
-    text = BeautifulSoup(html, "lxml").get_text(" ", strip=True)
-    # Build regex of known species (longest first)
+    """Kräv artlista-kontext; undvik enstaka träffar på generiska sidor."""
+    text = BeautifulSoup(html, "lxml").get_text("\n", strip=True)
     names = sorted(CANONICAL_SPECIES | set(SPECIES_ALIASES.keys()), key=len, reverse=True)
-    found: list[str] = []
-    seen: set[str] = set()
+    # Find all species mentions with positions
+    hits: list[tuple[int, str]] = []
     for name in names:
-        # word-ish boundaries for Swedish
         pat = re.compile(rf"(?<![A-Za-zÅÄÖåäö]){re.escape(name)}(?![A-Za-zÅÄÖåäö])", re.I)
-        if pat.search(text):
+        for m in pat.finditer(text):
             canon = SPECIES_ALIASES.get(name.lower(), name if name[:1].isupper() else name.title())
-            if canon not in seen:
-                seen.add(canon)
-                found.append(canon)
-    return sorted(found, key=lambda s: s.casefold())
+            hits.append((m.start(), canon))
+
+    if not hits:
+        return []
+
+    # Context windows: accept species if nearby another species OR near art-list keywords
+    keyword = re.compile(
+        r"(artlista|fiskarter|fiskarter|fiskar(?:t|ter)?|förekom(?:mer|mande)|"
+        r"fiskevårds|bestånd|vanliga arter|övriga arter|fiskas|fångas)",
+        re.I,
+    )
+    keyword_pos = [m.start() for m in keyword.finditer(text)]
+
+    accepted: set[str] = set()
+    positions = sorted(hits)
+    for i, (pos, canon) in enumerate(positions):
+        near_other = False
+        for j, (pos2, canon2) in enumerate(positions):
+            if i == j or canon == canon2:
+                continue
+            if abs(pos - pos2) <= 80:
+                near_other = True
+                break
+        near_kw = any(abs(pos - kp) <= 120 for kp in keyword_pos)
+        if canon in AMBIGUOUS:
+            if near_other or near_kw:
+                accepted.add(canon)
+        else:
+            if near_other or near_kw:
+                accepted.add(canon)
+
+    return sorted(accepted, key=lambda s: s.casefold())
 
 
 def process_fvo(fvo: dict, session: requests.Session) -> dict:
     oid = fvo["original_id"]
+    namn = fvo.get("namn") or ""
     existing = set(fvo.get("arter") or [])
     added: set[str] = set()
     scraped_urls: list[str] = []
@@ -215,23 +297,30 @@ def process_fvo(fvo: dict, session: requests.Session) -> dict:
 
     candidate_urls: list[str] = []
     fvof = normalize_url(fvo.get("url_fvof"))
-    if fvof and not is_ifiske(fvof):
+    if fvof and not is_ifiske(fvof) and not is_generic_host(fvof):
         candidate_urls.append(fvof)
 
     ifiske = normalize_url(fvo.get("url_ifiske_for_externa_lankar"))
     if ifiske and is_ifiske(ifiske):
-        html, err = fetch(ifiske, session)
+        html, err = fetch(ifiske, session, allow_ifiske=True)
         if html:
-            # Endast externa länkar – ingen artparse av iFiske-HTML
-            external = extract_external_links(html, ifiske)
+            external = extract_external_links(html, ifiske, namn)
             notes.append(f"ifiske_externa_lankar:{len(external)}")
-            for u in external[:8]:
+            for u in external[:6]:
                 if u not in candidate_urls:
                     candidate_urls.append(u)
         elif err:
             notes.append(f"ifiske_fel:{err}")
 
-    for url in candidate_urls[:6]:
+    # Deduplicate by host, prefer homepage-ish
+    by_host: dict[str, str] = {}
+    for url in candidate_urls:
+        h = host_of(url)
+        if h not in by_host or len(url) < len(by_host[h]):
+            by_host[h] = url
+    candidate_urls = list(by_host.values())[:4]
+
+    for url in candidate_urls:
         html, err = fetch(url, session)
         if not html:
             notes.append(f"skip:{host_of(url)}:{err}")
@@ -244,7 +333,7 @@ def process_fvo(fvo: dict, session: requests.Session) -> dict:
 
     return {
         "original_id": oid,
-        "namn": fvo.get("namn"),
+        "namn": namn,
         "tillagda_arter": sorted(added, key=lambda s: s.casefold()),
         "scrapade_url:er": scraped_urls,
         "notes": notes,
@@ -256,20 +345,9 @@ def main() -> None:
     data = json.loads(src.read_text(encoding="utf-8"))
     fvos = data["fvo"]
 
-    # Prioritera FVO utan arter, sedan de med få arter
-    todo = sorted(
-        fvos,
-        key=lambda f: (
-            0 if not f.get("arter") else 1,
-            f.get("statistik", {}).get("antal_arter", 0),
-            (f.get("namn") or ""),
-        ),
-    )
-
-    # Begränsa initial körning till de som har externa URL:er att följa
     candidates = [
         f
-        for f in todo
+        for f in fvos
         if f.get("url_fvof") or f.get("url_ifiske_for_externa_lankar")
     ]
     print(f"Kandidater med externa/iFiske-länkar: {len(candidates)}")
@@ -278,9 +356,7 @@ def main() -> None:
     session.headers.update({"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"})
 
     results = []
-    # Parallel but polite
-    workers = 8
-    with ThreadPoolExecutor(max_workers=workers) as ex:
+    with ThreadPoolExecutor(max_workers=8) as ex:
         futs = {ex.submit(process_fvo, f, session): f for f in candidates}
         done = 0
         for fut in as_completed(futs):
@@ -323,7 +399,6 @@ def main() -> None:
             enriched_count += 1
             added_total += len(set(r["tillagda_arter"]) - before)
 
-    # Recompute catalog + coverage
     catalog: set[str] = set()
     coverage = {
         "har_fiskekartan_arter": 0,
@@ -337,7 +412,7 @@ def main() -> None:
         catalog.update(f.get("arter") or [])
         if f.get("fiskekartan", {}).get("arter"):
             coverage["har_fiskekartan_arter"] += 1
-        if any(k in (f.get("kallor") or []) for k in ("slu_provfiske",)):
+        if "slu_provfiske" in (f.get("kallor") or []):
             coverage["har_survey_arter"] += 1
         if f.get("arter"):
             coverage["har_nagon_art"] += 1
@@ -357,10 +432,8 @@ def main() -> None:
         "kandidater": len(candidates),
     }
     data["arter_katalog"] = sorted(catalog, key=lambda s: s.casefold())
-
     src.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # Refresh index + csv lightly via rewrite index
     index = [
         {
             "original_id": f["original_id"],
@@ -386,10 +459,51 @@ def main() -> None:
         ),
         encoding="utf-8",
     )
-
     (OUT / "extern_enrichment_log.json").write_text(
         json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+
+    # Refresh CSV
+    import csv
+
+    csv_path = OUT / "fvo_artlista.csv"
+    with csv_path.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(
+            fh,
+            fieldnames=[
+                "original_id",
+                "namn",
+                "ansvarigt_lan",
+                "kommuner",
+                "antal_arter",
+                "arter",
+                "fiskekartan_arter",
+                "antal_sjoar_survey",
+                "antal_vattendrag_survey",
+                "kallor",
+                "url_fvof",
+                "url_fiskekartan",
+            ],
+        )
+        w.writeheader()
+        for f in fvos:
+            w.writerow(
+                {
+                    "original_id": f["original_id"],
+                    "namn": f["namn"],
+                    "ansvarigt_lan": f["ansvarigt_lan"],
+                    "kommuner": f["kommuner"],
+                    "antal_arter": f["statistik"]["antal_arter"],
+                    "arter": "; ".join(f["arter"]),
+                    "fiskekartan_arter": "; ".join(f["fiskekartan"]["arter"]),
+                    "antal_sjoar_survey": f["statistik"]["antal_sjoar_survey"],
+                    "antal_vattendrag_survey": f["statistik"]["antal_vattendrag_survey"],
+                    "kallor": "; ".join(f["kallor"]),
+                    "url_fvof": f["url_fvof"] or "",
+                    "url_fiskekartan": f["url_fiskekartan"] or "",
+                }
+            )
+
     print(
         json.dumps(
             {

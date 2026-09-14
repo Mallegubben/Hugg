@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T17:10:17.360308+00:00",
+    "generated_at": "2026-09-14T17:17:53.183569+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -25,13 +25,19 @@
       "ifiske_anvandning": "Endast för att hitta externa FVOF-länkar (se enrich-script)"
     },
     "coverage": {
-      "har_survey_arter": 1194,
-      "har_nagon_art": 1523,
-      "har_vattenposter": 1194,
       "har_fiskekartan_arter": 994,
-      "saknar_arter": 384
+      "har_survey_arter": 1194,
+      "har_nagon_art": 1529,
+      "saknar_arter": 378,
+      "har_vattenposter": 1194,
+      "har_extern_enrichment": 52
     },
-    "antal_unika_arter": 84
+    "antal_unika_arter": 85,
+    "extern_enrichment": {
+      "fvo_uppdaterade": 52,
+      "artposter_tillagda": 117,
+      "kandidater": 1111
+    }
   },
   "arter_katalog": [
     "Abborre",
@@ -65,6 +71,7 @@
     "Kanadaröding",
     "Karp",
     "Karpfisk obestämd",
+    "Kräfta",
     "Kräfta obestämd",
     "Lake",
     "Lax",
@@ -2689,18 +2696,28 @@
         "Mört",
         "Ruda",
         "Sarv",
+        "Signalkräfta",
         "Siklöja",
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Signalkräfta"
+        ],
+        "kallor_url:er": [
+          "https://allgunnen.se/"
+        ]
       }
     },
     {
@@ -3324,6 +3341,7 @@
         "Gös",
         "Lake",
         "Mört",
+        "Ruda",
         "Sarv",
         "Signalkräfta",
         "Siklöja",
@@ -3333,7 +3351,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -3411,10 +3430,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 2
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ruda"
+        ],
+        "kallor_url:er": [
+          "https://www.alsedaskedefvo.se/"
+        ]
       }
     },
     {
@@ -7987,6 +8014,7 @@
         "Mört",
         "Nejonöga",
         "Nors",
+        "Regnbåge",
         "Ruda",
         "Röding",
         "Sarv",
@@ -8000,7 +8028,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -8538,10 +8567,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 26,
+        "antal_arter": 27,
         "antal_vatten_med_survey": 21,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 19
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://www.attmarfvo.se/"
+        ]
       }
     },
     {
@@ -9678,13 +9715,15 @@
         "Röding",
         "Sarv",
         "Signalkräfta",
+        "Sik",
         "Siklöja",
         "Stensimpa",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -10004,10 +10043,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 25,
+        "antal_arter": 26,
         "antal_vatten_med_survey": 14,
         "antal_sjoar_survey": 5,
         "antal_vattendrag_survey": 9
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://barkensjoarnasfvof.se/"
+        ]
       }
     },
     {
@@ -10066,6 +10113,7 @@
         "Lake",
         "Mört",
         "Nors",
+        "Signalkräfta",
         "Sik",
         "Siklöja",
         "Stensimpa",
@@ -10074,7 +10122,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -10104,10 +10153,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 14,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Signalkräfta"
+        ],
+        "kallor_url:er": [
+          "https://www.bellenfiske.se/"
+        ]
       }
     },
     {
@@ -10470,14 +10527,36 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lax",
+        "Stäm",
+        "Öring"
+      ],
+      "kallor": [
+        "extern_fvof"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lax",
+          "Stäm",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://bergeforsfisket.com/"
+        ]
       }
     },
     {
@@ -13161,6 +13240,7 @@
         "Braxen",
         "Elritsa",
         "Gädda",
+        "Harr",
         "Lake",
         "Sik",
         "Stensimpa",
@@ -13168,7 +13248,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -13201,10 +13282,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Harr"
+        ],
+        "kallor_url:er": [
+          "https://sodralappland.nu/fiskeomraden/fiskeomraden-asele/bjorksele-fiskevardsomrade/"
+        ]
       }
     },
     {
@@ -16823,11 +16912,14 @@
         "Sarv",
         "Sik",
         "Siklöja",
+        "Sutare",
+        "Ål",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -16861,10 +16953,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sutare",
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://bolmensweden.com/"
+        ]
       }
     },
     {
@@ -19025,6 +19126,7 @@
         "Abborre",
         "Braxen",
         "Elritsa",
+        "Färna",
         "Gädda",
         "Gös",
         "Kräfta obestämd",
@@ -19036,7 +19138,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -19105,10 +19208,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 2
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Färna"
+        ],
+        "kallor_url:er": [
+          "https://www.bosjonsfvo.se/"
+        ]
       }
     },
     {
@@ -25188,12 +25299,14 @@
         "Harr",
         "Lake",
         "Signalkräfta",
+        "Sik",
         "Stensimpa",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -25244,10 +25357,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://dalalvensfvo.se/"
+        ]
       }
     },
     {
@@ -25269,18 +25390,21 @@
         "arter": []
       },
       "arter": [
+        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",
         "Gädda",
         "Harr",
         "Lake",
+        "Mört",
         "Simpa (Berg-",
         "Sten-",
         "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -25644,10 +25768,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 14,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 14
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Mört"
+        ],
+        "kallor_url:er": [
+          "https://dammån.se"
+        ]
       }
     },
     {
@@ -25920,6 +26053,7 @@
         "Ruda",
         "Röding",
         "Signalkräfta",
+        "Sik",
         "Siklöja",
         "Simpa (Berg-",
         "Sten-",
@@ -25930,7 +26064,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -29100,10 +29235,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 28,
+        "antal_arter": 29,
         "antal_vatten_med_survey": 139,
         "antal_sjoar_survey": 6,
         "antal_vattendrag_survey": 133
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://dellenbygdens-fvo.se"
+        ]
       }
     },
     {
@@ -39399,17 +39542,27 @@
         "Sik",
         "Siklöja",
         "Sutare",
-        "Ål"
+        "Ål",
+        "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.furen.se/"
+        ]
       }
     },
     {
@@ -40282,11 +40435,13 @@
         "Simpa (Berg-",
         "Sten-",
         "Stensimpa",
+        "Stäm",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -41026,10 +41181,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 23,
+        "antal_arter": 24,
         "antal_vatten_med_survey": 33,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 32
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Stäm"
+        ],
+        "kallor_url:er": [
+          "https://www.farilafiske.se"
+        ]
       }
     },
     {
@@ -43447,10 +43610,12 @@
         "Abborre",
         "Gädda",
         "Mört",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -43475,10 +43640,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 4,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.gesebol-fiske.se/"
+        ]
       }
     },
     {
@@ -48379,14 +48552,17 @@
         "Mört",
         "Röding",
         "Sik",
+        "Siklöja",
         "Simpa (Berg-",
         "Sten-",
         "Stensimpa",
+        "Stäm",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -48962,10 +49138,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 23,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 20
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Siklöja",
+          "Stäm"
+        ],
+        "kallor_url:er": [
+          "https://gunnarbacken-juktansnedre.se"
+        ]
       }
     },
     {
@@ -50778,11 +50963,13 @@
         "Gärs",
         "Lake",
         "Mört",
-        "Regnbåge"
+        "Regnbåge",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -50826,10 +51013,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 6,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.gardviksfvof.se/"
+        ]
       }
     },
     {
@@ -55988,18 +56183,28 @@
         "Lake",
         "Mört",
         "Sik",
+        "Siklöja",
         "Sutare",
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Siklöja"
+        ],
+        "kallor_url:er": [
+          "https://hindsenfiske.se/"
+        ]
       }
     },
     {
@@ -66237,13 +66442,16 @@
         "Grönling",
         "Gädda",
         "Havsöring",
+        "Karp",
+        "Lax",
         "Mört",
         "Ål",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -66271,10 +66479,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Karp",
+          "Lax"
+        ],
+        "kallor_url:er": [
+          "https://hojeafiske.se/"
+        ]
       }
     },
     {
@@ -82669,11 +82886,13 @@
         "Sik",
         "Siklöja",
         "Sutare",
-        "Ål"
+        "Ål",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -82703,10 +82922,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://kosen.se/"
+        ]
       }
     },
     {
@@ -83103,14 +83330,26 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Lax"
+      ],
+      "kallor": [
+        "extern_fvof"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 1,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Lax"
+        ],
+        "kallor_url:er": [
+          "https://www.laholmslaxfiske.se/"
+        ]
       }
     },
     {
@@ -84571,20 +84810,30 @@
         "Gädda",
         "Havsöring",
         "Lake",
+        "Lax",
         "Mört",
         "Siklöja",
         "Ål",
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Lax"
+        ],
+        "kallor_url:er": [
+          "https://www.projektleduan.se"
+        ]
       }
     },
     {
@@ -84612,18 +84861,34 @@
         ]
       },
       "arter": [
+        "Gädda",
+        "Harr",
+        "Havsöring",
+        "Lake",
         "Lax",
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 2,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gädda",
+          "Harr",
+          "Havsöring",
+          "Lake"
+        ],
+        "kallor_url:er": [
+          "https://www.lejonstromsfvo.se/"
+        ]
       }
     },
     {
@@ -94378,6 +94643,8 @@
         "Mört",
         "Nejonöga",
         "Nors",
+        "Regnbåge",
+        "Röding",
         "Sik",
         "Siklöja",
         "Simpa (Berg-",
@@ -94387,7 +94654,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -95456,10 +95724,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 25,
+        "antal_arter": 27,
         "antal_vatten_med_survey": 46,
         "antal_sjoar_survey": 4,
         "antal_vattendrag_survey": 42
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Regnbåge",
+          "Röding"
+        ],
+        "kallor_url:er": [
+          "https://www.ljusdalsfvo.se"
+        ]
       }
     },
     {
@@ -95503,8 +95780,10 @@
         "Elritsa",
         "Gädda",
         "Gärs",
+        "Gös",
         "Lake",
         "Mört",
+        "Regnbåge",
         "Ruda",
         "Signalkräfta",
         "Siklöja",
@@ -95516,7 +95795,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -96140,10 +96420,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 17,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 26,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 25
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös",
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://www.ljusnarsbergsfvo.com/"
+        ]
       }
     },
     {
@@ -102074,14 +102363,38 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Benlöja",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sutare",
+        "Ål"
+      ],
+      "kallor": [
+        "extern_fvof"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Benlöja",
+          "Braxen",
+          "Gädda",
+          "Gös",
+          "Mört",
+          "Sutare",
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.skaraborgsfiske.se/langen/"
+        ]
       }
     },
     {
@@ -105597,17 +105910,24 @@
         "arter": []
       },
       "arter": [
+        "Abborre",
         "Bäckröding",
         "Elritsa",
+        "Gädda",
         "Harr",
+        "Lake",
         "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
         "Simpa (Berg-",
         "Sten-",
         "Stensimpa",
         "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -105807,10 +106127,23 @@
         }
       ],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 9,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 9
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Lake",
+          "Regnbåge",
+          "Röding",
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://www.malgomajfvo.se/"
+        ]
       }
     },
     {
@@ -110670,20 +111003,42 @@
         "Abborre",
         "Benlöja",
         "Björkna",
+        "Braxen",
         "Gädda",
+        "Gärs",
         "Gös",
+        "Karp",
+        "Mört",
         "Ruda",
+        "Sarv",
+        "Sutare",
+        "Ål",
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Braxen",
+          "Gärs",
+          "Karp",
+          "Mört",
+          "Sarv",
+          "Sutare",
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://markarydsfiskevardsomrade.se/"
+        ]
       }
     },
     {
@@ -112297,11 +112652,13 @@
         "Mört",
         "Signalkräfta",
         "Sik",
+        "Siklöja",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -112374,10 +112731,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Siklöja"
+        ],
+        "kallor_url:er": [
+          "https://www.mien.se"
+        ]
       }
     },
     {
@@ -117833,7 +118198,9 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Harr",
         "Lake",
+        "Lax",
         "Mört",
         "Nors",
         "Ruda",
@@ -117845,7 +118212,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -117904,10 +118272,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Harr",
+          "Lax"
+        ],
+        "kallor_url:er": [
+          "https://www.jonkoping.se/fritid-kultur--natur/friluftsliv-natur-och-parker/friluftsliv/fiska/fiske-i-munksjon-och-rocksjon-sportfiskekortet-och-regler"
+        ]
       }
     },
     {
@@ -118800,11 +119177,13 @@
         "Sarv",
         "Sik",
         "Siklöja",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -118912,10 +119291,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 20,
+        "antal_arter": 21,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.mockelnsfvo.se"
+        ]
       }
     },
     {
@@ -121219,6 +121606,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Karpfisk obestämd",
         "Lake",
         "Lax",
@@ -121234,7 +121622,8 @@
         "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -121354,10 +121743,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 24,
+        "antal_arter": 25,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 2
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Havsöring"
+        ],
+        "kallor_url:er": [
+          "https://www.nedrehelgean.se"
+        ]
       }
     },
     {
@@ -123620,6 +124017,7 @@
         "Färna",
         "Gädda",
         "Havsnejonöga",
+        "Havsöring",
         "Lake",
         "Lax",
         "Lax_Öring_Hybrid",
@@ -123631,7 +124029,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -123711,10 +124110,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 14,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Havsöring"
+        ],
+        "kallor_url:er": [
+          "https://orekil.com/"
+        ]
       }
     },
     {
@@ -131591,19 +131998,29 @@
         "Abborre",
         "Gädda",
         "Mört",
+        "Sik",
         "Siklöja",
         "Ål",
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 6,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://www.norrakornsjon.com/"
+        ]
       }
     },
     {
@@ -140491,13 +140908,15 @@
         "Harr",
         "Lake",
         "Nejonöga",
+        "Röding",
         "Simpa (Berg-",
         "Sten-",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -140865,10 +141284,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 17,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 17
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Röding"
+        ],
+        "kallor_url:er": [
+          "https://www.ormsjofiske.se/"
+        ]
       }
     },
     {
@@ -151291,10 +151718,12 @@
         "Siklöja",
         "Stensimpa",
         "Sutare",
-        "Vimma"
+        "Vimma",
+        "Ål"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -151332,10 +151761,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 17,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.roxen.nu/"
+        ]
       }
     },
     {
@@ -158341,18 +158778,38 @@
         ]
       },
       "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lax",
         "Regnbåge",
-        "Sik"
+        "Sik",
+        "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 2,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Id",
+          "Lax",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.sammakko.info"
+        ]
       }
     },
     {
@@ -167201,6 +167658,7 @@
         "Nejonöga",
         "Nors",
         "Regnbåge",
+        "Röding",
         "Sik",
         "Simpa (Berg-",
         "Sten-",
@@ -167211,7 +167669,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -167419,10 +167878,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 23,
+        "antal_arter": 24,
         "antal_vatten_med_survey": 8,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 6
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Röding"
+        ],
+        "kallor_url:er": [
+          "https://solleftea-fvo.se/"
+        ]
       }
     },
     {
@@ -168389,8 +168856,10 @@
       },
       "arter": [
         "Abborre",
+        "Braxen",
         "Gädda",
         "Mört",
+        "Ruda",
         "Siklöja",
         "Simpa (Berg-",
         "Sten-",
@@ -168398,7 +168867,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -168426,10 +168896,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Braxen",
+          "Ruda"
+        ],
+        "kallor_url:er": [
+          "https://www.spexhultasjon.se/Fiskarter.html"
+        ]
       }
     },
     {
@@ -172054,6 +172533,7 @@
         "Mört",
         "Regnbåge",
         "Ruda",
+        "Röding",
         "Sarv",
         "Signalkräfta",
         "Siklöja",
@@ -172063,7 +172543,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -172156,10 +172637,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 17,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 3
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Röding"
+        ],
+        "kallor_url:er": [
+          "https://www.fiska-i-stora-skedvi.se"
+        ]
       }
     },
     {
@@ -178861,14 +179350,17 @@
         "Mört",
         "Nors",
         "R",
+        "Regnbåge",
         "Sarv",
         "Stensimpa",
         "Sutare",
+        "Ål",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -178922,10 +179414,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 20,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Regnbåge",
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.surafvof.com/"
+        ]
       }
     },
     {
@@ -187430,11 +187931,13 @@
         "Röding",
         "Sarv",
         "Sik",
-        "Stensimpa"
+        "Stensimpa",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -187460,10 +187963,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://lelang.se"
+        ]
       }
     },
     {
@@ -191959,14 +192470,42 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Ruda",
+        "Sarv",
+        "Sutare"
+      ],
+      "kallor": [
+        "extern_fvof"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Björkna",
+          "Braxen",
+          "Gädda",
+          "Gös",
+          "Mört",
+          "Ruda",
+          "Sarv",
+          "Sutare"
+        ],
+        "kallor_url:er": [
+          "https://tjornarpssjon.hemsida24.se/"
+        ]
       }
     },
     {
@@ -201905,11 +202444,13 @@
         "Siklöja",
         "Stensimpa",
         "Sutare",
+        "Ål",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -201995,10 +202536,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 14,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.uvasjonsfvof.se"
+        ]
       }
     },
     {
@@ -204166,13 +204715,22 @@
         "Braxen",
         "Gädda",
         "Gärs",
+        "Gös",
+        "Kräfta",
+        "Lax",
         "Mört",
+        "Regnbåge",
         "Sarv",
-        "Siklöja"
+        "Sik",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -204202,10 +204760,25 @@
         }
       ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 17,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös",
+          "Kräfta",
+          "Lax",
+          "Regnbåge",
+          "Sik",
+          "Sutare",
+          "Ål",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.vederslovssjonsfvof.se/"
+        ]
       }
     },
     {
@@ -207021,6 +207594,7 @@
       },
       "arter": [
         "Abborre",
+        "Asp",
         "Benlöja",
         "Björkna",
         "Braxen",
@@ -207029,10 +207603,14 @@
         "Gös",
         "Mört",
         "Nors",
-        "Siklöja"
+        "Regnbåge",
+        "Röding",
+        "Siklöja",
+        "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -207063,10 +207641,21 @@
         }
       ],
       "statistik": {
-        "antal_arter": 10,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Asp",
+          "Regnbåge",
+          "Röding",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.virsbofiske.se/"
+        ]
       }
     },
     {
@@ -209886,6 +210475,7 @@
         "Mört",
         "Nejonöga",
         "Nors",
+        "Regnbåge",
         "Sarv",
         "Stensimpa",
         "Stäm",
@@ -209896,7 +210486,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -210045,10 +210636,18 @@
         }
       ],
       "statistik": {
-        "antal_arter": 23,
+        "antal_arter": 24,
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 6
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://edafiske.se/"
+        ]
       }
     },
     {
@@ -214072,18 +214671,28 @@
         "Gös",
         "Lake",
         "Mört",
+        "Sarv",
         "Sutare",
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sarv"
+        ],
+        "kallor_url:er": [
+          "https://www.skaraborgsfiske.se/ymsen/"
+        ]
       }
     },
     {
@@ -215039,14 +215648,36 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Flodkräfta",
+        "Gädda",
+        "Gös",
+        "Signalkräfta",
+        "Siklöja"
+      ],
+      "kallor": [
+        "extern_fvof"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Flodkräfta",
+          "Gädda",
+          "Gös",
+          "Signalkräfta",
+          "Siklöja"
+        ],
+        "kallor_url:er": [
+          "https://yxern.se/"
+        ]
       }
     },
     {
@@ -224446,11 +225077,14 @@
         "Sik",
         "Siklöja",
         "Stens",
-        "Sutare"
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "extern_fvof"
       ],
       "vatten": [
         {
@@ -224508,10 +225142,19 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 20,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 1
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ål",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://asnensfvo.se/"
+        ]
       }
     },
     {
@@ -225427,17 +226070,27 @@
         "Abborre",
         "Braxen",
         "Gädda",
+        "Lake",
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 4,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Lake"
+        ],
+        "kallor_url:er": [
+          "https://www.ringamala.info/index.php/foereningar/ojasjons-fvo"
+        ]
       }
     },
     {
@@ -225811,14 +226464,30 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "kallor": [
+        "extern_fvof"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Gös"
+        ],
+        "kallor_url:er": [
+          "https://www.oljaren.se/"
+        ]
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:10:17.360308+00:00",
+  "generated_at": "2026-09-14T17:17:53.183569+00:00",
   "antal_fvo": 1907,
   "fvo": [
     {
@@ -266,10 +266,11 @@
         "Mört",
         "Ruda",
         "Sarv",
+        "Signalkräfta",
         "Siklöja",
         "Sutare"
       ],
-      "antal_arter": 13,
+      "antal_arter": 14,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Allgunnens%20fvof&sp=false",
       "url_fvof": "allgunnen.se/"
@@ -414,6 +415,7 @@
         "Gös",
         "Lake",
         "Mört",
+        "Ruda",
         "Sarv",
         "Signalkräfta",
         "Siklöja",
@@ -421,7 +423,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 18,
+      "antal_arter": 19,
       "antal_vatten_med_survey": 3,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Alseda-Skede%20fvof&sp=false",
       "url_fvof": "www.alsedaskedefvo.se/"
@@ -1282,6 +1284,7 @@
         "Mört",
         "Nejonöga",
         "Nors",
+        "Regnbåge",
         "Ruda",
         "Röding",
         "Sarv",
@@ -1293,7 +1296,7 @@
         "Stäm",
         "Öring"
       ],
-      "antal_arter": 26,
+      "antal_arter": 27,
       "antal_vatten_med_survey": 21,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Attmars%20fvof&sp=false",
       "url_fvof": "www.attmarfvo.se/"
@@ -1538,11 +1541,12 @@
         "Röding",
         "Sarv",
         "Signalkräfta",
+        "Sik",
         "Siklöja",
         "Stensimpa",
         "Öring"
       ],
-      "antal_arter": 25,
+      "antal_arter": 26,
       "antal_vatten_med_survey": 14,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Barkensjöarnas%20fvof&sp=false",
       "url_fvof": "barkensjoarnasfvof.se/"
@@ -1561,13 +1565,14 @@
         "Lake",
         "Mört",
         "Nors",
+        "Signalkräfta",
         "Sik",
         "Siklöja",
         "Stensimpa",
         "Sut",
         "Sutare"
       ],
-      "antal_arter": 14,
+      "antal_arter": 15,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bellens%20fvof&sp=false",
       "url_fvof": "www.bellenfiske.se/"
@@ -1651,8 +1656,15 @@
       "original_id": 1333,
       "namn": "Bergeforsens fvof",
       "ansvarigt_lan": "Västernorrland",
-      "arter": [],
-      "antal_arter": 0,
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lax",
+        "Stäm",
+        "Öring"
+      ],
+      "antal_arter": 6,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bergeforsens%20fvof&sp=false",
       "url_fvof": "bergeforsfisket.com/"
@@ -2081,12 +2093,13 @@
         "Braxen",
         "Elritsa",
         "Gädda",
+        "Harr",
         "Lake",
         "Sik",
         "Stensimpa",
         "Öring"
       ],
-      "antal_arter": 9,
+      "antal_arter": 10,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Björksele%20fvof%20%20(Åsele)&sp=false",
       "url_fvof": "sodralappland.nu/fiskeomraden/fiskeomraden-asele/bjorksele-fiskevardsomrade/"
@@ -2646,9 +2659,11 @@
         "Sarv",
         "Sik",
         "Siklöja",
+        "Sutare",
+        "Ål",
         "Öring"
       ],
-      "antal_arter": 16,
+      "antal_arter": 18,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bolmens%20fvof&sp=false",
       "url_fvof": "bolmensweden.com/"
@@ -2970,6 +2985,7 @@
         "Abborre",
         "Braxen",
         "Elritsa",
+        "Färna",
         "Gädda",
         "Gös",
         "Kräfta obestämd",
@@ -2979,7 +2995,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 11,
+      "antal_arter": 12,
       "antal_vatten_med_survey": 3,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bosjöns%20fvof&sp=false",
       "url_fvof": "www.bosjonsfvo.se/"
@@ -4087,10 +4103,11 @@
         "Harr",
         "Lake",
         "Signalkräfta",
+        "Sik",
         "Stensimpa",
         "Öring"
       ],
-      "antal_arter": 9,
+      "antal_arter": 10,
       "antal_vatten_med_survey": 2,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Dalälvens%20fvof&sp=false",
       "url_fvof": "dalalvensfvo.se/"
@@ -4100,17 +4117,19 @@
       "namn": "Dammåns fvof",
       "ansvarigt_lan": "Jämtland",
       "arter": [
+        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",
         "Gädda",
         "Harr",
         "Lake",
+        "Mört",
         "Simpa (Berg-",
         "Sten-",
         "Öring"
       ],
-      "antal_arter": 9,
+      "antal_arter": 11,
       "antal_vatten_med_survey": 14,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Dammåns%20fvof&sp=false",
       "url_fvof": "dammån.se"
@@ -4201,6 +4220,7 @@
         "Ruda",
         "Röding",
         "Signalkräfta",
+        "Sik",
         "Siklöja",
         "Simpa (Berg-",
         "Sten-",
@@ -4209,7 +4229,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 28,
+      "antal_arter": 29,
       "antal_vatten_med_survey": 139,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Dellenbygdens%20fvof&sp=false",
       "url_fvof": "dellenbygdens-fvo.se"
@@ -5938,9 +5958,10 @@
         "Sik",
         "Siklöja",
         "Sutare",
-        "Ål"
+        "Ål",
+        "Öring"
       ],
-      "antal_arter": 13,
+      "antal_arter": 14,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Furens%20fvof&sp=false",
       "url_fvof": "www.furen.se/"
@@ -6148,9 +6169,10 @@
         "Simpa (Berg-",
         "Sten-",
         "Stensimpa",
+        "Stäm",
         "Öring"
       ],
-      "antal_arter": 23,
+      "antal_arter": 24,
       "antal_vatten_med_survey": 33,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Färila%20fvof&sp=false",
       "url_fvof": "www.farilafiske.se"
@@ -6547,9 +6569,10 @@
         "Abborre",
         "Gädda",
         "Mört",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
-      "antal_arter": 4,
+      "antal_arter": 5,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gesebolssjöns%20fvof&sp=false",
       "url_fvof": "www.gesebol-fiske.se/"
@@ -7659,12 +7682,14 @@
         "Mört",
         "Röding",
         "Sik",
+        "Siklöja",
         "Simpa (Berg-",
         "Sten-",
         "Stensimpa",
+        "Stäm",
         "Öring"
       ],
-      "antal_arter": 13,
+      "antal_arter": 15,
       "antal_vatten_med_survey": 23,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gunnarbäckens-Juktåns%20nedre%20fvof&sp=false",
       "url_fvof": "gunnarbacken-juktansnedre.se"
@@ -8019,9 +8044,10 @@
         "Gärs",
         "Lake",
         "Mört",
-        "Regnbåge"
+        "Regnbåge",
+        "Öring"
       ],
-      "antal_arter": 6,
+      "antal_arter": 7,
       "antal_vatten_med_survey": 2,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gårdviks%20fvof&sp=false",
       "url_fvof": "www.gardviksfvof.se/"
@@ -9045,10 +9071,11 @@
         "Lake",
         "Mört",
         "Sik",
+        "Siklöja",
         "Sutare",
         "Ål"
       ],
-      "antal_arter": 9,
+      "antal_arter": 10,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Hindsens%20fvof&sp=false",
       "url_fvof": "hindsenfiske.se/"
@@ -10921,11 +10948,13 @@
         "Grönling",
         "Gädda",
         "Havsöring",
+        "Karp",
+        "Lax",
         "Mört",
         "Ål",
         "Öring"
       ],
-      "antal_arter": 7,
+      "antal_arter": 9,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Höje%20å%20fvof&sp=false",
       "url_fvof": "hojeafiske.se/"
@@ -13588,9 +13617,10 @@
         "Sik",
         "Siklöja",
         "Sutare",
-        "Ål"
+        "Ål",
+        "Öring"
       ],
-      "antal_arter": 13,
+      "antal_arter": 14,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Kösens%20fvof&sp=false",
       "url_fvof": "kosen.se/"
@@ -13674,8 +13704,10 @@
       "original_id": 166,
       "namn": "Lagans fvof",
       "ansvarigt_lan": "Halland",
-      "arter": [],
-      "antal_arter": 0,
+      "arter": [
+        "Lax"
+      ],
+      "antal_arter": 1,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Lagans%20fvof&sp=false",
       "url_fvof": "www.laholmslaxfiske.se/"
@@ -13959,12 +13991,13 @@
         "Gädda",
         "Havsöring",
         "Lake",
+        "Lax",
         "Mört",
         "Siklöja",
         "Ål",
         "Öring"
       ],
-      "antal_arter": 9,
+      "antal_arter": 10,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Leduåns%20fvof&sp=false",
       "url_fvof": "www.projektleduan.se"
@@ -13974,10 +14007,14 @@
       "namn": "Lejonströms fvof",
       "ansvarigt_lan": "Västerbotten",
       "arter": [
+        "Gädda",
+        "Harr",
+        "Havsöring",
+        "Lake",
         "Lax",
         "Öring"
       ],
-      "antal_arter": 2,
+      "antal_arter": 6,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Lejonströms%20fvof&sp=false",
       "url_fvof": "www.lejonstromsfvo.se/"
@@ -15034,6 +15071,8 @@
         "Mört",
         "Nejonöga",
         "Nors",
+        "Regnbåge",
+        "Röding",
         "Sik",
         "Siklöja",
         "Simpa (Berg-",
@@ -15041,7 +15080,7 @@
         "Stensimpa",
         "Öring"
       ],
-      "antal_arter": 25,
+      "antal_arter": 27,
       "antal_vatten_med_survey": 46,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ljusdals%20fvof&sp=false",
       "url_fvof": "www.ljusdalsfvo.se"
@@ -15058,8 +15097,10 @@
         "Elritsa",
         "Gädda",
         "Gärs",
+        "Gös",
         "Lake",
         "Mört",
+        "Regnbåge",
         "Ruda",
         "Signalkräfta",
         "Siklöja",
@@ -15069,7 +15110,7 @@
         "Sutare",
         "Öring"
       ],
-      "antal_arter": 17,
+      "antal_arter": 19,
       "antal_vatten_med_survey": 26,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ljusnarsbergs%20fvof&sp=false",
       "url_fvof": "www.ljusnarsbergsfvo.com/"
@@ -15818,8 +15859,16 @@
       "original_id": 2111,
       "namn": "Långens fvof",
       "ansvarigt_lan": "Västra Götaland",
-      "arter": [],
-      "antal_arter": 0,
+      "arter": [
+        "Benlöja",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sutare",
+        "Ål"
+      ],
+      "antal_arter": 7,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Långens%20fvof&sp=false",
       "url_fvof": "www.skaraborgsfiske.se/langen/"
@@ -16389,16 +16438,22 @@
       "namn": "Malgomaj fvof",
       "ansvarigt_lan": "Västerbotten",
       "arter": [
+        "Abborre",
         "Bäckröding",
         "Elritsa",
+        "Gädda",
         "Harr",
+        "Lake",
         "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
         "Simpa (Berg-",
         "Sten-",
         "Stensimpa",
         "Öring"
       ],
-      "antal_arter": 8,
+      "antal_arter": 14,
       "antal_vatten_med_survey": 9,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Malgomaj%20fvof&sp=false",
       "url_fvof": "www.malgomajfvo.se/"
@@ -16665,12 +16720,19 @@
         "Abborre",
         "Benlöja",
         "Björkna",
+        "Braxen",
         "Gädda",
+        "Gärs",
         "Gös",
+        "Karp",
+        "Mört",
         "Ruda",
+        "Sarv",
+        "Sutare",
+        "Ål",
         "Öring"
       ],
-      "antal_arter": 7,
+      "antal_arter": 14,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Markaryds%20fvof&sp=false",
       "url_fvof": "markarydsfiskevardsomrade.se/"
@@ -16982,9 +17044,10 @@
         "Mört",
         "Signalkräfta",
         "Sik",
+        "Siklöja",
         "Öring"
       ],
-      "antal_arter": 11,
+      "antal_arter": 12,
       "antal_vatten_med_survey": 3,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Miens%20fvof&sp=false",
       "url_fvof": "www.mien.se"
@@ -17512,7 +17575,9 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Harr",
         "Lake",
+        "Lax",
         "Mört",
         "Nors",
         "Ruda",
@@ -17522,7 +17587,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 16,
+      "antal_arter": 18,
       "antal_vatten_med_survey": 2,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Munksjöns%20fvof&sp=false",
       "url_fvof": "www.jonkoping.se/fritid-kultur--natur/friluftsliv-natur-och-parker/friluftsliv/fiska/fiske-i-munksjon-och-rocksjon-sportfiskekortet-och-regler"
@@ -17719,9 +17784,10 @@
         "Sarv",
         "Sik",
         "Siklöja",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
-      "antal_arter": 20,
+      "antal_arter": 21,
       "antal_vatten_med_survey": 4,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Möckeln%20m.fl.%20sjöars%20fvof&sp=false",
       "url_fvof": "www.mockelnsfvo.se"
@@ -18119,6 +18185,7 @@
         "Gädda",
         "Gärs",
         "Gös",
+        "Havsöring",
         "Karpfisk obestämd",
         "Lake",
         "Lax",
@@ -18133,7 +18200,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 24,
+      "antal_arter": 25,
       "antal_vatten_med_survey": 4,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Nedre%20Helgeåns%20fvof&sp=false",
       "url_fvof": "www.nedrehelgean.se"
@@ -18455,6 +18522,7 @@
         "Färna",
         "Gädda",
         "Havsnejonöga",
+        "Havsöring",
         "Lake",
         "Lax",
         "Lax_Öring_Hybrid",
@@ -18464,7 +18532,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 14,
+      "antal_arter": 15,
       "antal_vatten_med_survey": 2,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Nedre%20Örekilsälvens%20fvof&sp=false",
       "url_fvof": "orekil.com/"
@@ -19119,11 +19187,12 @@
         "Abborre",
         "Gädda",
         "Mört",
+        "Sik",
         "Siklöja",
         "Ål",
         "Öring"
       ],
-      "antal_arter": 6,
+      "antal_arter": 7,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Norra%20Kornsjöns%20fvof&sp=false",
       "url_fvof": "www.norrakornsjon.com/"
@@ -20246,11 +20315,12 @@
         "Harr",
         "Lake",
         "Nejonöga",
+        "Röding",
         "Simpa (Berg-",
         "Sten-",
         "Öring"
       ],
-      "antal_arter": 9,
+      "antal_arter": 10,
       "antal_vatten_med_survey": 17,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ormsjöortens%20fvof&sp=false",
       "url_fvof": "www.ormsjofiske.se/"
@@ -21680,9 +21750,10 @@
         "Siklöja",
         "Stensimpa",
         "Sutare",
-        "Vimma"
+        "Vimma",
+        "Ål"
       ],
-      "antal_arter": 17,
+      "antal_arter": 18,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Roxens%20fvof&sp=false",
       "url_fvof": "www.roxen.nu/"
@@ -22810,10 +22881,16 @@
       "namn": "Sammakko-Lillbergets fvof",
       "ansvarigt_lan": "Norrbotten",
       "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lax",
         "Regnbåge",
-        "Sik"
+        "Sik",
+        "Öring"
       ],
-      "antal_arter": 2,
+      "antal_arter": 8,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sammakko-Lillbergets%20fvof&sp=false",
       "url_fvof": "www.sammakko.info"
@@ -24620,6 +24697,7 @@
         "Nejonöga",
         "Nors",
         "Regnbåge",
+        "Röding",
         "Sik",
         "Simpa (Berg-",
         "Sten-",
@@ -24628,7 +24706,7 @@
         "Sutare",
         "Öring"
       ],
-      "antal_arter": 23,
+      "antal_arter": 24,
       "antal_vatten_med_survey": 8,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sollefteåortens%20fvof&sp=false",
       "url_fvof": "solleftea-fvo.se/"
@@ -24776,14 +24854,16 @@
       "ansvarigt_lan": "Jönköping",
       "arter": [
         "Abborre",
+        "Braxen",
         "Gädda",
         "Mört",
+        "Ruda",
         "Siklöja",
         "Simpa (Berg-",
         "Sten-",
         "Sutare"
       ],
-      "antal_arter": 7,
+      "antal_arter": 9,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Spexhultasjöns%20fvof&sp=false",
       "url_fvof": "www.spexhultasjon.se/Fiskarter.html"
@@ -25454,6 +25534,7 @@
         "Mört",
         "Regnbåge",
         "Ruda",
+        "Röding",
         "Sarv",
         "Signalkräfta",
         "Siklöja",
@@ -25461,7 +25542,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 17,
+      "antal_arter": 18,
       "antal_vatten_med_survey": 4,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Stora%20Skedvi%20fvof&sp=false",
       "url_fvof": "www.fiska-i-stora-skedvi.se"
@@ -26521,12 +26602,14 @@
         "Mört",
         "Nors",
         "R",
+        "Regnbåge",
         "Sarv",
         "Stensimpa",
         "Sutare",
+        "Ål",
         "Öring"
       ],
-      "antal_arter": 18,
+      "antal_arter": 20,
       "antal_vatten_med_survey": 2,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Surahammars%20fvof&sp=false",
       "url_fvof": "www.surafvof.com/"
@@ -27663,9 +27746,10 @@
         "Röding",
         "Sarv",
         "Sik",
-        "Stensimpa"
+        "Stensimpa",
+        "Öring"
       ],
-      "antal_arter": 18,
+      "antal_arter": 19,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Södra%20Lelångs%20fvof&sp=false",
       "url_fvof": "lelang.se"
@@ -28567,8 +28651,18 @@
       "original_id": 2174,
       "namn": "Tjörnarpssjöns fvof",
       "ansvarigt_lan": "Skåne",
-      "arter": [],
-      "antal_arter": 0,
+      "arter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Ruda",
+        "Sarv",
+        "Sutare"
+      ],
+      "antal_arter": 9,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Tjörnarpssjöns%20fvof&sp=false",
       "url_fvof": "tjornarpssjon.hemsida24.se/"
@@ -30098,9 +30192,10 @@
         "Siklöja",
         "Stensimpa",
         "Sutare",
+        "Ål",
         "Öring"
       ],
-      "antal_arter": 14,
+      "antal_arter": 15,
       "antal_vatten_med_survey": 3,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Uvasjöns%20fvof&sp=false",
       "url_fvof": "www.uvasjonsfvof.se"
@@ -30529,11 +30624,19 @@
         "Braxen",
         "Gädda",
         "Gärs",
+        "Gös",
+        "Kräfta",
+        "Lax",
         "Mört",
+        "Regnbåge",
         "Sarv",
-        "Siklöja"
+        "Sik",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
-      "antal_arter": 9,
+      "antal_arter": 17,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Vederslövssjöns%20fvof&sp=false",
       "url_fvof": "www.vederslovssjonsfvof.se/"
@@ -31081,6 +31184,7 @@
       "ansvarigt_lan": "Västmanland",
       "arter": [
         "Abborre",
+        "Asp",
         "Benlöja",
         "Björkna",
         "Braxen",
@@ -31089,9 +31193,12 @@
         "Gös",
         "Mört",
         "Nors",
-        "Siklöja"
+        "Regnbåge",
+        "Röding",
+        "Siklöja",
+        "Öring"
       ],
-      "antal_arter": 10,
+      "antal_arter": 14,
       "antal_vatten_med_survey": 1,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Virsbosjöns%20fvof&sp=false",
       "url_fvof": "www.virsbofiske.se/"
@@ -31626,6 +31733,7 @@
         "Mört",
         "Nejonöga",
         "Nors",
+        "Regnbåge",
         "Sarv",
         "Stensimpa",
         "Stäm",
@@ -31634,7 +31742,7 @@
         "Ål",
         "Öring"
       ],
-      "antal_arter": 23,
+      "antal_arter": 24,
       "antal_vatten_med_survey": 6,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Vrångsälvens%20fvof&sp=false",
       "url_fvof": "edafiske.se/"
@@ -32500,10 +32608,11 @@
         "Gös",
         "Lake",
         "Mört",
+        "Sarv",
         "Sutare",
         "Ål"
       ],
-      "antal_arter": 12,
+      "antal_arter": 13,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ymsens%20fvof&sp=false",
       "url_fvof": "www.skaraborgsfiske.se/ymsen/"
@@ -32713,8 +32822,15 @@
       "original_id": 435,
       "namn": "Yxerns fvof",
       "ansvarigt_lan": "Kalmar",
-      "arter": [],
-      "antal_arter": 0,
+      "arter": [
+        "Abborre",
+        "Flodkräfta",
+        "Gädda",
+        "Gös",
+        "Signalkräfta",
+        "Siklöja"
+      ],
+      "antal_arter": 6,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Yxerns%20fvof&sp=false",
       "url_fvof": "yxern.se/"
@@ -33843,9 +33959,11 @@
         "Sik",
         "Siklöja",
         "Stens",
-        "Sutare"
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
-      "antal_arter": 18,
+      "antal_arter": 20,
       "antal_vatten_med_survey": 2,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Åsnens%20fvof&sp=false",
       "url_fvof": "asnensfvo.se/"
@@ -34072,9 +34190,10 @@
         "Abborre",
         "Braxen",
         "Gädda",
+        "Lake",
         "Sutare"
       ],
-      "antal_arter": 4,
+      "antal_arter": 5,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Öjasjöns%20fvof&sp=false",
       "url_fvof": "www.ringamala.info/index.php/foereningar/ojasjons-fvo"
@@ -34147,8 +34266,12 @@
       "original_id": 802,
       "namn": "Öljarens fvof",
       "ansvarigt_lan": "Södermanland",
-      "arter": [],
-      "antal_arter": 0,
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "antal_arter": 3,
       "antal_vatten_med_survey": 0,
       "url_fiskekartan": "https://fiskekartan.se/?fv=Öljarens%20fvof&sp=false",
       "url_fvof": "www.oljaren.se/"
