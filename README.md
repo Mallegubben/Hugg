@@ -2,15 +2,17 @@
 
 **[`data/index.json`](data/index.json)** – en enda indexfil.
 
-## iFiske-spegling
-När iFiske har artikoner är `arter` **exakt speglad** mot dem (ingen avvikelse).
-Utökad data (SLU/GBIF/Fiskekartan) ligger i `arter_utokad` och `vatten[]`.
+## Policy
+- **iFiske = spegel/kontroll** (för att se luckor), **aldrig artdata**
+- All artdata hämtas från **respektive FVOF**, Fiskekartan, SLU (NORS/SERS/KUL) eller GBIF
 
-| | |
-|--|--:|
-| Nationellt speglade FVO | 907 |
-| Jämtland speglade | 122 / 157 |
-| FVO med någon art | 1863 |
+## Källor till `arter`
+1. Fiskekartan (`VANL_ART` / `OVRI_ART`)
+2. SLU NORS / SERS / KUL
+3. GBIF (förekomster inom FVO-omslutning)
+4. FVOF-hemsidor (via `URL_FVOF` och länkar som iFiske *hänvisar till*)
+
+`ifiske_spegel_kontroll` i datasetet är bara en jämförelserapport – den skriver inte arter.
 
 ## Köra om
 ```bash
@@ -19,7 +21,6 @@ python scripts/fetch_raw_data.py
 python scripts/build_fvo_artlista.py
 python scripts/enrich_from_gbif.py
 python scripts/enrich_gbif_retry.py
-python scripts/mirror_ifiske.py
-python scripts/match_jamtland_ifiske.py
+python scripts/enrich_via_fvof_using_ifiske_mirror.py
 python scripts/build_index.py
 ```

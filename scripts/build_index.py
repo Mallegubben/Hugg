@@ -65,9 +65,7 @@ def main() -> None:
             "url_fvof": f.get("url_fvof"),
             "kallor": list(f.get("kallor") or []),
             "arter": arter,
-            "arter_utokad": list(f.get("arter_utokad") or arter),
             "fiskekartan_arter": list((f.get("fiskekartan") or {}).get("arter") or []),
-            "ifiske_speglad": bool(f.get("ifiske_spegling")),
             "vatten": vatten,
         }
         fvo_out.append(item)

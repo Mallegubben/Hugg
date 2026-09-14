@@ -1,177 +1,26 @@
 {
-  "generated_at": "2026-09-14T18:17:35.506718+00:00",
-  "antal_fvo": 1907,
-  "antal_unika_arter": 87,
   "coverage": {
     "har_fiskekartan_arter": 994,
     "har_survey_arter": 1565,
     "har_nagon_art": 1859,
     "saknar_arter": 48,
     "har_vattenposter": 1565,
-    "har_extern_enrichment": 43,
-    "har_gbif_enrichment": 461
+    "har_extern_enrichment": 47,
+    "har_gbif_enrichment": 556,
+    "har_ifiske_spegel_kontroll": 884
   },
-  "vattenposter_totalt": 9028,
-  "per_lan": [
-    {
-      "lan": "Blekinge",
-      "antal_fvo": 28,
-      "med_artlista": 28,
-      "utan_artlista": 0,
-      "tackning_pct": 100.0,
-      "vatten_med_survey": 74
-    },
-    {
-      "lan": "Dalarna",
-      "antal_fvo": 69,
-      "med_artlista": 69,
-      "utan_artlista": 0,
-      "tackning_pct": 100.0,
-      "vatten_med_survey": 1568
-    },
-    {
-      "lan": "Gävleborg",
-      "antal_fvo": 51,
-      "med_artlista": 50,
-      "utan_artlista": 1,
-      "tackning_pct": 98.0,
-      "vatten_med_survey": 1051
-    },
-    {
-      "lan": "Halland",
-      "antal_fvo": 51,
-      "med_artlista": 51,
-      "utan_artlista": 0,
-      "tackning_pct": 100.0,
-      "vatten_med_survey": 242
-    },
-    {
-      "lan": "Jämtland",
-      "antal_fvo": 157,
-      "med_artlista": 157,
-      "utan_artlista": 0,
-      "tackning_pct": 100.0,
-      "vatten_med_survey": 795
-    },
-    {
-      "lan": "Jönköping",
-      "antal_fvo": 197,
-      "med_artlista": 194,
-      "utan_artlista": 3,
-      "tackning_pct": 98.5,
-      "vatten_med_survey": 413
-    },
-    {
-      "lan": "Kalmar",
-      "antal_fvo": 85,
-      "med_artlista": 82,
-      "utan_artlista": 3,
-      "tackning_pct": 96.5,
-      "vatten_med_survey": 146
-    },
-    {
-      "lan": "Kronoberg",
-      "antal_fvo": 135,
-      "med_artlista": 131,
-      "utan_artlista": 4,
-      "tackning_pct": 97.0,
-      "vatten_med_survey": 488
-    },
-    {
-      "lan": "Norrbotten",
-      "antal_fvo": 45,
-      "med_artlista": 40,
-      "utan_artlista": 5,
-      "tackning_pct": 88.9,
-      "vatten_med_survey": 143
-    },
-    {
-      "lan": "Skåne",
-      "antal_fvo": 61,
-      "med_artlista": 60,
-      "utan_artlista": 1,
-      "tackning_pct": 98.4,
-      "vatten_med_survey": 170
-    },
-    {
-      "lan": "Stockholm",
-      "antal_fvo": 42,
-      "med_artlista": 38,
-      "utan_artlista": 4,
-      "tackning_pct": 90.5,
-      "vatten_med_survey": 38
-    },
-    {
-      "lan": "Södermanland",
-      "antal_fvo": 16,
-      "med_artlista": 15,
-      "utan_artlista": 1,
-      "tackning_pct": 93.8,
-      "vatten_med_survey": 10
-    },
-    {
-      "lan": "Uppsala",
-      "antal_fvo": 21,
-      "med_artlista": 21,
-      "utan_artlista": 0,
-      "tackning_pct": 100.0,
-      "vatten_med_survey": 45
-    },
-    {
-      "lan": "Värmland",
-      "antal_fvo": 155,
-      "med_artlista": 153,
-      "utan_artlista": 2,
-      "tackning_pct": 98.7,
-      "vatten_med_survey": 1009
-    },
-    {
-      "lan": "Västerbotten",
-      "antal_fvo": 176,
-      "med_artlista": 175,
-      "utan_artlista": 1,
-      "tackning_pct": 99.4,
-      "vatten_med_survey": 986
-    },
-    {
-      "lan": "Västernorrland",
-      "antal_fvo": 138,
-      "med_artlista": 131,
-      "utan_artlista": 7,
-      "tackning_pct": 94.9,
-      "vatten_med_survey": 531
-    },
-    {
-      "lan": "Västmanland",
-      "antal_fvo": 29,
-      "med_artlista": 28,
-      "utan_artlista": 1,
-      "tackning_pct": 96.6,
-      "vatten_med_survey": 89
-    },
-    {
-      "lan": "Västra Götaland",
-      "antal_fvo": 326,
-      "med_artlista": 317,
-      "utan_artlista": 9,
-      "tackning_pct": 97.2,
-      "vatten_med_survey": 832
-    },
-    {
-      "lan": "Örebro",
-      "antal_fvo": 38,
-      "med_artlista": 37,
-      "utan_artlista": 1,
-      "tackning_pct": 97.4,
-      "vatten_med_survey": 282
-    },
-    {
-      "lan": "Östergötland",
-      "antal_fvo": 87,
-      "med_artlista": 82,
-      "utan_artlista": 5,
-      "tackning_pct": 94.3,
-      "vatten_med_survey": 116
-    }
-  ]
+  "policy": {
+    "ifiske_artdata": false,
+    "ifiske_spegel": true,
+    "beskrivning": "iFiske används endast som spegel/kontroll (artikoner). All artdata hämtas från Fiskekartan, SLU, GBIF och respektive FVOF-sida."
+  },
+  "ifiske_spegel": {
+    "med_spegel": 884,
+    "battre_an_spegel": 341,
+    "lika_spegel": 27,
+    "samre_spegel": 516,
+    "fvof_fyllda_fvo": 47,
+    "fvof_artposter": 89,
+    "kvarvarande_luckor_mot_spegel": 1679
+  }
 }

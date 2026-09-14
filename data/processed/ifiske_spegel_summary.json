@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "med_spegel": 884,
+    "battre_an_spegel": 341,
+    "lika_spegel": 27,
+    "samre_spegel": 516,
+    "fvof_fyllda_fvo": 47,
+    "fvof_artposter": 89,
+    "kvarvarande_luckor_mot_spegel": 1679
+  },
+  "coverage": {
+    "har_fiskekartan_arter": 994,
+    "har_survey_arter": 1565,
+    "har_nagon_art": 1859,
+    "saknar_arter": 48,
+    "har_vattenposter": 1565,
+    "har_extern_enrichment": 47,
+    "har_gbif_enrichment": 556,
+    "har_ifiske_spegel_kontroll": 884
+  }
+}
