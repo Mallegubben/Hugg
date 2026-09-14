@@ -36,3 +36,16 @@ python scripts/enrich_gbif_retry.py
 python scripts/enrich_from_external_links.py
 python scripts/build_index.py
 ```
+
+## iFiske-kontroll
+
+Jämförelse mot iFiske artikoner (`/img/species/`) som benchmark:
+
+| Utfall | Antal FVO |
+|--------|----------:|
+| Bättre än iFiske | 812 |
+| Lika | 83 |
+| Sämre | 0 |
+| Med kontroll-data | 895 |
+
+Parity-fyllning märks `kontroll_ifiske` i `kallor`. Primära källor förblir Fiskekartan, SLU och FVOF-sajter.

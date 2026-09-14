@@ -156,6 +156,14 @@ def split_species_field(value: str | None) -> list[str]:
     text = str(value).strip()
     if not text or text.lower() in {"nan", "none", "null"}:
         return []
+    # Normalize compound tokens before splitting
+    text = re.sub(
+        r"Simpa\s*\(Berg-?/?\s*Sten-?\)",
+        "Simpa",
+        text,
+        flags=re.I,
+    )
+    text = re.sub(r"Nejonöga\s+obestämd", "Nejonöga", text, flags=re.I)
     parts = re.split(r"[,;/]| och | & |\n", text)
     out: list[str] = []
     seen: set[str] = set()

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-14T18:28:41.388510+00:00",
+  "stats": {
+    "med_kontroll": 895,
+    "battre_an_ifiske": 812,
+    "lika": 83,
+    "samre": 0,
+    "parity_fyllda_fvo": 199,
+    "parity_artposter": 850,
+    "link_fyllda_fvo": 4,
+    "link_artposter": 7,
+    "saknar_kontroll_data": 72
+  },
+  "coverage": {
+    "har_fiskekartan_arter": 994,
+    "har_survey_arter": 1565,
+    "har_nagon_art": 1863,
+    "saknar_arter": 44,
+    "har_vattenposter": 1565,
+    "har_extern_enrichment": 49,
+    "har_gbif_enrichment": 461,
+    "har_ifiske_kontroll": 895,
+    "har_kontroll_parity_fill": 199
+  }
+}
