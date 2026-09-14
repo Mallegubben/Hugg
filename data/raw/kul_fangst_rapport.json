@@ -1,1 +1,0 @@
-{"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"lan":["The lan field is required."]},"traceId":"00-df4d1e6e80a3d0b8e7204f038ecc7951-4916f3bb047fba80-00"}
