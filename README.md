@@ -17,5 +17,8 @@ python scripts/enrich_from_gbif.py
 python scripts/enrich_gbif_retry.py
 python scripts/enrich_via_fvof_using_ifiske_mirror.py
 python scripts/follow_ifiske_links_to_fvof.py
+python scripts/enrich_gbif_for_gaps.py
+python scripts/enrich_gbif_gap_retry.py
+python scripts/discover_fvof_urls_and_scrape.py
 python scripts/build_index.py
 ```
