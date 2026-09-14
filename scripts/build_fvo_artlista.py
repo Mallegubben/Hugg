@@ -374,14 +374,46 @@ def main() -> None:
     print(f"  NORS-sjöar med arter: {len(nors)}")
     print(f"  SERS-lokaler med arter: {len(sers)}")
 
-    print("Spatial join NORS → FVO…")
-    nors_join = gpd.sjoin(
-        nors, fvo_gdf[["ORIGINALID", "geometry"]], how="inner", predicate="within"
-    )
-    print("Spatial join SERS → FVO…")
-    sers_join = gpd.sjoin(
-        sers, fvo_gdf[["ORIGINALID", "geometry"]], how="inner", predicate="within"
-    )
+    # Buffra FVO något så kantnära provfiskepunkter inte missas
+    BUFFER_M = 500
+    fvo_for_join = fvo_gdf[["ORIGINALID", "geometry"]].copy()
+    fvo_for_join["geometry"] = fvo_for_join.geometry.buffer(BUFFER_M)
+
+    print(f"Spatial join NORS → FVO (buffer {BUFFER_M} m)…")
+    nors_join = gpd.sjoin(nors, fvo_for_join, how="inner", predicate="within")
+    print(f"Spatial join SERS → FVO (buffer {BUFFER_M} m)…")
+    sers_join = gpd.sjoin(sers, fvo_for_join, how="inner", predicate="within")
+
+    kul_path = RAW / "kul_points_agg.json"
+    kul_by_fvo: dict = {}
+    if kul_path.exists():
+        print("Spatial join KUL → FVO…")
+        kul_rows = json.loads(kul_path.read_text(encoding="utf-8"))
+        # KUL är WGS84 → SWEREF99TM
+        kul_gdf = gpd.GeoDataFrame(
+            [
+                {
+                    "vatten_typ": "kust",
+                    "vatten_namn": r.get("omrade") or "KUL-lokal",
+                    "smhi_id": None,
+                    "eu_cd": None,
+                    "lan": None,
+                    "haro": None,
+                    "arter": r.get("arter") or [],
+                    "kalla": "KUL",
+                    "senaste_fiskeaar": None,
+                    "nors_url": None,
+                    "sers_url": None,
+                    "geometry": Point(float(r["lon"]), float(r["lat"])),
+                }
+                for r in kul_rows
+                if r.get("arter") and r.get("lat") is not None and r.get("lon") is not None
+            ],
+            crs="EPSG:4326",
+        ).to_crs("EPSG:3006")
+        kul_join = gpd.sjoin(kul_gdf, fvo_for_join, how="inner", predicate="within")
+        kul_by_fvo = {oid: g for oid, g in kul_join.groupby("ORIGINALID")}
+        print(f"  KUL-träffar i FVO: {kul_join['ORIGINALID'].nunique()}")
 
     nors_by_fvo = {oid: g for oid, g in nors_join.groupby("ORIGINALID")}
     sers_by_fvo = {oid: g for oid, g in sers_join.groupby("ORIGINALID")}
@@ -403,6 +435,8 @@ def main() -> None:
                 vatten.extend(aggregate_vatten(nors_by_fvo[oid]))
             if oid in sers_by_fvo:
                 vatten.extend(aggregate_vatten(sers_by_fvo[oid]))
+            if oid in kul_by_fvo:
+                vatten.extend(aggregate_vatten(kul_by_fvo[oid]))
 
         for v in vatten:
             survey_arter.update(v["arter"])
@@ -485,6 +519,11 @@ def main() -> None:
                 {
                     "id": "sers",
                     "beskrivning": "SLU SERS – Svenskt elfiskeregister",
+                    "url": "https://dvfisk.slu.se/",
+                },
+                {
+                    "id": "kul",
+                    "beskrivning": "SLU KUL – kustprovfiske",
                     "url": "https://dvfisk.slu.se/",
                 },
             ],

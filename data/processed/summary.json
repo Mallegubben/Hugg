@@ -1,205 +1,177 @@
 {
-  "generated_at": "2026-09-14T17:17:53.183569+00:00",
+  "generated_at": "2026-09-14T18:17:35.506718+00:00",
   "antal_fvo": 1907,
-  "antal_unika_arter": 85,
+  "antal_unika_arter": 87,
   "coverage": {
     "har_fiskekartan_arter": 994,
-    "har_survey_arter": 1194,
-    "har_nagon_art": 1529,
-    "saknar_arter": 378,
-    "har_vattenposter": 1194,
-    "har_extern_enrichment": 52
+    "har_survey_arter": 1565,
+    "har_nagon_art": 1859,
+    "saknar_arter": 48,
+    "har_vattenposter": 1565,
+    "har_extern_enrichment": 43,
+    "har_gbif_enrichment": 461
   },
-  "extern_enrichment": {
-    "fvo_uppdaterade": 52,
-    "artposter_tillagda": 117,
-    "kandidater": 1111
-  },
-  "vattenposter_totalt": 6291,
-  "policy": {
-    "ifiske_artdata": false,
-    "ifiske_anvandning": "Endast för att hitta externa FVOF-länkar (se enrich-script)"
-  },
+  "vattenposter_totalt": 9028,
   "per_lan": [
     {
       "lan": "Blekinge",
       "antal_fvo": 28,
-      "med_artlista": 18,
-      "utan_artlista": 10,
-      "tackning_pct": 64.3,
-      "vatten_med_survey": 30,
-      "unika_arter": 26
+      "med_artlista": 28,
+      "utan_artlista": 0,
+      "tackning_pct": 100.0,
+      "vatten_med_survey": 74
     },
     {
       "lan": "Dalarna",
       "antal_fvo": 69,
-      "med_artlista": 68,
-      "utan_artlista": 1,
-      "tackning_pct": 98.6,
-      "vatten_med_survey": 1422,
-      "unika_arter": 52
+      "med_artlista": 69,
+      "utan_artlista": 0,
+      "tackning_pct": 100.0,
+      "vatten_med_survey": 1568
     },
     {
       "lan": "Gävleborg",
       "antal_fvo": 51,
-      "med_artlista": 49,
-      "utan_artlista": 2,
-      "tackning_pct": 96.1,
-      "vatten_med_survey": 921,
-      "unika_arter": 47
+      "med_artlista": 50,
+      "utan_artlista": 1,
+      "tackning_pct": 98.0,
+      "vatten_med_survey": 1051
     },
     {
       "lan": "Halland",
       "antal_fvo": 51,
-      "med_artlista": 41,
-      "utan_artlista": 10,
-      "tackning_pct": 80.4,
-      "vatten_med_survey": 83,
-      "unika_arter": 43
+      "med_artlista": 51,
+      "utan_artlista": 0,
+      "tackning_pct": 100.0,
+      "vatten_med_survey": 242
     },
     {
       "lan": "Jämtland",
       "antal_fvo": 157,
-      "med_artlista": 143,
-      "utan_artlista": 14,
-      "tackning_pct": 91.1,
-      "vatten_med_survey": 668,
-      "unika_arter": 32
+      "med_artlista": 157,
+      "utan_artlista": 0,
+      "tackning_pct": 100.0,
+      "vatten_med_survey": 795
     },
     {
       "lan": "Jönköping",
       "antal_fvo": 197,
-      "med_artlista": 187,
-      "utan_artlista": 10,
-      "tackning_pct": 94.9,
-      "vatten_med_survey": 157,
-      "unika_arter": 44
+      "med_artlista": 194,
+      "utan_artlista": 3,
+      "tackning_pct": 98.5,
+      "vatten_med_survey": 413
     },
     {
       "lan": "Kalmar",
       "antal_fvo": 85,
-      "med_artlista": 59,
-      "utan_artlista": 26,
-      "tackning_pct": 69.4,
-      "vatten_med_survey": 66,
-      "unika_arter": 43
+      "med_artlista": 82,
+      "utan_artlista": 3,
+      "tackning_pct": 96.5,
+      "vatten_med_survey": 146
     },
     {
       "lan": "Kronoberg",
       "antal_fvo": 135,
-      "med_artlista": 118,
-      "utan_artlista": 17,
-      "tackning_pct": 87.4,
-      "vatten_med_survey": 217,
-      "unika_arter": 45
+      "med_artlista": 131,
+      "utan_artlista": 4,
+      "tackning_pct": 97.0,
+      "vatten_med_survey": 488
     },
     {
       "lan": "Norrbotten",
       "antal_fvo": 45,
-      "med_artlista": 27,
-      "utan_artlista": 18,
-      "tackning_pct": 60.0,
-      "vatten_med_survey": 63,
-      "unika_arter": 29
+      "med_artlista": 40,
+      "utan_artlista": 5,
+      "tackning_pct": 88.9,
+      "vatten_med_survey": 143
     },
     {
       "lan": "Skåne",
       "antal_fvo": 61,
-      "med_artlista": 56,
-      "utan_artlista": 5,
-      "tackning_pct": 91.8,
-      "vatten_med_survey": 74,
-      "unika_arter": 44
+      "med_artlista": 60,
+      "utan_artlista": 1,
+      "tackning_pct": 98.4,
+      "vatten_med_survey": 170
     },
     {
       "lan": "Stockholm",
       "antal_fvo": 42,
-      "med_artlista": 8,
-      "utan_artlista": 34,
-      "tackning_pct": 19.0,
-      "vatten_med_survey": 5,
-      "unika_arter": 17
+      "med_artlista": 38,
+      "utan_artlista": 4,
+      "tackning_pct": 90.5,
+      "vatten_med_survey": 38
     },
     {
       "lan": "Södermanland",
       "antal_fvo": 16,
-      "med_artlista": 8,
-      "utan_artlista": 8,
-      "tackning_pct": 50.0,
-      "vatten_med_survey": 6,
-      "unika_arter": 24
+      "med_artlista": 15,
+      "utan_artlista": 1,
+      "tackning_pct": 93.8,
+      "vatten_med_survey": 10
     },
     {
       "lan": "Uppsala",
       "antal_fvo": 21,
-      "med_artlista": 10,
-      "utan_artlista": 11,
-      "tackning_pct": 47.6,
-      "vatten_med_survey": 12,
-      "unika_arter": 27
+      "med_artlista": 21,
+      "utan_artlista": 0,
+      "tackning_pct": 100.0,
+      "vatten_med_survey": 45
     },
     {
       "lan": "Värmland",
       "antal_fvo": 155,
-      "med_artlista": 134,
-      "utan_artlista": 21,
-      "tackning_pct": 86.5,
-      "vatten_med_survey": 843,
-      "unika_arter": 48
+      "med_artlista": 153,
+      "utan_artlista": 2,
+      "tackning_pct": 98.7,
+      "vatten_med_survey": 1009
     },
     {
       "lan": "Västerbotten",
       "antal_fvo": 176,
-      "med_artlista": 156,
-      "utan_artlista": 20,
-      "tackning_pct": 88.6,
-      "vatten_med_survey": 828,
-      "unika_arter": 44
+      "med_artlista": 175,
+      "utan_artlista": 1,
+      "tackning_pct": 99.4,
+      "vatten_med_survey": 986
     },
     {
       "lan": "Västernorrland",
       "antal_fvo": 138,
-      "med_artlista": 115,
-      "utan_artlista": 23,
-      "tackning_pct": 83.3,
-      "vatten_med_survey": 432,
-      "unika_arter": 41
+      "med_artlista": 131,
+      "utan_artlista": 7,
+      "tackning_pct": 94.9,
+      "vatten_med_survey": 531
     },
     {
       "lan": "Västmanland",
       "antal_fvo": 29,
-      "med_artlista": 19,
-      "utan_artlista": 10,
-      "tackning_pct": 65.5,
-      "vatten_med_survey": 43,
-      "unika_arter": 30
+      "med_artlista": 28,
+      "utan_artlista": 1,
+      "tackning_pct": 96.6,
+      "vatten_med_survey": 89
     },
     {
       "lan": "Västra Götaland",
       "antal_fvo": 326,
-      "med_artlista": 227,
-      "utan_artlista": 99,
-      "tackning_pct": 69.6,
-      "vatten_med_survey": 279,
-      "unika_arter": 54
+      "med_artlista": 317,
+      "utan_artlista": 9,
+      "tackning_pct": 97.2,
+      "vatten_med_survey": 832
     },
     {
       "lan": "Örebro",
       "antal_fvo": 38,
-      "med_artlista": 31,
-      "utan_artlista": 7,
-      "tackning_pct": 81.6,
-      "vatten_med_survey": 103,
-      "unika_arter": 33
+      "med_artlista": 37,
+      "utan_artlista": 1,
+      "tackning_pct": 97.4,
+      "vatten_med_survey": 282
     },
     {
       "lan": "Östergötland",
       "antal_fvo": 87,
-      "med_artlista": 55,
-      "utan_artlista": 32,
-      "tackning_pct": 63.2,
-      "vatten_med_survey": 39,
-      "unika_arter": 40
+      "med_artlista": 82,
+      "utan_artlista": 5,
+      "tackning_pct": 94.3,
+      "vatten_med_survey": 116
     }
   ]
 }
