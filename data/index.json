@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T17:30:17.889950+00:00",
+  "generated_at": "2026-09-15T17:31:53.693942+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
-  "antal_vatten": 5987,
+  "antal_vatten": 5996,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -526,8 +526,8 @@
       "med_artlista": 195,
       "utan_artlista": 2,
       "tackning_pct": 99.0,
-      "fvo_med_vattenposter": 181,
-      "antal_vattenposter": 433,
+      "fvo_med_vattenposter": 189,
+      "antal_vattenposter": 443,
       "fvo_ids": [
         187,
         188,
@@ -37283,6 +37283,21 @@
           ]
         }
       ],
+      "Björsesjön": [
+        {
+          "fvo_id": 303,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Björsjön": [
         {
           "fvo_id": 2023,
@@ -56878,6 +56893,23 @@
           "arter": [
             "Elritsa",
             "Harr",
+            "Öring"
+          ]
+        }
+      ],
+      "Gibbarpasjön": [
+        {
+          "fvo_id": 259,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare",
             "Öring"
           ]
         }
@@ -93849,6 +93881,23 @@
           ]
         }
       ],
+      "Långanäsasjön": [
+        {
+          "fvo_id": 202,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ]
+        }
+      ],
       "Långaredsbäcken": [
         {
           "fvo_id": 1959,
@@ -98850,6 +98899,22 @@
           ]
         }
       ],
+      "Mosserydssjön": [
+        {
+          "fvo_id": 240,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört"
+          ]
+        }
+      ],
       "Mossgruvbäcken": [
         {
           "fvo_id": 1713,
@@ -103508,6 +103573,20 @@
           ]
         },
         {
+          "fvo_id": 295,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv"
+          ]
+        },
+        {
           "fvo_id": 857,
           "typ": "sjö",
           "smhi_id": "668949-137695",
@@ -104722,6 +104801,25 @@
           ]
         }
       ],
+      "Norresjö": [
+        {
+          "fvo_id": 197,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ]
+        }
+      ],
       "Norrhultsbäcken": [
         {
           "fvo_id": 617,
@@ -105296,6 +105394,20 @@
             "Gädda",
             "Gärs",
             "Lake",
+            "Mört"
+          ]
+        }
+      ],
+      "Nybrodammen": [
+        {
+          "fvo_id": 362,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
             "Mört"
           ]
         }
@@ -130081,6 +130193,22 @@
           ]
         }
       ],
+      "Styggstorpssjön": [
+        {
+          "fvo_id": 293,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ]
+        }
+      ],
       "Styggtjärnen": [
         {
           "fvo_id": 1616,
@@ -136052,6 +136180,25 @@
           ]
         }
       ],
+      "Södresjö": [
+        {
+          "fvo_id": 197,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ]
+        }
+      ],
       "Sögårdsbäcken": [
         {
           "fvo_id": 1972,
@@ -138862,6 +139009,23 @@
           "arter": [
             "Abborre",
             "Mört"
+          ]
+        }
+      ],
+      "Tohultasjön": [
+        {
+          "fvo_id": 259,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Öring"
           ]
         }
       ],
@@ -174265,7 +174429,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Björsesjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -174281,7 +174446,25 @@
         "Mört",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Björsesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1749,
@@ -202415,7 +202598,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gibbarps%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -202435,7 +202619,46 @@
         "Sutare",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gibbarpasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Öring"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Tohultasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Öring"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1206,
@@ -258633,7 +258856,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Långanäsasjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -258653,7 +258877,27 @@
         "Sarv",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Långanäsasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 151,
@@ -272528,7 +272772,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -272548,7 +272793,26 @@
         "Lake",
         "Mört"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mosserydssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 440,
@@ -283937,7 +284201,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Nordsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -283955,7 +284220,26 @@
         "Mört",
         "Sarv"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nordsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1902,
@@ -289456,7 +289740,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Nybrodammens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -289470,7 +289755,24 @@
         "Gädda",
         "Mört"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nybrodammen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2233,
@@ -320459,7 +320761,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Stoarps%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -320483,7 +320786,50 @@
         "Sutare",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norresjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Södresjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2065,
@@ -327753,7 +328099,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Styggstorps%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
       "arter": [
         "Abborre",
@@ -327771,7 +328118,26 @@
         "Sarv",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Styggstorpssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1223,

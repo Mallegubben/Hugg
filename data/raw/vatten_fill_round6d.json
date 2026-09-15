@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "round": "6d",
+    "policy": "1:1 FVO↔källa; Hitta Fiske med namngivna vatten + Arter"
+  },
+  "enrichments": [
+    {
+      "namn": "Gibbarps fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Gibbarpasjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Lake", "Mört", "Sutare", "Öring"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/gibbarps-fvof/",
+          "evidence": "Hitta Fiske Gibbarps fvof namnger Tohultasjön och Gibbarpasjön. Arter: Abborre, Braxen, Gädda, Lake, Mört, Sutare, Öring."
+        },
+        {
+          "namn": "Tohultasjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Lake", "Mört", "Sutare", "Öring"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/gibbarps-fvof/",
+          "evidence": "Samma FVO-artlista för Gibbarpasjön och Tohultasjön."
+        }
+      ]
+    },
+    {
+      "namn": "Stoarps fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Norresjö",
+          "arter": ["Abborre", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Sarv", "Sutare", "Ål"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/stoarps-fvof/",
+          "evidence": "Hitta Fiske Stoarps fvof namnger Norresjö och Södresjö. Arter: Abborre, Braxen, Gädda, Gärs, Lake, Mört, Sarv, Sutare, Ål."
+        },
+        {
+          "namn": "Södresjö",
+          "arter": ["Abborre", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Sarv", "Sutare", "Ål"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/stoarps-fvof/",
+          "evidence": "Samma FVO-artlista för Norresjö och Södresjö."
+        }
+      ]
+    },
+    {
+      "namn": "Mosseryd - Toens fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Mosserydssjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Gös", "Lake", "Mört"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/mosseryd-toens-fvof/",
+          "evidence": "Hitta Fiske Mosseryd - Toens fvof namnger Mosserydssjön (djupkarta). Arter: Abborre, Braxen, Gädda, Gös, Lake, Mört. (Toen ej artkopplad här.)"
+        }
+      ]
+    },
+    {
+      "namn": "Björsesjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Björsesjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Mört", "Ål"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/bjorsesjons-fvof/",
+          "evidence": "Hitta Fiske Björsesjöns fvof — Arter: Abborre, Braxen, Gädda, Mört, Ål."
+        }
+      ]
+    },
+    {
+      "namn": "Långanäsasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Långanäsasjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Lake", "Mört", "Sarv", "Sutare"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/langanasasjons-fvof/",
+          "evidence": "Hitta Fiske Långanäsasjöns fvof — Arter: Abborre, Braxen, Gädda, Lake, Mört, Sarv, Sutare."
+        }
+      ]
+    },
+    {
+      "namn": "Nordsjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Nordsjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Lake", "Mört", "Sarv"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/nordsjons-fvof/",
+          "evidence": "Hitta Fiske Nordsjöns fvof (Jönköping) — Arter: Abborre, Braxen, Gädda, Lake, Mört, Sarv. (0-vatten-träff prioriteras framför VG-Nordsjön.)"
+        }
+      ]
+    },
+    {
+      "namn": "Styggstorps fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Styggstorpssjön",
+          "arter": ["Abborre", "Gädda", "Lake", "Mört", "Sarv", "Sutare"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/styggstorps-fvof/",
+          "evidence": "Hitta Fiske Styggstorps fvof — Arter: Abborre, Gädda, Lake, Mört, Sarv, Sutare."
+        }
+      ]
+    },
+    {
+      "namn": "Nybrodammens fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Nybrodammen",
+          "arter": ["Abborre", "Braxen", "Gädda", "Mört"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/nybrodammens-fvof/",
+          "evidence": "Hitta Fiske Nybrodammens fvof — Arter: Abborre, Braxen, Gädda, Mört."
+        }
+      ]
+    }
+  ]
+}

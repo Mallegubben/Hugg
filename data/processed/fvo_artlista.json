@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:30:17.619686+00:00",
+    "generated_at": "2026-09-15T17:31:53.424234+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1691
+      "har_vattenposter": 1699
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -22794,15 +22794,41 @@
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Björsesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/bjorsesjons-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/bjorsesjons-fvof/"
+      ]
     },
     {
       "original_id": 1749,
@@ -68683,15 +68709,66 @@
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gibbarpasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Öring"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/gibbarps-fvof/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Tohultasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Öring"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/gibbarps-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/gibbarps-fvof/"
+      ]
     },
     {
       "original_id": 1206,
@@ -161071,15 +161148,43 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Långanäsasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/langanasasjons-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/langanasasjons-fvof/"
+      ]
     },
     {
       "original_id": 151,
@@ -183193,9 +183298,33 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mosserydssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/mosseryd-toens-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -183214,7 +183343,10 @@
           "Bäckröding",
           "Regnbåge"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/mosseryd-toens-fvof/"
+      ]
     },
     {
       "original_id": 440,
@@ -201583,15 +201715,42 @@
         "Sarv"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nordsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/nordsjons-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/nordsjons-fvof/"
+      ]
     },
     {
       "original_id": 1902,
@@ -210787,15 +210946,40 @@
         "Mört"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nybrodammen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/nybrodammens-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 4,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/nybrodammens-fvof/"
+      ]
     },
     {
       "original_id": 2233,
@@ -262138,9 +262322,61 @@
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norresjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/stoarps-fvof/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Södresjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/stoarps-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -262159,7 +262395,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-stoarp-fvof-stoarps-sjoar.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/stoarps-fvof/"
+      ]
     },
     {
       "original_id": 2065,
@@ -274576,15 +274815,42 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Styggstorpssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/styggstorps-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/styggstorps-fvof/"
+      ]
     },
     {
       "original_id": 1223,
