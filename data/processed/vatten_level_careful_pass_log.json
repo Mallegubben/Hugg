@@ -1,0 +1,4736 @@
+{
+  "applied": [
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor-Jorm, Lill-Jorm",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Blåsjöälven",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Myrskaltjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarntjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Långtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Holmtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Partjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Mörttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Hästplutten",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Långplutten",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Södra Partjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill-Väktaren",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill-Blåsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Sågtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Olatjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Pelletjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Pe Arnsatjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Slottmyrplutten",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lilla Blåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Gåsplutten",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Kvarnbergsvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarnbergsvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Björkvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Norrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Alfredtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Holmtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Björkvattenån med flyar",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Mittjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Fisktjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Fossdalstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Storflyn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kycklingvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarntjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Baksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Dömanstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Bleriken",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Goffatjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Storstenstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Bodtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kroktjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Långflyn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Rörtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Stormyrstjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Hetögeln",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Muruån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillfjällstjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Muruhattstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Smalsundstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Bäckmyrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Övervattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Yttervattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "vatten": "Gäddtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Gussvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Lake",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarntjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Dammtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Storvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Storvattenbodtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Gårdstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Håkafot-Häggnäsets fvof",
+      "lan": "Jämtland",
+      "vatten": "Hetögeln",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Håkafot-Häggnäsets fvof",
+      "lan": "Jämtland",
+      "vatten": "Karlströmmen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Håkafot-Häggnäsets fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill-Vattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Håkafot-Häggnäsets fvof",
+      "lan": "Jämtland",
+      "vatten": "Djupvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Håkafot-Häggnäsets fvof",
+      "lan": "Jämtland",
+      "vatten": "Hällingsån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Håkafot-Häggnäsets fvof",
+      "lan": "Jämtland",
+      "vatten": "Spännvikstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Fågelsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Bodtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Vallmanvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Fisklöstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Djupvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Godvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Långvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Grundvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Klingervattnet (del av)",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Israelvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Fågelvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Lake",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Baksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Lake"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Baksjötjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Lake"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Stormyrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Ö Sakrisvattnet (hela vattnet)",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "V Sakrisvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Bustadtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Kroktjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Bergtjärn (hela vattnet)",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Källbergstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Gäddtjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Nyslåttjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Slåttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "vatten": "Hillsandtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Lake",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Grundvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Klumpvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Yttre Långvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Gärdvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Risedeån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Flytjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Stenhovertjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillklumptjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Klittjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillfåna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Skröveltjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "vatten": "Lövhöjdstjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Gärdsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Lidsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Svarttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Mörttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Harrsjöbergstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Storån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Gärdvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Bygdvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Bygdvattentjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Dammtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Budstamyrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Flyarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Zakrisvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Strömmen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarntjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Krokmyrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Sönnerhöjdstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Skarpabborrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Fånån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Gräsvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Gräsvattentjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Slåttertjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Rörvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvisselnvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor-Ringsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill-Ringsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Abborrvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor-Abborrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Granhöjdvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Långvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Odugligtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Sönnestvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Lövhöjdvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Byvattentjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Högmyrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Luvkullvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lidsjöbergs fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor-Sjouten",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Del av Fågelsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Strocken-Svaningssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Biribolltjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Långtjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Gullötjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Grevetjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Vattudalens fvof",
+      "lan": "Jämtland",
+      "vatten": "Fisktjärnarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Tåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Tåsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Tåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Tåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Bergelstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Regnbåge"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Tåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Abborrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Hotingsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor-Skirsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Brocksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Holmtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill-Skirsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Storflotjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Hotingån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Rensjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Kroktjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Fodertjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Långtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Jämmervattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Korstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Långtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hotings fvof",
+      "lan": "Jämtland",
+      "vatten": "Klingerselet Flåsjöån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Bellvikssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Rörströmssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Djupån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Ristjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarntjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Gåstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Rojkatjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Björnbäcken",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bellvik-Rörströms fvof",
+      "lan": "Jämtland",
+      "vatten": "Vikebäcken",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Blåtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Kojtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Tjejtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Bränntjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Elistjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Lomtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Rudtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Trolltjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörströmsälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Hocksjöforsarna",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Svarttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Byvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Rossötjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Bollstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarnån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Nagasjöån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Nagasjöån (Kvarnvallen)",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Näsets kraftverk",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Trehörningen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Vallsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rossöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Gröttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Vängelsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Vängel- och Forsåsforsen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Sikseleforsen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Brattforsen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Grössjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Ottringen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Dragasjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Mörtsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Spånsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Onsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Vängelälvens fvof",
+      "lan": "Jämtland",
+      "vatten": "Mårdsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Öjarssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Öjån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Klumpån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor-Klumpvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill-Klumpvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Blankvattentjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övre Öjåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Svartabborrtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dragans fvof",
+      "lan": "Jämtland",
+      "vatten": "Ströms Vattudal",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dragans fvof",
+      "lan": "Jämtland",
+      "vatten": "Över-Gissmanvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dragans fvof",
+      "lan": "Jämtland",
+      "vatten": "Spjutvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dragans fvof",
+      "lan": "Jämtland",
+      "vatten": "Svanavattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Del av Ö Gissmanvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Del av Y Gissmanvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Kalvan/Fingervattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Fånån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Lilltjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Storgåstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Lomtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Trångvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Flåsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Järvsandstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Gåxsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Storhällvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Flåsjöån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Flåsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Bodtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Järilvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Västervattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Kanadaröding",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Järilvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Järilvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Kanadaröding",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Järilvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Järilån, nedströms fallet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Järilvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Järilån, uppströms fallet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Kanadaröding",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Järilvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Kanadaröding",
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Fångsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvisslanströmmen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Russfjärden",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Hostsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Låsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Evensjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Bålsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Tännvikskanalen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärnen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Roningstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarnån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Rishöjdtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Russfjärdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Norrströmmen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Malmsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Trångsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Grundsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Hössjö",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Hössjöån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Stora Bergsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Bergsjötjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Kolvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Regasjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Spåntjärnen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Malmsjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Onsjön, övre del",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Norr- och Sör-Sporrsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Stamseleviken",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Täxviken",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Faxälven",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Storvattnet, Stockvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Grundvattnet, Västvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Skarpbergstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Entjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Djupvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Norrån och Vängelälven",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Faxebygdens fvof",
+      "lan": "Jämtland",
+      "vatten": "Storvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Sörviksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Kängsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Stor Granvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Bodsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Harrsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Görviksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Vallån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Kärrsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Recksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Flängsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Gissjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Älgsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Långvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Länglingsån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Djuptjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Nordåsvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Gåssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Länglingssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Görviks fvof",
+      "lan": "Jämtland",
+      "vatten": "Fyringen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Fyrsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Edesjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Kvarnvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Tallåstjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Dammtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Tingsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Långtjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Kroktjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Neningen",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Vikfjärden",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Mörtsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Tannsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Flängsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Recksjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Lillskallsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Stora Laxsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Grenåssjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Lill Älggårdsvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Älggårdsvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Småvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Isnottjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ede-Grenås fvof",
+      "lan": "Jämtland",
+      "vatten": "Slåttjärn",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Solberg-Vikens fvof",
+      "lan": "Jämtland",
+      "vatten": "Del av Fyrsjön",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Solberg-Vikens fvof",
+      "lan": "Jämtland",
+      "vatten": "Solbergsvattnet",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Solberg-Vikens fvof",
+      "lan": "Jämtland",
+      "vatten": "Ammerån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Solberg-Vikens fvof",
+      "lan": "Jämtland",
+      "vatten": "Halån",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Hundsjön",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stattjärn",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Gidetjärn",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Mattarbodtjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stortjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Löran",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Inner-mörttjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Ytter-mörttjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stor-Fisktjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Lill-Fisktjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stor-Hötjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Kravattnet",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Rödtjärn",
+      "source": "naturguiden_ornskoldsvik",
+      "tillagda_vattenarter": [
+        "Bäckröding",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Västersjön",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Bäckröding",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Gideälven (nedströms Björna kraftverk)",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Harr",
+        "Lake",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "vatten": "Björna-Lillån",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Björnsjö-Ledings fvof",
+      "lan": "Västernorrland",
+      "vatten": "Trehörningen",
+      "source": "bjorna_nu",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Siklöja",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Siklöja"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Hakkas fvof",
+      "lan": "Norrbotten",
+      "vatten": "Sangersjön",
+      "source": "gallivare_kommun_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Harr"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hakkas fvof",
+      "lan": "Norrbotten",
+      "vatten": "Skrövån (Hakkas-sträcka)",
+      "source": "gallivare_kommun_fiskeguide",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sammakko-Lillbergets fvof",
+      "lan": "Norrbotten",
+      "vatten": "Sammakkosjön",
+      "source": "gallivare_kommun_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sammakko-Lillbergets fvof",
+      "lan": "Norrbotten",
+      "vatten": "Linaälven (Sammako-Lillbergets sträcka)",
+      "source": "gallivare_kommun_fiskeguide",
+      "tillagda_vattenarter": [
+        "Gädda",
+        "Harr",
+        "Lax",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Södra Sandträsk fvof",
+      "lan": "Norrbotten",
+      "vatten": "Södra Sandträsk",
+      "source": "glommersbygden",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sandselet - Gallejaur fvof",
+      "lan": "Norrbotten",
+      "vatten": "Gallejaur",
+      "source": "glommersbygden",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sandselet - Gallejaur fvof",
+      "lan": "Norrbotten",
+      "vatten": "Sandselet",
+      "source": "glommersbygden",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Järvträsk fvof",
+      "lan": "Norrbotten",
+      "vatten": "Järvträsk",
+      "source": "glommersbygden",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": [
+        "Abborre",
+        "Gädda"
+      ]
+    },
+    {
+      "action": "touch",
+      "fvo": "Gunnarvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Gunnarvattnet",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gunnarvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Storplutten",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gunnarvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": "Lilltjärn",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörvattnet-Skogsjö fvof",
+      "lan": "Jämtland",
+      "vatten": "Stortjärn",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörvattnet-Skogsjö fvof",
+      "lan": "Jämtland",
+      "vatten": "Rundtjärn",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörvattnet-Skogsjö fvof",
+      "lan": "Jämtland",
+      "vatten": "Skogsjön",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörvattnet-Skogsjö fvof",
+      "lan": "Jämtland",
+      "vatten": "Tallsjön",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Rörvattnet-Skogsjö fvof",
+      "lan": "Jämtland",
+      "vatten": "Bustadtjärn",
+      "source": "hotagen.com",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Åkersjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Åkersjön",
+      "source": "dromfiske",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Åkersjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Åkerån",
+      "source": "dromfiske",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dammåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Häggsåssjön",
+      "source": "fiskaiberg",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "merge",
+      "fvo": "Dammåns fvof",
+      "lan": "Jämtland",
+      "vatten": "Dammån",
+      "source": "fiskaiberg",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Snöbergs fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stora Grimsjön",
+      "source": "ljungandalen_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Snöbergs fvof",
+      "lan": "Västernorrland",
+      "vatten": "Lilla Grimsjön",
+      "source": "ljungandalen_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Snöbergs fvof",
+      "lan": "Västernorrland",
+      "vatten": "Bytjärn",
+      "source": "ljungandalen_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och lilla Grundsjöns fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stora Grundsjön",
+      "source": "ljungandalen_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och lilla Grundsjöns fvof",
+      "lan": "Västernorrland",
+      "vatten": "Lilla Grundsjön",
+      "source": "ljungandalen_fiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hemsjöns fvof",
+      "lan": "Örebro",
+      "vatten": "Stora Hemsjön",
+      "source": "lekeberg_kommun",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Hemsjöns fvof",
+      "lan": "Örebro",
+      "vatten": "Lilla Hemsjön",
+      "source": "lekeberg_kommun",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "tillagda_fvoarter": []
+    }
+  ],
+  "stats": {
+    "created_vatten": 340,
+    "merged_vatten": 14,
+    "tillagda_fvo_artposter": 3,
+    "stromsund": {
+      "sections": 30,
+      "mapped": 27,
+      "unmapped": 3,
+      "junk_dropped": 24,
+      "salvaged": 1,
+      "waters_applied": 319
+    },
+    "curated_blocks": 14,
+    "before": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1565,
+      "med_arter_men_0_vatten": 309,
+      "total_vatten": 9028,
+      "vatten_med_brochure_eller_extern": 0
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1575,
+      "med_arter_men_0_vatten": 299,
+      "total_vatten": 9368,
+      "vatten_med_brochure_eller_extern": 362
+    },
+    "empty_fvo_count": 33,
+    "blocked_sources": [
+      "natureit",
+      "artportalen",
+      "ifiske_artdata"
+    ]
+  },
+  "empty_fvo": [
+    {
+      "namn": "Gammelstilla fvof",
+      "lan": "Gävleborg",
+      "kommuner": "Hofors, Sandviken"
+    },
+    {
+      "namn": "Västra Mölndalsåns fvof",
+      "lan": "Jönköping",
+      "kommuner": null
+    },
+    {
+      "namn": "Östra Mölndalsån fvof",
+      "lan": "Jönköping",
+      "kommuner": null
+    },
+    {
+      "namn": "Antvarden-Lermons fvof",
+      "lan": "Kalmar",
+      "kommuner": "Västervik"
+    },
+    {
+      "namn": "Djursbo-Sjöarps fvof",
+      "lan": "Kalmar",
+      "kommuner": "Hultsfred"
+    },
+    {
+      "namn": "Sandsjöns fvof",
+      "lan": "Kalmar",
+      "kommuner": "Västervik"
+    },
+    {
+      "namn": "Gässjöns fvof",
+      "lan": "Kronoberg",
+      "kommuner": "Värnamo, Ljungby"
+    },
+    {
+      "namn": "Ljudersjöns fvof",
+      "lan": "Kronoberg",
+      "kommuner": "Lessebo"
+    },
+    {
+      "namn": "Svartasjöns fvof",
+      "lan": "Kronoberg",
+      "kommuner": "Tingsryd"
+    },
+    {
+      "namn": "Bredträskets fvof",
+      "lan": "Norrbotten",
+      "kommuner": "Luleå"
+    },
+    {
+      "namn": "Kallöns fvof",
+      "lan": "Norrbotten",
+      "kommuner": "Arjeplog"
+    },
+    {
+      "namn": "Nurrholms fvof",
+      "lan": "Norrbotten",
+      "kommuner": "Arjeplog"
+    },
+    {
+      "namn": "Skärsjöns fvof",
+      "lan": "Skåne",
+      "kommuner": "Hässleholm"
+    },
+    {
+      "namn": "Koholma fvof",
+      "lan": "Stockholm",
+      "kommuner": "Norrtälje"
+    },
+    {
+      "namn": "Rumsättra fvof",
+      "lan": "Stockholm",
+      "kommuner": "Vallentuna, Österåker, Norrtälje"
+    },
+    {
+      "namn": "Söderhenninge fvof",
+      "lan": "Stockholm",
+      "kommuner": "Norrtälje"
+    },
+    {
+      "namn": "Våmfjärdens fvof",
+      "lan": "Stockholm",
+      "kommuner": "Värmdö"
+    },
+    {
+      "namn": "Igelbålens fvof",
+      "lan": "Södermanland",
+      "kommuner": "Vingåker"
+    },
+    {
+      "namn": "Svinsjöns fvof",
+      "lan": "Värmland",
+      "kommuner": "Forshaga, Karlstad"
+    },
+    {
+      "namn": "Gårdnäs-Ås fvof",
+      "lan": "Västernorrland",
+      "kommuner": "Sollefteå"
+    },
+    {
+      "namn": "Klocke-Grubbe fvof",
+      "lan": "Västernorrland",
+      "kommuner": "Kramfors"
+    },
+    {
+      "namn": "Storsjöns fvof",
+      "lan": "Västmanland",
+      "kommuner": "Sala"
+    },
+    {
+      "namn": "Bergs vattens fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Uddevalla"
+    },
+    {
+      "namn": "Fridene fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Hjo, Tidaholm"
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Härryda"
+    },
+    {
+      "namn": "Sassarps fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Ulricehamn"
+    },
+    {
+      "namn": "Visslaåns fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Trollhättan"
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Svenljunga"
+    },
+    {
+      "namn": "Öresjöns fvof",
+      "lan": "Västra Götaland",
+      "kommuner": "Härryda, Mark"
+    },
+    {
+      "namn": "Gransjöns fvof",
+      "lan": "Östergötland",
+      "kommuner": "Ydre"
+    },
+    {
+      "namn": "Hestrasjöns fvof",
+      "lan": "Östergötland",
+      "kommuner": "Ydre"
+    },
+    {
+      "namn": "Kristinebergs fvof",
+      "lan": "Östergötland",
+      "kommuner": "Linköping"
+    },
+    {
+      "namn": "Vägsjöns fvof",
+      "lan": "Östergötland",
+      "kommuner": "Finspång, Motala"
+    }
+  ]
+}

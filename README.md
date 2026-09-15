@@ -27,6 +27,7 @@ python scripts/enrich_jamtland_norrbotten_deep.py
 python scripts/enrich_stromsund_norrbotten_careful.py
 python scripts/audit_fix_crossmatch_contamination.py
 python scripts/enrich_curated_post_decontam.py
+python scripts/enrich_vatten_level_careful.py
 python scripts/build_index.py
 ```
 

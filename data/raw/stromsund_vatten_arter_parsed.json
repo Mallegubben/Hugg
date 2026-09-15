@@ -1,0 +1,3321 @@
+{
+  "Stora Blåsjöns samfällighet": {
+    "fvo": null,
+    "vatten": [
+      {
+        "vatten": "Stora Blåsjön",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stora Blåsjön Öring, röding Väg: 0 km, barnvänligt. –"
+      },
+      {
+        "vatten": "Mesvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Mesvattnet Öring, röding Väg: 0 km, barnvänligt. –"
+      },
+      {
+        "vatten": "Småvattnen",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Småvattnen Öring, röding Båtförbud, väg: 0 km, barnvänligt. –"
+      },
+      {
+        "vatten": "Lillälven",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lillälven Öring, röding Väg: 0 km, barnvänligt. 1/9–31/10"
+      },
+      {
+        "vatten": "Mittälven",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Mittälven Öring, röding Väg: 0 km, barnvänligt. 1/9–31/10"
+      },
+      {
+        "vatten": "Ullersjön, del av",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Ullersjön, del av Öring, röding Väg: 5 km. –"
+      }
+    ],
+    "n": 6
+  },
+  "Jormvattnets fiskevårdsområde": {
+    "fvo": "Jormvattnets fvof",
+    "vatten": [
+      {
+        "vatten": "Stor-Jorm, Lill-Jorm",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stor-Jorm, Lill-Jorm Öring, röding Tillåtet med båtfiske, flytring och trollingfiske (max 4 spön/båt). –"
+      },
+      {
+        "vatten": "Blåsjöälven",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Blåsjöälven Öring Endast flugfiske. Sträcka ErikOlovflyn–rågången vid Lill-Väktaren. 1/9–31/10"
+      },
+      {
+        "vatten": "Myrskaltjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Myrskaltjärn Öring  20/9–31/10"
+      },
+      {
+        "vatten": "Kvarntjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kvarntjärn Öring, röding  20/9–31/10"
+      },
+      {
+        "vatten": "Långtjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Långtjärn Öring  20/9–31/10"
+      },
+      {
+        "vatten": "Holmtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Holmtjärn Öring, röding  20/9–31/10"
+      },
+      {
+        "vatten": "Partjärnarna",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Partjärnarna Öring, röding Dagkort, max 3 fiskar/dygn. Ej Frostvikenkortet. 1/10–islossning"
+      },
+      {
+        "vatten": "Mörttjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Mörttjärn Öring Dagkort, max 3 fiskar/dygn. Ej Frostvikenkortet. 20/9–islossning"
+      },
+      {
+        "vatten": "Hästplutten",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Hästplutten Öring Dagkort, max 3 fiskar/dygn (endast funktionsnedsatta+under 15 år). Ej Frostvikenkortet.  1/10–islossni"
+      },
+      {
+        "vatten": "Långplutten",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Långplutten Öring Dagkort, max 3 fiskar/dygn. Endast fiske med flugspö. Ej Frostvikenkortet. 1/10–islossning"
+      },
+      {
+        "vatten": "Södra Partjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Södra Partjärn Öring  20/9–31/10"
+      },
+      {
+        "vatten": "Lill-Väktaren",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lill-Väktaren Öring, röding  20/9–31/10"
+      }
+    ],
+    "n": 12
+  },
+  "Lilla Blåsjöns fiskevårdsområde": {
+    "fvo": "Lilla Blåsjöns fvof",
+    "vatten": [
+      {
+        "vatten": "Lill-Blåsjön",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lill-Blåsjön Öring, röding Väg: 0 km, barnvänligt 20/9–31/10"
+      },
+      {
+        "vatten": "Sågtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Sågtjärn Öring, röding Väg: 0 km 20/9–isfritt"
+      },
+      {
+        "vatten": "Olatjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Olatjärn Öring Väg: 1 km, barnvänligt 20/9–isfritt"
+      },
+      {
+        "vatten": "Pelletjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Pelletjärn Öring Väg: 3 km, barnvänligt 20/9–isfritt"
+      },
+      {
+        "vatten": "Pe Arnsatjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Pe Arnsatjärn Öring Väg: 0 km, barnvänligt  20/9–isfritt"
+      },
+      {
+        "vatten": "Slottmyrplutten",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Slottmyrplutten Öring Väg: 0 km, barnvänligt  20/9–isfritt"
+      },
+      {
+        "vatten": "Gåsplutten",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Gåsplutten Öring Väg: 0 km, barnvänligt 20/9–isfritt"
+      }
+    ],
+    "n": 7
+  },
+  "Kvarnbergsvattnets fiskevårdsområde": {
+    "fvo": "Kvarnbergsvattnets fvof",
+    "vatten": [
+      {
+        "vatten": "Kvarnbergsvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kvarnbergsvattnet Öring, röding Trolling, max 6 spön per båt. –"
+      }
+    ],
+    "n": 1
+  },
+  "Björkvattnets fiskevårdsområde": {
+    "fvo": "Björkvattnets fvof",
+    "vatten": [
+      {
+        "vatten": "Björkvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Björkvattnet Öring, röding Fiske från båt är tillåtet. –"
+      },
+      {
+        "vatten": "Norrtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Norrtjärn Öring, röding   1/11–19/6"
+      },
+      {
+        "vatten": "Alfredtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Alfredtjärn Öring, röding   1/11–19/6"
+      },
+      {
+        "vatten": "Holmtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Holmtjärn Öring, röding *Fiskeförbud i perioder, se skylt vid Holmtjärn. *"
+      },
+      {
+        "vatten": "Björkvattenån med flyar",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Björkvattenån med flyar Öring, röding *Delvis fiskeförbud, se markering på kartan. *"
+      },
+      {
+        "vatten": "Mittjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Mittjärn Öring, röding   –"
+      },
+      {
+        "vatten": "Fisktjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Fisktjärn Öring, röding   –"
+      },
+      {
+        "vatten": "Fossdalstjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Fossdalstjärn Öring   –"
+      },
+      {
+        "vatten": "Storflyn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Storflyn Öring, röding   –"
+      },
+      {
+        "vatten": "Kycklingvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kycklingvattnet Öring, röding Fiske med långdrag tillåtet. –"
+      },
+      {
+        "vatten": "Kvarntjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kvarntjärn Öring, röding – –"
+      },
+      {
+        "vatten": "Baksjön",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Baksjön Öring, röding Här får du även fiska med kort från Jormvattnets FVO –"
+      },
+      {
+        "vatten": "Dömanstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Dömanstjärn Öring, röding Avstånd till väg: 9,5 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Bleriken",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bleriken Öring, röding Avstånd till väg: 9 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Goffatjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Goffatjärn Öring, röding Avstånd till väg: 8,5 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Storstenstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Storstenstjärn Öring, röding Avstånd till väg: 9 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Bodtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bodtjärn Öring, röding Avstånd till väg: 6 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Kroktjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kroktjärn Öring, röding Avstånd till väg: 5,5 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Långflyn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Långflyn Öring, röding Avstånd till väg: 4,5 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Rörtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Rörtjärn Öring, röding Avstånd till väg: 7 km. 20/8–31/12"
+      },
+      {
+        "vatten": "Stormyrstjärnarna",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Stormyrstjärnarna Öring Avstånd till väg: 2 km. 20/8–31/12"
+      }
+    ],
+    "n": 21
+  },
+  "Gäddede fiskevårdsområde": {
+    "fvo": "Gäddede fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Hetögeln",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Hetögeln Gädda, harr, lake, sik, röding, öring Båtfiske tillåtet. Minimimått 30 cm. –"
+      },
+      {
+        "vatten": "Muruån",
+        "arter": [
+          "Harr",
+          "Öring"
+        ],
+        "line": "Muruån Harr, öring Obs: Särskilt fiskekort, se fiskeregler och kartmarkering. 1/9–30/6"
+      },
+      {
+        "vatten": "Lillfjällstjärnarna",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lillfjällstjärnarna Öring, röding – –"
+      },
+      {
+        "vatten": "Muruhattstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Muruhattstjärn Öring, röding – –"
+      },
+      {
+        "vatten": "Smalsundstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Smalsundstjärn Öring, röding – –"
+      },
+      {
+        "vatten": "Bäckmyrtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bäckmyrtjärn Öring, röding – –"
+      },
+      {
+        "vatten": "Övervattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Övervattnet Öring, röding – –"
+      },
+      {
+        "vatten": "Yttervattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Yttervattnet Öring, röding – –"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stortjärn Öring, röding – –"
+      },
+      {
+        "vatten": "Gäddtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Gäddtjärn Öring, röding – –"
+      }
+    ],
+    "n": 11
+  },
+  "Gussvattnet-Storvattnets fiskevårdsområde": {
+    "fvo": "Gussvattnet-Storvattnets fvof",
+    "vatten": [
+      {
+        "vatten": "Öring",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Öring"
+      },
+      {
+        "vatten": "Gussvattnet",
+        "arter": [
+          "Harr",
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Gussvattnet Harr, lake, röding, öring Väg: 0 km, barnvänligt  15/9–31/10"
+      },
+      {
+        "vatten": "Kvarntjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kvarntjärn Röding, öring Väg: 1 km, barnvänligt 15/9–31/5"
+      },
+      {
+        "vatten": "Dammtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Dammtjärn Röding, öring Väg: 0 km, barnvänligt  15/9–31/10"
+      },
+      {
+        "vatten": "Storvattnet",
+        "arter": [
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Storvattnet Lake, sik, röding, öring Väg: 0 km, barnvänligt 15/9–31/10"
+      },
+      {
+        "vatten": "Storvattenbodtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Storvattenbodtjärn Röding, öring Väg: 3 km, barnvänligt  15/9–31/10"
+      },
+      {
+        "vatten": "Gårdstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Gårdstjärn Röding, öring Väg: 0 km, barnvänligt  15/9–31/10"
+      },
+      {
+        "vatten": "Lillvattnet",
+        "arter": [
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Lillvattnet Lake, röding, sik, öring Väg: 0 km, barnvänligt  –"
+      }
+    ],
+    "n": 8
+  },
+  "Håkafot-Häggnäsets fiskevårdsområde": {
+    "fvo": "Håkafot-Häggnäsets fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Hetögeln",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Hetögeln Gädda, harr, lake, sik, röding, öring Förbud: trollingfiske och dragutter. Båtfiske, ett spö/fiskekort tillåtet"
+      },
+      {
+        "vatten": "Karlströmmen",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Karlströmmen Gädda, harr, lake, sik, röding, öring Förbud: trollingfiske och dragutter. Båtfiske, ett spö/fiskekort till"
+      },
+      {
+        "vatten": "Lill-Vattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lill-Vattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Djupvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Djupvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Hällingsån",
+        "arter": [
+          "Harr",
+          "Öring"
+        ],
+        "line": "Hällingsån Harr, öring Endast flugfiske (gäller ej fiskerättsägare). 1/9–15/6"
+      },
+      {
+        "vatten": "Spännvikstjärn",
+        "arter": [
+          "Gädda",
+          "Öring"
+        ],
+        "line": "Spännvikstjärn Gädda, öring – –"
+      }
+    ],
+    "n": 7
+  },
+  "Fågelbergets fiskevårdsområde": {
+    "fvo": "Fågelbergets fvof",
+    "vatten": [
+      {
+        "vatten": "Fågelsjön",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Fågelsjön Gädda, harr, lake, sik,  Minimimått harr och öring 30 cm, för övriga arter 20 cm."
+      },
+      {
+        "vatten": "Bodtjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Bodtjärn Öring – –"
+      },
+      {
+        "vatten": "Vallmanvattnet",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Vallmanvattnet Öring – –"
+      },
+      {
+        "vatten": "Fisklöstjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Fisklöstjärn Öring – –"
+      },
+      {
+        "vatten": "Djupvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Djupvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Godvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Godvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Långvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Långvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Grundvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Grundvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Klingervattnet (del av)",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Klingervattnet (del av) Röding, öring – –"
+      },
+      {
+        "vatten": "Israelvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Israelvattnet Röding, öring Båtfiske tillåtet (endast FVO:s hyrbåtar). Minimått öring 30 cm. –"
+      },
+      {
+        "vatten": "Fågelvattnet",
+        "arter": [
+          "Gädda",
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Fågelvattnet Gädda, lake, röding, öring Båtfiske  tillåtet (endast FVO:s hyrbåtar). Minimått öring 30 cm. –"
+      },
+      {
+        "vatten": "Baksjön",
+        "arter": [
+          "Gädda",
+          "Lake"
+        ],
+        "line": "Baksjön Gädda, lake – –"
+      },
+      {
+        "vatten": "Baksjötjärn",
+        "arter": [
+          "Lake",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Baksjötjärn Röding, öring, lake – –"
+      },
+      {
+        "vatten": "Stormyrtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stormyrtjärn Röding, öring Fiske med flytring tillåtet. –"
+      },
+      {
+        "vatten": "Ö Sakrisvattnet (hela vattnet)",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Ö Sakrisvattnet (hela vattnet)   Röding, öring Båtfiske  tillåtet (endast FVO:s hyrbåtar). Minimått öring 30 cm. –"
+      },
+      {
+        "vatten": "V Sakrisvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "V Sakrisvattnet Röding, öring Båtfiske tillåtet (endast FVO:s hyrbåtar). Minimått öring 30 cm. –"
+      },
+      {
+        "vatten": "Bustadtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bustadtjärn Röding, öring Fiske med flytring tillåtet. –"
+      },
+      {
+        "vatten": "Kroktjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Kroktjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Bergtjärn (hela vattnet)",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bergtjärn (hela vattnet) Röding, öring – –"
+      },
+      {
+        "vatten": "Källbergstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Källbergstjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Gäddtjärnarna",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Gäddtjärnarna Öring Gäddtjärnarna består av tre tjärnar. –"
+      },
+      {
+        "vatten": "Nyslåttjärnarna",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Nyslåttjärnarna Röding, öring Nyslåttjärnarna består av två tjärnar, övre och nedre. –"
+      },
+      {
+        "vatten": "Slåttjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Slåttjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Lillvattnet",
+        "arter": [
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Lillvattnet Lake, röding, sik, öring Båtfiske  tillåtet (endast FVO:s hyrbåtar). –"
+      },
+      {
+        "vatten": "Hillsandtjärn",
+        "arter": [
+          "Lake",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Hillsandtjärn Lake, sik, öring – –"
+      }
+    ],
+    "n": 25
+  },
+  "Risede fiskevårdsområde": {
+    "fvo": "Risede fvof",
+    "vatten": [
+      {
+        "vatten": "Öring",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Öring"
+      },
+      {
+        "vatten": "Grundvattnet",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Grundvattnet Abborre, röding, öring Båtfiske tillåtet. –"
+      },
+      {
+        "vatten": "Klumpvattnet",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Klumpvattnet Abborre, röding, öring Båtfiske tillåtet. –"
+      },
+      {
+        "vatten": "Yttre Långvattnet",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Yttre Långvattnet Abborre, röding, öring Båtfiske tillåtet. –"
+      },
+      {
+        "vatten": "Gärdvattnet",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Gärdvattnet Abborre, röding, öring Båtfiske tillåtet. –"
+      },
+      {
+        "vatten": "Risedeån",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Risedeån Abborre, röding, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Flytjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Flytjärn Abborre, röding, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Stenhovertjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stenhovertjärn Abborre, röding, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Lillklumptjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lillklumptjärn Röding, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Klittjärn",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Klittjärn Röding – 1/9–31/10"
+      },
+      {
+        "vatten": "Lillfåna",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lillfåna Röding, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Skröveltjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Skröveltjärn Röding, öring Rullstolsramp. 1/9–31/10"
+      },
+      {
+        "vatten": "Lövhöjdstjärnarna",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lövhöjdstjärnarna Röding, öring – 1/9–31/10"
+      }
+    ],
+    "n": 13
+  },
+  "Lidsjöbergs fiskevårdsområde": {
+    "fvo": "Lidsjöbergs fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Gärdsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Gärdsjön Abborre, gädda, harr, sik, öring Fiske från båt tillåtet. Minimimått öring 30 cm. –"
+      },
+      {
+        "vatten": "Lidsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lidsjön Abborre, gädda, röding, öring Fiske från båt tillåtet. –"
+      },
+      {
+        "vatten": "Svarttjärn",
+        "arter": [
+          "Regnbåge",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Svarttjärn Regnbåge, röding, öring Put and take (särskilt fiskekort) –"
+      },
+      {
+        "vatten": "Mörttjärn",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Mörttjärn Röding – –"
+      },
+      {
+        "vatten": "Harrsjöbergstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Harrsjöbergstjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Storån",
+        "arter": [
+          "Harr",
+          "Öring"
+        ],
+        "line": "Storån Harr, öring – –"
+      },
+      {
+        "vatten": "Gärdvattnet",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Gärdvattnet Abborre, röding, öring Fiske från båt tillåtet. –"
+      },
+      {
+        "vatten": "Bygdvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bygdvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Bygdvattentjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bygdvattentjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Dammtjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Dammtjärn Öring – –"
+      },
+      {
+        "vatten": "Budstamyrtjärn",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Budstamyrtjärn Röding – –"
+      },
+      {
+        "vatten": "Flyarna",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Flyarna Öring – –"
+      },
+      {
+        "vatten": "Zakrisvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Zakrisvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Strömmen",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Strömmen Abborre, gädda, harr, sik, öring Håvning av sik är tillåten under tiden 25/10–31/12. 1/9–19/5"
+      },
+      {
+        "vatten": "Kvarntjärn",
+        "arter": [
+          "Gädda",
+          "Röding"
+        ],
+        "line": "Kvarntjärn Gädda, röding – –"
+      },
+      {
+        "vatten": "Krokmyrtjärn",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Krokmyrtjärn Röding – –"
+      },
+      {
+        "vatten": "Sönnerhöjdstjärn",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Sönnerhöjdstjärn Röding – –"
+      },
+      {
+        "vatten": "Skarpabborrtjärn",
+        "arter": [
+          "Abborre",
+          "Röding"
+        ],
+        "line": "Skarpabborrtjärn Abborre, röding – –"
+      },
+      {
+        "vatten": "Fånån",
+        "arter": [
+          "Harr",
+          "Öring"
+        ],
+        "line": "Fånån Harr, öring – –"
+      },
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Gräsvattnet",
+        "arter": [
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Gräsvattnet Röding, sik, öring Egen båt är tillåten. –"
+      },
+      {
+        "vatten": "Gräsvattentjärn",
+        "arter": [
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Gräsvattentjärn Röding, sik, öring – –"
+      },
+      {
+        "vatten": "Slåttertjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Slåttertjärn Öring, röding – –"
+      },
+      {
+        "vatten": "Rörvattnet",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Rörvattnet Röding –  –"
+      },
+      {
+        "vatten": "Kvisselnvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Kvisselnvattnet Abborre, gädda, harr, röding, sik, öring – –"
+      },
+      {
+        "vatten": "Stor-Ringsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Stor-Ringsjön Abborre, gädda, harr, sik, öring  Egen båt är tillåten . –"
+      },
+      {
+        "vatten": "Lill-Ringsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik"
+        ],
+        "line": "Lill-Ringsjön Abborre, gädda, harr, sik – –"
+      },
+      {
+        "vatten": "Abborrvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Öring"
+        ],
+        "line": "Abborrvattnet Abborre, gädda, harr, öring Egen båt är tillåten. –"
+      },
+      {
+        "vatten": "Stor-Abborrtjärn",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Stor-Abborrtjärn Abborre, öring –  –"
+      },
+      {
+        "vatten": "Granhöjdvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Granhöjdvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Långvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Långvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Odugligtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Odugligtjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Sönnestvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Sönnestvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Lövhöjdvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lövhöjdvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Byvattentjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Byvattentjärn Öring – –"
+      },
+      {
+        "vatten": "Högmyrtjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Högmyrtjärn Öring – –"
+      },
+      {
+        "vatten": "Luvkullvattnet",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Luvkullvattnet Röding, öring – –"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stortjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Stor-Sjouten",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Stor-Sjouten Röding, öring Spö- och utterfiske, barnvänligt. –"
+      }
+    ],
+    "n": 40
+  },
+  "Övre Vattudalens fiskevårdsområde": {
+    "fvo": "Övre Vattudalens fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Del av Fågelsjön",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Del av Fågelsjön Gädda, harr, lake, röding, sik, öring Minimimått: öring 30 cm. –"
+      },
+      {
+        "vatten": "Strocken-Svaningssjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Strocken-Svaningssjön Abborre, gädda, harr, lake, röding, sik, öring Minimimått: öring 30 cm. –"
+      },
+      {
+        "vatten": "Biribolltjärnarna",
+        "arter": [
+          "Abborre"
+        ],
+        "line": "Biribolltjärnarna Abborre  –"
+      },
+      {
+        "vatten": "Långtjärnarna",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Långtjärnarna Abborre, öring  –"
+      },
+      {
+        "vatten": "Gullötjärnarna",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Gullötjärnarna Abborre, röding, öring  –"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Abborre"
+        ],
+        "line": "Stortjärn Abborre  –"
+      },
+      {
+        "vatten": "Grevetjärnarna",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Grevetjärnarna Abborre, gädda  –"
+      },
+      {
+        "vatten": "Fisktjärnarna",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Fisktjärnarna Röding, öring  –"
+      }
+    ],
+    "n": 9
+  },
+  "Tåsjö fiskevårdsområde": {
+    "fvo": "Tåsjöns fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Tåsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Tåsjön Abborre, gädda, harr, sik, öring – –"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Mört",
+          "Öring"
+        ],
+        "line": "Stortjärn Abborre, gädda, harr, mört, öring – –"
+      },
+      {
+        "vatten": "Bergelstjärn",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Mört",
+          "Regnbåge"
+        ],
+        "line": "Bergelstjärn Abborre, gädda, mört, regnbåge Put and take (separat fiskekor och skyltat) –"
+      },
+      {
+        "vatten": "Abborrtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Abborrtjärn Abborre, gädda – –"
+      }
+    ],
+    "n": 5
+  },
+  "Hotings fiskevårdsområde, inkl Lojsinit": {
+    "fvo": "Hotings fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Hotingsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Hotingsjön Abborre, gädda, harr, sik, öring  – –"
+      },
+      {
+        "vatten": "Stor-Skirsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Stor-Skirsjön Abborre, gädda, sik, öring – –"
+      },
+      {
+        "vatten": "Brocksjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Brocksjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Holmtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Holmtjärn Abborre, gädda –  –"
+      },
+      {
+        "vatten": "Lill-Skirsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Lill-Skirsjön Abborre, gädda, sik, öring – –"
+      },
+      {
+        "vatten": "Storflotjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Storflotjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Hotingån",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Hotingån Abborre, gädda, harr, sik, öring  –"
+      },
+      {
+        "vatten": "Rensjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Rensjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Kroktjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Kroktjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Fodertjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Fodertjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Långtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Långtjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Jämmervattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Jämmervattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Korstjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Korstjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Långtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Långtjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Klingerselet Flåsjöån",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Öring"
+        ],
+        "line": "Klingerselet Flåsjöån Abborre, gädda, harr, öring – –"
+      }
+    ],
+    "n": 16
+  },
+  "Bellvik-Rörström fiskevårdsområde": {
+    "fvo": "Bellvik-Rörströms fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Bellvikssjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Bellvikssjön Abborre, gädda, sik, öring Minimimått ädelfisk 35 cm.  –"
+      },
+      {
+        "vatten": "Rörströmssjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Rörströmssjön Abborre, gädda, sik, harr, öring  Minimimått ädelfisk 35 cm. –"
+      },
+      {
+        "vatten": "Djupån",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Öring"
+        ],
+        "line": "Djupån Abborre, gädda, öring Minimimått ädelfisk 35 cm. –"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Stortjärn Öring Minimimått ädelfisk 35 cm. –"
+      },
+      {
+        "vatten": "Ristjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Ristjärn Abborre, gädda  –"
+      },
+      {
+        "vatten": "Kvarntjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Kvarntjärn Abborre, gädda  –"
+      },
+      {
+        "vatten": "Gåstjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Gåstjärn Öring Minimimått ädelfisk 35 cm.  –"
+      },
+      {
+        "vatten": "Rojkatjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Rojkatjärn Abborre, röding, öring Put and take-fiske, särskild fiskekort, max 3 ädelfiskar –"
+      },
+      {
+        "vatten": "Björnbäcken",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Björnbäcken Öring Minimimått ädelfisk 35 cm. –"
+      },
+      {
+        "vatten": "Vikebäcken",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Vikebäcken Öring Minimimått ädelfisk 35 cm. –"
+      }
+    ],
+    "n": 11
+  },
+  "Rörströmsälvens fiskevårdsområde": {
+    "fvo": "Rörströmsälvens fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Blåtjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Blåtjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Kojtjärn",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Kojtjärn Abborre, öring – Ring för info"
+      },
+      {
+        "vatten": "Tjejtjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Tjejtjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Bränntjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Bränntjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Elistjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Elistjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Lomtjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lomtjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Rudtjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Rudtjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Trolltjärn",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Trolltjärn Abborre, röding, öring – Ring för info"
+      },
+      {
+        "vatten": "Hocksjöforsarna",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Hocksjöforsarna Abborre, gädda, harr, sik, öring I Bästsele och 5 km uppströms gäller catch and release. 1/9 – 31/5"
+      }
+    ],
+    "n": 10
+  },
+  "Rossöns fiskevårdsområde": {
+    "fvo": "Rossöns fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Svarttjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Svarttjärn Öring Minimått öring 30 cm. Endast flugfiske. Max 3 fiskar/kort. Nätfiskeförbud. –"
+      },
+      {
+        "vatten": "Byvattnet",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Byvattnet Abborre, öring Minimått öring 30 cm. Max 3 fiskar/kort. Nätfiskeförbud. Särskilt fiskekort. –"
+      },
+      {
+        "vatten": "Rossötjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Rossötjärn Abborre, gädda –  –"
+      },
+      {
+        "vatten": "Bollstjärn",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Bollstjärn Röding Max 3 fiskar/kort. Nätfiskeförbud. Särskilt fiskekort. Ring för info"
+      },
+      {
+        "vatten": "Kvarnån",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Kvarnån Öring Minimått öring 30 cm. Max 3 fiskar/kort. Nätfiskeförbud. 1/9–31/5"
+      },
+      {
+        "vatten": "Nagasjöån",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Nagasjöån Öring Minimått öring 30 cm. Max 3 fiskar/kort. Nätfiskeförbud. 1/9–31/5"
+      },
+      {
+        "vatten": "Nagasjöån (Kvarnvallen)",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Öring"
+        ],
+        "line": "Nagasjöån (Kvarnvallen) Gädda, harr, öring Minimått harr och öring 30 cm. Max 3 fiskar/kort. Nätfiskeförbud. –"
+      },
+      {
+        "vatten": "Näsets kraftverk",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Öring"
+        ],
+        "line": "Näsets kraftverk Abborre, gädda, öring Minimått öring 30 cm. Max 3 fiskar/kort. Nätfiskeförbud. –"
+      },
+      {
+        "vatten": "Trehörningen",
+        "arter": [
+          "Röding"
+        ],
+        "line": "Trehörningen Röding Max 3 fiskar/kort. Nätfiskeförbud. –"
+      },
+      {
+        "vatten": "Vallsjön",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Vallsjön Röding, öring Minimått öring 30 cm. Max 3 fiskar/kort. Nätfiskeförbud. Särskilt fiskekort. –"
+      },
+      {
+        "vatten": "Gröttjärn",
+        "arter": [
+          "Abborre",
+          "Harr"
+        ],
+        "line": "Gröttjärn Abborre, harr Minimått harr 30 cm.   –"
+      }
+    ],
+    "n": 12
+  },
+  "Vängelälven fiskevårdsområde": {
+    "fvo": "Vängelälvens fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Vängelsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Vängelsjön Abborre, gädda, sik *Se speciella regler. *"
+      },
+      {
+        "vatten": "Vängel- och Forsåsforsen",
+        "arter": [
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Vängel- och Forsåsforsen Harr, sik, öring Minimått öring, harr 35 cm.  1/4–31/5, 1/9–31/10"
+      },
+      {
+        "vatten": "Sikseleforsen Harr, sik, öring Minimått öring, harr 35 cm",
+        "arter": [
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Sikseleforsen Harr, sik, öring Minimått öring, harr 35 cm.  1/4–31/5, 1/9–31/10"
+      },
+      {
+        "vatten": "Brattforsen",
+        "arter": [
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Brattforsen Harr, sik, öring Minimått öring, harr 35 cm.  1/4–31/5, 1/9–31/10"
+      },
+      {
+        "vatten": "Grössjön",
+        "arter": [
+          "Abborre",
+          "Harr",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Grössjön Abborre, harr, röding, sik, öring Endast fiske med föreningens båtar. Minimått öring, harr 35 cm.  1/4–31/5, 1/"
+      },
+      {
+        "vatten": "Ottringen",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Ottringen Abborre, gädda – –"
+      },
+      {
+        "vatten": "Dragasjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Dragasjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Mörtsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Mörtsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Spånsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Spånsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Onsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik"
+        ],
+        "line": "Onsjön Abborre, gädda, harr, sik  – –"
+      },
+      {
+        "vatten": "Mårdsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Mårdsjön Abborre, gädda, harr, sik, öring *Se speciella regler *"
+      }
+    ],
+    "n": 12
+  },
+  "Övre Öjåns fiskevårdsområde": {
+    "fvo": "Övre Öjåns fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Öjarssjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Öjarssjön Abborre, gädda, sik  – –"
+      },
+      {
+        "vatten": "Öjån",
+        "arter": [
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Öjån Harr, sik, öring * Under fiskeförbudet är det tillåtet att fiska harr med fluga.  *1/9–31/10"
+      },
+      {
+        "vatten": "Klumpån",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Öring"
+        ],
+        "line": "Klumpån Abborre, gädda, öring – –"
+      },
+      {
+        "vatten": "Stor-Klumpvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Stor-Klumpvattnet Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Lill-Klumpvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Lill-Klumpvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Blankvattentjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Blankvattentjärn Röding, öring Dygnskort endast hos fasta fiskekortsförsäljare. –"
+      },
+      {
+        "vatten": "Svartabborrtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Svartabborrtjärn Röding, öring Dygnskort endast hos fasta fiskekortsförsäljare. –"
+      }
+    ],
+    "n": 8
+  },
+  "Dragans fiskevårdsområde": {
+    "fvo": "Dragans fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Ströms Vattudal",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Regnbåge",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Ströms Vattudal Abborre, gädda, harr, regnbåge, sik, öring * Nätfiskeförbud (markerat område) 1/9–31/10. *"
+      },
+      {
+        "vatten": "Över-Gissmanvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Över-Gissmanvattnet  Abborre, gädda – –"
+      },
+      {
+        "vatten": "Spjutvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Spjutvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Svanavattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Svanavattnet Abborre, gädda – –"
+      }
+    ],
+    "n": 5
+  },
+  "Bonäset-Risnäset-Äspnäs samfällighet": {
+    "fvo": null,
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Spettnästjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Spettnästjärn Röding, öring Båt är inte tillåten. Rullstolsramp från parkeringen till vattnet. –"
+      },
+      {
+        "vatten": "Nedre Spettnästjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Nedre Spettnästjärn Röding, öring Båt är inte tillåten. –"
+      },
+      {
+        "vatten": "Nordbodtjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Nordbodtjärn Röding, öring Båt är inte tillåten. –"
+      },
+      {
+        "vatten": "Lill-Allvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Lill-Allvattnet Abborre, gädda, harr, sik, öring Båt är tillåten. –"
+      },
+      {
+        "vatten": "Skarvsjön",
+        "arter": [
+          "Abborre",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Skarvsjön Abborre, röding, öring Endast båt utan motor är tillåten. –"
+      },
+      {
+        "vatten": "Buflotjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Buflotjärn Röding, öring Båt är inte tillåten. –"
+      },
+      {
+        "vatten": "Ströms Vattudal",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Ströms Vattudal Abborre, gädda, harr,   Båt är tillåten. –"
+      }
+    ],
+    "n": 8
+  },
+  "Flåsjöns fiskevårdsområde": {
+    "fvo": "Flåsjöns fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Del av Ö Gissmanvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Öring"
+        ],
+        "line": "Del av Ö Gissmanvattnet Abborre, gädda, öring – –"
+      },
+      {
+        "vatten": "Del av Y Gissmanvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Del av Y Gissmanvattnet Abborre, gädda, sik, öring – –"
+      },
+      {
+        "vatten": "Kalvan/Fingervattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Kalvan/Fingervattnet Abborre, gädda, harr, sik, öring – –"
+      },
+      {
+        "vatten": "Fånån",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Fånån Abborre, gädda, harr, sik, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Stortjärn Abborre, öring – –"
+      },
+      {
+        "vatten": "Lilltjärn",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Lilltjärn Abborre, öring – –"
+      },
+      {
+        "vatten": "Storgåstjärn",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Storgåstjärn Öring – –"
+      },
+      {
+        "vatten": "Lomtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Öring"
+        ],
+        "line": "Lomtjärn Abborre, gädda, öring – –"
+      },
+      {
+        "vatten": "Trångvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Trångvattnet Abborre, gädda, harr, sik, öring Fiskeförbud i strömmande vatten + 500 m från åarnas in- och utlopp  1/9–31"
+      },
+      {
+        "vatten": "Flåsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Röding",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Flåsjön Abborre, gädda, harr, röding, sik, öring Fiskeförbud i strömmande vatten + 500 m från åarnas in- och utlopp   1/"
+      },
+      {
+        "vatten": "Järvsandstjärn",
+        "arter": [
+          "Röding",
+          "Öring"
+        ],
+        "line": "Järvsandstjärn Röding, öring – –"
+      },
+      {
+        "vatten": "Gåxsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Gåxsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Storhällvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Storhällvattnet Abborre, gädda, sik, öring – –"
+      },
+      {
+        "vatten": "Flåsjöån",
+        "arter": [
+          "Harr",
+          "Öring"
+        ],
+        "line": "Flåsjöån Harr, öring – –"
+      },
+      {
+        "vatten": "Bodtjärn",
+        "arter": [
+          "Abborre",
+          "Öring"
+        ],
+        "line": "Bodtjärn Abborre, öring – –"
+      }
+    ],
+    "n": 16
+  },
+  "Järilvattnets fiskevårdsområde": {
+    "fvo": "Järilvattnets fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Västervattnet",
+        "arter": [
+          "Abborre",
+          "Kanadaröding",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Västervattnet Abborre, röding, öring Även kanadaröding –"
+      },
+      {
+        "vatten": "Järilvattnet",
+        "arter": [
+          "Abborre",
+          "Kanadaröding",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Järilvattnet Abborre, röding, öring Även kanadaröding –"
+      },
+      {
+        "vatten": "Järilån, nedströms fallet",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Järilån, nedströms fallet  Gädda, harr, röding, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Järilån, uppströms fallet",
+        "arter": [
+          "Abborre",
+          "Kanadaröding",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Järilån, uppströms fallet  Abborre, röding, öring  Även kanadaröding 1/9–31/10"
+      },
+      {
+        "vatten": "Lillån",
+        "arter": [
+          "Abborre",
+          "Kanadaröding",
+          "Röding",
+          "Öring"
+        ],
+        "line": "Lillån Abborre, röding, öring Även kanadaröding 1/9–31/10"
+      }
+    ],
+    "n": 6
+  },
+  "Öhns fiskevårdsområde": {
+    "fvo": null,
+    "vatten": [
+      {
+        "vatten": "Gädda Harr Tillgängligt fiske",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr Tillgängligt fiske"
+      },
+      {
+        "vatten": "Öhnsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake"
+        ],
+        "line": "Öhnsjön Abborre, gädda, harr, lake Nätförbud vid utloppet av Edsån, se kartmarkering. –"
+      },
+      {
+        "vatten": "Kärrnässjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Kärrnässjön Abborre, gädda, harr, lake, sik, öring – –"
+      },
+      {
+        "vatten": "Gubbsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Gubbsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Tällsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Tällsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Björnsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Björnsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Klövsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Klövsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Örevattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Örevattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Renåsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Renåsjön Abborre, gädda, harr, sik, öring – –"
+      },
+      {
+        "vatten": "Ströms Vattudal",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lake"
+        ],
+        "line": "Ströms Vattudal Abborre, gädda, harr, lake, Gratis fiske vid Strömsundsbron, från OKQ8 till udden –"
+      },
+      {
+        "vatten": "Edsån",
+        "arter": [
+          "Sik"
+        ],
+        "line": "Edsån Sik Endast sikhåvning under november. Endast dagkort. –"
+      }
+    ],
+    "n": 11
+  },
+  "Russfjärdens fiskevårdsområde": {
+    "fvo": "Russfjärdens fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Fångsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Fångsjön Abborre, gädda, harr, sik, öring – –"
+      },
+      {
+        "vatten": "Kvisslanströmmen",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Kvisslanströmmen Abborre, gädda, harr, sik, öring – 1/9–31/10"
+      },
+      {
+        "vatten": "Russfjärden",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Regnbåge",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Russfjärden Abborre, gädda, harr, regnbåge, sik, öring –"
+      },
+      {
+        "vatten": "Hostsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Hostsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Låsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Låsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Evensjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Evensjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Bålsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Bålsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Tännvikskanalen",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Tännvikskanalen Abborre, gädda – –"
+      },
+      {
+        "vatten": "Stortjärnen",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Stortjärnen Abborre, gädda – –"
+      },
+      {
+        "vatten": "Roningstjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Roningstjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Kvarnån",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik"
+        ],
+        "line": "Kvarnån Abborre, gädda, harr, sik – –"
+      },
+      {
+        "vatten": "Rishöjdtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Rishöjdtjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Norrströmmen",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Norrströmmen Abborre, gädda, harr, sik, öring  – 1/9–31/10"
+      }
+    ],
+    "n": 14
+  },
+  "Malmsjöns fiskevårdsområde": {
+    "fvo": "Malmsjöns fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Malmsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Malmsjön Abborre, gädda, harr – –"
+      },
+      {
+        "vatten": "Trångsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Trångsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Grundsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Grundsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Hössjö",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Hössjö Abborre, gädda – –"
+      },
+      {
+        "vatten": "Hössjöån",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Hössjöån Öring – –"
+      },
+      {
+        "vatten": "Stora Bergsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Stora Bergsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Bergsjötjärn",
+        "arter": [
+          "Abborre",
+          "Röding"
+        ],
+        "line": "Bergsjötjärn Abborre, röding – –"
+      },
+      {
+        "vatten": "Kolvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Kolvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Regasjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Regasjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Spåntjärnen",
+        "arter": [
+          "Öring"
+        ],
+        "line": "Spåntjärnen Öring – –"
+      },
+      {
+        "vatten": "Övriga vatten",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Övriga vatten Abborre, gädda – –"
+      },
+      {
+        "vatten": "Onsjön, övre del",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik"
+        ],
+        "line": "Onsjön, övre del Abborre, gädda, harr, sik – –"
+      }
+    ],
+    "n": 13
+  },
+  "Faxebygdens fiskevårdsområde": {
+    "fvo": "Faxebygdens fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Norr- och Sör-Sporrsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Norr- och Sör-Sporrsjön Abborre, gädda, harr, sik, öring Minilängd på harr, öring 30 cm.  –"
+      },
+      {
+        "vatten": "Stamseleviken",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Stamseleviken Abborre, gädda, harr, sik, öring Minilängd på harr, öring 30 cm.  –"
+      },
+      {
+        "vatten": "Täxviken",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Täxviken Abborre, gädda, harr, sik, öring Minilängd på harr, öring 30 cm.  –"
+      },
+      {
+        "vatten": "Faxälven",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Faxälven Abborre, gädda, harr, sik, öring Minilängd på harr, öring 30 cm.  –"
+      },
+      {
+        "vatten": "Storvattnet, Stockvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Storvattnet, Stockvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Grundvattnet, Västvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Grundvattnet, Västvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Skarpbergstjärn",
+        "arter": [
+          "Abborre"
+        ],
+        "line": "Skarpbergstjärn Abborre – –"
+      },
+      {
+        "vatten": "Entjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Entjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Djupvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Djupvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Norrån och Vängelälven",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Öring"
+        ],
+        "line": "Norrån och Vängelälven Gädda, harr, öring Maskmeteförbud Norrån. Minilängd på harr, öring 30 cm.  1/4–31/5,1/9–31/10"
+      },
+      {
+        "vatten": "Storvattnet",
+        "arter": [
+          "Abborre"
+        ],
+        "line": "Storvattnet Abborre – –"
+      }
+    ],
+    "n": 12
+  },
+  "Görviks fiskevårdsområde": {
+    "fvo": "Görviks fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Sörviksjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Sörviksjön Abborre, gädda, harr, sik, öring  Nätfiske tillåten, märk nätboj med namn. Max 5 nät/dygnskort. –"
+      },
+      {
+        "vatten": "Kängsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Kängsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Stor Granvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Stor Granvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Bodsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Bodsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Harrsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Harrsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Görviksjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Görviksjön Abborre, gädda, harr, sik, öring Nätfiske tillåten, märk nätboj med namn. Max 5 nät/dygnskort. –"
+      },
+      {
+        "vatten": "Vallån",
+        "arter": [
+          "Sik"
+        ],
+        "line": "Vallån Sik *Sikhåvning tillåten november–december. *1/1–31/12"
+      },
+      {
+        "vatten": "Kärrsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Kärrsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Recksjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Recksjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Flängsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Flängsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Gissjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Gissjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Älgsjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Älgsjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Långvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Långvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Länglingsån",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Länglingsån Abborre, gädda *Fiskeförbud 50 meter uppströms och 100 meter nedströms bron. *"
+      },
+      {
+        "vatten": "Djuptjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Djuptjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Nordåsvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Nordåsvattnet Abborre, gädda – –"
+      },
+      {
+        "vatten": "Gåssjön",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Gåssjön Abborre, gädda – –"
+      },
+      {
+        "vatten": "Länglingssjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Länglingssjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Fyringen",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Fyringen Abborre, gädda – –"
+      }
+    ],
+    "n": 20
+  },
+  "Ede-Grenås fiskevårdsområde": {
+    "fvo": "Ede-Grenås fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Fyrsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Fyrsjön Abborre, gädda, harr, sik, öring –"
+      },
+      {
+        "vatten": "Edesjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Edesjön Abborre, gädda, harr, sik, öring – –"
+      },
+      {
+        "vatten": "Kvarnvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Kvarnvattnet Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Tallåstjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Tallåstjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Dammtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Dammtjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Tingsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Tingsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Stortjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Stortjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Långtjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Långtjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Kroktjärn",
+        "arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "line": "Kroktjärn Abborre, gädda – –"
+      },
+      {
+        "vatten": "Neningen",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Neningen Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Vikfjärden",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Vikfjärden Abborre, gädda, harr, sik, öring – –"
+      },
+      {
+        "vatten": "Mörtsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Mörtsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Tannsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "line": "Tannsjön Abborre, gädda, sik, öring – –"
+      },
+      {
+        "vatten": "Flängsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Flängsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Recksjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Recksjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Lillskallsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Lillskallsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Stora Laxsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Stora Laxsjön Abborre, gädda, sik  – –"
+      },
+      {
+        "vatten": "Grenåssjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Grenåssjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Lill Älggårdsvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Lill Älggårdsvattnet  Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Älggårdsvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Älggårdsvattnet Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Småvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Småvattnet Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Isnottjärn",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Isnottjärn Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Slåttjärn",
+        "arter": [
+          "Abborre",
+          "Regnbåge",
+          "Röding"
+        ],
+        "line": "Slåttjärn Abborre, regnbåge, röding Särskilt fiskekort, se iFiske. 1/9–vecka 9"
+      }
+    ],
+    "n": 24
+  },
+  "Solbergs-Vikens fiskevårdsområde": {
+    "fvo": "Solberg-Vikens fvof",
+    "vatten": [
+      {
+        "vatten": "Gädda Harr",
+        "arter": [
+          "Gädda",
+          "Harr"
+        ],
+        "line": "Gädda Harr"
+      },
+      {
+        "vatten": "Del av Fyrsjön",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Del av Fyrsjön Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Solbergsvattnet",
+        "arter": [
+          "Abborre",
+          "Gädda",
+          "Sik"
+        ],
+        "line": "Solbergsvattnet Abborre, gädda, sik – –"
+      },
+      {
+        "vatten": "Ammerån",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Öring"
+        ],
+        "line": "Ammerån Gädda, harr, öring Översta strömsträckan närmast Solbergsvattnet är totalfredad. 15/4–31/5, 1/9–31/10"
+      },
+      {
+        "vatten": "Halån",
+        "arter": [
+          "Gädda",
+          "Harr",
+          "Öring"
+        ],
+        "line": "Halån Gädda, harr, öring – 15/4–31/5, 1/9–31/10"
+      }
+    ],
+    "n": 5
+  }
+}
