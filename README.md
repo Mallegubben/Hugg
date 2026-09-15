@@ -1,6 +1,6 @@
 # Hugg – FVO-artlista
 
-**[`data/index.json`](data/index.json)** – en enda indexfil.
+**[`data/index.json`](data/index.json)** – en enda indexfil (FVO, arter, vatten, läns­täckning, tomma FVO, filpekare).
 
 ## Policy
 1. **Jämför** med iFiske (spegel/kontroll av vilka arter som “borde” finnas)
@@ -8,6 +8,13 @@
 3. Använd iFiske för **tips/länkar** till respektive FVO/föreningssida (t.ex. “Gå till hemsida”), och hämta artdata därifrån
 4. **Använd aldrig** NatureIT eller Artportalen (varken artdata eller som källa)
 5. Övriga tillåtna källor: Fiskekartan, SLU (NORS/SERS/KUL), GBIF, FVOF/föreningssidor, lokala turism-/kommunkartor (t.ex. FiskaiBerg, Drömfiske Jämtland Härjedalen)
+
+## Index (`data/index.json`)
+- `fvo` – alla FVO med arter och vatten
+- `uppslag.lan` / `uppslag.namn` / `uppslag.art` / `uppslag.vatten`
+- `tackning_per_lan` – alla 21 län (Gotland = 0 i Fiskekartan)
+- `utan_artlista` – FVO utan arter
+- `filer` – pekare till CSV/TSV/MD för klipp och klistra
 
 ## Köra om
 ```bash
