@@ -31,6 +31,10 @@ python scripts/enrich_vatten_level_careful.py
 python scripts/build_index.py
 ```
 
+## Täckning per län
+- Översikt: [`data/processed/fvo_tackning_per_lan.csv`](data/processed/fvo_tackning_per_lan.csv) (alla 21 län).
+- **Gotland** saknas i Länsstyrelsernas Fiskekartan-register (0 FVOF i rådata). Övriga län finns. Lokala gotländska fiskekortsområden (t.ex. Närsån, Lojstaträsken) är oftast samfälligheter/upplåtelser utanför FVOF-registret tills LST publicerar dem.
+
 ## Kvalitet / rättning
 - **Cross-match-dekontaminering:** `bollnasfvf.se` och `malungs-fiske.se` får bara berika sina egna FVO (Bollnäs*/Gävleborg resp. Malungs*/Dalarna). Arter som lagts till via fel sida tas bort om de saknas i Fiskekartan/SLU/GBIF.
 - Kuraterade 1:1-tillägg efter rättning (t.ex. Rödåbygden via Laxportalen, Haverö via lokal fiskeguide, Dammån/Åkersjön via Drömfiske).
