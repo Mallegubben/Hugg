@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-09-15T18:03:35.295206+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Hard-search of 26 FVO that are arter+0-vatten in Hugg artlista AND appear in FANGA_GENUINE_SOURCE_GAPS CSV. Only verified 1:1 water×species from municipal/tourism/FVOF/Naturkartan/Hitta Fiske/vattenagarna/brochure prose (or iFiske narrative with named water). No icons. Multi-lake only when source names waters and assigns species to all named lakes. Known rejects held: Mellanström FVO-level only; Åländern Gös/icon-style only; Stor-Raftsjön ≠ Sandvikssjön-Edsforsens FVOF."
+  },
+  "stats": {
+    "targets_fvo": 26,
+    "fvo_with_enrichments": 3,
+    "total_vatten_rows": 9,
+    "searched_but_empty_fvo": 23
+  },
+  "enrichments": [
+    {
+      "namn": "Hemsjöns m fl sjöars fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Hemsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Fiske i sjöarna Hemsjön, Kuttgölen, Bjerken, Överskjulen, Nerskjulen, Velen samt Stora och Lilla Klevsgölen. Här kan du fånga abborre, gädda och vitfisk. (Velen ej i CSV — ej tilldelad; Abborregöl/Lomgölen/Äskgöl namnges ej i källan — ej tilldelade; vitfisk ej artifierad.)"
+        },
+        {
+          "namn": "Kuttgölen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Samma Kindaturism-prosa listar Kuttgölen bland namngivna sjöar: Här kan du fånga abborre, gädda och vitfisk."
+        },
+        {
+          "namn": "Bjärken",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Källan skriver Bjerken (=Bjärken) bland namngivna sjöar med abborre, gädda och vitfisk."
+        },
+        {
+          "namn": "Överskjulen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Överskjulen namngiven i samma Kindaturism-lista: abborre, gädda och vitfisk."
+        },
+        {
+          "namn": "Nerskjulen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Nerskjulen namngiven i samma Kindaturism-lista: abborre, gädda och vitfisk."
+        },
+        {
+          "namn": "Stora Klevsgölen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Stora … Klevsgölen namngiven i Kindaturism-listan: abborre, gädda och vitfisk."
+        },
+        {
+          "namn": "Lilla Klevsgölen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html",
+          "evidence": "Lilla Klevsgölen namngiven i Kindaturism-listan: abborre, gädda och vitfisk."
+        }
+      ]
+    },
+    {
+      "namn": "Fjällsjö fvof",
+      "lan": "Jämtland",
+      "vatten": [
+        {
+          "namn": "Stortjärnen",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "backe.nu (Fjällsjö Framtid / Fjällsjö FVO)",
+          "url": "http://backe.nu/sv/article/oringfiske-i-stortjarn",
+          "evidence": "Stortjärn planteras årligen med öring. Fiskekort krävs … Dagkort … (inkl. Stortjärn, Blåtjärn och Bergsjön …). (Endast Stortjärn har explicit artkoppling; Blåtjärn/Bergsjön nämns i kortet utan egen artprosa — ej tilldelade. Övriga Fjällsjö-vatten kvarstår FVO-nivå/empty.)"
+        }
+      ]
+    },
+    {
+      "namn": "Luleå fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Luleälven",
+          "arter": [
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "visitlulea.se",
+          "url": "https://visitlulea.se/se-gora/se-gora-artiklar/fiska-i-lulea/",
+          "evidence": "LULEÄLVEN. Bra fiske efter både lax och havsöring i Gäddviksströmmarna. … Luleälv och Luleå fiskvårdsområde. Fiskevårdsområdet sträcker sig från Gammelstad till Tjuvholmssundet och Klubbviken. (Gäddvik ligger inom Luleå FVOF-sträckan; övriga namngivna fjärdar/bäckar i CSV saknar egen artprosa — ej tilldelade. 'fjärdarna' abborre/gädda/sik ej 1:1-namngivna.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    "Byngarens fvof (Byngaren): iFiske 404; VA/NK utan träff; Valdemarsvik/Visit Östergötland utan water×species; Fishbrain/rapporter ej använda.",
+    "Gulten-Hanesjöns fvof (Gulten): förväxla ej med Tiveden/Laxå Hanesjön (regnbåge); Finspång/Kraften utan artprosa för Gulten.",
+    "Tångens fvof (Tången, Ydre): iFiske 404; Ydre kommun fiskesjöar listar arter kommunövergripande och namnger andra sjöar för gös/öring/röding — Tången ej 1:1; Issuu SVG-guide ej verifierbar live.",
+    "Värnässjöns fvof (Värnässjön): ingen FVOF/tourism/NK-prosa; Fishbrain ej använd.",
+    "Horsfjärdens fvof (Horsfjärden): iFiske/NK 404; Kindaturism utan sida; stugägare-guestbook (Hecht/Barsch) ej prefererad källa — ej använt.",
+    "Åländerns fvof (Åländern,Axsjön,Vån,Övre/Nedre Högsjön): VA listar vatten utan arter; iFiske endast Fiskarter-ikonblock (Gös-rad med återutsättningsnot) — known reject, ingen ny narrativ prosa.",
+    "Antvardens fvof (Antvarden,Mossjön): iFiske utan artprosa; Västervik-guide utan artlista; Mossjön(Falkenberg) ≠ denna Mossjön.",
+    "Grytgöls fvof (Dammen,Gryten,Grytgölen): kommun/badplatssidor utan arter; iFiske 404.",
+    "Rippestorps fvof (Hagsjön,Övre Ripplingen): ingen water×species-prosa.",
+    "Värnasjön-Strålången fvof (Dyveln,Strålången,Värnasjön): ingen artprosa; Dyveln(Värmland) ≠ denna Dyveln.",
+    "Ödesjöboda fvof (Frögöl,Skirsjön,Ängsjön): ingen prosa.",
+    "Österby fvof (Fagerhultegöl): NK/iFiske utan träff; Sjödetektiven utan arter.",
+    "Holmträsk fvof (Jokkmokk; Holmträsket m.fl.): ej samma som Kalix Holmträsk (gratis abborre/gädda/mört) eller Holmträsk-Storsjö (Åsele); iFiske 404; Jokkmokk jakt&fiske-sidor utan denna FVO.",
+    "Mellanströms fvof (multi): mellanstrom.se 'abborre, gädda, harr, sik och öring' på FVO-nivå utan namngivna vatten — known reject, held.",
+    "Vistträsk FVO (Nörd-/Sör-Vistträsket m.fl.): kommun/byasidor utan water×species; iFiske 404.",
+    "Suaningi fvof (Suaninkijärvi m.fl., Pajala): ingen tourism/FVOF-prosa.",
+    "Sävast-Unbyns fvof (Luleälven,Råbäcken,Sävastån): Boden tourism nämner Lule älv öring generellt / Sävastån bad-fiske utan artlista — ej 1:1 till FVOF-vatten.",
+    "Stor-Raftsjöns fvo: Sandvikssjön-Edsforsens FVOF listar Stor-Raftsjön som SITT vatten — do NOT cross-assign; egen prosa saknas.",
+    "Landsomsjöns fvof (Landsomsjön): Wikipedia/geografi utan arter; Grimnäs-Landsomfjärdens ≠ denna FVO.",
+    "Stortannsjöns fvof: iFiske 404; Sollefteå kommunfiske utan namngivet Stortannsjön×species.",
+    "Tappebosjöarnas fvof (Norra/Södra Tappebosjön, Viggsjön): Sala/iFiske utan prosa.",
+    "Ljömsebosjöns fvof (Ljömsebosjön): ingen prosa.",
+    "Nävdens fvof (Grytnäsån, Hällsjöbäck): avesta.se nämner Nävdens FVO utan arter för ån/bäcken."
+  ],
+  "rejected": [
+    "Mellanströms: FVO-nivå abborre/gädda/harr/sik/öring utan per-vatten — held.",
+    "Åländerns: iFiske Fiskarter/ikonstil (inkl. Gös-förbudstext) utan narrativ water×species — held.",
+    "Stor-Raftsjön via Sandvikssjön-Edsforsens FVOF — annan förening, ej 1:1 till Stor-Raftsjöns fvo.",
+    "Kalix Holmträsk (abborre/gädda/mört) ≠ Jokkmokk Holmträsk fvof.",
+    "Horsfjärden stugguestbook Hecht/Barsch — ej prefererad källa.",
+    "Visit Luleå 'fjärdarna' abborre/gädda/sik — ej namngivna CSV-fjärdar.",
+    "Fjällsjö backe.nu Blåtjärn/Bergsjön endast i dagkort utan artprosa — ej tilldelade.",
+    "Hemsjön Kindaturism Velen + vitfisk: Velen ej CSV; vitfisk ej artifierad; Abborregöl/Lomgölen/Äskgöl ej i källan."
+  ]
+}
