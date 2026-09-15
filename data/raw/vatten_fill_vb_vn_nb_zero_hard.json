@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "round": "vb_vn_nb_zero_vatten_hard_review",
+    "generated_at": "2026-09-15T17:39:29.789508+00:00",
+    "policy": "1:1 FVO↔källa; aldrig iFiske-ikoner/NatureIT/Artportalen; explicit named-water species; quote evidence; multi-lake = per-water OR named waters + FVO species list",
+    "stats": {
+      "fvo_with_enrichments": 10,
+      "total_vatten_rows": 36,
+      "empty_notes": 16
+    },
+    "empty_searches": [
+      "Arnträsk-Mensträsk: ingen lokal vatten×art-prosa (Visit Lycksele/Skellefteå)",
+      "Bjurträsk: Norsjö SFK put&take Kattöggeltjärn ≠ Bjurträsk fvof artlista",
+      "Byssträsk-Nylidens: visitlycksele länkar utan arttext (403/tom)",
+      "Holmträskbygdens (VB): ingen 1:1-källa",
+      "Kokträsk / Kussjö / Maltträsk / Petikträsk / Rökåbygdens / Rörträsk-Bredträsks / Släppträsk / Stora Sikträskets / Strömsjönäs: kommun/turism utan vatten×art",
+      "Rödåbygdens: fiskekort.se FVO-nivå abborre/gädda/öring/harr/lax utan vattenkoppling (tidigare rejected)",
+      "Saxnäs fvof: Saxnäsområdet/Kultsjön ≠ verifierad Saxnäs-fvof artlista; NatureIT ej använd",
+      "Trehörningens (Umeå): fiskekort.se nere; umea.se nämner brygga/båt utan arter; iFiske-prosa ej använd som artdata",
+      "Västansjö (Nordmaling): ingen icke-iFiske 1:1 (Värmland/Vilhelmina-homonymer förväxlingsrisk)",
+      "Käls: VA 'vissa/några vatten' — ej 1:1",
+      "Bölens / Hällsjö / Lövsjösjöns / Nordanede / Ranasjöns / Stortannsjöns / Stybbersmarkssjöns / Östanskärs: saknar icke-iFiske vatten×art",
+      "Ånge VA o=543: röding endast 'vissa vatten' — ej tilldelad; endast öring via namngivna vatten+FVO-lista",
+      "Mellanströms: mellanstrom.se FVO-nivå utan namngivna vatten",
+      "Holmträsk (NB) / Luleå / Suaningi / Sävast-Unbyns / Vistträsk: saknar hård lokal vatten×art (boden.se tips ej FVO-1:1 utom Vittjärv/Trångfors)",
+      "Jämtland ZERO (Fjällsjö/Flors/Landsomsjön/Mo-Östersjön/Stor-Raftsjön): endast iFiske-prosa för Mo-Östersjön — ej använd; övriga utan lokal 1:1 denna pass",
+      "Binböletjärn lake: endast iFiske-historik; kommunfolder anger öring+röding — lake ej inkluderad"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Knaftens fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Örån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Örån (Öre älv): Öring, harr, gädda, abborre. I Öråns (Öreälven inom Lycksele kommun) strömmande avsnitt finns det harr och öring."
+        },
+        {
+          "namn": "Mettjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Mettjärn: Abborre, öring. I Mettjärn finns ett naturbestånd av öring, men den domineras av abborre."
+        },
+        {
+          "namn": "Blåtjärnarna",
+          "arter": [
+            "Regnbåge",
+            "Röding"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Blåtjärnarna: Röding, regnbåge. I Blåtjärnarna och Gumsnästjärn sker fiskutsättningar vår och höst."
+        },
+        {
+          "namn": "Gumsnästjärn",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Gumsnästjärn: Öring, regnbåge."
+        }
+      ]
+    },
+    {
+      "namn": "Sätra fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Sätratjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dockstafiske.com",
+          "url": "https://www.dockstafiske.com/fiskeomraden",
+          "evidence": "Sätra fiskevårdsområde består av 2 natursköna skogstjärnar 2 km från Docksta. … I sjöarna finns bara öring och röding. (Kartan: Sätratjärn / Edångerstjärn.)"
+        },
+        {
+          "namn": "Edångerstjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dockstafiske.com / kramfors.se fiskefolder",
+          "url": "https://www.dockstafiske.com/fiskeomraden",
+          "evidence": "Sätra FVO: två skogstjärnar; I sjöarna finns bara öring och röding / enbart inplanterad öring och röding (Kramfors fiskefolder 2022: 18–19 Sätra; karta Sätratjärn & Edångerstjärn)."
+        }
+      ]
+    },
+    {
+      "namn": "Binböletjärns fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Binböletjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "kramfors.se fiskefolder 2022",
+          "url": "https://www.kramfors.se/download/18.8423d521812100aebc4c8b/1655137237378/Fiskefolder%202022.pdf",
+          "evidence": "27 Binböletjärns Fiskevårdsområde … Tjärnen har inplanterad öring och röding, utsättning sker årligen av öring och röding."
+        }
+      ]
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "note": "Örnsköldsvik-raden (VA o=3530). Fiskekartan URL_FVOF o=545 saknar arttext; o=3530 har vatten×art.",
+      "vatten": [
+        {
+          "namn": "Salomonstjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Salomonstjärn: Salomonstjärn har inplanterad regnbåge."
+        },
+        {
+          "namn": "Stensvattnet",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Stensvattnet: Stensvattnet har naturligt bestånd av öring och abborre."
+        },
+        {
+          "namn": "Lidtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Lidtjärn: Lidtjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Lill-Malklippstjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Lill-Malklippstjärn: Lill-Malklippstjärn har inplanterad Öring. Endast flugfiske."
+        },
+        {
+          "namn": "Kastertjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Kastertjärn: Kastertjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Stor-Malklippstjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Stor-Malklippstjärn: Stor-Malklippstjärn har naturligt bestånd av Öring och Abborre."
+        },
+        {
+          "namn": "Långvattsån",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Långvattsån: långvattsån har naturligt bestånd av Öring och Abborre"
+        }
+      ]
+    },
+    {
+      "namn": "Ånge fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Grästjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Ånge FVO omfattar Grästjärn, Näbbtjärn, Djuptjärn, Kniptjärn, Rången, Svarttjärn, Malmyrtjärn, Abborrtjärn, Flistersjön och Vattensjön. … öring återintroducerades samtidigt som röding planterades ut i vissa av vattnen, båda dessa är numera självreproducerande bestånd."
+        },
+        {
+          "namn": "Näbbtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Djuptjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Kniptjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Rången",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Svarttjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Malmyrtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Flistersjön",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        },
+        {
+          "namn": "Vattensjön",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Namngivna Ånge FVO-vatten + FVO-artlista: öring återintroducerad efter rotenon 1984 (självreproducerande). Röding endast i 'vissa av vattnen' — ej tilldelad per sjö."
+        }
+      ]
+    },
+    {
+      "namn": "Pausele-Bäcknäs fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Paubäcken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "lycksele.se",
+          "url": "https://www.lycksele.se/globalassets/dokument/4-fritid-och-kultur/paubacken_low.pdf",
+          "evidence": "Fisket i Paubäcken är uppdelat på fyra fiskerättsinnehavare. … längst ner Pausele/Bäcknäs vars kort också gäller i delar av Umeälven. I de strömmande delarna av bäcken finns harr och öring. Gädda och abborre finns i hela bäcken."
+        }
+      ]
+    },
+    {
+      "namn": "Leduåns fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Leduån",
+          "arter": [
+            "Havsöring",
+            "Öring"
+          ],
+          "kalla": "projektleduan.se",
+          "url": "https://www.projektleduan.se/ledu%C3%A5ns-fvo.html",
+          "evidence": "Leduåns fiskevårdsområde samordnar regler kring fisket … i ån … Fiske efter öring är tillåten under tiden 1/5 t.o.m. 31/8 … All öring skall återutsättas. … Kontrollavgifter: Avlivning av havsöring: 1500 kr; Fiske under förbudstid efter havsöring: 1500 kr. (Lax/ål nämns som restaureringsmål — ej upptagna som etablerad artlista här.)"
+        }
+      ]
+    },
+    {
+      "namn": "Kangos fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Lainioälven",
+          "arter": [
+            "Harr",
+            "Lax"
+          ],
+          "kalla": "fiskemagasinet.se",
+          "url": "https://fiskemagasinet.se/lankar/fiskevardsomraden/norrbotten/",
+          "evidence": "Kangos FVO … Fiskeområdet i Kangos omfattar 32 km byavatten. … Lainioälven är en typisk skogsälv i Norrbotten. Älven har mycket bra lax och harrfiske."
+        },
+        {
+          "namn": "Takajärvi",
+          "arter": [
+            "Abborre",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "fiskemagasinet.se",
+          "url": "https://fiskemagasinet.se/lankar/fiskevardsomraden/norrbotten/",
+          "evidence": "Kangos FVO — Inplanterade sjöar: Takajärvi, som ligger mitt i byn, är inplanterad med öring. Sik, abborre och lake finns dessutom."
+        },
+        {
+          "namn": "Joensuujärvi",
+          "arter": [
+            "Röding"
+          ],
+          "kalla": "fiskemagasinet.se",
+          "url": "https://fiskemagasinet.se/lankar/fiskevardsomraden/norrbotten/",
+          "evidence": "Kangos FVO — Joensuujärvi, har bestånd av Röding"
+        },
+        {
+          "namn": "Pahturijärvi",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "fiskemagasinet.se",
+          "url": "https://fiskemagasinet.se/lankar/fiskevardsomraden/norrbotten/",
+          "evidence": "Kangos FVO — Pahturijärvi, har bestånd av öring och abborre"
+        },
+        {
+          "namn": "Pitkäahvenjärvi",
+          "arter": [
+            "Harr"
+          ],
+          "kalla": "fiskemagasinet.se",
+          "url": "https://fiskemagasinet.se/lankar/fiskevardsomraden/norrbotten/",
+          "evidence": "Kangos FVO — Pitkäahvenjärvi, Inplanterad Harr (bra Vinterfiske)"
+        }
+      ]
+    },
+    {
+      "namn": "Racksund-Östansjö fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Uddjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland.se",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Fisket bedrivs i sjöarna: Uddjaur, Aisjaur, Fluka, Akkelisjaur & Varrajaur Klasser: Oring, Gädda, Abborre & Harr"
+        },
+        {
+          "namn": "Aisjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland.se",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Racksundsnappet: namngivna sjöar + tävlingsklasser öring, gädda, abborre, harr (Fluka utelämnad — ej i iFiske/FVO-prosa Uddjaur/Aisjaur/Akkelisjaure/Varrajaure)."
+        },
+        {
+          "namn": "Akkelisjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland.se",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Racksundsnappet: namngivna sjöar + tävlingsklasser öring, gädda, abborre, harr (Fluka utelämnad — ej i iFiske/FVO-prosa Uddjaur/Aisjaur/Akkelisjaure/Varrajaure)."
+        },
+        {
+          "namn": "Varrajaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland.se",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Racksundsnappet: namngivna sjöar + tävlingsklasser öring, gädda, abborre, harr (Fluka utelämnad — ej i iFiske/FVO-prosa Uddjaur/Aisjaur/Akkelisjaure/Varrajaure)."
+        }
+      ]
+    },
+    {
+      "namn": "Trångforsens fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Luleälven",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "boden.se",
+          "url": "https://boden.se/uppleva-och-gora/fritid-och-idrott/fiske",
+          "evidence": "Exempel på fiskevatten: Lule älv, Vittjärv – Bra gäddfiske nära stan. (Trångforsens FVOF omfattar Luleälven mellan Vittjärvs och Bodens kraftstation.)"
+        }
+      ]
+    }
+  ]
+}
