@@ -179,6 +179,7 @@ def persist_raw_copies() -> None:
         "vatten_fill_round3.json",
         "vatten_fill_round4.json",
         "vatten_fill_round5.json",
+        "vatten_fill_round5_vg.json",
     ):
         src = Path("/opt/cursor/artifacts") / name
         dst = RAW / name
@@ -194,12 +195,14 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round3_partial.json",
         RAW / "vatten_fill_round4.json",
         RAW / "vatten_fill_round5.json",
+        RAW / "vatten_fill_round5_vg.json",
         RAW / "vatten_fill_round5_abborresjon.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round4_merged.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round5.json"),
+        Path("/opt/cursor/artifacts/vatten_fill_round5_vg.json"),
     ]
     blocks: list[dict] = []
     loaded: set[str] = set()
