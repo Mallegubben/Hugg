@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T13:33:41.633102+00:00",
+    "generated_at": "2026-09-15T13:43:47.013757+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -39,10 +39,10 @@
     "coverage": {
       "har_fiskekartan_arter": 994,
       "har_survey_arter": 1565,
-      "har_nagon_art": 1867,
-      "saknar_arter": 40,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
       "har_vattenposter": 1565,
-      "har_extern_enrichment": 273,
+      "har_extern_enrichment": 280,
       "har_gbif_enrichment": 967,
       "har_ifiske_spegel_kontroll": 884
     },
@@ -331,11 +331,11 @@
       ]
     },
     "curated_post_decontam_pass": {
-      "applied": 1,
-      "added_species_entries": 8,
-      "mirror_gaps_closed": 0,
-      "tomma_fore": 41,
-      "tomma_efter": 40,
+      "applied": 7,
+      "added_species_entries": 34,
+      "mirror_gaps_closed": 19,
+      "tomma_fore": 40,
+      "tomma_efter": 33,
       "jamtland_before": {
         "antal": 157,
         "tomma": 0,
@@ -15120,11 +15120,16 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Regnbåge",
+        "Öring"
+      ],
+      "kallor": [
+        "hokensas"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 2,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -15133,6 +15138,18 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://hokensas.se/om-baltak/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Regnbåge",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://hokensas.se/om-baltak/"
+        ]
       }
     },
     {
@@ -21328,11 +21345,24 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Bäckröding",
+        "Gädda",
+        "Gös",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Siklöja",
+        "Öring"
+      ],
+      "kallor": [
+        "bjorna_nu"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -21358,26 +21388,36 @@
           "Öring"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Abborre",
           "Bergsimpa",
           "Braxen",
-          "Bäckröding",
-          "Gädda",
           "Gärs",
-          "Gös",
-          "Harr",
           "Id",
-          "Lake",
-          "Mört",
           "Nors",
           "Ruda",
-          "Röding",
-          "Signalkräfta",
-          "Siklöja",
-          "Öring"
+          "Signalkräfta"
         ],
         "url": "https://www.ifiske.se/fiske-vastersjon-kravattnet-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "lokala_tipslankar": [
+        "https://bjorna.nu/jakt-och-fiske/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Bäckröding",
+          "Gädda",
+          "Gös",
+          "Harr",
+          "Lake",
+          "Mört",
+          "Röding",
+          "Siklöja",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://bjorna.nu/jakt-och-fiske/"
+        ]
       }
     },
     {
@@ -83748,11 +83788,17 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "kallor": [
+        "lekeberg_kommun"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -83761,6 +83807,19 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Gös"
+        ],
+        "kallor_url:er": [
+          "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html"
+        ]
       }
     },
     {
@@ -153849,11 +153908,16 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "kallor": [
+        "naturkartan"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 2,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -153862,6 +153926,18 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda"
+        ],
+        "kallor_url:er": [
+          "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo"
+        ]
       }
     },
     {
@@ -198600,11 +198676,23 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Sarv",
+        "Sutare",
+        "Ål"
+      ],
+      "kallor": [
+        "vastsverige"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -198621,7 +198709,20 @@
           "Sutare",
           "Ål"
         ],
-        "luckor_ej_funna_hos_fvof": [
+        "luckor_ej_funna_hos_fvof": [],
+        "url": "https://www.ifiske.se/fiske-norra-simmesjons-fvof.htm",
+        "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "gbif_enrichment": {
+        "arter_i_omslutning": [],
+        "tillagda_arter": [],
+        "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-norra-simmesjon/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
           "Abborre",
           "Braxen",
           "Gädda",
@@ -198632,13 +198733,9 @@
           "Sutare",
           "Ål"
         ],
-        "url": "https://www.ifiske.se/fiske-norra-simmesjons-fvof.htm",
-        "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      },
-      "gbif_enrichment": {
-        "arter_i_omslutning": [],
-        "tillagda_arter": [],
-        "tom_omslutning": true
+        "kallor_url:er": [
+          "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-norra-simmesjon/"
+        ]
       }
     },
     {
@@ -247062,11 +247159,18 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "kallor": [
+        "ljungandalen_fiskeguide"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 4,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -247075,6 +247179,20 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://abcdocz.com/doc/2899316/sn%C3%B6bergs-fvo"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Regnbåge",
+          "Röding",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://abcdocz.com/doc/2899316/sn%C3%B6bergs-fvo"
+        ]
       }
     },
     {
@@ -255473,11 +255591,18 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "kallor": [
+        "ljungandalen_fiskeguide"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 4,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -255486,6 +255611,20 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://abcdocz.com/doc/4127883/stora-och-lilla-grundsj%C3%B6ns-fvo"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Sik",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://abcdocz.com/doc/4127883/stora-och-lilla-grundsj%C3%B6ns-fvo"
+        ]
       }
     },
     {

@@ -1,30 +1,116 @@
 {
   "applied": [
     {
-      "fvo": "Älmeshultasjöns fvof",
-      "lan": "Jönköping",
+      "fvo": "Långaskruvs fvof",
+      "lan": "Kronoberg",
+      "tillagda": [
+        "Abborre",
+        "Gädda"
+      ],
+      "source": "naturkartan",
+      "url": "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo",
+      "gaps_closed": 0,
+      "note": "Naturkartan + Uppvidinge kommun: abborre, gädda (Krogöl m.fl.)"
+    },
+    {
+      "fvo": "Hemsjöns fvof",
+      "lan": "Örebro",
+      "tillagda": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "source": "lekeberg_kommun",
+      "url": "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html",
+      "gaps_closed": 0,
+      "note": "Lekeberg: Stora och Lilla Hemsjön – abborre, gädda, gös"
+    },
+    {
+      "fvo": "Björna fvof",
+      "lan": "Västernorrland",
+      "tillagda": [
+        "Abborre",
+        "Bäckröding",
+        "Gädda",
+        "Gös",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Siklöja",
+        "Öring"
+      ],
+      "source": "bjorna_nu",
+      "url": "https://bjorna.nu/jakt-och-fiske/",
+      "gaps_closed": 10,
+      "note": "Björna.nu + Örnsköldsvik naturguide: vattenvisa artlistor"
+    },
+    {
+      "fvo": "Baltaks fvof",
+      "lan": "Västra Götaland",
+      "tillagda": [
+        "Regnbåge",
+        "Öring"
+      ],
+      "source": "hokensas",
+      "url": "https://hokensas.se/om-baltak/",
+      "gaps_closed": 0,
+      "note": "Hökensås: regnbåge och öring i Tidan/Baltak"
+    },
+    {
+      "fvo": "Norra Simmesjöns fvof",
+      "lan": "Västra Götaland",
       "tillagda": [
         "Abborre",
         "Braxen",
         "Gädda",
+        "Gös",
         "Lake",
         "Mört",
         "Sarv",
-        "Siklöja",
-        "Sutare"
+        "Sutare",
+        "Ål"
       ],
-      "source": "naturkartan",
-      "url": "https://www.naturkartan.se/sv/jonkopings-lan/almeshultasjons-fvof",
+      "source": "vastsverige",
+      "url": "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-norra-simmesjon/",
+      "gaps_closed": 9,
+      "note": "Västsverige: explicit artlista för Norra Simmesjöns FVO"
+    },
+    {
+      "fvo": "Snöbergs fvof",
+      "lan": "Västernorrland",
+      "tillagda": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "source": "ljungandalen_fiskeguide",
+      "url": "https://abcdocz.com/doc/2899316/sn%C3%B6bergs-fvo",
       "gaps_closed": 0,
-      "note": "Naturkartan: explicit artlista för Älmeshultasjön"
+      "note": "Lokal fiskeguide Ljungandalen: Snöbergs FVO (Stora/Lilla Grimsjön, Bytjärn)"
+    },
+    {
+      "fvo": "Stora och lilla Grundsjöns fvof",
+      "lan": "Västernorrland",
+      "tillagda": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ],
+      "source": "ljungandalen_fiskeguide",
+      "url": "https://abcdocz.com/doc/4127883/stora-och-lilla-grundsj%C3%B6ns-fvo",
+      "gaps_closed": 0,
+      "note": "Lokal fiskeguide Ljungandalen: Stora & Lilla Grundsjöns FVO"
     }
   ],
   "stats": {
-    "applied": 1,
-    "added_species_entries": 8,
-    "mirror_gaps_closed": 0,
-    "tomma_fore": 41,
-    "tomma_efter": 40,
+    "applied": 7,
+    "added_species_entries": 34,
+    "mirror_gaps_closed": 19,
+    "tomma_fore": 40,
+    "tomma_efter": 33,
     "jamtland_before": {
       "antal": 157,
       "tomma": 0,
