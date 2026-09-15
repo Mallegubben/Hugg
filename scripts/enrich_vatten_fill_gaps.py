@@ -185,9 +185,11 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round2.json",
         RAW / "vatten_fill_round3.json",
         RAW / "vatten_fill_round3_partial.json",
+        RAW / "vatten_fill_round4.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),
+        Path("/opt/cursor/artifacts/vatten_fill_round4_merged.json"),
     ]
     blocks: list[dict] = []
     loaded: set[str] = set()

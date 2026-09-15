@@ -523,325 +523,210 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ristens fvof",
       "lan": "Östergötland",
       "vatten": "Risten",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Nors",
-        "Sarv",
-        "Sutare"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Lagans (Hamneda-Traryd) fvof",
       "lan": "Kronoberg",
       "vatten": "Lagan",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Regnbåge",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Lagans (Hamneda-Traryd) fvof",
       "lan": "Kronoberg",
       "vatten": "Trarydsdammen",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Regnbåge",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dalby fvof",
       "lan": "Värmland",
       "vatten": "Norra Liksjötjärn",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Regnbåge"
-      ],
-      "tillagda_fvoarter": [
-        "Regnbåge"
-      ]
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dalby fvof",
       "lan": "Värmland",
       "vatten": "Klarälven",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Harr"
-      ],
-      "tillagda_fvoarter": [
-        "Harr"
-      ]
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dalby fvof",
       "lan": "Värmland",
       "vatten": "Likån",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dalby fvof",
       "lan": "Värmland",
       "vatten": "Ljusnan",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Varnums och Marsjöarnas fvof",
       "lan": "Västra Götaland",
       "vatten": "Varnum",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Varnums och Marsjöarnas fvof",
       "lan": "Västra Götaland",
       "vatten": "Marsjöarna",
       "source": "vattenagarna",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Övrasjöns fvof",
       "lan": "Jönköping",
       "vatten": "Övrasjön",
       "source": "naturkartan",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Röding"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Årsjöns fvof",
       "lan": "Östergötland",
       "vatten": "Årsjön",
       "source": "naturkartan",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Årsjöns fvof",
       "lan": "Östergötland",
       "vatten": "Holmsjön",
       "source": "naturkartan",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Årsjöns fvof",
       "lan": "Östergötland",
       "vatten": "Grönsjön",
       "source": "naturkartan",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Pickesjön fvof",
       "lan": "Västra Götaland",
       "vatten": "Pickesjön",
       "source": "boras.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Karp",
-        "Mört",
-        "Regnbåge",
-        "Ål"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Öljarens fvof",
       "lan": "Södermanland",
       "vatten": "Öljaren",
       "source": "oljaren.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Gäddtjärnens fvof",
       "lan": "Västernorrland",
       "vatten": "Gäddtjärn",
       "source": "sff-stenbiten.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Omsjö fvof",
       "lan": "Västernorrland",
       "vatten": "Karvsjön",
       "source": "omsjo.com",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Borgsjö mellersta fvof",
       "lan": "Västernorrland",
       "vatten": "Torråstjärn",
       "source": "laget.se",
-      "tillagda_vattenarter": [
-        "Röding"
-      ],
-      "tillagda_fvoarter": [
-        "Röding"
-      ]
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Mollsjöns fvof",
       "lan": "Västra Götaland",
       "vatten": "Mollsjön",
       "source": "mollsjon.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ärtingens fvof",
       "lan": "Västra Götaland",
       "vatten": "Ärtingen",
       "source": "vastsverige",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Benlöja",
-        "Braxen",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Regnbåge",
-        "Sarv",
-        "Sik",
-        "Siklöja",
-        "Sutare",
-        "Ål",
-        "Öring"
-      ],
-      "tillagda_fvoarter": [
-        "Regnbåge"
-      ]
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Vaxsjöns fvof",
       "lan": "Skåne",
       "vatten": "Vaxsjön",
       "source": "vaxsjon.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda",
-        "Gös",
-        "Mört",
-        "Sarv",
-        "Sutare"
-      ],
-      "tillagda_fvoarter": [
-        "Braxen",
-        "Gädda",
-        "Gös",
-        "Mört",
-        "Sarv",
-        "Sutare"
-      ]
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Stångån-Linköpings fvof",
       "lan": "Östergötland",
       "vatten": "Stångån",
       "source": "naturkartan",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Nedre Svartåns fvof",
       "lan": "Östergötland",
       "vatten": "Svartån",
       "source": "naturkartan",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Asp",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
@@ -870,30 +755,925 @@
       "source": "vattenagarna",
       "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ankedammens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Ankedammen",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": [
+        "Abborre"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Eningens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Eningen",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Mört",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gnöttelns fvof",
+      "lan": "Kalmar",
+      "vatten": "Gnötteln",
+      "source": "visithultsfred.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sutare"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Kråkereds fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stora Transåssjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Mört",
+        "Regnbåge",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Kåsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stora Kåsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Kåsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lilla Kåsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lysetjärn",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Röding"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Hagtjärn",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Ruda"
+      ],
+      "tillagda_fvoarter": [
+        "Ruda"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stortjärn",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Regnbåge",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Molla fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Mollasjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Norra Långevattnets fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Norra Långevattnet",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Mört",
+        "Regnbåge"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Norra Sämsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Norra Sämsjön",
+      "source": "norrasamsjonsfvof.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Karp",
+        "Lake",
+        "Mört",
+        "Signalkräfta",
+        "Siklöja",
+        "Sutare",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Braxen",
+        "Signalkräfta"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Närens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Nären",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sarv"
+      ],
+      "tillagda_fvoarter": [
+        "Sarv"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Näsölns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Näsölen",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Nors",
+        "Siklöja",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": [
+        "Nors",
+        "Siklöja",
+        "Sutare"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Rammsjön i Marks kommun fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Rammsjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Gädda",
+        "Mört",
+        "Öring"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Sandskens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Sandsken",
+      "source": "herrljunga.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört"
+      ],
+      "tillagda_fvoarter": [
+        "Gös"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Skäresjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Skäresjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sävsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Sävsjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Mört",
+        "Sutare",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Långevattnet",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Regnbåge",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Mört"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Bredvattnet",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Smörvattnet",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Skulevatten",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Abborre"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Iglatjärnen",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Plogfoten",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Åkersjön",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Bergsjön",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Regnbåge"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Tösjön Häcksjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Häcksjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Öring"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Tösjön Häcksjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Tösjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Röding"
+      ],
+      "tillagda_fvoarter": [
+        "Röding"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Viskan vid Rydboholms fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Viskan",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Lake"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Viskan vid Rydboholms fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Storsjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sik",
+        "Ål"
+      ],
+      "tillagda_fvoarter": [
+        "Gös",
+        "Sik"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Älsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Älsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Åklång",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Elritsa",
+        "Gädda",
+        "Gärs",
+        "Lake",
+        "Mört",
+        "Nejonöga",
+        "Nors",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Stensimpa",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Nejonöga",
+        "Sarv"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lillesjön",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Elritsa",
+        "Gädda",
+        "Gärs",
+        "Lake",
+        "Mört",
+        "Nejonöga",
+        "Nors",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Stensimpa",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Glycksjön",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Elritsa",
+        "Gädda",
+        "Gärs",
+        "Lake",
+        "Mört",
+        "Nejonöga",
+        "Nors",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Stensimpa",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Glycksjö ände",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Elritsa",
+        "Gädda",
+        "Gärs",
+        "Lake",
+        "Mört",
+        "Nejonöga",
+        "Nors",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Stensimpa",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ankedammens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Ankedammen",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Eningens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Eningen",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Gnöttelns fvof",
+      "lan": "Kalmar",
+      "vatten": "Gnötteln",
+      "source": "visithultsfred.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Kråkereds fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stora Transåssjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Kåsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stora Kåsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Kåsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lilla Kåsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lysetjärn",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Hagtjärn",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stortjärn",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Molla fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Mollasjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Norra Långevattnets fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Norra Långevattnet",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Norra Sämsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Norra Sämsjön",
+      "source": "norrasamsjonsfvof.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Närens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Nären",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Näsölns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Näsölen",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Rammsjön i Marks kommun fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Rammsjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sandskens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Sandsken",
+      "source": "herrljunga.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Skäresjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Skäresjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sävsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Sävsjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Långevattnet",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Bredvattnet",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Smörvattnet",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Skulevatten",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Iglatjärnen",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Plogfoten",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Åkersjön",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sörbergens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Bergsjön",
+      "source": "sportfiskarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Tösjön Häcksjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Häcksjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Tösjön Häcksjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Tösjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Viskan vid Rydboholms fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Viskan",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Viskan vid Rydboholms fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Storsjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Älsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Älsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Åklång",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lillesjön",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Glycksjön",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åklångs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Glycksjö ände",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     }
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 23,
+    "created_vatten": 35,
     "merged_vatten": 0,
-    "touched_vatten": 61,
-    "applied_rows": 84,
+    "touched_vatten": 119,
+    "applied_rows": 154,
     "unmatched": [],
     "before": {
-      "antal_fvo": 1907,
-      "har_nagon_art": 1874,
-      "saknar_arter": 33,
-      "har_vattenposter": 1608,
-      "med_arter_men_0_vatten": 266,
-      "total_vatten": 9428
-    },
-    "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
       "har_vattenposter": 1624,
       "med_arter_men_0_vatten": 250,
       "total_vatten": 9451
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1644,
+      "med_arter_men_0_vatten": 230,
+      "total_vatten": 9486
     },
     "blocked_sources": [
       "natureit",
