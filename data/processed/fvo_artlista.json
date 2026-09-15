@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T18:29:00.120449+00:00",
+    "generated_at": "2026-09-15T18:43:00.323648+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1761
+      "har_vattenposter": 1766
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 23,
+      "created_vatten": 17,
       "merged_vatten": 0,
-      "touched_vatten": 408,
-      "applied_rows": 431,
+      "touched_vatten": 431,
+      "applied_rows": 448,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1749,
-        "med_arter_men_0_vatten": 125,
-        "total_vatten": 9740
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1761,
         "med_arter_men_0_vatten": 113,
         "total_vatten": 9763
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1766,
+        "med_arter_men_0_vatten": 108,
+        "total_vatten": 9780
       },
       "blocked_sources": [
         "natureit",
@@ -37543,15 +37543,178 @@
         "Mört",
         "Regnbåge",
         "Röding",
+        "Siklöja",
         "Stensimpa",
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "visitlycksele"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stenträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Byssträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kalven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Holmträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lappträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Vittanträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Gäddbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Byssjan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "visitlycksele"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 10,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -37580,6 +37743,17 @@
           "Röding",
           "Stensimpa",
           "Öring"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://visitlycksele.se/bysstrask-nyliden-fvo/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Siklöja"
+        ],
+        "kallor_url:er": [
+          "https://visitlycksele.se/bysstrask-nyliden-fvo/"
         ]
       }
     },
@@ -77098,9 +77272,47 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "eurotourism.com_finspang_turistguide_kommun"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gulten",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "eurotourism.com_finspang_turistguide_kommun"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://eurotourism.com/SE/guides/Finspang/Finspang.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hanesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "eurotourism.com_finspang_turistguide_kommun"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://eurotourism.com/SE/guides/Finspang/Finspang.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -77130,7 +77342,10 @@
           "Siklöja",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "http://eurotourism.com/SE/guides/Finspang/Finspang.pdf"
+      ]
     },
     {
       "original_id": 1043,
@@ -233345,9 +233560,77 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sportfiskeguide"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Roasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "sportfiskeguide"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://sportfiskeguide.se/fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ramsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "sportfiskeguide"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://sportfiskeguide.se/fvo/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Lilla Häggån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "sportfiskeguide"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://sportfiskeguide.se/fvo/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -233377,7 +233660,10 @@
           "Sutare",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://sportfiskeguide.se/fvo/"
+      ]
     },
     {
       "original_id": 250,
@@ -257293,14 +257579,38 @@
         "Abborre",
         "Gädda",
         "Gös",
+        "Mört",
+        "Sutare",
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sportfiskeguide"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Skäremosjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kallor": [
+            "sportfiskeguide"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://sportfiskeguide.se/fvo/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 4,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -257317,6 +257627,18 @@
           "Gädda",
           "Gös",
           "Ål"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://sportfiskeguide.se/fvo/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Mört",
+          "Sutare"
+        ],
+        "kallor_url:er": [
+          "https://sportfiskeguide.se/fvo/"
         ]
       }
     },
@@ -302573,9 +302895,65 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Lillesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Rotenässjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hålsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 10,
         "antal_vatten_med_survey": 0,
@@ -302615,7 +302993,10 @@
           "Ruda",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm"
+      ]
     },
     {
       "original_id": 627,

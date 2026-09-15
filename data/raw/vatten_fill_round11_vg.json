@@ -1,0 +1,294 @@
+{
+  "generated_at": "2026-09-15T18:35:16Z",
+  "policy": {
+    "never_use": [
+      "iFiske icons",
+      "NatureIT",
+      "Artportalen"
+    ],
+    "ifiske_prose": "allowed only when prose explicitly lists species for a named water",
+    "mapping": "1:1 FVO↔source; no fuzzy cross-county mapping",
+    "multi_lake": "assign only when source assigns per named water OR clearly same species for ALL named lakes in that FVO",
+    "prefer": [
+      "Naturkartan/Hitta Fiske prose",
+      "vattenagarna.se",
+      "municipal/tourism",
+      "FVOF sites",
+      "sportfiskeguide.se",
+      "fishing brochures"
+    ]
+  },
+  "stats": {
+    "targets": 27,
+    "fvo_with_enrichments": 3,
+    "total_vatten_rows": 7,
+    "searched_but_empty": 24,
+    "by_lan": {
+      "Västra Götaland": 3
+    },
+    "sources": [
+      "ifiske.se narrative prose",
+      "sportfiskeguide.se (Wayback 2025-02-17)"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Torsbo-Rotenäs fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1043,
+      "vatten": [
+        {
+          "namn": "Lillesjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (narrative prose)",
+          "url": "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm",
+          "evidence": "Lillesjön … Gädda och abborre fiskas främst här. (Fiskarter-ikonblock Abborre/Gädda/Braxen/Björkna ej använt.)"
+        },
+        {
+          "namn": "Rotenässjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (narrative prose)",
+          "url": "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm",
+          "evidence": "Rotenässjön … Abborre och gädda fiskas här, även vitfisk finns. (vitfisk ej artifierad; Stora Hästefjorden kräver eget fiskekort — ej överförd.)"
+        },
+        {
+          "namn": "Hålsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (narrative prose)",
+          "url": "https://www.ifiske.se/fiske-lillesjon-rotenassjon-halsjon.htm",
+          "evidence": "Hålsjön … Även här är gädda och abborre dominerande."
+        }
+      ]
+    },
+    {
+      "namn": "Roasjön-Ramsjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1117,
+      "vatten": [
+        {
+          "namn": "Roasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "sportfiskeguide.se",
+          "url": "https://sportfiskeguide.se/fvo/",
+          "evidence": "Roasjöns – Ramsjöns FVO — Roasjön, Ramsjön, Lilla Häggån. Bestånd av gädda, abborre, ål, gös, sutare och mört. (Bekräftat via Wayback 2025-02-17; Svenljunga-Tranemo-broschyr namnger samma vatten utan artlista.)"
+        },
+        {
+          "namn": "Ramsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "sportfiskeguide.se",
+          "url": "https://sportfiskeguide.se/fvo/",
+          "evidence": "Roasjön, Ramsjön, Lilla Häggån. Bestånd av gädda, abborre, ål, gös, sutare och mört. (Samma artlista uttryckligen för alla namngivna vatten.)"
+        },
+        {
+          "namn": "Lilla Häggån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "sportfiskeguide.se",
+          "url": "https://sportfiskeguide.se/fvo/",
+          "evidence": "Roasjön, Ramsjön, Lilla Häggån. Bestånd av gädda, abborre, ål, gös, sutare och mört. (Broschyr: 'del av Häggån' — artlista endast via sportfiskeguide.)"
+        }
+      ]
+    },
+    {
+      "namn": "Skäremosjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 935,
+      "vatten": [
+        {
+          "namn": "Skäremosjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "sportfiskeguide.se",
+          "url": "https://sportfiskeguide.se/fvo/",
+          "evidence": "Skäremosjöns FVO — Bestånd av gädda, abborre, sutare och mört. (Ej samma som Skäresjöns FVO / Borås kommunfiskekort.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Björstorps fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1182,
+      "notes": "Svenljunga. Ej i Svenljunga/Tranemo-broschyrens artprosa; sportfiskeguide saknar post; vastsverige/VA/iFiske utan narrative water×species."
+    },
+    {
+      "namn": "Groskens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1153,
+      "notes": "Ulricehamn. iFiske har endast Fiskarter-ikonblock (Mört/Abborre/Gädda) — rejected; ingen kommun/turism/FVOF-prosa; ej i Ulricehamn fiskeguide 2021."
+    },
+    {
+      "namn": "Gunneröds fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1051,
+      "notes": "Orust. Wikipedia/provfiske för Gunneröd vatten (Uddevalla) rejected — fel kommun/ej 1:1 till Orust-FVO. Orust/vastsverige utan artprosa; ≠ Rödsvattnets FVOF."
+    },
+    {
+      "namn": "Kolungens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1020,
+      "notes": "Mellerud. Ej listad bland vastsverige FVO Mellerud-vatten; förening finns (org) men ingen artlista på vastsverige/VA/Wikipedia."
+    },
+    {
+      "namn": "Kölvattnets fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1188,
+      "notes": "Bengtsfors. Saknas i Bengtsfors Fiskeguide 2026 artsektioner; vastsverige FVO Bengtsfors utan Kölvatten×species."
+    },
+    {
+      "namn": "Lillåns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1186,
+      "notes": "Trollhättan. ≠ Borås Lillån–Kransån / Svenljunga Lillån / Alsterån-Lillån. Ingen Trollhättan-artprosa 1:1."
+    },
+    {
+      "namn": "Långens fvof (Strömstads Kommun)",
+      "lan": "Västra Götaland",
+      "object_id": 1062,
+      "notes": "REJECT Strömsån/Strömsvattnet: Strömstad.se listar arter för fritt kommunalt fiske i Strömsån/Strömsvattnet — ej Lången FVO. Ingen Lången×species-prosa hittad."
+    },
+    {
+      "namn": "Lökens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1091,
+      "notes": "Sotenäs. Ingen kommun/turism/FVOF/VA-artprosa."
+    },
+    {
+      "namn": "Mastedalstjärnarnas fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1031,
+      "notes": "Bengtsfors Fiskeguide 2026: 'Mastedalstjärnens fiskevårdsområde — Föreningen är för närvarande vilande och därför säljs inga fiskekort' — ingen Fiskarter-rad. vastsverige: vilande. Ingen annan artprosa."
+    },
+    {
+      "namn": "Månsarudssjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1112,
+      "notes": "Töreboda. Wikipedia utan arter; kommun/turism/VA utan water×species."
+    },
+    {
+      "namn": "Norra Lunds fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1219,
+      "notes": "Bengtsfors. Ej i Bengtsfors/Dals-Ed-guider med arter; VA/vastsverige utan prosa."
+    },
+    {
+      "namn": "Nöresjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 929,
+      "notes": "Ulricehamn. vattenagarna o=1030 kontakt-only; ej i Ulricehamn-guiden; iFiske utan narrative artprosa."
+    },
+    {
+      "namn": "Oxsjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 924,
+      "notes": "Tranemo/Ulricehamn. ≠ Ingsjöarna & Oxsjöns (Härryda) och Gula Kortets Oxsjön. Svenljunga-Tranemo-broschyr/VA utan artlista för denna Oxsjön."
+    },
+    {
+      "namn": "Revesjö fvof",
+      "lan": "Västra Götaland",
+      "object_id": 938,
+      "notes": "Svenljunga. Broschyr/vastsverige namnger Stora och Lilla Kvarnsjön utan arter; iFiske endast Fiskarter-ikonblock — rejected; sportfiskeguide saknar Revesjö-post."
+    },
+    {
+      "namn": "Romesjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1104,
+      "notes": "Kungälv. Wikipedia/kommun utan artlista; forum/FishAngler ej använda; ingen officiell water×species-prosa."
+    },
+    {
+      "namn": "Sjötorpssjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1057,
+      "notes": "Skövde. vastsverige 'Fiska i Skövde': endast 'Fritt fiske med handredskap' — inga arter. ≠ Sjötorpasjön (Hornborgasjön)."
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1187,
+      "notes": "Ale/Risveden. Naturkartan/ale.se nämner fiskekortkrav utan arter; Wikipedia utan fiskfauna; FishAngler ej använd."
+    },
+    {
+      "namn": "Svänasjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1162,
+      "notes": "Mark. ≠ Svansjöns fvf / Svansjöarna (Värmland). Mark/vastsverige utan Svänasjön×species."
+    },
+    {
+      "namn": "Sävsjö-Gärdessjö fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1204,
+      "notes": "Tranemo. ≠ Sävsjöns FVO (Fritsla/Mark) och ≠ Borås Gärdessjön (kommunfiskekort). Broschyr Moga-Annlarp listar annan Gärdessjön utan arter för Sävsjö-Gärdessjö."
+    },
+    {
+      "namn": "Södra Järbo fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1164,
+      "notes": "Färgelanda. vastsverige FVO-lista namnger FVO utan sjöar/arter; ≠ Järbo FVOF (Gävleborg). Ingen lokal artprosa."
+    },
+    {
+      "namn": "Torp-Sollums fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1185,
+      "notes": "Lilla Edet. ≠ Torpa FVO (Kronoberg) / Torpsjön (Ljungan). Ale/Lilla Edet utan artprosa."
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 953,
+      "notes": "Tranemo/Svenljunga. Broschyr + sportfiskeguide namnger Vassgården, Djupasjön, Iglasjön, Kvistdroppen, Björsjön, Hökasjön, Dunsjön — utan artlista. iFiske endast kortförsäljning."
+    },
+    {
+      "namn": "Vrångsjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 971,
+      "notes": "Färgelanda. vastsverige listar Vrångsjön under Högsäters FVO (Madsjön, Vrångsjön) — ej samma FVO-namn; ingen artlista där. ≠ Vrångsälven (Värmland) / Vrangsjön (Jönköping). Lokal prosa saknas."
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 987,
+      "notes": "REJECT via Stora Hästefjorden Wikipedia/provfiske — annat vatten/FVO. Östra utan egen artlista; Torsbo-prosa varnar uttryckligen att St Hästefjorden kräver eget fiskekort."
+    }
+  ],
+  "rejected": [
+    "Östra Hästefjorden ← Stora Hästefjorden Wikipedia/provfiske (wrong water).",
+    "Lången (Strömstad) ← Strömsån/Strömsvattnet kommunprosa (wrong water).",
+    "Gunneröds (Orust) ← Gunneröd vatten Uddevalla Wikipedia (wrong kommun).",
+    "Grosken/Revesjö iFiske Fiskarter-ikonblock (icons disallowed).",
+    "Vrångsjön ← Högsäters FVO listing without species; twin-risk with separate Vrångsjöns fvof."
+  ]
+}
