@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T13:09:30.241802+00:00",
+    "generated_at": "2026-09-15T13:33:41.633102+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -34,15 +34,15 @@
       "ifiske_artdata": false,
       "natureit": false,
       "artportalen": false,
-      "beskrivning": "iFiske endast spegel/länktips. NatureIT och Artportalen används inte. Artdata från Fiskekartan, SLU, GBIF, FVOF, FiskaiBerg, Drömfiske, Ottsjö, Strömsunds fiskebroschyr, Gällivare kommun fiskeguide, Sammakko, Glommersbygden, gfvo.se."
+      "beskrivning": "iFiske endast spegel/länktips. NatureIT och Artportalen används inte. Artdata från Fiskekartan, SLU, GBIF, FVOF, FiskaiBerg, Drömfiske, Strömsunds fiskebroschyr, Gällivare kommun, Vindelälven/Laxportalen, lokala fiskeguider. Cross-match-kontaminering (t.ex. bollnasfvf.se) rättad."
     },
     "coverage": {
       "har_fiskekartan_arter": 994,
       "har_survey_arter": 1565,
-      "har_nagon_art": 1865,
-      "saknar_arter": 42,
+      "har_nagon_art": 1867,
+      "saknar_arter": 40,
       "har_vattenposter": 1565,
-      "har_extern_enrichment": 270,
+      "har_extern_enrichment": 273,
       "har_gbif_enrichment": 967,
       "har_ifiske_spegel_kontroll": 884
     },
@@ -293,6 +293,70 @@
         }
       ],
       "brochure_url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf",
+      "blocked_sources": [
+        "natureit",
+        "artportalen",
+        "ifiske_artdata"
+      ]
+    },
+    "crossmatch_decontam_pass": {
+      "fvo_rattade": 33,
+      "artposter_borttagna": 93,
+      "blev_tomma": 1,
+      "tomma_fore": 42,
+      "tomma_efter": 43,
+      "jamtland_before": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 6
+      },
+      "jamtland_after": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 6
+      },
+      "norrbotten_before": {
+        "antal": 45,
+        "tomma": 3,
+        "tunna_le3": 4
+      },
+      "norrbotten_after": {
+        "antal": 45,
+        "tomma": 3,
+        "tunna_le3": 4
+      },
+      "hosts": [
+        "bollnasfvf.se",
+        "malungs-fiske.se"
+      ]
+    },
+    "curated_post_decontam_pass": {
+      "applied": 1,
+      "added_species_entries": 8,
+      "mirror_gaps_closed": 0,
+      "tomma_fore": 41,
+      "tomma_efter": 40,
+      "jamtland_before": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 6
+      },
+      "jamtland_after": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 6
+      },
+      "norrbotten_before": {
+        "antal": 45,
+        "tomma": 3,
+        "tunna_le3": 4
+      },
+      "norrbotten_after": {
+        "antal": 45,
+        "tomma": 3,
+        "tunna_le3": 4
+      },
+      "missed": [],
       "blocked_sources": [
         "natureit",
         "artportalen",
@@ -29586,17 +29650,14 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Nors",
-        "Regnbåge",
         "Ruda",
         "Sarv",
         "Siklöja",
         "Sutare",
-        "Ål",
-        "Öring"
+        "Ål"
       ],
       "kallor": [
         "fiskekartan",
@@ -29664,7 +29725,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 0
@@ -29692,18 +29753,21 @@
         ]
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -32612,12 +32676,10 @@
         "Abborre",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Id",
         "Lake",
         "Mört",
-        "Regnbåge",
         "Röding",
         "Sik",
         "Siklöja",
@@ -32753,7 +32815,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 14,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 3
@@ -32781,6 +32843,7 @@
           "Braxen",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Nors",
           "Ruda",
@@ -32793,24 +32856,26 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge",
-          "Röding"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://malungs-fiske.se/index.html",
-          "https://malungs-fiske.se/fiskekort-2.html",
-          "https://malungs-fiske.se/fisketillsyn-2.html",
-          "https://malungs-fiske.se/varavatten/",
-          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
-          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html",
+            "https://malungs-fiske.se/index.html",
+            "https://malungs-fiske.se/fiskekort-2.html",
+            "https://malungs-fiske.se/fisketillsyn-2.html",
+            "https://malungs-fiske.se/varavatten/",
+            "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+            "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -38674,25 +38739,21 @@
         "arter": []
       },
       "arter": [
-        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
-        "Mört",
-        "Regnbåge",
         "Röding",
-        "Sik",
         "Simpa",
         "Öring"
       ],
       "kallor": [
         "slu_provfiske",
         "extern_fvof",
-        "fiskaiberg"
+        "fiskaiberg",
+        "dromfiske"
       ],
       "vatten": [
         {
@@ -39055,31 +39116,40 @@
         }
       ],
       "statistik": {
-        "antal_arter": 14,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 14,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 14
       },
       "extern_enrichment": {
         "tillagda_arter": [
-          "Abborre",
-          "Gös",
-          "Mört",
-          "Regnbåge",
-          "Röding",
-          "Sik"
+          "Röding"
         ],
         "kallor_url:er": [
           "https://xn--dammn-pra.se/",
           "https://xn--dammn-pra.se/fiske/",
           "https://xn--dammn-pra.se/fisketrappan/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://www.fiskaiberg.se/fiska/fiskekort-fvo/dammans-fvo/"
-        ]
+          "https://www.fiskaiberg.se/fiska/fiskekort-fvo/dammans-fvo/",
+          "https://dromfiske.com/dammans-fvo/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre",
+            "Gös",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "lokala_tipslankar": [
         "https://www.fiskaiberg.se/fiska/fiskekort-fvo/dammans-fvo/",
@@ -72224,15 +72294,9 @@
       "arter": [
         "Abborre",
         "Gädda",
-        "Gös",
-        "Harr",
         "Mört",
-        "Regnbåge",
-        "Röding",
-        "Sik",
         "Sutare",
-        "Ål",
-        "Öring"
+        "Ål"
       ],
       "kallor": [
         "fiskekartan",
@@ -72263,7 +72327,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -72291,6 +72355,7 @@
           "Braxen",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Nors",
           "Ruda",
@@ -72301,27 +72366,30 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Regnbåge",
-          "Röding",
-          "Sik",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://malungs-fiske.se/index.html",
-          "https://malungs-fiske.se/fiskekort-2.html",
-          "https://malungs-fiske.se/fisketillsyn-2.html",
-          "https://malungs-fiske.se/varavatten/",
-          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
-          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html",
+            "https://malungs-fiske.se/index.html",
+            "https://malungs-fiske.se/fiskekort-2.html",
+            "https://malungs-fiske.se/fisketillsyn-2.html",
+            "https://malungs-fiske.se/varavatten/",
+            "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+            "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -81594,14 +81662,37 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Öring"
+      ],
+      "kallor": [
+        "haverö_ljungan_fiskeguide"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://fliphtml5.com/cvwc/xgsy/Fiske_i_Ljungan_-_Haver%C3%B6/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Röding",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://fliphtml5.com/cvwc/xgsy/Fiske_i_Ljungan_-_Haver%C3%B6/"
+        ]
       }
     },
     {
@@ -93796,11 +93887,9 @@
       "arter": [
         "Abborre",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
         "Mört",
-        "Regnbåge",
         "Röding",
         "Sik",
         "Öring"
@@ -93835,27 +93924,33 @@
         }
       ],
       "statistik": {
-        "antal_arter": 10,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=816",
           "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
-          "https://www.vattenagarna.se/att-aga-fiskevatten/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.vattenagarna.se/att-aga-fiskevatten/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -96463,7 +96558,6 @@
         "Abborre",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
         "Mört",
@@ -96527,7 +96621,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -96555,6 +96649,7 @@
           "Braxen",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Nors",
           "Ruda",
@@ -96566,20 +96661,26 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=423",
           "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
-          "https://www.vattenagarna.se/att-aga-fiskevatten/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.vattenagarna.se/att-aga-fiskevatten/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -101902,15 +102003,10 @@
         "Groplöja",
         "Grönling",
         "Gädda",
-        "Gös",
-        "Harr",
         "Havsöring",
         "Id",
-        "Karp",
-        "Lax",
         "Mört",
         "Nejonöga",
-        "Regnbåge",
         "Ruda",
         "Sarv",
         "Signalkräfta",
@@ -102124,30 +102220,36 @@
         }
       ],
       "statistik": {
-        "antal_arter": 24,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 7,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 6
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Karp",
-          "Lax",
-          "Regnbåge"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://hojeafiske.se/",
           "https://hojeafiske.se/#Regler",
           "https://hojeafiske.se/#Fiskekort",
-          "https://hojeafiske.se/#Omradet",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://hojeafiske.se/#Omradet"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Karp",
+            "Lax",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -107964,13 +108066,11 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Kanadaröding",
         "Lake",
         "Lax",
         "Mört",
         "Nors",
-        "Regnbåge",
         "Ruda",
         "Sarv",
         "Sik",
@@ -108023,7 +108123,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 24,
+        "antal_arter": 22,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -108085,17 +108185,20 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -136493,7 +136596,6 @@
         "Bäckröding",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
         "Mört",
@@ -138814,26 +138916,32 @@
         }
       ],
       "statistik": {
-        "antal_arter": 19,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 116,
         "antal_sjoar_survey": 53,
         "antal_vattendrag_survey": 63
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.limafiske.se/",
           "https://www.limafiske.se/fiskekort-20317747",
           "https://www.limafiske.se/fiskeinformation-20551683",
-          "https://www.limafiske.se/fisketips-20345751",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.limafiske.se/fisketips-20345751"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -142242,10 +142350,8 @@
         "Bergsimpa",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
-        "Regnbåge",
         "Röding",
         "Sik",
         "Öring"
@@ -142303,7 +142409,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 10,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -142322,22 +142428,28 @@
         ]
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.ljungdalsfisket.se/",
           "https://www.ljungdalsfisket.se/saljsida/",
           "https://www.ljungdalsfisket.se/tre-kolumner/",
           "https://www.ljungdalsfisket.se/kontakt-fiskeplats-ljungan/",
-          "https://www.ljungdalsfisket.se/fisketillsyn/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.ljungdalsfisket.se/fisketillsyn/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "lokala_tipslankar": [
         "https://dromfiske.com/ljungdalens-fvo/"
@@ -152135,8 +152247,6 @@
         "Bäckröding",
         "Elritsa",
         "Gädda",
-        "Gös",
-        "Harr",
         "Mört",
         "Regnbåge",
         "Sutare",
@@ -152149,7 +152259,7 @@
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -152181,17 +152291,20 @@
         ]
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -154995,11 +155108,9 @@
         "Bäckröding",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
         "Mört",
-        "Regnbåge",
         "Röding",
         "Sik",
         "Stensimpa",
@@ -155096,23 +155207,26 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 3
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -175172,7 +175286,6 @@
         "Braxen",
         "Gädda",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Regnbåge",
@@ -175214,7 +175327,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 14,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -175274,18 +175387,24 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.mullsjosfk.se/",
-          "https://www.mullsjosfk.se/klubbvatten/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.mullsjosfk.se/klubbvatten/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Harr"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -188121,7 +188240,6 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Nejonöga",
@@ -188476,7 +188594,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 19,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 15,
         "antal_sjoar_survey": 5,
         "antal_vattendrag_survey": 10
@@ -188510,17 +188628,19 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "gbif_enrichment": {
         "arter_i_omslutning": [
@@ -192894,14 +193014,11 @@
         "Bäckröding",
         "Elritsa",
         "Gädda",
-        "Gös",
-        "Harr",
         "Lake",
         "Lax",
         "Mört",
         "Nejonöga",
         "Nors",
-        "Regnbåge",
         "Röding",
         "Signalkräfta",
         "Simpa",
@@ -193069,7 +193186,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 20,
+        "antal_arter": 17,
         "antal_vatten_med_survey": 7,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 7
@@ -193095,6 +193212,7 @@
         "luckor_ej_funna_hos_fvof": [
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Ruda",
           "Sarv"
@@ -193103,19 +193221,25 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Regnbåge"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
-          "https://www.nfvo.se/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.nfvo.se/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "gbif_enrichment": {
         "arter_i_omslutning": [
@@ -206867,13 +206991,11 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Karp",
         "Lake",
         "Mört",
         "Nissöga",
         "Nors",
-        "Regnbåge",
         "Ruda",
         "Sarv",
         "Signalkräfta",
@@ -206919,7 +207041,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 24,
+        "antal_arter": 22,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -206947,18 +207069,20 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "gbif_enrichment": {
         "arter_i_omslutning": [
@@ -229883,14 +230007,37 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lax",
+        "Öring"
+      ],
+      "kallor": [
+        "vindelalven_laxportalen"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://vindelalven.laxportalen.se/rodabygdens-fvo/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Gädda",
+          "Harr",
+          "Lax",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://vindelalven.laxportalen.se/rodabygdens-fvo/"
+        ]
       }
     },
     {
@@ -239533,8 +239680,6 @@
         "Abborre",
         "Elritsa",
         "Gädda",
-        "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Regnbåge",
@@ -239577,7 +239722,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -239621,6 +239766,7 @@
           "Braxen",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Nors",
           "Ruda",
@@ -239633,17 +239779,20 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -240376,15 +240525,12 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
-        "Regnbåge",
         "Sarv",
         "Sik",
         "Siklöja",
-        "Sutare",
-        "Öring"
+        "Sutare"
       ],
       "kallor": [
         "fiskekartan",
@@ -240436,24 +240582,27 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 1
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -242020,13 +242169,10 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Nors",
-        "Regnbåge",
-        "Stensimpa",
-        "Öring"
+        "Stensimpa"
       ],
       "kallor": [
         "fiskekartan",
@@ -242098,24 +242244,27 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 1
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -245515,10 +245664,8 @@
         "Bergsimpa",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
-        "Regnbåge",
         "Sik",
         "Simpa",
         "Stensimpa",
@@ -245715,7 +245862,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 8,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 8
@@ -245741,17 +245888,20 @@
         ]
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "lokala_tipslankar": [
         "https://www.fiskaiberg.se/fiska/fiskekort-fvo/skalans-fvo/"
@@ -258976,7 +259126,6 @@
         "Bergsimpa",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Kanadaröding",
         "Lake",
@@ -259303,7 +259452,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 14,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 14
@@ -259331,6 +259480,7 @@
           "Braxen",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Ruda",
           "Sarv",
@@ -259342,16 +259492,19 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "gbif_enrichment": {
         "arter_i_omslutning": [
@@ -260275,13 +260428,10 @@
         "Elritsa",
         "Gädda",
         "Gös",
-        "Harr",
         "Karp",
         "Kräfta obestämd",
         "Lake",
         "Mört",
-        "Regnbåge",
-        "Röding",
         "Signalkräfta",
         "Sik",
         "Sutare",
@@ -260390,7 +260540,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 17,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 4
@@ -260425,24 +260575,27 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Röding"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://malungs-fiske.se/index.html",
-          "https://malungs-fiske.se/fiskekort-2.html",
-          "https://malungs-fiske.se/fisketillsyn-2.html",
-          "https://malungs-fiske.se/varavatten/",
-          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
-          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge",
+            "Röding"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html",
+            "https://malungs-fiske.se/index.html",
+            "https://malungs-fiske.se/fiskekort-2.html",
+            "https://malungs-fiske.se/fisketillsyn-2.html",
+            "https://malungs-fiske.se/varavatten/",
+            "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+            "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -269785,12 +269938,9 @@
         "Elritsa",
         "Färna",
         "Gädda",
-        "Gös",
-        "Harr",
         "Karpfisk obestämd",
         "Lake",
         "Mört",
-        "Regnbåge",
         "Signalkräfta",
         "Småspigg",
         "Stensimpa",
@@ -269873,24 +270023,27 @@
         }
       ],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 3
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -278643,11 +278796,8 @@
         "Abborre",
         "Elritsa",
         "Gädda",
-        "Gös",
-        "Harr",
         "Id",
         "Mört",
-        "Regnbåge",
         "Sik",
         "Siklöja",
         "Sutare",
@@ -278724,7 +278874,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 13,
+        "antal_arter": 10,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 3,
         "antal_vattendrag_survey": 0
@@ -278747,18 +278897,21 @@
         ]
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -282408,7 +282561,6 @@
         "Braxen",
         "Bäckröding",
         "Gädda",
-        "Gös",
         "Harr",
         "Id",
         "Lake",
@@ -282427,7 +282579,7 @@
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 16,
+        "antal_arter": 15,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -282454,6 +282606,7 @@
           "Björkna",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Nors",
           "Ruda",
@@ -282465,17 +282618,19 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -285000,12 +285155,10 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Nissöga",
         "Nors",
-        "Regnbåge",
         "Ruda",
         "Röding",
         "Sarv",
@@ -285013,8 +285166,7 @@
         "Sik",
         "Stensimpa",
         "Sutare",
-        "Ål",
-        "Öring"
+        "Ål"
       ],
       "kallor": [
         "fiskekartan",
@@ -285115,7 +285267,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 23,
+        "antal_arter": 20,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 3
@@ -285173,18 +285325,21 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -292913,19 +293068,15 @@
         "Braxen",
         "Flodkräfta",
         "Gädda",
-        "Gös",
-        "Harr",
         "Lake",
         "Lax",
         "Mört",
         "Nors",
-        "Regnbåge",
         "Sarv",
         "Signalkräfta",
         "Siklöja",
         "Sutare",
-        "Ål",
-        "Öring"
+        "Ål"
       ],
       "kallor": [
         "slu_provfiske",
@@ -292955,7 +293106,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 18,
+        "antal_arter": 14,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -293013,6 +293164,7 @@
         "luckor_ej_funna_hos_fvof": [
           "Björkna",
           "Gärs",
+          "Gös",
           "Karp",
           "Ruda"
         ],
@@ -293020,23 +293172,29 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=691",
           "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
-          "https://www.vattenagarna.se/att-aga-fiskevatten/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.vattenagarna.se/att-aga-fiskevatten/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -318456,22 +318614,13 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Harr",
-        "Regnbåge",
-        "Röding",
-        "Sik",
-        "Öring"
-      ],
+      "arter": [],
       "kallor": [
         "extern_fvof"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 0,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -318495,10 +318644,13 @@
           "Ål"
         ],
         "luckor_ej_funna_hos_fvof": [
+          "Abborre",
           "Björkna",
           "Braxen",
           "Flodkräfta",
+          "Gädda",
           "Gärs",
+          "Gös",
           "Karp",
           "Mört",
           "Nors",
@@ -318512,29 +318664,32 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Abborre",
-          "Gädda",
-          "Gös",
-          "Harr",
-          "Regnbåge",
-          "Röding",
-          "Sik",
-          "Öring"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://malungs-fiske.se/index.html",
-          "https://malungs-fiske.se/fiskekort-2.html",
-          "https://malungs-fiske.se/fisketillsyn-2.html",
-          "https://malungs-fiske.se/varavatten/",
-          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
-          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Harr",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html",
+            "https://malungs-fiske.se/index.html",
+            "https://malungs-fiske.se/fiskekort-2.html",
+            "https://malungs-fiske.se/fisketillsyn-2.html",
+            "https://malungs-fiske.se/varavatten/",
+            "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+            "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -319062,12 +319217,9 @@
         "Elritsa",
         "Gädda",
         "Gärs",
-        "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Nors",
-        "Regnbåge",
         "Röding",
         "Sarv",
         "Sik",
@@ -319205,24 +319357,27 @@
         }
       ],
       "statistik": {
-        "antal_arter": 22,
+        "antal_arter": 19,
         "antal_vatten_med_survey": 5,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 3
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Harr",
-          "Regnbåge"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -321726,18 +321881,15 @@
         "Gädda",
         "Gärs",
         "Gös",
-        "Harr",
         "Lake",
         "Mört",
         "Nors",
-        "Regnbåge",
         "Ruda",
         "Sarv",
         "Signalkräfta",
         "Stäm",
         "Sutare",
-        "Ål",
-        "Öring"
+        "Ål"
       ],
       "kallor": [
         "fiskekartan",
@@ -321775,7 +321927,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 20,
+        "antal_arter": 17,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 0
@@ -321831,23 +321983,29 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr",
-          "Regnbåge",
-          "Öring"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://www.skaraborgsfiske.se/ymsen/",
           "https://www.skaraborgsfiske.se/karstorpssjon/",
           "https://www.skaraborgsfiske.se/gardsjo-kortfiskeomrade/",
           "https://www.skaraborgsfiske.se/mullsjon-hjo/",
-          "https://www.skaraborgsfiske.se/hokensas-sportfiske/",
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+          "https://www.skaraborgsfiske.se/hokensas-sportfiske/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {
@@ -323888,13 +324046,9 @@
         "Abborre",
         "Elritsa",
         "Gädda",
-        "Gös",
         "Harr",
         "Lake",
         "Mört",
-        "Regnbåge",
-        "Röding",
-        "Sik",
         "Öring"
       ],
       "kallor": [
@@ -323950,7 +324104,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -323978,6 +324132,7 @@
           "Braxen",
           "Flodkräfta",
           "Gärs",
+          "Gös",
           "Karp",
           "Nors",
           "Ruda",
@@ -323990,25 +324145,28 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös",
-          "Regnbåge",
-          "Röding",
-          "Sik"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://malungs-fiske.se/index.html",
-          "https://malungs-fiske.se/fiskekort-2.html",
-          "https://malungs-fiske.se/fisketillsyn-2.html",
-          "https://malungs-fiske.se/varavatten/",
-          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
-          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös",
+            "Regnbåge",
+            "Röding",
+            "Sik"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html",
+            "https://malungs-fiske.se/index.html",
+            "https://malungs-fiske.se/fiskekort-2.html",
+            "https://malungs-fiske.se/fisketillsyn-2.html",
+            "https://malungs-fiske.se/varavatten/",
+            "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+            "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -324920,11 +325078,22 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Sarv",
+        "Siklöja",
+        "Sutare"
+      ],
+      "kallor": [
+        "naturkartan"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -324933,6 +325102,24 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://www.naturkartan.se/sv/jonkopings-lan/almeshultasjons-fvof"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Braxen",
+          "Gädda",
+          "Lake",
+          "Mört",
+          "Sarv",
+          "Siklöja",
+          "Sutare"
+        ],
+        "kallor_url:er": [
+          "https://www.naturkartan.se/sv/jonkopings-lan/almeshultasjons-fvof"
+        ]
       }
     },
     {
@@ -332708,14 +332895,10 @@
         ]
       },
       "arter": [
-        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",
-        "Gädda",
-        "Gös",
         "Harr",
-        "Regnbåge",
         "Ruda",
         "Röding",
         "Sik",
@@ -332725,7 +332908,8 @@
         "fiskekartan",
         "slu_provfiske",
         "gbif",
-        "extern_fvof"
+        "extern_fvof",
+        "dromfiske"
       ],
       "vatten": [
         {
@@ -332750,7 +332934,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -332791,10 +332975,13 @@
           "Ål"
         ],
         "luckor_ej_funna_hos_fvof": [
+          "Abborre",
           "Björkna",
           "Braxen",
           "Flodkräfta",
+          "Gädda",
           "Gärs",
+          "Gös",
           "Karp",
           "Mört",
           "Nors",
@@ -332808,25 +332995,34 @@
       },
       "extern_enrichment": {
         "tillagda_arter": [
-          "Abborre",
-          "Gädda",
-          "Gös",
-          "Harr",
-          "Regnbåge"
+          "Harr"
         ],
         "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html",
-          "https://malungs-fiske.se/index.html",
-          "https://malungs-fiske.se/fiskekort-2.html",
-          "https://malungs-fiske.se/fisketillsyn-2.html",
-          "https://malungs-fiske.se/varavatten/",
-          "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
-          "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
-        ]
+          "https://dromfiske.com/akersjons-fvo/"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Harr",
+            "Regnbåge"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html",
+            "https://malungs-fiske.se/index.html",
+            "https://malungs-fiske.se/fiskekort-2.html",
+            "https://malungs-fiske.se/fisketillsyn-2.html",
+            "https://malungs-fiske.se/varavatten/",
+            "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+            "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       },
       "ifiske_tipslankar": [
         "http://malungs-fiske.se/index.html"
@@ -349623,7 +349819,6 @@
         "Abborre",
         "Gädda",
         "Gärs",
-        "Gös",
         "Harr",
         "Havsöring",
         "Lax",
@@ -349723,22 +349918,25 @@
         }
       ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 2
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gös"
-        ],
-        "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
+        "rattning": {
+          "borttagna": [
+            "Gös"
+          ],
+          "borttagna_url:er": [
+            "http://bollnasfvf.se/",
+            "http://bollnasfvf.se/news_1.html",
+            "http://bollnasfvf.se/text1_10.html",
+            "http://bollnasfvf.se/text1_11.html",
+            "http://bollnasfvf.se/text1_30.html"
+          ],
+          "orsak": "crossmatch_kontaminering_fel_fvof_sida"
+        }
       }
     },
     {

@@ -1,0 +1,55 @@
+{
+  "applied": [
+    {
+      "fvo": "Älmeshultasjöns fvof",
+      "lan": "Jönköping",
+      "tillagda": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Sarv",
+        "Siklöja",
+        "Sutare"
+      ],
+      "source": "naturkartan",
+      "url": "https://www.naturkartan.se/sv/jonkopings-lan/almeshultasjons-fvof",
+      "gaps_closed": 0,
+      "note": "Naturkartan: explicit artlista för Älmeshultasjön"
+    }
+  ],
+  "stats": {
+    "applied": 1,
+    "added_species_entries": 8,
+    "mirror_gaps_closed": 0,
+    "tomma_fore": 41,
+    "tomma_efter": 40,
+    "jamtland_before": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 6
+    },
+    "jamtland_after": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 6
+    },
+    "norrbotten_before": {
+      "antal": 45,
+      "tomma": 3,
+      "tunna_le3": 4
+    },
+    "norrbotten_after": {
+      "antal": 45,
+      "tomma": 3,
+      "tunna_le3": 4
+    },
+    "missed": [],
+    "blocked_sources": [
+      "natureit",
+      "artportalen",
+      "ifiske_artdata"
+    ]
+  }
+}

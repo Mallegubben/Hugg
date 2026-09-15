@@ -25,8 +25,14 @@ python scripts/enrich_jamtland_local_sources.py
 python scripts/enrich_sarna_idre_forteckning.py
 python scripts/enrich_jamtland_norrbotten_deep.py
 python scripts/enrich_stromsund_norrbotten_careful.py
+python scripts/audit_fix_crossmatch_contamination.py
+python scripts/enrich_curated_post_decontam.py
 python scripts/build_index.py
 ```
+
+## Kvalitet / rättning
+- **Cross-match-dekontaminering:** `bollnasfvf.se` och `malungs-fiske.se` får bara berika sina egna FVO (Bollnäs*/Gävleborg resp. Malungs*/Dalarna). Arter som lagts till via fel sida tas bort om de saknas i Fiskekartan/SLU/GBIF.
+- Kuraterade 1:1-tillägg efter rättning (t.ex. Rödåbygden via Laxportalen, Haverö via lokal fiskeguide, Dammån/Åkersjön via Drömfiske).
 
 ## Jämtland / Norrbotten – lokala källor
 - **Strömsunds fiskebroschyr 2026/2027** (`data/raw/stromsund_fiskebroschyr_2026.txt`): vattenvisa artlistor per FVO i Frostviken/Vattudal (PDF sparas ej i git p.g.a. storlek; textutdrag + parsad JSON ingår).
