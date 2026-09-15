@@ -53,17 +53,45 @@ def normalize_source(raw: str) -> str:
         ("svenljunga", "svenljunga_tranemo_fiskebroschyr_2021"),
         ("yxern", "yxern.se"),
         ("uppvidinge", "uppvidinge_kommun"),
+        ("värmeln", "varmeln_fvof_regler"),
+        ("varmeln", "varmeln_fvof_regler"),
+        ("norrtälje", "norrtalje_sportfiskare"),
+        ("norrtalje", "norrtalje_sportfiskare"),
+        ("visitlycksele", "visitlycksele"),
+        ("ulricehamn", "ulricehamn_fiskeguide"),
+        ("karlsborg", "karlsborg_fiskekarta"),
+        ("kindaturism", "kindaturism"),
+        ("sätrasjön", "satrasjon.se"),
+        ("satrasjon", "satrasjon.se"),
+        ("orkelljunga", "orkelljunga_kommun"),
+        ("lekeberg", "lekeberg_kommun"),
+        ("djupadal", "djupadal.se"),
+        ("ifiske", "ifiske_prosa"),
+        ("sportfiskeguide", "sportfiskeguide"),
+        ("sodralappland", "sodralappland"),
+        ("landsbygdsturism", "landsbygdsturism"),
+        ("balticsalmon", "laxrapporten"),
+        ("laxrapporten", "laxrapporten"),
+        ("norsjosfk", "norsjosfk"),
+        ("lycksele", "lycksele_kommun"),
     ]
     for needle, canon in mapping:
         if needle in s:
             return canon
     first = re.split(r"\s*/\s*", s)[0]
-    return re.sub(r"[^a-z0-9_.-]+", "_", first).strip("_") or "curated_vatten"
+    folded = unicodedata.normalize("NFKD", first)
+    folded = "".join(c for c in folded if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9_.-]+", "_", folded.lower()).strip("_") or "curated_vatten"
 
 
 def find_fvo_for_block(fvos: list[dict], block: dict) -> dict | None:
     namn = block["namn"]
     lan = block.get("lan")
+    oid = block.get("object_id")
+    if oid is not None:
+        oid_hits = [f for f in fvos if f.get("object_id") == oid]
+        if len(oid_hits) == 1:
+            return oid_hits[0]
     hits = [f for f in fvos if f.get("namn") == namn]
     if lan:
         hits = [f for f in hits if f.get("ansvarigt_lan") == lan]
@@ -205,6 +233,9 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round6b.json",
         RAW / "vatten_fill_round6c.json",
         RAW / "vatten_fill_round6d.json",
+        RAW / "vatten_fill_round7_vg.json",
+        RAW / "vatten_fill_round7_norr.json",
+        RAW / "vatten_fill_round7_ostsyd.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),
