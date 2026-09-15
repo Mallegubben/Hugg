@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-09-15T17:45:00+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only explicit 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna prose. No iFiske icons. No NK/Hitta Fiske tags-only. Multi-lake only when source assigns species per named water or clearly to all named lakes."
+  },
+  "stats": {
+    "fvo_with_enrichments": 7,
+    "total_vatten_rows": 11,
+    "by_lan": {
+      "Östergötland": 5,
+      "Västerbotten": 2
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Bjäsäters fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Bjän",
+          "arter": ["Abborre", "Gädda", "Sutare"],
+          "kalla": "naturkartan.se (Linköping)",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/bjan",
+          "evidence": "Här kan du fiska efter bland annat gädda, abborre och sutare. Fisket i sjön upplåts av Bjäsäters fiskevårdsområdesförening."
+        }
+      ]
+    },
+    {
+      "namn": "Kilarpesjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Kilarpssjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vattenagarna.se / naturkartan.se",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=351",
+          "evidence": "Kilarpssjön är en fin liten sjö i mellanbygden söder om Mantorp. … Fiske efter gädda, abborre m. m. (Samma formulering på Naturkartan: Fiske efter gädda, abborre m.m.; FVO förvaltar fisket i Kilarpssjön.)"
+        }
+      ]
+    },
+    {
+      "namn": "Hällerstad- o Venasjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Hällerstadsjön",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "vattenagarna.se",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381",
+          "evidence": "Hällerstadsjön och Venasjön är två näringsrika sjöar … Sjöarna har fina fiskebestånd av gädda och stor abborre. Inplantering av gös har skett vid tre tillfällen, där vi ser en fast etablering."
+        },
+        {
+          "namn": "Venasjön",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "vattenagarna.se",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381",
+          "evidence": "Samma VA-text för båda namngivna sjöarna: fina fiskebestånd av gädda och stor abborre; gös etablerad efter inplantering."
+        }
+      ]
+    },
+    {
+      "namn": "Sätrasjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Sätrasjön",
+          "arter": ["Abborre", "Gädda", "Gös", "Ål"],
+          "kalla": "sätrasjön.se (SFVO)",
+          "url": "https://www.xn--strasjn-5wa1o.se/fiskekort-och-villkor.html",
+          "evidence": "OBS! Ål är Fridlyst. Minimimått gäller för: Gädda 40 cm, Gös 50 cm … Övriga fiskarter t.ex, abborre omfattas inte av minimimått."
+        }
+      ]
+    },
+    {
+      "namn": "Blomsfors/Tyrisfors fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Stångån (Blomsfors–Tyrisfors)",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visit/blomsforstyrisforsfiskevardsomrade.5.722d04cf175c8613c9df03dd.html",
+          "evidence": "Sommarfiske, kraftverksreglerat vatten, i Stångån mellan kraftstationerna i Blomsfors och Tyrisfors. … Här kan ni fånga gädda, abborre och vitfisk."
+        }
+      ]
+    },
+    {
+      "namn": "Knaftens fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Örån",
+          "arter": ["Abborre", "Gädda", "Harr", "Öring"],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Örån (Öre älv): Öring, harr, gädda, abborre. (Även: I Öråns strömmande avsnitt finns det harr och öring.)"
+        },
+        {
+          "namn": "Mettjärn",
+          "arter": ["Abborre", "Öring"],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Mettjärn: Abborre, öring. (I Mettjärn finns ett naturbestånd av öring, men den domineras av abborre.)"
+        },
+        {
+          "namn": "Blåtjärnarna",
+          "arter": ["Regnbåge", "Röding"],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Blåtjärnarna: Röding, regnbåge. (I Blåtjärnarna och Gumsnästjärn sker fiskutsättningar vår och höst.)"
+        },
+        {
+          "namn": "Gumsnästjärn",
+          "arter": ["Regnbåge", "Öring"],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Gumsnästjärn: Öring, regnbåge."
+        }
+      ]
+    },
+    {
+      "namn": "Arnträsk-Mensträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Mensträsket",
+          "arter": ["Abborre"],
+          "kalla": "norsjosfk.se",
+          "url": "http://www.norsjosfk.se/fishing/other_fishing.htm",
+          "evidence": "Pimpelabborre från Mensträsk … Abborre: … Norsjön, Mensträsket är ett par sjöar med grov fisk."
+        }
+      ]
+    }
+  ],
+  "already_enriched_elsewhere": [
+    "Regnaren-Ålsjöns fvof (round6c: regnaren-alsjonfiske.se → Regnaren/Ålsjön Gädda,Gös,Ål)",
+    "Ödesjöns fvof (round6: ydre.se → Ödesjön Gös)",
+    "Gravsjöns fvof (round6c: Hitta Fiske/NK prose → Gravsjön Abborre,Gädda,Mört)",
+    "Flagens fvof / Lökarydsjöns fvof / Söljens fvof / Öasjöns fvof / Tjurken-Kalvens fvof (round6/6c)"
+  ],
+  "searched_but_empty": [
+    "Antvardens: iFiske endast ikoner/ingen artprosa; ingen kommun/NK 1:1",
+    "Byngarens / Horsfjärdens / Grytgöls / Gulten-Hanesjöns / Hemsjöns m fl / Rippestorps / Tångens / Värnasjön-Strålången / Värnässjöns / Ödesjöboda / Österby: VA tomma artfält eller fel FVO; NK utan arter; ingen FVOF-sida med water×species",
+    "Åländerns: VA o=692 listar vatten men ingen artlista; iFiske endast ikoner (ej använt)",
+    "Regna fiskevårdsförening (regnafiske.se) nämner arter i Regnaren/Hanesjön men är annan förening än Regnaren-Ålsjöns / Gulten-Hanesjöns — ej 1:1",
+    "Leduåns: projektleduan.se / fiskekort.se utan water×species-roster (tidigare rejected)",
+    "Rödåbygdens: FVO-nivå utan vattenkoppling (tidigare rejected)",
+    "Bjurträsk / Byssträsk-Nylidens / Holmträskbygden / Kokträsk / Kussjö / Maltträsk / Pausele-Bäcknäs / Petikträsk / Rökåbygden / Rörträsk-Bredträsk / Saxnäs / Släppträsk / Stora Sikträskets / Strömsjönäs / Trehörningens / Västansjö (VB): Visit Lycksele/Skellefteå/Umeå utan 1:1; fiskekort.se trehorningen/rodabygden/leduan otillgängliga/tomma; Norran Släppträsk-tävling ej tillräckligt som artlista",
+    "Stoarps: iFiske-prosa för Norresjö/Södresjö men stoarp-fiske.se nere; Hitta Fiske multi-sjö utan per-vatten prosa — ej taget (quality)",
+    "Gibbarps / Mosseryd-Toens / Flagen-style multi: Hitta Fiske FVO-arter utan per-vatten — rejected",
+    "Björsesjöns / Brännerisjöns / Nybrodammens / Sjövikssjöns / Långanäsasjöns / Nordsjöns / Styggstorps / Vrangsjöns / Älesjöns / Bruzaåns Mellersta / Norrahammars: NK/Hitta Fiske tags-only eller kontaktinfo utan artprosa; Norrahammar≠Tabergsåns FVOF"
+  ]
+}

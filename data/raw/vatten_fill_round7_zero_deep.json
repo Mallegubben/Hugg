@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "round": "7_zero_vatten_deep_search",
+    "generated_at": "2026-09-15T17:37:50.079291+00:00",
+    "policy": "1:1 FVO↔källa; aldrig iFiske-ikoner/NatureIT/Artportalen; explicit named-water species; quote evidence",
+    "stats": {
+      "fvo_with_enrichments": 12,
+      "total_vatten_rows": 34
+    },
+    "empty_searches": [
+      "Mastedalstjärnarnas (Bengtsfors fiskeguide 2026: föreningen vilande, inga arter listade)",
+      "Nöresjöns (vattenagarna kontakt-only)",
+      "Revesjö / Roasjön-Ramsjöns / Vassgården / Skäremosjöns / Björstorps (Svenljunga-Tranemo-broschyr namnger vatten men saknar artlistor; iFiske-ikoner ej använda)",
+      "Groskens (inga icke-iFiske artlistor hittade)",
+      "Kölvattnets / Norra Lunds (saknas i Bengtsfors-guiden med arter)",
+      "Käls (vattenagarna: regnbåge/röding i 'vissa vatten', gädda/abborre i 'några' – ej vattenbundet)",
+      "Östra Hästefjordens (Stora Hästefjordens FVOF är annat område; Östra saknar artlista)",
+      "Ingsjöarna & Oxsjöns på vattenagarna ≠ Oxsjöns fvof Tranemo/Ulricehamn",
+      "Sjötorpssjöns Skövde (vastsverige: fritt fiske, inga arter)",
+      "De flesta VB ZERO utöver Pausele (lokala kommunsidor utan vatten×art)",
+      "Stockholm skärgård ZERO (ej djupgrävda denna runda)",
+      "Jönköping återstående ZERO (få träffar utan iFiske)",
+      "Oxalasjön: nuvarande bollebygd.se-sida saknar posten; använt Wayback 2024-12 med explicit artlista"
+    ],
+    "note_dedup": "Removed Hällerstad + Kilarpe (already in vatten_fill_round6d_og_vb_f.json)"
+  },
+  "enrichments": [
+    {
+      "namn": "Jogens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Jogen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "2. Jogen – Jogens FVO, 365 ha … Species of fish: Perch, pike, roach"
+        }
+      ]
+    },
+    {
+      "namn": "Humla-Kölaby fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Ätran",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "3. Ätran … The northern part (Humla-Kölaby FVOF) from Knektakvarn in Blidsberg to the border of the municipality … Species of fish: Pike, perch, roach. (Trout fishing forbidden)"
+        }
+      ]
+    },
+    {
+      "namn": "Röstesjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Röstesjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "7. Röstesjön, 42 ha … Species of fish: Perch, carp bream, pike, roach, tench, some rainbow trout … You may catch an unlimited amount of pike, perch and bream, but maximum three rainbow trouts."
+        }
+      ]
+    },
+    {
+      "namn": "Trehörningens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Trehörningen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "14. Trehörningen – Trehörningens FVO … Species of fish: Pike, perch, roach, burbot … The lake Trehörningen is located in the south-eastern part of Ulricehamn"
+        }
+      ]
+    },
+    {
+      "namn": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Kolbränningen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/sjuharad/natur-och-friluftsliv/vandra/vandringsleder/boras-vandringsleder/kolbranningen/",
+          "evidence": "För fiskeentusiasten är detta paradiset! Kransån erbjuder abborre och gädda i Kolbränningen medan Ryssbybäcken lockar med amerikansk bäckröding, gädda och öring."
+        },
+        {
+          "namn": "Södra Kypesjön",
+          "arter": [
+            "Abborre",
+            "Regnbåge"
+          ],
+          "kalla": "borascamping.se",
+          "url": "https://borascamping.se/aktiviteter/kypesjon-friluftsomrade/",
+          "evidence": "Det är få platser det är gratis att fiska på men här är en av dem. Så passa på att fånga en regnbåge eller en abborre och lägg sedan på grillen i området och njut av fångsten."
+        }
+      ]
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "note": "Two identical-name ZERO rows (object_id 1619 preferred: has Regnbåge in arter). Source: Långvattnets FVOF (Örnsköldsvik).",
+      "vatten": [
+        {
+          "namn": "Salomonstjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Salomonstjärn har inplanterad regnbåge."
+        },
+        {
+          "namn": "Stensvattnet",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Stensvattnet har naturligt bestånd av öring och abborre."
+        },
+        {
+          "namn": "Lidtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Lidtjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Lill-Malklippstjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Lill-Malklippstjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Kastertjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Kastertjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Stor-Malklippstjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "Stor-Malklippstjärn har naturligt bestånd av Öring och Abborre."
+        },
+        {
+          "namn": "Långvattsån",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=3530",
+          "evidence": "långvattsån har naturligt bestånd av Öring och Abborre"
+        }
+      ]
+    },
+    {
+      "namn": "Ånge fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Grästjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Ånge FVO omfattar Grästjärn, Näbbtjärn, Djuptjärn, Kniptjärn, Rången, Svarttjärn, Malmyrtjärn, Abborrtjärn, Flistersjön och Vattensjön. … Området rotenonbehandlades med start 1984 och gädda och sik togs bort, öring återintroducerades samtidigt som röding planterades ut i vissa av vattnen, båda dessa är numera självreproducerande bestånd."
+        },
+        {
+          "namn": "Näbbtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Djuptjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Kniptjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Rången",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Svarttjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Malmyrtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Flistersjön",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        },
+        {
+          "namn": "Vattensjön",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/vasternorrlands-lans-fiskerattsagareforbund/?o=543",
+          "evidence": "Samma FVO-nivå: öring återintroducerad i området efter rotenon; röding endast i vissa vatten (ej tilldelad per sjö)."
+        }
+      ]
+    },
+    {
+      "namn": "Pausele-Bäcknäs fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Paubäcken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "lycksele.se",
+          "url": "https://www.lycksele.se/globalassets/dokument/4-fritid-och-kultur/paubacken_low.pdf",
+          "evidence": "Fisket i Paubäcken är uppdelat på fyra fiskerättsinnehavare. … längst ner Pausele/Bäcknäs vars kort också gäller i delar av Umeälven. I de strömmande delarna av bäcken finns harr och öring. Gädda och abborre finns i hela bäcken."
+        }
+      ]
+    },
+    {
+      "namn": "Södra Värmelns fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Värmeln",
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "sodra_varmelns_fvof_regler",
+          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
+          "evidence": "REGLER FÖR FISKE I SJÖN VÄRMELN … fastställts … för Södra Värmelns FVOF … Reglerna gäller även för fiske i Rommen, Ingersbytjärnet, Yppersbytjärnet. … Öring och Lax 60 cm … Gös 45–75 cm … Gädda över 100 cm bör återsättas."
+        },
+        {
+          "namn": "Rommen",
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "sodra_varmelns_fvof_regler",
+          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
+          "evidence": "Samma Södra/Norra Värmeln FVOF-regler gäller angivna vatten (minimått för öring, lax, gös, gädda)."
+        },
+        {
+          "namn": "Ingersbytjärnet",
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "sodra_varmelns_fvof_regler",
+          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
+          "evidence": "Samma Södra/Norra Värmeln FVOF-regler gäller angivna vatten (minimått för öring, lax, gös, gädda)."
+        },
+        {
+          "namn": "Yppersbytjärnet",
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "sodra_varmelns_fvof_regler",
+          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
+          "evidence": "Samma Södra/Norra Värmeln FVOF-regler gäller angivna vatten (minimått för öring, lax, gös, gädda)."
+        }
+      ]
+    },
+    {
+      "namn": "Racksund-Östansjö fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Uddjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Fisket bedrivs i sjöarna: Uddjaur, Aisjaur, Fluka, Akkelisjaur & Varrajaur Klasser: Oring, Gädda, Abborre & Harr"
+        },
+        {
+          "namn": "Aisjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Racksundsnappet: tävlingsklasser öring, gädda, abborre och harr i namngivna Racksund-sjöar (Fluka utelämnad – ej bekräftad FVO-vattenlista här)."
+        },
+        {
+          "namn": "Akkelisjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Racksundsnappet: tävlingsklasser öring, gädda, abborre och harr i namngivna Racksund-sjöar (Fluka utelämnad – ej bekräftad FVO-vattenlista här)."
+        },
+        {
+          "namn": "Varrajaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "arjeploglapland",
+          "url": "https://www.arjeploglapland.se/events/racksundsnappet-2026/",
+          "evidence": "Racksundsnappet: tävlingsklasser öring, gädda, abborre och harr i namngivna Racksund-sjöar (Fluka utelämnad – ej bekräftad FVO-vattenlista här)."
+        }
+      ]
+    },
+    {
+      "namn": "Oxalasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Oxalasjön",
+          "arter": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "bollebygd.se",
+          "url": "https://web.archive.org/web/20241204054851/https://www.bollebygd.se/upplevaochgora/idrottmotionochfriluftsliv/friluftslivochmotion/fiske.4.4b88096f14fb4d9accd2a2ba.html",
+          "evidence": "Oxalasjön — Fiskarter: Regnbåge, Öring och Harr. Säljs inga fiskekort. Fiske med båt: Nej. (Kommunsida via Wayback; posten borttagen i nuvarande bollebygd.se-sida 2026-08.)"
+        }
+      ]
+    },
+    {
+      "namn": "Viskan vid Osdal fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Viskan",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "boras_kommunfiskekort",
+          "url": "https://doczz.net/doc/7157373/kommunfiskekortet",
+          "evidence": "Viskan vid Osdal Fiskevårdsområdet … 103 Viskan (mellan Guttasjön och Jössabron) abborre, braxen, gädda, gärs, lake, mört, sarv, sutare, ål och öring"
+        }
+      ]
+    }
+  ]
+}
