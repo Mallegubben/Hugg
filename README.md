@@ -6,7 +6,8 @@
 1. **Jämför** med iFiske (spegel/kontroll av vilka arter som “borde” finnas)
 2. **Hämta aldrig artdata från iFiske** (inga artikoner → `arter`)
 3. Använd iFiske för **tips/länkar** till respektive FVO/föreningssida (t.ex. “Gå till hemsida”), och hämta artdata därifrån
-4. Övriga tillåtna källor: Fiskekartan, SLU (NORS/SERS/KUL), GBIF
+4. **Använd aldrig** NatureIT eller Artportalen (varken artdata eller som källa)
+5. Övriga tillåtna källor: Fiskekartan, SLU (NORS/SERS/KUL), GBIF, FVOF/föreningssidor, lokala turism-/kommunkartor (t.ex. FiskaiBerg, Drömfiske Jämtland Härjedalen)
 
 ## Köra om
 ```bash
@@ -20,5 +21,6 @@ python scripts/follow_ifiske_links_to_fvof.py
 python scripts/enrich_gbif_for_gaps.py
 python scripts/enrich_gbif_gap_retry.py
 python scripts/discover_fvof_urls_and_scrape.py
+python scripts/enrich_jamtland_local_sources.py
 python scripts/build_index.py
 ```

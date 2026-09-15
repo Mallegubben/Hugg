@@ -105,6 +105,8 @@ BLOCK_HOSTS = (
     "havochvatten.se",
     "lansstyrelsen.se",
     "ifiske.",
+    "natureit.",
+    "artportalen.",
     "paypal",
     "swish",
     "apple.com",
@@ -284,7 +286,7 @@ def discover_links_from_ifiske(html: str, base: str, fvo_namn: str) -> list[str]
         hemsida = any(k in text for k in ("hemsida", "gå till", "webbplats", "besök vår"))
         relevant = (
             hemsida
-            or any(k in h for k in ("fvof", "fvo", "fiske", "natureit", "blogspot"))
+            or any(k in h for k in ("fvof", "fvo", "fiske", "blogspot"))
             or any(t in host_f for t in tokens)
             or any(k in text for k in ("förening", "fiskevårds", "föreningens"))
             or ("vattenagarna.se" in h and "o=" in abs_url)

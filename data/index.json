@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:37:06.518851+00:00",
+  "generated_at": "2026-09-15T00:06:06.578819+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
   "antal_vatten": 5520,
@@ -4546,6 +4546,7 @@
         661,
         662,
         663,
+        665,
         666,
         667,
         671,
@@ -5207,6 +5208,7 @@
         1560,
         1561,
         1563,
+        1564,
         1566,
         1568,
         1569,
@@ -7969,6 +7971,7 @@
         1487,
         1490,
         1495,
+        1542,
         1559,
         1595,
         1597,
@@ -11230,6 +11233,7 @@
         662,
         663,
         664,
+        665,
         666,
         667,
         671,
@@ -14899,6 +14903,7 @@
         1548,
         1561,
         1581,
+        1592,
         1597,
         1604,
         1622,
@@ -16139,6 +16144,7 @@
         1618,
         1620,
         1622,
+        1623,
         1626,
         1627,
         1628,
@@ -18070,6 +18076,7 @@
         1556,
         1559,
         1563,
+        1564,
         1566,
         1568,
         1570,
@@ -20633,6 +20640,7 @@
         1558,
         1559,
         1561,
+        1564,
         1565,
         1566,
         1568,
@@ -20665,6 +20673,7 @@
         1616,
         1617,
         1619,
+        1620,
         1621,
         1622,
         1623,
@@ -22340,6 +22349,7 @@
         1560,
         1561,
         1563,
+        1564,
         1566,
         1568,
         1570,
@@ -22367,6 +22377,7 @@
         1617,
         1618,
         1619,
+        1620,
         1622,
         1623,
         1624,
@@ -173697,7 +173708,8 @@
       "url_fvof": "dammån.se",
       "kallor": [
         "slu_provfiske",
-        "extern_fvof"
+        "extern_fvof",
+        "fiskaiberg"
       ],
       "arter": [
         "Abborre",
@@ -173710,6 +173722,8 @@
         "Lake",
         "Mört",
         "Regnbåge",
+        "Röding",
+        "Sik",
         "Simpa",
         "Öring"
       ],
@@ -231328,11 +231342,13 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "dromfiske"
       ],
       "arter": [
         "Abborre",
         "Bergsimpa",
+        "Braxen",
         "Bäckröding",
         "Elritsa",
         "Gädda",
@@ -275455,7 +275471,8 @@
       "url_fvof": "www.kvitslefiske.se/",
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "dromfiske"
       ],
       "arter": [
         "Abborre",
@@ -275465,6 +275482,7 @@
         "Gädda",
         "Gös",
         "Harr",
+        "Kanadaröding",
         "Lake",
         "Mört",
         "Regnbåge",
@@ -319272,9 +319290,14 @@
       "kommuner": "Arvidsjaur",
       "huvudavrinningsomrade": "20 (Skellefteälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Södra%20Sandträsk%20fvof&sp=false",
-      "url_fvof": null,
-      "kallor": [],
-      "arter": [],
+      "url_fvof": "https://glommersbygden.se/fiske/",
+      "kallor": [
+        "glommersbygden"
+      ],
+      "arter": [
+        "Abborre",
+        "Gädda"
+      ],
       "fiskekartan_arter": [],
       "vatten": []
     },
@@ -333692,7 +333715,7 @@
       "kommuner": "Krokom",
       "huvudavrinningsomrade": "40 (Indalsälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Valsjöns%20fvof&sp=false",
-      "url_fvof": null,
+      "url_fvof": "https://hotagen.com/b-valsjons-fvof/",
       "kallor": [
         "fiskekartan",
         "slu_provfiske"
@@ -353359,15 +353382,20 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Åsarna%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "fiskaiberg"
       ],
       "arter": [
+        "Abborre",
         "Bergsimpa",
         "Bäckröding",
         "Elritsa",
         "Gädda",
         "Harr",
         "Lake",
+        "Mört",
+        "Röding",
+        "Sik",
         "Simpa",
         "Stensimpa",
         "Öring"
@@ -363417,7 +363445,8 @@
       "url_fvof": "www.facebook.com/share/1CmBKJAaT1/",
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "fiskaiberg"
       ],
       "arter": [
         "Abborre",
@@ -363425,6 +363454,7 @@
         "Bäckröding",
         "Gädda",
         "Harr",
+        "Lake",
         "Regnbåge",
         "Röding",
         "Sik",

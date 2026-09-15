@@ -82,7 +82,10 @@ def probe(session: requests.Session, url: str) -> str | None:
         if r.status_code >= 400:
             return None
         host = urlparse(r.url).netloc.lower()
-        if any(x in host for x in ("ifiske.", "facebook.", "google.", "parked")):
+        if any(
+            x in host
+            for x in ("ifiske.", "natureit.", "artportalen.", "facebook.", "google.", "parked")
+        ):
             return None
         text = (r.text or "")[:8000].casefold()
         if any(x in text for x in ("domain parking", "köp domän", "buy this domain", "sedo")):
