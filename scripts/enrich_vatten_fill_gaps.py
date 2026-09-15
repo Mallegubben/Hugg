@@ -71,6 +71,10 @@ def find_fvo_for_block(fvos: list[dict], block: dict) -> dict | None:
         return hits[0]
     if not hits:
         return None
+    # Prefer empty (0-vatten) targets for gap-fill when unique.
+    zero = [f for f in hits if not f.get("vatten")]
+    if len(zero) == 1:
+        return zero[0]
     water_names = {
         fold(w.get("vatten_namn") or w.get("namn") or "")
         for w in (block.get("vatten") or [])
@@ -79,9 +83,8 @@ def find_fvo_for_block(fvos: list[dict], block: dict) -> dict | None:
         existing = {fold(v.get("namn") or "") for v in (f.get("vatten") or [])}
         if existing & water_names:
             return f
-    zero = [f for f in hits if not f.get("vatten")]
-    if len(zero) == 1:
-        return zero[0]
+    if len(zero) > 1:
+        return None
     return None
 
 
@@ -200,6 +203,7 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round5_vg_sanitized.json",
         RAW / "vatten_fill_round6.json",
         RAW / "vatten_fill_round6b.json",
+        RAW / "vatten_fill_round6c.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),

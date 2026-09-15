@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:26:51.086447+00:00",
+    "generated_at": "2026-09-15T17:30:17.619686+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1685
+      "har_vattenposter": 1691
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -54952,15 +54952,83 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Flagen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ryd",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ödshultasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/"
+      ]
     },
     {
       "original_id": 837,
@@ -73373,17 +73441,50 @@
       "arter": [
         "Abborre",
         "Braxen",
-        "Gädda"
+        "Gädda",
+        "Mört"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gravsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 3,
+        "antal_arter": 4,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Mört"
+        ],
+        "kallor_url:er": [
+          "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/"
+        ]
       }
     },
     {
@@ -73426,7 +73527,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "naturkartan"
+        "naturkartan",
+        "hittafiske"
       ],
       "vatten": [
         {
@@ -73446,8 +73548,7 @@
           ],
           "senaste_fiskeaar": 1992,
           "referenser": [
-            "http://aquarapport.slu.se/default.aspx?ID=99&X=6428810&Y=1386260",
-            "https://www.naturkartan.se/sv/jonkopings-lan/gravsjons-fvof"
+            "http://aquarapport.slu.se/default.aspx?ID=99&X=6428810&Y=1386260"
           ]
         }
       ],
@@ -73468,7 +73569,8 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "lokala_tipslankar": [
-        "https://www.naturkartan.se/sv/jonkopings-lan/gravsjons-fvof"
+        "https://www.naturkartan.se/sv/jonkopings-lan/gravsjons-fvof",
+        "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/"
       ]
     },
     {
@@ -165660,15 +165762,40 @@
         "Ruda"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Lökarydsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/lokarydsjons-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 4,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/lokarydsjons-fvof/"
+      ]
     },
     {
       "original_id": 2123,
@@ -228128,6 +228255,7 @@
         "Braxen",
         "Gädda",
         "Gärs",
+        "Gös",
         "Lake",
         "Mört",
         "Nors",
@@ -228141,11 +228269,51 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "regnaren-alsjonfiske.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Regnaren",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Ål"
+          ],
+          "kallor": [
+            "regnaren-alsjonfiske.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://regnaren-alsjonfiske.se/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ålsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Ål"
+          ],
+          "kallor": [
+            "regnaren-alsjonfiske.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://regnaren-alsjonfiske.se/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 17,
+        "antal_arter": 18,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -228188,6 +228356,17 @@
           "Storspigg",
           "Sutare",
           "Ål"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://regnaren-alsjonfiske.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös"
+        ],
+        "kallor_url:er": [
+          "https://regnaren-alsjonfiske.se/"
         ]
       }
     },
@@ -291770,15 +291949,43 @@
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Söljen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/soljens-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/soljens-fvof/"
+      ]
     },
     {
       "original_id": 875,
@@ -350195,15 +350402,41 @@
         "Sik"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "hittafiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Öasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sik"
+          ],
+          "kallor": [
+            "hittafiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.hittafiske.se/planera-ditt-fiske/oasjons-fvof/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.hittafiske.se/planera-ditt-fiske/oasjons-fvof/"
+      ]
     },
     {
       "original_id": 1462,
