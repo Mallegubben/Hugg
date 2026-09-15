@@ -521,30 +521,379 @@
       "source": "vattenagarna",
       "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ristens fvof",
+      "lan": "Östergötland",
+      "vatten": "Risten",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Sarv",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lagans (Hamneda-Traryd) fvof",
+      "lan": "Kronoberg",
+      "vatten": "Lagan",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Regnbåge",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Lagans (Hamneda-Traryd) fvof",
+      "lan": "Kronoberg",
+      "vatten": "Trarydsdammen",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Regnbåge",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dalby fvof",
+      "lan": "Värmland",
+      "vatten": "Norra Liksjötjärn",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Regnbåge"
+      ],
+      "tillagda_fvoarter": [
+        "Regnbåge"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Dalby fvof",
+      "lan": "Värmland",
+      "vatten": "Klarälven",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Harr"
+      ],
+      "tillagda_fvoarter": [
+        "Harr"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Dalby fvof",
+      "lan": "Värmland",
+      "vatten": "Likån",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Dalby fvof",
+      "lan": "Värmland",
+      "vatten": "Ljusnan",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Varnums och Marsjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Varnum",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Varnums och Marsjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Marsjöarna",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Övrasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": "Övrasjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Röding"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Årsjöns fvof",
+      "lan": "Östergötland",
+      "vatten": "Årsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Årsjöns fvof",
+      "lan": "Östergötland",
+      "vatten": "Holmsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Årsjöns fvof",
+      "lan": "Östergötland",
+      "vatten": "Grönsjön",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Pickesjön fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Pickesjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Karp",
+        "Mört",
+        "Regnbåge",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Öljarens fvof",
+      "lan": "Södermanland",
+      "vatten": "Öljaren",
+      "source": "oljaren.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Gös"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Gäddtjärnens fvof",
+      "lan": "Västernorrland",
+      "vatten": "Gäddtjärn",
+      "source": "sff-stenbiten.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Omsjö fvof",
+      "lan": "Västernorrland",
+      "vatten": "Karvsjön",
+      "source": "omsjo.com",
+      "tillagda_vattenarter": [
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Borgsjö mellersta fvof",
+      "lan": "Västernorrland",
+      "vatten": "Torråstjärn",
+      "source": "laget.se",
+      "tillagda_vattenarter": [
+        "Röding"
+      ],
+      "tillagda_fvoarter": [
+        "Röding"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Mollsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Mollsjön",
+      "source": "mollsjon.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ärtingens fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Ärtingen",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Regnbåge"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Vaxsjöns fvof",
+      "lan": "Skåne",
+      "vatten": "Vaxsjön",
+      "source": "vaxsjon.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sarv",
+        "Sutare"
+      ],
+      "tillagda_fvoarter": [
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Mört",
+        "Sarv",
+        "Sutare"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Stångån-Linköpings fvof",
+      "lan": "Östergötland",
+      "vatten": "Stångån",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Nedre Svartåns fvof",
+      "lan": "Östergötland",
+      "vatten": "Svartån",
+      "source": "naturkartan",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Asp",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Bälingesjöns fvof",
+      "lan": "Skåne",
+      "vatten": "Bälingesjön",
+      "source": "balingesjon.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Bodasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Bodasjön",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Gravsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Gravsjön",
+      "source": "vattenagarna",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     }
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 0,
+    "created_vatten": 23,
     "merged_vatten": 0,
-    "touched_vatten": 58,
-    "applied_rows": 58,
+    "touched_vatten": 61,
+    "applied_rows": 84,
     "unmatched": [],
     "before": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1605,
-      "med_arter_men_0_vatten": 269,
-      "total_vatten": 9425
+      "har_vattenposter": 1608,
+      "med_arter_men_0_vatten": 266,
+      "total_vatten": 9428
     },
     "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1605,
-      "med_arter_men_0_vatten": 269,
-      "total_vatten": 9425
+      "har_vattenposter": 1624,
+      "med_arter_men_0_vatten": 250,
+      "total_vatten": 9451
     },
     "blocked_sources": [
       "natureit",
