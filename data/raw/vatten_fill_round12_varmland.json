@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-09-15T18:55:00Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske icons. Shared roster only when prose names the waters and states species for them collectively. No fuzzy cross-county / twin lakes (Sveaskog Rosa Mellantjärn ≠ Sönner och Mellantjärns; Torpsjön Fränsta ≠ Kil/Sunne Torpsjön; Eda Skåltjärn on Högs-map ≠ Filipstad Skåltjärnshyttan)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 2,
+    "total_vatten_rows": 12,
+    "searched_but_empty": 9,
+    "by_lan": {
+      "Värmland": 2
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Nästjärnens fvof",
+      "lan": "Värmland",
+      "object_id": 1289,
+      "vatten": [
+        {
+          "namn": "Södra Nästjärnen",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-sodra-och-norra-nastjarnen.htm",
+          "evidence": "Våra tjärn; Södra Nästjärnen, Norra Nästjärnen … Hos oss fiskar du främst gädda och abborre men även vitfisk. (vitfisk ej artifierad; iFiske Fiskarter-ikoner Mört/Sarv/Sutare ej använda.)"
+        },
+        {
+          "namn": "Norra Nästjärnen",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-sodra-och-norra-nastjarnen.htm",
+          "evidence": "Samma FVOF-prosa för båda namngivna tjärnarna: främst gädda och abborre men även vitfisk. (Grums/Arvika — ej Ovanåkers Nästjärn.)"
+        }
+      ]
+    },
+    {
+      "namn": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "object_id": 1271,
+      "vatten": [
+        {
+          "namn": "Nordsjön",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa) + edafiske.se",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Tillgänglig fisk är gädda, abborre, vitfisk, såsom mört, brax och björkna. Samtliga vatten … Nordsjön, Taksjön, Kalvtjärnet … (edafiske: största vattnen Nordsjön, Taksjön, Kalvtjärnet; vanligaste arterna gädda, Abborre, och mört.) Sarv endast ikon — ej använd. Regnbåge/Ål saknas i prosa."
+        },
+        {
+          "namn": "Taksjön",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa) + edafiske.se",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samma delade artprosa för namngivna vatten i Stora och Lilla Högs FVOF (Eda). Taksjön i Samtliga vatten-listan."
+        },
+        {
+          "namn": "Kalvtjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa) + edafiske.se",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samma delade artprosa; Kalvtjärnet namngiven i prosa (privat väg med bom) och edafiske största vatten."
+        },
+        {
+          "namn": "Deltjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten inom fiskevårdsområdet: Deltjärnet … — Tillgänglig fisk är gädda, abborre, vitfisk, såsom mört, brax och björkna."
+        },
+        {
+          "namn": "Mörttjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten … Mörttjärnet … + delad artprosa gädda/abborre/mört/brax/björkna."
+        },
+        {
+          "namn": "Örkyttjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten … Örkyttjärnet … + delad artprosa."
+        },
+        {
+          "namn": "Klättjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten … Klättjärnet … + delad artprosa."
+        },
+        {
+          "namn": "Älgtjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten … del i Älgtjärnet … + delad artprosa. (edafiske fiskekarta: Älgtjärnet.)"
+        },
+        {
+          "namn": "Totjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten … Totjärnet … + delad artprosa."
+        },
+        {
+          "namn": "Lilla Älgtjärnet",
+          "arter": ["Abborre", "Björkna", "Braxen", "Gädda", "Mört"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm",
+          "evidence": "Samtliga vatten … L:a Älgtjärnet … + delad artprosa. (edafiske: Lilla Älgtjärnet.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "notes": "Karlstad. iFiske 404. Visit Värmland/Karlstad.se utan named-water artprosa. vattenagarna generisk. Wikipedia saknas. Sportfiskeguide wayback offline/CDX tom."
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "object_id": 1375,
+      "notes": "Kil/Grums. iFiske 404. Ingen municipal/tourism 1:1 artprosa. Wikipedia saknas."
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1287,
+      "notes": "Karlstad/Molkom. iFiske 404. Gårdsbloggar nämner fiske utan arter. Ingen verifierad water×species prose."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "notes": "Grums. visitvarmland/lakevanern.se/grums.se listar Portilasjön bland sjöar utan fiskarter. iFiske 404. Wikipedia hydrografi utan arter."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "notes": "Filipstad. iFiske sida utan artprosa (endast turistkort-hänvisning). Filipstad turistfiskekort: artlista på kortnivå + 46 sjöar — Skåltjärn ej i sjölistan; kortnivåarter ej 1:1. vattenagarna o=710 tom. ≠ Eda Skåltjärn på Högs-kartan."
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1369,
+      "notes": "Forshaga. iFiske redirect till Forshaga Fiskevårdskrets; kretsprosa (gös/abborre/gädda/braxen) gäller 13 FVO — ej 1:1 för Syrsjön/Torptjärn. Fishbrain ej tillåten källa."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "notes": "Sunne. Flera Sälsjön i Sverige. iFiske 404. Ingen tourism/municipal artprosa för Värmland-Sälsjöns FVOF."
+    },
+    {
+      "namn": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1327,
+      "notes": "Hagfors/Ekshärad. iFiske 'Ej publicerat område'. Ej i Hagfors Fiskevårdskrets medlemslista. Rejected: Sveaskog/iFiske PDF Mellantjärn (Rosa put-and-take regnbåge, kund 3102); fisch-hitparade 2006 (regnbåge/Konnevesi — matchar ej FVO-roster Gädda/Öring)."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "notes": "Kil/Sunne (Frykerud). iFiske 404. Twin-risk: Torpsjön Fränsta (Västernorrland) pimpeltävlingar; Fishbrain ej tillåten. Ingen lokal artprosa."
+    }
+  ]
+}
