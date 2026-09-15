@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T16:34:37.794624+00:00",
+  "generated_at": "2026-09-15T16:36:25.238048+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
-  "antal_vatten": 5837,
+  "antal_vatten": 5838,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -1036,8 +1036,8 @@
       "med_artlista": 60,
       "utan_artlista": 1,
       "tackning_pct": 98.4,
-      "fvo_med_vattenposter": 57,
-      "antal_vattenposter": 170,
+      "fvo_med_vattenposter": 58,
+      "antal_vattenposter": 171,
       "fvo_ids": [
         2174,
         2175,
@@ -1770,8 +1770,8 @@
       "med_artlista": 319,
       "utan_artlista": 7,
       "tackning_pct": 97.9,
-      "fvo_med_vattenposter": 237,
-      "antal_vattenposter": 846,
+      "fvo_med_vattenposter": 239,
+      "antal_vattenposter": 848,
       "fvo_ids": [
         1824,
         1825,
@@ -37828,6 +37828,17 @@
           ]
         },
         {
+          "fvo_id": 1948,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ]
+        },
+        {
           "fvo_id": 2126,
           "typ": "sjö",
           "smhi_id": "657556-129516",
@@ -44316,6 +44327,27 @@
             "Gärs",
             "Mört",
             "Siklöja"
+          ]
+        }
+      ],
+      "Bälingesjön": [
+        {
+          "fvo_id": 2202,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Sarv",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -58365,6 +58397,17 @@
           "typ": "sjö",
           "smhi_id": "642881-138626",
           "eu_cd": "NW642898-138653",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ]
+        },
+        {
+          "fvo_id": 2067,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
           "arter": [
             "Abborre",
             "Gädda",
@@ -172354,7 +172397,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bodasjöns%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/fiskevattenagarna-i-vastra-sverige/?o=666",
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vattenagarna"
       ],
       "arter": [
         "Abborre",
@@ -172382,7 +172426,23 @@
         "Sutare",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bodasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 825,
@@ -180319,7 +180379,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bälingesjöns%20fvof&sp=false",
       "url_fvof": "balingesjon.se/",
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "balingesjon.se"
       ],
       "arter": [
         "Abborre",
@@ -180347,7 +180408,31 @@
         "Sutare",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bälingesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "balingesjon.se"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 438,
@@ -201475,7 +201560,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gravsjöns%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=536",
       "kallor": [
-        "gbif"
+        "gbif",
+        "vattenagarna"
       ],
       "arter": [
         "Abborre",
@@ -201488,7 +201574,23 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gravsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1658,

@@ -1,0 +1,60 @@
+{
+  "enrichments": [
+    {
+      "namn": "Bälingesjöns fvof",
+      "lan": "Skåne",
+      "vatten": [
+        {
+          "namn": "Bälingesjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "balingesjon.se",
+          "url": "https://balingesjon.se/"
+        }
+      ]
+    },
+    {
+      "namn": "Bodasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Bodasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/fiskevattenagarna-i-vastra-sverige/?o=666"
+        }
+      ]
+    },
+    {
+      "namn": "Gravsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Gravsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=536"
+        }
+      ]
+    }
+  ]
+}

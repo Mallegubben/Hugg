@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T16:34:37.538325+00:00",
+    "generated_at": "2026-09-15T16:36:24.967188+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1605
+      "har_vattenposter": 1608
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -428,6 +428,61 @@
         "artportalen",
         "ifiske_artdata"
       ]
+    },
+    "vatten_fill_gap_pass_extra": {
+      "created": 3,
+      "applied": [
+        {
+          "action": "create",
+          "fvo": "Bälingesjöns fvof",
+          "lan": "Skåne",
+          "vatten": "Bälingesjön",
+          "source": "balingesjon.se",
+          "tillagda_vattenarter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "tillagda_fvoarter": []
+        },
+        {
+          "action": "create",
+          "fvo": "Bodasjöns fvof",
+          "lan": "Västra Götaland",
+          "vatten": "Bodasjön",
+          "source": "vattenagarna",
+          "tillagda_vattenarter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "tillagda_fvoarter": []
+        },
+        {
+          "action": "create",
+          "fvo": "Gravsjöns fvof",
+          "lan": "Västra Götaland",
+          "vatten": "Gravsjön",
+          "source": "vattenagarna",
+          "tillagda_vattenarter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "tillagda_fvoarter": []
+        }
+      ],
+      "before_0vatten": 269,
+      "after_0vatten": 266,
+      "total_vatten": 9428
     }
   },
   "arter_katalog": [
@@ -24318,9 +24373,30 @@
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vattenagarna"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bodasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vattenagarna.se/fiskevattenagarna-i-vastra-sverige/?o=666"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 11,
         "antal_vatten_med_survey": 0,
@@ -24342,7 +24418,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-bodasjon-prassebo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vattenagarna.se/fiskevattenagarna-i-vastra-sverige/?o=666"
+      ]
     },
     {
       "original_id": 825,
@@ -37439,9 +37518,38 @@
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "balingesjon.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bälingesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "balingesjon.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://balingesjon.se/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 11,
         "antal_vatten_med_survey": 0,
@@ -37461,7 +37569,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-balingesjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://balingesjon.se/"
+      ]
     },
     {
       "original_id": 438,
@@ -72354,9 +72465,30 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vattenagarna"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gravsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=536"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -72394,7 +72526,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-gravsjons-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=536"
+      ]
     },
     {
       "original_id": 1658,
