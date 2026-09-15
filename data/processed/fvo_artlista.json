@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T18:43:00.323648+00:00",
+    "generated_at": "2026-09-15T18:51:34.490064+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,9 +44,9 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1766
+      "har_vattenposter": 1772
     },
-    "antal_unika_arter": 86,
+    "antal_unika_arter": 90,
     "gbif_enrichment": {
       "fvo_uppdaterade": 434,
       "artposter_tillagda": 2360,
@@ -404,24 +404,24 @@
     "vatten_fill_gap_pass": {
       "created_vatten": 17,
       "merged_vatten": 0,
-      "touched_vatten": 431,
-      "applied_rows": 448,
+      "touched_vatten": 448,
+      "applied_rows": 465,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1761,
-        "med_arter_men_0_vatten": 113,
-        "total_vatten": 9763
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1766,
         "med_arter_men_0_vatten": 108,
         "total_vatten": 9780
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1772,
+        "med_arter_men_0_vatten": 102,
+        "total_vatten": 9797
       },
       "blocked_sources": [
         "natureit",
@@ -528,12 +528,14 @@
     "Lax",
     "Lax_Öring_Hybrid",
     "Laxfisk obestämd",
+    "Makrill",
     "Mal",
     "Mört",
     "Nejonöga",
     "Nissöga",
     "No",
     "Nors",
+    "Näbbgädda",
     "R",
     "Reg",
     "Regn",
@@ -568,10 +570,12 @@
     "Stens",
     "Stensimpa",
     "Storspigg",
+    "Strömming",
     "Stäm",
     "Su",
     "Sut",
     "Sutare",
+    "Torsk",
     "Vimma",
     "Ål",
     "Ö",
@@ -76428,15 +76432,35 @@
         "arter": []
       },
       "arter": [
+        "Näbbgädda",
         "Småspigg",
         "Storspigg"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Grönskär",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Näbbgädda"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 2,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -76449,6 +76473,17 @@
         "tillagda_arter": [
           "Småspigg",
           "Storspigg"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Näbbgädda"
+        ],
+        "kallor_url:er": [
+          "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
         ]
       }
     },
@@ -97448,15 +97483,54 @@
       "arter": [
         "Abborre",
         "Elritsa",
+        "Näbbgädda",
+        "Torsk",
         "Ål",
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm",
+        "stockholms_lans_fiskeguide_2017"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Horsten",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Näbbgädda"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Horstensfjärden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Torsk"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2017"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.nacka.se/49611c/globalassets/uppleva-gora/dokument/friluftsliv/fiskeguide-stockholm2017.pdf"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 4,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -97473,6 +97547,20 @@
           "Elritsa",
           "Ål",
           "Öring"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf",
+        "https://www.nacka.se/49611c/globalassets/uppleva-gora/dokument/friluftsliv/fiskeguide-stockholm2017.pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Näbbgädda",
+          "Torsk"
+        ],
+        "kallor_url:er": [
+          "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf",
+          "https://www.nacka.se/49611c/globalassets/uppleva-gora/dokument/friluftsliv/fiskeguide-stockholm2017.pdf"
         ]
       }
     },
@@ -215376,9 +215464,47 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Södra Nästjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-sodra-och-norra-nastjarnen.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Norra Nästjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-sodra-och-norra-nastjarnen.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -215423,7 +215549,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-sodra-och-norra-nastjarnen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-sodra-och-norra-nastjarnen.htm"
+      ]
     },
     {
       "original_id": 1175,
@@ -242171,14 +242300,41 @@
       "arter": [
         "Abborre",
         "Elritsa",
+        "Gädda",
+        "Havsöring",
+        "Makrill",
+        "Skrubbskädda",
         "Storspigg"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "svalla.se_turism_stockholms_lans_fiskeguide_2023"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Rödlöga",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Havsöring",
+            "Makrill",
+            "Skrubbskädda"
+          ],
+          "kallor": [
+            "svalla.se_turism_stockholms_lans_fiskeguide_2023"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://svalla.se/o/rodloga"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 3,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -242211,6 +242367,20 @@
         ],
         "url": "https://www.ifiske.se/fiske-rodloga-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "lokala_tipslankar": [
+        "https://svalla.se/o/rodloga"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gädda",
+          "Havsöring",
+          "Makrill",
+          "Skrubbskädda"
+        ],
+        "kallor_url:er": [
+          "https://svalla.se/o/rodloga"
+        ]
       }
     },
     {
@@ -269140,9 +269310,221 @@
       ],
       "kallor": [
         "gbif",
-        "extern_fvof"
+        "extern_fvof",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nordsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Taksjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kalvtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Deltjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Mörttjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Örkyttjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Klättjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Älgtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Totjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Älgtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -269193,6 +269575,9 @@
       },
       "ifiske_tipslankar": [
         "http://edafiske.se/fiskevardsomradesforeningarna/stora-och-lilla-hogs-fvof/"
+      ],
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-nordsjon-taksjon-m-fl-tjarnar.htm"
       ]
     },
     {
@@ -339460,14 +339845,34 @@
         "Småspigg",
         "Stensimpa",
         "Storspigg",
+        "Strömming",
         "Sutare"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Yxlan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Strömming"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 10,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -339496,6 +339901,17 @@
           "Stensimpa",
           "Storspigg",
           "Sutare"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Strömming"
+        ],
+        "kallor_url:er": [
+          "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf"
         ]
       }
     },

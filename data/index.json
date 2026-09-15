@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T18:43:00.666730+00:00",
+  "generated_at": "2026-09-15T18:51:34.831532+00:00",
   "antal_fvo": 1907,
-  "antal_arter": 86,
-  "antal_vatten": 6098,
+  "antal_arter": 90,
+  "antal_vatten": 6114,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -41,12 +41,14 @@
     "Lax",
     "Lax_Öring_Hybrid",
     "Laxfisk obestämd",
+    "Makrill",
     "Mal",
     "Mört",
     "Nejonöga",
     "Nissöga",
     "No",
     "Nors",
+    "Näbbgädda",
     "R",
     "Reg",
     "Regn",
@@ -81,10 +83,12 @@
     "Stens",
     "Stensimpa",
     "Storspigg",
+    "Strömming",
     "Stäm",
     "Su",
     "Sut",
     "Sutare",
+    "Torsk",
     "Vimma",
     "Ål",
     "Ö",
@@ -1109,8 +1113,8 @@
       "med_artlista": 38,
       "utan_artlista": 4,
       "tackning_pct": 90.5,
-      "fvo_med_vattenposter": 23,
-      "antal_vattenposter": 40,
+      "fvo_med_vattenposter": 27,
+      "antal_vattenposter": 45,
       "fvo_ids": [
         739,
         740,
@@ -1224,8 +1228,8 @@
       "med_artlista": 154,
       "utan_artlista": 1,
       "tackning_pct": 99.4,
-      "fvo_med_vattenposter": 143,
-      "antal_vattenposter": 1022,
+      "fvo_med_vattenposter": 145,
+      "antal_vattenposter": 1034,
       "fvo_ids": [
         833,
         834,
@@ -13644,6 +13648,7 @@
         744,
         746,
         747,
+        751,
         755,
         756,
         757,
@@ -16844,6 +16849,7 @@
         650,
         652,
         658,
+        751,
         805,
         818,
         953,
@@ -19326,6 +19332,9 @@
         1128,
         1754
       ],
+      "Makrill": [
+        751
+      ],
       "Mal": [
         139,
         294,
@@ -21795,6 +21804,10 @@
         2177,
         2221,
         2303
+      ],
+      "Näbbgädda": [
+        749,
+        779
       ],
       "R": [
         294,
@@ -25923,6 +25936,7 @@
         146,
         159,
         166,
+        751,
         1802,
         1864,
         1865,
@@ -26880,6 +26894,9 @@
         2226,
         2230,
         2233
+      ],
+      "Strömming": [
+        788
       ],
       "Stäm": [
         11,
@@ -27896,6 +27913,9 @@
         2271,
         2380,
         2387
+      ],
+      "Torsk": [
+        779
       ],
       "Vimma": [
         20,
@@ -47000,6 +47020,21 @@
           ]
         }
       ],
+      "Deltjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ]
+        }
+      ],
       "Delångersån": [
         {
           "fvo_id": 87,
@@ -61262,6 +61297,17 @@
           ]
         }
       ],
+      "Grönskär": [
+        {
+          "fvo_id": 749,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Näbbgädda"
+          ]
+        }
+      ],
       "Gröntjärnen": [
         {
           "fvo_id": 19,
@@ -69426,6 +69472,28 @@
           ]
         }
       ],
+      "Horsten": [
+        {
+          "fvo_id": 779,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Näbbgädda"
+          ]
+        }
+      ],
+      "Horstensfjärden": [
+        {
+          "fvo_id": 779,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Torsk"
+          ]
+        }
+      ],
       "Horvaån": [
         {
           "fvo_id": 1419,
@@ -76968,6 +77036,21 @@
           ]
         }
       ],
+      "Kalvtjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ]
+        }
+      ],
       "Kalvån": [
         {
           "fvo_id": 305,
@@ -79136,6 +79219,21 @@
             "Signalkräfta",
             "Stensimpa",
             "Öring"
+          ]
+        }
+      ],
+      "Klättjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -88616,6 +88714,21 @@
           "eu_cd": "NW635473-129911",
           "arter": [
             "Abborre",
+            "Mört"
+          ]
+        }
+      ],
+      "Lilla Älgtjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
             "Mört"
           ]
         }
@@ -102602,6 +102715,21 @@
           ]
         }
       ],
+      "Mörttjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ]
+        }
+      ],
       "Mörttjärnsbäcken": [
         {
           "fvo_id": 75,
@@ -104629,6 +104757,19 @@
             "Mört",
             "Nors"
           ]
+        },
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ]
         }
       ],
       "Nordviggsjön": [
@@ -105371,6 +105512,18 @@
             "Lake",
             "Mört",
             "Siklöja"
+          ]
+        }
+      ],
+      "Norra Nästjärnen": [
+        {
+          "fvo_id": 908,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -115959,6 +116112,21 @@
             "Bäcknejonöga",
             "Stensimpa",
             "Öring"
+          ]
+        }
+      ],
+      "Rödlöga": [
+        {
+          "fvo_id": 751,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Havsöring",
+            "Makrill",
+            "Skrubbskädda"
           ]
         }
       ],
@@ -137333,6 +137501,18 @@
           ]
         }
       ],
+      "Södra Nästjärnen": [
+        {
+          "fvo_id": 908,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Södra Oxsandsbäcken": [
         {
           "fvo_id": 25,
@@ -138515,6 +138695,21 @@
             "Gädda",
             "Gärs",
             "Nejonöga"
+          ]
+        }
+      ],
+      "Taksjön": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -141723,6 +141918,21 @@
             "Gädda",
             "Lake",
             "Signalkräfta"
+          ]
+        }
+      ],
+      "Totjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -154242,6 +154452,17 @@
           ]
         }
       ],
+      "Yxlan": [
+        {
+          "fvo_id": 788,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Strömming"
+          ]
+        }
+      ],
       "Yxlaområdet": [
         {
           "fvo_id": 763,
@@ -154649,6 +154870,21 @@
           "eu_cd": "NW723231-171275",
           "arter": [
             "Öring"
+          ]
+        }
+      ],
+      "Älgtjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -159993,6 +160229,21 @@
             "Sik",
             "Siklöja",
             "Simpa"
+          ]
+        }
+      ],
+      "Örkyttjärnet": [
+        {
+          "fvo_id": 941,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -208950,14 +209201,30 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Grönskärs%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
       ],
       "arter": [
+        "Näbbgädda",
         "Småspigg",
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Grönskär",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Näbbgädda"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1904,
@@ -221709,16 +221976,47 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Horstens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm",
+        "stockholms_lans_fiskeguide_2017"
       ],
       "arter": [
         "Abborre",
         "Elritsa",
+        "Näbbgädda",
+        "Torsk",
         "Ål",
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Horsten",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Näbbgädda"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Horstensfjärden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Torsk"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2017"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 401,
@@ -294609,7 +294907,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Nästjärnens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
       "arter": [
         "Abborre",
@@ -294623,7 +294922,36 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Södra Nästjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Norra Nästjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1175,
@@ -310853,15 +311181,38 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Rödläga%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "svalla.se_turism_stockholms_lans_fiskeguide_2023"
       ],
       "arter": [
         "Abborre",
         "Elritsa",
+        "Gädda",
+        "Havsöring",
+        "Makrill",
+        "Skrubbskädda",
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Rödlöga",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Havsöring",
+            "Makrill",
+            "Skrubbskädda"
+          ],
+          "kallor": [
+            "svalla.se_turism_stockholms_lans_fiskeguide_2023"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1947,
@@ -327050,7 +327401,8 @@
       "url_fvof": null,
       "kallor": [
         "gbif",
-        "extern_fvof"
+        "extern_fvof",
+        "ifiske_prosa"
       ],
       "arter": [
         "Abborre",
@@ -327062,7 +327414,178 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nordsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Taksjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kalvtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Deltjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Mörttjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Örkyttjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Klättjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Älgtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Totjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Älgtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2153,
@@ -369457,7 +369980,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Yxlö-Kolsviks%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
       ],
       "arter": [
         "Abborre",
@@ -369469,10 +369993,25 @@
         "Småspigg",
         "Stensimpa",
         "Storspigg",
+        "Strömming",
         "Sutare"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Yxlan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Strömming"
+          ],
+          "kallor": [
+            "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1437,

@@ -3565,34 +3565,235 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Torsbo-Rotenäs fvof",
       "lan": "Västra Götaland",
       "vatten": "Lillesjön",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Torsbo-Rotenäs fvof",
       "lan": "Västra Götaland",
       "vatten": "Rotenässjön",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Torsbo-Rotenäs fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Hålsjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Roasjön-Ramsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Roasjön",
+      "source": "sportfiskeguide",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Roasjön-Ramsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Ramsjön",
+      "source": "sportfiskeguide",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Roasjön-Ramsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lilla Häggån",
+      "source": "sportfiskeguide",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Skäremosjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Skäremosjön",
+      "source": "sportfiskeguide",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Stenträsket",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Byssträsket",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Kalven",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Holmträsket",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Lappträsket",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Vittanträsket",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Gäddbäcken",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Byssjan",
+      "source": "visitlycksele",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Gulten-Hanesjöns fvof",
+      "lan": "Östergötland",
+      "vatten": "Gulten",
+      "source": "eurotourism.com_finspang_turistguide_kommun",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Gulten-Hanesjöns fvof",
+      "lan": "Östergötland",
+      "vatten": "Hanesjön",
+      "source": "eurotourism.com_finspang_turistguide_kommun",
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Torsbo-Rotenäs fvof",
-      "lan": "Västra Götaland",
-      "vatten": "Hålsjön",
+      "fvo": "Grönskärs fvof",
+      "lan": "Stockholm",
+      "vatten": "Grönskär",
+      "source": "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm",
+      "tillagda_vattenarter": [
+        "Näbbgädda"
+      ],
+      "tillagda_fvoarter": [
+        "Näbbgädda"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Horstens fvof",
+      "lan": "Stockholm",
+      "vatten": "Horsten",
+      "source": "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm",
+      "tillagda_vattenarter": [
+        "Näbbgädda"
+      ],
+      "tillagda_fvoarter": [
+        "Näbbgädda"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Horstens fvof",
+      "lan": "Stockholm",
+      "vatten": "Horstensfjärden",
+      "source": "stockholms_lans_fiskeguide_2017",
+      "tillagda_vattenarter": [
+        "Torsk"
+      ],
+      "tillagda_fvoarter": [
+        "Torsk"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Rödläga fvof",
+      "lan": "Stockholm",
+      "vatten": "Rödlöga",
+      "source": "svalla.se_turism_stockholms_lans_fiskeguide_2023",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Havsöring",
+        "Makrill",
+        "Skrubbskädda"
+      ],
+      "tillagda_fvoarter": [
+        "Gädda",
+        "Havsöring",
+        "Makrill",
+        "Skrubbskädda"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Yxlö-Kolsviks fvof",
+      "lan": "Stockholm",
+      "vatten": "Yxlan",
+      "source": "stockholms_lans_fiskeguide_2023_lansstyrelsen_stockholm",
+      "tillagda_vattenarter": [
+        "Strömming"
+      ],
+      "tillagda_fvoarter": [
+        "Strömming"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Nästjärnens fvof",
+      "lan": "Värmland",
+      "vatten": "Södra Nästjärnen",
       "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
@@ -3602,189 +3803,10 @@
     },
     {
       "action": "create",
-      "fvo": "Roasjön-Ramsjöns fvof",
-      "lan": "Västra Götaland",
-      "vatten": "Roasjön",
-      "source": "sportfiskeguide",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Mört",
-        "Sutare",
-        "Ål"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Roasjön-Ramsjöns fvof",
-      "lan": "Västra Götaland",
-      "vatten": "Ramsjön",
-      "source": "sportfiskeguide",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Mört",
-        "Sutare",
-        "Ål"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Roasjön-Ramsjöns fvof",
-      "lan": "Västra Götaland",
-      "vatten": "Lilla Häggån",
-      "source": "sportfiskeguide",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Mört",
-        "Sutare",
-        "Ål"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Skäremosjöns fvof",
-      "lan": "Västra Götaland",
-      "vatten": "Skäremosjön",
-      "source": "sportfiskeguide",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört",
-        "Sutare"
-      ],
-      "tillagda_fvoarter": [
-        "Mört",
-        "Sutare"
-      ]
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Stenträsket",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": [
-        "Siklöja"
-      ]
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Byssträsket",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Kalven",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Holmträsket",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Lappträsket",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Vittanträsket",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Gäddbäcken",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Byssträsk-Nylidens fvof",
-      "lan": "Västerbotten",
-      "vatten": "Byssjan",
-      "source": "visitlycksele",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Gulten-Hanesjöns fvof",
-      "lan": "Östergötland",
-      "vatten": "Gulten",
-      "source": "eurotourism.com_finspang_turistguide_kommun",
+      "fvo": "Nästjärnens fvof",
+      "lan": "Värmland",
+      "vatten": "Norra Nästjärnen",
+      "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
         "Gädda"
@@ -3793,13 +3815,151 @@
     },
     {
       "action": "create",
-      "fvo": "Gulten-Hanesjöns fvof",
-      "lan": "Östergötland",
-      "vatten": "Hanesjön",
-      "source": "eurotourism.com_finspang_turistguide_kommun",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Nordsjön",
+      "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
-        "Gädda"
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Taksjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Kalvtjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Deltjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Mörttjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Örkyttjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Klättjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Älgtjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Totjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "vatten": "Lilla Älgtjärnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Mört"
       ],
       "tillagda_fvoarter": []
     },
@@ -4123,24 +4283,24 @@
   "stats": {
     "created_vatten": 17,
     "merged_vatten": 0,
-    "touched_vatten": 431,
-    "applied_rows": 448,
+    "touched_vatten": 448,
+    "applied_rows": 465,
     "unmatched": [],
     "before": {
-      "antal_fvo": 1907,
-      "har_nagon_art": 1874,
-      "saknar_arter": 33,
-      "har_vattenposter": 1761,
-      "med_arter_men_0_vatten": 113,
-      "total_vatten": 9763
-    },
-    "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
       "har_vattenposter": 1766,
       "med_arter_men_0_vatten": 108,
       "total_vatten": 9780
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1772,
+      "med_arter_men_0_vatten": 102,
+      "total_vatten": 9797
     },
     "blocked_sources": [
       "natureit",
