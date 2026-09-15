@@ -173,10 +173,17 @@ def upsert_vatten(
 
 def persist_raw_copies() -> None:
     RAW.mkdir(parents=True, exist_ok=True)
-    for name in ("vatten_fill_round.json", "vatten_fill_round2.json"):
+    for name in (
+        "vatten_fill_round.json",
+        "vatten_fill_round2.json",
+        "vatten_fill_round3.json",
+        "vatten_fill_round4.json",
+        "vatten_fill_round5.json",
+    ):
         src = Path("/opt/cursor/artifacts") / name
-        if src.exists():
-            (RAW / name).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+        dst = RAW / name
+        if src.exists() and not dst.exists():
+            dst.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
 
 
 def load_enrichments() -> list[dict]:
@@ -186,10 +193,13 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round3.json",
         RAW / "vatten_fill_round3_partial.json",
         RAW / "vatten_fill_round4.json",
+        RAW / "vatten_fill_round5.json",
+        RAW / "vatten_fill_round5_abborresjon.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round4_merged.json"),
+        Path("/opt/cursor/artifacts/vatten_fill_round5.json"),
     ]
     blocks: list[dict] = []
     loaded: set[str] = set()
