@@ -74,6 +74,9 @@ def normalize_source(raw: str) -> str:
         ("laxrapporten", "laxrapporten"),
         ("norsjosfk", "norsjosfk"),
         ("lycksele", "lycksele_kommun"),
+        ("kindaturism", "kindaturism"),
+        ("visitlulea", "visitlulea"),
+        ("backe", "backe.nu"),
     ]
     for needle, canon in mapping:
         if needle in s:
@@ -237,6 +240,7 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round7_norr.json",
         RAW / "vatten_fill_round7_ostsyd.json",
         RAW / "vatten_fill_round8.json",
+        RAW / "vatten_fill_round9_csv_gaps.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),

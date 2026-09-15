@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:53:12.464491+00:00",
+    "generated_at": "2026-09-15T18:05:13.592452+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1744
+      "har_vattenposter": 1747
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 7,
+      "created_vatten": 0,
       "merged_vatten": 0,
-      "touched_vatten": 385,
-      "applied_rows": 392,
+      "touched_vatten": 401,
+      "applied_rows": 401,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1738,
-        "med_arter_men_0_vatten": 136,
-        "total_vatten": 9717
+        "har_vattenposter": 1747,
+        "med_arter_men_0_vatten": 127,
+        "total_vatten": 9733
       },
       "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1744,
-        "med_arter_men_0_vatten": 130,
-        "total_vatten": 9724
+        "har_vattenposter": 1747,
+        "med_arter_men_0_vatten": 127,
+        "total_vatten": 9733
       },
       "blocked_sources": [
         "natureit",
@@ -54732,9 +54732,28 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "backe.nu"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stortjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "backe.nu"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://backe.nu/sv/article/oringfiske-i-stortjarn"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 16,
         "antal_vatten_med_survey": 0,
@@ -54778,7 +54797,10 @@
           "Stäm",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "http://backe.nu/sv/article/oringfiske-i-stortjarn"
+      ]
     },
     {
       "original_id": 921,
@@ -88817,15 +88839,146 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "kindaturism"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Hemsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kuttgölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Bjärken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Överskjulen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Nerskjulen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Klevsgölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Klevsgölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.kindaturism.se/kindaturism/visitallaobjekt/hemsjonochandrasjoarsfiskevardsomrade.5.64f7f0551764bcaa0af83a9.html"
+      ]
     },
     {
       "original_id": 798,
@@ -157232,6 +157385,7 @@
         "Flodnejonöga",
         "Gädda",
         "Gärs",
+        "Havsöring",
         "Id",
         "Lake",
         "Lax",
@@ -157249,11 +157403,31 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "visitlulea"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Luleälven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Havsöring",
+            "Lax"
+          ],
+          "kallor": [
+            "visitlulea"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://visitlulea.se/se-gora/se-gora-artiklar/fiska-i-lulea/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 22,
+        "antal_arter": 23,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -157324,6 +157498,17 @@
         ],
         "url": "https://www.ifiske.se/fiske-lulea-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "lokala_tipslankar": [
+        "https://visitlulea.se/se-gora/se-gora-artiklar/fiska-i-lulea/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Havsöring"
+        ],
+        "kallor_url:er": [
+          "https://visitlulea.se/se-gora/se-gora-artiklar/fiska-i-lulea/"
+        ]
       }
     },
     {

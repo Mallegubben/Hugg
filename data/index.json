@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T17:53:12.762619+00:00",
+  "generated_at": "2026-09-15T18:05:13.850513+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
-  "antal_vatten": 6061,
+  "antal_vatten": 6068,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -357,8 +357,8 @@
       "med_artlista": 157,
       "utan_artlista": 0,
       "tackning_pct": 100.0,
-      "fvo_med_vattenposter": 153,
-      "antal_vattenposter": 1128,
+      "fvo_med_vattenposter": 154,
+      "antal_vattenposter": 1129,
       "fvo_ids": [
         1488,
         1489,
@@ -979,8 +979,8 @@
       "med_artlista": 42,
       "utan_artlista": 3,
       "tackning_pct": 93.3,
-      "fvo_med_vattenposter": 36,
-      "antal_vattenposter": 169,
+      "fvo_med_vattenposter": 37,
+      "antal_vattenposter": 170,
       "fvo_ids": [
         630,
         631,
@@ -2158,8 +2158,8 @@
       "med_artlista": 83,
       "utan_artlista": 4,
       "tackning_pct": 95.4,
-      "fvo_med_vattenposter": 70,
-      "antal_vattenposter": 145,
+      "fvo_med_vattenposter": 71,
+      "antal_vattenposter": 152,
       "fvo_ids": [
         1401,
         1402,
@@ -16835,6 +16835,7 @@
         645,
         649,
         650,
+        652,
         658,
         805,
         818,
@@ -36312,6 +36313,18 @@
             "Gädda",
             "Gärs",
             "Lake"
+          ]
+        }
+      ],
+      "Bjärken": [
+        {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -67100,6 +67113,16 @@
           ]
         },
         {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        },
+        {
           "fvo_id": 1445,
           "typ": "sjö",
           "smhi_id": null,
@@ -81425,6 +81448,18 @@
           ]
         }
       ],
+      "Kuttgölen": [
+        {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Kvarnaboån": [
         {
           "fvo_id": 1959,
@@ -88007,6 +88042,18 @@
           ]
         }
       ],
+      "Lilla Klevsgölen": [
+        {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Lilla Knärån": [
         {
           "fvo_id": 1754,
@@ -92872,6 +92919,18 @@
           "arter": [
             "Abborre",
             "Gädda"
+          ]
+        }
+      ],
+      "Luleälven": [
+        {
+          "fvo_id": 652,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Havsöring",
+            "Lax"
           ]
         }
       ],
@@ -103375,6 +103434,18 @@
             "Abborre",
             "Gädda",
             "Sik"
+          ]
+        }
+      ],
+      "Nerskjulen": [
+        {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -127245,6 +127316,18 @@
           ]
         }
       ],
+      "Stora Klevsgölen": [
+        {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Stora Knärån": [
         {
           "fvo_id": 1754,
@@ -129741,6 +129824,15 @@
           "arter": [
             "Abborre",
             "Gädda"
+          ]
+        },
+        {
+          "fvo_id": 1657,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
           ]
         },
         {
@@ -161221,6 +161313,18 @@
           "eu_cd": "SE684678-137773",
           "arter": [
             "Abborre"
+          ]
+        }
+      ],
+      "Överskjulen": [
+        {
+          "fvo_id": 1402,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -195329,7 +195433,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Fjällsjö%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "backe.nu"
       ],
       "arter": [
         "Abborre",
@@ -195350,7 +195455,21 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stortjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "backe.nu"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 921,
@@ -215681,7 +215800,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Hemsjöns%20m%20fl%20sjöars%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "kindaturism"
       ],
       "arter": [
         "Abborre",
@@ -215697,7 +215817,106 @@
         "Sarv",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Hemsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kuttgölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Bjärken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Överskjulen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Nerskjulen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Klevsgölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Klevsgölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 798,
@@ -257772,7 +257991,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Luleå%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "visitlulea"
       ],
       "arter": [
         "Abborre",
@@ -257782,6 +258002,7 @@
         "Flodnejonöga",
         "Gädda",
         "Gärs",
+        "Havsöring",
         "Id",
         "Lake",
         "Lax",
@@ -257799,7 +258020,22 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Luleälven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Havsöring",
+            "Lax"
+          ],
+          "kallor": [
+            "visitlulea"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1761,
