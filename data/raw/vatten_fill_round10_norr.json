@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-09-15T18:20:00Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from municipal/FVOF/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske icons. Multi-lake only per named water or explicit shared roster for named lakes. No fuzzy cross-county. Långvattnets twin: remaining object_id 1644 (ORIGINALID 1217) ≠ Örnsköldsvik/vattenagarna o=545 (object_id 1619) already filled in round7."
+  },
+  "stats": {
+    "fvo_with_enrichments": 5,
+    "total_vatten_rows": 16,
+    "searched_but_empty": 12,
+    "by_lan": {
+      "Västernorrland": 5
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Käls fvof",
+      "lan": "Västernorrland",
+      "object_id": 1599,
+      "vatten": [
+        {
+          "namn": "Gulavattnet",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "naturguiden.ornskoldsvik.se",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/kalsfvo.4.7e6e27ac17a56e44c49470a.html",
+          "evidence": "Fiskevatten — Gulavattnet, Mörttjärn, Yttre Mörttjärn, Abborrtjärn: gädda, abborre."
+        },
+        {
+          "namn": "Mörttjärn",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "naturguiden.ornskoldsvik.se (+ iFiske PDF Käls: Stor-Mörttjärn)",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/kalsfvo.4.7e6e27ac17a56e44c49470a.html",
+          "evidence": "Fiskevatten — Gulavattnet, Mörttjärn, Yttre Mörttjärn, Abborrtjärn: gädda, abborre. (PDF: Gulavattnet, Stor-Mörttjärn, Yttre-Mörttjärn … Gädda, Abborre.)"
+        },
+        {
+          "namn": "Yttre Mörttjärn",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "naturguiden.ornskoldsvik.se",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/kalsfvo.4.7e6e27ac17a56e44c49470a.html",
+          "evidence": "Fiskevatten — Gulavattnet, Mörttjärn, Yttre Mörttjärn, Abborrtjärn: gädda, abborre."
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": ["Abborre", "Gädda", "Regnbåge"],
+          "kalla": "naturguiden.ornskoldsvik.se + iFiske PDF Käls (Kal.pdf)",
+          "url": "https://www.ifiske.se/pdf/445/Kal.pdf",
+          "evidence": "Naturguiden: Gulavattnet, Mörttjärn, Yttre Mörttjärn, Abborrtjärn: gädda, abborre. PDF Fiskevatten: Abborrtjärn … Gädda, Abborre, Regnbågsutsättning."
+        },
+        {
+          "namn": "Linsänketjärn",
+          "arter": ["Abborre", "Regnbåge"],
+          "kalla": "naturguiden.ornskoldsvik.se + iFiske PDF Käls (Kal.pdf)",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/kalsfvo.4.7e6e27ac17a56e44c49470a.html",
+          "evidence": "Linsänketjärn: abborre, regnbågsutsättning. (PDF: Linsänketjärn … Abborre, Regnbågsutsättning.)"
+        }
+      ]
+    },
+    {
+      "namn": "Lövsjösjöns fvof",
+      "lan": "Västernorrland",
+      "object_id": 1590,
+      "vatten": [
+        {
+          "namn": "Lövsjösjön",
+          "arter": ["Abborre", "Gädda", "Mört"],
+          "kalla": "naturguiden.ornskoldsvik.se",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/lovsjosjonsfvo.4.7e6e27ac17a56e44c494412.html",
+          "evidence": "Lövsjösjön (fritt fiske): gädda, abborre, mört."
+        },
+        {
+          "namn": "Ängestjärn",
+          "arter": ["Abborre", "Gädda", "Regnbåge", "Öring"],
+          "kalla": "naturguiden.ornskoldsvik.se",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/lovsjosjonsfvo.4.7e6e27ac17a56e44c494412.html",
+          "evidence": "Ängestjärn: regnbågs- och öringutsättning, abborre, gädda."
+        }
+      ]
+    },
+    {
+      "namn": "Stybbersmarkssjöns fvof",
+      "lan": "Västernorrland",
+      "object_id": 1561,
+      "vatten": [
+        {
+          "namn": "Stybbersmarkssjön",
+          "arter": ["Abborre", "Gädda", "Mört", "Siklöja"],
+          "kalla": "naturguiden.ornskoldsvik.se",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/stybbersmarkssjonsfvo.4.7e6e27ac17a56e44c494377.html",
+          "evidence": "Stybbersmarkssjön: gädda, abborre, siklöja, mört."
+        },
+        {
+          "namn": "Fäbodtjären",
+          "arter": ["Abborre"],
+          "kalla": "naturguiden.ornskoldsvik.se",
+          "url": "https://naturguiden.ornskoldsvik.se/aktivitetssidor/stybbersmarkssjonsfvo.4.7e6e27ac17a56e44c494377.html",
+          "evidence": "Fäbodtjären: abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Ånge fvof",
+      "lan": "Västernorrland",
+      "object_id": 1837,
+      "vatten": [
+        {
+          "namn": "Rången",
+          "arter": ["Öring", "Röding"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Fiskarter — Öring Vanlig Rången, Kniptjärn, Djuptjärn, Abborrtjärn; Röding Vanlig Rången, Kniptjärn, Djuptjärn. (Ånge FVO omfattar … Rången …)"
+        },
+        {
+          "namn": "Kniptjärn",
+          "arter": ["Öring", "Röding"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Öring Vanlig Rången, Kniptjärn, Djuptjärn, Abborrtjärn; Röding Vanlig Rången, Kniptjärn, Djuptjärn."
+        },
+        {
+          "namn": "Djuptjärn",
+          "arter": ["Abborre", "Öring", "Röding"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Öring Vanlig Rången, Kniptjärn, Djuptjärn, Abborrtjärn; Röding Vanlig Rången, Kniptjärn, Djuptjärn; Abborre Normalt Djuptjärn."
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": ["Öring"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Öring Vanlig Rången, Kniptjärn, Djuptjärn, Abborrtjärn. (Röding ej listad för Abborrtjärn i artsektionen — ej tilldelad.)"
+        },
+        {
+          "namn": "Vattensjön",
+          "arter": ["Gädda"],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Gädda Lite Vattensjön. (Området rotenonbehandlades … gädda och sik togs bort …; kvarvarande gädda anges specifikt för Vattensjön.)"
+        }
+      ]
+    },
+    {
+      "namn": "Ranasjöns fvof",
+      "lan": "Västernorrland",
+      "object_id": 1600,
+      "vatten": [
+        {
+          "namn": "Ranasjön",
+          "arter": ["Öring", "Röding"],
+          "kalla": "solleftea.se (kommun tourism)",
+          "url": "https://www.solleftea.se/Go-Solleftea/besok-oss/fiskeaventyr/typer-av-fiske",
+          "evidence": "Några av områdets bättre öringsvatten: … Ranasjön … Här kan ni fiska Röding: … Ranasjön … (Gädda nämns ej namngivet för Ranasjön — ej tilldelad.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "object_id": 1644,
+      "notes": "Twin caution: object_id 1644 = ORIGINALID 1217 (Sollefteå/Örnsköldsvik, ingen vattenagarna-URL). Den andra Y-tvillingen object_id 1619 / vattenagarna o=545 redan fylld i round7 (Salomonstjärn m.fl.). Sollefteå.se listar 'Långvattnets FVO'/'Långvattnet FVO' under öring/röding på FVO-nivå utan namngivna sjöar — rejected (twin + ej 1:1 vatten). Ingen separat per-vatten prosa för 1644."
+    },
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "object_id": 1617,
+      "notes": "Nordanede FVOF säte Edsele/Sollefteå (org 888800-5876) ≠ Nedre Gimåns FVO i Ånge/Torpshammar (Mellansjön, Abborrsjön, Fårtjärn m.fl.) — ej överföra Nedre Gimån-artprosa. Ingen Sollefteå/Edsele water×species-prosa hittad."
+    },
+    {
+      "namn": "Stortannsjöns fvof",
+      "lan": "Västernorrland",
+      "object_id": 1621,
+      "notes": "iFiske 404; Naturguiden Örnsköldsvik utan sida; Sollefteå kommunfiske utan namngivet Stortannsjön×species; vattenagarna tom."
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "object_id": 1631,
+      "notes": "Timrå/Sundsvall (Indal). Timrå.se utan artlista; sportfiskeguide Indalsälven ej knuten 1:1 till Östanskärs FVOF; iFiske 404."
+    },
+    {
+      "namn": "Holmträsk fvof",
+      "lan": "Norrbotten",
+      "object_id": 221,
+      "notes": "Jokkmokk. Ej samma som Kalix Holmträsk eller Holmträsk-Storsjö (Åsele/Storuman). Jokkmokk tourism/ArcGIS utan water×species; iFiske 404; Wikipedia sjöbeskrivning utan arter."
+    },
+    {
+      "namn": "Mellanströms fvof",
+      "lan": "Norrbotten",
+      "object_id": 246,
+      "notes": "mellanstrom.se / iFiske prosa 'abborre, gädda, harr, sik och öring' fortfarande på FVO-nivå utan namngivna vatten — known reject held. Båtsabäcken nämns endast som fridlyst, utan arter."
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "object_id": 234,
+      "notes": "Pajala/Suaninkijärvi. Wikipedia nämner FVO men ingen artprosa; ingen tourism/FVOF water×species."
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "object_id": 225,
+      "notes": "Luleå/Boden. sportfiskeguide Luleälven generellt (Boden–Luleå) utan 1:1 till Sävastån/Råbäcken/Unbyn; Boden tourism utan roster."
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "object_id": 245,
+      "notes": "Älvsbyn. PT-artikel om Djupträsket (Älvsby sportfiskeklubb) ≠ Vistträsk FVO; ingen Nörd-/Sör-Vistträsket×species-prosa."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "notes": "Filipstad turistfiskekort listar 46 sjöar + ikonarter på kortnivå (ej tillåtet) — Skåltjärn ej namngiven med egen artprosa; vattenagarna o=710 tom."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "notes": "Visit Värmland/Grums nämner Portilasjön bland sjöar utan arter; Wikipedia utan arter."
+    },
+    {
+      "namn": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1327,
+      "notes": "Hagfors/Ekshärad. Hagfors fiskevårdskrets har generella arter; Sönner/Mellantjärn ej i medlemslistan med egen prose; ingen 1:1."
+    }
+  ]
+}
