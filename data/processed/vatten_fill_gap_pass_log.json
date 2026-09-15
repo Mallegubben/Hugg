@@ -3214,6 +3214,118 @@
       "tillagda_fvoarter": []
     },
     {
+      "action": "create",
+      "fvo": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stora Hässleholmssjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Regnbåge",
+        "Sutare",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Lilla Hässleholmssjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Regnbåge",
+        "Sutare",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Hultasjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Regnbåge",
+        "Sutare",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Kolbränningen",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Sutare",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Södra Kypesjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Mört",
+        "Regnbåge",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Ramnasjön",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Sutare",
+        "Ål"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Viskan vid Osdal fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Viskan",
+      "source": "boras.se",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Gärs",
+        "Lake",
+        "Mört",
+        "Sarv",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
       "action": "touch",
       "fvo": "Hemsjöns m fl sjöars fvof",
       "lan": "Östergötland",
@@ -3292,9 +3404,7 @@
       "vatten": "Luleälven",
       "source": "visitlulea",
       "tillagda_vattenarter": [],
-      "tillagda_fvoarter": [
-        "Havsöring"
-      ]
+      "tillagda_fvoarter": []
     },
     {
       "action": "touch",
@@ -3614,10 +3724,10 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 0,
+    "created_vatten": 7,
     "merged_vatten": 0,
     "touched_vatten": 401,
-    "applied_rows": 401,
+    "applied_rows": 408,
     "unmatched": [],
     "before": {
       "antal_fvo": 1907,
@@ -3631,9 +3741,9 @@
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1747,
-      "med_arter_men_0_vatten": 127,
-      "total_vatten": 9733
+      "har_vattenposter": 1749,
+      "med_arter_men_0_vatten": 125,
+      "total_vatten": 9740
     },
     "blocked_sources": [
       "natureit",

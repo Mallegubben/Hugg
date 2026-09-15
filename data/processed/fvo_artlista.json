@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T18:05:13.592452+00:00",
+    "generated_at": "2026-09-15T18:14:37.918604+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1747
+      "har_vattenposter": 1749
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -402,10 +402,10 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 0,
+      "created_vatten": 7,
       "merged_vatten": 0,
       "touched_vatten": 401,
-      "applied_rows": 401,
+      "applied_rows": 408,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
@@ -419,9 +419,9 @@
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1747,
-        "med_arter_men_0_vatten": 127,
-        "total_vatten": 9733
+        "har_vattenposter": 1749,
+        "med_arter_men_0_vatten": 125,
+        "total_vatten": 9740
       },
       "blocked_sources": [
         "natureit",
@@ -30623,9 +30623,139 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "boras.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Hässleholmssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Hässleholmssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hultasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kolbränningen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Södra Kypesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Regnbåge",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ramnasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -30646,7 +30776,10 @@
           "Bäckröding",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf"
+      ]
     },
     {
       "original_id": 2192,
@@ -324640,15 +324773,46 @@
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "boras.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Viskan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/984/Kommunfiskekortet_Folder_2023-WEBB.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 10,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/pdf/984/Kommunfiskekortet_Folder_2023-WEBB.pdf"
+      ]
     },
     {
       "original_id": 1845,

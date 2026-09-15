@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T18:05:13.850513+00:00",
+  "generated_at": "2026-09-15T18:14:38.259651+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
-  "antal_vatten": 6068,
+  "antal_vatten": 6073,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -1770,8 +1770,8 @@
       "med_artlista": 319,
       "utan_artlista": 7,
       "tackning_pct": 97.9,
-      "fvo_med_vattenposter": 290,
-      "antal_vattenposter": 966,
+      "fvo_med_vattenposter": 292,
+      "antal_vattenposter": 973,
       "fvo_ids": [
         1824,
         1825,
@@ -69738,6 +69738,20 @@
             "Mört",
             "Sutare"
           ]
+        },
+        {
+          "fvo_id": 2041,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ]
         }
       ],
       "Hultbren": [
@@ -79364,6 +79378,21 @@
           ]
         }
       ],
+      "Kolbränningen": [
+        {
+          "fvo_id": 2041,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ]
+        }
+      ],
       "Kolbäcken": [
         {
           "fvo_id": 1097,
@@ -87995,6 +88024,22 @@
             "Gädda",
             "Mört",
             "Nors"
+          ]
+        }
+      ],
+      "Lilla Hässleholmssjön": [
+        {
+          "fvo_id": 2041,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -110725,6 +110770,21 @@
           ]
         }
       ],
+      "Ramnasjön": [
+        {
+          "fvo_id": 2041,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ]
+        }
+      ],
       "Ramserödsbäcken": [
         {
           "fvo_id": 2101,
@@ -127207,6 +127267,22 @@
           ]
         }
       ],
+      "Stora Hässleholmssjön": [
+        {
+          "fvo_id": 2041,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ]
+        }
+      ],
       "Stora Hästefjorden": [
         {
           "fvo_id": 2161,
@@ -136734,6 +136810,20 @@
             "Sik",
             "Siklöja",
             "Sutare"
+          ]
+        }
+      ],
+      "Södra Kypesjön": [
+        {
+          "fvo_id": 2041,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Regnbåge",
+            "Ål"
           ]
         }
       ],
@@ -148995,6 +149085,24 @@
             "Gädda",
             "Lake",
             "Mört",
+            "Ål",
+            "Öring"
+          ]
+        },
+        {
+          "fvo_id": 1879,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
             "Ål",
             "Öring"
           ]
@@ -180460,7 +180568,8 @@
       "url_fvof": "www.boras.se",
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "boras.se"
       ],
       "arter": [
         "Abborre",
@@ -180480,7 +180589,112 @@
         "Sutare",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Hässleholmssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Hässleholmssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hultasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kolbränningen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Södra Kypesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Regnbåge",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ramnasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2192,
@@ -359877,7 +360091,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Viskan%20vid%20Osdal%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "boras.se"
       ],
       "arter": [
         "Abborre",
@@ -359903,7 +360118,30 @@
         "Ål",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Viskan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "boras.se"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1845,
