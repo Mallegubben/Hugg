@@ -1,0 +1,266 @@
+{
+  "generated_at": "2026-09-15T17:45:00+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only explicit 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna prose, or iFiske prose that names species for a named water. No iFiske icons. No NK/Hitta Fiske tags-only. Multi-lake only when source assigns species per named water or clearly to all named lakes. Södra Värmeln: Värmeln only from shared rules PDF — Rommen not assigned."
+  },
+  "stats": {
+    "fvo_with_enrichments": 15,
+    "total_vatten_rows": 19,
+    "by_lan": {
+      "Östergötland": 5,
+      "Värmland": 3,
+      "Kalmar": 1,
+      "Stockholm": 2,
+      "Blekinge": 1,
+      "Örebro": 1,
+      "Skåne": 1,
+      "Södermanland": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Bjäsäters fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Bjän",
+          "arter": ["Abborre", "Gädda", "Sutare"],
+          "kalla": "naturkartan.se (Linköping)",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/bjan",
+          "evidence": "Här kan du fiska efter bland annat gädda, abborre och sutare. Fisket i sjön upplåts av Bjäsäters fiskevårdsområdesförening."
+        }
+      ]
+    },
+    {
+      "namn": "Kilarpesjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Kilarpssjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vattenagarna.se / naturkartan.se",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=351",
+          "evidence": "Kilarpssjön är en fin liten sjö i mellanbygden söder om Mantorp. … Fiske efter gädda, abborre m. m. (Naturkartan samma prosa: Fiske efter gädda, abborre m.m.; Kilarpesjöns FVO förvaltar fisket i Kilarpssjön.)"
+        }
+      ]
+    },
+    {
+      "namn": "Hällerstad- o Venasjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Hällerstadsjön",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "vattenagarna.se",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381",
+          "evidence": "Hällerstadsjön och Venasjön är två näringsrika sjöar … Sjöarna har fina fiskebestånd av gädda och stor abborre. Inplantering av gös har skett vid tre tillfällen, där vi ser en fast etablering."
+        },
+        {
+          "namn": "Venasjön",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "vattenagarna.se",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381",
+          "evidence": "Samma VA-text för båda namngivna sjöarna: fina fiskebestånd av gädda och stor abborre; gös etablerad efter inplantering."
+        }
+      ]
+    },
+    {
+      "namn": "Sätrasjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Sätrasjön",
+          "arter": ["Abborre", "Gädda", "Gös", "Ål"],
+          "kalla": "sätrasjön.se (SFVO)",
+          "url": "https://www.xn--strasjn-5wa1o.se/fiskekort-och-villkor.html",
+          "evidence": "OBS! Ål är Fridlyst. Minimimått gäller för: Gädda 40 cm, Gös 50 cm … Övriga fiskarter t.ex, abborre omfattas inte av minimimått."
+        }
+      ]
+    },
+    {
+      "namn": "Blomsfors/Tyrisfors fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Stångån (Blomsfors–Tyrisfors)",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visit/blomsforstyrisforsfiskevardsomrade.5.722d04cf175c8613c9df03dd.html",
+          "evidence": "Sommarfiske, kraftverksreglerat vatten, i Stångån mellan kraftstationerna i Blomsfors och Tyrisfors. … Här kan ni fånga gädda, abborre och vitfisk."
+        }
+      ]
+    },
+    {
+      "namn": "Västansjö fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Västansjö",
+          "arter": ["Abborre", "Björkna", "Flodkräfta", "Gädda", "Mört", "Nors", "Sutare"],
+          "kalla": "ifiske (prosa)",
+          "url": "https://www.ifiske.se/fiske-vastansjo-fvof.htm",
+          "evidence": "Består endast av den ca 30 ha stora Västansjö. Förekommande fiskarter är gädda, abborre, mört, sutare, nors, björkna, flodkräfta."
+        }
+      ]
+    },
+    {
+      "namn": "Stora Emsens fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Stor-Emsen",
+          "arter": ["Gös"],
+          "kalla": "ifiske (prosa)",
+          "url": "https://www.ifiske.se/fiske-stor-emsen.htm",
+          "evidence": "Stor-Emsen … Det har gjorts stora satsningar på sjöns naturliga bestånd av gös. Framför allt genom inplantering men även genom utsättning av vasar. (Övriga arter endast iFiske-ikoner — ej använda.)"
+        }
+      ]
+    },
+    {
+      "namn": "Södra Värmelns fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Värmeln",
+          "arter": ["Gädda", "Gös", "Lax", "Öring"],
+          "kalla": "Södra/Norra Värmelns FVOF regler (iFiske PDF)",
+          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
+          "evidence": "REGLER FÖR FISKE I SJÖN VÄRMELN … fastställts … för Södra Värmelns FVOF … Öring och Lax 60 cm … Gös 45–75 cm … Gädda över 100 cm bör återsättas. (Rommen m.fl. nämns i regeltexten men tilldelas inte arter här.)"
+        }
+      ]
+    },
+    {
+      "namn": "Bysjön-Malmingens fvof",
+      "lan": "Kalmar",
+      "vatten": [
+        {
+          "namn": "Bysjön",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "ifiske (prosa) / vimmerby.com",
+          "url": "https://www.ifiske.se/fiske-bysjon-malmingen.htm",
+          "evidence": "Bysjön grund och grumlig sjö, Malmingen med djupt och klart vatten. Rikligt bestånd av abborre, gädda samt vitfisk. Gös har vid ett tillfälle planterats in i båda sjöarna. (Vimmerby: Här trivs både gädda, abborre och vitfisk.)"
+        },
+        {
+          "namn": "Malmingen",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "ifiske (prosa) / vimmerby.com",
+          "url": "https://www.ifiske.se/fiske-bysjon-malmingen.htm",
+          "evidence": "Samma prosa: abborre, gädda samt vitfisk; gös planterad i båda sjöarna."
+        }
+      ]
+    },
+    {
+      "namn": "Limmarens fvof",
+      "lan": "Stockholm",
+      "vatten": [
+        {
+          "namn": "Limmaren",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "norrtäljesportfiskare.se",
+          "url": "https://www.xn--norrtljesportfiskare-fzb.se/kopia-p%C3%A5-erken-2",
+          "evidence": "I Limmaren riktas fisket främst in på abborre, gädda och gös … (Limmarens fiskevårdsområdesförening förvaltar sjön Limmaren; klubbsidan beskriver Limmaren 1:1.)"
+        }
+      ]
+    },
+    {
+      "namn": "Gavel-Långsjöns fvof",
+      "lan": "Stockholm",
+      "vatten": [
+        {
+          "namn": "Gavellångsjön",
+          "arter": ["Gös"],
+          "kalla": "ifiske (prosa)",
+          "url": "https://www.ifiske.se/fiske-gavellangsjon.htm",
+          "evidence": "En källsjö … Innehåller de flesta insjöfiskar med inplanterad gös. (Endast gös explicit namngiven i prosa; ikonlista ej använd.)"
+        }
+      ]
+    },
+    {
+      "namn": "Orlundens fvof",
+      "lan": "Blekinge",
+      "vatten": [
+        {
+          "namn": "Orlunden",
+          "arter": ["Abborre", "Braxen", "Gädda", "Mört", "Sutare", "Ål"],
+          "kalla": "djupadal.se",
+          "url": "https://djupadal.se/fiske/",
+          "evidence": "Det går bra att fiska i sjön Orlunden … Med lite tur får man en fin 5-6 kg gädda eller en abborre på 1 kg. Tabell: Abborre, Braxen, Gädda, Mört, Sutare, Ål. Fiskekort köper man av oss."
+        }
+      ]
+    },
+    {
+      "namn": "Logsjön-Velandasjöns fvof",
+      "lan": "Örebro",
+      "vatten": [
+        {
+          "namn": "Logsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "lekeberg.se",
+          "url": "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html",
+          "evidence": "Logsjön och Velandasjön — Fiskarter: abborre och gädda."
+        },
+        {
+          "namn": "Velandasjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "lekeberg.se",
+          "url": "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html",
+          "evidence": "Samma kommuntext för Logsjön och Velandasjön: Fiskarter: abborre och gädda."
+        }
+      ]
+    },
+    {
+      "namn": "Skånes Fagerhults fvof",
+      "lan": "Skåne",
+      "vatten": [
+        {
+          "namn": "Fedingesjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Karp", "Mört", "Ål"],
+          "kalla": "orkelljunga.se",
+          "url": "https://www.orkelljunga.se/16/uppleva-och-gora/visit-orkelljunga/uppleva/fiska.html",
+          "evidence": "Fedinge- och Fagerhultasjön … Fiskarter som du kan fiska efter här är abborre, brax, gädda, karp (som alltid skall återutsättas), mört och ål. Ansvarig förening: Skånes Fagerhults Fiskevårdområde."
+        },
+        {
+          "namn": "Fagerhultasjön",
+          "arter": ["Abborre", "Braxen", "Gädda", "Karp", "Mört", "Ål"],
+          "kalla": "orkelljunga.se",
+          "url": "https://www.orkelljunga.se/16/uppleva-och-gora/visit-orkelljunga/uppleva/fiska.html",
+          "evidence": "Samma artlista för de två namngivna sjöarna under Skånes Fagerhults Fiskevårdområde."
+        }
+      ]
+    },
+    {
+      "namn": "Nedingens fvof",
+      "lan": "Södermanland",
+      "vatten": [
+        {
+          "namn": "Nedingen",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "ifiske (prosa)",
+          "url": "https://www.ifiske.se/fiske-nedingen.htm",
+          "evidence": "Tillgång på gös, gädda och abborre är god. Gös inplanteras vart 3:e år. … Nedingens FVOF."
+        }
+      ]
+    }
+  ],
+  "rejected_or_empty": [
+    "Södra Värmeln/Rommen: VA utan arter; iFiske endast ikoner. Regler-PDF ger minimått för Värmeln — Rommen tilldelas inte (policy).",
+    "Norra Båvens: Sparreholms FVf / Båven Norra ≠ Norra Båvens fvof (ej 1:1).",
+    "Hallången m.fl (Kalmar): Överlida FVO Hallången är VG — fuzzy cross-county, ej använt.",
+    "Gladhammars / Ålsjön: Västervik-guide via Gunnebo SFK, ej belagt 1:1 mot Gladhammars fvof.",
+    "Antvardens: Västervik-guide utan artlista; iFiske utan artprosa.",
+    "Åländerns: VA listar vatten utan arter.",
+    "Byngaren/Grytgöl/Gulten-Hanesjön/Hemsjöns m fl/Horsfjärden/Rippestorp/Tången/Värnasjön-Strålången/Värnässjön/Ödesjöboda/Österby: ingen water×species-prosa funnen.",
+    "Stockholm skärgård (Byholma, Grindsjön, Grönskär, Hjälmö, Horsten, Ramsmora, Refsnäs, Röder/Skarf, Rödläga, Sätta, Södemöja, Söderöra, Tomta, Västra Vätösund, Yxlö-Kolsvik): inga 1:1 artprosa-källor.",
+    "Värmland övriga (Bäverkärn, Lillemsen, Norra Barsjön, Nästjärnen, Portila, Skärgen, Skåltjärnshyttan, Stora/Lilla Högs, Syrsjön-Torptjärn, Sälsjön, Sönner/Mellantjärn, Torpsjön): VA/NK utan water×species; Emsen-Lillsjön ≠ Stora Emsen.",
+    "Kalmar övriga (Bällsjön, Elmaren, Hallången, Idö, Lilla Hammarsjön, Runnö, Råden, Sladö): ingen verifierad 1:1 prosa.",
+    "Jönköping (Bruzaån Mellersta, Bränneri, Norrahammar, Sjövikssjön, Vrangsjön, Älesjön): Hitta Fiske tags-only / saknad prosa; Älesjön 0 arter i index.",
+    "Södermanland (Henaren, Hålvetten/Näsnaren/Stensjön/Malmsjön, Norra Båven): ingen artprosa; Marsjön redan berikad.",
+    "Kronoberg (Huljesjön-Skålån, Kojtasjön-Mellansjön, Rinkaby, Tegnaby, Tävelsås): ingen prosa.",
+    "Nävdens (Avesta): kommunsida nämner FVO utan arter.",
+    "Hällsjöns redan berikad; Ljömsebo/Tappebo utan prosa.",
+    "Säm-Iglasjöns / Viskans nedre: VA kontakt-only; förväxla ej med Norra Sämsjön."
+  ]
+}
