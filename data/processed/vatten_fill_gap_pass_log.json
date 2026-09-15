@@ -3151,6 +3151,103 @@
       "tillagda_fvoarter": []
     },
     {
+      "action": "create",
+      "fvo": "St Gunnarsvattnets fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Stora Gunnarsvattnet",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sandsjön-Buasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Buasjön",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "tillagda_fvoarter": [
+        "Mört",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Oxalasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": "Oxalasjön",
+      "source": "vastsverige",
+      "tillagda_vattenarter": [
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Skärgens fvof",
+      "lan": "Värmland",
+      "vatten": "Skärgen",
+      "source": "visitvarmland",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sätra fvof",
+      "lan": "Västernorrland",
+      "vatten": "Sätratjärn",
+      "source": "dockstafiske.com",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sätra fvof",
+      "lan": "Västernorrland",
+      "vatten": "Edångerstjärn",
+      "source": "dockstafiske.com",
+      "tillagda_vattenarter": [
+        "Röding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Trångforsens fvof",
+      "lan": "Norrbotten",
+      "vatten": "Luleälven (Vittjärv)",
+      "source": "boden.se",
+      "tillagda_vattenarter": [
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
       "action": "touch",
       "fvo": "Ankedammens fvof",
       "lan": "Västra Götaland",
@@ -3468,10 +3565,10 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 0,
+    "created_vatten": 7,
     "merged_vatten": 0,
     "touched_vatten": 385,
-    "applied_rows": 385,
+    "applied_rows": 392,
     "unmatched": [],
     "before": {
       "antal_fvo": 1907,
@@ -3485,9 +3582,9 @@
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1738,
-      "med_arter_men_0_vatten": 136,
-      "total_vatten": 9717
+      "har_vattenposter": 1744,
+      "med_arter_men_0_vatten": 130,
+      "total_vatten": 9724
     },
     "blocked_sources": [
       "natureit",

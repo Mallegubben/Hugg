@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:48:56.546712+00:00",
+    "generated_at": "2026-09-15T17:53:12.464491+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1738
+      "har_vattenposter": 1744
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -402,10 +402,10 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 0,
+      "created_vatten": 7,
       "merged_vatten": 0,
       "touched_vatten": 385,
-      "applied_rows": 385,
+      "applied_rows": 392,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
@@ -419,9 +419,9 @@
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1738,
-        "med_arter_men_0_vatten": 136,
-        "total_vatten": 9717
+        "har_vattenposter": 1744,
+        "med_arter_men_0_vatten": 130,
+        "total_vatten": 9724
       },
       "blocked_sources": [
         "natureit",
@@ -224481,9 +224481,30 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Oxalasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/bollebygd/produkter/fiska/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -224509,7 +224530,10 @@
           "Ål",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/bollebygd/produkter/fiska/"
+      ]
     },
     {
       "original_id": 2137,
@@ -246071,14 +246095,44 @@
       },
       "arter": [
         "Abborre",
-        "Gädda"
+        "Gädda",
+        "Mört",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Buasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/bollebygd/produkter/fiska/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 2,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -246091,6 +246145,21 @@
         "tillagda_arter": [
           "Abborre",
           "Gädda"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/bollebygd/produkter/fiska/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Mört",
+          "Siklöja",
+          "Sutare",
+          "Ål",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.vastsverige.com/bollebygd/produkter/fiska/"
         ]
       }
     },
@@ -256744,9 +256813,31 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "visitvarmland"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Skärgen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "visitvarmland"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/skargens-fvof"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 14,
         "antal_vatten_med_survey": 0,
@@ -256807,6 +256898,9 @@
       },
       "ifiske_tipslankar": [
         "http://www.skärgen.se/"
+      ],
+      "lokala_tipslankar": [
+        "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/skargens-fvof"
       ]
     },
     {
@@ -262281,9 +262375,29 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Gunnarsvattnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/gotaalv/produkter/stora-gunnarsvattnet/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 6,
         "antal_vatten_med_survey": 0,
@@ -262307,7 +262421,10 @@
           "Signalkräfta",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/gotaalv/produkter/stora-gunnarsvattnet/"
+      ]
     },
     {
       "original_id": 2038,
@@ -287487,15 +287604,56 @@
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "dockstafiske.com"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sätratjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kallor": [
+            "dockstafiske.com"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.dockstafiske.com/fiskeomraden"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Edångerstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kallor": [
+            "dockstafiske.com"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.dockstafiske.com/fiskeomraden"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 2,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.dockstafiske.com/fiskeomraden"
+      ]
     },
     {
       "original_id": 1432,
@@ -305395,9 +305553,28 @@
         "Stäm"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "boden.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Luleälven (Vittjärv)",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "boden.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://boden.se/uppleva-och-gora/fritid-och-idrott/fiske"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 18,
         "antal_vatten_med_survey": 0,
@@ -305468,7 +305645,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-trangforsens.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://boden.se/uppleva-och-gora/fritid-och-idrott/fiske"
+      ]
     },
     {
       "original_id": 1699,

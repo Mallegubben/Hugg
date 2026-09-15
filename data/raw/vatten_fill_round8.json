@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-09-15T17:53:12.047764+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Hard-reviewed leftovers from parallel nationwide agents; only verified 1:1 water×species prose."
+  },
+  "enrichments": [
+    {
+      "namn": "St Gunnarsvattnets fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Gunnarsvattnet",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/gotaalv/produkter/stora-gunnarsvattnet/",
+          "evidence": "Fiske perfekt för nybörjaren. Här får man abborre och ibland gädda … Fiske efter främst abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Sandsjön-Buasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Buasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "vastsverige / bollebygd",
+          "url": "https://www.vastsverige.com/bollebygd/produkter/fiska/",
+          "evidence": "Buasjön Fiskarter: Abborre, Mört, Gädda, Siklöja, Sutare, Ål och Öring. (Sandsjön namnges ej med egen artlista — ej tilldelad.)"
+        }
+      ]
+    },
+    {
+      "namn": "Oxalasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Oxalasjön",
+          "arter": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige / bollebygd",
+          "url": "https://www.vastsverige.com/bollebygd/produkter/fiska/",
+          "evidence": "Oxalasjön Fiskarter: Regnbåge, Öring och Harr. Säljs inga fiskekort."
+        }
+      ]
+    },
+    {
+      "namn": "Skärgens fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Skärgen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "visitvarmland",
+          "url": "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/skargens-fvof",
+          "evidence": "Här kan du fiska efter bland annat abborre, mört och gädda. … Max 2 öringar per dygn … (Södra Långtjärn ingår i kortet men saknar egen artprosa — ej tilldelad.)"
+        }
+      ]
+    },
+    {
+      "namn": "Sätra fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Sätratjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dockstafiske.com / kramfors fiskefolder",
+          "url": "https://www.dockstafiske.com/fiskeomraden",
+          "evidence": "Sätra fiskevårdsområde består av 2 natursköna skogstjärnar … I sjöarna finns bara öring och röding. (Kramfors: enbart inplanterad öring och röding.)"
+        },
+        {
+          "namn": "Edångerstjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dockstafiske.com / kramfors fiskefolder",
+          "url": "https://www.dockstafiske.com/fiskeomraden",
+          "evidence": "Samma två skogstjärnar (Sätratjärn / Edångerstjärn): bara öring och röding."
+        }
+      ]
+    },
+    {
+      "namn": "Trångforsens fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Luleälven (Vittjärv)",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "boden.se",
+          "url": "https://boden.se/uppleva-och-gora/fritid-och-idrott/fiske",
+          "evidence": "Exempel på fiskevatten: Lule älv, Vittjärv – Bra gäddfiske nära stan. (Trångforsens FVOF omfattar Luleälven vid Vittjärv–Boden; övriga sträckor/arter ej tilldelade.)"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    "Ånge: FVO-nivå öring utan per-vatten — ej använt",
+    "Norra Båvens: Sparreholms FVf ≠ Norra Båvens fvof",
+    "Viskan vid Osdal: kommunfiskekort-källa ej verifierad live denna omgång",
+    "Boråssjöarna: artlista/ikon/centrumfiske utan säker 1:1 vattenkoppling",
+    "Södra Värmeln/Rommen: redan Värmeln-only i round7; multi-tjärn ej utökad"
+  ]
+}
