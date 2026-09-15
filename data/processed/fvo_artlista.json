@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T00:05:48.572466+00:00",
+    "generated_at": "2026-09-15T00:15:06.908193+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -172,6 +172,26 @@
         "ifiske_artdata"
       ],
       "note": "Tomma FVO utan egen hemsida (Hakkas, Bredträsket, Nurrholm, Södra Sandträsk, Kallön) saknar tillåtna publika artlistor; iFiske/NatureIT/Artportalen används inte."
+    },
+    "sarna_idre_pass": {
+      "fvo_tillagda": [],
+      "vatten_uppdaterade": 0,
+      "arter_i_forteckning": [
+        "Abborre",
+        "Bäckröding",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Siklöja",
+        "Öring"
+      ],
+      "kalla": "Särna-Idre FVOF fiskevattenförteckning (ej iFiske-ikoner; ej NatureIT/Artportalen)"
     }
   },
   "arter_katalog": [
@@ -271718,7 +271738,7 @@
       "kommuner": "Malung-Sälen, Älvdalen",
       "huvudavrinningsomrade": "53 (Dalälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Särna-Idre%20fvof&sp=false",
-      "url_fvof": null,
+      "url_fvof": "https://sarnaidrefvo.se/",
       "url_fiskekort": "www.ifiske.se/a/3436",
       "url_ifiske_for_externa_lankar": "https://www.ifiske.se/a/3436",
       "fiskekartan": {
@@ -271751,7 +271771,8 @@
       ],
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "sarna_idre_fiskevattenforteckning"
       ],
       "vatten": [
         {
@@ -273619,6 +273640,37 @@
           "Sutare",
           "Ål"
         ]
+      },
+      "lokala_tipslankar": [
+        "https://sarnaidrefvo.se/",
+        "https://www.ifiske.se/pdf/3378/sarnaidre_fiskevattenforteckning.pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [],
+        "kallor_url:er": [
+          "https://sarnaidrefvo.se/",
+          "https://www.ifiske.se/pdf/3378/sarnaidre_fiskevattenforteckning.pdf"
+        ],
+        "sarna_idre_pass": {
+          "fvo_tillagda": [],
+          "vatten_uppdaterade": 0,
+          "arter_i_forteckning": [
+            "Abborre",
+            "Bäckröding",
+            "Elritsa",
+            "Gädda",
+            "Harr",
+            "Id",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ],
+          "note": "Vattennivå hoppades över: förteckningens layout blandar flera vatten per artkodsrad."
+        }
       }
     },
     {

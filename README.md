@@ -22,5 +22,6 @@ python scripts/enrich_gbif_for_gaps.py
 python scripts/enrich_gbif_gap_retry.py
 python scripts/discover_fvof_urls_and_scrape.py
 python scripts/enrich_jamtland_local_sources.py
+python scripts/enrich_sarna_idre_forteckning.py
 python scripts/build_index.py
 ```

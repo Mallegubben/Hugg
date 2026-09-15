@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:06:06.578819+00:00",
+  "generated_at": "2026-09-15T00:15:07.196335+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
   "antal_vatten": 5520,
@@ -314630,10 +314630,11 @@
       "kommuner": "Malung-Sälen, Älvdalen",
       "huvudavrinningsomrade": "53 (Dalälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Särna-Idre%20fvof&sp=false",
-      "url_fvof": null,
+      "url_fvof": "https://sarnaidrefvo.se/",
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "sarna_idre_fiskevattenforteckning"
       ],
       "arter": [
         "Abborre",
