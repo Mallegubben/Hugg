@@ -53,6 +53,15 @@ def normalize_source(raw: str) -> str:
         ("svenljunga", "svenljunga_tranemo_fiskebroschyr_2021"),
         ("yxern", "yxern.se"),
         ("uppvidinge", "uppvidinge_kommun"),
+        ("hittafiske", "hittafiske"),
+        ("satrasjon", "satrasjon.se"),
+        ("sodra_varmelns", "sodra_varmelns_fvof_regler"),
+        ("ifiske_prosa", "ifiske_prosa"),
+        ("visitvarmland", "visitvarmland"),
+        ("sparreholm", "sparreholmsfiskevardsforening"),
+        ("lekeberg", "lekeberg.se"),
+        ("orkelljunga", "orkelljunga.se"),
+        ("upplandsstiftelsen", "upplandsstiftelsen_fiskeguide"),
     ]
     for needle, canon in mapping:
         if needle in s:
@@ -205,6 +214,7 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round6b.json",
         RAW / "vatten_fill_round6c.json",
         RAW / "vatten_fill_round6d.json",
+        RAW / "vatten_fill_round7b_og_sth_vrm_kal.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),

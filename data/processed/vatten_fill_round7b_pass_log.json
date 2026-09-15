@@ -1,0 +1,93 @@
+{
+  "round": "7b_og_sth_vrm_kal_zero_deep",
+  "generated_at": "2026-09-15T17:40:32.952797+00:00",
+  "created_vatten": 18,
+  "fvo": 13,
+  "applied": [
+    {
+      "fvo": "Hällerstad- o Venasjöns fvof",
+      "vatten": [
+        "Hällerstadsjön",
+        "Venasjön"
+      ]
+    },
+    {
+      "fvo": "Kilarpesjöns fvof",
+      "vatten": [
+        "Kilarpssjön"
+      ]
+    },
+    {
+      "fvo": "Sätrasjöns fvof",
+      "vatten": [
+        "Sätrasjön"
+      ]
+    },
+    {
+      "fvo": "Södra Värmelns fvof",
+      "vatten": [
+        "Värmeln",
+        "Rommen"
+      ]
+    },
+    {
+      "fvo": "Västansjö fvof",
+      "lan": "Värmland",
+      "vatten": [
+        "Västansjö"
+      ]
+    },
+    {
+      "fvo": "Skärgens fvof",
+      "vatten": [
+        "Skärgen"
+      ]
+    },
+    {
+      "fvo": "Stora Emsens fvof",
+      "vatten": [
+        "Stor-Emsen"
+      ]
+    },
+    {
+      "fvo": "Bysjön-Malmingens fvof",
+      "vatten": [
+        "Bysjön",
+        "Malmingen"
+      ]
+    },
+    {
+      "fvo": "Nedingens fvof",
+      "vatten": [
+        "Nedingen"
+      ]
+    },
+    {
+      "fvo": "Norra Båvens fvof",
+      "vatten": [
+        "Norra Båven"
+      ]
+    },
+    {
+      "fvo": "Logsjön-Velandasjöns fvof",
+      "vatten": [
+        "Logsjön",
+        "Velandasjön"
+      ]
+    },
+    {
+      "fvo": "Skånes Fagerhults fvof",
+      "vatten": [
+        "Fedingesjön",
+        "Fagerhultasjön"
+      ]
+    },
+    {
+      "fvo": "Gavel-Långsjöns fvof",
+      "vatten": [
+        "Gavel-Långsjön"
+      ]
+    }
+  ],
+  "source_file": "data/raw/vatten_fill_round7b_og_sth_vrm_kal.json"
+}

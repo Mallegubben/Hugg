@@ -338,30 +338,6 @@
           "kalla": "sodra_varmelns_fvof_regler",
           "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
           "evidence": "Samma Södra/Norra Värmeln FVOF-regler gäller angivna vatten (minimått för öring, lax, gös, gädda)."
-        },
-        {
-          "namn": "Ingersbytjärnet",
-          "arter": [
-            "Gädda",
-            "Gös",
-            "Lax",
-            "Öring"
-          ],
-          "kalla": "sodra_varmelns_fvof_regler",
-          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
-          "evidence": "Samma Södra/Norra Värmeln FVOF-regler gäller angivna vatten (minimått för öring, lax, gös, gädda)."
-        },
-        {
-          "namn": "Yppersbytjärnet",
-          "arter": [
-            "Gädda",
-            "Gös",
-            "Lax",
-            "Öring"
-          ],
-          "kalla": "sodra_varmelns_fvof_regler",
-          "url": "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf",
-          "evidence": "Samma Södra/Norra Värmeln FVOF-regler gäller angivna vatten (minimått för öring, lax, gös, gädda)."
         }
       ]
     },

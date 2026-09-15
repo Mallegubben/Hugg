@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:31:53.424234+00:00",
+    "generated_at": "2026-09-15T17:40:14.298277+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 28,
+      "created_vatten": 0,
       "merged_vatten": 0,
-      "touched_vatten": 252,
-      "applied_rows": 280,
+      "touched_vatten": 189,
+      "applied_rows": 189,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1674,
-        "med_arter_men_0_vatten": 200,
-        "total_vatten": 9584
+        "har_vattenposter": 1699,
+        "med_arter_men_0_vatten": 175,
+        "total_vatten": 9636
       },
       "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1682,
-        "med_arter_men_0_vatten": 192,
-        "total_vatten": 9612
+        "har_vattenposter": 1699,
+        "med_arter_men_0_vatten": 175,
+        "total_vatten": 9636
       },
       "blocked_sources": [
         "natureit",
@@ -36002,9 +36002,49 @@
         "Siklöja"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bysjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-bysjon-malmingen.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Malmingen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-bysjon-malmingen.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -36032,7 +36072,10 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-bysjon-malmingen.htm"
+      ]
     },
     {
       "original_id": 896,
@@ -67691,9 +67734,30 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "upplandsstiftelsen_fiskeguide"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Gavel-Långsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "upplandsstiftelsen_fiskeguide"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.yumpu.com/sv/document/view/19985515/har-upplandsstiftelsen"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 11,
         "antal_vatten_med_survey": 0,
@@ -67725,7 +67789,10 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.yumpu.com/sv/document/view/19985515/har-upplandsstiftelsen"
+      ]
     },
     {
       "original_id": 1517,
@@ -73523,7 +73590,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "hittafiske"
+        "hittafiske",
+        "naturkartan"
       ],
       "vatten": [
         {
@@ -73538,11 +73606,13 @@
             "Mört"
           ],
           "kallor": [
-            "hittafiske"
+            "hittafiske",
+            "naturkartan"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
-            "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/"
+            "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/",
+            "https://www.naturkartan.se/sv/jonkopings-lan/gravsjons-fvof"
           ]
         }
       ],
@@ -73553,7 +73623,8 @@
         "antal_vattendrag_survey": 0
       },
       "lokala_tipslankar": [
-        "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/"
+        "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/",
+        "https://www.naturkartan.se/sv/jonkopings-lan/gravsjons-fvof"
       ],
       "extern_enrichment": {
         "tillagda_arter": [
@@ -101049,15 +101120,58 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vattenagarna"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Hällerstadsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Venasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=381"
+      ]
     },
     {
       "original_id": 1642,
@@ -121360,15 +121474,38 @@
         "Gös"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vattenagarna"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kilarpssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=351"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 3,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=351"
+      ]
     },
     {
       "original_id": 888,
@@ -154293,9 +154430,47 @@
         "Sutare"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "lekeberg.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Logsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "lekeberg.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Velandasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "lekeberg.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -154323,7 +154498,10 @@
           "Ruda",
           "Sutare"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://lekeberg.se/upplevaochgora/fiske.4.711bc06b14820d116bc45f0.html"
+      ]
     },
     {
       "original_id": 1085,
@@ -188183,9 +188361,30 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nedingen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-nedingen.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 13,
         "antal_vatten_med_survey": 0,
@@ -188221,7 +188420,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-nedingen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-nedingen.htm"
+      ]
     },
     {
       "original_id": 1587,
@@ -203321,9 +203523,30 @@
         "Sutare"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sparreholmsfiskevardsforening"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norra Båven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "sparreholmsfiskevardsforening"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://sparreholmsfiskevardsforening.com/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 12,
         "antal_vatten_med_survey": 0,
@@ -203359,7 +203582,10 @@
           "Stensimpa",
           "Sutare"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://sparreholmsfiskevardsforening.com/"
+      ]
     },
     {
       "original_id": 840,
@@ -255132,9 +255358,31 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "visitvarmland"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Skärgen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "visitvarmland"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/skargens-fvof"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 14,
         "antal_vatten_med_survey": 0,
@@ -255195,6 +255443,9 @@
       },
       "ifiske_tipslankar": [
         "http://www.skärgen.se/"
+      ],
+      "lokala_tipslankar": [
+        "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/skargens-fvof"
       ]
     },
     {
@@ -256465,17 +256716,77 @@
         "Abborre",
         "Braxen",
         "Gädda",
-        "Mört"
+        "Karp",
+        "Mört",
+        "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "orkelljunga.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Fedingesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Karp",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "orkelljunga.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orkelljunga.se/16/uppleva-och-gora/visit-orkelljunga/uppleva/fiska.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Fagerhultasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Karp",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "orkelljunga.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orkelljunga.se/16/uppleva-och-gora/visit-orkelljunga/uppleva/fiska.html"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 4,
+        "antal_arter": 6,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://www.orkelljunga.se/16/uppleva-och-gora/visit-orkelljunga/uppleva/fiska.html"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Karp",
+          "Ål"
+        ],
+        "kallor_url:er": [
+          "https://www.orkelljunga.se/16/uppleva-och-gora/visit-orkelljunga/uppleva/fiska.html"
+        ]
       }
     },
     {
@@ -264182,9 +264493,28 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stor-Emsen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-stor-emsen.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -264228,7 +264558,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-stor-emsen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-stor-emsen.htm"
+      ]
     },
     {
       "original_id": 935,
@@ -285850,15 +286183,40 @@
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "satrasjon.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sätrasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Sutare"
+          ],
+          "kallor": [
+            "satrasjon.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.xn--strasjn-5wa1o.se/om-varingrt-fvo.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 10,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.xn--strasjn-5wa1o.se/om-varingrt-fvo.html"
+      ]
     },
     {
       "original_id": 777,
@@ -291671,9 +292029,51 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sodra_varmelns_fvof_regler"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Värmeln",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "sodra_varmelns_fvof_regler"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Rommen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda",
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "sodra_varmelns_fvof_regler"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 24,
         "antal_vatten_med_survey": 0,
@@ -291753,7 +292153,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-sodra-varmeln-rommen.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/pdf/728/REGLER_sid_1.pdf"
+      ]
     },
     {
       "original_id": 296,
@@ -328608,20 +329011,48 @@
       },
       "arter": [
         "Abborre",
+        "Björkna",
+        "Flodkräfta",
         "Gädda",
         "Gärs",
         "Lake",
         "Mört",
         "Nors",
         "Ruda",
+        "Sutare",
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Västansjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Flodkräfta",
+            "Gädda",
+            "Mört",
+            "Nors",
+            "Sutare"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-vastansjo-fvof.htm"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -328665,6 +329096,19 @@
         ],
         "url": "https://www.ifiske.se/fiske-vastansjo-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-vastansjo-fvof.htm"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Björkna",
+          "Flodkräfta",
+          "Sutare"
+        ],
+        "kallor_url:er": [
+          "https://www.ifiske.se/fiske-vastansjo-fvof.htm"
+        ]
       }
     },
     {
