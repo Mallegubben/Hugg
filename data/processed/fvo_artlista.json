@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:17:05.832429+00:00",
+    "generated_at": "2026-09-15T17:19:14.557492+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1664
+      "har_vattenposter": 1674
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -483,6 +483,12 @@
       "before_0vatten": 269,
       "after_0vatten": 266,
       "total_vatten": 9428
+    },
+    "vatten_fill_round5_vg": {
+      "created": 39,
+      "applied_rows": 39,
+      "before_0vatten": 210,
+      "after_0vatten": 200
     }
   },
   "arter_katalog": [
@@ -38952,9 +38958,28 @@
       ],
       "kallor": [
         "gbif",
-        "extern_fvof"
+        "extern_fvof",
+        "ale.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Böljesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Regnbåge"
+          ],
+          "kallor": [
+            "ale.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -39010,7 +39035,10 @@
           "https://www.abborresjon.se/fisketips-2.html",
           "https://www.abborresjon.se/om%252520oss.html"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html"
+      ]
     },
     {
       "original_id": 1586,
@@ -125632,19 +125660,288 @@
       "arter": [
         "Abborre",
         "Benlöja",
+        "Braxen",
         "Gädda",
+        "Id",
         "Karp",
         "Mört",
+        "Regnbåge",
         "Sutare",
         "Ål",
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Dammtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Grästjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Långtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Övre Strussåstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Nedre Strussåstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Helvetestjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kotjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Långetjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Rötjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Skedtjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Mörttjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 11,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -125669,6 +125966,19 @@
           "Sutare",
           "Ål",
           "Öring"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Braxen",
+          "Id",
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/"
         ]
       }
     },
@@ -128484,15 +128794,39 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vargarda.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kvinnestadssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 4,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html"
+      ]
     },
     {
       "original_id": 1720,
@@ -137539,9 +137873,125 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vargarda.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Frösjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Lången",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Skörbosjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Iglasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Fäsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Halmsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 11,
         "antal_vatten_med_survey": 0,
@@ -137589,7 +138039,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-langen-klevasjon-fasjon-m-fl-sjoar.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html"
+      ]
     },
     {
       "original_id": 520,
@@ -161244,9 +161697,32 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Långhalmen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Mört"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/fargelanda/produkter/langhalmens-fvo/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 12,
         "antal_vatten_med_survey": 0,
@@ -161282,7 +161758,10 @@
           "Mört",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/fargelanda/produkter/langhalmens-fvo/"
+      ]
     },
     {
       "original_id": 1269,
@@ -186305,15 +186784,38 @@
         "Mört"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vargarda.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mörkabosjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 3,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html"
+      ]
     },
     {
       "original_id": 1645,
@@ -191519,9 +192021,319 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Övre Upperudshöljen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Nedre Upperudshöljen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Spången",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Östebosjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Malefjorden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kilaneviken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Branddalsviken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Svanfjorden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ryrsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hjärterudssundet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Trasken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Bjurdämmetjärnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ransbergstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Dalsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 26,
         "antal_vatten_med_survey": 0,
@@ -191613,6 +192425,9 @@
       },
       "ifiske_tipslankar": [
         "http://nedreupperudsalvensfvo.dinstudio.se/"
+      ],
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/"
       ]
     },
     {
@@ -216286,15 +217101,40 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vargarda.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Ornungasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik",
+            "Sutare"
+          ],
+          "kallor": [
+            "vargarda.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html"
+      ]
     },
     {
       "original_id": 1112,
@@ -236605,18 +237445,51 @@
         "Benlöja",
         "Björkna",
         "Braxen",
+        "Faren",
         "Gädda",
         "Gärs",
+        "Gös",
         "Lake",
         "Mört",
+        "Sarv",
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "radanesjonsfiskeforening.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Rådanesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Faren",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Ål"
+          ],
+          "kallor": [
+            "radanesjonsfiskeforening.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://www.radanesjonsfiskeforening.se/"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 9,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -236643,6 +237516,19 @@
           "Lake",
           "Mört",
           "Ål"
+        ]
+      },
+      "lokala_tipslankar": [
+        "http://www.radanesjonsfiskeforening.se/"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Faren",
+          "Gös",
+          "Sarv"
+        ],
+        "kallor_url:er": [
+          "http://www.radanesjonsfiskeforening.se/"
         ]
       }
     },
@@ -258945,9 +259831,28 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "alingsas.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Kroksjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "alingsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.alingsas.se/bygga-bo-och-miljo/parker-djur-och-natur/naturomraden/natur-och-kulturreservat/hjortmarka/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -258975,7 +259880,10 @@
           "Ål",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.alingsas.se/bygga-bo-och-miljo/parker-djur-och-natur/naturomraden/natur-och-kulturreservat/hjortmarka/"
+      ]
     },
     {
       "original_id": 2084,
@@ -263993,7 +264901,8 @@
       "kallor": [
         "slu_provfiske",
         "gbif",
-        "abborresjon.se"
+        "abborresjon.se",
+        "ale.se"
       ],
       "vatten": [
         {
@@ -264050,6 +264959,25 @@
           "referenser": [
             "https://www.abborresjon.se/stora-kroksjon.html"
           ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ottersjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "ale.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html"
+          ]
         }
       ],
       "statistik": {
@@ -264105,7 +265033,8 @@
       },
       "lokala_tipslankar": [
         "https://www.abborresjon.se/abborresjon",
-        "https://www.abborresjon.se/stora-kroksjon.html"
+        "https://www.abborresjon.se/stora-kroksjon.html",
+        "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html"
       ]
     },
     {
