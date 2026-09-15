@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-09-15T16:20:17.360309+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "fuzzy_cross_county": false,
+    "note": "Only 1:1 FVO↔source water×species. Species never invented from FVO-level lists alone."
+  },
+  "stats": {
+    "fvo_with_enrichments": 11,
+    "total_vatten_rows": 22,
+    "rejected_near_misses": 20,
+    "jh_zero_covered": [
+      "Messlingens fvof",
+      "Bakvattnets fvof",
+      "Greningsjön-Halasjöns fvof",
+      "Upplands fvof"
+    ],
+    "jh_zero_still_empty": [
+      "Dravsjöns fvof",
+      "Fjällsjö fvof",
+      "Flors fvof",
+      "Fröåtjärns fvof",
+      "Fullsjöns fvof",
+      "Helgesjöns fvof",
+      "Landsomsjöns fvof",
+      "Mo-Östersjöns fvof",
+      "Stor-Raftsjöns fvo",
+      "Svartsjöarnas fvof"
+    ],
+    "tip_priority_covered": [
+      "Messlingens fvof",
+      "Älmeshultasjöns fvof",
+      "Långaskruvs fvof",
+      "Baltaks fvof",
+      "Norra Simmesjöns fvof",
+      "Haverö fvof"
+    ],
+    "tip_priority_rejected": [
+      "Rödåbygdens fvof"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Messlingens fvof",
+      "lan": "Jämtland",
+      "vatten": [
+        {
+          "vatten_namn": "Messlingssjön",
+          "arter": [
+            "Abborre",
+            "Harr",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "messlingenfiske.se / vattenagarna / dromfiske",
+          "url": "https://www.messlingenfiske.se/",
+          "urls": [
+            "https://www.messlingenfiske.se/",
+            "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=1094",
+            "https://dromfiske.com/messlingens-fvo/"
+          ],
+          "evidence": "VA/own: öring, abborre, röding i sjön; Drömfiske: Messlingesjön abborre, öring, harr (+ isfiske röding)."
+        },
+        {
+          "vatten_namn": "Mittån",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "messlingenfiske.se / vattenagarna / dromfiske",
+          "url": "https://www.messlingenfiske.se/",
+          "evidence": "VA/own: bra öringvatten; Drömfiske: röding i Mittåns svängar."
+        },
+        {
+          "vatten_namn": "Brändåstjärn",
+          "arter": [
+            "Röding"
+          ],
+          "kalla": "messlingenfiske.se / vattenagarna",
+          "url": "https://www.messlingenfiske.se/",
+          "evidence": "2019 flytt/utsättning av röding; fortsatt flytt till Brändåstjärn."
+        },
+        {
+          "vatten_namn": "Stadsån",
+          "arter": [
+            "Bäckröding",
+            "Öring"
+          ],
+          "kalla": "messlingenfiske.se",
+          "url": "https://www.messlingenfiske.se/",
+          "evidence": "I Stadsån finns mindre bestånd av bäckröding och små öringar."
+        },
+        {
+          "vatten_namn": "Särvån",
+          "arter": [
+            "Bäckröding",
+            "Öring"
+          ],
+          "kalla": "dromfiske",
+          "url": "https://dromfiske.com/messlingens-fvo/",
+          "evidence": "Fisketips: Särvån och Stassån — mete efter bäcköring, bäckröding. (Stassån ≈ Stadsån redan täckt via own site.)"
+        }
+      ],
+      "notes": "Tips-URL + egen FVOF-sajt + vattenagarna. Harr endast i Messlingssjön (Drömfiske). Lake nämns områdesnivå men ej explicit per vatten → ej med.",
+      "priority": "tip_url"
+    },
+    {
+      "namn": "Älmeshultasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "vatten_namn": "Älmeshultasjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Siklöja",
+            "Sutare"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/almeshultasjons-fvof",
+          "evidence": "I Älmeshultasjön kan du fiska abborre, brax, gädda, lake, mört, sarv, siklöja och sutare."
+        }
+      ],
+      "priority": "tip_url"
+    },
+    {
+      "namn": "Långaskruvs fvof",
+      "lan": "Kronoberg",
+      "vatten": [
+        {
+          "vatten_namn": "Krogöl",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "naturkartan / uppvidinge_kommun",
+          "url": "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo",
+          "urls": [
+            "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo",
+            "https://www.uppvidinge.se/uppleva-och-gora/natur-och-friluftsliv/fiske/fiske.html"
+          ],
+          "evidence": "Sjösystem Krogöl, Klubbingsgöl, Omargöl; Fiskeslag abborre, gädda (NK + kommunkatalog nr 15)."
+        },
+        {
+          "vatten_namn": "Klubbingsgöl",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "naturkartan / uppvidinge_kommun",
+          "url": "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo",
+          "evidence": "Samma sjösystem/Fiskeslag som Krogöl."
+        },
+        {
+          "vatten_namn": "Omargöl",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "naturkartan / uppvidinge_kommun",
+          "url": "https://www.naturkartan.se/sv/kronobergs-lan/laangaskruvs-fvo",
+          "evidence": "Samma sjösystem/Fiskeslag som Krogöl."
+        }
+      ],
+      "priority": "tip_url"
+    },
+    {
+      "namn": "Baltaks fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "vatten_namn": "Tidan (Baltaks flugfiskesträcka)",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "hokensas / vastsverige",
+          "url": "https://hokensas.se/om-baltak/",
+          "urls": [
+            "https://hokensas.se/om-baltak/",
+            "https://www.vastsverige.com/tidaholm/produkter/baltaks-flugfiske/"
+          ],
+          "evidence": "Flugfiske efter regnbåge och öring i Tidans strömmande vatten (ca 3 km, fyra zoner)."
+        }
+      ],
+      "priority": "tip_url"
+    },
+    {
+      "namn": "Norra Simmesjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "vatten_namn": "Norra Simmesjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-norra-simmesjon/",
+          "evidence": "I detta fiskeområde/sjön: abborre, brax, gädda, gös, mört, sarv, ål, sutare och lake. Broschyr namnger Norra Simmesjö men utan artlista — tipssidan är artkällan."
+        }
+      ],
+      "priority": "tip_url"
+    },
+    {
+      "namn": "Haverö fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "vatten_namn": "Långtjärn",
+          "arter": [
+            "Röding"
+          ],
+          "kalla": "ljungandalen_haverö_folder",
+          "url": "https://fliphtml5.com/cvwc/xgsy/Fiske_i_Ljungan_-_Haver%C3%B6/",
+          "evidence": "Fisketips i foldern: Röding finns i Långtjärn."
+        },
+        {
+          "vatten_namn": "Ljungan (Haverö–Kölsillre–Vassnäs strömmar)",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "ljungandalen_haverö_folder",
+          "url": "https://fliphtml5.com/cvwc/xgsy/Fiske_i_Ljungan_-_Haver%C3%B6/",
+          "evidence": "Fluga försommar i Haverö–Kölsillre–Vassnäs-strömmar; minimimått 30 cm för öring och harr som fångas i strömmarna."
+        }
+      ],
+      "notes": "FVO-nivå listar även Abborre/Gädda/Röding men utan vattenkoppling utom Långtjärn (röding) och strömmarna (öring/harr).",
+      "priority": "tip_url"
+    },
+    {
+      "namn": "Bakvattnets fvof",
+      "lan": "Jämtland",
+      "vatten": [
+        {
+          "vatten_namn": "Bakvattnet",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=329",
+          "evidence": "I sjön Bakvattnet får du öring och röding."
+        }
+      ]
+    },
+    {
+      "namn": "Greningsjön-Halasjöns fvof",
+      "lan": "Jämtland",
+      "vatten": [
+        {
+          "vatten_namn": "Greningssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=808",
+          "evidence": "I Greningssjön och Halasjöns fiskevatten finns gädda, abborre, mört och sik."
+        },
+        {
+          "vatten_namn": "Halasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=808",
+          "evidence": "Samma mening som Greningssjön."
+        }
+      ],
+      "notes": "Öring i 'vissa åar och bäckar' utan namn → rejected. Harr historisk utsättning, ej aktuell sjölista."
+    },
+    {
+      "namn": "Upplands fvof",
+      "lan": "Jämtland",
+      "vatten": [
+        {
+          "vatten_namn": "Liten (mellersta delen)",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Kanadaröding",
+            "Lake",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=813",
+          "evidence": "Upplands FVO = mellersta Liten. I sjön: öring, kanadaröding, gädda, abborre, harr, sik; röding och lake (minskat)."
+        }
+      ]
+    },
+    {
+      "namn": "Storsaivis-Suobbats fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "vatten_namn": "Storsaivis",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "gallivare_kommun_fiskeguide",
+          "url": "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/rane--och-bonalven-palkem",
+          "evidence": "10. Storsaivis - Suobbat: Inplanteringsvatten med öring och harr. Fiskekort: Storsaivis-Suobbat Fiskevårdsområde."
+        },
+        {
+          "vatten_namn": "Suobbat",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "gallivare_kommun_fiskeguide",
+          "url": "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/rane--och-bonalven-palkem",
+          "evidence": "Samma katalogpost; namngivna inplanteringsvatten Storsaivis–Suobbat."
+        }
+      ],
+      "notes": "Abborre/gädda anges i 'intilliggande sjöar' utan namn → near-miss."
+    },
+    {
+      "namn": "Hornbetasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "vatten_namn": "Hornbetasjön",
+          "arter": [
+            "Gös"
+          ],
+          "kalla": "svenljunga_tranemo_fiskebroschyr_2021",
+          "url": "https://www.svenljungatranemo.se/",
+          "evidence": "Broschyr sektion 'Hornbetasjön, Mossebosjön & Skogssjön FVO' märkt Gösvatten — Pike-Perch waters."
+        },
+        {
+          "vatten_namn": "Mossebosjön",
+          "arter": [
+            "Gös"
+          ],
+          "kalla": "svenljunga_tranemo_fiskebroschyr_2021",
+          "url": "https://www.svenljungatranemo.se/",
+          "evidence": "Samma Gösvatten-sektion."
+        },
+        {
+          "vatten_namn": "Skogssjön",
+          "arter": [
+            "Gös"
+          ],
+          "kalla": "svenljunga_tranemo_fiskebroschyr_2021",
+          "url": "https://www.svenljungatranemo.se/",
+          "evidence": "Samma Gösvatten-sektion."
+        }
+      ],
+      "notes": "Endast Gös verifierad per vatten via Gösvatten-markering. Övriga FVO-arter ej vattenvisa i broschyren."
+    }
+  ],
+  "rejected_near_misses": [
+    {
+      "namn": "Rödåbygdens fvof",
+      "lan": "Västerbotten",
+      "reason": "tip_page_fvo_level_only",
+      "source": "https://vindelalven.laxportalen.se/rodabygdens-fvo/",
+      "detail": "Arter anges för hela FVO; Vindelälven/Ruskträskbäcken nämns för regler/kort men utan vattenvis artlista. Ej kopierat FVO-listan till namngivna vatten."
+    },
+    {
+      "namn": "Helgesjöns fvof",
+      "lan": "Jämtland",
+      "reason": "species_not_named_on_source",
+      "detail": "vattenagarna o=402: endast Helgesjön upplåts; text säger 'norrländska delikatesserna' utan artnamn. Ej gissat öring/röding."
+    },
+    {
+      "namn": "Dravsjöns fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "Endast Fiskekartan FVO-nivå. Inget FVOF/turism/Naturkartan med vatten×art hittat."
+    },
+    {
+      "namn": "Fjällsjö fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "GBIF FVO-nivå endast. Inget 1:1 vattenkälla."
+    },
+    {
+      "namn": "Flors fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "Fiskekartan FVO-nivå. Inget vattenvist källstöd."
+    },
+    {
+      "namn": "Fröåtjärns fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "GBIF FVO-nivå. Namnet antyder en tjärn men arter ej vattenverifierade i tillåten källa."
+    },
+    {
+      "namn": "Fullsjöns fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "Fiskekartan FVO-nivå. Ingen lokal källa med vatten×art."
+    },
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "GBIF FVO-nivå. Grimnäs-Landsomfjärdens FVOF på vattenagarna är annan förening — ej fuzzy-mappat."
+    },
+    {
+      "namn": "Mo-Östersjöns fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "GBIF FVO-nivå. Tänndalssjön-Östersjöns FVOF är annan post."
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "GBIF endast Gädda på FVO-nivå; ingen vattenkälla."
+    },
+    {
+      "namn": "Svartsjöarnas fvof",
+      "lan": "Jämtland",
+      "reason": "no_verified_water_source",
+      "detail": "Fiskekartan FVO-nivå. Ingen lokal vatten×art."
+    },
+    {
+      "namn": "Greningsjön-Halasjöns fvof",
+      "lan": "Jämtland",
+      "reason": "unnamed_streams_oring",
+      "source": "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=808",
+      "detail": "Öring i 'vissa åar och bäckar' utan namn. Baksjön arrenderas via Solberg-Vikens fvo — ej tillagd här."
+    },
+    {
+      "namn": "Messlingens fvof",
+      "lan": "Jämtland",
+      "reason": "named_waters_without_species",
+      "source": "https://www.messlingenfiske.se/",
+      "detail": "Servån/Linjestjärn/Starrtjärn/Djuptjärn/Kåkslottstjärn + Särvdalens tjärnar namngivna men utan per-vatten arter (fem tjärnar med röding/öring på Drömfiske utan individuella namn). Lake endast områdesnivå."
+    },
+    {
+      "namn": "Haverö fvof",
+      "lan": "Västernorrland",
+      "reason": "named_lakes_without_species",
+      "source": "https://fliphtml5.com/cvwc/xgsy/Fiske_i_Ljungan_-_Haver%C3%B6/",
+      "detail": "Nät tillåtet i Aldern, Holmsjön, Havern, Kyrksjön, Mellansjön, Översjön, Öjesjön — inga arter per sjö. '2 stora insjöar' utan namn+art."
+    },
+    {
+      "namn": "Storsaivis-Suobbats fvof",
+      "lan": "Norrbotten",
+      "reason": "unnamed_adjacent_lakes",
+      "source": "gallivare_kommun_fiskeguide",
+      "detail": "Abborre och gädda i 'intilliggande sjöar' utan namn — ej tillagda."
+    },
+    {
+      "namn": "Enhangens fvof",
+      "lan": "Västra Götaland",
+      "reason": "brochure_names_waters_but_no_species",
+      "source": "svenljunga_tranemo_fiskebroschyr_2021",
+      "detail": "Namngivna vatten (Enhangen, Skattagårdssjö, Stångsjöarna, Ugglebosjön, Stora Kolsjön, Stora Aborrasjö, Djupasjön, Gölen, Stora/Lilla Agnsjön) utan vattenvis artlista. Generella broschyrarter (gädda/abborre/…) ej kopierade."
+    },
+    {
+      "namn": "Gravsjöns fvof",
+      "lan": "Västra Götaland",
+      "reason": "brochure_names_waters_but_no_species",
+      "source": "svenljunga_tranemo_fiskebroschyr_2021",
+      "detail": "Namngivna vatten (Gravsjön, Kvarnsjöarna, Ballasjön (VG/Svenljunga — ej Jönköping Gravsjön)) utan vattenvis artlista. Generella broschyrarter (gädda/abborre/…) ej kopierade."
+    },
+    {
+      "namn": "Moga-Annlarps fvof",
+      "lan": "Västra Götaland",
+      "reason": "brochure_names_waters_but_no_species",
+      "source": "svenljunga_tranemo_fiskebroschyr_2021",
+      "detail": "Namngivna vatten (Mogasjön, Annlarpsjön, Hökasjön, Gärdessjön) utan vattenvis artlista. Generella broschyrarter (gädda/abborre/…) ej kopierade."
+    },
+    {
+      "namn": "Revesjö fvof",
+      "lan": "Västra Götaland",
+      "reason": "brochure_names_waters_but_no_species",
+      "source": "svenljunga_tranemo_fiskebroschyr_2021",
+      "detail": "Namngivna vatten (Stora och Lilla Kvarnsjön) utan vattenvis artlista. Generella broschyrarter (gädda/abborre/…) ej kopierade."
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "lan": "Västra Götaland",
+      "reason": "brochure_names_waters_but_no_species",
+      "source": "svenljunga_tranemo_fiskebroschyr_2021",
+      "detail": "Namngivna vatten (Vassgården, Djupasjön, Iglasjön, Stora/Lilla Kvistdroppen, Björsjön, Hökasjön, Dunsjön) utan vattenvis artlista. Generella broschyrarter (gädda/abborre/…) ej kopierade."
+    }
+  ],
+  "hotagen_glommers_leftover_check": {
+    "Hotagen Gunnarvattnet/Valsjön/Rörvattnet-Skogsjö": "Already have vatten[] from prior careful pass; additional prose waters exist (e.g. Rörsjön, Fisklösen, Bodtjärn, Rengen, Långtjärn C7) but FVO not in zero_vatten list — out of scope for this fill-round focus.",
+    "Glommersbygden": "Södra Sandträsk / Sandselet-Gallejaur / Järvträsk already water-enriched. Abborrträsket orphan (no Fiskekartan FVO). Bredträsket ≠ Bredträskets fvof (prior reject).",
+    "Särna-Idre PDF": "Nävdens fvof (Dalarna zero) is NOT in Särna-Idre forteckning; PDF is Särna-Idre FVO only (already FVO-level)."
+  }
+}

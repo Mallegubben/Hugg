@@ -1,0 +1,616 @@
+{
+  "generated_at": "2026-09-15T16:30:57.655040+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "fuzzy_cross_county": false,
+    "note": "Only 1:1 FVO↔source water×species. Species never invented from FVO-level lists alone. Round2 focuses VG/ÖG/Jönköping/VB/Värmland/Stockholm/Kalmar zero-vatten."
+  },
+  "stats": {
+    "fvo_with_enrichments": 20,
+    "total_vatten_rows": 36,
+    "rejected_near_misses": 7,
+    "by_lan": {
+      "Östergötland": 7,
+      "Kalmar": 1,
+      "Jönköping": 9,
+      "Västra Götaland": 2,
+      "Värmland": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Asplångens fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Asplången",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=462",
+          "evidence": "Vi har god tillgång på gös, gädda samt abborre men i något mindre utsträckning. Asplången har några rekord vad det gäller fångad gös."
+        }
+      ]
+    },
+    {
+      "namn": "Raklångens fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Raklången",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=150",
+          "evidence": "Sjön bjuder på ett fint fiske efter gädda och abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Storsjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Storsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=152",
+          "evidence": "Storsjön och Kalven är båda naturliga vatten och bjuder på ett bra fiske efter gös, gädda och abborre."
+        },
+        {
+          "namn": "Kalven",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=152",
+          "evidence": "Samma mening som Storsjön."
+        }
+      ]
+    },
+    {
+      "namn": "Kalefjärdens fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Kalefjärden",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Sik"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=466",
+          "evidence": "Tisnarens nordligaste del är Kalefjärden... Här fiskar du... Gädda, abborre, gös, sik mm. (endast explicit namngivna arter)."
+        }
+      ]
+    },
+    {
+      "namn": "Hövern-Långens fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Hövern",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=688",
+          "evidence": "Hövern, Lången, Hemsjön — Fina fiskebestånd av gös, gädda och stor abborre."
+        },
+        {
+          "namn": "Lången",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=688",
+          "evidence": "Samma lista för namngivna vatten Hövern/Lången/Hemsjön."
+        },
+        {
+          "namn": "Hemsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=688",
+          "evidence": "Samma lista för namngivna vatten Hövern/Lången/Hemsjön."
+        }
+      ]
+    },
+    {
+      "namn": "Liens fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Lien",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=693",
+          "evidence": "Lien och Stora Nälern... god tillgång på våra vanliga arter såsom gädda och abborre."
+        },
+        {
+          "namn": "Stora Nälern",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=693",
+          "evidence": "Samma mening som Lien."
+        }
+      ]
+    },
+    {
+      "namn": "Stora Bjärn fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Stora Bjärn",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=88",
+          "evidence": "Förvaltar Stora Bjärn, Tolen, Ämten och Nedre Virken. I sjöarna finns gott om storvuxen abborre."
+        },
+        {
+          "namn": "Tolen",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=88",
+          "evidence": "Samma abborre-mening för de fyra namngivna sjöarna."
+        },
+        {
+          "namn": "Ämten",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=88",
+          "evidence": "Samma abborre-mening för de fyra namngivna sjöarna."
+        },
+        {
+          "namn": "Nedre Virken",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=88",
+          "evidence": "Samma abborre-mening för de fyra namngivna sjöarna."
+        }
+      ]
+    },
+    {
+      "namn": "Yxerns fvof",
+      "lan": "Kalmar",
+      "vatten": [
+        {
+          "namn": "Yxern",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Siklöja"
+          ],
+          "kalla": "yxern.se",
+          "url": "https://yxern.se/",
+          "evidence": "Fiskbeståndet är rikligt med bl a gädda, abborre, siklöja och storvuxna bestånd av gös."
+        }
+      ]
+    },
+    {
+      "namn": "Bodasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Bodasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/bodasjons-fvof",
+          "evidence": "Bodasjön är en källsjö... Det finns både grov gädda och abborre även mört och stor sik."
+        }
+      ]
+    },
+    {
+      "namn": "Ekelsjös fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Ekelsjösjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/ekelsjos-fvof",
+          "evidence": "I Ekelsjösjön kan du fiska abborre, gädda, mört, sutare och lake."
+        }
+      ]
+    },
+    {
+      "namn": "Gravsjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Gravsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/gravsjons-fvof",
+          "evidence": "Välkommen till Gravsjön! ... Fiskarter: gädda, abborre och mört."
+        }
+      ]
+    },
+    {
+      "namn": "Illerns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Illern",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sarv"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/illerns-fvof",
+          "evidence": "Fiska i Illern. Fiskarter: Rikligt med Gädda, dessutom abborre, mört, brax och sarv."
+        }
+      ]
+    },
+    {
+      "namn": "Sandhemssjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Sandhemssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Signalkräfta"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/sandhemssjons-fvof",
+          "evidence": "Sandhemssjön... har god tillgång på gädda och abborre. Signalkräftor finns i sjön men dessa ingår inte i fiskekortet."
+        }
+      ]
+    },
+    {
+      "namn": "Strånnasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Strånnesjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/strannasjons-fvof",
+          "evidence": "I Strånnesjön finns rikligt med gädda, grov abborre, mört, braxen och sutare."
+        },
+        {
+          "namn": "Trollsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/strannasjons-fvof",
+          "evidence": "I Trollsjön finns gädda, abborre, mört samt rikligt med sutare."
+        }
+      ]
+    },
+    {
+      "namn": "Södra Bunns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Södra Bunn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Signalkräfta"
+          ],
+          "kalla": "bunnfiske / naturkartan",
+          "url": "https://www.bunnfiske.se/item/fisk-i-bunn.html",
+          "urls": [
+            "https://www.bunnfiske.se/item/fisk-i-bunn.html",
+            "https://www.naturkartan.se/sv/jonkopings-lan/sodra-bunns-fvof"
+          ],
+          "evidence": "bunnfiske: artlista för Bunnsjöarna gäller Södra samt Norra Bunn (Abborre, Brax, Gädda, Gös, Lake, Mört, Sarv, Signalkräfta). Naturkartan: Södra Bunnsjön framför allt abborre, gädda och gös."
+        }
+      ]
+    },
+    {
+      "namn": "Sävsjöortens fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Eksjöhovgårdssjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/savsjoortens-fvof",
+          "evidence": "Eksjöhovgårdssjön... Abborrfisket och gäddfisket kan stundtals vara riktigt bra."
+        }
+      ]
+    },
+    {
+      "namn": "Lindåsasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Lindåsasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/lindasasjons-fvof",
+          "evidence": "Enkeltsjö-FVO; sidan namnger Lindåsasjön och listar arterna Abborre, Gädda, Mört, Öring (Naturkartan-arttaggar för platsen)."
+        }
+      ]
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Marsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Omfattning: Marsjön med Lillesjön, Storsjön, Lysevattnet, Hivattnet, Savetjärn och Torstjärnet. Fiskarter: Abborre, gädda, mört, sik, siklöja och ål."
+        },
+        {
+          "namn": "Lillesjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Del av namngivet sjösystem med gemensam Fiskarter-lista."
+        },
+        {
+          "namn": "Storsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Del av namngivet sjösystem med gemensam Fiskarter-lista."
+        },
+        {
+          "namn": "Lysevattnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Del av namngivet sjösystem med gemensam Fiskarter-lista."
+        },
+        {
+          "namn": "Hivattnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Del av namngivet sjösystem med gemensam Fiskarter-lista."
+        },
+        {
+          "namn": "Savetjärn",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Del av namngivet sjösystem med gemensam Fiskarter-lista."
+        },
+        {
+          "namn": "Torstjärnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/marsjons-fiskevardsomrade/",
+          "evidence": "Del av namngivet sjösystem med gemensam Fiskarter-lista."
+        }
+      ]
+    },
+    {
+      "namn": "Kroksjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "A-sjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "kroksjon.com",
+          "url": "https://www.kroksjon.com/a-sjon/",
+          "evidence": "I A-sjön, som är den största i Kroksjöarna finns det ett naturligt bestånd av gädda, abborre, mört, brax, sutare etc."
+        },
+        {
+          "namn": "B-sjön",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "kroksjon.com",
+          "url": "https://www.kroksjon.com/b-sjon/",
+          "evidence": "B-sjön... put-and-take sjö där du kan ta upp till 3 fiskar (regnbåge)."
+        }
+      ]
+    },
+    {
+      "namn": "Nedre Norsälvens fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Norsälven",
+          "arter": [
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=706",
+          "evidence": "Omfattar Norsälven från fabriksbron i Edsvalla... Här kan du bland annat fiska gös, lax och öring."
+        },
+        {
+          "namn": "Åsfjorden (norra delen)",
+          "arter": [
+            "Gös",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=706",
+          "evidence": "samt Åsfjordens norra del till och med Götviksuddens sydspets; samma artmening."
+        }
+      ]
+    }
+  ],
+  "rejected_near_misses": [
+    {
+      "namn": "Rödåbygdens fvof",
+      "lan": "Västerbotten",
+      "reason": "tip_page_fvo_level_only",
+      "source": "https://vindelalven.laxportalen.se/rodabygdens-fvo/",
+      "detail": "Arter för hela FVO; Vindelälven/Ruskträskbäcken nämns för regler/kort utan vattenvis artlista. Redan rejected i round1."
+    },
+    {
+      "namn": "Bodasjöns fvof",
+      "lan": "Västra Götaland",
+      "reason": "naturkartan_cross_county_redirect",
+      "detail": "vastra-gotalands-lan/bodasjons-fvof canonical → Jönköpings Bodasjön. Ej mappat till VG-FVO."
+    },
+    {
+      "namn": "Gravsjöns fvof",
+      "lan": "Västra Götaland",
+      "reason": "naturkartan_cross_county_redirect_or_brochure_no_species",
+      "detail": "NK VG-URL pekar på Jönköping Gravsjön. Svenljunga-broschyr namnger vatten utan artlista (round1 reject)."
+    },
+    {
+      "namn": "Flagens fvof",
+      "lan": "Jönköping",
+      "reason": "named_waters_without_per_water_species",
+      "source": "https://www.naturkartan.se/sv/jonkopings-lan/flagens-fvof",
+      "detail": "Flagen, Ryd, Ödshultasjön namngivna; art-taggar FVO-nivå utan vattenkoppling."
+    },
+    {
+      "namn": "Björsesjöns fvof",
+      "lan": "Jönköping",
+      "reason": "tags_only_no_lake_prose",
+      "detail": "NK har art-taggar men beskrivning är endast kontakt; ingen mening som kopplar arter till namngiven sjö. Strikt reject."
+    },
+    {
+      "namn": "Böljesjöns fvof",
+      "lan": "Västra Götaland",
+      "reason": "named_waters_without_per_water_species",
+      "source": "https://www.abborresjon.se/",
+      "detail": "Abborresjön/Kroksjön/Böljesjön/Ottersjön namngivna; regnbågstips FVO-nivå utan explicit per-sjö artlista."
+    },
+    {
+      "namn": "Norra Sämsjöns fvof",
+      "lan": "Västra Götaland",
+      "reason": "brochure_is_sodra_not_norra",
+      "detail": "Svenljunga/Tranemo-broschyr + vastsverige avser Södra Sämsjön (Gösvatten/öringförbud), inte Norra Sämsjöns FVO."
+    }
+  ]
+}
