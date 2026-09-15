@@ -23,5 +23,12 @@ python scripts/enrich_gbif_gap_retry.py
 python scripts/discover_fvof_urls_and_scrape.py
 python scripts/enrich_jamtland_local_sources.py
 python scripts/enrich_sarna_idre_forteckning.py
+python scripts/enrich_jamtland_norrbotten_deep.py
+python scripts/enrich_stromsund_norrbotten_careful.py
 python scripts/build_index.py
 ```
+
+## Jämtland / Norrbotten – lokala källor
+- **Strömsunds fiskebroschyr 2026/2027** (`data/raw/stromsund_fiskebroschyr_2026.txt`): vattenvisa artlistor per FVO i Frostviken/Vattudal (PDF sparas ej i git p.g.a. storlek; textutdrag + parsad JSON ingår).
+- **Gällivare kommun fiskeguide**: Hakkas (Sangersjön/Skrövån), Sammakko m.fl.
+- **Ej använda som artdata:** iFiske-ikoner, NatureIT, Artportalen. Tomma FVO utan egen publik artlista (t.ex. Kallön, Nurrholm, Bredträsk) lämnas tomma hellre än att spegla iFiske.

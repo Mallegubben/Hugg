@@ -13,3 +13,6 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# Large source PDFs kept as text extracts instead
+data/raw/stromsund_fiskebroschyr_2026.pdf

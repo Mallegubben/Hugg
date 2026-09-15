@@ -1,0 +1,270 @@
+{
+  "applied": [
+    {
+      "fvo": "Jormvattnets fvof",
+      "action": "correct",
+      "source": "stromsund_fiskebroschyr_2026",
+      "borttagna": [
+        "Abborre",
+        "Harr",
+        "Sik"
+      ],
+      "kvar": [
+        "Elritsa",
+        "Gädda",
+        "Röding",
+        "Småspigg",
+        "Öring"
+      ],
+      "brochure": [
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "fvo": "Kvarnbergsvattnets fvof",
+      "action": "correct",
+      "source": "stromsund_fiskebroschyr_2026",
+      "borttagna": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Harr",
+        "Regnbåge",
+        "Sik"
+      ],
+      "kvar": [
+        "Elritsa",
+        "Röding",
+        "Öring"
+      ],
+      "brochure": [
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "fvo": "Björkvattnets fvof",
+      "action": "correct",
+      "source": "stromsund_fiskebroschyr_2026",
+      "borttagna": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "kvar": [
+        "Bäckröding",
+        "Elritsa",
+        "Röding",
+        "Öring"
+      ],
+      "brochure": [
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "fvo": "Gäddede fvof",
+      "action": "add",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda": [
+        "Lake"
+      ],
+      "gaps_closed": 0,
+      "url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+    },
+    {
+      "fvo": "Gussvattnet-Storvattnets fvof",
+      "action": "add",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda": [
+        "Harr",
+        "Sik"
+      ],
+      "gaps_closed": 0,
+      "url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+    },
+    {
+      "fvo": "Fågelbergets fvof",
+      "action": "correct",
+      "source": "stromsund_fiskebroschyr_2026",
+      "borttagna": [
+        "Abborre"
+      ],
+      "kvar": [
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Simpa",
+        "Stensimpa",
+        "Öring"
+      ],
+      "brochure": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "fvo": "Risede fvof",
+      "action": "correct",
+      "source": "stromsund_fiskebroschyr_2026",
+      "borttagna": [
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "kvar": [
+        "Abborre",
+        "Elritsa",
+        "Röding",
+        "Öring"
+      ],
+      "brochure": [
+        "Abborre",
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "fvo": "Övre Öjåns fvof",
+      "action": "add",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda": [
+        "Sik"
+      ],
+      "gaps_closed": 1,
+      "url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+    },
+    {
+      "fvo": "Järilvattnets fvof",
+      "action": "add",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda": [
+        "Gädda",
+        "Harr",
+        "Kanadaröding"
+      ],
+      "gaps_closed": 1,
+      "url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+    },
+    {
+      "fvo": "Malmsjöns fvof",
+      "action": "add",
+      "source": "stromsund_fiskebroschyr_2026",
+      "tillagda": [
+        "Öring"
+      ],
+      "gaps_closed": 0,
+      "url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+    },
+    {
+      "fvo": "Hakkas fvof",
+      "action": "add",
+      "source": "gallivare_kommun_fiskeguide",
+      "tillagda": [
+        "Abborre",
+        "Harr",
+        "Öring"
+      ],
+      "gaps_closed": 0,
+      "url": "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/angesan---linaalven",
+      "note": "Sangersjön: harr+abborre; Skrövån (Hakkas-sträcka): öring+harr"
+    },
+    {
+      "fvo": "Sammakko-Lillbergets fvof",
+      "action": "add",
+      "source": "gallivare_kommun_fiskeguide",
+      "tillagda": [
+        "Röding"
+      ],
+      "gaps_closed": 0,
+      "url": "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/angesan---linaalven",
+      "note": "Sammakkosjön + Linaälven (Sammako-Lillbergets)"
+    },
+    {
+      "fvo": "Gäddede fvof",
+      "action": "correct",
+      "source": "stromsund_fiskebroschyr_2026",
+      "borttagna": [
+        "Abborre"
+      ],
+      "note": "camping-sida vs broschyrvattenlista"
+    }
+  ],
+  "stats": {
+    "applied_add": 7,
+    "applied_correct": 6,
+    "added_species_entries": 12,
+    "removed_species_entries": 18,
+    "mirror_gaps_closed": 2,
+    "jamtland_before": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 5,
+      "med_spegelluckor": 34,
+      "kvar_luckor": 98
+    },
+    "jamtland_after": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 6,
+      "med_spegelluckor": 33,
+      "kvar_luckor": 96
+    },
+    "norrbotten_before": {
+      "antal": 45,
+      "tomma": 4,
+      "tunna_le3": 3,
+      "med_spegelluckor": 9,
+      "kvar_luckor": 19
+    },
+    "norrbotten_after": {
+      "antal": 45,
+      "tomma": 3,
+      "tunna_le3": 4,
+      "med_spegelluckor": 9,
+      "kvar_luckor": 19
+    },
+    "unmatched_brochure": [
+      "Stora Blåsjöns samfällighet",
+      "Bonäset-Risnäset-Äspnäs samfällighet",
+      "Öhns fiskevårdsområde"
+    ],
+    "empty_norrbotten_notes": [
+      {
+        "namn": "Bredträskets fvof",
+        "kommuner": "Luleå",
+        "status": "ingen_tillaten_publik_artlista",
+        "url_fiskekort": null
+      },
+      {
+        "namn": "Kallöns fvof",
+        "kommuner": "Arjeplog",
+        "status": "ingen_tillaten_publik_artlista",
+        "url_fiskekort": "www.ifiske.se/fiske-kallon-storavan.htm",
+        "tips": "iFiske endast tipslänk – artdata ej importerad"
+      },
+      {
+        "namn": "Nurrholms fvof",
+        "kommuner": "Arjeplog",
+        "status": "ingen_tillaten_publik_artlista",
+        "url_fiskekort": null,
+        "tips": "iFiske endast tipslänk – artdata ej importerad"
+      }
+    ],
+    "brochure_url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf",
+    "blocked_sources": [
+      "natureit",
+      "artportalen",
+      "ifiske_artdata"
+    ]
+  }
+}

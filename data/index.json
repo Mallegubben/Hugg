@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:15:07.196335+00:00",
+  "generated_at": "2026-09-15T13:09:30.550353+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
   "antal_vatten": 5520,
@@ -4549,6 +4549,7 @@
         665,
         666,
         667,
+        670,
         671,
         739,
         740,
@@ -11896,11 +11897,13 @@
         1570,
         1571,
         1574,
+        1576,
         1578,
         1582,
         1584,
         1585,
         1587,
+        1588,
         1589,
         1592,
         1593,
@@ -11955,7 +11958,6 @@
         1669,
         1671,
         1673,
-        1674,
         1677,
         1678,
         1681,
@@ -13739,7 +13741,6 @@
         1645,
         1664,
         1665,
-        1674,
         1686,
         1690,
         1693,
@@ -14035,6 +14036,7 @@
         666,
         667,
         669,
+        670,
         671,
         674,
         818,
@@ -14299,6 +14301,7 @@
         1554,
         1555,
         1556,
+        1558,
         1559,
         1561,
         1564,
@@ -14306,7 +14309,7 @@
         1568,
         1569,
         1571,
-        1574,
+        1576,
         1578,
         1581,
         1582,
@@ -14314,6 +14317,7 @@
         1585,
         1586,
         1587,
+        1588,
         1592,
         1593,
         1595,
@@ -14362,7 +14366,6 @@
         1669,
         1671,
         1673,
-        1674,
         1677,
         1678,
         1681,
@@ -14903,6 +14906,7 @@
         1548,
         1561,
         1581,
+        1588,
         1592,
         1597,
         1604,
@@ -16117,6 +16121,7 @@
         1568,
         1570,
         1571,
+        1576,
         1578,
         1581,
         1582,
@@ -19731,7 +19736,6 @@
         1665,
         1667,
         1668,
-        1674,
         1678,
         1701,
         1704,
@@ -20370,6 +20374,7 @@
         562,
         569,
         617,
+        633,
         635,
         640,
         646,
@@ -22320,6 +22325,7 @@
         1514,
         1515,
         1517,
+        1518,
         1519,
         1520,
         1523,
@@ -22345,6 +22351,7 @@
         1553,
         1555,
         1556,
+        1558,
         1559,
         1560,
         1561,
@@ -22354,6 +22361,7 @@
         1568,
         1570,
         1571,
+        1576,
         1578,
         1581,
         1582,
@@ -26626,6 +26634,7 @@
         666,
         667,
         669,
+        670,
         672,
         742,
         747,
@@ -27171,6 +27180,7 @@
         1577,
         1578,
         1581,
+        1582,
         1584,
         1585,
         1586,
@@ -162924,7 +162934,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Bäckröding",
@@ -187186,7 +187197,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Elritsa",
@@ -194946,13 +194958,16 @@
       "url_fvof": null,
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Elritsa",
         "Gädda",
+        "Harr",
         "Lake",
         "Röding",
+        "Sik",
         "Öring"
       ],
       "fiskekartan_arter": [],
@@ -195632,10 +195647,16 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gäddede%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "gaddede_camping_frostviken",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
+        "Gädda",
+        "Harr",
+        "Lake",
         "Röding",
+        "Sik",
         "Stensimpa",
         "Öring"
       ],
@@ -197579,8 +197600,14 @@
       "huvudavrinningsomrade": "4 (Kalixälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Hakkas%20fvof&sp=false",
       "url_fvof": null,
-      "kallor": [],
-      "arter": [],
+      "kallor": [
+        "gallivare_kommun_fiskeguide"
+      ],
+      "arter": [
+        "Abborre",
+        "Harr",
+        "Öring"
+      ],
       "fiskekartan_arter": [],
       "vatten": []
     },
@@ -214384,12 +214411,12 @@
         "fiskekartan",
         "slu_provfiske",
         "gbif",
-        "extern_fvof"
+        "extern_fvof",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Elritsa",
         "Gädda",
-        "Harr",
         "Röding",
         "Småspigg",
         "Öring"
@@ -216132,11 +216159,15 @@
       "url_fvof": null,
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Abborre",
         "Bergsimpa",
+        "Gädda",
+        "Harr",
+        "Kanadaröding",
         "Mört",
         "Röding",
         "Öring"
@@ -223881,14 +223912,11 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "extern_fvof"
+        "extern_fvof",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Elritsa",
-        "Gädda",
-        "Gös",
-        "Harr",
-        "Regnbåge",
         "Röding",
         "Öring"
       ],
@@ -247085,7 +247113,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Malmsjöns%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=810",
       "kallor": [
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Abborre",
@@ -247095,7 +247124,8 @@
         "Mört",
         "Röding",
         "Sik",
-        "Siklöja"
+        "Siklöja",
+        "Öring"
       ],
       "fiskekartan_arter": [],
       "vatten": []
@@ -279680,7 +279710,7 @@
       "kommuner": "Åre",
       "huvudavrinningsomrade": "40 (Indalsälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ottsjö%20fvof&sp=false",
-      "url_fvof": null,
+      "url_fvof": "https://www.ottsjo.se/aktiviteter/fiske/",
       "kallor": [
         "fiskekartan",
         "slu_provfiske"
@@ -284425,7 +284455,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Abborre",
@@ -291894,7 +291925,8 @@
       "url_fvof": "www.sammakko.info",
       "kallor": [
         "fiskekartan",
-        "extern_fvof"
+        "extern_fvof",
+        "gallivare_kommun_fiskeguide"
       ],
       "arter": [
         "Abborre",
@@ -291903,6 +291935,7 @@
         "Id",
         "Lax",
         "Regnbåge",
+        "Röding",
         "Sik",
         "Öring"
       ],
@@ -364006,7 +364039,8 @@
       "kallor": [
         "slu_provfiske",
         "extern_fvof",
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "arter": [
         "Abborre",
@@ -364018,6 +364052,7 @@
         "Lake",
         "Mört",
         "Röding",
+        "Sik",
         "Stensimpa",
         "Öring"
       ],

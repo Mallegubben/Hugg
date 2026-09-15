@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T00:15:06.908193+00:00",
+    "generated_at": "2026-09-15T13:09:30.241802+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -34,15 +34,15 @@
       "ifiske_artdata": false,
       "natureit": false,
       "artportalen": false,
-      "beskrivning": "iFiske endast spegel/länktips. NatureIT och Artportalen används inte. Artdata från Fiskekartan, SLU, GBIF, FVOF-sajter, FiskaiBerg, Drömfiske JH, lokala föreningssidor (t.ex. Sammakko)."
+      "beskrivning": "iFiske endast spegel/länktips. NatureIT och Artportalen används inte. Artdata från Fiskekartan, SLU, GBIF, FVOF, FiskaiBerg, Drömfiske, Ottsjö, Strömsunds fiskebroschyr, Gällivare kommun fiskeguide, Sammakko, Glommersbygden, gfvo.se."
     },
     "coverage": {
       "har_fiskekartan_arter": 994,
       "har_survey_arter": 1565,
-      "har_nagon_art": 1864,
-      "saknar_arter": 43,
+      "har_nagon_art": 1865,
+      "saknar_arter": 42,
       "har_vattenposter": 1565,
-      "har_extern_enrichment": 261,
+      "har_extern_enrichment": 270,
       "har_gbif_enrichment": 967,
       "har_ifiske_spegel_kontroll": 884
     },
@@ -192,6 +192,112 @@
         "Öring"
       ],
       "kalla": "Särna-Idre FVOF fiskevattenförteckning (ej iFiske-ikoner; ej NatureIT/Artportalen)"
+    },
+    "jamtland_norrbotten_deep_pass": {
+      "applied": 7,
+      "added_species_entries": 22,
+      "mirror_gaps_closed": 0,
+      "jamtland_before": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 6,
+        "med_spegelluckor": 34,
+        "kvar_luckor": 98
+      },
+      "jamtland_after": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 5,
+        "med_spegelluckor": 34,
+        "kvar_luckor": 98
+      },
+      "norrbotten_before": {
+        "antal": 45,
+        "tomma": 4,
+        "tunna_le3": 3,
+        "med_spegelluckor": 9,
+        "kvar_luckor": 19
+      },
+      "norrbotten_after": {
+        "antal": 45,
+        "tomma": 4,
+        "tunna_le3": 2,
+        "med_spegelluckor": 9,
+        "kvar_luckor": 19
+      },
+      "blocked_sources": [
+        "natureit",
+        "artportalen",
+        "ifiske_artdata"
+      ]
+    },
+    "stromsund_norrbotten_careful_pass": {
+      "applied_add": 7,
+      "applied_correct": 6,
+      "added_species_entries": 12,
+      "removed_species_entries": 18,
+      "mirror_gaps_closed": 2,
+      "jamtland_before": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 5,
+        "med_spegelluckor": 34,
+        "kvar_luckor": 98
+      },
+      "jamtland_after": {
+        "antal": 157,
+        "tomma": 0,
+        "tunna_le3": 6,
+        "med_spegelluckor": 33,
+        "kvar_luckor": 96
+      },
+      "norrbotten_before": {
+        "antal": 45,
+        "tomma": 4,
+        "tunna_le3": 3,
+        "med_spegelluckor": 9,
+        "kvar_luckor": 19
+      },
+      "norrbotten_after": {
+        "antal": 45,
+        "tomma": 3,
+        "tunna_le3": 4,
+        "med_spegelluckor": 9,
+        "kvar_luckor": 19
+      },
+      "unmatched_brochure": [
+        "Stora Blåsjöns samfällighet",
+        "Bonäset-Risnäset-Äspnäs samfällighet",
+        "Öhns fiskevårdsområde"
+      ],
+      "empty_norrbotten_notes": [
+        {
+          "namn": "Bredträskets fvof",
+          "kommuner": "Luleå",
+          "status": "ingen_tillaten_publik_artlista",
+          "url_fiskekort": null
+        },
+        {
+          "namn": "Kallöns fvof",
+          "kommuner": "Arjeplog",
+          "status": "ingen_tillaten_publik_artlista",
+          "url_fiskekort": "www.ifiske.se/fiske-kallon-storavan.htm",
+          "tips": "iFiske endast tipslänk – artdata ej importerad"
+        },
+        {
+          "namn": "Nurrholms fvof",
+          "kommuner": "Arjeplog",
+          "status": "ingen_tillaten_publik_artlista",
+          "url_fiskekort": null,
+          "tips": "iFiske endast tipslänk – artdata ej importerad"
+        }
+      ],
+      "brochure_url": "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf",
+      "blocked_sources": [
+        "natureit",
+        "artportalen",
+        "ifiske_artdata"
+      ]
     }
   },
   "arter_katalog": [
@@ -15943,7 +16049,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-bellvik-rorstrom.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1883,
@@ -20607,7 +20716,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -20667,6 +20777,26 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-bjorkvattnet-m-fl-tjarnar.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "lokala_tipslankar": [
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [],
+        "kallor_url:er": [
+          "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Sik"
+          ],
+          "orsak": "stromsund_broschyr_auktoritativ_mot_regional_overtolkning"
+        }
       }
     },
     {
@@ -38953,7 +39083,8 @@
       },
       "lokala_tipslankar": [
         "https://www.fiskaiberg.se/fiska/fiskekort-fvo/dammans-fvo/",
-        "https://dromfiske.com/dammans-fvo/"
+        "https://dromfiske.com/dammans-fvo/",
+        "https://xn--dammn-pra.se/"
       ]
     },
     {
@@ -43827,7 +43958,10 @@
           "Mört",
           "Sik"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1624,
@@ -44692,7 +44826,10 @@
         "tillagda_arter": [
           "Regnbåge"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://fiskaiduved.se/"
+      ]
     },
     {
       "original_id": 253,
@@ -45067,7 +45204,10 @@
           "Ål",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1277,
@@ -49960,7 +50100,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-rinnen-stensvattnet-stora-ulvsjon-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 2108,
@@ -54340,7 +54483,8 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "lokala_tipslankar": [
-        "https://www.fiskaiberg.se/fiska/fiskekort-fvo/gruckarnas-kfo/"
+        "https://www.fiskaiberg.se/fiska/fiskekort-fvo/gruckarnas-kfo/",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
       ]
     },
     {
@@ -60574,7 +60718,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -60713,6 +60858,23 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-fagelberget.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
+      },
+      "lokala_tipslankar": [
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [],
+        "kallor_url:er": [
+          "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre"
+          ],
+          "orsak": "stromsund_broschyr_auktoritativ_mot_regional_overtolkning"
+        }
       }
     },
     {
@@ -65706,7 +65868,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-gimdalens-fvof-idsjon.-lill-myssjon.-ulvsjon.-skasjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://gimdalensflugfiske.se/"
+      ]
     },
     {
       "original_id": 1783,
@@ -74076,13 +74241,16 @@
       "arter": [
         "Elritsa",
         "Gädda",
+        "Harr",
         "Lake",
         "Röding",
+        "Sik",
         "Öring"
       ],
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -74106,7 +74274,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 1,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 1
@@ -74124,6 +74292,18 @@
           "Gädda",
           "Lake",
           "Röding"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Harr",
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
         ]
       }
     },
@@ -75247,12 +75427,18 @@
         "arter": []
       },
       "arter": [
+        "Gädda",
+        "Harr",
+        "Lake",
         "Röding",
+        "Sik",
         "Stensimpa",
         "Öring"
       ],
       "kallor": [
-        "slu_provfiske"
+        "slu_provfiske",
+        "gaddede_camping_frostviken",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -75333,10 +75519,32 @@
         }
       ],
       "statistik": {
-        "antal_arter": 3,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 2,
         "antal_vattendrag_survey": 2
+      },
+      "lokala_tipslankar": [
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gädda",
+          "Harr",
+          "Lake",
+          "Sik"
+        ],
+        "kallor_url:er": [
+          "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre"
+          ],
+          "orsak": "stromsund_broschyr_auktoritativ_mot_regional_overtolkning"
+        }
       }
     },
     {
@@ -75851,7 +76059,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-malmbergets-och-koskullskulles-i-gallivare-omrade.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://gfvo.se/fiskeomraden/"
+      ]
     },
     {
       "original_id": 1491,
@@ -76704,7 +76915,10 @@
           "Röding",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 902,
@@ -78554,11 +78768,17 @@
         "ovriga_arter": [],
         "arter": []
       },
-      "arter": [],
-      "kallor": [],
+      "arter": [
+        "Abborre",
+        "Harr",
+        "Öring"
+      ],
+      "kallor": [
+        "gallivare_kommun_fiskeguide"
+      ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 0,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -78567,6 +78787,19 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
+      },
+      "lokala_tipslankar": [
+        "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/angesan---linaalven"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Harr",
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/angesan---linaalven"
+        ]
       }
     },
     {
@@ -91850,7 +92083,10 @@
           "Röding",
           "Sik"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1636,
@@ -95706,7 +95942,10 @@
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
-      }
+      },
+      "lokala_tipslankar": [
+        "https://hallesjofishing.se/"
+      ]
     },
     {
       "original_id": 1225,
@@ -98395,7 +98634,10 @@
         "tillagda_arter": [
           "Stensimpa"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 2152,
@@ -106673,7 +106915,6 @@
       "arter": [
         "Elritsa",
         "Gädda",
-        "Harr",
         "Röding",
         "Småspigg",
         "Öring"
@@ -106682,7 +106923,8 @@
         "fiskekartan",
         "slu_provfiske",
         "gbif",
-        "extern_fvof"
+        "extern_fvof",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -106809,7 +107051,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 6,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 5
@@ -106837,17 +107079,27 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Harr"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
           "https://dromfiske.com/jormvattnets-fvo/",
           "https://dromfiske.com/",
-          "https://dromfiske.com/jakten-pa-jorms-vilda-rodingar/"
-        ]
+          "https://dromfiske.com/jakten-pa-jorms-vilda-rodingar/",
+          "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre",
+            "Harr",
+            "Sik"
+          ],
+          "orsak": "stromsund_broschyr_auktoritativ_mot_regional_overtolkning"
+        }
       },
       "lokala_tipslankar": [
-        "https://dromfiske.com/jormvattnets-fvo/"
+        "https://dromfiske.com/jormvattnets-fvo/",
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
       ]
     },
     {
@@ -109371,13 +109623,17 @@
       "arter": [
         "Abborre",
         "Bergsimpa",
+        "Gädda",
+        "Harr",
+        "Kanadaröding",
         "Mört",
         "Röding",
         "Öring"
       ],
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -109444,7 +109700,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 5,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 3
@@ -109459,8 +109715,7 @@
           "Öring"
         ],
         "luckor_ej_funna_hos_fvof": [
-          "Id",
-          "Kanadaröding"
+          "Id"
         ],
         "url": "https://www.ifiske.se/fiske-jarilvattnet-vastervattnet.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
@@ -109475,6 +109730,19 @@
         "tillagda_arter": [
           "Abborre",
           "Röding"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gädda",
+          "Harr",
+          "Kanadaröding"
+        ],
+        "kallor_url:er": [
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
         ]
       }
     },
@@ -112958,7 +113226,10 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-kallon-storavan.htm"
+      ]
     },
     {
       "original_id": 1914,
@@ -122126,17 +122397,14 @@
       },
       "arter": [
         "Elritsa",
-        "Gädda",
-        "Gös",
-        "Harr",
-        "Regnbåge",
         "Röding",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "extern_fvof"
+        "extern_fvof",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -122203,26 +122471,33 @@
         }
       ],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 3,
         "antal_vatten_med_survey": 3,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 3
       },
       "extern_enrichment": {
-        "tillagda_arter": [
-          "Gädda",
-          "Gös",
-          "Harr",
-          "Regnbåge"
-        ],
+        "tillagda_arter": [],
         "kallor_url:er": [
-          "http://bollnasfvf.se/",
-          "http://bollnasfvf.se/news_1.html",
-          "http://bollnasfvf.se/text1_10.html",
-          "http://bollnasfvf.se/text1_11.html",
-          "http://bollnasfvf.se/text1_30.html"
-        ]
-      }
+          "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Harr",
+            "Regnbåge",
+            "Sik"
+          ],
+          "orsak": "stromsund_broschyr_auktoritativ_mot_regional_overtolkning"
+        }
+      },
+      "lokala_tipslankar": [
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 286,
@@ -126713,7 +126988,10 @@
           "https://www.kottsjon.se/fiskevatten",
           "https://www.kottsjon.se/fiskevatten/bergstjaern"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.kottsjon.se/"
+      ]
     },
     {
       "original_id": 1307,
@@ -133149,7 +133427,11 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-lidsjobergs-fvo.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 987,
@@ -134056,7 +134338,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-lill-blasjon-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1943,
@@ -160239,14 +160524,16 @@
         "Mört",
         "Röding",
         "Sik",
-        "Siklöja"
+        "Siklöja",
+        "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -160271,6 +160558,17 @@
           "Röding",
           "Sik",
           "Siklöja"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Öring"
+        ],
+        "kallor_url:er": [
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
         ]
       }
     },
@@ -201426,7 +201724,10 @@
         "arter_i_omslutning": [],
         "tillagda_arter": [],
         "tom_omslutning": true
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-uddjaure-uljajaure-m-fl-vatten.htm"
+      ]
     },
     {
       "original_id": 1708,
@@ -212539,7 +212840,7 @@
       "kommuner": "Åre",
       "huvudavrinningsomrade": "40 (Indalsälven)",
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ottsjö%20fvof&sp=false",
-      "url_fvof": null,
+      "url_fvof": "https://www.ottsjo.se/aktiviteter/fiske/",
       "url_fiskekort": "www.ifiske.se/o/791",
       "url_ifiske_for_externa_lankar": "https://www.ifiske.se/o/791",
       "fiskekartan": {
@@ -212747,7 +213048,10 @@
           "Öring"
         ],
         "tillagda_arter": []
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ottsjo.se/aktiviteter/fiske/"
+      ]
     },
     {
       "original_id": 1627,
@@ -215651,7 +215955,10 @@
           "Sutare",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ragundafvo.se/"
+      ]
     },
     {
       "original_id": 994,
@@ -220730,7 +221037,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "slu_provfiske"
+        "slu_provfiske",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -220797,6 +221105,25 @@
           "Öring"
         ],
         "tillagda_arter": []
+      },
+      "lokala_tipslankar": [
+        "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [],
+        "kallor_url:er": [
+          "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+        ],
+        "rattning": {
+          "borttagna": [
+            "Gädda",
+            "Harr",
+            "Sik"
+          ],
+          "orsak": "stromsund_broschyr_auktoritativ_mot_regional_overtolkning"
+        }
       }
     },
     {
@@ -222302,7 +222629,10 @@
           "Siklöja",
           "Stensimpa"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 515,
@@ -224059,7 +224389,10 @@
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
           "https://www.vattenagarna.se/att-aga-fiskevatten/"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1772,
@@ -231437,7 +231770,8 @@
         "antal_vattendrag_survey": 11
       },
       "lokala_tipslankar": [
-        "https://dromfiske.com/rorstromsalvens-fvo/"
+        "https://dromfiske.com/rorstromsalvens-fvo/",
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
       ]
     },
     {
@@ -233313,16 +233647,18 @@
         "Id",
         "Lax",
         "Regnbåge",
+        "Röding",
         "Sik",
         "Öring"
       ],
       "kallor": [
         "fiskekartan",
-        "extern_fvof"
+        "extern_fvof",
+        "gallivare_kommun_fiskeguide"
       ],
       "vatten": [],
       "statistik": {
-        "antal_arter": 8,
+        "antal_arter": 9,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -233334,11 +233670,13 @@
           "Harr",
           "Id",
           "Lax",
+          "Röding",
           "Öring"
         ],
         "kallor_url:er": [
           "https://www.sammakko.info/",
-          "https://www.sammakko.info/fiskef2.html"
+          "https://www.sammakko.info/fiskef2.html",
+          "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/angesan---linaalven"
         ]
       },
       "ifiske_spegel_kontroll": {
@@ -233372,7 +233710,8 @@
         "https://www.sammakko.info/",
         "https://www.sammakko.info/index.html",
         "https://sammakko.info/fiskkart.html",
-        "https://www.sammakko.info/fiskef2.html"
+        "https://www.sammakko.info/fiskef2.html",
+        "https://gallivare.se/uppleva-och-gora/idrott-motion-och-friluftsliv/friluftsliv-och-motion/fiske/fiskeguiden/har-kan-du-fiska/angesan---linaalven"
       ]
     },
     {
@@ -246893,7 +247232,10 @@
         "antal_vatten_med_survey": 6,
         "antal_sjoar_survey": 1,
         "antal_vattendrag_survey": 5
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 1219,
@@ -251401,7 +251743,10 @@
         "tillagda_arter": [
           "Lake"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://sv.wikipedia.org/wiki/Stor-Mj%C3%B6lkvattnet"
+      ]
     },
     {
       "original_id": 1079,
@@ -258423,7 +258768,8 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "lokala_tipslankar": [
-        "https://dromfiske.com/storsjo-fvo/"
+        "https://dromfiske.com/storsjo-fvo/",
+        "https://storsjofisk.se/"
       ]
     },
     {
@@ -262097,7 +262443,10 @@
         "antal_vatten_med_survey": 11,
         "antal_sjoar_survey": 4,
         "antal_vattendrag_survey": 7
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.storasen-albackensfvo.se/"
+      ]
     },
     {
       "original_id": 1406,
@@ -268154,7 +268503,10 @@
           "http://svegherrofvo.se/fiskekort-regler/fiskekort/",
           "http://svegherrofvo.se/fiskekort-regler/forsaljningsstallen/"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://svegherrofvo.se/"
+      ]
     },
     {
       "original_id": 1584,
@@ -279213,7 +279565,8 @@
         ],
         "kallor_url:er": [
           "https://glommersbygden.se/fiske/"
-        ]
+        ],
+        "note": "Endast sektionen Södra Sandträsk (gädda, abborre) – ej övriga vatten på samma sida"
       }
     },
     {
@@ -295092,7 +295445,8 @@
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "lokala_tipslankar": [
-        "https://dromfiske.com/tannas-funasdalens-fvo/"
+        "https://dromfiske.com/tannas-funasdalens-fvo/",
+        "https://tannasfiskecentrum.se/"
       ]
     },
     {
@@ -296014,7 +296368,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-tasjons-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 948,
@@ -314855,7 +315212,10 @@
         "antal_vatten_med_survey": 4,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 4
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 625,
@@ -329382,7 +329742,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-angersjo-fvof.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.angersjo-fiske.info/"
+      ]
     },
     {
       "original_id": 649,
@@ -329673,7 +330036,10 @@
           "Siklöja",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://angesan.nu/"
+      ]
     },
     {
       "original_id": 611,
@@ -351891,7 +352257,10 @@
           "Sutare",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://gimriver.se/"
+      ]
     },
     {
       "original_id": 955,
@@ -353098,7 +353467,10 @@
           "Mört",
           "Småspigg"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 2070,
@@ -353295,13 +353667,15 @@
         "Lake",
         "Mört",
         "Röding",
+        "Sik",
         "Stensimpa",
         "Öring"
       ],
       "kallor": [
         "slu_provfiske",
         "extern_fvof",
-        "gbif"
+        "gbif",
+        "stromsund_fiskebroschyr_2026"
       ],
       "vatten": [
         {
@@ -353346,7 +353720,7 @@
         }
       ],
       "statistik": {
-        "antal_arter": 11,
+        "antal_arter": 12,
         "antal_vatten_med_survey": 2,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 2
@@ -353361,22 +353735,22 @@
           "Sik",
           "Öring"
         ],
-        "luckor_ej_funna_hos_fvof": [
-          "Sik"
-        ],
+        "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-ojarssjons-ojan-hundvagen-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
       },
       "extern_enrichment": {
         "tillagda_arter": [
           "Abborre",
-          "Harr"
+          "Harr",
+          "Sik"
         ],
         "kallor_url:er": [
           "https://www.vattenagarna.se/jamtlands-lans-fiskevattenagareforbund/?o=817",
           "https://www.vattenagarna.se/om-sveriges-fiskevattenagareforbund/",
           "https://www.vattenagarna.se/riksforbundets-styrelse/",
-          "https://www.vattenagarna.se/att-aga-fiskevatten/"
+          "https://www.vattenagarna.se/att-aga-fiskevatten/",
+          "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
         ]
       },
       "gbif_enrichment": {
@@ -353400,7 +353774,10 @@
           "Röding",
           "Stensimpa"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.stromsund.se/download/18.540f27c719d93a15328128c2/1777021924241/Fiskebroschyr%202026%20(interaktiv).pdf"
+      ]
     },
     {
       "original_id": 2149,
