@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:19:14.557492+00:00",
+    "generated_at": "2026-09-15T17:26:51.086447+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1674
+      "har_vattenposter": 1685
     },
     "antal_unika_arter": 86,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 57,
+      "created_vatten": 28,
       "merged_vatten": 0,
-      "touched_vatten": 137,
-      "applied_rows": 194,
+      "touched_vatten": 252,
+      "applied_rows": 280,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1644,
-        "med_arter_men_0_vatten": 230,
-        "total_vatten": 9488
+        "har_vattenposter": 1674,
+        "med_arter_men_0_vatten": 200,
+        "total_vatten": 9584
       },
       "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1664,
-        "med_arter_men_0_vatten": 210,
-        "total_vatten": 9545
+        "har_vattenposter": 1682,
+        "med_arter_men_0_vatten": 192,
+        "total_vatten": 9612
       },
       "blocked_sources": [
         "natureit",
@@ -20054,18 +20054,78 @@
         "Gädda",
         "Lake",
         "Mört",
+        "Ruda",
         "Sutare",
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vattenagarna"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Björken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web2.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=509"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Björken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "vattenagarna"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web2.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=509"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://web2.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=509"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Ruda"
+        ],
+        "kallor_url:er": [
+          "https://web2.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=509"
+        ]
       }
     },
     {
@@ -48691,9 +48751,47 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Flämsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/skara/produkter/fiskemojligheter-i-skaratrakten/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Emten",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/skara/produkter/fiskemojligheter-i-skaratrakten/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 12,
         "antal_vatten_med_survey": 0,
@@ -48740,7 +48838,10 @@
           "Ruda",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/skara/produkter/fiskemojligheter-i-skaratrakten/"
+      ]
     },
     {
       "original_id": 403,
@@ -49062,9 +49163,209 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "orsas.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Enhangen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Skattagårdssjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Övre Stångsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Yttre Stångsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ugglebosjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Abborrasjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Kolsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Djupasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Agnsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Agnsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Gölen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "orsas.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.orsas.se/enhangens-fiskevardsforening/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 6,
         "antal_vatten_med_survey": 0,
@@ -49088,7 +49389,10 @@
           "Mört",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.orsas.se/enhangens-fiskevardsforening/"
+      ]
     },
     {
       "original_id": 2005,
@@ -72595,15 +72899,68 @@
         "Mört",
         "Nors",
         "Sarv",
+        "Sutare",
         "Ål"
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "gransjon.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gransjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "gransjon.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://gransjon.se/sida2a.php"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Källbysjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "gransjon.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://gransjon.se/sida2a.php"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -72629,6 +72986,17 @@
           "Elritsa",
           "Nors",
           "Ål"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://gransjon.se/sida2a.php"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sutare"
+        ],
+        "kallor_url:er": [
+          "https://gransjon.se/sida2a.php"
         ]
       }
     },
@@ -178108,9 +178476,83 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mogasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Annlarpssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hökasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Gärdessjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 6,
         "antal_vatten_med_survey": 0,
@@ -178142,7 +178584,10 @@
           "Mört"
         ],
         "tillagda_arter": []
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/"
+      ]
     },
     {
       "original_id": 2144,
@@ -250250,9 +250695,30 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "saffle.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sjönsjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "saffle.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://saffle.se/uppleva-och-gora/visit-saffle/se-gora--ata/fiska.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 20,
         "antal_vatten_med_survey": 0,
@@ -250304,7 +250770,10 @@
           "Ål",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://saffle.se/uppleva-och-gora/visit-saffle/se-gora--ata/fiska.html"
+      ]
     },
     {
       "original_id": 1858,
@@ -287563,9 +288032,51 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Sågtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/dalsed/produkter/lilla-stora-sagtjarns-fvo/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Sågtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/dalsed/produkter/lilla-stora-sagtjarns-fvo/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
@@ -287587,7 +288098,10 @@
           "Sutare",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/dalsed/produkter/lilla-stora-sagtjarns-fvo/"
+      ]
     },
     {
       "original_id": 1987,
@@ -296639,9 +297153,53 @@
         "Sutare"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "visittingsryd.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Tjurken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kallor": [
+            "visittingsryd.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.visittingsryd.se/en/fishing-tjurken-kalven"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Kalven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kallor": [
+            "visittingsryd.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.visittingsryd.se/en/fishing-tjurken-kalven"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -296666,7 +297224,10 @@
         ],
         "url": "https://www.ifiske.se/fiske-tjurken-kalven.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.visittingsryd.se/en/fishing-tjurken-kalven"
+      ]
     },
     {
       "original_id": 204,
@@ -332206,16 +332767,75 @@
         "Gös",
         "Lake",
         "Mört",
+        "Sarv",
         "Stensimpa",
         "Sutare",
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "dals-ed_fiskeguide_2020"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Vångsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "dals-ed_fiskeguide_2020"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/globalassets/dals-ed/dals-ed--fiskeguiden-2020.pdf"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Vägneälven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "dals-ed_fiskeguide_2020"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/globalassets/dals-ed/dals-ed--fiskeguiden-2020.pdf"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 12,
+        "antal_arter": 13,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
@@ -332248,6 +332868,17 @@
           "Stensimpa",
           "Sutare",
           "Ål"
+        ]
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/globalassets/dals-ed/dals-ed--fiskeguiden-2020.pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Sarv"
+        ],
+        "kallor_url:er": [
+          "https://www.vastsverige.com/globalassets/dals-ed/dals-ed--fiskeguiden-2020.pdf"
         ]
       }
     },
@@ -348362,9 +348993,99 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "vastsverige"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Åstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/dalsed/produkter/AsensFVO/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Björndalstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/dalsed/produkter/AsensFVO/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Dammtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/dalsed/produkter/AsensFVO/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Bergtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "vastsverige"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.vastsverige.com/dalsed/produkter/AsensFVO/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -348401,7 +349122,10 @@
         ],
         "url": "https://www.ifiske.se/fisketips-kommunfiskekort-dals-ed.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.vastsverige.com/dalsed/produkter/AsensFVO/"
+      ]
     },
     {
       "original_id": 1807,
@@ -349575,20 +350299,51 @@
         "Abborre",
         "Benlöja",
         "Gädda",
+        "Gös",
         "Lake",
         "Mört",
         "Nors",
         "Ål"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "ydre.se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Ödesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gös"
+          ],
+          "kallor": [
+            "ydre.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ydre.se/destinationydre/besoka/artiklar/2024-05-13-fiskesjoar"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 7,
+        "antal_arter": 8,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://www.ydre.se/destinationydre/besoka/artiklar/2024-05-13-fiskesjoar"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Gös"
+        ],
+        "kallor_url:er": [
+          "https://www.ydre.se/destinationydre/besoka/artiklar/2024-05-13-fiskesjoar"
+        ]
       }
     },
     {

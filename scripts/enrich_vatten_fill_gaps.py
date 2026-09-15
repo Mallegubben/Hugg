@@ -195,15 +195,17 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round3_partial.json",
         RAW / "vatten_fill_round4.json",
         RAW / "vatten_fill_round5.json",
-        RAW / "vatten_fill_round5_vg.json",
+        # Skip unsanitized round5_vg.json (wrong multi-lake mappings); use sanitized.
         RAW / "vatten_fill_round5_abborresjon.json",
         RAW / "vatten_fill_round5_vg_sanitized.json",
+        RAW / "vatten_fill_round6.json",
+        RAW / "vatten_fill_round6b.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round4_merged.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round5.json"),
-        Path("/opt/cursor/artifacts/vatten_fill_round5_vg.json"),
+        Path("/opt/cursor/artifacts/vatten_fill_round6.json"),
     ]
     blocks: list[dict] = []
     loaded: set[str] = set()
