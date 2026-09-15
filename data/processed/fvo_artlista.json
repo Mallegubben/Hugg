@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T17:07:39.263101+00:00",
+    "generated_at": "2026-09-15T17:13:56.825953+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -262968,7 +262968,8 @@
       ],
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "abborresjon.se"
       ],
       "vatten": [
         {
@@ -262987,6 +262988,43 @@
           "senaste_fiskeaar": 1993,
           "referenser": [
             "http://aquarapport.slu.se/default.aspx?ID=98&X=6431500&Y=1291560"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Abborresjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "abborresjon.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.abborresjon.se/abborresjon"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Kroksjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Regnbåge",
+            "Röding",
+            "Öring"
+          ],
+          "kallor": [
+            "abborresjon.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.abborresjon.se/stora-kroksjon.html"
           ]
         }
       ],
@@ -263040,7 +263078,11 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-abborresjon-boljesjon-ottersjon-stora-kroksjon.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.abborresjon.se/abborresjon",
+        "https://www.abborresjon.se/stora-kroksjon.html"
+      ]
     },
     {
       "original_id": 2095,

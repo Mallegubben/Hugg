@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T17:07:39.517600+00:00",
+  "generated_at": "2026-09-15T17:13:57.089733+00:00",
   "antal_fvo": 1907,
   "antal_arter": 86,
-  "antal_vatten": 5881,
+  "antal_vatten": 5882,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -1771,7 +1771,7 @@
       "utan_artlista": 7,
       "tackning_pct": 97.9,
       "fvo_med_vattenposter": 262,
-      "antal_vattenposter": 887,
+      "antal_vattenposter": 889,
       "fvo_ids": [
         1824,
         1825,
@@ -30100,6 +30100,18 @@
           "arter": [
             "Abborre",
             "Mört",
+            "Regnbåge",
+            "Öring"
+          ]
+        }
+      ],
+      "Abborresjön": [
+        {
+          "fvo_id": 1983,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
             "Regnbåge",
             "Öring"
           ]
@@ -124888,6 +124900,17 @@
             "Gädda",
             "Mört",
             "Sutare"
+          ]
+        },
+        {
+          "fvo_id": 1983,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge",
+            "Röding",
+            "Öring"
           ]
         }
       ],
@@ -318655,7 +318678,8 @@
       "url_fvof": "www.abborresjon.se",
       "kallor": [
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "abborresjon.se"
       ],
       "arter": [
         "Abborre",
@@ -318688,6 +318712,35 @@
             "SERS"
           ],
           "senaste_fiskeaar": 1993
+        },
+        {
+          "typ": "sjö",
+          "namn": "Abborresjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "abborresjon.se"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Kroksjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge",
+            "Röding",
+            "Öring"
+          ],
+          "kallor": [
+            "abborresjon.se"
+          ],
+          "senaste_fiskeaar": null
         }
       ]
     },
