@@ -1,0 +1,783 @@
+{
+  "generated_at": "2026-09-15T17:41:51+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only explicit 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna/iFiske prose. No iFiske icons. Multi-lake only when source assigns species per named water or clearly to all named lakes."
+  },
+  "stats": {
+    "fvo_with_enrichments": 17,
+    "total_vatten_rows": 59,
+    "by_lan": {
+      "Västerbotten": 7,
+      "Västernorrland": 4,
+      "Västernorrland, Jämtland": 1,
+      "Jämtland": 1,
+      "Norrbotten": 2,
+      "Gävleborg": 2
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Knaftens fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Örån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Örån (Öre älv): Öring, harr, gädda, abborre. (Även: I Öråns strömmande avsnitt finns det harr och öring.)"
+        },
+        {
+          "namn": "Mettjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Mettjärn: Abborre, öring. (I Mettjärn finns ett naturbestånd av öring, men den domineras av abborre.)"
+        },
+        {
+          "namn": "Blåtjärnarna",
+          "arter": [
+            "Regnbåge",
+            "Röding"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Blåtjärnarna: Röding, regnbåge. (I Blåtjärnarna och Gumsnästjärn sker fiskutsättningar vår och höst.)"
+        },
+        {
+          "namn": "Gumsnästjärn",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "visitlycksele.se",
+          "url": "https://visitlycksele.se/knaften-fvo/",
+          "evidence": "Fiskarter — Gumsnästjärn: Öring, regnbåge."
+        }
+      ]
+    },
+    {
+      "namn": "Arnträsk-Mensträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Mensträsket",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "norsjosfk.se",
+          "url": "http://www.norsjosfk.se/fishing/other_fishing.htm",
+          "evidence": "Pimpelabborre från Mensträsk … Abborre: … Norsjön, Mensträsket är ett par sjöar med grov fisk."
+        }
+      ]
+    },
+    {
+      "namn": "Pausele-Bäcknäs fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Umeälven",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "sportfiskeguide.se",
+          "url": "https://www.sportfiskeguide.se/spfguide/vatten/umealven.htm",
+          "evidence": "Pausele - Bäcknäs FVO … I Umeälven finns lake, harr, sik och öring, men domineras av abborre och gädda."
+        },
+        {
+          "namn": "Paubäcken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "lycksele.se (kommunfolder Paubäcken)",
+          "url": "https://www.lycksele.se/globalassets/dokument/4-fritid-och-kultur/paubacken_low.pdf",
+          "evidence": "Fisket i Paubäcken är uppdelat på fyra fiskerättsinnehavare. … längst ner Pausele/Bäcknäs vars kort också gäller i delar av Umeälven. I de strömmande delarna av bäcken finns harr och öring. Gädda och abborre finns i hela bäcken."
+        }
+      ]
+    },
+    {
+      "namn": "Leduåns fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Leduån",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-leduan.htm",
+          "evidence": "Leduån har ett bestånd av stationär öring …"
+        },
+        {
+          "namn": "Bjärtsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-leduan.htm",
+          "evidence": "Det finns 6 sjöar inom Leduåns FVO … Fisket i sjöarna utgör främst fiske efter abborre och gädda … Leduån, Bjärtsjön, Sunnansjö, Ledusjö, Björnsjön, Nyåkerssjön."
+        },
+        {
+          "namn": "Sunnansjö",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-leduan.htm",
+          "evidence": "Fisket i sjöarna utgör främst fiske efter abborre och gädda … (namngivna FVO-sjöar inkl. Sunnansjö)."
+        },
+        {
+          "namn": "Ledusjö",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-leduan.htm",
+          "evidence": "Fisket i sjöarna utgör främst fiske efter abborre och gädda … (namngivna FVO-sjöar inkl. Ledusjö)."
+        },
+        {
+          "namn": "Björnsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-leduan.htm",
+          "evidence": "Fisket i sjöarna utgör främst fiske efter abborre och gädda … (namngivna FVO-sjöar inkl. Björnsjön)."
+        },
+        {
+          "namn": "Nyåkerssjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-leduan.htm",
+          "evidence": "Fisket i sjöarna utgör främst fiske efter abborre och gädda … (namngivna FVO-sjöar inkl. Nyåkerssjön)."
+        }
+      ]
+    },
+    {
+      "namn": "Rödåbygdens fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Vindelälven",
+          "arter": [
+            "Lax"
+          ],
+          "kalla": "landsbygdsturism.se (Tavelsjö-Vindelälven)",
+          "url": "https://www.landsbygdsturism.se/en/fiske/fiske-i-vindelalven/",
+          "evidence": "Rödåbygdens Fvo upplåter del av Vindelälven och Rödån, samt ett antal sjöar för fiske. I Vindelälven har du chans att fånga lax och i sjöarna hittar du ett bra fiske efter abborre och gädda. (Sjöarna namnges ej — endast Vindelälven×lax tagen.)"
+        }
+      ]
+    },
+    {
+      "namn": "Trehörningens fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Trehörningen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-trehorningen.htm",
+          "evidence": "Här hittar du ett bra abborrfiske … I sjön finns också gädda, mört, lake och en och annan gös. Trehörningens Fvo förvaltar fisket i Trehörningen och Västerbackatjärnen."
+        },
+        {
+          "namn": "Västerbackatjärnen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-trehorningen.htm",
+          "evidence": "I Västerbackatjärnen har du chans att fånga regnbåge … I tjärnen finns också stor gädda samt abborre och mört."
+        }
+      ]
+    },
+    {
+      "namn": "Västansjö fvof",
+      "lan": "Västerbotten",
+      "vatten": [
+        {
+          "namn": "Västansjön",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "sodralappland.nu",
+          "url": "https://sodralappland.nu/fiskeomraden/fiskeomraden-vilhelmina/vastansjo-samfallighetsforening/",
+          "evidence": "Området har … Västansjön, Bletiken, Bollvattnet, Lilla Sutsjaure, Stora Sutsjaure och Atjiken. … Området erbjuder fiske efter röding, öring och abborre. Tillgången på fisk varierar mellan sjöarna. Störst chans till fångst av grov röding och öring torde finnas i Västansjön. (Endast Västansjön namngiven för arter; övriga sjöar ej tagna.)"
+        }
+      ]
+    },
+    {
+      "namn": "Binböletjärns fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Binböletjärn",
+          "arter": [
+            "Lake",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-binboletjarn.htm",
+          "evidence": "I tjärnen finns såväl öring (självreproducerande i tjärnen) och röding. … Den enda ursprungliga fiskart som överlevde rotenonbehandlingen var lake som än idag kan fås vid fiske i sjön, om än ganska sällan."
+        }
+      ]
+    },
+    {
+      "namn": "Bölens fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Stortjärn",
+          "arter": [
+            "Harr",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-bolens-fvof-stortjarn-hamptjarn.htm",
+          "evidence": "Välkommen till Bölens FVOF där det finns två stycken tjärnar som är sammankopplade med en kanal. … Här kan du fånga både öring och röding, även harr om lyckan finns med."
+        },
+        {
+          "namn": "Hamptjärn",
+          "arter": [
+            "Harr",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-bolens-fvof-stortjarn-hamptjarn.htm",
+          "evidence": "Samma prosa för de två sammankopplade tjärnarna Stortjärn och Hamptjärn: öring, röding och harr."
+        }
+      ]
+    },
+    {
+      "namn": "Hällsjö fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Stor-Hällsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-stor-hallsjon-lill-hallsjon-morttjarn.htm",
+          "evidence": "I Stor-Hällsjön och Lill-Hällsjön finns abborre, gädda, lake, mört och gös."
+        },
+        {
+          "namn": "Lill-Hällsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-stor-hallsjon-lill-hallsjon-morttjarn.htm",
+          "evidence": "I Stor-Hällsjön och Lill-Hällsjön finns abborre, gädda, lake, mört och gös."
+        },
+        {
+          "namn": "Mörttjärn",
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-stor-hallsjon-lill-hallsjon-morttjarn.htm",
+          "evidence": "Mörttjärnen hyser öring, mört och abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "note": "Örnsköldsvik / iFiske kundnr 3530 — en av två Y-Långvattnets med 0 vatten; den andra saknar motsvarande per-vatten prosa.",
+      "vatten": [
+        {
+          "namn": "Salomonstjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Salomonstjärn: Salomonstjärn har inplanterad regnbåge."
+        },
+        {
+          "namn": "Stensvattnet",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Stensvattnet: Stensvattnet har naturligt bestånd av öring och abborre."
+        },
+        {
+          "namn": "Lidtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Lidtjärn: Lidtjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Lill-Malklippstjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Lill-Malklippstjärn: Lill-Malklippstjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Kastertjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Kastertjärn: Kastertjärn har inplanterad Öring."
+        },
+        {
+          "namn": "Stor-Malklippstjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Stor-Malklippstjärn: Stor-Malklippstjärn har naturligt bestånd av Öring och Abborre."
+        },
+        {
+          "namn": "Långvattsån",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-langvattnets-fvof-salomonstjarn-lidtjarn-lill-malklippstjarn-stensvattnet-m-fl.htm",
+          "evidence": "Långvattsån: långvattsån har naturligt bestånd av Öring och Abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Ånge fvof",
+      "lan": "Västernorrland, Jämtland",
+      "vatten": [
+        {
+          "namn": "Rången",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Fiskarter — Öring: Vanlig Rången, Kniptjärn, Djuptjärn, Abborrtjärn. Röding: Vanlig Rången, Kniptjärn, Djuptjärn."
+        },
+        {
+          "namn": "Kniptjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Öring … Rången, Kniptjärn, Djuptjärn, Abborrtjärn. Röding … Rången, Kniptjärn, Djuptjärn."
+        },
+        {
+          "namn": "Djuptjärn",
+          "arter": [
+            "Abborre",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Öring/Röding listade för Djuptjärn; Abborre: Normalt Djuptjärn."
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Öring: Vanlig … Abborrtjärn."
+        },
+        {
+          "namn": "Vattensjön",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-rangen-kniptjarn-djuptjarn-m-fl-vatten.htm",
+          "evidence": "Gädda: Lite Vattensjön."
+        }
+      ]
+    },
+    {
+      "namn": "Mo-Östersjöns fvof",
+      "lan": "Jämtland",
+      "vatten": [
+        {
+          "namn": "Mosjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Sik",
+            "Sutare"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "I Mosjön och Östersjön finns sik av hög kvalitet, i övrigt utgörs fiskfaunan av rikligt med abborre, stor gädda samt vitfiskar som id och mört. Sutare har inplanterats i Mosjön och visat god tillväxt."
+        },
+        {
+          "namn": "Östersjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Sik"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "I Mosjön och Östersjön finns sik … abborre, stor gädda samt vitfiskar som id och mört."
+        },
+        {
+          "namn": "Flärken",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "… mindre sjöar/tjärnar … såsom Flärken … Områdets småsjöar karaktäriseras som gädd och abborrvatten."
+        },
+        {
+          "namn": "Fjälån",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "Fjälån, Gällerån och Bölesbäcken håller stationär öring."
+        },
+        {
+          "namn": "Gällerån",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "Fjälån, Gällerån och Bölesbäcken håller stationär öring."
+        },
+        {
+          "namn": "Bölesbäcken",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "Fjälån, Gällerån och Bölesbäcken håller stationär öring."
+        }
+      ]
+    },
+    {
+      "namn": "Racksund-Östansjö fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Uddjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-racksund-ostansjo.htm",
+          "evidence": "Omfattar del av sjöarna Uddjaur och Aisjaur, samt sjöarna Akkelisjaure och Varrajaure. … I vattnen finns harr, öring, röding, gädda, abborre, sik och lake."
+        },
+        {
+          "namn": "Aisjaur",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-racksund-ostansjo.htm",
+          "evidence": "Samma artlista för alla namngivna vatten: harr, öring, röding, gädda, abborre, sik och lake."
+        },
+        {
+          "namn": "Akkelisjaure",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-racksund-ostansjo.htm",
+          "evidence": "Samma artlista för alla namngivna vatten: harr, öring, röding, gädda, abborre, sik och lake."
+        },
+        {
+          "namn": "Varrajaure",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-racksund-ostansjo.htm",
+          "evidence": "Samma artlista för alla namngivna vatten: harr, öring, röding, gädda, abborre, sik och lake."
+        }
+      ]
+    },
+    {
+      "namn": "Kangos fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Torneälven",
+          "arter": [
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "balticsalmonfund.com / Laxrapporten 2024",
+          "url": "https://balticsalmonfund.com/wp-content/uploads/2025/04/Laxrapporten-2024.pdf",
+          "evidence": "Torneälven, Kangos FvO — Namn på vattendraget: Torneälv inkl. biflöden; förvaltning Kangos FvO. Totalt antal fångade laxar: 50; Totalt antal fångade öringar: 10. (Även: Honlaxförbud … Alla havsöring fredad …)."
+        }
+      ]
+    },
+    {
+      "namn": "Medskogssjöns fvof",
+      "lan": "Gävleborg",
+      "vatten": [
+        {
+          "namn": "Medskogssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Röding"
+          ],
+          "kalla": "ifiske.se (prosa) / Medskogssjöns SFK",
+          "url": "https://www.ifiske.se/fiske-medskogssjons-sfk.htm",
+          "evidence": "Vi kommer vi planterar in regnbåge kontinuerligt … Det har även planterats in röding inför vinterfisket. … Medskogssjöns sportfiskeklubb … bedriva ett put and takefiske i Medskogssjön med inplantering av regnbåge och röding. Fiskarter: Regnbåge, Röding, Abborre, Mört, Gädda."
+        }
+      ]
+    },
+    {
+      "namn": "Nianfors och Nedre Delångersåns fvof",
+      "lan": "Gävleborg",
+      "vatten": [
+        {
+          "namn": "Delångersån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "I Delångersån nedströms Ölsundsbron (Uppströms Forsa FVO) kan man fiska från båt, främst Gädda och Abborre men även gös. … ISFK ansvarar om fiskevattnen i Nianforsåns samt Nedre Delångersån fiskevårdsområde …"
+        },
+        {
+          "namn": "Nianforsån",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "I Nianforsån finns i huvudsak Öring."
+        },
+        {
+          "namn": "Nianforssjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "… större vatten som t.ex Nianforssjöarna, Mjuggsjön, Skarplyckasjön, Iggsjön, Pappersavan samt Vikarsjön med fina abborrar, gäddor samt ett mindre bestånd av gös och öring."
+        },
+        {
+          "namn": "Mjuggsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Samma: Mjuggsjön … fina abborrar, gäddor samt ett mindre bestånd av gös och öring."
+        },
+        {
+          "namn": "Skarplyckasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Samma artlista för namngivna större vatten inkl. Skarplyckasjön."
+        },
+        {
+          "namn": "Iggsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Samma artlista för namngivna större vatten inkl. Iggsjön."
+        },
+        {
+          "namn": "Pappersavan",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Samma artlista för namngivna större vatten inkl. Pappersavan."
+        },
+        {
+          "namn": "Vikarsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Samma artlista för namngivna större vatten inkl. Vikarsjön."
+        },
+        {
+          "namn": "Hornsjön",
+          "arter": [
+            "Regnbåge",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Hornsjön, Regnbåge, Röding och Öring … (P&T inom FVO)."
+        },
+        {
+          "namn": "Bruntjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Bruntjärn, Röding samt naturligt bestånd av fin Öring."
+        },
+        {
+          "namn": "Långsbotjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Långsbotjärn, Regnbåge."
+        },
+        {
+          "namn": "Tronbotjärnen",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa) / Iggesunds SFK",
+          "url": "https://www.ifiske.se/fiske-iggesunds-sfk.htm",
+          "evidence": "Tronbotjärnen, Öring."
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    "Bjurträsk / Byssträsk-Nylidens / Holmträskbygdens / Kokträsk / Kussjö / Maltträsk / Petikträsk / Rökåbygdens / Rörträsk-Bredträsks / Saxnäs / Släppträsk / Stora Sikträskets / Strömsjönäs (VB): Visit Lycksele/Skellefteå/Umeå utan 1:1 water×species; iFiske 404 eller endast ikoner; Wikipedia Kedträsket (Bjurträsk) ej använd — ej prefererad källa",
+    "Rödåbygden: vindelalven.laxportalen / landsbygdsturism nämner abborre+gädda i 'sjöarna' utan namngivna sjöar — endast Vindelälven×lax tagen ovan",
+    "Leduån: projektleduan.se regler utan lake-roster; Wikipedia öring/harr i ån — ej använd; iFiske-prosa använd ovan",
+    "Käls fvof: iFiske 'regnbåge/röding i vissa vatten, gädda/abborre i några' — ej vattenbundet (bekräftat)",
+    "Långvattnets fvof #2 (Y, 18 arter / vattenagarna o=545): ingen separat per-vatten prosa hittad; Örnsköldsvik-sidan tillskriven den andra Y-posten ovan",
+    "Lövsjösjöns / Nordanede / Ranasjöns / Stortannsjöns / Stybbersmarkssjöns / Sätra / Östanskärs (Y): iFiske-URL:er 404; vattenagarna/kommun utan water×species",
+    "Fjällsjö fvof: backe.nu listar arter på FVO-nivå och bynamn/Stortjärn/Blåtjärn/Bergsjön utan per-vatten artkoppling — rejected",
+    "Flors / Landsomsjöns / Stor-Raftsjöns (Z): ingen FVOF/tourism-prosa med namngivet water×species; Stor-Raftsjön ingår i Sandvikssjön-Edsforsens FVOF (annan förening) — ej 1:1",
+    "Holmträsk (NB): ej samma som Holmträsk-Storsjö (Åsele); iFiske 404",
+    "Luleå / Mellanströms / Sävast-Unbyns / Suaningi / Trångforsens / Vistträsk (NB): iFiske utan water×species-prosa (Trångforsen/Mellanström endast ikoner eller områdesnivå 't.ex.'; Luleå FVOF tom artsektion); kommunsidor utan roster",
+    "Mellanströms: 'abborre, gädda, harr, sik och öring' på FVO-nivå utan namngivna vatten — rejected",
+    "Trångforsens: Luleälven-sträcka namngiven men Fiskarter-sektion utan prosa (ikonrisk) — rejected"
+  ]
+}
