@@ -1,0 +1,440 @@
+{
+  "generated_at": "2026-09-15T18:45:00Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske/Hitta Fiske/Naturkartan icon-only species lists. No fuzzy cross-county matches (Gulten-Hanesjön Finspång ≠ Hökensås/Tiveden Hanesjön; Stora Sikträsk Norsjö ≠ Gällivare Sikträsk; Saxnäs Sorsele ≠ Vilhelmina Saxnäs/Kultsjön; Rörträsk-Bredträsk needs clear FVO link)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 2,
+    "total_vatten_rows": 10,
+    "searched_but_empty": 48,
+    "by_lan": {
+      "Västerbotten": 1,
+      "Östergötland": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "object_id": 75,
+      "vatten": [
+        {
+          "namn": "Stenträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Byssträsk-Nyliden FVO … Detta FVO omfattas av ett sjö- och vattenrikt system med god tillgång av abborre och gädda, dessutom finns lake, mört och siklöja. … Stenträsket – känt för sitt ofta fina abborrfiske. (bysstrask.se samma lista + snorgärs; Stenträsket abborrfiske.)"
+        },
+        {
+          "namn": "Byssträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Systemarter abborre, gädda, lake, mört, siklöja. Byssträsket – sjön där de största gäddorna fångats. (bysstrask.se: historiska gäddor kring 10–12 kg; abborrar omkring 1,5–2 kg i närliggande vatten.)"
+        },
+        {
+          "namn": "Kalven",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Systemarter abborre, gädda, lake, mört, siklöja. Kalven – har under senare år levererat ett antal riktigt grova abborrar."
+        },
+        {
+          "namn": "Holmträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Systemarter abborre, gädda, lake, mört, siklöja. Holmträsket – även den sjön (förhållandevis liten) har ett fint abborrfiske, speciellt på våren. (Ej Holmträskbygdens fvof/Norsjö.)"
+        },
+        {
+          "namn": "Lappträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Systemarter abborre, gädda, lake, mört, siklöja. Lappträsket – bidrar även den med grov abborre, och även skaplig gädda."
+        },
+        {
+          "namn": "Vittanträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Systemarter abborre, gädda, lake, mört, siklöja. Vittanträsket – bra abborrvatten."
+        },
+        {
+          "namn": "Gäddbäcken",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Gäddbäcken – upp till gränsen mot Gäddträsk. Namnet förpliktar!"
+        },
+        {
+          "namn": "Byssjan",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "visitlycksele.se / bysstrask.se",
+          "url": "https://visitlycksele.se/bysstrask-nyliden-fvo/",
+          "evidence": "Byssjan – ner till Nottjärn. Mycket trevligt och fiskrikt gäddvatten för de som föredrar strömmande vatten."
+        }
+      ]
+    },
+    {
+      "namn": "Gulten-Hanesjöns fvof",
+      "lan": "Östergötland",
+      "object_id": 359,
+      "vatten": [
+        {
+          "namn": "Gulten",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "eurotourism.com Finspång turistguide (kommun/turism)",
+          "url": "http://eurotourism.com/SE/guides/Finspang/Finspang.pdf",
+          "evidence": "Gulten-Hanesjöns Fiskevårdsförening — Fiskarter: Aborre, gädda, vitfisk i samtliga sjöar. (vitfisk ej artifierad; Finspång-guide 0122 — ej Hökensås/Tiveden Hanesjön.)"
+        },
+        {
+          "namn": "Hanesjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "eurotourism.com Finspång turistguide (kommun/turism)",
+          "url": "http://eurotourism.com/SE/guides/Finspang/Finspang.pdf",
+          "evidence": "Samma Finspång-prosa för Gulten-Hanesjöns FVF: Aborre, gädda, vitfisk i samtliga sjöar. Hanesjön namngiven i FVF/FVO; Finspång/Hällestad — ej Tiveden regnbågssjö."
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Antvardens fvof",
+      "lan": "Östergötland",
+      "object_id": 341,
+      "notes": "Åtvidaberg/Västervik. Sjödetektiven Antvarden utan fiskfauna. iFiske saknar prosa-sida (404). Kindaturism/Visit Östergötland/vattenagarna utan artprosa. Fishbrain/fångstrapporter ej godkända som källa."
+    },
+    {
+      "namn": "Byngarens fvof",
+      "lan": "Östergötland",
+      "object_id": 368,
+      "notes": "Valdemarsvik. Naturkartan/Östgötaleden vindskydd vid Byngaren utan fiskarter. Sjödetektiven utan fauna. iFiske 404. Kommun/turism utan 1:1 artprosa."
+    },
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "object_id": 357,
+      "notes": "Finspång. Eurotourism Finspång listar ej Grytgöls FVF med arter. Sjödetektiven Grytgölen/Gryten utan fauna. Finspångs FVF sjölista inkluderar ej Grytgöls vatten."
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "object_id": 369,
+      "notes": "Kinda/Åtvidaberg. Kinda.se fiske är generellt (abborre/gädda/gös/röding) utan namngiven Horsfjärden. Sjödetektiven/Wikipedia utan fauna. Kindaturism saknar Horsfjärden-objekt med arter."
+    },
+    {
+      "namn": "Rippestorps fvof",
+      "lan": "Östergötland",
+      "object_id": 329,
+      "notes": "Finspång. vattenagarna o=695 Rippestorp Samfällighet contact-only, ingen artprosa. Sjödetektiven Övre Ripplingen/Hagsjön utan fauna."
+    },
+    {
+      "namn": "Tångens fvof",
+      "lan": "Östergötland",
+      "object_id": 327,
+      "notes": "Ydre. Sjödetektiven Tången utan fauna. Ydre kommun fiske-URL 404. Ingen tourism/FVOF 1:1 artprosa."
+    },
+    {
+      "namn": "Värnasjön-Strålången fvof",
+      "lan": "Östergötland",
+      "object_id": 373,
+      "notes": "Åtvidaberg. Sjödetektiven Värnasjön/Strålången/Dyveln utan fauna. SYNA org-post utan arter. Ingen municipal/tourism artprosa."
+    },
+    {
+      "namn": "Värnässjöns fvof",
+      "lan": "Östergötland",
+      "object_id": 365,
+      "notes": "Åtvidaberg/Linköping. Sjödetektiven Värnässjön eutrofi-text utan fiskarter. Ingen FVOF/tourism 1:1."
+    },
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "object_id": 339,
+      "notes": "Kinda. vattenagarna o=692 + iFiske prose beskriver sjöarna (Åländern, Axsjön, Vån, Högsjöarna) men artlista endast iFiske Fiskarter-ikoner (Abborre/Gädda/…/Gös) — ej tillåten. Naturkartan Åländern Runt cykelled utan fisk. Kindaturism sök utan artprosa."
+    },
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "object_id": 349,
+      "notes": "Kinda. Sjödetektiven Skirsjön Kinda utan fauna (Norrköping-Skirsjön fauna rejected — cross-water). Kindaturism utan Ödesjöboda FVO-objekt med arter."
+    },
+    {
+      "namn": "Österby fvof",
+      "lan": "Östergötland",
+      "object_id": 350,
+      "notes": "Kinda. Ingen Hitta Fiske/Naturkartan/tourism artprosa för Österby/Fagerhultegöl."
+    },
+    {
+      "namn": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 182,
+      "notes": "Norsjö. Visit Lycksele sök utan FVO-sida. norsjosfk other_fishing nämner ej Bjurträsk. iFiske 404. Ingen municipal artprosa."
+    },
+    {
+      "namn": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 66,
+      "notes": "Norsjö. Ej samma Holmträsket som i Byssträsk-Nyliden (Lycksele). Ingen Norsjö/Visit Lycksele/norsjosfk 1:1 för Holmträskbygdens FVO."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Visit Lycksele sök tomt. Wikipedia Kokträsket utan fiskfauna. Malå kommun fiske-URL 404. Ingen tourism artprosa."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln. Visit Vindeln har Lillsandsjön/Storsandsjön/Vindelbygden — ej Kussjö. Ingen FVO-sida med arter."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. visitlycksele kanotled-maltan nämner Maltträsk/Maltån men ingen fiskart. Ingen FVO-sida."
+    },
+    {
+      "namn": "Petikträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 213,
+      "notes": "Norsjö/Skellefteå. Visit Lycksele/norsjosfk utan namngiven Petikträsk artprosa."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 197,
+      "notes": "Norsjö/Malå/Lycksele. Visit Lycksele Rökå-sök träffade Kattisavans FVO (annan). Ingen Rökåbygden artprosa."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "object_id": 1883,
+      "notes": "Norsjö. norsjosfk other_fishing: BREDTRÄSKET ~1,5 mil S Glommersträsk med sik + även harr, öring, röding — men ingen explicit FVO-länk till Rörträsk-Bredträsks fvof; röding saknas i FVO arter. Policy: needs clear FVO link — ej använt."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "notes": "Sorsele (Vindelälven). vindelalvsfiske listar Saxnäs FVO utan arter. Rejected Vilhelmina Saxnäs/Kultsjön fjällöring-prosa (annan plats). Sorsele kommun fiske generellt utan Saxnäs 1:1."
+    },
+    {
+      "namn": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 199,
+      "notes": "Malå/Lycksele. Visit Lycksele sök utan FVO-sida med arter."
+    },
+    {
+      "namn": "Stora Sikträskets fvof",
+      "lan": "Västerbotten",
+      "object_id": 128,
+      "notes": "Norsjö. FishAngler/user-catch listor ej godkända. Wikipedia 404. Ej Gällivare Sikträsk. norsjosfk nämner ej Stora Sikträsk. Ingen tourism 1:1."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 54,
+      "notes": "Bjurholm/Vindeln/Lycksele. Visit Lycksele fiska-i-lycksele generellt gädda/abborre utan namngiven Strömsjönäs. Ingen FVO-sida."
+    },
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "notes": "Nybro. Re-check: nybro.se/vattenagarna/tourism fortfarande utan 1:1 water×species (round10 empty)."
+    },
+    {
+      "namn": "Elmarens fvof",
+      "lan": "Kalmar",
+      "object_id": 742,
+      "notes": "Västervik. Re-check: vastervik.com guide utan Älmaren/Elmaren artprosa (round10 empty)."
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "notes": "Västervik. Gunnebo/Västerviks SFK arter ej överförbara. Ingen Gladhammars-specifik 1:1 (round10 empty)."
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "lan": "Kalmar",
+      "object_id": 739,
+      "notes": "Rejected Överlida/VG Hallången. Ingen Kalmar Hallången artprosa (round10 empty)."
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "notes": "Västervik skärgård. Ingen municipal/tourism species prose (round10 empty)."
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "lan": "Kalmar",
+      "object_id": 745,
+      "notes": "Hultsfred. Wikipedia Lilla Hammarsjön Åtvidaberg rejected. Visit Hultsfred utan arter (round10 empty)."
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "notes": "Oskarshamn. Naturkartan reservat utan fiskarter (round10 empty)."
+    },
+    {
+      "namn": "Rådens fvof",
+      "lan": "Kalmar",
+      "object_id": 728,
+      "notes": "Hultsfred. Rejected Rådanesjön VG. Ingen Hultsfred artprosa (round10 empty)."
+    },
+    {
+      "namn": "Sladö fvof",
+      "lan": "Kalmar",
+      "object_id": 759,
+      "notes": "Västervik skärgård. Ingen artprosa (round10 empty)."
+    },
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "lan": "Jönköping",
+      "object_id": 493,
+      "notes": "Eksjö. Mariannelunds Bruzaån ej bekräftad som Mellersta FVOF (round10 empty)."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 566,
+      "notes": "Mullsjö. Hitta Fiske/NK icon-only; kommun utan Brännerisjön (round10 empty)."
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "lan": "Jönköping",
+      "object_id": 449,
+      "notes": "Jönköping. Tabergsån/Åsasjöarna blandade FVO — ej 1:1 (round10 empty)."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 527,
+      "notes": "Bankeryd. NK/Hitta Fiske icon-only; ingen narrative (round10 empty)."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 466,
+      "notes": "Ödestugu. Rejected Svenljunga Älesjön VG (round10 empty)."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "notes": "Grums. lakevanern.se/grums.se nämner Portilasjön bland sjöar men utan fiskarter. iFiske 404. Ingen 1:1."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "notes": "Flera Sälsjön i Värmland. iFiske 404. Ingen tourism artprosa hittad."
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "object_id": 1375,
+      "notes": "iFiske 404. Ingen municipal/tourism 1:1 artprosa."
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "notes": "iFiske 404. Ingen tourism artprosa."
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1287,
+      "notes": "Ingen verifierad water×species prose."
+    },
+    {
+      "namn": "Nästjärnens fvof",
+      "lan": "Värmland",
+      "object_id": 1289,
+      "notes": "Grums nämner Nästjärn utan arter. Ingen 1:1."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "notes": "iFiske karta only; ingen artprosa."
+    },
+    {
+      "namn": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "object_id": 1271,
+      "notes": "Ingen tourism/municipal artprosa."
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1369,
+      "notes": "iFiske redirect till Forshaga krets utan artprosa för Syrsjön/Torptjärn."
+    },
+    {
+      "namn": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1327,
+      "notes": "Rejected Yttre Lemesjön/Sönnerstjärn (annan FVO, put-and-take öring/regnbåge)."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "notes": "Ingen verifierad 1:1 artprosa."
+    }
+  ]
+}

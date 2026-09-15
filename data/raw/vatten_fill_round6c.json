@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "round": "6c",
+    "policy": "1:1 FVO↔källa; aldrig iFiske-ikoner/NatureIT/Artportalen; Hitta Fiske/Naturkartan OK med namngivna vatten"
+  },
+  "enrichments": [
+    {
+      "namn": "Gravsjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Gravsjön",
+          "arter": ["Abborre", "Gädda", "Mört"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/gravsjons-fvof/",
+          "evidence": "Välkommen till Gravsjön! … Fiskarter: gädda, abborre och mört. (Aneby-Gravsjön med 0 vattenposter; Mullsjö-Gravsjön har redan vatten.)"
+        }
+      ]
+    },
+    {
+      "namn": "Regnaren-Ålsjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Regnaren",
+          "arter": ["Gädda", "Gös", "Ål"],
+          "kalla": "regnaren-alsjonfiske.se",
+          "url": "https://regnaren-alsjonfiske.se/",
+          "evidence": "För fiske i Regnaren & Ålsjön. Inplantering av Gös i Regnaren (2024) och i både Regnaren och Ålsjön (2023). Fiskeregler anger min/max för Gös & Gädda samt minimimått för Ål."
+        },
+        {
+          "namn": "Ålsjön",
+          "arter": ["Gädda", "Gös", "Ål"],
+          "kalla": "regnaren-alsjonfiske.se",
+          "url": "https://regnaren-alsjonfiske.se/",
+          "evidence": "Samma: Gös inplanterad i Ålsjön; regler för Gös, Gädda och Ål gäller föreningens sjöar Regnaren och Ålsjön."
+        }
+      ]
+    },
+    {
+      "namn": "Flagens fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Flagen",
+          "arter": ["Abborre", "Gädda", "Mört", "Ruda", "Sutare"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/",
+          "evidence": "Fiskevatten: Flagen, Ryd och Ödshultasjön. Arter på Hitta Fiske: Abborre, Gädda, Mört, Ruda, Sutare."
+        },
+        {
+          "namn": "Ryd",
+          "arter": ["Abborre", "Gädda", "Mört", "Ruda", "Sutare"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/",
+          "evidence": "Samma FVO-artlista för Flagen, Ryd och Ödshultasjön."
+        },
+        {
+          "namn": "Ödshultasjön",
+          "arter": ["Abborre", "Gädda", "Mört", "Ruda", "Sutare"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/flagens-fvof/",
+          "evidence": "Samma FVO-artlista för Flagen, Ryd och Ödshultasjön."
+        }
+      ]
+    },
+    {
+      "namn": "Lökarydsjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Lökarydsjön",
+          "arter": ["Abborre", "Gädda", "Mört", "Ruda"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/lokarydsjons-fvof/",
+          "evidence": "Hitta Fiske Lökarydsjöns fvof — Arter: Abborre, Gädda, Mört, Ruda. (Enkelsjö-FVO.)"
+        }
+      ]
+    },
+    {
+      "namn": "Söljens fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Söljen",
+          "arter": ["Abborre", "Braxen", "Gädda", "Mört", "Sarv", "Sutare", "Ål"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/soljens-fvof/",
+          "evidence": "Hitta Fiske Söljens fvof — Arter: Abborre, Braxen, Gädda, Mört, Sarv, Sutare, Ål."
+        }
+      ]
+    },
+    {
+      "namn": "Öasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Öasjön",
+          "arter": ["Abborre", "Gädda", "Lake", "Mört", "Sik"],
+          "kalla": "hittafiske",
+          "url": "https://www.hittafiske.se/planera-ditt-fiske/oasjons-fvof/",
+          "evidence": "Hitta Fiske Öasjöns fvof namnger Öasjön — Arter: Abborre, Gädda, Lake, Mört, Sik."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "round": "6b",
+    "policy": "1:1 FVO↔källa; aldrig iFiske-ikoner/NatureIT/Artportalen"
+  },
+  "enrichments": [
+    {
+      "namn": "Björkens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Björken",
+          "arter": ["Abborre", "Braxen", "Gädda", "Lake", "Mört", "Ruda", "Sutare"],
+          "kalla": "vattenagarna",
+          "url": "https://web2.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=509",
+          "evidence": "Björkens FVOF består av Stora Björken och Lilla Björken. Sjöarna är kända för sitt goda bestånd av stor gädda. Övriga fiskarter som förekommer är abborre, braxen, sutare, mört, ruda och lake."
+        },
+        {
+          "namn": "Lilla Björken",
+          "arter": ["Abborre", "Braxen", "Gädda", "Lake", "Mört", "Ruda", "Sutare"],
+          "kalla": "vattenagarna",
+          "url": "https://web2.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=509",
+          "evidence": "Samma artlista för Stora och Lilla Björken."
+        }
+      ]
+    },
+    {
+      "namn": "Sjönsjö fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Sjönsjö",
+          "arter": ["Abborre", "Gädda", "Gös"],
+          "kalla": "saffle.se",
+          "url": "https://saffle.se/uppleva-och-gora/visit-saffle/se-gora--ata/fiska.html",
+          "evidence": "Prova fiskelyckan i stillsamma Sjönsjö — Fiska gädda, abborre och gös i gemytliga Sjönsjö."
+        }
+      ]
+    },
+    {
+      "namn": "Gransjöns fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Gransjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gärs",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kalla": "gransjon.se",
+          "url": "https://gransjon.se/sida2a.php",
+          "evidence": "Gransjöns FVO: två sjöar Gransjön och Källbysjön. Fiskarter som vi får idag: abborre, gärs, gädda, mört, sarv, benlöja, braxen, sutare och lake."
+        },
+        {
+          "namn": "Källbysjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gärs",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kalla": "gransjon.se",
+          "url": "https://gransjon.se/sida2a.php",
+          "evidence": "Samma FVO-artlista för Gransjön och Källbysjön."
+        }
+      ]
+    }
+  ]
+}

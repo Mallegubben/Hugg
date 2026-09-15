@@ -1,0 +1,29 @@
+{
+  "enrichments": [
+    {
+      "namn": "Stora Kroksjön-Abborresjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Abborresjön",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "abborresjon.se",
+          "url": "https://www.abborresjon.se/abborresjon"
+        },
+        {
+          "namn": "Stora Kroksjön",
+          "arter": [
+            "Regnbåge",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "abborresjon.se",
+          "url": "https://www.abborresjon.se/stora-kroksjon.html"
+        }
+      ]
+    }
+  ]
+}

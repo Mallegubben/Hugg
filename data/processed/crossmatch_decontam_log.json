@@ -1,0 +1,1111 @@
+{
+  "applied": [
+    {
+      "fvo": "Bottensjöns fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Ruda",
+        "Sarv",
+        "Siklöja",
+        "Sutare",
+        "Ål"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Bure-Kåtalidens fvof",
+      "lan": "Västerbotten",
+      "borttagna": [
+        "Gös",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html",
+        "https://malungs-fiske.se/index.html",
+        "https://malungs-fiske.se/fiskekort-2.html",
+        "https://malungs-fiske.se/fisketillsyn-2.html",
+        "https://malungs-fiske.se/varavatten/",
+        "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+        "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Sik",
+        "Siklöja",
+        "Stäm",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Dammåns fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Abborre",
+        "Gös",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Bergsimpa",
+        "Bäckröding",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Simpa",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Gudmundaredssjöns fvof",
+      "lan": "Halland",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html",
+        "https://malungs-fiske.se/index.html",
+        "https://malungs-fiske.se/fiskekort-2.html",
+        "https://malungs-fiske.se/fisketillsyn-2.html",
+        "https://malungs-fiske.se/varavatten/",
+        "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+        "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Gädda",
+        "Mört",
+        "Sutare",
+        "Ål"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Hungesjöns fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Hällån-Hållstaåns fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Siklöja",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Höje å fvof",
+      "lan": "Skåne",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Karp",
+        "Lax",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Bäcknejonöga",
+        "Elritsa",
+        "Groplöja",
+        "Grönling",
+        "Gädda",
+        "Havsöring",
+        "Id",
+        "Mört",
+        "Nejonöga",
+        "Ruda",
+        "Sarv",
+        "Signalkräfta",
+        "Småspigg",
+        "Storspigg",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Jutterns och Ärlångens fvof",
+      "lan": "Kalmar",
+      "borttagna": [
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Bergsimpa",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Kanadaröding",
+        "Lake",
+        "Lax",
+        "Mört",
+        "Nors",
+        "Ruda",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Simpa",
+        "Sutare",
+        "Vimma",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Lima fvof",
+      "lan": "Dalarna",
+      "borttagna": [
+        "Gös"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Bergsimpa",
+        "Braxen",
+        "Bäcknejonöga",
+        "Bäckröding",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Siklöja",
+        "Simpa",
+        "Stensimpa",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Ljungdalens fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Bergsimpa",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Lysetjärn m fl sjöars fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Gös",
+        "Harr"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Braxen",
+        "Bäckröding",
+        "Elritsa",
+        "Gädda",
+        "Mört",
+        "Regnbåge",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Långselets fvof",
+      "lan": "Västerbotten",
+      "borttagna": [
+        "Gös",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Bäckröding",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Sik",
+        "Stensimpa",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Mullsjöns fvof",
+      "lan": "Jönköping",
+      "borttagna": [
+        "Harr"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Gädda",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Norbergs Norra fvof",
+      "lan": "Västmanland",
+      "borttagna": [
+        "Harr"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Bäcknejonöga",
+        "Bäckröding",
+        "Flodkräfta",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Nejonöga",
+        "Nors",
+        "Regnbåge",
+        "Signalkräfta",
+        "Stensimpa",
+        "Sutare",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Nordsjöns fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Björkna",
+        "Braxen",
+        "Bäckröding",
+        "Elritsa",
+        "Gädda",
+        "Lake",
+        "Lax",
+        "Mört",
+        "Nejonöga",
+        "Nors",
+        "Röding",
+        "Signalkräfta",
+        "Simpa",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Oppmannasjöns fvof",
+      "lan": "Skåne",
+      "borttagna": [
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Björkna",
+        "Braxen",
+        "Bäcknejonöga",
+        "Flodkräfta",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Karp",
+        "Lake",
+        "Mört",
+        "Nissöga",
+        "Nors",
+        "Ruda",
+        "Sarv",
+        "Signalkräfta",
+        "Sik",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Singsjövattnens fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös",
+        "Harr"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Elritsa",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Sjön Spånens fvof",
+      "lan": "Kronoberg",
+      "borttagna": [
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Sutare"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Skellefteå södra fvof",
+      "lan": "Västerbotten",
+      "borttagna": [
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Stensimpa"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Skålans fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Bergsimpa",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Sik",
+        "Simpa",
+        "Stensimpa",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Storsjön-Bergs fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Bergsimpa",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Kanadaröding",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Simpa",
+        "Stensimpa",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Storsjöns fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Harr",
+        "Regnbåge",
+        "Röding"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html",
+        "https://malungs-fiske.se/index.html",
+        "https://malungs-fiske.se/fiskekort-2.html",
+        "https://malungs-fiske.se/fisketillsyn-2.html",
+        "https://malungs-fiske.se/varavatten/",
+        "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+        "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Braxen",
+        "Elritsa",
+        "Gädda",
+        "Gös",
+        "Karp",
+        "Kräfta obestämd",
+        "Lake",
+        "Mört",
+        "Signalkräfta",
+        "Sik",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Sya-Knutsbro fvof",
+      "lan": "Östergötland",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Braxen",
+        "Elritsa",
+        "Färna",
+        "Gädda",
+        "Karpfisk obestämd",
+        "Lake",
+        "Mört",
+        "Signalkräfta",
+        "Småspigg",
+        "Stensimpa",
+        "Sutare",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Södra Kornsjöns fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Elritsa",
+        "Gädda",
+        "Id",
+        "Mört",
+        "Sik",
+        "Siklöja",
+        "Sutare",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Tallsjö fvof",
+      "lan": "Västerbotten",
+      "borttagna": [
+        "Gös"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Bäckröding",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lake",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Stäm",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Tisarens fvof",
+      "lan": "Örebro",
+      "borttagna": [
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Björkna",
+        "Braxen",
+        "Bäcknejonöga",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Nissöga",
+        "Nors",
+        "Ruda",
+        "Röding",
+        "Sarv",
+        "Signalkräfta",
+        "Sik",
+        "Stensimpa",
+        "Sutare",
+        "Ål"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Täfternsjöarnas fvof",
+      "lan": "Östergötland",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Braxen",
+        "Flodkräfta",
+        "Gädda",
+        "Lake",
+        "Lax",
+        "Mört",
+        "Nors",
+        "Sarv",
+        "Signalkräfta",
+        "Siklöja",
+        "Sutare",
+        "Ål"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Västra Mölndalsåns fvof",
+      "lan": "Jönköping",
+      "borttagna": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html",
+        "https://malungs-fiske.se/index.html",
+        "https://malungs-fiske.se/fiskekort-2.html",
+        "https://malungs-fiske.se/fisketillsyn-2.html",
+        "https://malungs-fiske.se/varavatten/",
+        "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+        "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+      ],
+      "arter_efter": [],
+      "blev_tom": true
+    },
+    {
+      "fvo": "Västra Silens södra fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Gös",
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Benlöja",
+        "Bergsimpa",
+        "Björkna",
+        "Braxen",
+        "Bäcknejonöga",
+        "Elritsa",
+        "Gädda",
+        "Gärs",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Röding",
+        "Sarv",
+        "Sik",
+        "Siklöja",
+        "Vimma",
+        "Ål",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Ymsens fvof",
+      "lan": "Västra Götaland",
+      "borttagna": [
+        "Harr",
+        "Regnbåge",
+        "Öring"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Asp",
+        "Benlöja",
+        "Björkna",
+        "Braxen",
+        "Gädda",
+        "Gärs",
+        "Gös",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Ruda",
+        "Sarv",
+        "Signalkräfta",
+        "Stäm",
+        "Sutare",
+        "Ål"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Yxskaftkälens fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Gös",
+        "Regnbåge",
+        "Röding",
+        "Sik"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html",
+        "https://malungs-fiske.se/index.html",
+        "https://malungs-fiske.se/fiskekort-2.html",
+        "https://malungs-fiske.se/fisketillsyn-2.html",
+        "https://malungs-fiske.se/varavatten/",
+        "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+        "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Åkersjöns fvof",
+      "lan": "Jämtland",
+      "borttagna": [
+        "Abborre",
+        "Gädda",
+        "Gös",
+        "Harr",
+        "Regnbåge"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html",
+        "https://malungs-fiske.se/index.html",
+        "https://malungs-fiske.se/fiskekort-2.html",
+        "https://malungs-fiske.se/fisketillsyn-2.html",
+        "https://malungs-fiske.se/varavatten/",
+        "https://malungs-fiske.se/varavatten/putandtakemorttjarn.html",
+        "https://malungs-fiske.se/varavatten/j-ngtj-rn.html"
+      ],
+      "arter_efter": [
+        "Bergsimpa",
+        "Bäckröding",
+        "Elritsa",
+        "Ruda",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "blev_tom": false
+    },
+    {
+      "fvo": "Överboda-Strands fvof",
+      "lan": "Västerbotten",
+      "borttagna": [
+        "Gös"
+      ],
+      "bad_urls": [
+        "http://bollnasfvf.se/",
+        "http://bollnasfvf.se/news_1.html",
+        "http://bollnasfvf.se/text1_10.html",
+        "http://bollnasfvf.se/text1_11.html",
+        "http://bollnasfvf.se/text1_30.html"
+      ],
+      "arter_efter": [
+        "Abborre",
+        "Gädda",
+        "Gärs",
+        "Harr",
+        "Havsöring",
+        "Lax",
+        "Mört",
+        "Regnbåge",
+        "Röding",
+        "Stensimpa",
+        "Öring"
+      ],
+      "blev_tom": false
+    }
+  ],
+  "stats": {
+    "fvo_rattade": 33,
+    "artposter_borttagna": 93,
+    "blev_tomma": 1,
+    "tomma_fore": 42,
+    "tomma_efter": 43,
+    "jamtland_before": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 6
+    },
+    "jamtland_after": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 6
+    },
+    "norrbotten_before": {
+      "antal": 45,
+      "tomma": 3,
+      "tunna_le3": 4
+    },
+    "norrbotten_after": {
+      "antal": 45,
+      "tomma": 3,
+      "tunna_le3": 4
+    },
+    "hosts": [
+      "bollnasfvf.se",
+      "malungs-fiske.se"
+    ]
+  }
+}

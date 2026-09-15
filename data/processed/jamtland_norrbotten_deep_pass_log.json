@@ -1,0 +1,128 @@
+{
+  "applied": [
+    {
+      "fvo": "Gäddede fvof",
+      "lan": "Jämtland",
+      "source": "gaddede_camping_frostviken",
+      "url": "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+      "tillagda": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "gaps_closed": 0
+    },
+    {
+      "fvo": "Björkvattnets fvof",
+      "lan": "Jämtland",
+      "source": "frostviken_regional",
+      "url": "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+      "tillagda": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "gaps_closed": 0
+    },
+    {
+      "fvo": "Risede fvof",
+      "lan": "Jämtland",
+      "source": "frostviken_regional",
+      "url": "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+      "tillagda": [
+        "Gädda",
+        "Harr",
+        "Sik"
+      ],
+      "gaps_closed": 0
+    },
+    {
+      "fvo": "Jormvattnets fvof",
+      "lan": "Jämtland",
+      "source": "frostviken_regional",
+      "url": "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+      "tillagda": [
+        "Abborre",
+        "Sik"
+      ],
+      "gaps_closed": 0
+    },
+    {
+      "fvo": "Fågelbergets fvof",
+      "lan": "Jämtland",
+      "source": "frostviken_regional",
+      "url": "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+      "tillagda": [
+        "Abborre"
+      ],
+      "gaps_closed": 0
+    },
+    {
+      "fvo": "Kvarnbergsvattnets fvof",
+      "lan": "Jämtland",
+      "source": "frostviken_regional",
+      "url": "https://www.gaddedecamping.com/aktiviteter/fiske/?lang=sv",
+      "tillagda": [
+        "Abborre",
+        "Sik"
+      ],
+      "gaps_closed": 0
+    },
+    {
+      "fvo": "Södra Sandträsk fvof",
+      "lan": "Norrbotten",
+      "source": "fvof_site",
+      "url": "https://glommersbygden.se/fiske/",
+      "tillagda": [
+        "Harr",
+        "Lake",
+        "Lax",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "gaps_closed": 0
+    }
+  ],
+  "stats": {
+    "applied": 7,
+    "added_species_entries": 22,
+    "mirror_gaps_closed": 0,
+    "jamtland_before": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 6,
+      "med_spegelluckor": 34,
+      "kvar_luckor": 98
+    },
+    "jamtland_after": {
+      "antal": 157,
+      "tomma": 0,
+      "tunna_le3": 5,
+      "med_spegelluckor": 34,
+      "kvar_luckor": 98
+    },
+    "norrbotten_before": {
+      "antal": 45,
+      "tomma": 4,
+      "tunna_le3": 3,
+      "med_spegelluckor": 9,
+      "kvar_luckor": 19
+    },
+    "norrbotten_after": {
+      "antal": 45,
+      "tomma": 4,
+      "tunna_le3": 2,
+      "med_spegelluckor": 9,
+      "kvar_luckor": 19
+    },
+    "blocked_sources": [
+      "natureit",
+      "artportalen",
+      "ifiske_artdata"
+    ]
+  },
+  "records_count": 80
+}

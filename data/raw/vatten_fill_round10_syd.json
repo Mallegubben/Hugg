@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-09-15T18:25:00Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from municipal/FVOF/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske icons. Multi-lake only per named water or explicit all named lakes. No fuzzy cross-county. Huljesjön-Skålåns ≠ Lagan-Skålåns; Stor-Raftsjöns ≠ Sandvikssjön-Edsforsens; Marsjön Södermanland ≠ Marsjöarna VG; Hällsjöns Västmanland ≠ Krokom/Sundsvall/Sveaskog Krampen Hällsjön."
+  },
+  "stats": {
+    "fvo_with_enrichments": 6,
+    "total_vatten_rows": 7,
+    "searched_but_empty": 12,
+    "by_lan": {
+      "Halland": 2,
+      "Södermanland": 1,
+      "Dalarna": 1,
+      "Kronoberg": 1,
+      "Jämtland": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Säm-Iglasjöns fvof",
+      "lan": "Halland",
+      "object_id": 882,
+      "vatten": [
+        {
+          "namn": "Sämsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "visitvarberg.se",
+          "url": "https://visitvarberg.se/uppleva/fiskeomraden",
+          "evidence": "Området omfattar Sämsjön och Iglasjön med gädda, abborre, mört och sutare och är beläget cirka 15 km öster om Varberg."
+        },
+        {
+          "namn": "Iglasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "visitvarberg.se",
+          "url": "https://visitvarberg.se/uppleva/fiskeomraden",
+          "evidence": "Samma Visit Varberg-prosa för båda namngivna sjöarna: Sämsjön och Iglasjön med gädda, abborre, mört och sutare. (Ej den försurade Iglasjön vid Veddige.)"
+        }
+      ]
+    },
+    {
+      "namn": "Viskans nedre fvof",
+      "lan": "Halland",
+      "object_id": 899,
+      "vatten": [
+        {
+          "namn": "Viskan",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Färna",
+            "Gädda",
+            "Havsöring",
+            "Id",
+            "Lax",
+            "Mört",
+            "Sik",
+            "Ål"
+          ],
+          "kalla": "sportfiskeguide.se (+ visitvarberg.se corroboration)",
+          "url": "https://sportfiskeguide.se/viskan/",
+          "evidence": "Viskans nedre FVO … Arter: Abborre, braxen, färna, gädda, havsöring, id, lax, mört, sik och ål. (Visit Varberg: I mynningen … oftast efter havsöring. Sikfisket är mycket bra under våren och hösten. Lax och havsöring under perioden 1 mars–30 september.)"
+        }
+      ]
+    },
+    {
+      "namn": "Hålvetten, Näsnaren, Stensjön, Malmsjön fvof",
+      "lan": "Södermanland",
+      "object_id": 291,
+      "vatten": [
+        {
+          "namn": "Stensjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Ruda"
+          ],
+          "kalla": "katrineholm.se (kommun – reduktionsfiske Stensjön)",
+          "url": "https://www.katrineholm.se/bygga-bo-och-miljo/miljo-och-klimat/vatten/stensjon.html",
+          "evidence": "vitfisk såsom braxen, ruda och mört medan rovfisk såsom gädda och abborre släpps tillbaka … Fångsten utgjordes till största del av braxen och mört samt ruda och gärs. (Endast Stensjön — Hålvetten/Näsnaren/Malmsjön ej tilldelade.)"
+        }
+      ]
+    },
+    {
+      "namn": "Nävdens fvof",
+      "lan": "Dalarna",
+      "object_id": 1457,
+      "vatten": [
+        {
+          "namn": "Nävden",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Ruda",
+            "Sutare"
+          ],
+          "kalla": "visitdalarna.se (Nävdens FVO fiskekort)",
+          "url": "https://www.visitdalarna.se/gora/aktiviteter/fiskekort-navdens-fiskevardsomrade",
+          "evidence": "Fiskearter: Gädda, Abborre, Gös, Braxen, Sutare, Lake, Löja, Ruda, Björkna. (Löja → Benlöja. Primärsjö Nävden; Grytnäsån/Hällsjöbäck saknar egen artprosa — ej tilldelade.)"
+        }
+      ]
+    },
+    {
+      "namn": "Kojtasjön-Mellansjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 669,
+      "vatten": [
+        {
+          "namn": "Mellansjön",
+          "arter": [
+            "Karp"
+          ],
+          "kalla": "SFK Kroken karprapport (klubbrapport Kronoberg)",
+          "url": "http://www.sfk-kroken.nu/karp/karprapport.php",
+          "evidence": "Karparna flydde … och spreds vidare till Kojtasjön och Mellansjön. … Det har fångats karp i redskap i Mellansjön för ca 5 år sedan (Bertil Petersson, Vislanda). (Kojtasjön nämns endast som spridningsväg — ej artbelagd.)"
+        }
+      ]
+    },
+    {
+      "namn": "Flors fvof",
+      "lan": "Jämtland",
+      "object_id": 1826,
+      "vatten": [
+        {
+          "namn": "Storåströmmens kraftverksmagasin",
+          "arter": [
+            "Gös"
+          ],
+          "kalla": "fiskejournalen.se (FVOF-utsättning/fångst, Ytterhogdal)",
+          "url": "https://nyheter.fiskejournalen.se/artiklar/125000-kronor-till-gossatsning-i-halsingland-1/1514285",
+          "evidence": "Flors fiskevårdsområde … satsning på att införa gösen i Storåströmmens kraftverksmagasin. … en sjuttonåring … fick upp en gös på 67 centimeter. (Övriga Flor-vatten utan egen artprosa — ej tilldelade.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Huljesjön-Skålåns fvof",
+      "lan": "Kronoberg",
+      "object_id": 653,
+      "notes": "Ljungby/iFiske har Lagan-Skålåns FVO (Huliesjön som nordgräns) — annat FVO-namn; ingen 1:1 prosa för Huljesjön-Skålåns. Ej fuzzy-merge."
+    },
+    {
+      "namn": "Rinkabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 636,
+      "notes": "tavelsas.se nämner fiskestämma utan arter; iFiske 404; Växjö/Naturkartan/Visitkronoberg utan water×species-prosa."
+    },
+    {
+      "namn": "Tegnabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 690,
+      "notes": "Naturkartan Sandvik badplats utan fiskarter; iFiske 404; kommun/turism utan artprosa."
+    },
+    {
+      "namn": "Tävelsåssjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 637,
+      "notes": "Bygdenyhet om fiskestämma; ingen artlista. iFiske 404."
+    },
+    {
+      "namn": "Henarens fvof",
+      "lan": "Södermanland",
+      "object_id": 288,
+      "notes": "Strömshammar fisketävling (gädda/abborre) ej längre live (404) och saknas i Wayback; Fishbrain ej tillåten; Flen/Visit Sörmland/VA utan prosa."
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "lan": "Södermanland",
+      "object_id": 292,
+      "notes": "Strängnäs Marsjön — Wikipedia utan arter. iFiske Marsjöarna = Bengtsfors/VG (redan fylld round2) — ej cross-county."
+    },
+    {
+      "namn": "Norra Båvens fvof",
+      "lan": "Södermanland",
+      "object_id": 293,
+      "notes": "iFiske Båven Norra = Sparreholms FVf (annan org); Natura 2000 Sibro blandar Båven/Sibro — ej 1:1 Norra Båvens fvof. VA/NK utan träff."
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1448,
+      "notes": "Visit Västmanland/Edens Garden: 'gott om fisk' utan namngivna arter. hallsjonfvo.se = Krokom; Sveaskog Krampen och Sundsvall Stor-Hällsjön = andra län — ej använda."
+    },
+    {
+      "namn": "Ljömsebosjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1446,
+      "notes": "Sala/Svartådalen listar ej Ljömsebo; iFiske 404; ingen kommun/tourism-prosa."
+    },
+    {
+      "namn": "Tappebosjöarnas fvof",
+      "lan": "Västmanland",
+      "object_id": 1442,
+      "notes": "Svartådalen har kontaktpersoner utan artprosa; iFiske 404; CSV Norra/Södra Tappebosjön+Viggsjön utan water×species."
+    },
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1797,
+      "notes": "Östersund/Lit tourism och Litsbygdens FVO gäller andra vatten; ingen prosa för Landsomsjön. (Bekräftar round9 empty.)"
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "object_id": 1732,
+      "notes": "Sandvikssjön-Edsforsens FVOF listar Stor-Raftsjön som sitt vatten utan per-sjö artlista — do NOT cross-assign till Stor-Raftsjöns fvo. Egen prosa saknas."
+    }
+  ],
+  "rejected": [
+    "Huljesjön via Lagan-Skålåns iFiske/Ljungby-folder — annat FVO.",
+    "Hällsjön Krokom (hallsjonfvo.se röding/öring/harr) — fel län.",
+    "Marsjöarna Bengtsfors iFiske/vastsverige — VG, ej Södermanland.",
+    "Sparreholms/Båven Norra iFiske-ikonlista + prosa — annan organisation än Norra Båvens fvof.",
+    "Veddige Iglasjön (försurad, HN) — annan sjö än Säm-Iglasjöns Iglasjön.",
+    "Sveaskog Krampen Hällsjön regnbåge — ej Sala Hällsjöns fvof.",
+    "Fisch-Hitparade Stor-Abborrtjärnen Flor (tyskt forum 2014) — för svag källa.",
+    "Strömshammar Henaren tävlingsresultat — URL 404, ej verifierbar live."
+  ]
+}

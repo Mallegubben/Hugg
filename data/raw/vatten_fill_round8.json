@@ -1,0 +1,652 @@
+{
+  "generated_at": "2026-09-15T18:08:02Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from municipal/FVOF/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske icons. Multi-lake only per named water or explicit all-lakes. Merges prior round8 HEAD finds + Borås municipal PDFs."
+  },
+  "stats": {
+    "fvo_with_enrichments": 8,
+    "total_vatten_rows": 14,
+    "searched_but_empty": 81,
+    "by_lan": {
+      "Västra Götaland": 5,
+      "Värmland": 1,
+      "Västernorrland": 1,
+      "Norrbotten": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "St Gunnarsvattnets fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Gunnarsvattnet",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/gotaalv/produkter/stora-gunnarsvattnet/",
+          "evidence": "Fiske perfekt för nybörjaren. Här får man abborre och ibland gädda … Fiske efter främst abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Sandsjön-Buasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Buasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "vastsverige / bollebygd",
+          "url": "https://www.vastsverige.com/bollebygd/produkter/fiska/",
+          "evidence": "Buasjön Fiskarter: Abborre, Mört, Gädda, Siklöja, Sutare, Ål och Öring. (Sandsjön namnges ej med egen artlista — ej tilldelad.)"
+        }
+      ]
+    },
+    {
+      "namn": "Oxalasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Oxalasjön",
+          "arter": [
+            "Harr",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige / bollebygd",
+          "url": "https://www.vastsverige.com/bollebygd/produkter/fiska/",
+          "evidence": "Oxalasjön Fiskarter: Regnbåge, Öring och Harr. Säljs inga fiskekort."
+        }
+      ]
+    },
+    {
+      "namn": "Skärgens fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Skärgen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "visitvarmland",
+          "url": "https://www.visitvarmland.com/munkfors/aktiviteter/fiska/skargens-fvof",
+          "evidence": "Här kan du fiska efter bland annat abborre, mört och gädda. … Max 2 öringar per dygn … (Södra Långtjärn ingår i kortet men saknar egen artprosa — ej tilldelad.)"
+        }
+      ]
+    },
+    {
+      "namn": "Sätra fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Sätratjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dockstafiske.com / kramfors fiskefolder",
+          "url": "https://www.dockstafiske.com/fiskeomraden",
+          "evidence": "Sätra fiskevårdsområde består av 2 natursköna skogstjärnar … I sjöarna finns bara öring och röding. (Kramfors: enbart inplanterad öring och röding.)"
+        },
+        {
+          "namn": "Edångerstjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dockstafiske.com / kramfors fiskefolder",
+          "url": "https://www.dockstafiske.com/fiskeomraden",
+          "evidence": "Samma två skogstjärnar (Sätratjärn / Edångerstjärn): bara öring och röding."
+        }
+      ]
+    },
+    {
+      "namn": "Trångforsens fvof",
+      "lan": "Norrbotten",
+      "vatten": [
+        {
+          "namn": "Luleälven (Vittjärv)",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "boden.se",
+          "url": "https://boden.se/uppleva-och-gora/fritid-och-idrott/fiske",
+          "evidence": "Exempel på fiskevatten: Lule älv, Vittjärv – Bra gäddfiske nära stan. (Trångforsens FVOF omfattar Luleälven vid Vittjärv–Boden; övriga sträckor/arter ej tilldelade.)"
+        }
+      ]
+    },
+    {
+      "namn": "Boråssjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Hässleholmssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "boras.se / Fiske i Borås centrum 2018 (artmatris)",
+          "url": "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf",
+          "evidence": "Sjöinformation (artmatris) — 1 Stora Hässleholmssjön 1 ha, 10,0 m: Abborre, Gädda, Mört, Regnbåge, Sutare, Ål (markerade). PDF: Fiske i Borås centrum / Boråssjöarnas fiskevårdsområde, Borås Stad 2018."
+        },
+        {
+          "namn": "Lilla Hässleholmssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "boras.se / Fiske i Borås centrum 2018 (artmatris)",
+          "url": "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf",
+          "evidence": "Sjöinformation (artmatris) — 1 Lilla Hässleholmssjön ½ ha, 7,7 m: Abborre, Gädda, Mört, Regnbåge, Sutare, Ål (markerade)."
+        },
+        {
+          "namn": "Hultasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "boras.se / Fiske i Borås centrum 2018 (artmatris)",
+          "url": "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf",
+          "evidence": "Sjöinformation (artmatris) — 2 Hultasjön 2 ha, 9,5 m: Abborre, Gädda, Mört, Regnbåge, Sutare, Ål (markerade)."
+        },
+        {
+          "namn": "Kolbränningen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "boras.se / Fiske i Borås centrum 2018 (artmatris)",
+          "url": "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf",
+          "evidence": "Sjöinformation (artmatris) — 3 Kolbränningen 7 ha, 4,7 m: Abborre, Gädda, Mört, Sutare, Ål (markerade; Regnbåge ej markerad)."
+        },
+        {
+          "namn": "Södra Kypesjön",
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Regnbåge",
+            "Ål"
+          ],
+          "kalla": "boras.se / Fiske i Borås centrum 2018 (artmatris)",
+          "url": "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf",
+          "evidence": "Sjöinformation (artmatris) — 4 Södra Kypesjön 2 ha, 12,0 m: Abborre, Mört, Regnbåge, Ål (markerade; Gädda och Sutare ej markerade)."
+        },
+        {
+          "namn": "Ramnasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "boras.se / Fiske i Borås centrum 2018 (artmatris)",
+          "url": "https://www.ifiske.se/pdf/361/Fiske_i_Borassjoarna_2018.pdf",
+          "evidence": "Sjöinformation (artmatris) — 5 Ramnasjön 8 ha, 7,0 m: Abborre, Gädda, Mört, Sutare, Ål (markerade)."
+        }
+      ]
+    },
+    {
+      "namn": "Viskan vid Osdal fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Viskan",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "boras.se / Kommunfiskekortet Folder 2023",
+          "url": "https://www.ifiske.se/pdf/984/Kommunfiskekortet_Folder_2023-WEBB.pdf",
+          "evidence": "Viskan vid Osdal fiskevårdsområdet — 113 Viskan (mellan Guttasjön och Jössabron) 34 ha, abborre, braxen, gädda, gärs, lake, mört, sarv, sutare, ål och öring. (Lilla/Stora Harasjön och Tränningstorpasjön listas utan arter i samma stycke — ej tilldelade.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Björstorps fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ej i Svenljunga/Tranemo-broschyrens artprosa; ingen kommun/FVOF-prosa med namngivet vatten×art hittad."
+    },
+    {
+      "namn": "Groskens fvof",
+      "lan": "Västra Götaland",
+      "notes": "iFiske har endast ikonlista (ej tillåten); ingen kommun/turism/FVOF-prosa med arter för Grosken."
+    },
+    {
+      "namn": "Gunneröds fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa med namngivet vatten×art."
+    },
+    {
+      "namn": "Kolungens fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen kommun/turism/FVOF-prosa med arter hittad."
+    },
+    {
+      "namn": "Kölvattnets fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ej med i Bengtsfors Fiskeguide 2026 artsektioner; ingen annan prosa hittad."
+    },
+    {
+      "namn": "Lillåns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Trollhättan-Lillån; ingen artprosa 1:1."
+    },
+    {
+      "namn": "Långens fvof (Strömstads Kommun)",
+      "lan": "Västra Götaland",
+      "notes": "Strömstad.se anger arter för Strömsån/Strömsvattnet (inte Lången). Lången Strömstad saknar artprosa."
+    },
+    {
+      "namn": "Lökens fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Mastedalstjärnarnas fvof",
+      "lan": "Västra Götaland",
+      "notes": "Bengtsfors Fiskeguide 2026: Mastedalstjärnens fiskevårdsområde — föreningen vilande, inga fiskekort; ingen artlista."
+    },
+    {
+      "namn": "Månsarudssjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Norra Lunds fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ej med i Bengtsfors Fiskeguide 2026; ingen artprosa hittad."
+    },
+    {
+      "namn": "Nöresjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "vattenagarna.se/?o=1030 endast kontaktuppgifter, ingen artprosa. Ulricehamn fiskeguide saknar Nöresjön."
+    },
+    {
+      "namn": "Oxsjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Tranemo/Ulricehamn; ej i fiskeguide med artlista."
+    },
+    {
+      "namn": "Revesjö fvof",
+      "lan": "Västra Götaland",
+      "notes": "Svenljunga-broschyr listar Stora/Lilla Kvarnsjön men utan arter."
+    },
+    {
+      "namn": "Roasjön-Ramsjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Svenljunga-broschyr listar vatten utan arter."
+    },
+    {
+      "namn": "Romesjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Endast forum/Fishbrain (ej tillåtna källor); ingen kommun/FVOF-prosa."
+    },
+    {
+      "namn": "Sjötorpssjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Skövde; ingen artprosa 1:1 (ej Sjötorpasjön)."
+    },
+    {
+      "namn": "Skäremosjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Svänasjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Sävsjö-Gärdessjö fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Södra Järbo fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Torp-Sollums fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Torsbo-Rotenäs fvof",
+      "lan": "Västra Götaland",
+      "notes": "Ingen verifierad prosa med arter."
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "lan": "Västra Götaland",
+      "notes": "Svenljunga-broschyr listar många sjöar utan arter."
+    },
+    {
+      "namn": "Vrångsjöns fvof",
+      "lan": "Västra Götaland",
+      "notes": "Färgelanda; ingen artprosa."
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "lan": "Västra Götaland",
+      "notes": "Wikipedia/provfiske gäller Stora Hästefjorden / Hästsjön — ej Östra; ingen 1:1-prosa för Östra Hästefjorden."
+    },
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "notes": "Skärgård; ingen turism/FVOF-prosa med arter."
+    },
+    {
+      "namn": "Grindsjöns fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Grönskärs fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Horstens fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Ramsmora Bys fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Rödläga fvof",
+      "lan": "Stockholm",
+      "notes": "iFiske-sida utan artprosa (endast ikoner/tom prosa)."
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Yxlö-Kolsviks fvof",
+      "lan": "Stockholm",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Byngarens fvof",
+      "lan": "Östergötland",
+      "notes": "Naturkartan vindskydd utan fiskearter."
+    },
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Gulten-Hanesjöns fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa för Gulten/Hanesjön (Kinda/Finspång); Hökensås-Hanesjön är annan sjö."
+    },
+    {
+      "namn": "Hemsjöns m fl sjöars fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Rippestorps fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Tångens fvof",
+      "lan": "Östergötland",
+      "notes": "Ydre; ingen artprosa 1:1."
+    },
+    {
+      "namn": "Värnasjön-Strålången fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Värnässjöns fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "notes": "vattenagarna/?o=692 utan artprosa; iFiske svensk prosa saknar arter (ikonlista ej tillåten)."
+    },
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Österby fvof",
+      "lan": "Östergötland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Antvardens fvof",
+      "lan": "Östergötland, Kalmar",
+      "notes": "iFiske-sida utan artprosa."
+    },
+    {
+      "namn": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "notes": "norsjosfk övrigt fiske ger generella kommunråd, ej 1:1 för Bjurträsk FVO."
+    },
+    {
+      "namn": "Byssträsk-Nylidens fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Petikträsk fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "notes": "norsjosfk nämner Bredträsket med harr/öring/röding men utan tydlig koppling till Rörträsk-Bredträsks FVO 1:1."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Stora Sikträskets fvof",
+      "lan": "Västerbotten",
+      "notes": "Gällivare Sikträsk är annan FVO; Norsjö Stora Sikträsk saknar prosa."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Nästjärnens fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "notes": "vattenagarna/?o=710 och Visit Värmland/Filipstad utan per-vatten-arter för Skåltjärn."
+    },
+    {
+      "namn": "Stora och Lilla Högs fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "notes": "Ingen verifierad prosa."
+    },
+    {
+      "namn": "Nävdens fvof",
+      "lan": "Dalarna",
+      "notes": "Avesta.se nämner Nävdens FVO utan arter; Visit Dalarna endast fiskekort. Generell Södra Dalarna-prosa ej 1:1."
+    },
+    {
+      "namn": "Mellanströms fvof",
+      "lan": "Norrbotten",
+      "notes": "mellanstrom.se: 'många fina fiskevatten … till exempel abborre, gädda, harr, sik och öring' — exempel, ej per namngivet vatten / ej explicit alla sjöar."
+    }
+  ]
+}
