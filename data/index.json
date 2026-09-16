@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T23:24:46.596678+00:00",
+  "generated_at": "2026-09-16T23:32:58.235873+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 7687,
+  "antal_vatten": 7756,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -530,8 +530,8 @@
       "med_artlista": 195,
       "utan_artlista": 2,
       "tackning_pct": 99.0,
-      "fvo_med_vattenposter": 190,
-      "antal_vattenposter": 444,
+      "fvo_med_vattenposter": 195,
+      "antal_vattenposter": 449,
       "fvo_ids": [
         187,
         188,
@@ -739,8 +739,8 @@
       "med_artlista": 82,
       "utan_artlista": 3,
       "tackning_pct": 96.5,
-      "fvo_med_vattenposter": 74,
-      "antal_vattenposter": 151,
+      "fvo_med_vattenposter": 82,
+      "antal_vattenposter": 159,
       "fvo_ids": [
         393,
         395,
@@ -836,8 +836,8 @@
       "med_artlista": 132,
       "utan_artlista": 3,
       "tackning_pct": 97.8,
-      "fvo_med_vattenposter": 128,
-      "antal_vattenposter": 494,
+      "fvo_med_vattenposter": 132,
+      "antal_vattenposter": 499,
       "fvo_ids": [
         486,
         487,
@@ -1113,8 +1113,8 @@
       "med_artlista": 38,
       "utan_artlista": 4,
       "tackning_pct": 90.5,
-      "fvo_med_vattenposter": 29,
-      "antal_vattenposter": 47,
+      "fvo_med_vattenposter": 38,
+      "antal_vattenposter": 57,
       "fvo_ids": [
         739,
         740,
@@ -1167,8 +1167,8 @@
       "med_artlista": 15,
       "utan_artlista": 1,
       "tackning_pct": 93.8,
-      "fvo_med_vattenposter": 14,
-      "antal_vattenposter": 24,
+      "fvo_med_vattenposter": 15,
+      "antal_vattenposter": 25,
       "fvo_ids": [
         793,
         794,
@@ -1228,8 +1228,8 @@
       "med_artlista": 154,
       "utan_artlista": 1,
       "tackning_pct": 99.4,
-      "fvo_med_vattenposter": 146,
-      "antal_vattenposter": 1036,
+      "fvo_med_vattenposter": 154,
+      "antal_vattenposter": 1045,
       "fvo_ids": [
         833,
         834,
@@ -1395,8 +1395,8 @@
       "med_artlista": 176,
       "utan_artlista": 0,
       "tackning_pct": 100.0,
-      "fvo_med_vattenposter": 169,
-      "antal_vattenposter": 1044,
+      "fvo_med_vattenposter": 176,
+      "antal_vattenposter": 1053,
       "fvo_ids": [
         989,
         990,
@@ -1583,8 +1583,8 @@
       "med_artlista": 136,
       "utan_artlista": 2,
       "tackning_pct": 98.6,
-      "fvo_med_vattenposter": 134,
-      "antal_vattenposter": 600,
+      "fvo_med_vattenposter": 136,
+      "antal_vattenposter": 602,
       "fvo_ids": [
         1168,
         1170,
@@ -1733,8 +1733,8 @@
       "med_artlista": 28,
       "utan_artlista": 1,
       "tackning_pct": 96.6,
-      "fvo_med_vattenposter": 27,
-      "antal_vattenposter": 146,
+      "fvo_med_vattenposter": 28,
+      "antal_vattenposter": 147,
       "fvo_ids": [
         1372,
         1373,
@@ -1774,8 +1774,8 @@
       "med_artlista": 319,
       "utan_artlista": 7,
       "tackning_pct": 97.9,
-      "fvo_med_vattenposter": 296,
-      "antal_vattenposter": 981,
+      "fvo_med_vattenposter": 319,
+      "antal_vattenposter": 1006,
       "fvo_ids": [
         1824,
         1825,
@@ -40509,6 +40509,19 @@
           ]
         }
       ],
+      "Björstorp": [
+        {
+          "fvo_id": 2013,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ]
+        }
+      ],
       "Björtjärnen": [
         {
           "fvo_id": 1751,
@@ -44364,6 +44377,23 @@
           ]
         }
       ],
+      "Bredträsk": [
+        {
+          "fvo_id": 1008,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ]
+        }
+      ],
       "Bredvallen": [
         {
           "fvo_id": 1742,
@@ -45233,6 +45263,17 @@
           ]
         }
       ],
+      "Bruzaåns Mellersta": [
+        {
+          "fvo_id": 213,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
+          ]
+        }
+      ],
       "Bryggtjärnsån": [
         {
           "fvo_id": 1359,
@@ -45659,6 +45700,21 @@
             "Lax",
             "Stensimpa",
             "Öring"
+          ]
+        }
+      ],
+      "Brännerisjön": [
+        {
+          "fvo_id": 342,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
           ]
         }
       ],
@@ -47139,6 +47195,19 @@
           "arter": [
             "Bergsimpa",
             "Elritsa",
+            "Öring"
+          ]
+        }
+      ],
+      "Byholma": [
+        {
+          "fvo_id": 754,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Mört",
             "Öring"
           ]
         }
@@ -49761,6 +49830,17 @@
           ]
         }
       ],
+      "Bällsjön": [
+        {
+          "fvo_id": 438,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Sutare"
+          ]
+        }
+      ],
       "Bärhusälven": [
         {
           "fvo_id": 962,
@@ -49887,6 +49967,28 @@
           "arter": [
             "Bäckröding",
             "Öring"
+          ]
+        }
+      ],
+      "Bäverkärn": [
+        {
+          "fvo_id": 969,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Bäcknejonöga",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sarv",
+            "Sutare"
           ]
         }
       ],
@@ -55853,6 +55955,21 @@
             "Nors",
             "Ruda",
             "Sarv",
+            "Sutare"
+          ]
+        }
+      ],
+      "Elmaren": [
+        {
+          "fvo_id": 426,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
             "Sutare"
           ]
         }
@@ -67812,6 +67929,23 @@
           ]
         }
       ],
+      "Gladhammar": [
+        {
+          "fvo_id": 485,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Signalkräfta",
+            "Storspigg"
+          ]
+        }
+      ],
       "Gladtjärnen": [
         {
           "fvo_id": 1692,
@@ -70130,6 +70264,21 @@
             "Mört",
             "Simpa",
             "Öring"
+          ]
+        }
+      ],
+      "Grosken": [
+        {
+          "fvo_id": 2109,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ruda"
           ]
         }
       ],
@@ -73620,6 +73769,20 @@
           ]
         }
       ],
+      "Gunneröd": [
+        {
+          "fvo_id": 1926,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Gunnilboån": [
         {
           "fvo_id": 1379,
@@ -74855,6 +75018,25 @@
             "Elritsa",
             "Gädda",
             "Öring"
+          ]
+        }
+      ],
+      "Gärdessjö": [
+        {
+          "fvo_id": 2091,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -77632,6 +77814,19 @@
             "Nejonöga",
             "Stensimpa",
             "Öring"
+          ]
+        }
+      ],
+      "Hallången": [
+        {
+          "fvo_id": 465,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -81975,6 +82170,18 @@
           ]
         }
       ],
+      "Hjälmö By": [
+        {
+          "fvo_id": 783,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Storspigg"
+          ]
+        }
+      ],
       "Hjälten": [
         {
           "fvo_id": 337,
@@ -84354,6 +84561,17 @@
             "Mört",
             "Ruda",
             "Sarv"
+          ]
+        }
+      ],
+      "Huljesjön": [
+        {
+          "fvo_id": 550,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
           ]
         }
       ],
@@ -86742,6 +86960,19 @@
           "arter": [
             "Abborre",
             "Röding"
+          ]
+        },
+        {
+          "fvo_id": 1377,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Nors"
           ]
         },
         {
@@ -90931,6 +91162,20 @@
             "Elritsa",
             "Gädda",
             "Stensimpa"
+          ]
+        }
+      ],
+      "Idö": [
+        {
+          "fvo_id": 481,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Småspigg",
+            "Storspigg"
           ]
         }
       ],
@@ -98729,6 +98974,24 @@
           ]
         }
       ],
+      "Kokträsk": [
+        {
+          "fvo_id": 1163,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ]
+        }
+      ],
       "Kolarebäcken": [
         {
           "fvo_id": 1929,
@@ -99070,6 +99333,25 @@
           "arter": [
             "Abborre",
             "Mört"
+          ]
+        }
+      ],
+      "Kolungen": [
+        {
+          "fvo_id": 1898,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -102256,6 +102538,24 @@
           ]
         }
       ],
+      "Kussjö": [
+        {
+          "fvo_id": 1058,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ]
+        }
+      ],
       "Kusån": [
         {
           "fvo_id": 1048,
@@ -102747,6 +103047,18 @@
           "arter": [
             "Simpa",
             "Öring"
+          ]
+        },
+        {
+          "fvo_id": 1019,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
           ]
         },
         {
@@ -106568,6 +106880,19 @@
           "arter": [
             "Abborre",
             "Öring"
+          ]
+        }
+      ],
+      "Kölvattnet": [
+        {
+          "fvo_id": 1990,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -111446,6 +111771,21 @@
           ]
         }
       ],
+      "Lilla Hammarsjön": [
+        {
+          "fvo_id": 444,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Lilla Helge å": [
         {
           "fvo_id": 507,
@@ -112720,6 +113060,23 @@
             "Gädda",
             "Mört",
             "Öring"
+          ]
+        }
+      ],
+      "Lillemsen": [
+        {
+          "fvo_id": 934,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Mört",
+            "Nors",
+            "Ål"
           ]
         }
       ],
@@ -114890,6 +115247,18 @@
             "Signalkräfta",
             "Ål",
             "Öring"
+          ]
+        },
+        {
+          "fvo_id": 2054,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört"
           ]
         },
         {
@@ -121308,6 +121677,25 @@
           ]
         }
       ],
+      "Långens (Strömstads Kommun)": [
+        {
+          "fvo_id": 2072,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Småspigg",
+            "Storspigg",
+            "Ål",
+            "Öring"
+          ]
+        }
+      ],
       "Långetjärn": [
         {
           "fvo_id": 1951,
@@ -123373,6 +123761,20 @@
           ]
         }
       ],
+      "Löken": [
+        {
+          "fvo_id": 2123,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Löming": [
         {
           "fvo_id": 1767,
@@ -124484,6 +124886,24 @@
           ]
         }
       ],
+      "Maltträsk": [
+        {
+          "fvo_id": 1013,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ]
+        }
+      ],
       "Malungen": [
         {
           "fvo_id": 110,
@@ -125029,6 +125449,15 @@
           ]
         },
         {
+          "fvo_id": 797,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Ruda"
+          ]
+        },
+        {
           "fvo_id": 2053,
           "typ": "sjö",
           "smhi_id": null,
@@ -125280,6 +125709,22 @@
             "Storspigg",
             "Stäm",
             "Ål",
+            "Öring"
+          ]
+        }
+      ],
+      "Mastedalstjärnarna": [
+        {
+          "fvo_id": 1832,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
             "Öring"
           ]
         }
@@ -131014,6 +131459,18 @@
           "eu_cd": NaN,
           "arter": [
             "Elritsa"
+          ]
+        }
+      ],
+      "Månsarudssjön": [
+        {
+          "fvo_id": 2154,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -137073,6 +137530,25 @@
           ]
         }
       ],
+      "Nordanede": [
+        {
+          "fvo_id": 1189,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Röding",
+            "Sik",
+            "Öring"
+          ]
+        }
+      ],
       "Nordanåsån": [
         {
           "fvo_id": 1305,
@@ -137773,6 +138249,24 @@
           ]
         }
       ],
+      "Norra Barsjön": [
+        {
+          "fvo_id": 922,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Ål"
+          ]
+        }
+      ],
       "Norra Bergundasjön": [
         {
           "fvo_id": 528,
@@ -138153,6 +138647,23 @@
           "eu_cd": null,
           "arter": [
             "Regnbåge"
+          ]
+        }
+      ],
+      "Norra Lund": [
+        {
+          "fvo_id": 1869,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Elritsa",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
           ]
         }
       ],
@@ -138741,6 +139252,23 @@
             "Vimma",
             "Ål",
             "Öring"
+          ]
+        }
+      ],
+      "Norrahammar": [
+        {
+          "fvo_id": 239,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -142202,6 +142730,24 @@
           ]
         }
       ],
+      "Nöresjön": [
+        {
+          "fvo_id": 1939,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sutare"
+          ]
+        }
+      ],
       "Nössjö": [
         {
           "fvo_id": 2106,
@@ -144635,6 +145181,22 @@
           ]
         }
       ],
+      "Oxsjön": [
+        {
+          "fvo_id": 2137,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Oxsjöån": [
         {
           "fvo_id": 35,
@@ -146577,6 +147139,23 @@
           ]
         }
       ],
+      "Portilasjön": [
+        {
+          "fvo_id": 951,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Ruda",
+            "Ål"
+          ]
+        }
+      ],
       "Prostgårdsälven": [
         {
           "fvo_id": 842,
@@ -148488,6 +149067,18 @@
           ]
         }
       ],
+      "Refsnä": [
+        {
+          "fvo_id": 740,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Storspigg"
+          ]
+        }
+      ],
       "Regasjön": [
         {
           "fvo_id": 1582,
@@ -148904,6 +149495,28 @@
           ]
         }
       ],
+      "Revesjö": [
+        {
+          "fvo_id": 2171,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Bäckröding",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ]
+        }
+      ],
       "Rexbäcken": [
         {
           "fvo_id": 1758,
@@ -149224,6 +149837,24 @@
           "arter": [
             "Gädda",
             "Lake"
+          ]
+        }
+      ],
+      "Rinkabysjön": [
+        {
+          "fvo_id": 525,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -151927,6 +152558,19 @@
           ]
         }
       ],
+      "Runnö": [
+        {
+          "fvo_id": 427,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Mal",
+            "Småspigg",
+            "Storspigg"
+          ]
+        }
+      ],
       "Ruokojärvi": [
         {
           "fvo_id": 640,
@@ -153945,6 +154589,18 @@
           ]
         }
       ],
+      "Råden": [
+        {
+          "fvo_id": 478,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Rågångstjärnen": [
         {
           "fvo_id": 671,
@@ -154364,6 +155020,19 @@
           "arter": [
             "Bergsimpa",
             "Öring"
+          ]
+        }
+      ],
+      "Röder": [
+        {
+          "fvo_id": 775,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Elritsa",
+            "Småspigg",
+            "Storspigg"
           ]
         }
       ],
@@ -154904,6 +155573,20 @@
             "Vimma",
             "Ål",
             "Öring"
+          ]
+        }
+      ],
+      "Rökåbygden": [
+        {
+          "fvo_id": 1027,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
           ]
         }
       ],
@@ -155450,6 +156133,23 @@
             "Sik",
             "Siklöja",
             "Stäm",
+            "Öring"
+          ]
+        }
+      ],
+      "Rörträsk": [
+        {
+          "fvo_id": 1008,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
             "Öring"
           ]
         }
@@ -157600,6 +158300,26 @@
             "Lake",
             "Signalkräfta",
             "Stensimpa",
+            "Öring"
+          ]
+        }
+      ],
+      "Saxnä": [
+        {
+          "fvo_id": 1113,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Lax",
+            "Mört",
+            "Sik",
+            "Siklöja",
             "Öring"
           ]
         }
@@ -159973,6 +160693,33 @@
           ]
         }
       ],
+      "Sjötorpssjön": [
+        {
+          "fvo_id": 1842,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
+      "Sjövikssjön": [
+        {
+          "fvo_id": 198,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ]
+        }
+      ],
       "Skaddeån": [
         {
           "fvo_id": 598,
@@ -160192,6 +160939,19 @@
             "Stäm",
             "Ål",
             "Öring"
+          ]
+        }
+      ],
+      "Skarfs": [
+        {
+          "fvo_id": 775,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Elritsa",
+            "Småspigg",
+            "Storspigg"
           ]
         }
       ],
@@ -163519,6 +164279,25 @@
           ]
         }
       ],
+      "Skåltjärnshyttan": [
+        {
+          "fvo_id": 957,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Flodkräfta",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Röding",
+            "Öring"
+          ]
+        }
+      ],
       "Skålvallssjön": [
         {
           "fvo_id": 19,
@@ -163587,6 +164366,15 @@
             "Lake",
             "Stensimpa",
             "Ål"
+          ]
+        },
+        {
+          "fvo_id": 550,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
           ]
         },
         {
@@ -165821,6 +166609,28 @@
             "Lake",
             "Mört",
             "Signalkräfta",
+            "Öring"
+          ]
+        }
+      ],
+      "Sollum": [
+        {
+          "fvo_id": 1931,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Småspigg",
+            "Ål",
             "Öring"
           ]
         }
@@ -172924,6 +173734,21 @@
           ]
         }
       ],
+      "Stora Ljusevatten": [
+        {
+          "fvo_id": 2095,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Mört",
+            "Regnbåge"
+          ]
+        }
+      ],
       "Stora Ljustjärnen": [
         {
           "fvo_id": 5,
@@ -178240,6 +179065,20 @@
           "eu_cd": "SE672503-152579",
           "arter": [
             "Abborre"
+          ]
+        }
+      ],
+      "Strömsjönä": [
+        {
+          "fvo_id": 1019,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
           ]
         }
       ],
@@ -183686,6 +184525,21 @@
           ]
         }
       ],
+      "Svänasjön": [
+        {
+          "fvo_id": 2061,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Svärdsjön": [
         {
           "fvo_id": 1759,
@@ -183949,6 +184803,26 @@
           "arter": [
             "Elritsa",
             "Sik"
+          ]
+        }
+      ],
+      "Syrsjön": [
+        {
+          "fvo_id": 963,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Siklöja",
+            "Ål"
           ]
         }
       ],
@@ -184305,6 +185179,20 @@
           ]
         }
       ],
+      "Sälsjön": [
+        {
+          "fvo_id": 984,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Sälsvallen": [
         {
           "fvo_id": 1742,
@@ -184650,6 +185538,20 @@
           "arter": [
             "Röding",
             "Öring"
+          ]
+        }
+      ],
+      "Sätta": [
+        {
+          "fvo_id": 777,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda"
           ]
         }
       ],
@@ -185240,6 +186142,25 @@
           "arter": [
             "Gädda",
             "Lake"
+          ]
+        }
+      ],
+      "Sävsjö": [
+        {
+          "fvo_id": 2091,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -186406,6 +187327,17 @@
           ]
         }
       ],
+      "Södemöja": [
+        {
+          "fvo_id": 789,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Storspigg"
+          ]
+        }
+      ],
       "Söderalaån": [
         {
           "fvo_id": 61,
@@ -186550,6 +187482,17 @@
             "Stäm",
             "Ål",
             "Öring"
+          ]
+        }
+      ],
+      "Söderöra": [
+        {
+          "fvo_id": 762,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Storspigg"
           ]
         }
       ],
@@ -187034,6 +187977,20 @@
             "Mört",
             "Sik",
             "Siklöja"
+          ]
+        }
+      ],
+      "Södra Järbo": [
+        {
+          "fvo_id": 2018,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Flodkräfta",
+            "Gädda",
+            "Mört"
           ]
         }
       ],
@@ -190165,6 +191122,22 @@
           ]
         }
       ],
+      "Tegnabysjön": [
+        {
+          "fvo_id": 510,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare"
+          ]
+        }
+      ],
       "Tegtjärnsbäcken": [
         {
           "fvo_id": 962,
@@ -192105,6 +193078,26 @@
           ]
         }
       ],
+      "Tomta": [
+        {
+          "fvo_id": 778,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Flodnejonöga",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Småspigg",
+            "Stensimpa",
+            "Storspigg",
+            "Öring"
+          ]
+        }
+      ],
       "Tomtabäcken": [
         {
           "fvo_id": 139,
@@ -192592,6 +193585,28 @@
           ]
         }
       ],
+      "Torp": [
+        {
+          "fvo_id": 1931,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Småspigg",
+            "Ål",
+            "Öring"
+          ]
+        }
+      ],
       "Torpaån": [
         {
           "fvo_id": 597,
@@ -192780,6 +193795,44 @@
             "Sutare",
             "Ål",
             "Öring"
+          ]
+        },
+        {
+          "fvo_id": 949,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Ruda",
+            "Stensimpa",
+            "Ål"
+          ]
+        }
+      ],
+      "Torptjärn": [
+        {
+          "fvo_id": 963,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Siklöja",
+            "Ål"
           ]
         }
       ],
@@ -196840,6 +197893,22 @@
             "Lake",
             "Stensimpa",
             "Öring"
+          ]
+        }
+      ],
+      "Tävelsåssjön": [
+        {
+          "fvo_id": 595,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
           ]
         }
       ],
@@ -201643,6 +202712,24 @@
           ]
         }
       ],
+      "Vassgården": [
+        {
+          "fvo_id": 1954,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ]
+        }
+      ],
       "Vassjön": [
         {
           "fvo_id": 1753,
@@ -205578,6 +206665,24 @@
           ]
         }
       ],
+      "Vrångsjön": [
+        {
+          "fvo_id": 2057,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Ål"
+          ]
+        }
+      ],
       "Vrångtjärnen": [
         {
           "fvo_id": 25,
@@ -209139,6 +210244,24 @@
           ]
         }
       ],
+      "Västra Vätösund": [
+        {
+          "fvo_id": 757,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Ruda",
+            "Storspigg",
+            "Sutare"
+          ]
+        }
+      ],
       "Västra Ämmatjärnen": [
         {
           "fvo_id": 12,
@@ -211757,6 +212880,19 @@
             "Gädda",
             "Mört",
             "Regnbåge"
+          ]
+        }
+      ],
+      "Älesjön": [
+        {
+          "fvo_id": 242,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gräskarp",
+            "Regnbåge",
+            "Öring"
           ]
         }
       ],
@@ -219764,6 +220900,21 @@
           ]
         }
       ],
+      "Östanskär": [
+        {
+          "fvo_id": 1249,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Lax",
+            "Sik",
+            "Ål",
+            "Öring"
+          ]
+        }
+      ],
       "Östanåsälven": [
         {
           "fvo_id": 863,
@@ -221029,6 +222180,34 @@
             "Småspigg",
             "Stensimpa",
             "Stäm",
+            "Ål",
+            "Öring"
+          ]
+        }
+      ],
+      "Östra Hästefjorden": [
+        {
+          "fvo_id": 1873,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Elritsa",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Ruda",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Sutare",
             "Ål",
             "Öring"
           ]
@@ -241472,7 +242651,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Björstorps%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -241480,7 +242660,23 @@
         "Regnbåge"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Björstorp",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1165,
@@ -251818,13 +253014,28 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bruzaåns%20Mellersta%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Gädda"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Bruzaåns Mellersta",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 563,
@@ -251991,7 +253202,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Brännerisjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -252007,7 +253219,25 @@
         "Ruda",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Brännerisjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1841,
@@ -253700,7 +254930,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Byholma%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -253708,7 +254939,23 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Byholma",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1486,
@@ -255093,13 +256340,28 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bällsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Sutare"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bällsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1778,
@@ -255266,7 +256528,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Bäverkärns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -255296,7 +256559,32 @@
         "Sarv",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bäverkärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Bäcknejonöga",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1903,
@@ -267343,7 +268631,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Elmarens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -267359,7 +268648,25 @@
         "Gös",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Elmaren",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 886,
@@ -288236,7 +289543,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gladhammars%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -288248,7 +289556,27 @@
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gladhammar",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Signalkräfta",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 854,
@@ -290404,7 +291732,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Groskens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -290414,7 +291743,25 @@
         "Ruda"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Grosken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ruda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 224,
@@ -292609,7 +293956,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Gunneröds%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -292618,7 +293966,24 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Gunneröd",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1379,
@@ -297268,7 +298633,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Hallången%20m.fl%20sjöars%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -297280,7 +298646,23 @@
         "Gädda",
         "Mört"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Hallången",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 521,
@@ -306466,14 +307848,30 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Hjälmö%20Bys%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Hjälmö By",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 337,
@@ -310635,13 +312033,41 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Huljesjön-Skålåns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Gädda"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Skålån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Huljesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1337,
@@ -312729,7 +314155,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Hällsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -312739,7 +314166,25 @@
         "Nors"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Hällsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Nors"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1585,
@@ -318333,7 +319778,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Idö%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -318342,7 +319788,24 @@
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Idö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 807,
@@ -330654,7 +332117,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -330671,7 +332135,28 @@
         "Gädda",
         "Sik"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kokträsk",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 808,
@@ -330739,7 +332224,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Kolungens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -330753,7 +332239,29 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kolungen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 276,
@@ -332857,7 +334365,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Kussjö%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -332870,7 +334379,28 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kussjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1131,
@@ -336532,7 +338062,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Kölvattnets%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -336540,7 +338071,23 @@
         "Mört"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kölvattnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 601,
@@ -342301,7 +343848,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Lilla%20Hammarsjön%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/kalmar-lans-fiskevattenagareforbund/?o=584",
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -342311,7 +343859,25 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Lilla Hammarsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2024,
@@ -342517,7 +344083,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Lillemsens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -342529,7 +344096,27 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Lillemsen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Mört",
+            "Nors",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 334,
@@ -343521,7 +345108,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Lillåns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -343530,7 +345118,24 @@
         "Mört"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Lillån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1737,
@@ -360999,7 +362604,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Långens%20fvof%20(Strömstads%20Kommun)&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -361013,7 +362619,29 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Långens (Strömstads Kommun)",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Småspigg",
+            "Storspigg",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1150,
@@ -364116,7 +365744,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Lökens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -364125,7 +365754,24 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Löken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1992,
@@ -367045,7 +368691,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Maltträsk%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -367067,7 +368714,28 @@
         "Sik",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Maltträsk",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1751,
@@ -370729,13 +372397,28 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Marsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Ruda"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Marsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Ruda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2053,
@@ -371326,7 +373009,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Mastedalstjärnarnas%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -371337,7 +373021,26 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mastedalstjärnarna",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 646,
@@ -379859,7 +381562,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Månsarudssjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -379869,7 +381573,22 @@
         "Abborre",
         "Gädda"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Månsarudssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1130,
@@ -387569,7 +389288,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -387587,7 +389307,29 @@
         "Röding",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nordanede",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 25,
@@ -395182,7 +396924,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Norra%20Barsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -395195,7 +396938,28 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norra Barsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 261,
@@ -396231,7 +397995,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Norra%20Lunds%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -396243,7 +398008,27 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norra Lund",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Elritsa",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2000,
@@ -398752,7 +400537,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Norrahammars%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -398772,7 +400558,27 @@
         "Sutare",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norrahammar",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 4,
@@ -403737,7 +405543,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Nöresjöns%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=1030",
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -403750,7 +405557,28 @@
         "Sutare"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Nöresjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 79,
@@ -413545,7 +415373,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Oxsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -413556,7 +415385,26 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Oxsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1037,
@@ -414283,7 +416131,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Portilasjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -414295,7 +416144,27 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Portilasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Ruda",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1211,
@@ -419291,14 +421160,30 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Refsnäs%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Refsnä",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1418,
@@ -420399,7 +422284,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Revesjö%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -420416,7 +422302,32 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Revesjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Bäckröding",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1638,
@@ -420972,7 +422883,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Rinkabysjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -420985,7 +422897,28 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Rinkabysjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1477,
@@ -423434,7 +425367,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Runnö%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Mal",
@@ -423442,7 +425376,23 @@
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Runnö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Mal",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 236,
@@ -426601,7 +428551,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Rådens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -426611,7 +428562,22 @@
         "Abborre",
         "Gädda"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Råden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1534,
@@ -427186,7 +429152,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Röder%20och%20Skarfs%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Elritsa",
@@ -427194,7 +429161,38 @@
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Röder",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Elritsa",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Skarfs",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Elritsa",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 751,
@@ -427462,7 +429460,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Rökåbygdens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -427471,7 +429470,24 @@
         "Mört"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Rökåbygden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 567,
@@ -428684,7 +430700,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -428703,7 +430720,46 @@
         "Sik",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Bredträsk",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Rörträsk",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1648,
@@ -431407,7 +433463,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Saxnäs%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -431422,7 +433479,30 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Saxnä",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Lax",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2226,
@@ -435024,7 +437104,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sjötorpssjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -435034,7 +437115,22 @@
         "Abborre",
         "Gädda"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sjötorpssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 198,
@@ -435045,7 +437141,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sjövikssjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -435061,7 +437158,25 @@
         "Sarv",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sjövikssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 852,
@@ -438169,7 +440284,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Skåltjärnshyttans%20fvof&sp=false",
       "url_fvof": "www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=710",
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -438183,7 +440299,29 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Skåltjärnshyttan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Flodkräfta",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Röding",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2222,
@@ -446084,7 +448222,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Stora%20Ljusevatten%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -446094,7 +448233,25 @@
         "Regnbåge"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stora Ljusevatten",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Mört",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 162,
@@ -451777,7 +453934,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Strömsjönäs%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -451786,7 +453944,40 @@
         "Mört"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Strömsjönä",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Kvarnbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1556,
@@ -455469,7 +457660,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Svänasjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -455485,7 +457677,25 @@
         "Mört",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Svänasjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1834,
@@ -456034,7 +458244,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Syrsjön-Torptjärns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -456049,7 +458260,52 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Torptjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Siklöja",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Syrsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Siklöja",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 937,
@@ -457312,7 +459568,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sälsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -457321,7 +459578,24 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sälsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 132,
@@ -459307,7 +461581,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sätta%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -459316,7 +461591,24 @@
         "Ruda"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sätta",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1028,
@@ -460873,7 +463165,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Sävsjö-Gärdessjö%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -460887,7 +463180,50 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sävsjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Gärdessjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1936,
@@ -461191,13 +463527,28 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Södemöja%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Södemöja",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 61,
@@ -461637,13 +463988,28 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Söderöra%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Storspigg"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Söderöra",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Storspigg"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1216,
@@ -462098,7 +464464,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Södra%20Järbo%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -462107,7 +464474,24 @@
         "Mört"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Södra Järbo",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Flodkräfta",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 2163,
@@ -465407,7 +467791,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Tegnabysjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -465418,7 +467803,26 @@
         "Sutare"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Tegnabysjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 263,
@@ -468199,7 +470603,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Tomta%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -468214,7 +470619,30 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Tomta",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Flodnejonöga",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Småspigg",
+            "Stensimpa",
+            "Storspigg",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 643,
@@ -468428,7 +470856,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Torp-Sollums%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -468445,7 +470874,56 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sollum",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Småspigg",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Torp",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Småspigg",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 597,
@@ -468666,7 +471144,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Torpsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -468681,7 +471160,30 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Torpsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Ruda",
+            "Stensimpa",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1976,
@@ -473966,7 +476468,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Tävelsåssjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -473984,7 +476487,26 @@
         "Sutare",
         "Ål"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Tävelsåssjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1140,
@@ -481136,7 +483658,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Vassgårdens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -481158,7 +483681,28 @@
         "Ruda",
         "Sutare"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Vassgården",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 884,
@@ -487346,7 +489890,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Vrångsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -487359,7 +489904,28 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Vrångsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Ål"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 964,
@@ -491393,7 +493959,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Västra%20Vätösunds%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -491406,7 +493973,28 @@
         "Sutare"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Västra Vätösund",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Ruda",
+            "Storspigg",
+            "Sutare"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1872,
@@ -493880,7 +496468,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Älesjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvo_artlista"
       ],
       "arter": [
         "Gräskarp",
@@ -493892,7 +496481,23 @@
         "Regnbåge",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Älesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gräskarp",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1850,
@@ -509917,7 +512522,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Östanskärs%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -509927,7 +512533,25 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Östanskär",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Lax",
+            "Sik",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 60,
@@ -511421,7 +514045,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Östra%20Hästefjordens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "fvo_artlista"
       ],
       "arter": [
         "Abborre",
@@ -511444,7 +514069,38 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Östra Hästefjorden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Elritsa",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Ruda",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kallor": [
+            "fvo_artlista"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1467,
