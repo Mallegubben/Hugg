@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T14:09:39.730227+00:00",
+    "generated_at": "2026-09-16T22:10:50.466892+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1793
+      "har_vattenposter": 1794
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -404,24 +404,24 @@
     "vatten_fill_gap_pass": {
       "created_vatten": 4,
       "merged_vatten": 0,
-      "touched_vatten": 496,
-      "applied_rows": 500,
+      "touched_vatten": 500,
+      "applied_rows": 504,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1792,
-        "med_arter_men_0_vatten": 82,
-        "total_vatten": 9828
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1793,
         "med_arter_men_0_vatten": 81,
         "total_vatten": 9832
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1794,
+        "med_arter_men_0_vatten": 80,
+        "total_vatten": 9836
       },
       "blocked_sources": [
         "natureit",
@@ -165619,9 +165619,81 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "langvattnetsfvo.se_junsele.nu",
+        "ifiske_prosa"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Blåtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Bäckröding",
+            "Öring"
+          ],
+          "kallor": [
+            "langvattnetsfvo.se_junsele.nu"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://langvattnetsfvo.se/services/blatjarnen/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Botjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stor-abborrvattnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Långtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
@@ -165643,7 +165715,11 @@
           "Mört",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://langvattnetsfvo.se/services/blatjarnen/",
+        "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm"
+      ]
     },
     {
       "original_id": 1566,

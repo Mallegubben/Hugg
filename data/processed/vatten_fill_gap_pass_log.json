@@ -4151,6 +4151,87 @@
     },
     {
       "action": "touch",
+      "fvo": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "vatten": "Frögöl",
+      "source": "kindaturism",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "vatten": "Skirsjön",
+      "source": "kindaturism",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "vatten": "Ängsjön",
+      "source": "kindaturism",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "vatten": "Sillsjön",
+      "source": "kindaturism",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "vatten": "Blåtjärn",
+      "source": "langvattnetsfvo.se_junsele.nu",
+      "tillagda_vattenarter": [
+        "Bäckröding",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "vatten": "Botjärn",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "vatten": "Stor-abborrvattnet",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "vatten": "Långtjärn",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
       "fvo": "Ankedammens fvof",
       "lan": "Västra Götaland",
       "vatten": "Ankedammen",
@@ -4467,26 +4548,26 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 0,
+    "created_vatten": 4,
     "merged_vatten": 0,
-    "touched_vatten": 496,
-    "applied_rows": 496,
+    "touched_vatten": 500,
+    "applied_rows": 504,
     "unmatched": [],
     "before": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1792,
-      "med_arter_men_0_vatten": 82,
-      "total_vatten": 9828
+      "har_vattenposter": 1793,
+      "med_arter_men_0_vatten": 81,
+      "total_vatten": 9832
     },
     "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1792,
-      "med_arter_men_0_vatten": 82,
-      "total_vatten": 9828
+      "har_vattenposter": 1794,
+      "med_arter_men_0_vatten": 80,
+      "total_vatten": 9836
     },
     "blocked_sources": [
       "natureit",

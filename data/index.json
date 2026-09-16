@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T14:09:40.096340+00:00",
+  "generated_at": "2026-09-16T22:10:50.797794+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 6141,
+  "antal_vatten": 6143,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -1583,8 +1583,8 @@
       "med_artlista": 136,
       "utan_artlista": 2,
       "tackning_pct": 98.6,
-      "fvo_med_vattenposter": 133,
-      "antal_vattenposter": 591,
+      "fvo_med_vattenposter": 134,
+      "antal_vattenposter": 595,
       "fvo_ids": [
         1168,
         1170,
@@ -37993,6 +37993,16 @@
       ],
       "Blåtjärn": [
         {
+          "fvo_id": 1217,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Bäckröding",
+            "Öring"
+          ]
+        },
+        {
           "fvo_id": 1559,
           "typ": "sjö",
           "smhi_id": null,
@@ -39628,6 +39638,17 @@
             "Mört",
             "Sarv",
             "Siklöja"
+          ]
+        }
+      ],
+      "Botjärn": [
+        {
+          "fvo_id": 1217,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
           ]
         }
       ],
@@ -95962,6 +95983,15 @@
           ]
         },
         {
+          "fvo_id": 1217,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ]
+        },
+        {
           "fvo_id": 1360,
           "typ": "vattendrag",
           "smhi_id": null,
@@ -126794,6 +126824,17 @@
           "eu_cd": "NW716558-711667",
           "arter": [
             "Abborre"
+          ]
+        }
+      ],
+      "Stor-abborrvattnet": [
+        {
+          "fvo_id": 1217,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
           ]
         }
       ],
@@ -264311,7 +264352,9 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Långvattnets%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "langvattnetsfvo.se_junsele.nu",
+        "ifiske_prosa"
       ],
       "arter": [
         "Abborre",
@@ -264321,7 +264364,61 @@
         "Öring"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Blåtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Bäckröding",
+            "Öring"
+          ],
+          "kallor": [
+            "langvattnetsfvo.se_junsele.nu"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Botjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stor-abborrvattnet",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Långtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1566,
