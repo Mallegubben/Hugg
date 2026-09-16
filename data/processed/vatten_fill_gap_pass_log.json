@@ -4222,776 +4222,561 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Norra Dellen",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda",
-        "Id",
-        "Lake",
-        "Mört",
-        "Sik",
-        "Ål",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Södra Dellen",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda",
-        "Id",
-        "Lake",
-        "Mört",
-        "Sik",
-        "Ål",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Stornaggen",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Vikörn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Lomsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Ottertjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Harr",
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Stensjöarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Klingertjärnarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Siksjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Sik"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Svarttjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Valsjöarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Klingersjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Långsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Lilla Hundsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Stora Hundsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Måndagstjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Bergtjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Vecktalatjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Geasjöarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Älgesjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Västra och Östra Siksjöarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Skånristjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Skärven",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Skånsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Styggsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Långvattnet",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Lockjärv",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Gäddtjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Burvassen",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Norrsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Sörsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Alsjösjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Njupfatet",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Ruda",
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Mjusjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Ässjan",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Lennsjösjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Källsjösjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Grundsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Djupsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Aldringarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Fläsmasjöarna",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Örvallssjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Sik"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Norrhavrasjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Stråsjösjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Hävlungssjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Sjömyrasjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Ramsjösjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Långmyrasjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "V. Sjusjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Regnbåge"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Skäråssjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Röding"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Gråsjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Sik"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Frisbosjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Röjarbosjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Matsbosjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Sörgimasjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Abborrtjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Stensjön",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Regnbåge"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Älgetjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Regnbåge"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Dellenbygdens fvof",
       "lan": "Gävleborg",
       "vatten": "Tjärnvallstjärn",
       "source": "dellenbygdens-fvo.se",
-      "tillagda_vattenarter": [
-        "Regnbåge"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Ljusdals fvof",
       "lan": "Gävleborg",
       "vatten": "Hennan",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ljusdals fvof",
       "lan": "Gävleborg",
       "vatten": "Storsjön",
       "source": "ljusdalsfvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ljusdals fvof",
       "lan": "Gävleborg",
       "vatten": "Bäckesjön",
       "source": "ljusdalsfvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
@@ -5004,15 +4789,12 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ljusdals fvof",
       "lan": "Gävleborg",
       "vatten": "Örasjön",
       "source": "ljusdalsfvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
@@ -5025,202 +4807,147 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Klövtjärn",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Regnbåge",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Rossån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Vinnfarsån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Harr"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Långboån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Gädda",
-        "Harr"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Lång-Rösten",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Andån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Galvsjön",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Hässjaån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Rötjärn",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Bäckröding",
-        "Regnbåge"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Norrsjön",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Voxnan",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Harr",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Kyrktjärn",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Viksjön",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Grängen",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Lössnan",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Anneforsån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
@@ -5233,244 +4960,688 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Bornasen",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Mållången",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Siklöja",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Tälningen",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Hjulbergstjärn",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
+      "action": "touch",
       "fvo": "Alfta fvof",
       "lan": "Gävleborg",
       "vatten": "Häsboån",
       "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ovanåkers fvof",
       "lan": "Gävleborg",
       "vatten": "Värasen",
       "source": "ovanakersfvof.se",
-      "tillagda_vattenarter": [
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ovanåkers fvof",
       "lan": "Gävleborg",
       "vatten": "Loftssjön",
       "source": "ovanakersfvof.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Röding",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ovanåkers fvof",
       "lan": "Gävleborg",
       "vatten": "Björatjärn",
       "source": "ovanakersfvof.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Regnbåge"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ovanåkers fvof",
       "lan": "Gävleborg",
       "vatten": "Ol-Anderstjärn",
       "source": "ovanakersfvof.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ovanåkers fvof",
+      "lan": "Gävleborg",
+      "vatten": "Bergsbosjön",
+      "source": "ovanakersfvof.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ovanåkers fvof",
+      "lan": "Gävleborg",
+      "vatten": "Mörtsjön",
+      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ovanåkers fvof",
+      "lan": "Gävleborg",
+      "vatten": "Ullungen",
+      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ovanåkers fvof",
+      "lan": "Gävleborg",
+      "vatten": "Vägnan",
+      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Ovanåkers fvof",
+      "lan": "Gävleborg",
+      "vatten": "Viksjön",
+      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Abborrtjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Bodasjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Bursjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Edeforsen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Gartsbotjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Glistjärnen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Grundvattnet",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Gräningen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Harsasjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Högbergstjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Kalvsjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Kramstatjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Ljusnan",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Ljussjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Långtjärn v. Gräningen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Långtjärn v. Rödmyra",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Milsjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Mytingen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Mörtsjöarna",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Oktjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Orsmilen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Rossen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Sannavågen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Sidskogssjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Simessjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Skålbosjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Sorttjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Sortvattnet",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Stensjön, västra",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Stensjön, östra",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Stora Björken",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Stora Kölsjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Stora Lafsen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Storöratjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Svalåstjärn",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Svartvallsjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Uvåssjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Vikarvågen",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Vinnfarsjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Vås",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Västerbursjön",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "vatten": "Åvattnet",
+      "source": "jarvsofvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Hamrånge fvof",
+      "lan": "Gävleborg",
+      "vatten": "Hamrångeån",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Hamrånge fvof",
+      "lan": "Gävleborg",
+      "vatten": "Hamrångefjärden",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Hamrånge fvof",
+      "lan": "Gävleborg",
+      "vatten": "Viksjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Hamrånge fvof",
+      "lan": "Gävleborg",
+      "vatten": "Högbackasjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Hamrånge fvof",
+      "lan": "Gävleborg",
+      "vatten": "Storsjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åmots fvof",
+      "lan": "Gävleborg",
+      "vatten": "Ljustjärn",
+      "source": "visit_gavle_amots_fiskevardsforening",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åmots fvof",
+      "lan": "Gävleborg",
+      "vatten": "Abborrtjärn",
+      "source": "visit_gavle_amots_fiskevardsforening",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åmots fvof",
+      "lan": "Gävleborg",
+      "vatten": "Brasiljeån",
+      "source": "visit_gavle_amots_fiskevardsforening",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åmots fvof",
+      "lan": "Gävleborg",
+      "vatten": "Snåltjärn",
+      "source": "visit_gavle_amots_fiskevardsforening",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Åmots fvof",
+      "lan": "Gävleborg",
+      "vatten": "Lorttjärn",
+      "source": "visit_gavle_amots_fiskevardsforening",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Los-Hamra fvof",
+      "lan": "Gävleborg",
+      "vatten": "Abborrtjärn",
+      "source": "loshamrafvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Los-Hamra fvof",
+      "lan": "Gävleborg",
+      "vatten": "Voxnan",
+      "source": "loshamrafvo.se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Anviksjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Hållborgsån",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Anviksjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Anviksbäcken",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Mo-Östersjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Flärkån",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Mo-Östersjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Brusån",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Mo-Östersjöns fvof",
+      "lan": "Jämtland",
+      "vatten": "Fjälån",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Messlingens fvof",
+      "lan": "Jämtland",
+      "vatten": "Messlingssjön",
+      "source": "messlingenfiske",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ulvsta fvof",
+      "lan": "Gävleborg",
+      "vatten": "Hötjärn",
+      "source": "ifiske_prosa",
       "tillagda_vattenarter": [
-        "Abborre",
         "Regnbåge"
       ],
       "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Ovanåkers fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Bergsbosjön",
-      "source": "ovanakersfvof.se",
-      "tillagda_vattenarter": [
-        "Harr",
-        "Ruda",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Ovanåkers fvof",
-      "lan": "Gävleborg",
-      "vatten": "Mörtsjön",
-      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Ovanåkers fvof",
-      "lan": "Gävleborg",
-      "vatten": "Ullungen",
-      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Ovanåkers fvof",
-      "lan": "Gävleborg",
-      "vatten": "Vägnan",
-      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Ovanåkers fvof",
-      "lan": "Gävleborg",
-      "vatten": "Viksjön",
-      "source": "ovanakers_kommun_fiskebroschyr_ovanakers_fvof-sektion",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Abborrtjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Bodasjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda",
-        "Gös",
-        "Mört",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Bursjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Edeforsen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Harr",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Gartsbotjärn",
-      "source": "jarvsofvo.se",
+      "vatten": "Lilla Mörttjärn",
+      "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Öring"
       ],
@@ -5478,484 +5649,33 @@
     },
     {
       "action": "create",
-      "fvo": "Järvsö fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Glistjärnen",
-      "source": "jarvsofvo.se",
+      "vatten": "Stora Rönnåstjärn",
+      "source": "ifiske_prosa",
       "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Grundvattnet",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Gräningen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Röding",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Harsasjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Siklöja",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Högbergstjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Kalvsjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gös",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Kramstatjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
         "Regnbåge",
         "Öring"
       ],
       "tillagda_fvoarter": []
     },
     {
-      "action": "merge",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Ljusnan",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Gädda",
-        "Gös",
-        "Harr"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
       "action": "create",
-      "fvo": "Järvsö fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Ljussjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Harr",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Långtjärn v. Gräningen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Långtjärn v. Rödmyra",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Milsjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Mytingen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Mörtsjöarna",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört",
-        "Sutare"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Oktjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Orsmilen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Rossen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Sannavågen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Braxen",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Sidskogssjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Simessjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Skålbosjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Sorttjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Sortvattnet",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört",
-        "Röding"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Stensjön, västra",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Stensjön, östra",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Stora Björken",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Stora Kölsjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Stora Lafsen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Storöratjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Harr",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Svalåstjärn",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Svartvallsjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Uvåssjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Vikarvågen",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Vinnfarsjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Vås",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Siklöja"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Västerbursjön",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Järvsö fvof",
-      "lan": "Gävleborg",
-      "vatten": "Åvattnet",
-      "source": "jarvsofvo.se",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "merge",
-      "fvo": "Hamrånge fvof",
-      "lan": "Gävleborg",
-      "vatten": "Hamrångeån",
+      "vatten": "Liss-Tansen",
       "source": "ifiske_prosa",
       "tillagda_vattenarter": [
-        "Harr",
-        "Öring"
+        "Bäckröding",
+        "Regnbåge"
       ],
       "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Hamrånge fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Hamrångefjärden",
+      "vatten": "Mångeln",
       "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
@@ -5966,9 +5686,33 @@
     },
     {
       "action": "create",
-      "fvo": "Hamrånge fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Viksjön",
+      "vatten": "Stora Rännsjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ulvsta fvof",
+      "lan": "Gävleborg",
+      "vatten": "Lilla Rännsjön",
+      "source": "ifiske_prosa",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ulvsta fvof",
+      "lan": "Gävleborg",
+      "vatten": "Vallsjön",
       "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
@@ -5979,186 +5723,51 @@
     },
     {
       "action": "create",
-      "fvo": "Hamrånge fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Högbackasjön",
+      "vatten": "Pålsjön",
       "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
-        "Gädda",
-        "Gös"
+        "Gädda"
       ],
       "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Hamrånge fvof",
+      "fvo": "Ulvsta fvof",
       "lan": "Gävleborg",
-      "vatten": "Storsjön",
+      "vatten": "Hammarsjön",
       "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
-        "Benlöja",
-        "Björkna",
-        "Braxen",
-        "Gädda",
-        "Gärs",
-        "Gös",
-        "Mört",
-        "Nors",
-        "Sarv",
-        "Siklöja"
+        "Gädda"
       ],
       "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Åmots fvof",
+      "fvo": "Östby fvof",
       "lan": "Gävleborg",
-      "vatten": "Ljustjärn",
-      "source": "visit_gavle_amots_fiskevardsforening",
-      "tillagda_vattenarter": [
-        "Regnbåge",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Åmots fvof",
-      "lan": "Gävleborg",
-      "vatten": "Abborrtjärn",
-      "source": "visit_gavle_amots_fiskevardsforening",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Åmots fvof",
-      "lan": "Gävleborg",
-      "vatten": "Brasiljeån",
-      "source": "visit_gavle_amots_fiskevardsforening",
+      "vatten": "Norrtjärn",
+      "source": "ifiske_prosa",
       "tillagda_vattenarter": [
         "Abborre",
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Färila fvof",
+      "lan": "Gävleborg",
+      "vatten": "Mellanljusnan",
+      "source": "farilafiske.se",
+      "tillagda_vattenarter": [
         "Gädda",
         "Harr",
+        "Id",
         "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Åmots fvof",
-      "lan": "Gävleborg",
-      "vatten": "Snåltjärn",
-      "source": "visit_gavle_amots_fiskevardsforening",
-      "tillagda_vattenarter": [
-        "Röding",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Åmots fvof",
-      "lan": "Gävleborg",
-      "vatten": "Lorttjärn",
-      "source": "visit_gavle_amots_fiskevardsforening",
-      "tillagda_vattenarter": [
-        "Röding",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Los-Hamra fvof",
-      "lan": "Gävleborg",
-      "vatten": "Abborrtjärn",
-      "source": "loshamrafvo.se",
-      "tillagda_vattenarter": [
-        "Regnbåge",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "merge",
-      "fvo": "Los-Hamra fvof",
-      "lan": "Gävleborg",
-      "vatten": "Voxnan",
-      "source": "loshamrafvo.se",
-      "tillagda_vattenarter": [
-        "Harr",
-        "Öring"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "merge",
-      "fvo": "Anviksjöns fvof",
-      "lan": "Jämtland",
-      "vatten": "Hållborgsån",
-      "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Anviksjöns fvof",
-      "lan": "Jämtland",
-      "vatten": "Anviksbäcken",
-      "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Mo-Östersjöns fvof",
-      "lan": "Jämtland",
-      "vatten": "Flärkån",
-      "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "create",
-      "fvo": "Mo-Östersjöns fvof",
-      "lan": "Jämtland",
-      "vatten": "Brusån",
-      "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "merge",
-      "fvo": "Mo-Östersjöns fvof",
-      "lan": "Jämtland",
-      "vatten": "Fjälån",
-      "source": "ifiske_prosa",
-      "tillagda_vattenarter": [
-        "Sik"
-      ],
-      "tillagda_fvoarter": []
-    },
-    {
-      "action": "merge",
-      "fvo": "Messlingens fvof",
-      "lan": "Jämtland",
-      "vatten": "Messlingssjön",
-      "source": "messlingenfiske",
-      "tillagda_vattenarter": [
-        "Lake"
       ],
       "tillagda_fvoarter": []
     },
@@ -6480,10 +6089,10 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 135,
-    "merged_vatten": 18,
-    "touched_vatten": 507,
-    "applied_rows": 660,
+    "created_vatten": 12,
+    "merged_vatten": 0,
+    "touched_vatten": 660,
+    "applied_rows": 672,
     "unmatched": [],
     "before": {
       "antal_fvo": 1907,
@@ -6491,7 +6100,7 @@
       "saknar_arter": 33,
       "har_vattenposter": 1794,
       "med_arter_men_0_vatten": 80,
-      "total_vatten": 9836
+      "total_vatten": 9971
     },
     "after": {
       "antal_fvo": 1907,
@@ -6499,7 +6108,7 @@
       "saknar_arter": 33,
       "har_vattenposter": 1794,
       "med_arter_men_0_vatten": 80,
-      "total_vatten": 9971
+      "total_vatten": 9983
     },
     "blocked_sources": [
       "natureit",

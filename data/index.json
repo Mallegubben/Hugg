@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T23:11:54.909131+00:00",
+  "generated_at": "2026-09-16T23:20:34.895847+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 6249,
+  "antal_vatten": 6258,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -236,7 +236,7 @@
       "utan_artlista": 1,
       "tackning_pct": 98.0,
       "fvo_med_vattenposter": 50,
-      "antal_vattenposter": 1196,
+      "antal_vattenposter": 1208,
       "fvo_ids": [
         4,
         5,
@@ -65643,6 +65643,16 @@
       ],
       "Hammarsjön": [
         {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        },
+        {
           "fvo_id": 2205,
           "typ": "sjö",
           "smhi_id": "620406-140165",
@@ -74764,6 +74774,17 @@
           "eu_cd": null,
           "arter": [
             "Öring"
+          ]
+        }
+      ],
+      "Hötjärn": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge"
           ]
         }
       ],
@@ -89315,6 +89336,17 @@
           ]
         }
       ],
+      "Lilla Mörttjärn": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ]
+        }
+      ],
       "Lilla Nätaren": [
         {
           "fvo_id": 219,
@@ -89346,6 +89378,18 @@
             "Mört",
             "Nors",
             "Siklöja"
+          ]
+        }
+      ],
+      "Lilla Rännsjön": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -92134,6 +92178,18 @@
           "arter": [
             "Abborre",
             "Mört"
+          ]
+        }
+      ],
+      "Liss-Tansen": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Bäckröding",
+            "Regnbåge"
           ]
         }
       ],
@@ -99220,6 +99276,20 @@
           ]
         }
       ],
+      "Mellanljusnan": [
+        {
+          "fvo_id": 28,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda",
+            "Harr",
+            "Id",
+            "Öring"
+          ]
+        }
+      ],
       "Mellansjöbäcken": [
         {
           "fvo_id": 86,
@@ -102546,6 +102616,19 @@
             "Bergsimpa",
             "Bäckröding",
             "Öring"
+          ]
+        }
+      ],
+      "Mångeln": [
+        {
+          "fvo_id": 40,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
           ]
         }
       ],
@@ -107306,6 +107389,16 @@
       ],
       "Norrtjärn": [
         {
+          "fvo_id": 60,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        },
+        {
           "fvo_id": 1565,
           "typ": "sjö",
           "smhi_id": null,
@@ -112011,6 +112104,18 @@
           "eu_cd": NaN,
           "arter": [
             "Öring"
+          ]
+        }
+      ],
+      "Pålsjön": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -130031,6 +130136,30 @@
           "arter": [
             "Abborre",
             "Mört"
+          ]
+        }
+      ],
+      "Stora Rännsjön": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
+      "Stora Rönnåstjärn": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge",
+            "Öring"
           ]
         }
       ],
@@ -148795,6 +148924,17 @@
         }
       ],
       "Vallsjön": [
+        {
+          "fvo_id": 40,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ]
+        },
         {
           "fvo_id": 378,
           "typ": "sjö",
@@ -204810,7 +204950,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "extern_fvof"
+        "extern_fvof",
+        "farilafiske.se"
       ],
       "arter": [
         "Abborre",
@@ -205388,6 +205529,22 @@
             "SERS"
           ],
           "senaste_fiskeaar": 2012
+        },
+        {
+          "typ": "sjö",
+          "namn": "Mellanljusnan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda",
+            "Harr",
+            "Id",
+            "Öring"
+          ],
+          "kallor": [
+            "farilafiske.se"
+          ],
+          "senaste_fiskeaar": null
         }
       ]
     },
@@ -359175,7 +359332,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
       "arter": [
         "Abborre",
@@ -359395,6 +359553,146 @@
             "SERS"
           ],
           "senaste_fiskeaar": 2024
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hötjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Mörttjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Rönnåstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Liss-Tansen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Bäckröding",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Mångeln",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Rännsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Rännsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Vallsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Pålsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hammarsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
         }
       ]
     },
@@ -388347,7 +388645,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
       "arter": [
         "Abborre",
@@ -388448,6 +388747,20 @@
             "SERS"
           ],
           "senaste_fiskeaar": 2025
+        },
+        {
+          "typ": "sjö",
+          "namn": "Norrtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null
         }
       ]
     },

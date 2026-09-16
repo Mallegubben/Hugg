@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T23:11:54.564773+00:00",
+    "generated_at": "2026-09-16T23:20:34.599299+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -402,10 +402,10 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 135,
-      "merged_vatten": 18,
-      "touched_vatten": 507,
-      "applied_rows": 660,
+      "created_vatten": 12,
+      "merged_vatten": 0,
+      "touched_vatten": 660,
+      "applied_rows": 672,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
@@ -413,7 +413,7 @@
         "saknar_arter": 33,
         "har_vattenposter": 1794,
         "med_arter_men_0_vatten": 80,
-        "total_vatten": 9836
+        "total_vatten": 9971
       },
       "after": {
         "antal_fvo": 1907,
@@ -421,7 +421,7 @@
         "saknar_arter": 33,
         "har_vattenposter": 1794,
         "med_arter_men_0_vatten": 80,
-        "total_vatten": 9971
+        "total_vatten": 9983
       },
       "blocked_sources": [
         "natureit",
@@ -64829,7 +64829,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "extern_fvof"
+        "extern_fvof",
+        "farilafiske.se"
       ],
       "vatten": [
         {
@@ -65592,6 +65593,26 @@
           "referenser": [
             "http://aquarapport.slu.se/default.aspx?ID=98&X=6855780&Y=1485840"
           ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Mellanljusnan",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda",
+            "Harr",
+            "Id",
+            "Öring"
+          ],
+          "kallor": [
+            "farilafiske.se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.farilafiske.se/vara-fiskevatten"
+          ]
         }
       ],
       "statistik": {
@@ -65607,7 +65628,10 @@
         "kallor_url:er": [
           "https://www.farilafiske.se/"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.farilafiske.se/vara-fiskevatten"
+      ]
     },
     {
       "original_id": 98,
@@ -317510,7 +317534,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
       "vatten": [
         {
@@ -317759,6 +317784,186 @@
           "referenser": [
             "http://aquarapport.slu.se/default.aspx?ID=98&X=6756970&Y=1537540"
           ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hötjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Regnbåge"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Mörttjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Rönnåstjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Liss-Tansen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Bäckröding",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Mångeln",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Rännsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Lilla Rännsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Vallsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Pålsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Hammarsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ulvstafvof.se/fiskekort/"
+          ]
         }
       ],
       "statistik": {
@@ -317813,7 +318018,10 @@
         "luckor_ej_funna_hos_fvof": [],
         "url": "https://www.ifiske.se/fiske-testeboan-stora-ronnastjarn-lilla-morttjarn-m-fl-vatten.htm",
         "anmarkning": "Endast spegel/kontroll. Artdata kommer inte från iFiske – luckor ska fyllas via FVOF eller andra tillåtna källor."
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ulvstafvof.se/fiskekort/"
+      ]
     },
     {
       "original_id": 1032,
@@ -365761,7 +365969,8 @@
       "kallor": [
         "fiskekartan",
         "slu_provfiske",
-        "gbif"
+        "gbif",
+        "ifiske_prosa"
       ],
       "vatten": [
         {
@@ -365859,6 +366068,24 @@
             "http://aquarapport.slu.se/default.aspx?ID=98&X=6747897&Y=1556144",
             "http://aquarapport.slu.se/default.aspx?ID=98&X=6749670&Y=1554690"
           ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Norrtjärn",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "ifiske_prosa"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.ifiske.se/fiske-ostby-fvof-testeboan-vittersjon-norrtjarn-gnottjarn.htm"
+          ]
         }
       ],
       "statistik": {
@@ -365909,7 +366136,10 @@
           "Ål",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.ifiske.se/fiske-ostby-fvof-testeboan-vittersjon-norrtjarn-gnottjarn.htm"
+      ]
     },
     {
       "original_id": 2003,
