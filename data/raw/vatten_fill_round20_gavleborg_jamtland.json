@@ -1,0 +1,1782 @@
+{
+  "generated_at": "2026-09-16T23:20:00Z",
+  "round": "20_gavleborg_jamtland_deep",
+  "policy": {
+    "allowed": [
+      "FVOF tables/prose",
+      "municipal/tourism naming water+species",
+      "iFiske Om prose",
+      "LST nätprovfiske"
+    ],
+    "never_use": [
+      "iFiske Arter icons",
+      "NatureIT",
+      "Artportalen",
+      "Fishbrain",
+      "Vitfisk expansion",
+      "rumors"
+    ],
+    "mapping": "1:1; species ⊆ arter_fvo; named waters; empty better than wrong"
+  },
+  "stats": {
+    "fvo_with_enrichments": 11,
+    "total_vatten_rows": 156,
+    "note": "Gävleborg FVOF registers (Dellen tables verified live) + Jämtland Om/messlingen. VB zero still empty."
+  },
+  "enrichments": [
+    {
+      "namn": "Dellenbygdens fvof",
+      "lan": "Gävleborg",
+      "object_id": 1554,
+      "vatten": [
+        {
+          "namn": "Norra Dellen",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/dellensjoarna",
+          "evidence": "FVOF-tabell/prosa: Öring, Sik, Abborre, Gädda, Lake, Ål, Mört, Id, Braxen. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Södra Dellen",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/dellensjoarna",
+          "evidence": "FVOF-tabell/prosa: Öring, Sik, Abborre, Gädda, Lake, Ål, Mört, Id, Braxen. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Stornaggen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Öring, Sik, Abborre, Gädda, Lake. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Vikörn",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Öring, Sik, Abborre, Gädda, Lake. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Lomsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Öring, Sik, Abborre, Gädda, Lake. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Ottertjärn",
+          "arter": [
+            "Abborre",
+            "Harr",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Harr, Röding, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Stensjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Klingertjärnarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Siksjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Sik, Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Svarttjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Valsjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Klingersjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Långsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Lilla Hundsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Stora Hundsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Måndagstjärn",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Bergtjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Röding, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Vecktalatjärn",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Geasjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Älgesjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Västra och Östra Siksjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Skånristjärn",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Skärven",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Skånsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/naggen-skanomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Styggsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda, Harr, Sik, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Långvattnet",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Lockjärv",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Gäddtjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Burvassen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Norrsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Sörsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Alsjösjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Njupfatet",
+          "arter": [
+            "Ruda",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/brannas-alsjo",
+          "evidence": "FVOF-tabell/prosa: Ruda, Röding, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Mjusjön",
+          "arter": [
+            "Abborre",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Röding, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Ässjan",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Lennsjösjön",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Källsjösjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Grundsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Djupsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Aldringarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Fläsmasjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Örvallssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Röding",
+            "Sik",
+            "Siklöja"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/furuberg-movikenomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda, Röding, Sik. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Norrhavrasjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Stråsjösjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Hävlungssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Sjömyrasjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Ramsjösjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Långmyrasjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "V. Sjusjön",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Regnbåge. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Skäråssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Röding"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda, Lake, Röding. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Gråsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda, Sik. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Frisbosjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Röjarbosjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Matsbosjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Sörgimasjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Gädda. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Abborre, Öring. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Stensjön",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Regnbåge. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Älgetjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Regnbåge. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        },
+        {
+          "namn": "Tjärnvallstjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "dellenbygdens-fvo.se",
+          "url": "https://www.dellenbygdens-fvo.se/sodra-svagadalsomradet",
+          "evidence": "FVOF-tabell/prosa: Regnbåge. ∩ arter_fvo. Vitfisk ej expanderad; Stensjön#26 utelämnad (krock med #60 P&T)."
+        }
+      ],
+      "notes": "Kuraterad från FVOF områdes-tabeller (Naggen/Brännås/Furuberg/Södra Svågan/Dellensjöarna). Vitfisk ej expanderad. Stensjön#26 skippad."
+    },
+    {
+      "namn": "Ljusdals fvof",
+      "lan": "Gävleborg",
+      "object_id": 1513,
+      "vatten": [
+        {
+          "namn": "Hennan",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Öring"
+          ],
+          "kalla": "ljusdalsfvo.se / ifiske.se (prosa)",
+          "url": "https://www.ljusdalsfvo.se/fiskevatten/de-stora-sjoarna/",
+          "evidence": "De stora sjöarna: Hennan, Storsjön och Bäckesjön — grov abborre, gädda; Storsjö-öring. iFiske Om: Hennansjön … öring eller gädda; Hennansjön ruvar på Hälsinglands största öringar."
+        },
+        {
+          "namn": "Storsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Öring"
+          ],
+          "kalla": "ljusdalsfvo.se",
+          "url": "https://www.ljusdalsfvo.se/fiskevatten/de-stora-sjoarna/",
+          "evidence": "Hennan, Storsjön och Bäckesjön: grov abborre, gädda och den smått unika Storsjö-öringen."
+        },
+        {
+          "namn": "Bäckesjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ljusdalsfvo.se",
+          "url": "https://www.ljusdalsfvo.se/fiskevatten/de-stora-sjoarna/",
+          "evidence": "Hennan, Storsjön och Bäckesjön: grov abborre, gädda (Storsjö-öring knuten till Storsjön — ej tillskriven Bäckesjön)."
+        },
+        {
+          "namn": "Leån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "ljusdalsfvo.se",
+          "url": "https://www.ljusdalsfvo.se/fiskevatten/lean/",
+          "evidence": "I Leån simmar harr, öring, abborre och gädda."
+        },
+        {
+          "namn": "Örasjön",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "ljusdalsfvo.se",
+          "url": "https://www.ljusdalsfvo.se/fiskevatten/orasjon/",
+          "evidence": "Vilda självreproducerande öringar; talrikt småvuxet abborrbestånd."
+        },
+        {
+          "namn": "Ljusnan",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "ljusdalsfvo.se / ifiske.se (prosa)",
+          "url": "https://www.ljusdalsfvo.se/fiskevatten/ljusnan/",
+          "evidence": "Ljusdals del av Ljusnan: harrfiske (Morvall-/Malmyrströmmen) och öringfiske; iFiske: Ljusnan och Leån — öring och harr."
+        }
+      ],
+      "notes": "FVOF-sidor per vatten + iFiske Om-prosa. Örasjön≠Örasjöån. Flodkräfta nämnd kollektivt — ej tillskriven."
+    },
+    {
+      "namn": "Alfta fvof",
+      "lan": "Gävleborg",
+      "object_id": 1538,
+      "vatten": [
+        {
+          "namn": "Klövtjärn",
+          "arter": [
+            "Abborre",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Klövtjärn: Öring (P&T), Abborre; kommunbroschyr: öring och regnbåge"
+        },
+        {
+          "namn": "Rossån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Rossån, Vinnfarsån, Långboån: Öring; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        },
+        {
+          "namn": "Vinnfarsån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Rossån, Vinnfarsån, Långboån: Öring; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        },
+        {
+          "namn": "Långboån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Rossån, Vinnfarsån, Långboån: Öring; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        },
+        {
+          "namn": "Lång-Rösten",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Långrösten: Gädda, Abborre, Gös (FÅNGA-gap Lång-Rösten)"
+        },
+        {
+          "namn": "Andån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Andån: Öring; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        },
+        {
+          "namn": "Galvsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Galvsjön: Gädda, Abborre, Gös, Lake, *Öring; vatten-sida: gös, gädda, lake, svagt öringbestånd"
+        },
+        {
+          "namn": "Hässjaån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Hässjaån: Harr, *Öring; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        },
+        {
+          "namn": "Rötjärn",
+          "arter": [
+            "Bäckröding",
+            "Regnbåge"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Rötjärn: Regnbåge (P&T), Bäckröding"
+        },
+        {
+          "namn": "Norrsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Norrsjön: Gädda, Abborre, Lake, *Öring"
+        },
+        {
+          "namn": "Voxnan",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Runemoströmmarna (Voxnan): Harr, *Öring"
+        },
+        {
+          "namn": "Kyrktjärn",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Kyrktjärn: Gädda, Abborre, Gös"
+        },
+        {
+          "namn": "Viksjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Viksjön: Gädda, Abborre (Alfta — ej Ovanåkers Viksjön)"
+        },
+        {
+          "namn": "Grängen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Grängen: Gädda, Abborre"
+        },
+        {
+          "namn": "Lössnan",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Lössnan: Gädda, Abborre"
+        },
+        {
+          "namn": "Anneforsån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Anneforsån: Öring, Harr; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        },
+        {
+          "namn": "Flaxnan",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Flaxnan: Harr, *Öring"
+        },
+        {
+          "namn": "Bornasen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Bornasen: Öring och Röding (P&T), Gädda, Abborre"
+        },
+        {
+          "namn": "Mållången",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Mållången: Gädda, Abborre, *Öring, *Sik; kommunbroschyr: siklöjebestånd"
+        },
+        {
+          "namn": "Tälningen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Tälningen: Öring, Sik, Gädda, Abborre"
+        },
+        {
+          "namn": "Hjulbergstjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Hjulbergstjärn: Öring (P&T), Abborre"
+        },
+        {
+          "namn": "Häsboån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "alftafvof.se / ovanaker.se fiskebroschyr / ifiske.se (prosa)",
+          "url": "https://www.alftafvof.se/karta/",
+          "evidence": "Häsboån: Öring; iFiske Om: Andån, Hässjaån, Anneforsån, Häsboån, Vinnfarsån/Rossån/Långboån håller öring och harr, även gädda och abborre."
+        }
+      ],
+      "notes": "Primär källa alftafvof.se/karta (namngivna vatten×arter). Kommunbroschyr Alfta-sektion för siklöja Mållången och regnbåge Klövtjärn. iFiske Om för strömlista. Gässlingen namngiven utan arter — ej fylld."
+    },
+    {
+      "namn": "Ovanåkers fvof",
+      "lan": "Gävleborg",
+      "object_id": 1522,
+      "vatten": [
+        {
+          "namn": "Värasen",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ovanakersfvof.se",
+          "url": "https://www.ovanakersfvof.se/vatten/varasen/",
+          "evidence": "Värasen: Öring, Röding (karta); naturligt föryngrad laxöring och fjällröding (sida)."
+        },
+        {
+          "namn": "Loftssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ovanakersfvof.se",
+          "url": "https://www.ovanakersfvof.se/vatten/loftssjon/",
+          "evidence": "Loftssjön: Öring/Röding (P&T), Gädda, Abborre (karta); sida: öring, gädda, abborre."
+        },
+        {
+          "namn": "Björatjärn",
+          "arter": [
+            "Abborre",
+            "Regnbåge"
+          ],
+          "kalla": "ovanakersfvof.se",
+          "url": "https://www.ovanakersfvof.se/karta/",
+          "evidence": "Björatjärn: Regnbåge (P&T), Abborre."
+        },
+        {
+          "namn": "Ol-Anderstjärn",
+          "arter": [
+            "Abborre",
+            "Regnbåge"
+          ],
+          "kalla": "ovanakersfvof.se",
+          "url": "https://www.ovanakersfvof.se/karta/",
+          "evidence": "Ol-Anderstjärn: Regnbåge (P&T), Abborre."
+        },
+        {
+          "namn": "Bergsbosjön",
+          "arter": [
+            "Harr",
+            "Ruda",
+            "Öring"
+          ],
+          "kalla": "ovanakersfvof.se",
+          "url": "https://www.ovanakersfvof.se/vatten/bergsbosjon/",
+          "evidence": "Karta: Öring (P&T), *Harr; sida: öring sätts ut, harr naturligt, även ruda."
+        },
+        {
+          "namn": "Mörtsjön",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "Ovanåkers kommun fiskebroschyr (Ovanåkers FVOF-sektion)",
+          "url": "https://www.ovanaker.se/download/18.3d41e3f016b823004322ec05/1561453863474/Fiskebroschyr-webb.pdf",
+          "evidence": "Mörtsjön … hyser många gäddor över 100 cm (Ovanåkers FVOF-sektion i kommunens fiskebroschyr)."
+        },
+        {
+          "namn": "Ullungen",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "Ovanåkers kommun fiskebroschyr (Ovanåkers FVOF-sektion)",
+          "url": "https://www.ovanaker.se/download/18.3d41e3f016b823004322ec05/1561453863474/Fiskebroschyr-webb.pdf",
+          "evidence": "Voxnansystemet mellan Ullungen–Vägnan–Viksjön: stor abborre och gädda; vitfisk t.ex. braxen."
+        },
+        {
+          "namn": "Vägnan",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "Ovanåkers kommun fiskebroschyr (Ovanåkers FVOF-sektion)",
+          "url": "https://www.ovanaker.se/download/18.3d41e3f016b823004322ec05/1561453863474/Fiskebroschyr-webb.pdf",
+          "evidence": "Samma Voxnansystem Ullungen–Vägnan–Viksjön."
+        },
+        {
+          "namn": "Viksjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "Ovanåkers kommun fiskebroschyr (Ovanåkers FVOF-sektion)",
+          "url": "https://www.ovanaker.se/download/18.3d41e3f016b823004322ec05/1561453863474/Fiskebroschyr-webb.pdf",
+          "evidence": "Samma Voxnansystem (Ovanåkers — ej Alfta Viksjön)."
+        }
+      ],
+      "notes": "FVOF-karta/sidor + kommunbroschyr endast Ovanåkers-sektion. Fullen/Grängen gaps utan artprosa under Ovanåkers — ej fyllda. Alfta Grängen/Viksjön hålls isär."
+    },
+    {
+      "namn": "Järvsö fvof",
+      "lan": "Gävleborg",
+      "object_id": 1547,
+      "vatten": [
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Abborrtjärn — Abborre, Öring."
+        },
+        {
+          "namn": "Bodasjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Siklöja"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Bodasjön — Abborre, Braxen, Gädda, Gös, Mört, Siklöja."
+        },
+        {
+          "namn": "Bursjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Bursjön — Abborre, Gädda."
+        },
+        {
+          "namn": "Edeforsen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Edeforsen — Abborre, Gädda, Gös, Harr, Öring."
+        },
+        {
+          "namn": "Gartsbotjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Gartsbotjärn — Öring."
+        },
+        {
+          "namn": "Glistjärnen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Glistjärnen — Abborre, Gädda."
+        },
+        {
+          "namn": "Grundvattnet",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Grundvattnet — Abborre, Öring."
+        },
+        {
+          "namn": "Gräningen",
+          "arter": [
+            "Abborre",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Gräningen — Abborre, Röding, Öring."
+        },
+        {
+          "namn": "Harsasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Siklöja",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Harsasjön — Abborre, Gädda, Siklöja, Öring."
+        },
+        {
+          "namn": "Högbergstjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Högbergstjärn — Öring."
+        },
+        {
+          "namn": "Kalvsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Siklöja"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Kalvsjön — Abborre, Gädda, Gös, Siklöja."
+        },
+        {
+          "namn": "Kramstatjärn",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Kramstatjärn — Abborre, Gädda, Regnbåge, Öring."
+        },
+        {
+          "namn": "Ljusnan",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Ljusnan — Abborre, Gädda, Gös, Harr, Öring."
+        },
+        {
+          "namn": "Ljussjön",
+          "arter": [
+            "Abborre",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Ljussjön — Abborre, Harr, Öring."
+        },
+        {
+          "namn": "Långtjärn v. Gräningen",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Långtjärn v. Gräningen — Abborre, Öring."
+        },
+        {
+          "namn": "Långtjärn v. Rödmyra",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Långtjärn v. Rödmyra — Öring."
+        },
+        {
+          "namn": "Milsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Siklöja"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Milsjön — Abborre, Gädda, Siklöja."
+        },
+        {
+          "namn": "Mytingen",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Mytingen — Öring."
+        },
+        {
+          "namn": "Mörtsjöarna",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Mörtsjöarna — Abborre, Gädda, Mört, Sutare."
+        },
+        {
+          "namn": "Oktjärn",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Oktjärn — Abborre, Öring."
+        },
+        {
+          "namn": "Orsmilen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Orsmilen — Abborre, Gädda."
+        },
+        {
+          "namn": "Rossen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Rossen — Abborre, Gädda."
+        },
+        {
+          "namn": "Sannavågen",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Sannavågen — Abborre, Braxen, Gädda."
+        },
+        {
+          "namn": "Sidskogssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Siklöja"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Sidskogssjön — Abborre, Gädda, Siklöja."
+        },
+        {
+          "namn": "Simessjön",
+          "arter": [
+            "Abborre",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Simessjön — Abborre, Öring."
+        },
+        {
+          "namn": "Skålbosjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Skålbosjön — Abborre, Gädda."
+        },
+        {
+          "namn": "Sorttjärn",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Sorttjärn — Abborre, Gädda."
+        },
+        {
+          "namn": "Sortvattnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Röding"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Sortvattnet — Abborre, Gädda, Mört, Röding."
+        },
+        {
+          "namn": "Stensjön, västra",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Stensjön, västra — Abborre, Gädda."
+        },
+        {
+          "namn": "Stensjön, östra",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Stensjön, östra — Abborre, Gädda."
+        },
+        {
+          "namn": "Stora Björken",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Stora Björken — Abborre, Gädda."
+        },
+        {
+          "namn": "Stora Kölsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Stora Kölsjön — Abborre, Gädda, Sik."
+        },
+        {
+          "namn": "Stora Lafsen",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Stora Lafsen — Abborre, Gädda."
+        },
+        {
+          "namn": "Storöratjärn",
+          "arter": [
+            "Abborre",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Storöratjärn — Abborre, Harr, Öring."
+        },
+        {
+          "namn": "Svalåstjärn",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Svalåstjärn — Abborre, Gädda."
+        },
+        {
+          "namn": "Svartvallsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Svartvallsjön — Abborre, Gädda, Mört."
+        },
+        {
+          "namn": "Uvåssjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Uvåssjön — Abborre, Gädda."
+        },
+        {
+          "namn": "Vikarvågen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Vikarvågen — Abborre, Gädda, Mört."
+        },
+        {
+          "namn": "Vinnfarsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Vinnfarsjön — Abborre, Gädda."
+        },
+        {
+          "namn": "Vås",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Siklöja"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Vås — Abborre, Gädda, Siklöja."
+        },
+        {
+          "namn": "Västerbursjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Västerbursjön — Abborre, Gädda."
+        },
+        {
+          "namn": "Åvattnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik"
+          ],
+          "kalla": "jarvsofvo.se",
+          "url": "https://jarvsofvo.se/fiskevatten",
+          "evidence": "Järvsö FVO fiskevattenregister: Åvattnet — Abborre, Gädda, Sik."
+        }
+      ],
+      "notes": "1:1 FVOF-register. Orsjön/Gryttjen i FÅNGA-gaps saknas i registret (Orsmilen≠Orsjön) — ej fuzzy. Gartstjärnen≠Gartsbotjärn ej mappad."
+    },
+    {
+      "namn": "Hamrånge fvof",
+      "lan": "Gävleborg",
+      "object_id": 1544,
+      "vatten": [
+        {
+          "namn": "Hamrångeån",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-torrhedstjarn-norrlaxen-hamrangefjarden-storsjo-viksjo-hamrangean.htm",
+          "evidence": "I Hamrångeån finns ett bestånd av harr och öring som har planterats ut vid olika tillfällen."
+        },
+        {
+          "namn": "Hamrångefjärden",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-torrhedstjarn-norrlaxen-hamrangefjarden-storsjo-viksjo-hamrangean.htm",
+          "evidence": "Hamrångefjärden samt sammanhängande Storsjö–Viksjö–Högbackasjön: riklig mängd stor gädda, gös och abborre. (Vitfisk ej expanderad.)"
+        },
+        {
+          "namn": "Viksjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-torrhedstjarn-norrlaxen-hamrangefjarden-storsjo-viksjo-hamrangean.htm",
+          "evidence": "Hamrångefjärden samt sammanhängande Storsjö–Viksjö–Högbackasjön: riklig mängd stor gädda, gös och abborre. (Vitfisk ej expanderad.)"
+        },
+        {
+          "namn": "Högbackasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "ifiske.se (prosa)",
+          "url": "https://www.ifiske.se/fiske-torrhedstjarn-norrlaxen-hamrangefjarden-storsjo-viksjo-hamrangean.htm",
+          "evidence": "Hamrångefjärden samt sammanhängande Storsjö–Viksjö–Högbackasjön: riklig mängd stor gädda, gös och abborre. (Vitfisk ej expanderad.)"
+        },
+        {
+          "namn": "Storsjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Nors",
+            "Sarv",
+            "Siklöja"
+          ],
+          "kalla": "Hamrånge FVOF nätprovfiske Storsjön 2023 (via ifiske PDF)",
+          "url": "https://www.ifiske.se/pdf/3253/92_Storsjon_provfiske_2023_rapport.pdf",
+          "evidence": "Provfiske Storsjön (Gästrikland) 2023: artsammansättning bottennät inkluderar Abborre, Benlöja, Björkna, Braxen, Gärs, Gädda, Gös, Mört, Nors, Sarv, Siklöja. Hamrånge FVOF-geografi (Västerfjärden/Körnicka)."
+        }
+      ],
+      "notes": "iFiske Om/Hitta Fiske-prosa + FVOF nätprovfiske-PDF. Arter-ikoner ej använda. Norrläxen/Läxen utan artmening — ej fuzzy."
+    },
+    {
+      "namn": "Åmots fvof",
+      "lan": "Gävleborg",
+      "object_id": 1527,
+      "vatten": [
+        {
+          "namn": "Ljustjärn",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "Visit Gävle (Åmots fiskevårdsförening)",
+          "url": "https://www.visitgavle.se/sv/amots-fiskevardsforening",
+          "evidence": "Ljustjärn (regnbåge & öring)"
+        },
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "Visit Gävle (Åmots fiskevårdsförening)",
+          "url": "https://www.visitgavle.se/sv/amots-fiskevardsforening",
+          "evidence": "Abborrtjärn (öring)"
+        },
+        {
+          "namn": "Brasiljeån",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "Visit Gävle (Åmots fiskevårdsförening)",
+          "url": "https://www.visitgavle.se/sv/amots-fiskevardsforening",
+          "evidence": "Brasiljeån (Harr, öring, gädda & abborre)"
+        },
+        {
+          "namn": "Snåltjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "Visit Gävle (Åmots fiskevårdsförening)",
+          "url": "https://www.visitgavle.se/sv/amots-fiskevardsforening",
+          "evidence": "Snåltjärn (röding & öring)"
+        },
+        {
+          "namn": "Lorttjärn",
+          "arter": [
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "Visit Gävle (Åmots fiskevårdsförening)",
+          "url": "https://www.visitgavle.se/sv/amots-fiskevardsforening",
+          "evidence": "Lorttjärn (röding & öring)"
+        }
+      ],
+      "notes": "Visit Gävle namnger vatten×arter för Åmots FVOF. Hålsjön i gaps utan arter. iFiske Om saknar vattennivå. Brasiljeån behållen som källans stavning (≠ Bresiljorna)."
+    },
+    {
+      "namn": "Los-Hamra fvof",
+      "lan": "Gävleborg",
+      "object_id": 1551,
+      "vatten": [
+        {
+          "namn": "Abborrtjärn",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "loshamrafvo.se",
+          "url": "https://loshamrafvo.se/sjotips/tips-for-isfiske-i-abborrtjarn/",
+          "evidence": "Put&Take-vatten Abborrtjärn: planteras öring och storvuxen regnbåge."
+        },
+        {
+          "namn": "Voxnan",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "loshamrafvo.se",
+          "url": "https://loshamrafvo.se/regler/",
+          "evidence": "Fiske efter öring i Voxnan 15/5–31/8; harr i Voxnan 15/5–15/10; fångstkvot 1 harr eller öring — arterna förekommer i Voxnan."
+        }
+      ],
+      "notes": "Abborrtjärn P&T + Voxnan regler. Ädelfisk-minimåttlista för flera tjärnar tillskriver ej arter per vatten. Om-sidan endast områdesprosa."
+    },
+    {
+      "namn": "Anviksjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1790,
+      "vatten": [
+        {
+          "namn": "Hållborgsån",
+          "arter": [
+            "Sik"
+          ],
+          "kalla": "iFiske Om (Anvikssjöns FVOF)",
+          "url": "https://www.ifiske.se/fiske-anvikssjons-fvof.htm",
+          "evidence": "Om-prosa: Möjlighet att håva sik i Hållborgsån och i Anviksbäcken oktober till december. Sik ⊆ arter_fvo."
+        },
+        {
+          "namn": "Anviksbäcken",
+          "arter": [
+            "Sik"
+          ],
+          "kalla": "iFiske Om (Anvikssjöns FVOF)",
+          "url": "https://www.ifiske.se/fiske-anvikssjons-fvof.htm",
+          "evidence": "Samma Om-mening namnger Anviksbäcken med sik."
+        }
+      ],
+      "notes": "Additiv till befintlig Hållborgsån SERS-rad."
+    },
+    {
+      "namn": "Mo-Östersjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1765,
+      "vatten": [
+        {
+          "namn": "Flärkån",
+          "arter": [
+            "Sik"
+          ],
+          "kalla": "iFiske Om",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "Flärkån, Brusån och Fjälån utgör reproduktionslokaler för siken i Mosjön och Östersjön."
+        },
+        {
+          "namn": "Brusån",
+          "arter": [
+            "Sik"
+          ],
+          "kalla": "iFiske Om",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "Samma namngivna sik-reproduktionsmening."
+        },
+        {
+          "namn": "Fjälån",
+          "arter": [
+            "Sik"
+          ],
+          "kalla": "iFiske Om",
+          "url": "https://www.ifiske.se/fiske-mo-ostersjons-fvof.htm",
+          "evidence": "Samma mening; additiv till befintlig Fjälån×Öring."
+        }
+      ]
+    },
+    {
+      "namn": "Messlingens fvof",
+      "lan": "Jämtland",
+      "object_id": 1807,
+      "vatten": [
+        {
+          "namn": "Messlingssjön",
+          "arter": [
+            "Abborre",
+            "Lake"
+          ],
+          "kalla": "messlingenfiske.se",
+          "url": "https://www.messlingenfiske.se/messlingen-fvof/",
+          "evidence": "För att förbättra för rödingen så har vi reducerat både lake och abborrebeståndet i sjön. Abborre+Lake ⊆ arter_fvo."
+        }
+      ]
+    }
+  ],
+  "rejected_summary": "VB 7 zero-vatten: no 1:1. Nordanstig/Bollnäs södra/Ramsjö/Finnmarkens: no tables. Fjällsjö/Stor-Raftsjön: no clear 1:1. Vitfisk not expanded. Stensjön#26 Dellen skipped. Torrhedstjärn Regnbåge dropped (P&T without named species in Om prose)."
+}
