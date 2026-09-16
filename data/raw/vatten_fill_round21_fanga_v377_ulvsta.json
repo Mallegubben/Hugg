@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-09-16T23:30:00Z",
+  "round": "21_fanga_restlista_v377_ulvsta",
+  "policy": {
+    "allowed": [
+      "FVOF prose",
+      "iFiske Om prose",
+      "municipal/tourism"
+    ],
+    "never_use": [
+      "iFiske Arter icons",
+      "NatureIT",
+      "Artportalen",
+      "unnamed waters",
+      "Vitfisk expansion",
+      "FVO-level species alone"
+    ],
+    "mapping": "1:1 named water×species; ⊆ arter_fvo"
+  },
+  "stats": {
+    "fvo_with_enrichments": 3,
+    "total_vatten_rows": 12,
+    "restlista_file": "data/raw/FANGA_fullstandig_restlista_artdata_v377.csv",
+    "restlista_rows": 3952,
+    "note": "User-uploaded FÅNGA restlista v377 committed. Ulvsta/Östby/Färila fills from verified 1:1 prose against remaining Gävleborg gaps."
+  },
+  "enrichments": [
+    {
+      "namn": "Ulvsta fvof",
+      "lan": "Gävleborg",
+      "object_id": 1526,
+      "vatten": [
+        {
+          "namn": "Hötjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Ädelfisk: Hötjärn — Regnbåge. Speglas i iFiske Om."
+        },
+        {
+          "namn": "Lilla Mörttjärn",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Lilla Mörttjärn — Öring."
+        },
+        {
+          "namn": "Stora Rönnåstjärn",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Stora Rönnåstjärn — Regnbåge, Öring."
+        },
+        {
+          "namn": "Liss-Tansen",
+          "arter": [
+            "Bäckröding",
+            "Regnbåge"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Liss-Tansen — Regnbåge, Mindre bäckröding."
+        },
+        {
+          "namn": "Mångeln",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Mångeln — Gädda, Abborre, Gös."
+        },
+        {
+          "namn": "Stora Rännsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Stora och Lilla Rännsjön — Gädda, Abborre."
+        },
+        {
+          "namn": "Lilla Rännsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Stora och Lilla Rännsjön — Gädda, Abborre."
+        },
+        {
+          "namn": "Vallsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Vallsjön — Gädda, Abborre, Gös."
+        },
+        {
+          "namn": "Pålsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Pålsjön — Gädda, Abborre."
+        },
+        {
+          "namn": "Hammarsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "ulvstafvof.se / iFiske Om",
+          "url": "https://www.ulvstafvof.se/fiskekort/",
+          "evidence": "Hammarsjön — Gädda, Abborre."
+        }
+      ],
+      "notes": "FVOF + iFiske Om named water×species. Unnamed tjärnar (gädda/abborre) skipped. Testeboån »kan finnas« skipped (already has stronger SERS/other)."
+    },
+    {
+      "namn": "Östby fvof",
+      "lan": "Gävleborg",
+      "object_id": 1529,
+      "vatten": [
+        {
+          "namn": "Norrtjärn",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "iFiske Om (Östby FVOF)",
+          "url": "https://www.ifiske.se/fiske-ostby-fvof-testeboan-vittersjon-norrtjarn-gnottjarn.htm",
+          "evidence": "Norrtjärn med stor abborre och gädda."
+        }
+      ],
+      "notes": "Gnöttjärn without species skipped. Vitfisk not expanded."
+    },
+    {
+      "namn": "Färila fvof",
+      "lan": "Gävleborg",
+      "object_id": 1887,
+      "vatten": [
+        {
+          "namn": "Mellanljusnan",
+          "arter": [
+            "Gädda",
+            "Harr",
+            "Id",
+            "Öring"
+          ],
+          "kalla": "farilafiske.se",
+          "url": "https://www.farilafiske.se/vara-fiskevatten",
+          "evidence": "Mellanljusnan: gott om harr- och öringsfiske; utmärkt gäddfiske; grov id … nära Storbyn i Färila."
+        }
+      ],
+      "notes": "Öppna vatten list without per-water species skipped. P&T lakes named without species skipped."
+    }
+  ],
+  "rejected_summary": "Bergsjö/Nordanstig tourism = FVO-level arter + water list without per-water assignment (FVO-OMRÅDE). Färila öppna vatten namn without species. Ulvsta unnamed tjärnar. Testeboån »kan finnas«."
+}

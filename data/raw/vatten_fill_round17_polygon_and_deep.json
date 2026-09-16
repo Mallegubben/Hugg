@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-09-16T12:45:00Z",
+  "round": "17_polygon_and_deep",
+  "policy": {
+    "allowed": [
+      "SERS/NORS with clear 1:1 FVO membership + correct geography",
+      "FÅNGA/Fiskekartan water membership",
+      "municipal/tourism/FVOF prose",
+      "LST/miljö/nätprovfiske",
+      "newspapers",
+      "iFiske Om-prose",
+      "Hitta Fiske prose"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports",
+      "proximity without polygon membership or documentary FVO link"
+    ],
+    "mapping": "1:1 water×species; species ⊆ arter_fvo; no fuzzy twins; empty better than wrong"
+  },
+  "stats": {
+    "targets_fvo": 82,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "polygon_matched_fvo": 82,
+    "nors_sers_stations_inside_polygons": 1,
+    "usable_inside_with_species_intersect": 0
+  },
+  "enrichments": [],
+  "methods": {
+    "polygon_containment": "Fiskekartan gpkg (EPSG:3006) × NORS/SERS SWEREF99 points via STRtree; all 82 ZERO-vatten FVO with arter matched by FOR_NAMN fold + län",
+    "fanga_name_distance": "FÅNGA_GENUINE_SOURCE_GAPS_v356.csv waters × NORS/SERS exact name fold; distance to FVO polygon",
+    "buffer_2km": "NORS/SERS within 2 km of gap polygons with species ∩ arter_fvo — review only; proximity alone is not membership",
+    "web_deep": "Parallel VG/VB/norr + ÖG/Kalmar/Värmland passes: LST PDF, kommun/tourism, Wayback, MÖD, iFiske Om, Hitta Fiske prose"
+  },
+  "polygon_scan": {
+    "stations_inside": [
+      {
+        "fvo": "Strömsjönäs fvof",
+        "src": "SERS",
+        "water": "Kvarnbäcken",
+        "caught": ["Ingen fångst"],
+        "intersect": [],
+        "notes": "Only in-polygon station among 82 gaps; empty catch — no fill"
+      }
+    ],
+    "fanga_name_same_lan_outside": [
+      {
+        "fvo": "Åländerns fvof",
+        "water": "Axsjön",
+        "src": "NORS",
+        "dist_m": 46123,
+        "intersect": ["Abborre", "Gädda", "Mört"],
+        "decision": "REJECT twin — Linköping/Kinda NORS Axsjön ≠ Åländerns Axsjön (prior round16)"
+      }
+    ]
+  },
+  "near_misses_rejected": [
+    {
+      "fvo": "Åländerns fvof",
+      "candidate": "SERS 'Bäck från Åländern' Kvarngården (~1.7–3.7 km outside polygon)",
+      "intersect": ["Benlöja", "Mört"],
+      "why": "Stream named after lake but iFiske Om + FÅNGA list only Åländern/Axsjön/Vån/Övre+Nedre Högsjön; sibling hard-review geo assigns membership to Ämmerns fvof (≠ Åländerns); station outside polygon"
+    },
+    {
+      "fvo": "Bruzaåns Mellersta fvof",
+      "candidate": "SERS Brusaån (Gädda) + Gäddhemsbäcken (~0.9–13 km)",
+      "why": "Stations outside polygon; Mariannelunds Fiskeklubb Bruzaån prose is öring/elritsa/bergsimpa (∩ Gädda=∅); no documentary link of SERS locals to Bruzaåns Mellersta FVOF"
+    },
+    {
+      "fvo": "Torp-Sollums fvof",
+      "candidate": "SERS Sollumsån + NORS Lille-Väktor + LST naturreservat öring/lax/stensimpa",
+      "why": "Lilla Edet kommun-PDF places Lille-Väktor under Väktorssjöområdet; Sollumsån FVO membership undocumented; proximity ≠ membership"
+    },
+    {
+      "fvo": "Sävast-Unbyns fvof",
+      "candidate": "MÖD 2021:23 'Sävastån … reproduktionsområde för stationär fisk, exempelvis abborre och mört'",
+      "why": "Same judgment text assigns fishing on the stretch to SFK Börstingen (arrende), not Sävast-Unbyns fvof — membership gate fails"
+    },
+    {
+      "fvo": "Suaningi fvof",
+      "candidate": "NORS Pahajärvi (~1.7 km, Abborre/Gädda/Mört/Sik)",
+      "why": "Pahajärvi ∉ FÅNGA waters for Suaningi (Alavuomanjärvi, Pirttiniemenjoki, Saukkoriipinjärvi, Suaninkijärvi); Wikipedia notes Pahajärvi as neighboring lake"
+    },
+    {
+      "fvo": "Östra Hästefjordens fvof",
+      "candidate": "NORS Stora Hästefjorden",
+      "why": "STORA ≠ Östra twin"
+    },
+    {
+      "fvo": "Sävsjö-Gärdessjö fvof",
+      "candidate": "Moga-Annlarp / vastsverige 'gädda och abborre' at Gärdessjön",
+      "why": "Wrong FVO (Håcksvik Moga-Annlarp ≠ Tranemo Sävsjö-Gärdessjö)"
+    },
+    {
+      "fvo": "Oxsjöns fvof",
+      "candidate": "Ingsjöarna & Oxsjöns FVO iFiske Om",
+      "why": "Mark/Härryda/Mölndal twin ≠ Tranemo/Ulricehamn Oxsjöns fvof"
+    },
+    {
+      "fvo": "Norrahammars fvof",
+      "candidate": "SERS Tabergsån (~0.8 km)",
+      "why": "Tabergsåns FVOF ≠ Norrahammars (prior round17 JK reject)"
+    },
+    {
+      "fvo": "Vrångsjöns fvof",
+      "candidate": "vastsverige Högsäters FVO listing Vrångsjön",
+      "why": "Separate org — Vrångsjöns FVOF 802600-7172 ≠ Högsäters; no artprosa for Vrångsjöns"
+    },
+    {
+      "fvo": "Nordanede fvof",
+      "candidate": "nordanedepikefight.se Mellansjön",
+      "why": "Ånge/Torps twin ≠ Sollefteå/Edsele oid 1617 — held reject"
+    }
+  ],
+  "searched_sources": [
+    "nors_data_aggregerad.json + sers_data_aggregerad.json in-polygon + 2 km buffer",
+    "lstext.fiskekartan_fvof.gpkg OBJECTID/FOR_NAMN match for all 82 gaps",
+    "FANGA_GENUINE_SOURCE_GAPS_v356.csv water membership",
+    "lagen.nu MÖD 2021:23 Sävastån",
+    "lansstyrelsen.se Sollumsåns dalgång + Lilla Edet Fiskevatten PDF (yumpu)",
+    "mariannelundsfiskeklubb.se/Bruzaan",
+    "ifiske.se Åländern Om (lakes-only membership)",
+    "vastsverige Mellerud/Färgelanda/Svenljunga-Tranemo guides",
+    "Ulricehamn fiskeguide 2021; Visit Lycksele/Pajala/Malå",
+    "LST ÖG elfiske 2021–23; Kalmar nätprovfiske 2010; VG 2003 Myresjön",
+    "Prior empty docs: round16_vg, round16_og_kalmar_vrm, round16_norr_zero, stockholm_sodermanland_zero_review, round17_jk_kronoberg_vastmanland",
+    "Sibling empty deepen: vatten_fill_zero_sth_kalmar_vrm_deepen.json, vatten_fill_round17_vg_jk_zero.json, vatten_fill_hard_review_og_vb_rest_empty.json"
+  ],
+  "sibling_empty_docs_merged": [
+    "vatten_fill_zero_sth_kalmar_vrm_deepen.json",
+    "vatten_fill_round17_vg_jk_zero.json",
+    "vatten_fill_hard_review_og_vb_rest_empty.json"
+  ],
+  "conclusion": "No policy-clear 1:1 water×species fill among the remaining 82 ZERO-vatten FVO. Gap count stays 82. Prefer empty over proximity/twin/wrong-org near-misses. Sibling deepen agents independently confirmed 0 fills for Stockholm/Kalmar/Värmland (25), VG+JK (28), and ÖG+norr+Sala+misc (28)."
+}

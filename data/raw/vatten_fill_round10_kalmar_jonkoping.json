@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-09-15T18:23:16Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from municipal/FVOF/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske/Hitta Fiske/Naturkartan icon-only species lists. No fuzzy cross-county matches (e.g. Hallången Överlida/VG ≠ Kalmar Hallången; Mariannelund Bruzaån ≠ Bruzaåns Mellersta; Vrångsjön Östergötland ≠ Vrangsjön Aneby)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 1,
+    "total_vatten_rows": 1,
+    "searched_but_empty": 14,
+    "by_lan": {
+      "Jönköping": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Vrangsjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 503,
+      "vatten": [
+        {
+          "namn": "Vrangsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "aneby.se (kommun)",
+          "url": "https://www.aneby.se/sidor/kultur-fritid-och-turism/friluftsliv/fiska.html",
+          "evidence": "Vrangsjön — Här fiskar man främst gädda och aborre. Fiske från båt rekommenderas."
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "notes": "Nybro kommun. Searched nybro.se fiske pages, vattenagarna, Hitta Fiske/Naturkartan (404), Wikipedia (no fish fauna), Visit/tourism — no 1:1 water×species prose. FVO arter only Sutare via GBIF/Fiskekartan."
+    },
+    {
+      "namn": "Elmarens fvof",
+      "lan": "Kalmar",
+      "object_id": 742,
+      "notes": "Västervik (likely Älmaren/Hallingeberg). Västervik.com fiskekortsguide has no Älmaren/Elmaren entry with species. No iFiske prose page. Wikipedia Älmaren has no fish fauna."
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "notes": "Västervik. Ålsjön/Maren/Yxgöl species on vastervik.com belong to Gunnebo & Västerviks SFK, not Gladhammars fvof. Gladhammars-gruvor MKB names fish in Tjursbosjön/Ekenässjön but FVO membership unconfirmed — not used. No FVOF/tourism 1:1 for Gladhammars fvof."
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "lan": "Kalmar",
+      "object_id": 739,
+      "notes": "Västervik/Vimmerby (Botorpsströmmen). Rejected iFiske/Överlida FVOF Hallången prose (Svenljunga, Västra Götaland — cross-county). No Kalmar Hallången water×species prose found on municipal/tourism sources."
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "notes": "Västervik skärgård. No Hitta Fiske/Naturkartan page; no municipal/tourism species prose for Idö FVO waters."
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "lan": "Kalmar",
+      "object_id": 745,
+      "notes": "Hultsfred. vattenagarna contact-only (?o=584). Visit Hultsfred/Hammarsjöleden describe lake geography but no fish species. Wikipedia 'Lilla Hammarsjön' is Åtvidaberg (Östergötland) — not used."
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "notes": "Oskarshamn coastal island. Naturkartan reservat texts cover geology/culture, not fish species for FVO. No tourism species prose."
+    },
+    {
+      "namn": "Rådens fvof",
+      "lan": "Kalmar",
+      "object_id": 728,
+      "notes": "Hultsfred (Virån). Rejected Rådanesjön (Västra Götaland). No Hultsfred tourism/municipal species prose for Råden."
+    },
+    {
+      "namn": "Sladö fvof",
+      "lan": "Kalmar",
+      "object_id": 759,
+      "notes": "Västervik skärgård. No Hitta Fiske/Naturkartan FVO page; no species prose found."
+    },
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "lan": "Jönköping",
+      "object_id": 493,
+      "notes": "Eksjö. Mariannelunds Fiskeklubb has strong Bruzaån öring/elritsa/bergsimpa prose but is a separate lease near Mariannelund (nedre), not confirmed as Bruzaåns Mellersta FVOF — not used. No Mellersta-specific source with water×species."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 566,
+      "notes": "Mullsjö. Hitta Fiske/Naturkartan/Fangstrapport only icon/Fiskekartan species tags (no narrative). Mullsjö kommun fiske page lists many lakes but not Brännerisjön."
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "lan": "Jönköping",
+      "object_id": 449,
+      "notes": "Jönköping. Tabergsåns FVOF prose (öring etc.) is a different FVO. jonkoping.net Åsasjöarna+Tabergsån combined species list mixes waters/FVOs — not 1:1 usable. No Norrahammars-fvof-specific water×species prose."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 527,
+      "notes": "Jönköping (Bankeryd). Naturkartan/Hitta Fiske contact + icon species only; depth-map PDF has no text. No municipal/tourism narrative naming species for Sjövikssjön."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 466,
+      "notes": "Jönköping (Ödestugu). Fangstrapport defaulted to Svenljunga Älesjön (VG) — rejected. No put-and-take/tourism prose for Ödestugu Älesjön with Regnbåge/Öring/Gräskarp."
+    }
+  ]
+}

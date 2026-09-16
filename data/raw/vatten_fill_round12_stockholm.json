@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-09-15T18:55:00Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from municipal/tourism/Länsstyrelsen–Stockholm stad fiskeguide prose (or iFiske prose naming species for a named water). No iFiske/Hitta Fiske/Naturkartan icon-only species lists. No Fishbrain/forum catch reports. No fuzzy cross-place matches (Nynäshamn Yxlö ≠ Norrtälje Yxlö-Kolsvik/Yxlan; Vätö Amatörfiskareförening ≠ Västra Vätösunds fvof without FVO-linked artprosa; Möja island tips ≠ Ramsmora Bys/Södemöja by-FVO)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 4,
+    "total_vatten_rows": 5,
+    "searched_but_empty": 11,
+    "by_lan": {
+      "Stockholm": 4
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Grönskärs fvof",
+      "lan": "Stockholm",
+      "object_id": 18,
+      "vatten": [
+        {
+          "namn": "Grönskär",
+          "arter": [
+            "Näbbgädda"
+          ],
+          "kalla": "Stockholms läns fiskeguide 2023 (Länsstyrelsen Stockholm / Stockholms stads fiskevård)",
+          "url": "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf",
+          "evidence": "Näbbgädda — Tips: Grönskär, Horsten, Långviksskär, Ålö, Torö. (Var: I Stockholms yttre skärgård från Sandhamn och söderut.)"
+        }
+      ]
+    },
+    {
+      "namn": "Horstens fvof",
+      "lan": "Stockholm",
+      "object_id": 19,
+      "vatten": [
+        {
+          "namn": "Horsten",
+          "arter": [
+            "Näbbgädda"
+          ],
+          "kalla": "Stockholms läns fiskeguide 2023 (Länsstyrelsen Stockholm / Stockholms stads fiskevård)",
+          "url": "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf",
+          "evidence": "Näbbgädda — Tips: Grönskär, Horsten, Långviksskär, Ålö, Torö."
+        },
+        {
+          "namn": "Horstensfjärden",
+          "arter": [
+            "Torsk"
+          ],
+          "kalla": "Stockholms läns fiskeguide 2017/2023 (Länsstyrelsen Stockholm / Stockholms stads fiskevård)",
+          "url": "https://www.nacka.se/49611c/globalassets/uppleva-gora/dokument/friluftsliv/fiskeguide-stockholm2017.pdf",
+          "evidence": "Torsk — Tips: Havssvalget, Horstensfjärden, Mysingen, Kanholmsfjärden, Sandhamn, Öja, Huvudskär och Nynäshamn. (2017; samma tipslista återfinns i 2023-guidens torsk-avsnitt.)"
+        }
+      ]
+    },
+    {
+      "namn": "Rödläga fvof",
+      "lan": "Stockholm",
+      "object_id": 14,
+      "vatten": [
+        {
+          "namn": "Rödlöga",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Havsöring",
+            "Makrill",
+            "Skrubbskädda"
+          ],
+          "kalla": "svalla.se (turism) + Stockholms läns fiskeguide 2023",
+          "url": "https://svalla.se/o/rodloga",
+          "evidence": "svalla.se: »Rödlöga är omgiven av ett av Stockholms läns rikaste fiskevatten. Abborrar, gäddor och havshavsöring fångas här i stor mängd.« / »Utmärkt havshavsöring- och makrillfiske i ytterskärgårdens vatten.« Fiskeguide 2023 plattfisk/Skrubbskädda — Tips: Söderarm, Rödlöga, Möja, Sandemarsfjärden, Fjärdlång, Utö, Torö. (iFiske-ikonlista för Rödlöga FVOF ej använd.)"
+        }
+      ]
+    },
+    {
+      "namn": "Yxlö-Kolsviks fvof",
+      "lan": "Stockholm",
+      "object_id": 15,
+      "vatten": [
+        {
+          "namn": "Yxlan",
+          "arter": [
+            "Strömming"
+          ],
+          "kalla": "Stockholms läns fiskeguide 2023 (Länsstyrelsen Stockholm / Stockholms stads fiskevård)",
+          "url": "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf",
+          "evidence": "Strömming — Tips: Från land: Lidingöbron, Nacka strand, Vaxholm, Djurö, Havtornsudd på Gålö, Älgö vid Saltsjöbaden, Yxlan och Blidö. (FVO ligger på Yxlan/Norrtälje; Nynäshamns kommuns »brofästet på Yxlö«/Yxlöviken avvisad — annan Yxlö.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "notes": "Norrtälje skärgård. Sökt visitstockholm/skärgårdsstiftelsen/Norrtälje kommun/vattenagarna/Naturkartan/Stockholms läns fiskeguide — ingen namngiven vatten×art-prosa kopplad till Byholma FVO."
+    },
+    {
+      "namn": "Grindsjöns fvof",
+      "lan": "Stockholm",
+      "object_id": 40,
+      "notes": "Botkyrka/Nynäshamn. Botkyrka miljöbarometern beskriver sjön utan fiskfauna; kommunens Fiska i Botkyrka utan Grindsjön-artprosa; Nynäshamn.se fiska nämner Muskan/Fjättern/Yxlö men inte Grindsjön. Sjöregistret i fiskeguiden saknar Grindsjön. Dykarna.nu/Fishbrain/forum ej godkända. Äldre miljodatabasen.se-citat via forum ej primärkälla."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 33,
+      "notes": "Värmdö. Skärgårdsstiftelsen Hjälmö-Lådna utan artprosa; Värmdö kommun fiske har generella tips (abborre/gädda) utan Hjälmö; fiskeguiden listar endast Hjälmösundet som fredningsområde (ingen art)."
+    },
+    {
+      "namn": "Ramsmora Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 29,
+      "notes": "Möja/Värmdö. Turism (Wikströms Fisk m.fl.) nämner serverad fisk generellt; fiskeguidens Möja-tips (skrubbskädda/öringutsättning) är ö-nivå — för suddigt för Ramsmora Bys 1:1."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "object_id": 50,
+      "notes": "Norrtälje (Räfsnäs). Fiskeguiden nämner Räfsnäs brygga som sjösättningsramp, inte arter. Kommun/turism/vattenagarna/Naturkartan utan artprosa."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "object_id": 31,
+      "notes": "Norrtälje ytterskärgård. Inga FVOF-/turism-/kommunsidor med namngivet vatten×art hittade."
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "object_id": 46,
+      "notes": "Vallentuna/Norrtälje. Vallentuna kommun/VFOF gäller Vallentunasjön (annan FVO). Ingen Sätta/Sättasjön-artprosa i kommun, vattenagarna, Naturkartan eller fiskeguide."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "notes": "Möja/Värmdö. Endast generella Möja-tips i fiskeguide/turism — ej 1:1 för Södemöja by-FVO."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "object_id": 17,
+      "notes": "Norrtälje. Fiskeguiden: Öjan (Norröra/Söderöra) endast fredningslista. Waxholmsbolaget/Skippo utan artprosa. Blogg/fångstrapporter ej godkända."
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "object_id": 48,
+      "notes": "Norrtälje. Tomtviken i fiskeguiden är fredningsområde (Helgö), inte artlista. Ingen Tomta FVO-prosa med vatten×art."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "object_id": 22,
+      "notes": "Norrtälje/Vätö. vatofiske.se (Vätö Amatörfiskareförening) beskriver Vätösund/regler och gäddfredning men är annan förening; ingen tydlig 1:1 artprosa knuten till Västra Vätösunds fvof. Fishbrain ej godkänd."
+    }
+  ]
+}

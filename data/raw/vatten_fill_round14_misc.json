@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-09-16T02:55:00Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from FVOF/municipal/tourism/Länsstyrelsen prose (or iFiske Om-prose naming species for a named water). No iFiske/Hitta Fiske/Naturkartan icon-only lists. No Fishbrain/forum/pimpel-tävling catch reports. No card-level Filipstad turistfiskekort icons. Twin cautions enforced: Stor-Raftsjön≠Sandvikssjön-Edsforsens; Hällsjön Sala≠Krokom/Krampen Sveaskog; Torpsjön Värmland≠ÖG Torpsjön; Sönner/Mellantjärn≠Sveaskog Rosa Mellantjärn; Vätö AFF≠Västra Vätösunds; Landsomsjön≠Landösjön."
+  },
+  "stats": {
+    "fvo_with_enrichments": 1,
+    "total_vatten_rows": 2,
+    "searched_but_empty": 24,
+    "by_lan": {
+      "Värmland": 1,
+      "Stockholm": 0,
+      "Västmanland": 0,
+      "Jämtland": 0
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1327,
+      "vatten": [
+        {
+          "namn": "Sönnertjärnen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "hem.passagen.se/take (Sönner och Mellantjärns FVOF, Wayback) + hagfors.se",
+          "url": "https://web.archive.org/web/20080327051141/http://hem.passagen.se/take/index4.htm",
+          "evidence": "FVOF English page: The fishing area consists of two small lakes Sönnertjärn 3.3ha and Mellantjärn 8.8 ha. You can catch Rainbow- and Konnevesitrout … Other fishsorts are perch, roach and some pikes. (Rainbow→Regnbåge; Konnevesitrout→Öring; perch→Abborre; roach→Mört; pikes→Gädda. Hagfors Bilaga 2 corroborates laxöring put-and-take. ≠ Sveaskog Rosa Mellantjärn.)"
+        },
+        {
+          "namn": "Mellantjärnen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "hem.passagen.se/take (Sönner och Mellantjärns FVOF, Wayback) + hagfors.se",
+          "url": "https://web.archive.org/web/20080327051141/http://hem.passagen.se/take/index4.htm",
+          "evidence": "FVOF English page: The fishing area consists of two small lakes Sönnertjärn 3.3ha and Mellantjärn 8.8 ha. You can catch Rainbow- and Konnevesitrout … Other fishsorts are perch, roach and some pikes. (Rainbow→Regnbåge; Konnevesitrout→Öring; perch→Abborre; roach→Mört; pikes→Gädda. Hagfors Bilaga 2 corroborates laxöring put-and-take. ≠ Sveaskog Rosa Mellantjärn.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "notes": "Norrtälje skärgård. Stockholms läns fiskeguide 2023: alla Tips-listor genomgångna — Byholma/Byholm ej namngiven. Norrtälje/visitstockholm/skärgårdsstiftelsen/iFiske 404 — ingen 1:1 vatten×art-prosa."
+    },
+    {
+      "namn": "Grindsjöns fvof",
+      "lan": "Stockholm",
+      "object_id": 40,
+      "notes": "Botkyrka/Nynäshamn. Fiskeguide Tips + sjöregister (ikonkolumner ej använda). Botkyrka.se/miljöbarometern beskriver Grindsjön utan fiskarter. Sportfiskekortet Stockholm listar ej Grindsjön med artprosa. Fishbrain ej tillåten."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 33,
+      "notes": "Värmdö. Fiskeguide Tips namnger ej Hjälmö (endast fredningsområde Hjälmösundet). Skärgårdsstiftelsen/Länsstyrelsen reservatssidor utan fiskarter. Värmdö.se ger generella abborrtips (båthamnar/innerfjärdar) — ej 1:1 Hjälmö Bys."
+    },
+    {
+      "namn": "Ramsmora Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 29,
+      "notes": "Värmdö/Harö-området. Tips: Värmdölandet (braxen) och Kanholmsfjärden (havsöring/torsk) för breda — ej Ramsmora. Ingen kommun/tourism 1:1."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "object_id": 50,
+      "notes": "Norrtälje. Tips: Västerfjärden Spillersboda (abborre) / Bergshamra–Spillersboda (gös) — geografiskt Rådmansö, ej Refsnäs. Ingen namngiven Refsnäs×art-prosa."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "object_id": 31,
+      "notes": "Norrtälje ytterskärgård. Tips-listor: Rödlöga/Söderarm m.fl. — ej Röder/Skarf. arter_fvo mest spigg; ingen prosa."
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "object_id": 46,
+      "notes": "Vallentuna/Norrtälje. Fiskeguide Tips + kommunsidor utan Sätta/Sättasjön×art. iFiske 404."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "notes": "Värmdö. Fiskeguide Tips: Möja (havsöring-utsättning; plattfisk) — önivå, ej 1:1 Södemöja FVO (södra Möja). arter_fvo endast Storspigg. Skärgårdsstiftelsen utan artprosa."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "object_id": 17,
+      "notes": "Norrtälje. Fiskeguide: Öjan (Norröra/Söderöra) endast fredad vik — ingen Tips×art. Ingen tourism-prosa."
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "object_id": 48,
+      "notes": "Norrtälje. Tomtviken/Urö i fredningslista ≠ Tomta FVO. Tips saknar Tomta. iFiske 404."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "object_id": 22,
+      "notes": "Norrtälje. vatofiske.se = Vätö Amatörfiskareförening (gäddfredning m.m.) — EJ Västra Vätösunds FVO (explicit twin-caution). Fiskeguide kontaktlista nämner Vätö AFF. Ingen egen artprosa för Västra Vätösunds."
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "notes": "Karlstad. iFiske 404. Visit Värmland/Karlstad.se utan namngiven Bäverkärn×art. Wikipedia saknas/utan fauna. Gårdsbloggar utan arter."
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "object_id": 1375,
+      "notes": "Kil/Grums. iFiske 404. Grums/Kil kommunsidor nämner ej Lillemsen med arter (Stor-Emsen/Sävsjön/Nedre Fryken har prosa — andra FVO)."
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1287,
+      "notes": "Karlstad/Molkom. iFiske 404. Gårdsblogg «fiska och bada» / «levererar» utan namngivna arter. Wikipedia förgrening utan fauna."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "notes": "Grums. visitvarmland/lakevanern/grums.se listar Portilasjön bland sjöar utan fiskarter. Vänern-arter får ej korsas. iFiske 404."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "notes": "Filipstad. iFiske Om utan artprosa (hänvisar turistfiskekort). Filipstad turistfiskekort Fiskarter = kortnivåikoner för 46 sjöar; Skåltjärn saknas i namngiven sjölista — ej 1:1. ≠ Eda Skåltjärn / Munkfors Skalltjärn."
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1369,
+      "notes": "Forshaga. iFiske redirect till Forshaga Fiskevårdskrets — kretsprosa «gös, abborre, gädda…» för 13 FVO, listar Syrsjön och Torptjärn men ej per-vatten arter. Ej 1:1."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "notes": "Sunne (Gräsmark). Flera Sälsjön i Sverige. Wikipedia/Sunne/visit utan artprosa för denna. iFiske 404."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "notes": "Kil/Sunne (Frykerud/Fagerås). kil.se har sektion Torpsjöns FVO men endast kontakt/pris — ingen artlista. Pimpelbloggar «endast abborre räknas» = tävlings-/fångstrapporter ej godkända. Twin-risk ÖG Torpsjön. iFiske 404."
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1448,
+      "notes": "Sala/Möklinta. Visit Västmanland/Edens Garden: fiskekort för Hällsjön «gott om fisk» — utan namngivna arter. Sveaskog Krampen Hällsjön (gädda/abborre/mört/regnbåge) = ANNAN sjö — ej använda. hallsjonfvo.se = Krokom. Svartådalen kontaktlista utan artprosa. Sala.se fiske = Gruvans sjöar (ej Hällsjön)."
+    },
+    {
+      "namn": "Ljömsebosjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1446,
+      "notes": "Sala. Svartådalen listar ej Ljömsebo. Wikipedia utan fauna. iFiske 404. Ingen kommun/tourism 1:1."
+    },
+    {
+      "namn": "Tappebosjöarnas fvof",
+      "lan": "Västmanland",
+      "object_id": 1442,
+      "notes": "Sala/Västerfärnebo. Svartådalen fiskekort-sida: kontaktpersoner för Tappebosjöarnas fvo utan artprosa. Äldre «stor gädda och abborre» gäller områdesnivå (flera sjöar) — ej 1:1. iFiske 404."
+    },
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1797,
+      "notes": "Östersund/Pilgrimstad (≠ Landösjön Krokom). Wikipedia utan fauna. Pimpelbloggar/Sundsjöfiskarna tävlingsresultat nämner abborre — fångstrapporter ej godkända. Tourism/Lit utan 1:1 prosa."
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "object_id": 1732,
+      "notes": "Krokom/Strömsund/Östersund. Strömsund fiskebroschyr 2026: Stor-Raftsjön ej i artlistor. Sandvikssjön-Edsforsens listar Stor-Raftsjön utan per-sjö arter — DO NOT cross-assign. Wikipedia/FVOF-register utan artprosa. Egen prosa saknas."
+    }
+  ],
+  "rejected": [
+    "Södemöja: fiskeguide Tips «Möja» (havsöring/plattfisk) — önivå, ej 1:1 Södemöja FVO.",
+    "Filipstad turistfiskekort Fiskarter-ikoner (46 sjöar inkl. Skåltjärnshyttans FVOF i samarbetet) — kortnivå, ej 1:1; Skåltjärn saknas i namngiven sjölista.",
+    "Forshaga Fiskevårdskrets Om-prosa (gös/abborre/gädda) för 13 FVO inkl. Syrsjön-Torptjärn — ej per-vatten.",
+    "Sveaskog Rosa Mellantjärn / iFiske pdf 3102 (regnbåge flugfiske) — twin ≠ Sönner och Mellantjärns FVOF Ekshärad.",
+    "Vätö AFF vatofiske.se — twin ≠ Västra Vätösunds FVO.",
+    "Sveaskog Krampen Hällsjön — twin ≠ Hällsjön Sala.",
+    "Landösjön iFiske/landosjon.se — twin ≠ Landsomsjön.",
+    "Sandvikssjön-Edsforsens — Stor-Raftsjön utan per-sjö artlista, ej korsas.",
+    "Edens Garden/Visit Västmanland Hällsjön «gott om fisk» — arter ej namngivna.",
+    "Pimpelbloggar Torpsjön/Landsomsjön — fångst-/tävlingsrapporter ej godkända.",
+    "Fishbrain Grindsjön/Torpsjön — ej tillåten källa.",
+    "NORS/fiskelivet Hällsjön Ockelbo m.fl. — fel sjö / ej tourism-FVOF-prosa."
+  ],
+  "sources_checked": [
+    "https://www.ifiske.se/pdf/3135/Stockholms_lans_fiskeguide_2023.pdf (alla Tips-block + sjöregister)",
+    "/tmp/fvo_search/r12_sth/sth_fiskeguide.txt + sth_guide_2017.txt",
+    "skargardsstiftelsen.se (Hjälmö-Lådna, Möja)",
+    "varmdo.se / norrtalje.se / botkyrka.se / nynashamn.se / osteraker.se fiske",
+    "visitvarmland.com (Grums, Sunne, Hagfors, Filipstad, Forshaga, Karlstad)",
+    "kil.se fiske (Torpsjöns FVO kontakt)",
+    "grums.se / karlstad.se / sala.se / svartadalen.se / visitvastmanland.com / edensgarden.se",
+    "stromsund.se Fiskebroschyr 2026",
+    "iFiske Om: Skåltjärnshyttans, Syrsjön-Torptjärns, Filipstad turistfiskekort, Forshaga krets, Sönner-och-Mellantjärns",
+    "wayback hem.passagen.se/take (Sönner och Mellantjärns FVOF)",
+    "Hagfors Bilaga 2 Sjöar och vattendrag (yumpu text: Mellantjärn/Sönnertjärn laxöring)",
+    "Wikipedia: Grindsjön, Landsomsjön, Stor-Raftsjön, Portilasjön, Norra Barsjön, Sälsjön Gräsmark, Torpsjön Frykerud, Syrsjön, Sönnertjärnen, Ljömsebosjön m.fl."
+  ]
+}

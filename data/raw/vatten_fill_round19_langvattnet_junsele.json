@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-09-16T22:20:00Z",
+  "round": "19_langvattnet_junsele",
+  "policy": {
+    "allowed": [
+      "FVOF own-site narrative naming water+species",
+      "municipal/tourism prose naming water+species",
+      "iFiske Om-prose (not Fiskarter icons)",
+      "Hitta Fiske prose",
+      "LST/miljö/nätprovfiske",
+      "newspapers",
+      "NORS/SERS with clear FVO membership + geo"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Hitta Fiske Arter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports",
+      "proximity without membership"
+    ],
+    "mapping": "1:1 FVO↔source; species ⊆ arter_fvo; multi-lake when source names waters and assigns species; no fuzzy twins; empty better than wrong"
+  },
+  "stats": {
+    "fvo_with_enrichments": 1,
+    "total_vatten_rows": 4,
+    "targets_searched_deep": 81,
+    "note": "Deep round19 after Hitta Fiske slug brute-force (icons-only) + parallel VG/ÖG/norr tourism agents. Only Junsele Långvattnets cleared twin gate + ⊆arter."
+  },
+  "enrichments": [
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "object_id": 1644,
+      "vatten": [
+        {
+          "namn": "Blåtjärn",
+          "arter": ["Bäckröding", "Öring"],
+          "kalla": "langvattnetsfvo.se + junsele.nu",
+          "url": "https://langvattnetsfvo.se/services/blatjarnen/",
+          "evidence": "FVOF-sida Blåtjärnen: »Denna sjön ligger nordväst om Junsele. Ingår i Långvattnets FVO. Här kan du fiska: Öring, bäckröding, bäcköring.« Speglas på junsele.nu. Bäckröding+Öring ⊆ arter_fvo (Abborre,Bäckröding,Gädda,Mört,Öring). Twin ≠ object_id 1619 (Salomonstjärn m.fl. / vattenagarna o=545, redan fylld). Sollefteå.se tillgänglighetsfiske mappar Blåtjärn→Långvattnets FVO."
+        },
+        {
+          "namn": "Botjärn",
+          "arter": ["Öring"],
+          "kalla": "iFiske Om (Långvattnets FVO Junsele)",
+          "url": "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm",
+          "evidence": "iFiske Om för Långvattnets FVO (Junsele): »Vi planterar in ädelfisk årligen i alla våra fyra tjärnar, öring och röding« — namnger Blåtjärn, Botjärn, Stor-abborrvattnet och Långtjärn. Öring ⊆ arter_fvo; Röding ∉ arter_fvo filtreras bort. Abborre under Fiskarter-ikon (»I Botjärn och Stor-abborrvattnet har det kommit in abborre«) används INTE. langvattnetsfvo.se listar Botjärnen som FVO-vatten."
+        },
+        {
+          "namn": "Stor-abborrvattnet",
+          "arter": ["Öring"],
+          "kalla": "iFiske Om (Långvattnets FVO Junsele)",
+          "url": "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm",
+          "evidence": "Samma iFiske Om put-and-take-prosa för alla fyra namngivna tjärnar (öring; Röding filtreras). Site-sida Stora Abborrvattnet bekräftar medlemskap utan artprosa. Abborre-ikonnotis skippad."
+        },
+        {
+          "namn": "Långtjärn",
+          "arter": ["Öring"],
+          "kalla": "iFiske Om (Långvattnets FVO Junsele)",
+          "url": "https://www.ifiske.se/fiske-blatjarn-botjarn-stor-abborrvattnet-och-langtjarn.htm",
+          "evidence": "Namngiven bland de fyra inplanterade tjärnarna med öring (Röding filtreras). langvattnetsfvo.se/fiske listar Långtjärn under FVO:s fiskekortsvatten."
+        }
+      ],
+      "notes": "Twin gate: object_id 1644 / ORIGINALID 1217 (Junsele Blåtjärn-komplex, ingen vattenagarna-URL) ≠ 1619 / ORIGINALID 1283 (Salomonstjärn/Lidtjärn m.fl., redan fylld round7). Separata iFiske-sidor. Fiskekort-sida »Öring & Röding« för alla tjärnar stödjer multi-lake Öring; Röding hålls utanför eftersom ∉ arter_fvo. Prior round16_norr_zero near-miss uppdaterad: Blåtjärn har nu explicit Bäckröding-prosa på FVOF-sidan."
+    }
+  ],
+  "rejected_summary": "Parallel deep agents VG 23 / Kalmar+ÖG+JK+Kronoberg / Värmland+VB+Stockholm: 0 other accepts. Hitta Fiske slug brute-force: Brännerisjöns/Sjövikssjöns Arter icons only; Vrångsjöns no species. Kindaturism soft-404 for Horsfjärden/Värnasjön/Rippestorp/Grytgöl. Torp-Sollums≠Väktorssjöområdet; Stor-Raftsjön≠Sandvikssjön-Edsforsens; Sävastån≠Sävast-Unbyns; Tabergsån≠Norrahammars; Åländern-bäck≠Ämmerns. Put-and-take singles (Älesjön, Mastedalstjärnarna, Stora Ljusevatten, Norra Lunds) no usable prose. Wayback CDX largely offline.",
+  "searched_sources": [
+    "langvattnetsfvo.se Blåtjärnen / fiske / fiskekort / Botjärnen / Stora Abborrvattnet (ACCEPT Blåtjärn species + membership)",
+    "iFiske Om Blåtjärn-Botjärn-Stor-abborrvattnet-Långtjärn Junsele (ACCEPT Öring multi-lake; REJECT Fiskarter icons + Röding∉arter)",
+    "junsele.nu empty_17.html Blåtjärn species mirror",
+    "solleftea.se tillgänglighetsfiske Blåtjärn→Långvattnets FVO (membership only)",
+    "Parallel agent VG tourism/brochure/LST (0)",
+    "Parallel agent Kalmar/ÖG/Kronoberg/JK (0)",
+    "Parallel agent Värmland/VB/Norrbotten/VN/Västmanland/Stockholm + put-and-take singles (0 beyond Långvattnet)",
+    "Hitta Fiske slug scan 81 gaps",
+    "kindaturism.se slug probes for remaining ÖG gaps (soft redirects)"
+  ]
+}

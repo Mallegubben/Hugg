@@ -1,0 +1,21 @@
+# Raw geospatial dumps (large)
+data/raw/fiskekartan_fvof/
+data/raw/fiskekartan_fvof.zip
+data/raw/external_pages/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Large source PDFs kept as text extracts instead
+data/raw/stromsund_fiskebroschyr_2026.pdf
+data/raw/svenljunga_tranemo_fiskebroschyr_2021.pdf
+data/raw/gula_kortet_guiden_2025.pdf
+data/raw/dals_ed_fiskeguide_2020.pdf

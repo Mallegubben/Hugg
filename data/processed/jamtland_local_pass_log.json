@@ -1,0 +1,850 @@
+{
+  "berg": [
+    {
+      "source": "fiskaiberg",
+      "namn": "Dammåns FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/dammans-fvo/",
+      "arter": [
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Gruckarnas KFO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/gruckarnas-kfo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Handsjöns FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/handsjons-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Hovermoån-Högåns FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/hogan-hovermoans-fvo/",
+      "arter": [
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Klövsjö KFO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/klovsjo-kfo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Rätans FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/ratans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Skålans FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/skalans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Storsjön-Bergs FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/storsjon-bergs-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Kanadaröding",
+        "Lake",
+        "Mört",
+        "Nors",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Svenstaåns FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/svenstaans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Regnbåge",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Tåssåsens sameby (Statens vatten)",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/tassasens-sameby-statens-vatten/",
+      "arter": [
+        "Harr",
+        "Lake",
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Åsarnas FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/asarnas-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Mört",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fiskaiberg",
+      "namn": "Övre Hoans FVO",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/ovre-hoans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Lake",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    }
+  ],
+  "drom": [
+    {
+      "source": "dromfiske",
+      "namn": "Åkersjöns fvo",
+      "url": "https://dromfiske.com/akersjons-fvo/",
+      "arter": [
+        "Harr",
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.krokom.se/",
+        "https://ansattfjallen.com/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Bodsjöns fvo",
+      "url": "https://dromfiske.com/bodsjons-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.bracke.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Bruksvallarnas kfo",
+      "url": "https://dromfiske.com/bruksvallarnas-kfo/",
+      "arter": [],
+      "outbound": [
+        "http://www.herjedalen.se/",
+        "http://www.bruksvallarna.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Dammåns fvo",
+      "url": "https://dromfiske.com/dammans-fvo/",
+      "arter": [
+        "Harr",
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "http://are.se/",
+        "http://www.fishersguide.com/inlaga/kopa_fiskekort.htm",
+        "https://www.fiskekort.se/damman/",
+        "http://www.fishersguide.com/inlaga/dammans_fvof.htm",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Granboforsens fvo",
+      "url": "https://dromfiske.com/granboforsens-fvo/",
+      "arter": [
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.krokom.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Gunnarvattnets fvo",
+      "url": "https://dromfiske.com/gunnarvattnets-fvo/",
+      "arter": [
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.krokom.se/",
+        "https://ansattfjallen.com/",
+        "https://hotagen.com/",
+        "https://hotagen.com/hotagenkortet/",
+        "https://hotagen.com/karta/",
+        "https://hotagen.com/a-gunnarvattnets-fvo/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Håckrens fvo",
+      "url": "https://dromfiske.com/hackrens-fvo/",
+      "arter": [
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "http://are.se/",
+        "https://www.hackrenlagret.se/",
+        "http://www.fangamon.se/",
+        "http://www.valagarden.se/",
+        "https://www.okq8.se/pa-stationen/bensinstationer/morsil-asanvagen/",
+        "https://www.okq8.se/pa-stationen/bensinstationer/jarpen-skansvagen/",
+        "http://www.hackrenfiske.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Hån Vemdalens fvo",
+      "url": "https://dromfiske.com/han-vemdalens-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.herjedalen.se/",
+        "https://www.vemdalen.se/",
+        "http://www.vemdalsfiske.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Jormvattnets fvo",
+      "url": "https://dromfiske.com/jormvattnets-fvo/",
+      "arter": [
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.stromsund.se/",
+        "http://frostviksfjallen.se/",
+        "http://frostviksfjallen.se/fiska/",
+        "http://www.jormvattnetsfiskecamp.se/",
+        "http://www.gaddedecamping.com/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Långå fvo",
+      "url": "https://dromfiske.com/langa-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.herjedalen.se/",
+        "https://www.funasfjallen.se/sommar/",
+        "http://www.langafisket.se/fisket/karta/",
+        "http://www.langafisket.se/priser/forsaljningsstallen/",
+        "https://www.fiskekort.se/app/index.php?page=cards&shop=263",
+        "http://www.langafisket.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Lillhärdals fvo",
+      "url": "https://dromfiske.com/lillhardals-fvo/",
+      "arter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.herjedalen.se/",
+        "http://lillhardal.se/",
+        "https://www.fiskekort.se/lillhardal/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Ljungdalens fvo",
+      "url": "https://dromfiske.com/ljungdalens-fvo/",
+      "arter": [
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.berg.se/",
+        "http://www.ljungdalsfjallen.se/",
+        "http://www.ljungdalen.com/index.php/aktiviteter/aktiviteter-sommar/fiska-sommar/item/513-ljungdalens-fvo",
+        "http://www.storsjo.com/",
+        "http://www.ica.se/butiker/nara/berg/ica-nara-ljungdalen-533/start/",
+        "https://www.fiskekort.se/app/index.php?page=cards&shop=261",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Messlingens fvo",
+      "url": "https://dromfiske.com/messlingens-fvo/",
+      "arter": [
+        "Abborre",
+        "Bäckröding",
+        "Harr",
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.herjedalen.se/",
+        "https://www.funasfjallen.se/sommar/",
+        "https://www.funasfjallen.se/sommar/gora/fiske/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Nedre Ammeråns fvo",
+      "url": "https://dromfiske.com/nedre-ammerans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.ragunda.se/",
+        "http://ragundadalen.com/",
+        "https://pelles-fiske.se/ammeraan/index.html",
+        "http://www.ammeran.com/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Nedre Långans fvo",
+      "url": "https://dromfiske.com/nedre-langans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.krokom.se/",
+        "http://www.sportringenkrokom.se/",
+        "https://www.jaktia.se/jaktia-landbys-ostersund/",
+        "http://birgerssonsbensin.se/",
+        "http://www.dannevall.com/",
+        "http://www.nedrelangan.com/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Ockesjön Kvitsleströmmarnas fvo",
+      "url": "https://dromfiske.com/ockesjon-kvitslestrommarnas-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Kanadaröding",
+        "Lake",
+        "Mört",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://are.se/",
+        "http://kvisslestrommen.se/",
+        "https://www.fiskekort.se/kvitslestrommarna/",
+        "http://kvitslefiske.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Övre Ammeråns fvo",
+      "url": "https://dromfiske.com/ovre-ammerans-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.ragunda.se/",
+        "http://ragundadalen.com/",
+        "http://www.skyttmon.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Rörströmsälvens fvo",
+      "url": "https://dromfiske.com/rorstromsalvens-fvo/",
+      "arter": [
+        "Abborre",
+        "Braxen",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lake",
+        "Mört",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.stromsund.se/",
+        "http://www.temaupplevelser.se/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Rörvattnet-Skogsjö fvo",
+      "url": "https://dromfiske.com/rorvattnet-skogsjo-fvo/",
+      "arter": [
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.krokom.se/",
+        "https://ansattfjallen.com/",
+        "https://hotagen.com/",
+        "http://www.rorvattnetsfiskecamp.eu/sv/",
+        "http://www.rorvattnetsstugby.se/",
+        "https://hotagen.com/hotagenkortet/",
+        "https://valsjobyn.com/valsjobua/",
+        "http://www.fahlstroms.nu/",
+        "http://www.sportringenkrokom.se/",
+        "https://hotagen.com/c-rorvattnet-skogsjo-fvo/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Storsjö fvo",
+      "url": "https://dromfiske.com/storsjo-fvo/",
+      "arter": [
+        "Abborre",
+        "Elritsa",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.berg.se/",
+        "http://www.ljungdalsfjallen.se/",
+        "http://www.storsjo.com/",
+        "https://www.fiskekort.se/storsjo/?fbclid=IwAR25oOfT3StPjW1ksFNpNAgCR5hQr7BdSEaxtrgtb_qiqwG4xnOwIu37x2g",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Tännäs-Funäsdalens fvo",
+      "url": "https://dromfiske.com/tannas-funasdalens-fvo/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Sik",
+        "Öring"
+      ],
+      "outbound": [
+        "http://www.herjedalen.se/",
+        "https://www.funasfjallen.se/sommar/",
+        "http://www.tannasfiskecentrum.se/",
+        "https://www.funasfjallen.se/sommar/gora/fiske/",
+        "http://tannasfiskecentrum.se/fiske.html",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    },
+    {
+      "source": "dromfiske",
+      "namn": "Valsjöns fvo",
+      "url": "https://dromfiske.com/valsjons-fvo/",
+      "arter": [
+        "Harr",
+        "Röding",
+        "Öring"
+      ],
+      "outbound": [
+        "https://www.krokom.se/",
+        "https://ansattfjallen.com/",
+        "https://hotagen.com/",
+        "https://valsjobyn.com/valsjobua/",
+        "http://www.fahlstroms.nu/",
+        "http://www.flottargarden.se/",
+        "https://hotagen.com/hotagenkortet/",
+        "http://www.sportringenkrokom.se/",
+        "https://hotagen.com/b-valsjons-fvof/",
+        "https://cookiedatabase.org/tcf/purposes/"
+      ]
+    }
+  ],
+  "outbound": [
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "gunnarvattnets",
+      "url": "https://hotagen.com/a-gunnarvattnets-fvo/",
+      "arter": [
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "langa",
+      "url": "https://www.langafisket.se/fisket/karta/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "langa",
+      "url": "https://www.langafisket.se/priser/forsaljningsstallen/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "langa",
+      "url": "https://www.langafisket.se/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Regnbåge",
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "fjallfiske",
+      "url": "https://funasfjallen.se/upplevelser/fjallfiske/",
+      "arter": [
+        "Harr",
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "index.html",
+      "url": "https://pelles-fiske.se/ammeraan/index.html",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "Färsåns Fritid och Fiskecamp",
+      "url": "http://www.ammeran.com/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "nedrelangans",
+      "url": "https://nedrelangan.com/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Sik",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "rorvattnetskogsjo",
+      "url": "https://hotagen.com/c-rorvattnet-skogsjo-fvo/",
+      "arter": [
+        "Röding",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "Öppettider",
+      "url": "https://www.tannasfiskecentrum.se/",
+      "arter": [
+        "Harr",
+        "Öring"
+      ]
+    },
+    {
+      "source": "fvof_via_dromfiske",
+      "namn": "valsjons",
+      "url": "https://hotagen.com/b-valsjons-fvof/",
+      "arter": [
+        "Röding",
+        "Sik",
+        "Öring"
+      ]
+    }
+  ],
+  "sammakko": [
+    {
+      "source": "sammakko_info",
+      "namn": "Sammakko-Lillbergets fvof",
+      "url": "https://www.sammakko.info/",
+      "arter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Id",
+        "Lax",
+        "Regnbåge",
+        "Sik",
+        "Öring"
+      ],
+      "extra_urls": [
+        "https://www.sammakko.info/",
+        "https://www.sammakko.info/index.html",
+        "https://sammakko.info/fiskkart.html",
+        "https://www.sammakko.info/fiskef2.html"
+      ]
+    }
+  ],
+  "glommers": [
+    {
+      "source": "glommersbygden",
+      "namn": "Södra Sandträsk fvof",
+      "url": "https://glommersbygden.se/fiske/",
+      "arter": [
+        "Abborre",
+        "Gädda"
+      ]
+    }
+  ],
+  "applied_jamtland": [],
+  "unmatched_jamtland": [
+    {
+      "namn": "Klövsjö KFO",
+      "source": "fiskaiberg",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/klovsjo-kfo/"
+    },
+    {
+      "namn": "Tåssåsens sameby (Statens vatten)",
+      "source": "fiskaiberg",
+      "url": "https://www.fiskaiberg.se/fiska/fiskekort-fvo/tassasens-sameby-statens-vatten/"
+    },
+    {
+      "namn": "Bruksvallarnas kfo",
+      "source": "dromfiske",
+      "url": "https://dromfiske.com/bruksvallarnas-kfo/"
+    },
+    {
+      "namn": "fjallfiske",
+      "source": "fvof_via_dromfiske",
+      "url": "https://funasfjallen.se/upplevelser/fjallfiske/"
+    },
+    {
+      "namn": "index.html",
+      "source": "fvof_via_dromfiske",
+      "url": "https://pelles-fiske.se/ammeraan/index.html"
+    },
+    {
+      "namn": "Färsåns Fritid och Fiskecamp",
+      "source": "fvof_via_dromfiske",
+      "url": "http://www.ammeran.com/"
+    },
+    {
+      "namn": "Öppettider",
+      "source": "fvof_via_dromfiske",
+      "url": "https://www.tannasfiskecentrum.se/"
+    }
+  ],
+  "applied_norrbotten": [
+    {
+      "fvo": "Södra Sandträsk fvof",
+      "source": "glommersbygden",
+      "url": "https://glommersbygden.se/fiske/",
+      "tillagda": [
+        "Abborre",
+        "Gädda"
+      ],
+      "gaps_closed": 0
+    }
+  ],
+  "unmatched_norrbotten": [],
+  "stats": {
+    "jamtland": {
+      "fiskaiberg_pages": 12,
+      "dromfiske_pages": 22,
+      "outbound_with_species": 11,
+      "enriched_fvo": 0,
+      "added_species_entries": 0,
+      "mirror_gaps_closed": 0,
+      "tips_saved": 38,
+      "unmatched_count": 7,
+      "spegel_stats": {
+        "battre": 477,
+        "lika": 26,
+        "samre": 381,
+        "med_spegel": 884,
+        "kvar_luckor": 972
+      },
+      "jamtland_spegel_stats": {
+        "battre": 64,
+        "lika": 2,
+        "samre": 34,
+        "med_spegel": 100,
+        "kvar_luckor": 98
+      },
+      "blocked_sources": [
+        "natureit",
+        "artportalen",
+        "ifiske_artdata"
+      ]
+    },
+    "norrbotten": {
+      "enriched_fvo": 1,
+      "added_species_entries": 2,
+      "mirror_gaps_closed": 0,
+      "tips_saved": 2,
+      "unmatched_count": 0,
+      "norrbotten_spegel_stats": {
+        "battre": 6,
+        "lika": 0,
+        "samre": 9,
+        "med_spegel": 15,
+        "kvar_luckor": 19,
+        "tomma": 4
+      },
+      "blocked_sources": [
+        "natureit",
+        "artportalen",
+        "ifiske_artdata"
+      ],
+      "note": "Tomma FVO utan egen hemsida (Hakkas, Bredträsket, Nurrholm, Södra Sandträsk, Kallön) saknar tillåtna publika artlistor; iFiske/NatureIT/Artportalen används inte."
+    }
+  }
+}

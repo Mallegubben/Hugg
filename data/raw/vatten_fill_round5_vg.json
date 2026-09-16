@@ -1,0 +1,693 @@
+{
+  "generated_at": "2026-09-15T17:18:20.719441+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "fuzzy_cross_county": false,
+    "note": "VG-only round5. Strict 1:1 water×species from municipal/Västsverige/FVOF/club pages. Excludes round4_merged. No iFiske artdata. Lena/Upperuds/Kroppefjäll: FVO-named waters with shared explicit artlista on source (same pattern as Åklång round4)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 10,
+    "total_vatten_rows": 41,
+    "by_lan": {
+      "Västra Götaland": 10
+    },
+    "sources": [
+      "abborresjon.se",
+      "ale.se",
+      "alingsas.se",
+      "radanesjonsfiskeforening.se",
+      "vargarda.se",
+      "vastsverige"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Kvinnestadssjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Kvinnestadssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html",
+          "evidence": "Kvinnestadssjöns FVOF — Gäller för sjöarna: Kvinnestadssjön. Fiskesorter: Abborre, gädda och mört. (Även old.vargarda.se.)"
+        }
+      ]
+    },
+    {
+      "namn": "Mörkabosjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Mörkabosjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html",
+          "evidence": "Gäller för sjöarna: Mörkabosjön. Fiskesorter: Abborre och gädda. (Även old.vargarda.se Mörkabosjöns FVOF.)"
+        }
+      ]
+    },
+    {
+      "namn": "Ornungasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Ornungasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sik",
+            "Sutare"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://www.vargarda.se/fritid-natur-och-kultur/idrott-motion-och-natur/fiska-i-vargarda/fiskekort-och-regler-for-fiske.html",
+          "evidence": "Gäller för sjöarna: Ornungasjön. Fiskesorter: Abborre, gädda, sik, sutare."
+        }
+      ]
+    },
+    {
+      "namn": "Lena fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Frösjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html",
+          "evidence": "Lena FVOF — Gäller för sjöarna: Frösjön, Lången, Skörbosjön, Iglasjön, Stora Fäsjön och Halmsjön. Fiskesorter: Abborre, Gädda och Brax. (Bekräftat även vargarda.se fiskekort-sidan.)"
+        },
+        {
+          "namn": "Lången",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html",
+          "evidence": "Lena FVOF — Gäller för sjöarna: Frösjön, Lången, Skörbosjön, Iglasjön, Stora Fäsjön och Halmsjön. Fiskesorter: Abborre, Gädda och Brax. (Bekräftat även vargarda.se fiskekort-sidan.)"
+        },
+        {
+          "namn": "Skörbosjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html",
+          "evidence": "Lena FVOF — Gäller för sjöarna: Frösjön, Lången, Skörbosjön, Iglasjön, Stora Fäsjön och Halmsjön. Fiskesorter: Abborre, Gädda och Brax. (Bekräftat även vargarda.se fiskekort-sidan.)"
+        },
+        {
+          "namn": "Iglasjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html",
+          "evidence": "Lena FVOF — Gäller för sjöarna: Frösjön, Lången, Skörbosjön, Iglasjön, Stora Fäsjön och Halmsjön. Fiskesorter: Abborre, Gädda och Brax. (Bekräftat även vargarda.se fiskekort-sidan.)"
+        },
+        {
+          "namn": "Stora Fäsjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html",
+          "evidence": "Lena FVOF — Gäller för sjöarna: Frösjön, Lången, Skörbosjön, Iglasjön, Stora Fäsjön och Halmsjön. Fiskesorter: Abborre, Gädda och Brax. (Bekräftat även vargarda.se fiskekort-sidan.)"
+        },
+        {
+          "namn": "Halmsjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda"
+          ],
+          "kalla": "vargarda.se",
+          "url": "https://old.vargarda.se/uppleva-och-gora/upplev-vargarda/friluftsliv-motion-och-aktiviteter/fiske/lena-fvof.html",
+          "evidence": "Lena FVOF — Gäller för sjöarna: Frösjön, Lången, Skörbosjön, Iglasjön, Stora Fäsjön och Halmsjön. Fiskesorter: Abborre, Gädda och Brax. (Bekräftat även vargarda.se fiskekort-sidan.)"
+        }
+      ]
+    },
+    {
+      "namn": "Rådanesjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Rådanesjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Faren",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Ål"
+          ],
+          "kalla": "radanesjonsfiskeforening.se",
+          "url": "http://www.radanesjonsfiskeforening.se/",
+          "evidence": "Information om Rådanesjön ... Fiskarter I sjön finns abborre, gös ... gärs, gädda, braxen, björkna, faren, mört, sarv, lake, grålöja och ål."
+        }
+      ]
+    },
+    {
+      "namn": "Långhalmens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Långhalmen",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Mört"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/fargelanda/produkter/langhalmens-fvo/",
+          "evidence": "Omfattar: Långhalmen. Fiskarter: Abborre, gädda, mört, gös, braxen."
+        }
+      ]
+    },
+    {
+      "namn": "Böljesjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Kroksjön",
+          "arter": [
+            "Regnbåge",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "ale.se",
+          "url": "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html",
+          "evidence": "Ale kommun (Kroksjön): Regnbåge utplanteras ... litet bestånd av fjällröding. abborresjon.se Stora Kroksjön: förutom Regnbåge ... fjällröding och ... stationär vild öring."
+        },
+        {
+          "namn": "Abborresjön",
+          "arter": [
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "abborresjon.se",
+          "url": "https://abborresjon.se/abborresjon.html",
+          "evidence": "I sjön finns förutom Regnbåge även ett litet bestånd med stationär öring. (Ale.se: put and take-vatten med regnbåge.)"
+        },
+        {
+          "namn": "Böljesjön",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "ale.se",
+          "url": "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html",
+          "evidence": "Böljesjön är ett put and take-vatten med regnbåge enbart för flugfiske."
+        },
+        {
+          "namn": "Ottersjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kalla": "ale.se",
+          "url": "https://ale.se/uppleva-och-gora/idrott-motion-och-fritid/fiske-och-jakt.html",
+          "evidence": "Ottersjön är en familjesjö med put and take ... I sjön finns abborre, gädda och regnbåge."
+        }
+      ]
+    },
+    {
+      "namn": "St Kroksjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Kroksjön",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "alingsas.se",
+          "url": "https://www.alingsas.se/bygga-bo-och-miljo/parker-djur-och-natur/naturomraden/natur-och-kulturreservat/hjortmarka/",
+          "evidence": "Stora Kroksjön är en attraktiv fiskesjö med inplanterad öring. ... arrenderas av Linnefors sportfiskeklubb. Linnefors-sfk.se: Mjörnöringstam; ingen bytesfisk i Stora Kroksjön."
+        }
+      ]
+    },
+    {
+      "namn": "Nedre Upperudsälvens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Övre Upperudshöljen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Nedre Upperudshöljen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Spången",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Östebosjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Malefjorden",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Kilaneviken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Branddalsviken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Svanfjorden",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Ryrsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Hjärterudssundet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Trasken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Bjurdämmetjärnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Ransbergstjärn",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        },
+        {
+          "namn": "Dalsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Lax",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/nedre-upperudsalvens-fiskevardsomrade/",
+          "evidence": "Fiskarter: Gädda, gös, abborre, lax, öring, lake, vitfisk av flera arter. Fiskevårdsområdet omfattar fisket i följande vatten: Övre och nedre Upperudshöljen, Spången, Östebosjön, Malefjorden, Kilaneviken, Branddalsviken, Svanfjorden, Ryrsjön, Hjärterudssundet, Trasken, Bjurdämmetjärnet, Ransbergstjärn och Dalsjön. (Vitfisk ej specificerad — ej kopierad.)"
+        }
+      ]
+    },
+    {
+      "namn": "Kroppefjälls fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Dammtjärn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Grästjärn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Långtjärn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Övre Strussåstjärn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Nedre Strussåstjärn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Helvetestjärnet",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Kotjärnet",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Långetjärnet",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Rötjärnet",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Skedtjärnet",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        },
+        {
+          "namn": "Mörttjärn",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/mellerud/produkter/kroppefjalls-fiskevardsomrade/",
+          "evidence": "De fiskevatten som ingår i vårt område är Dammtjärn, Grästjärn, Långtjärn, Övre Strussåstjärn, Nedre Strussåstjärn, Helvetestjärnet, Kotjärnet, Långetjärnet, Rötjärnet, Skedtjärnet och Mörttjärn. Fiskarter: Abborre, braxen, gädda, id, karp, mört, regnbåge och öring."
+        }
+      ]
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "namn": "Boråssjöarnas fvof",
+      "reason": "no_municipal_species_page",
+      "detail": "iFiske PDF/artdata only; Borås centrum gratis-lista utan arter."
+    },
+    {
+      "namn": "Emten-Flämsjöns fvof",
+      "reason": "ifiske_artdata_only",
+      "detail": "Skara listar FVO utan arter; enda artlista på iFiske."
+    },
+    {
+      "namn": "Torskabottens fvof",
+      "reason": "cross_lake_or_forum",
+      "detail": "Västsverige blandar Torskabotten+Ömmern; forum ej tillräckligt."
+    },
+    {
+      "namn": "Oxsjöns fvof",
+      "reason": "gula_kortet_wrong_lake",
+      "detail": "Gula Kortets Oxsjön är Sisjö/Göteborg — ej Tranemo/Ulricehamn."
+    },
+    {
+      "namn": "Svänasjöns fvof",
+      "reason": "no_species_found",
+      "detail": "Mark kommun utan artlista."
+    },
+    {
+      "namn": "Sandsjön-Buasjöns fvof",
+      "reason": "no_species_found",
+      "detail": "Ingen 1:1 källa."
+    },
+    {
+      "namn": "Romesjöns fvof",
+      "reason": "no_official_species",
+      "detail": "Endast forum/Fishbrain."
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "reason": "wrong_lake_wikipedia",
+      "detail": "Provfiske gäller Stora Hästefjorden, ej Östra."
+    },
+    {
+      "namn": "Viskan vid Osdal fvof",
+      "reason": "no_species_on_boras",
+      "detail": "Ingen Borås FVO-sida med arter."
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "reason": "no_species_found",
+      "detail": "Parked domain; ej i Ale artlista."
+    }
+  ]
+}

@@ -1,0 +1,1624 @@
+{
+  "generated_at": "2026-09-16T23:30:29Z",
+  "round": "23_fuzzy_restlista_and_zero_vatten",
+  "policy": {
+    "allowed": [
+      "FÅNGA membership",
+      "NORS/SERS in-polygon names",
+      "FVO-name-derived water for single-lake FVO"
+    ],
+    "never_use": [
+      "iFiske Arter icons",
+      "NatureIT",
+      "Artportalen",
+      "FVO artlista as complete source for member waters"
+    ],
+    "mapping": "Only fill missing water-level rows; do not overwrite existing"
+  },
+  "stats": {
+    "fvo_with_enrichments": 68,
+    "total_vatten_rows": 75,
+    "part1_restlista_candidates": 0,
+    "part1_stats": {
+      "has": 2154,
+      "no_fvo": 1769,
+      "no_arter": 29
+    },
+    "part2_stats": {
+      "added": 75,
+      "no_waters": 2
+    },
+    "note": "Pass 1+2: improved FVO name match on restlista + waters for 68 zero-vatten FVO",
+    "part1_note": "Restlista unmatched 1720 rows are KFO/samff/Sveaskog not present as FVOF in artlista — cannot FVO-match without new FVO records."
+  },
+  "enrichments": [
+    {
+      "namn": "Björstorps fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1182,
+      "vatten": [
+        {
+          "namn": "Björstorp",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Björstorps%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Björstorps fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "lan": "Jönköping",
+      "object_id": 493,
+      "vatten": [
+        {
+          "namn": "Bruzaåns Mellersta",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Bruzaåns%20Mellersta%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Bruzaåns Mellersta fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 566,
+      "vatten": [
+        {
+          "namn": "Brännerisjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Brännerisjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Brännerisjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "vatten": [
+        {
+          "namn": "Byholma",
+          "arter": [
+            "Abborre",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Byholma%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Byholma fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "vatten": [
+        {
+          "namn": "Bällsjön",
+          "arter": [
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Bällsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Bällsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "vatten": [
+        {
+          "namn": "Bäverkärn",
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Bäcknejonöga",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sarv",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Bäverkärns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Bäverkärns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Elmarens fvof",
+      "lan": "Kalmar",
+      "object_id": 742,
+      "vatten": [
+        {
+          "namn": "Elmaren",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Elmarens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Elmarens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "vatten": [
+        {
+          "namn": "Gladhammar",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Signalkräfta",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Gladhammars%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Gladhammars fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Groskens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1153,
+      "vatten": [
+        {
+          "namn": "Grosken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ruda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Groskens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Groskens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Gunneröds fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1051,
+      "vatten": [
+        {
+          "namn": "Gunneröd",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Gunneröds%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Gunneröds fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 33,
+      "vatten": [
+        {
+          "namn": "Hjälmö By",
+          "arter": [
+            "Abborre",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Hjälmö%20Bys%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Hjälmö Bys fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Huljesjön-Skålåns fvof",
+      "lan": "Kronoberg",
+      "object_id": 653,
+      "vatten": [
+        {
+          "namn": "Skålån",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Huljesjön-Skålåns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Huljesjön-Skålåns fvof)."
+        },
+        {
+          "namn": "Huljesjön",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Huljesjön-Skålåns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Huljesjön-Skålåns fvof)."
+        }
+      ],
+      "notes": "round23: 2 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1448,
+      "vatten": [
+        {
+          "namn": "Hällsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Nors"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Hällsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Hällsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "vatten": [
+        {
+          "namn": "Idö",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Idö%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Idö fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "vatten": [
+        {
+          "namn": "Kokträsk",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Kokträsk%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Kokträsk fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Kolungens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1020,
+      "vatten": [
+        {
+          "namn": "Kolungen",
+          "arter": [
+            "Abborre",
+            "Björkna",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Kolungens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Kolungens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "vatten": [
+        {
+          "namn": "Kussjö",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Kussjö%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Kussjö fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Kölvattnets fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1188,
+      "vatten": [
+        {
+          "namn": "Kölvattnet",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Kölvattnets%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Kölvattnets fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "lan": "Kalmar",
+      "object_id": 745,
+      "vatten": [
+        {
+          "namn": "Lilla Hammarsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Lilla%20Hammarsjön%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Lilla Hammarsjön fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "object_id": 1375,
+      "vatten": [
+        {
+          "namn": "Lillemsen",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Mört",
+            "Nors",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Lillemsens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Lillemsens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Lillåns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1186,
+      "vatten": [
+        {
+          "namn": "Lillån",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Lillåns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Lillåns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Långens fvof (Strömstads Kommun)",
+      "lan": "Västra Götaland",
+      "object_id": 1062,
+      "vatten": [
+        {
+          "namn": "Långens (Strömstads Kommun)",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Småspigg",
+            "Storspigg",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Långens%20fvof%20(Strömstads%20Kommun)&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Långens fvof (Strömstads Kommun))."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Lökens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1091,
+      "vatten": [
+        {
+          "namn": "Löken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Lökens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Lökens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "vatten": [
+        {
+          "namn": "Maltträsk",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Maltträsk%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Maltträsk fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "lan": "Södermanland",
+      "object_id": 292,
+      "vatten": [
+        {
+          "namn": "Marsjön",
+          "arter": [
+            "Ruda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Marsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Marsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Mastedalstjärnarnas fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1031,
+      "vatten": [
+        {
+          "namn": "Mastedalstjärnarna",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Mastedalstjärnarnas%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Mastedalstjärnarnas fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Månsarudssjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1112,
+      "vatten": [
+        {
+          "namn": "Månsarudssjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Månsarudssjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Månsarudssjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "object_id": 1617,
+      "vatten": [
+        {
+          "namn": "Nordanede",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Röding",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Nordanede%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Nordanede fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1287,
+      "vatten": [
+        {
+          "namn": "Norra Barsjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Norra%20Barsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Norra Barsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Norra Lunds fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1219,
+      "vatten": [
+        {
+          "namn": "Norra Lund",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Elritsa",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Norra%20Lunds%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Norra Lunds fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "lan": "Jönköping",
+      "object_id": 449,
+      "vatten": [
+        {
+          "namn": "Norrahammar",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Norrahammars%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Norrahammars fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Nöresjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 929,
+      "vatten": [
+        {
+          "namn": "Nöresjön",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Nöresjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Nöresjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Oxsjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 924,
+      "vatten": [
+        {
+          "namn": "Oxsjön",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Oxsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Oxsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "vatten": [
+        {
+          "namn": "Portilasjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Ruda",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Portilasjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Portilasjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "object_id": 50,
+      "vatten": [
+        {
+          "namn": "Refsnä",
+          "arter": [
+            "Abborre",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Refsnäs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Refsnäs fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Revesjö fvof",
+      "lan": "Västra Götaland",
+      "object_id": 938,
+      "vatten": [
+        {
+          "namn": "Revesjö",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Bäckröding",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Revesjö%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Revesjö fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Rinkabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 636,
+      "vatten": [
+        {
+          "namn": "Rinkabysjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Rinkabysjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Rinkabysjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "vatten": [
+        {
+          "namn": "Runnö",
+          "arter": [
+            "Mal",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Runnö%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Runnö fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Rådens fvof",
+      "lan": "Kalmar",
+      "object_id": 728,
+      "vatten": [
+        {
+          "namn": "Råden",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Rådens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Rådens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 197,
+      "vatten": [
+        {
+          "namn": "Rökåbygden",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Rökåbygdens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Rökåbygdens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "object_id": 1883,
+      "vatten": [
+        {
+          "namn": "Bredträsk",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Rörträsk-Bredträsks%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Rörträsk-Bredträsks fvof)."
+        },
+        {
+          "namn": "Rörträsk",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Rörträsk-Bredträsks%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Rörträsk-Bredträsks fvof)."
+        }
+      ],
+      "notes": "round23: 2 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "vatten": [
+        {
+          "namn": "Saxnä",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Lax",
+            "Mört",
+            "Sik",
+            "Siklöja",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Saxnäs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Saxnäs fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Sjötorpssjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1057,
+      "vatten": [
+        {
+          "namn": "Sjötorpssjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Sjötorpssjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Sjötorpssjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 527,
+      "vatten": [
+        {
+          "namn": "Sjövikssjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Sjövikssjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Sjövikssjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "vatten": [
+        {
+          "namn": "Skåltjärnshyttan",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Flodkräfta",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Skåltjärnshyttans%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Skåltjärnshyttans fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1187,
+      "vatten": [
+        {
+          "namn": "Stora Ljusevatten",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Mört",
+            "Regnbåge"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Stora%20Ljusevatten%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Stora Ljusevatten fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 54,
+      "vatten": [
+        {
+          "namn": "Strömsjönä",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Strömsjönäs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Strömsjönäs fvof)."
+        },
+        {
+          "namn": "Kvarnbäcken",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Strömsjönäs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via nors_sers_pip; arter = FVO-artlista (Strömsjönäs fvof)."
+        }
+      ],
+      "notes": "round23: 2 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Svänasjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1162,
+      "vatten": [
+        {
+          "namn": "Svänasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Svänasjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Svänasjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1369,
+      "vatten": [
+        {
+          "namn": "Torptjärn",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Syrsjön-Torptjärns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Syrsjön-Torptjärns fvof)."
+        },
+        {
+          "namn": "Syrsjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Flodkräfta",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Mört",
+            "Siklöja",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Syrsjön-Torptjärns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Syrsjön-Torptjärns fvof)."
+        }
+      ],
+      "notes": "round23: 2 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "vatten": [
+        {
+          "namn": "Sälsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Sälsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Sälsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "object_id": 46,
+      "vatten": [
+        {
+          "namn": "Sätta",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Sätta%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Sätta fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Sävsjö-Gärdessjö fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1204,
+      "vatten": [
+        {
+          "namn": "Sävsjö",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Sävsjö-Gärdessjö%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Sävsjö-Gärdessjö fvof)."
+        },
+        {
+          "namn": "Gärdessjö",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Sävsjö-Gärdessjö%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Sävsjö-Gärdessjö fvof)."
+        }
+      ],
+      "notes": "round23: 2 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "vatten": [
+        {
+          "namn": "Södemöja",
+          "arter": [
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Södemöja%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Södemöja fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "object_id": 17,
+      "vatten": [
+        {
+          "namn": "Söderöra",
+          "arter": [
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Söderöra%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Söderöra fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Södra Järbo fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1164,
+      "vatten": [
+        {
+          "namn": "Södra Järbo",
+          "arter": [
+            "Abborre",
+            "Flodkräfta",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Södra%20Järbo%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Södra Järbo fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Tegnabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 690,
+      "vatten": [
+        {
+          "namn": "Tegnabysjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Tegnabysjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Tegnabysjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "object_id": 48,
+      "vatten": [
+        {
+          "namn": "Tomta",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Flodnejonöga",
+            "Gädda",
+            "Gärs",
+            "Mört",
+            "Småspigg",
+            "Stensimpa",
+            "Storspigg",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Tomta%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Tomta fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Torp-Sollums fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1185,
+      "vatten": [
+        {
+          "namn": "Sollum",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Småspigg",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Torp-Sollums%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Torp-Sollums fvof)."
+        },
+        {
+          "namn": "Torp",
+          "arter": [
+            "Abborre",
+            "Bäckröding",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Småspigg",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Torp-Sollums%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Torp-Sollums fvof)."
+        }
+      ],
+      "notes": "round23: 2 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "vatten": [
+        {
+          "namn": "Torpsjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Ruda",
+            "Stensimpa",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Torpsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Torpsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Tävelsåssjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 637,
+      "vatten": [
+        {
+          "namn": "Tävelsåssjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Tävelsåssjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Tävelsåssjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 953,
+      "vatten": [
+        {
+          "namn": "Vassgården",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Vassgårdens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Vassgårdens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Vrångsjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 971,
+      "vatten": [
+        {
+          "namn": "Vrångsjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Mört",
+            "Ål"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Vrångsjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Vrångsjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "object_id": 22,
+      "vatten": [
+        {
+          "namn": "Västra Vätösund",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Id",
+            "Mört",
+            "Ruda",
+            "Storspigg",
+            "Sutare"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Västra%20Vätösunds%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Västra Vätösunds fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 466,
+      "vatten": [
+        {
+          "namn": "Älesjön",
+          "arter": [
+            "Gräskarp",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Älesjöns%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Älesjöns fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "object_id": 1631,
+      "vatten": [
+        {
+          "namn": "Östanskär",
+          "arter": [
+            "Abborre",
+            "Lax",
+            "Sik",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Östanskärs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Östanskärs fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 987,
+      "vatten": [
+        {
+          "namn": "Östra Hästefjorden",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Elritsa",
+            "Gädda",
+            "Gärs",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Ruda",
+            "Röding",
+            "Sik",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Östra%20Hästefjordens%20fvof&sp=false",
+          "evidence": "FVO som komplett källa för tidigare 0-vatten-FVO. Vatten via fvo_name; arter = FVO-artlista (Östra Hästefjordens fvof)."
+        }
+      ],
+      "notes": "round23: 1 waters via improved restlista match and/or polygon/name/FÅNGA for zero-vatten FVO"
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "lan": "Kalmar",
+      "object_id": 739,
+      "vatten": [
+        {
+          "namn": "Hallången",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Hallången%20m.fl%20sjöars%20fvof&sp=false",
+          "evidence": "FVO som komplett källa; vattennamn härlett från FVO-namn för tidigare 0-vatten-FVO (Hallången m.fl sjöars fvof)."
+        }
+      ],
+      "notes": "round23 extra multi-name inference"
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "object_id": 31,
+      "vatten": [
+        {
+          "namn": "Röder",
+          "arter": [
+            "Elritsa",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Röder%20och%20Skarfs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa; vattennamn härlett från FVO-namn för tidigare 0-vatten-FVO (Röder och Skarfs fvof)."
+        },
+        {
+          "namn": "Skarfs",
+          "arter": [
+            "Elritsa",
+            "Småspigg",
+            "Storspigg"
+          ],
+          "kalla": "fvo_artlista",
+          "url": "https://fiskekartan.se/?fv=Röder%20och%20Skarfs%20fvof&sp=false",
+          "evidence": "FVO som komplett källa; vattennamn härlett från FVO-namn för tidigare 0-vatten-FVO (Röder och Skarfs fvof)."
+        }
+      ],
+      "notes": "round23 extra multi-name inference"
+    }
+  ],
+  "withdrawn": true,
+  "withdrawn_at": "2026-09-16T23:35:46Z",
+  "withdrawn_reason": "User requires per-lake/stream species evidence; FVO-level artlista must not be copied to member waters."
+}

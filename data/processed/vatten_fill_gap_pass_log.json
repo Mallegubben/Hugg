@@ -1,0 +1,13 @@
+{
+  "applied": [],
+  "unmatched": [],
+  "stats": {
+    "action": "strip_fvo_artlista_complete_source",
+    "removed_vatten_rows": 2102,
+    "fvo_emptied": 80,
+    "gaps_arter_0_vatten": 80,
+    "total_vatten": 9983,
+    "at": "2026-09-16T23:35:35Z",
+    "reason": "User requires per-lake/stream species, not FVO-level list copied to member waters."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-09-16T06:05:00Z",
+  "policy": {
+    "note": "Hard-reviewed 1:1 water×species only. Allowed: Naturkartan/vattenagarna/municipal/tourism/FVOF/Wayback narrative; LST/miljö/nätprovfiske PDFs naming the water; newspapers naming lake+species; Hitta Fiske / iFiske Om narrative naming species for a named water. Forbidden: Artportalen, NatureIT, iFiske Fiskarter icons, Fishbrain, forums, catch reports as artdata. Empty preferred over weak."
+  },
+  "enrichments": [],
+  "rejected": [
+    {
+      "namn": "Byholma fvof",
+      "object_id": 47,
+      "notes": "Norrtälje/Väddö by-FVO. Bolagsfakta confirms association exists; Väddö hembygdsförening Byholma page has no fish. Stockholms läns fiskeguide / Visit Roslagen / Norrtälje kommun / Skärgårdsstiftelsen / vattenagarna / Naturkartan / iFiske Om: no named water×species prose for Byholma. arter_fvo Abborre,Mört,Öring remain FVO-level only."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "object_id": 33,
+      "notes": "Värmdö. Skärgårdsstiftelsen + Naturkartan Hjälmö-Lådna + LST Stockholm reservat pages: culture/landscape only, no fish species. Fiskeguiden lists Hjälmösundet only as fredningsområde. Värmdö kommun fiske tips are generic (abborre/gädda) without Hjälmö. Mitt i underwater inventory article does not name fish species for Hjälmö waters."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "object_id": 50,
+      "notes": "Norrtälje (Räfsnäs). Fiskeguide 2023 mentions Räfsnäs brygga only as sjösättningsramp. No municipal/tourism/vattenagarna/Naturkartan/newspaper water×species prose found."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "object_id": 31,
+      "notes": "Norrtälje ytterskärgård (Röder/Skarv). Tourism/island link pages exist; no FVOF site, no LST/nätprovfiske PDF, no newspaper naming Elritsa/Småspigg/Storspigg for these named waters. County-level 'Fiskar i Stockholms skärgård' is not 1:1 to Röder/Skarf."
+    },
+    {
+      "namn": "Sätta fvof",
+      "object_id": 46,
+      "notes": "Vallentuna/Norrtälje. No identifiable named water or FVOF prose. Vallentunasjön VFOF and Sätrasjön FVO are different associations (and Sätrasjön lists Gös — not in Sätta arter_fvo). No Sätta/Sättasjön artprosa in kommun, vattenagarna, Naturkartan, or fiskeguide."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "object_id": 12,
+      "notes": "Värmdö/Möja by-FVO. sodermoja.com and visitmoja.se have island history/tourism without Storspigg (or any fish species) tied to Södemöja waters. Fiskeguide Möja tips are island-level, not 1:1 for this by-FVO. Only Storspigg in arter_fvo — needs prose naming that species for a named water."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "object_id": 17,
+      "notes": "Norrtälje. Fiskeguide: Öjan (Norröra/Söderöra) only on fredningslista. Waxholmsbolaget/Saltkråkan tourism without fish species. No Storspigg prose for named Söderöra water."
+    },
+    {
+      "namn": "Tomta fvof",
+      "object_id": 48,
+      "notes": "Norrtälje/Väddö Tomta. Fiskeguide Tomtviken is fredningsområde (Helgö) — not an artlista and Helgö≠Väddö Tomta without proof. Hembygds pages empty on fish. No LST/nätprovfiske or newspaper lake/stream×species for Tomta FVO waters despite rich arter_fvo."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "object_id": 22,
+      "notes": "Norrtälje/Vätö. vatofiske.se (Vätö Amatörfiskareförening) describes Vätösund rules and gäddfredning but is another association; no clear 1:1 artprosa for Västra Vätösunds fvof. Holmsundet gädda/abborre in Norrtälje Vätö huvud PDF held as prior reject (FVO membership not proven)."
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "object_id": 292,
+      "notes": "Strängnäs/Åkers socken Marsjön (Ruda only in arter_fvo). No NORS hit for this lake. LST Södermanland fiskeguide 2010 covers Åkersfiske/other lakes but not Marsjön×ruda. Wikipedia/Naturkartan/municipal pages lack fish fauna. Bengtsfors/VG Marsjöarna and Fishbrain twins explicitly excluded."
+    }
+  ],
+  "searched_sources": [
+    "Stockholms läns fiskeguide 2023 (ifiske PDF)",
+    "Fiskeguide 2010 Södermanlands län (LST PDF)",
+    "LST Stockholm: Fiskar i Stockholms skärgård PDF",
+    "Norrtälje kommun: Vätö huvud PDF (45_vato.pdf) — Holmsundet",
+    "vatofiske.se (Vätö Amatörfiskareförening)",
+    "Skärgårdsstiftelsen Hjälmö-Lådna",
+    "Naturkartan: Hjälmö Lådna, Roslagsleden, Byholma (Kronoberg twin), Marsjön naturreservat (Flen twin)",
+    "Värmdö kommun fiske och jakt",
+    "Vallentuna kommun fiske; vfof.org Vallentunasjön; sätrasjön.se (different FVO)",
+    "Visit Möja / sodermoja.com / Waxholmsbolaget Norröra-Söderöra",
+    "Visit Roslagen / Norrtälje museikarta / Väddö hembygdsförening Byholma+Tomta",
+    "vattenagarna.se (no member pages for these Stockholm by-FVO)",
+    "iFiske search: no Om pages for these FVO (only unrelated By FVOF / Marsjöarna VG)",
+    "Norrtelje Tidning (våtmarker gädda/abborre — Rådmansö/Arholma, not targets)",
+    "Mitt i Hjälmö-Lådna undervattensinventering",
+    "Wikipedia Marsjön (Åkers socken, Strängnäs)",
+    "NORS aggregated data in repo (no Strängnäs Marsjön; no Sätta/Tomta/Byholma)",
+    "Wayback CDX blocked (403) for exploratory FVOF URL probes",
+    "Prior round12 stockholm searched_but_empty notes re-checked"
+  ],
+  "near_misses_not_used": [
+    {
+      "candidate": "Holmsundet gädda+abborre — Norrtälje Vätö huvud PDF (Fiskeriverket leklokal)",
+      "why_not": "Prior reject held: water named and species ⊆ arter_fvo, but FVO membership of Holmsundet in Västra Vätösunds fvof not proven; Vätö AFF is a different association covering parts of Vätösund."
+    },
+    {
+      "candidate": "Tomtviken fredningsområde (Helgö) in Stockholms läns fiskeguide",
+      "why_not": "Fredning list only — no species; also Helgö Tomtviken ≠ Väddö Tomta by without 1:1 FVO link."
+    },
+    {
+      "candidate": "Öjan (Norröra/Söderöra) / Hjälmösundet fredningslistor",
+      "why_not": "Fredning only; no species named."
+    },
+    {
+      "candidate": "Möja havsöring/skrubbskädda tips in fiskeguide; Möja island tourism",
+      "why_not": "Island-level, not Södemöja by-FVO 1:1; Havsöring/Skrubbskädda also not in Södemöja arter_fvo (Storspigg only)."
+    },
+    {
+      "candidate": "Vätö AFF vatofiske.se gäddfredning in Vätösund",
+      "why_not": "Different förening than Västra Vätösunds fvof; rules prose does not inventory species as artdata for the target FVO."
+    },
+    {
+      "candidate": "Marsjöarna Bengtsfors / iFiske / Västsverige species lists",
+      "why_not": "Cross-county twin (oid 1009 VG); species not Ruda-only; must not map to Strängnäs oid 292."
+    },
+    {
+      "candidate": "Sätrasjön FVO narrative (gös, abborre, gädda, sutare…)",
+      "why_not": "Different FVO name/water; Gös not in Sätta arter_fvo; fuzzy name match only."
+    },
+    {
+      "candidate": "Vallentunasjön VFOF artprosa",
+      "why_not": "Different FVO; not Sätta."
+    },
+    {
+      "candidate": "Fishbrain Marsjön catch reports (various counties)",
+      "why_not": "Forbidden source class."
+    },
+    {
+      "candidate": "Upplandsstiftelsen Roslagen storspigg yngelprovfiske (Kallriga/Skaten/Ledskär etc.)",
+      "why_not": "Uppsala län sites — not Refsnäs/Röder/Söderöra/Byholma waters."
+    },
+    {
+      "candidate": "County brochure 'Fiskar i Stockholms skärgård' on Elritsa/Storspigg/Småspigg",
+      "why_not": "Species biology for the county; does not name Röder/Skarf or other target waters."
+    },
+    {
+      "candidate": "Norrtelje Tidning våtmarksprojekt gädda/abborre (Sänsjö, Grovmaren, Koholma, Arholma)",
+      "why_not": "Named waters outside these FVO; not usable for targets."
+    }
+  ]
+}

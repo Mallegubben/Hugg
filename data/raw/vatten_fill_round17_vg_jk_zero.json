@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-09-16T12:40:00Z",
+  "round": 17,
+  "scope": "VG ZERO 23 + JK ZERO 5 (prior empty r13–16 / JK held)",
+  "policy": {
+    "prefer_empty": true,
+    "ok": [
+      "Naturkartan prose (not Arter icons)",
+      "vattenagarna",
+      "municipal/tourism/brochures",
+      "FVOF/Wayback narrative",
+      "LST/miljö/nätprovfiske PDFs",
+      "newspapers",
+      "Hitta Fiske prose",
+      "iFiske Om-prose for named water",
+      "NORS/SERS only with clear FVO membership + correct geography"
+    ],
+    "never": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports"
+    ],
+    "rules": "species ⊆ arter_fvo; multi-lake only per named water or explicit all lakes; no fuzzy twins"
+  },
+  "stats": {
+    "targets_vg": 23,
+    "targets_jk": 5,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0
+  },
+  "enrichments": [],
+  "rejected": [
+    {
+      "namn": "Björstorps fvof",
+      "reason": "Svenljunga-Tranemo 2021 / FlipHTML5 2016 name no Björstorps species block; wrong-place Björstorp hits only."
+    },
+    {
+      "namn": "Groskens fvof",
+      "reason": "iFiske Fiskarter icons + catch reports + Fishbrain + fiskekortsverige icon scrapes REJECTED; Ulricehamn guides without Grosken artprosa."
+    },
+    {
+      "namn": "Gunneröds fvof",
+      "reason": "NORS/museum 'Gunneröd vatten' = Uddevalla twin ≠ Orust; Orust iFiske hits = Rödsvattnet only."
+    },
+    {
+      "namn": "Kolungens fvof",
+      "reason": "Mellerud municipal/vastsverige species pages cover Örsjön/Nären etc.; Kolungen absent. Local press 2024–26 miss."
+    },
+    {
+      "namn": "Kölvattnets fvof",
+      "reason": "Absent Bengtsfors Fiskeguide 2026; NORS/wiki without Fisk."
+    },
+    {
+      "namn": "Lillåns fvof",
+      "reason": "SERS/Sportfiskarna Lillån hits = other systems ≠ Trollhättan Lillåns fvof."
+    },
+    {
+      "namn": "Långens fvof (Strömstads Kommun)",
+      "reason": "English/iFiske Lången hits = Skövde/Växjö twins; Strömstad has no affiliated iFiske area; no Strömstad-Lången 1:1."
+    },
+    {
+      "namn": "Lökens fvof",
+      "reason": "Sotenäs Löken absent; Wikipedia Loken/Löken hits = wrong counties."
+    },
+    {
+      "namn": "Mastedalstjärnarnas fvof",
+      "reason": "Bengtsfors Fiskeguide 2026: vilande, no Fiskarter — inactive reject holds."
+    },
+    {
+      "namn": "Månsarudssjöns fvof",
+      "reason": "Töreboda map label / Tibro SFK weights-only; no named species prose."
+    },
+    {
+      "namn": "Norra Lunds fvof",
+      "reason": "Absent Bengtsfors/Dals-Ed guides; ≠ Norra Lundstjärnet Årjäng."
+    },
+    {
+      "namn": "Nöresjöns fvof",
+      "reason": "vattenagarna o=1030 contact-only; no brochure/LST species."
+    },
+    {
+      "namn": "Oxsjöns fvof",
+      "reason": "≠ Ingsjöarna & Oxsjöns FVO; Gula Kortet Oxsjön = Sisjön/Sandsjöbacka twin REJECTED."
+    },
+    {
+      "namn": "Revesjö fvof",
+      "reason": "Svenljunga-Tranemo 2021 names Stora/Lilla Kvarnsjön without species; iFiske Fiskarter icons REJECTED."
+    },
+    {
+      "namn": "Sjötorpssjöns fvof",
+      "reason": "Skövde bath/local press (SLA/Skövde Nyheter) without fish species; Falköping Sjötorpasjön twin REJECTED."
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "reason": "Naturkartan Risveden = shelter/parking; ale.se species for other lakes (Kroksjön/Valsjön etc.); Ljusevatten not kortfiske."
+    },
+    {
+      "namn": "Svänasjöns fvof",
+      "reason": "Fiska i Mark without Svänasjön; pinfishing/Fishbrain catch aggregators REJECTED; ≠ Svanasjön Skillingaryd."
+    },
+    {
+      "namn": "Sävsjö-Gärdessjö fvof",
+      "reason": "Brochure Gärdessjön = Moga-Annlarps FVO ≠ this; NORS Gärdessjön = other counties."
+    },
+    {
+      "namn": "Södra Järbo fvof",
+      "reason": "jarbo-dalsland.se hembygd no fish; Sandviken Järbo FVOF twin REJECTED."
+    },
+    {
+      "namn": "Torp-Sollums fvof",
+      "reason": "SERS Sollumsån + LST öring/lax/stensimpa + Lille-Väktor wiki/vastsverige species belong to Väktorssjöområdet (explicit kortförsäljare) — FVO membership undocumented for Torp-Sollums."
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "reason": "Brochure names 8 lakes without species; iFiske Fiskarter icons + catch reports REJECTED; sjuharad FVO1617.htm never archived."
+    },
+    {
+      "namn": "Vrångsjöns fvof",
+      "reason": "vastsverige lists Vrångsjön under Högsäters without Fiskarter — twin-risk; NORS lacks Färgelanda-Vrångsjön."
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "reason": "NORS/Wikipedia/Fishbrain fish data = Stora Hästefjorden or catch aggregator; Wikipedia Östra without Fisk."
+    },
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "reason": "arter_fvo ONLY Gädda. Mariannelund Bruzaån prose öring/elritsa/bergsimpa — ∩ = ∅; local plan gädda is for Åsjöarna/Fagersjön not Bruzaån."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "reason": "Naturkartan/Hitta Fiske Arter icons REJECTED; Mullsjö municipal miss; JK LST nätprovfiske 2018–23 PDFs do not cover Brännerisjön."
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "reason": "jonkoping.net 'Åsasjöarna och Tabergsån' combined list (incl. Regnbåge/Öring) ≠ 1:1 Norrahammars; Tabergsån FVOF twin; JKPG nätprovfiske 2022–23 ≠ these waters."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "reason": "Naturkartan Arter icons REJECTED; no municipal/LST narrative."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "reason": "Ödestugu ≠ Svenljunga Älesjön VG twin; no put-and-take / Regnbåge/Öring/Gräskarp prose for Ödestugu lake; JK nätprovfiske miss."
+    }
+  ],
+  "searched_sources": [
+    "NEW local press 2019–2026: SLA/Skövde Nyheter Sjötorpssjön (bath/vandalism only); alekuriren Sollumsån reservat (öring — membership gap); Kolungen Mellerud press miss",
+    "NEW FlipHTML5 Fiske i Svenljunga 2016 + re-read Svenljunga-Tranemo fiskebroschyr 2021 PDF — Revesjö/Vassgården waters-only; Gärdessjön under Moga-Annlarp",
+    "NEW Gula Kortet guiden 2025 PDF — Oxsjön = Sisjön twin; no VG zero targets",
+    "NEW LST Jönköping nätprovfiske PDFs 2018, 2019, 2022–23 (kommun) — no Brännerisjön/Sjövikssjön/Älesjön/Norrahammar waters",
+    "NEW LST VG Sollumsåns dalgång naturreservat + gotaalvdalen.se — öring/lax/stensimpa for Sollumsån (membership undocumented for Torp-Sollums)",
+    "NEW vastsverige Lille Väktor — gädda/abborre/lake/siklöja/ål via Väktorssjöområdet ≠ Torp-Sollums",
+    "NEW vattenagarna.se Nöresjön o=1030 — contact only",
+    "NEW mariannelundsfiskeklubb.se Bruzaån + Emilkraften lokal utvecklingsplan — öring∩Gädda=∅; gädda named for Åsjöarna/Fagersjön",
+    "NEW jonkoping.net Åsasjöarna+Tabergsån combined — rejected as multi-FVO mix",
+    "NEW Naturkartan Risveden / Kanot Åsasjöarna — no fish species prose for targets",
+    "NEW English iFiske/tourism: Strömstad Lången absent; Orust = Rödsvatten only; Fishbrain Östra Hästefjorden/Svänasjön/Grosken REJECTED",
+    "NEW yumpu/issuu pattern (prior + spot): no new Tranemo/Svenljunga/Ulricehamn target×species guides",
+    "NEW Wayback pattern for Björstorp/Grosken/Sävsjö-Gärdessjö/Ljusevatten/Svänasjön/Södra Järbo — no surviving FVOF species pages",
+    "NEW hembygd: jarbo-dalsland.se no fish; Bohusläns museum Gunneröd = Uddevalla archaeology twin",
+    "NORS aggregerad (4252): Gunneröd vatten=Uddevalla; Stora Hästefjorden≠Östra; Lången=Skövde; no Kolungen/Grosken/Nöresjön/Svänasjön/Ljusevatten/Vrångsjön/Månsarud/Sjötorpssjön/Oxsjön Tranemo/Revesjö/Vassgården/Kölvattnet/Norra Lund/Löken",
+    "SERS aggregerad: rich Sollumsån (Gädda/Lake/Ål/Öring ∩ arter_fvo) but no Torp-Sollums membership doc; Lillån = other systems",
+    "Prior rounds 13–16 VG + JK round17 notes held (icons, twins, vilande, ∩=∅)"
+  ],
+  "near_misses_not_used": [
+    {
+      "candidate": "Sollumsån LST/SERS öring (+lax/stensimpa) and Lille-Väktor wiki/vastsverige abborre/gädda/lake/siklöja/ål",
+      "why_not": "vastsverige explicitly sells kort via Väktorssjöområdets FVO; Torp-Sollums membership undocumented (prior hold)."
+    },
+    {
+      "candidate": "Mariannelunds Fiskeklubb Bruzaån öring/elritsa/bergsimpa",
+      "why_not": "∩ arter_fvo{Gädda}=∅; do not force."
+    },
+    {
+      "candidate": "jonkoping.net Åsasjöarna och Tabergsån Arter list",
+      "why_not": "Combined Tabergsån+Åsasjöarna; includes Regnbåge/Öring outside Norrahammars arter_fvo; ≠ 1:1."
+    },
+    {
+      "candidate": "iFiske Grosken/Revesjö/Vassgården Fiskarter + catch reports; Fishbrain Östra Hästefjorden/Svänasjön/Grosken",
+      "why_not": "Icons/catch aggregators disallowed."
+    },
+    {
+      "candidate": "Wikipedia Lille-Väktor NORS-style species",
+      "why_not": "Wrong FVO (Väktorssjöområdet)."
+    },
+    {
+      "candidate": "NORS Gunneröd vatten 1981; Stora Hästefjorden 2023; Skövde Lången",
+      "why_not": "Geography/FVO twins."
+    },
+    {
+      "candidate": "Svenljunga brochure Gärdessjön under Moga-Annlarps",
+      "why_not": "≠ Sävsjö-Gärdessjö Tranemo."
+    },
+    {
+      "candidate": "Gula Kortet Oxsjön (gädda)",
+      "why_not": "Sisjön/Sandsjöbacka ≠ Tranemo Oxsjöns fvof."
+    },
+    {
+      "candidate": "Naturkartan Brännerisjöns/Sjövikssjöns Arter icon rows",
+      "why_not": "Not prose."
+    },
+    {
+      "candidate": "fiskekortsverige.se Grosken Abborre/Gädda/Mört",
+      "why_not": "Aggregator of iFiske icon data — treat as icons."
+    }
+  ]
+}
