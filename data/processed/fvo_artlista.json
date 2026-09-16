@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T02:55:44.086145+00:00",
+    "generated_at": "2026-09-16T03:04:49.310460+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1782
+      "har_vattenposter": 1784
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 3,
+      "created_vatten": 2,
       "merged_vatten": 0,
-      "touched_vatten": 478,
-      "applied_rows": 481,
+      "touched_vatten": 481,
+      "applied_rows": 483,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1779,
-        "med_arter_men_0_vatten": 95,
-        "total_vatten": 9810
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1782,
         "med_arter_men_0_vatten": 92,
         "total_vatten": 9813
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1784,
+        "med_arter_men_0_vatten": 90,
+        "total_vatten": 9815
       },
       "blocked_sources": [
         "natureit",
@@ -230227,9 +230227,28 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "skargarden_se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Norrviken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "skargarden_se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://skargarden.se/gaddlekplats-i-mojaskargarden-har-restaurerats/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 4,
         "antal_vatten_med_survey": 0,
@@ -230249,7 +230268,10 @@
           "Storspigg",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://skargarden.se/gaddlekplats-i-mojaskargarden-har-restaurerats/"
+      ]
     },
     {
       "original_id": 1171,
@@ -260136,9 +260158,30 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "norran_se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Släppträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Öring"
+          ],
+          "kallor": [
+            "norran_se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norran.se/nyheter/livsstil-fritid/artikel/fisketavling-i-slapptrask/r9zv2voj"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 13,
         "antal_vatten_med_survey": 0,
@@ -260176,7 +260219,10 @@
           "Siklöja",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.norran.se/nyheter/livsstil-fritid/artikel/fisketavling-i-slapptrask/r9zv2voj"
+      ]
     },
     {
       "original_id": 131,

@@ -3988,37 +3988,53 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Byngarens fvof",
       "lan": "Östergötland",
       "vatten": "Byngaren",
       "source": "valdemarsvik_kommun",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Grindsjöns fvof",
       "lan": "Stockholm",
       "vatten": "Grindsjön",
       "source": "botkyrka_kommun",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Henarens fvof",
+      "lan": "Södermanland",
+      "vatten": "Henaren",
+      "source": "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Ramsmora Bys fvof",
+      "lan": "Stockholm",
+      "vatten": "Norrviken",
+      "source": "skargarden_se",
       "tillagda_vattenarter": [
-        "Abborre"
+        "Gädda"
       ],
       "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Henarens fvof",
-      "lan": "Södermanland",
-      "vatten": "Henaren",
-      "source": "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010",
+      "fvo": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": "Släppträsket",
+      "source": "norran_se",
       "tillagda_vattenarter": [
         "Abborre",
-        "Gädda"
+        "Gädda",
+        "Öring"
       ],
       "tillagda_fvoarter": []
     },
@@ -4340,26 +4356,26 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 3,
+    "created_vatten": 2,
     "merged_vatten": 0,
-    "touched_vatten": 478,
-    "applied_rows": 481,
+    "touched_vatten": 481,
+    "applied_rows": 483,
     "unmatched": [],
     "before": {
-      "antal_fvo": 1907,
-      "har_nagon_art": 1874,
-      "saknar_arter": 33,
-      "har_vattenposter": 1779,
-      "med_arter_men_0_vatten": 95,
-      "total_vatten": 9810
-    },
-    "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
       "har_vattenposter": 1782,
       "med_arter_men_0_vatten": 92,
       "total_vatten": 9813
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1784,
+      "med_arter_men_0_vatten": 90,
+      "total_vatten": 9815
     },
     "blocked_sources": [
       "natureit",
