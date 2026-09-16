@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T02:44:32.811201+00:00",
+  "generated_at": "2026-09-16T02:55:44.457471+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 6125,
+  "antal_vatten": 6128,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -1113,8 +1113,8 @@
       "med_artlista": 38,
       "utan_artlista": 4,
       "tackning_pct": 90.5,
-      "fvo_med_vattenposter": 27,
-      "antal_vattenposter": 45,
+      "fvo_med_vattenposter": 28,
+      "antal_vattenposter": 46,
       "fvo_ids": [
         739,
         740,
@@ -1167,8 +1167,8 @@
       "med_artlista": 15,
       "utan_artlista": 1,
       "tackning_pct": 93.8,
-      "fvo_med_vattenposter": 13,
-      "antal_vattenposter": 23,
+      "fvo_med_vattenposter": 14,
+      "antal_vattenposter": 24,
       "fvo_ids": [
         793,
         794,
@@ -2162,8 +2162,8 @@
       "med_artlista": 83,
       "utan_artlista": 4,
       "tackning_pct": 95.4,
-      "fvo_med_vattenposter": 73,
-      "antal_vattenposter": 155,
+      "fvo_med_vattenposter": 74,
+      "antal_vattenposter": 156,
       "fvo_ids": [
         1401,
         1402,
@@ -42384,6 +42384,18 @@
           ]
         }
       ],
+      "Byngaren": [
+        {
+          "fvo_id": 1486,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Bysjön": [
         {
           "fvo_id": 40,
@@ -59753,6 +59765,17 @@
           ]
         }
       ],
+      "Grindsjön": [
+        {
+          "fvo_id": 792,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre"
+          ]
+        }
+      ],
       "Grinnerödssjön": [
         {
           "fvo_id": 1887,
@@ -67458,6 +67481,18 @@
             "Bergsimpa",
             "Lake",
             "Öring"
+          ]
+        }
+      ],
+      "Henaren": [
+        {
+          "fvo_id": 798,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -184917,7 +184952,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Byngarens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "valdemarsvik_kommun"
       ],
       "arter": [
         "Abborre",
@@ -184932,7 +184968,22 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Byngaren",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "valdemarsvik_kommun"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 395,
@@ -208349,7 +208400,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Grindsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "botkyrka_kommun"
       ],
       "arter": [
         "Abborre",
@@ -208358,7 +208410,21 @@
         "Sarv"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Grindsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre"
+          ],
+          "kallor": [
+            "botkyrka_kommun"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1887,
@@ -217285,7 +217351,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Henarens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010"
       ],
       "arter": [
         "Abborre",
@@ -217300,7 +217367,22 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Henaren",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1661,

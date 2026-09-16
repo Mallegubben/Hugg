@@ -3934,48 +3934,65 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Romesjöns fvof",
       "lan": "Västra Götaland",
       "vatten": "Romesjön",
       "source": "romesjons_fvof",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Flodkräfta",
-        "Gädda",
-        "Mört"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Mellanströms fvof",
       "lan": "Norrbotten",
       "vatten": "Makaure",
       "source": "mellanstrom_fvo",
-      "tillagda_vattenarter": [
-        "Harr",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Mellanströms fvof",
       "lan": "Norrbotten",
       "vatten": "Båtsabäcken",
       "source": "mellanstrom_fvo",
-      "tillagda_vattenarter": [
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Stortannsjöns fvof",
       "lan": "Västernorrland",
       "vatten": "Stortannsjön",
       "source": "botea_se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "vatten": "Sönnertjärnen",
+      "source": "fvof_passagen_wayback",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Sönner och Mellantjärns fvof",
+      "lan": "Värmland",
+      "vatten": "Mellantjärnen",
+      "source": "fvof_passagen_wayback",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Byngarens fvof",
+      "lan": "Östergötland",
+      "vatten": "Byngaren",
+      "source": "valdemarsvik_kommun",
       "tillagda_vattenarter": [
         "Abborre",
         "Gädda"
@@ -3984,35 +4001,24 @@
     },
     {
       "action": "create",
-      "fvo": "Sönner och Mellantjärns fvof",
-      "lan": "Värmland",
-      "vatten": "Sönnertjärnen",
-      "source": "fvof_passagen_wayback",
+      "fvo": "Grindsjöns fvof",
+      "lan": "Stockholm",
+      "vatten": "Grindsjön",
+      "source": "botkyrka_kommun",
       "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Mört",
-        "Regnbåge",
-        "Öring"
+        "Abborre"
       ],
-      "tillagda_fvoarter": [
-        "Abborre",
-        "Mört",
-        "Regnbåge"
-      ]
+      "tillagda_fvoarter": []
     },
     {
       "action": "create",
-      "fvo": "Sönner och Mellantjärns fvof",
-      "lan": "Värmland",
-      "vatten": "Mellantjärnen",
-      "source": "fvof_passagen_wayback",
+      "fvo": "Henarens fvof",
+      "lan": "Södermanland",
+      "vatten": "Henaren",
+      "source": "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010",
       "tillagda_vattenarter": [
         "Abborre",
-        "Gädda",
-        "Mört",
-        "Regnbåge",
-        "Öring"
+        "Gädda"
       ],
       "tillagda_fvoarter": []
     },
@@ -4334,26 +4340,26 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 6,
+    "created_vatten": 3,
     "merged_vatten": 0,
-    "touched_vatten": 472,
-    "applied_rows": 478,
+    "touched_vatten": 478,
+    "applied_rows": 481,
     "unmatched": [],
     "before": {
-      "antal_fvo": 1907,
-      "har_nagon_art": 1874,
-      "saknar_arter": 33,
-      "har_vattenposter": 1775,
-      "med_arter_men_0_vatten": 99,
-      "total_vatten": 9804
-    },
-    "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
       "har_vattenposter": 1779,
       "med_arter_men_0_vatten": 95,
       "total_vatten": 9810
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1782,
+      "med_arter_men_0_vatten": 92,
+      "total_vatten": 9813
     },
     "blocked_sources": [
       "natureit",

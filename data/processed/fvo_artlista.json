@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T02:44:32.462399+00:00",
+    "generated_at": "2026-09-16T02:55:44.086145+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1779
+      "har_vattenposter": 1782
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 6,
+      "created_vatten": 3,
       "merged_vatten": 0,
-      "touched_vatten": 472,
-      "applied_rows": 478,
+      "touched_vatten": 478,
+      "applied_rows": 481,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1775,
-        "med_arter_men_0_vatten": 99,
-        "total_vatten": 9804
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1779,
         "med_arter_men_0_vatten": 95,
         "total_vatten": 9810
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1782,
+        "med_arter_men_0_vatten": 92,
+        "total_vatten": 9813
       },
       "blocked_sources": [
         "natureit",
@@ -36198,9 +36198,29 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "valdemarsvik_kommun"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Byngaren",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "valdemarsvik_kommun"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.arbetsochmiljomedicin.se/download/18.6884666618ee4faa3ad9979/1715925235570/Miljomed_bedomning_Gusum_2007.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 10,
         "antal_vatten_med_survey": 0,
@@ -36232,7 +36252,10 @@
           "Sutare",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.arbetsochmiljomedicin.se/download/18.6884666618ee4faa3ad9979/1715925235570/Miljomed_bedomning_Gusum_2007.pdf"
+      ]
     },
     {
       "original_id": 395,
@@ -74733,9 +74756,28 @@
         "Sarv"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "botkyrka_kommun"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Grindsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre"
+          ],
+          "kallor": [
+            "botkyrka_kommun"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20100812020052/http://www.miljodatabasen.se/sjoaribotkyrka/12476.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 4,
         "antal_vatten_med_survey": 0,
@@ -74755,7 +74797,10 @@
           "Mört",
           "Sarv"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://web.archive.org/web/20100812020052/http://www.miljodatabasen.se/sjoaribotkyrka/12476.html"
+      ]
     },
     {
       "original_id": 1887,
@@ -89427,9 +89472,29 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Henaren",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "stromshammar.se_lokal_foreningssida_wayback_lansstyrelsen_sodermanland_fiskeguide_2010"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20201030161619/http://stromshammar.se/2017/07/19/fisketavlingen-157-avgjord/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 10,
         "antal_vatten_med_survey": 0,
@@ -89461,7 +89526,10 @@
           "Signalkräfta",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://web.archive.org/web/20201030161619/http://stromshammar.se/2017/07/19/fisketavlingen-157-avgjord/"
+      ]
     },
     {
       "original_id": 1661,
