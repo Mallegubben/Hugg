@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-09-16T02:40:37Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske icons/NatureIT/Artportalen. No cross-county. Species must be subset of arter_fvo. Twin caution for Långvattnets 1644≠1619; Saxnäs≠Vilhelmina; Stora Sikträsk≠Gällivare; Holmträskbygden≠Jokkmokk Holmträsk; Nordanede≠Nedre Gimån; Rörträsk-Bredträsk needs clear FVO link; Mellanström FVO-level 'exempel…' rejected (protocol utsättning/C&R per named water OK)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 2,
+    "total_vatten_rows": 3,
+    "searched_but_empty": 18,
+    "by_lan": {
+      "Norrbotten": 1,
+      "Västerbotten": 0,
+      "Västernorrland": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Mellanströms fvof",
+      "lan": "Norrbotten",
+      "object_id": 246,
+      "vatten": [
+        {
+          "namn": "Makaure",
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kalla": "mellanstrom.se FVO-årsmötesprotokoll (OCR)",
+          "url": "https://www.mellanstrom.se/wp-content/uploads/2013/11/protokoll_arsmote_20140223.pdf",
+          "evidence": "§13 F Fiskeutsättning och tillfälligt nätfiskeförbud i Makaure: Stämman beslutar om inköp och utplantering av 3-somrig öring för 15 000 kr och ensomrig öring och harr för 5 000 kr. Stämman beslutar även om oförändrade regler avseende nätfisket i Makaure. (Även 2019-protokoll: utplantering av 3-somrig Bergnäsöring för 40 000 kr i Makaure; 2020-protokoll: Bergnäsöring … i Makaure. FVO-nivå 'exempel abborre, gädda…' ej använd.)"
+        },
+        {
+          "namn": "Båtsabäcken",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "mellanstrom.se FVO-årsmötesprotokoll (OCR)",
+          "url": "https://www.mellanstrom.se/wp-content/uploads/2020/04/Protokoll_arsstamma_Mellanstrom_fvo_200317_skannad.pdf",
+          "evidence": "Fiske i Båtsabäcken: … Enbart fiske med fluga är tillåtet (flugspö eller flugkast). Catch and release på öring. (Samma formulering 2019-protokoll.) Fiskeutsättning 2020: … mindre fisk (Arjeplogöring) för plantering i Båtsabäcken för ca 3 000 kr."
+        }
+      ]
+    },
+    {
+      "namn": "Stortannsjöns fvof",
+      "lan": "Västernorrland",
+      "object_id": 1621,
+      "vatten": [
+        {
+          "namn": "Stortannsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "botea.se (Wayback)",
+          "url": "https://web.archive.org/web/20150501000000id_/http://botea.se/botebygden/ovrigt_i_och_runt_botea/stortannsjon.php",
+          "evidence": "Under senare år har det varit dåligt med fisket i Stortannsjön … Abborrarna och gäddorna överlever inte då deras viktigaste föda är just grodyngel. … Gäddorna leker och har sin romläggning två veckor före midsommar … (Lokal artikel om Stortannsjön / Gålsjö–Boteå; Stortannsjöns fiskeförening nämns i byaparlamentprotokoll 2013-04-21.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 182,
+      "notes": "Norsjö. iFiske direct/sok ERR. Visit Lycksele sök tomt för Bjurträsk FVO. norsjosfk other_fishing: endast put&take Kattöggeltjärn '(Bjurträsk)' ≠ Bjurträsk fvof. eurotourism Norsjö endast kommunnivå arter. Ingen municipal/tourism 1:1."
+    },
+    {
+      "namn": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 66,
+      "notes": "Norsjö. ≠ Jokkmokk Holmträsk (snesudden, redan fylld r13) och ≠ Byssträsk-Nyliden Holmträsket (Lycksele). Visit Lycksele/norsjosfk/Gold of Lapland utan 1:1 för Holmträskbygdens FVO."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Visit Lycksele/Visit Malå (404) utan namngiven Kokträsk×species. Malåkortet/kommunnivå ej 1:1. iFiske ERR."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln. Visit Lycksele sök utan Kussjö artprosa. Ingen FVO-sida/iFiske Om med water×species."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. visitlycksele kanotled-maltan nämner Maltträsk/Maltån utan fiskarter. Ingen FVO-sida med water×species."
+    },
+    {
+      "namn": "Petikträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 213,
+      "notes": "Norsjö/Skellefteå. Gold of Lapland/norsjosfk utan namngiven Petikträsk artprosa. gofish.nu artlista avvisad (agg/icon-liknande). Wikipedia/lokalhistoria utan fauna. iFiske ERR."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 197,
+      "notes": "Norsjö/Malå/Lycksele. Visit Lycksele Rökå-sök träffar ej Rökåbygden FVO. Ingen artprosa."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "object_id": 1883,
+      "notes": "Norsjö. norsjosfk other_fishing: BREDTRÄSKET ~1,5 mil S Glommersträsk med sik + harr, öring, röding — ingen explicit FVO-länk till Rörträsk-Bredträsks fvof; röding saknas i FVO arter_fvo. Policy: needs clear FVO link — ej använt. DDG/Wayback utan ny FVO-sida."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "notes": "Sorsele (Vindelälven). Rejected Vilhelmina Saxnäs/Kultsjön/saxnasfishing.se. vindelalven.laxportalen Saxnäs-sök tomt. sorsele.se fiske 404. Ingen 1:1 Sorsele-Saxnäs."
+    },
+    {
+      "namn": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 199,
+      "notes": "Malå/Lycksele. Visit Lycksele/Visit Malå utan FVO-sida med arter. iFiske ERR."
+    },
+    {
+      "namn": "Stora Sikträskets fvof",
+      "lan": "Västerbotten",
+      "object_id": 128,
+      "notes": "Norsjö. ≠ Gällivare Sikträsk. Gold of Lapland/norsjosfk utan Stora Sikträsk artprosa. iFiske ERR."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 54,
+      "notes": "Bjurholm/Vindeln/Lycksele. Visit Lycksele utan namngiven Strömsjönäs. Ingen FVO-sida."
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "object_id": 234,
+      "notes": "Pajala/Suaninkijärvi. pajala.se fiske 404; Wikipedia/vattenagarna-sök utan artprosa; FÅNGA CSV endast struktur utan arter."
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "object_id": 225,
+      "notes": "Luleå/Boden. boden.se fiske 404; sportfiskeguide Luleälven/Börstingen utan 1:1 till Sävastån/Råbäcken/Unbyn. Sävarån (VB) ≠ Sävastån."
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "object_id": 245,
+      "notes": "Älvsbyn. alvsbyn.se fiske 404; ingen Nörd-/Sör-Vistträsket×species-prosa; PT/Djupträsket (Älvsby SFK) ≠ Vistträsk FVO; FÅNGA CSV utan arter."
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "object_id": 1644,
+      "notes": "Twin caution: 1644 ≠ 1619 (VA o=545 Salomonstjärn m.fl., redan fylld). LST/Naturvårdsverket Långvattnet-reservat (gädda/abborre + Långvattnets FVO) knyts till twin 1619/Blåtjärn-området — ej använt för 1644. Sollefteå.se/naturguiden/iFiske utan separat per-vatten prosa för 1644."
+    },
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "object_id": 1617,
+      "notes": "Edsele/Sollefteå ≠ Nedre Gimån (Ånge; nordanedepikefight Mellansjön gädda REJECT). Fisch Hitparade Nordanede FVO/Löpartjärnen (Edsele) utan Hauptfischarten. Sollefteå/iFiske utan water×species."
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "object_id": 1631,
+      "notes": "Timrå/Sundsvall (Indal). Bergeforsen/laxfiske.nu ≠ Östanskärs FVOF. Timrå iFiske listar ej Östanskär; sportfiskeguide Indalsälven ej 1:1 till Östanskärs. iFiske ERR."
+    }
+  ]
+}
