@@ -1,5 +1,6 @@
 {
   "generated_at": "2026-09-16T05:38:39Z",
+  "deepen_pass_at": "2026-09-16T05:50:00Z",
   "round": "16_og_kalmar_vrm",
   "policy": {
     "allowed": [
@@ -23,7 +24,7 @@
       "catch reports"
     ],
     "mapping": "1:1 water×species; species ⊆ arter_fvo; multi-lake only per named water or explicit all named lakes; no fuzzy twins",
-    "note": "Hard-reviewed gap pass Östergötland + Kalmar + Värmland targets. Empty better than wrong."
+    "note": "Hard-reviewed gap pass Östergötland + Kalmar + Värmland targets. Empty better than wrong. Deepen angles: mercury/kost lake lists, Wayback FVOF narrative, local papers (NT/VT/VF/NWT), Kinda/Åtvidaberg/Finspång tourism + LST nätprovfiske PDFs, Hultsfred/Västervik tourism, Bruzaåns Mellersta ∩ empty (do not force), English iFiske only if Om-narrative names species for named water."
   },
   "stats": {
     "targets": 24,
@@ -38,68 +39,68 @@
       "lan": "Östergötland",
       "object_id": 357,
       "vatten_csv": ["Dammen", "Gryten", "Grytgölen"],
-      "notes": "Finspång. Sjödetektiven/Wikipedia/badtexter utan fauna. Femlingen-Gryten (Älmhult) twin rejected. Eurotourism/finspang.se utan FVO-artlista. NT Gulten-kräftor ≠ arter."
+      "notes": "Finspång. Sjödetektiven/Wikipedia/badtexter utan fauna. Femlingen-Gryten (Älmhult) twin rejected. Eurotourism/finspang.se utan FVO-artlista. NT Gulten-kräftor ≠ arter. DEEPEN: ingen LST nätprovfiske/tourism/NT×Grytgöl species."
     },
     {
       "namn": "Horsfjärdens fvof",
       "lan": "Östergötland",
       "object_id": 369,
       "vatten_csv": ["Horsfjärden"],
-      "notes": "Kinda/Åtvidaberg. Wikipedia hydrografi utan fauna. Fishbrain rejected. Corren/SVT Storån-reduktionsfiske namnger Horsfjärden som källsjö men artfångster i Glan/Bysjön/Håcklasjön m.fl. nedströms — ej 1:1 Horsfjärden×species. atvidaberg.se listar sjön utan arter."
+      "notes": "Kinda/Åtvidaberg. Wikipedia hydrografi utan fauna. Fishbrain rejected. Corren/SVT/VT Storån-reduktionsfiske namnger Horsfjärden som källsjö men artfångster i Glan/Bysjön/Håcklasjön/Fallsjön/Getryggen/Båtsjön — ej 1:1 Horsfjärden×species. atvidaberg.se listar sjön utan arter. DEEPEN: Åtvidaberg PDF Bysjön-Glan 2021 nämner Horsfjärden endast som uppströms metallreferens (ej nätprovfiskad); Getryggen/Fallsjön/Håcklasjön 2020 = andra sjöar. Mercury/kost = Vättern/nationellt, ej Horsfjärden."
     },
     {
       "namn": "Rippestorps fvof",
       "lan": "Östergötland",
       "object_id": 329,
       "vatten_csv": ["Hagsjön", "Övre Ripplingen"],
-      "notes": "Finspång. Sjödetektiven utan fauna. Finspångs FVF/kommunprosa gäller andra sjöar. Ingen Rippestorp/Ripplingen×species."
+      "notes": "Finspång. Sjödetektiven utan fauna. Finspångs FVF/kommunprosa gäller andra sjöar. DEEPEN: NT Rippestorp-nekrolog nämner signalkräftor i Övre Ripplingen — Signalkräfta ∉ arter_fvo (Abborre Benlöja Gädda Gärs Lake Mört Ål). Ingen nätprovfiske×Ripplingen."
     },
     {
       "namn": "Värnasjön-Strålången fvof",
       "lan": "Östergötland",
       "object_id": 373,
       "vatten_csv": ["Dyveln", "Strålången", "Värnasjön"],
-      "notes": "Åtvidaberg. Kommun listar Värnasjön utan arter. Dyveln Värmland twin. Ingen nätprovfiske/tidning 1:1. Storån-öring ≠ detta FVO."
+      "notes": "Åtvidaberg. Kommun listar Värnasjön utan arter. Dyveln Värmland twin. Storån-öring ≠ detta FVO. DEEPEN: ingen LST/tourism/NT 1:1 Värnasjön/Strålången/Dyveln×species; iFiske Åtvidaberg kommunnivå generisk artlista ≠ named water."
     },
     {
       "namn": "Värnässjöns fvof",
       "lan": "Östergötland",
       "object_id": 365,
       "vatten_csv": ["Värnässjön"],
-      "notes": "Åtvidaberg/Linköping. arter_fvo endast Abborre+Gädda. Fishbrain (gös/abborre) rejected. Kommun listar sjön utan arter."
+      "notes": "Åtvidaberg/Linköping. arter_fvo endast Abborre+Gädda. Fishbrain (gös/abborre) rejected. Kommun listar sjön utan arter. DEEPEN: ingen miljorapport/tidning/tourism 1:1."
     },
     {
       "namn": "Åländerns fvof",
       "lan": "Östergötland",
       "object_id": 339,
       "vatten_csv": ["Axsjön", "Nedre Högsjön", "Vån", "Åländern", "Övre Högsjön"],
-      "notes": "Kinda. vattenagarna o=692 + iFiske Om namnger alla fem sjöar men Fiskarter = ikonblock; enda prosa »Gös Sällsynt — Fiskeförbud« — Gös ∉ arter_fvo (Abborre Benlöja Braxen Gädda Gärs Lake Mört Nors Ruda Sik Stensimpa Sutare Ål). Engelsk iFiske-sida = ikonöversättning (inkl. Sarv∉arter). Catch reports rejected. Naturkartan Åländern Runt utan fiskarter. Kindaturism utan objekt."
+      "notes": "Kinda. vattenagarna o=692 + iFiske Om namnger alla fem sjöar men Fiskarter = ikonblock; enda prosa »Gös Sällsynt — Fiskeförbud« — Gös ∉ arter_fvo (Abborre Benlöja Braxen Gädda Gärs Lake Mört Nors Ruda Sik Stensimpa Sutare Ål). Engelsk iFiske = ikonöversättning (inkl. Sarv∉arter). Catch reports + Jokerbloggen forums rejected. Naturkartan Åländern Runt utan fiskarter. Kindaturism utan objekt. DEEPEN: Wayback 2020-08-07 samma ikonblock (Abborre…Gös/Ål); ingen narrativ Om-artlista för named water."
     },
     {
       "namn": "Ödesjöboda fvof",
       "lan": "Östergötland",
       "object_id": 349,
       "vatten_csv": ["Frögöl", "Skirsjön", "Ängsjön"],
-      "notes": "Kinda. Möckeln-Skirsjöns FVOF/kindaturism artprosa = twin Skirsjön (Vimmerby/Ydre) — REJECT. Sjödetektiven/kindaturism utan Ödesjöboda×species."
+      "notes": "Kinda. Möckeln-Skirsjöns FVOF/kindaturism artprosa = twin Skirsjön (Vimmerby/Ydre) — REJECT. Sjödetektiven/kindaturism utan Ödesjöboda×species. DEEPEN: ingen LST PDF Frögöl/Ängsjön/Ödesjöboda."
     },
     {
       "namn": "Österby fvof",
       "lan": "Östergötland",
       "object_id": 350,
       "vatten_csv": ["Fagerhultegöl"],
-      "notes": "Kinda. Ingen Fagerhultegöl/Österby Kinda×species. SFG Österbysjön annan FVO. Hitta Fiske utan träff."
+      "notes": "Kinda. Ingen Fagerhultegöl/Österby Kinda×species. SFG Österbysjön annan FVO. Hitta Fiske utan träff. DEEPEN: ingen tourism/LST/NT träff."
     },
     {
       "namn": "Bällsjöns fvof",
       "lan": "Kalmar",
       "object_id": 748,
-      "notes": "Nybro. Endast Sutare i arter_fvo. NORS/Wikipedia Bällsjön = Västervik twin. Ingen Nybro-Bällsjön×Sutare prosa."
+      "notes": "Nybro. Endast Sutare i arter_fvo. NORS/Wikipedia Bällsjön = Västervik twin. Ingen Nybro-Bällsjön×Sutare prosa. DEEPEN: Hultsfred/Västervik tourism missar Nybro-Bällsjön; mercury lists ej namngivna."
     },
     {
       "namn": "Elmarens fvof",
       "lan": "Kalmar",
       "object_id": 742,
-      "notes": "Västervik Älmaren (Hallingeberg). Wikipedia/badplats utan fauna. ≠ Hjälmaren. Fiskekortsguide utan Elmaren/Älmaren. Ingen LST/tidning 1:1."
+      "notes": "Västervik Älmaren (Hallingeberg). Wikipedia/badplats utan fauna. ≠ Hjälmaren. Fiskekortsguide utan Elmaren/Älmaren. DEEPEN: Västervik/Hultsfred tourism + VT/VT-sök utan Älmaren×Abborre/Braxen/Gädda/Gös/Sutare; LST Kalmar 2009/2013 ej target."
     },
     {
       "namn": "Gladhammars fvof",
@@ -111,7 +112,7 @@
       "namn": "Hallången m.fl sjöars fvof",
       "lan": "Kalmar",
       "object_id": 739,
-      "notes": "Västervik/Vimmerby. REJECT twin Hallången Överlida VG (iFiske Hallången+Stora Djupasjön+Mjöasjön+Bredasjön catch/Om). Kalmar Hallången saknar prosa."
+      "notes": "Västervik/Vimmerby. REJECT twin Hallången Överlida VG (iFiske Hallången+Stora Djupasjön+Mjöasjön+Bredasjön catch/Om). Kalmar Hallången saknar prosa. DEEPEN: Vimmerby Tidning Krön-provfiske ≠ Hallången."
     },
     {
       "namn": "Idö fvof",
@@ -123,7 +124,7 @@
       "namn": "Lilla Hammarsjön fvof",
       "lan": "Kalmar",
       "object_id": 745,
-      "notes": "Hultsfred. vattenagarna o=584 kontakt-only utan arter. Naturkartan/Hammarsjöleden vindskydd utan fiskarter. Stora Hammarsjön SFK Kroken twin risk. Fishbrain ÖG twin rejected."
+      "notes": "Hultsfred. vattenagarna o=584 kontakt-only utan arter. Naturkartan/Hammarsjöleden vindskydd utan fiskarter. KNOWN REJECT twin: Stora Hammarsjön SFK Kroken (Visit Hultsfred/iFiske artprosa Abborre/Gädda…). Fishbrain ÖG twin rejected. DEEPEN: Visit Hultsfred sök Råden/Hammarsjön → endast Stora Hammarsjön."
     },
     {
       "namn": "Runnö fvof",
@@ -135,13 +136,13 @@
       "namn": "Rådens fvof",
       "lan": "Kalmar",
       "object_id": 728,
-      "notes": "Hultsfred. Fishbrain rejected. Visit Hultsfred Stora Hammarsjön ≠ Råden. Ingen kommunprosa Abborre/Gädda."
+      "notes": "Hultsfred. Fishbrain rejected. Visit Hultsfred Stora Hammarsjön ≠ Råden. Ingen kommunprosa Abborre/Gädda. DEEPEN: Visit Hultsfred sök »Råden« → Stora Hammarsjön-träffar only."
     },
     {
       "namn": "Bäverkärns fvof",
       "lan": "Värmland",
       "object_id": 1231,
-      "notes": "Karlstad. Ingen Bäverkärn×species. Karlstad kommun/iFiske listar andra FVO."
+      "notes": "Karlstad. Ingen Bäverkärn×species. Karlstad kommun/iFiske listar andra FVO. DEEPEN: NWT/VF utan Bäverkärn artprosa."
     },
     {
       "namn": "Lillemsens fvof",
@@ -159,7 +160,7 @@
       "namn": "Portilasjöns fvof",
       "lan": "Värmland",
       "object_id": 1308,
-      "notes": "Grums. lakevanern.se/grums.se/wikipedia rekommenderar Portilasjön utan artlista. iFiske 404. Ingen Portilasjön×species."
+      "notes": "Grums. lakevanern.se/grums.se/wikipedia rekommenderar Portilasjön utan artlista. iFiske 404. Ingen Portilasjön×species. DEEPEN: NWT/VF utan Portila art."
     },
     {
       "namn": "Skåltjärnshyttans fvof",
@@ -171,19 +172,26 @@
       "namn": "Syrsjön-Torptjärns fvof",
       "lan": "Värmland",
       "object_id": 1369,
-      "notes": "Forshaga. iFiske redirect till Forshaga Fiskevårdskrets Om-prosa för 13 FVO — ej per-water. Fishbrain rejected."
+      "notes": "Forshaga. iFiske redirect till Forshaga Fiskevårdskrets Om-prosa för 13 FVO — ej per-water. Fishbrain rejected. KNOWN REJECT multi-FVO Om held."
     },
     {
       "namn": "Sälsjöns fvof",
       "lan": "Värmland",
       "object_id": 1236,
-      "notes": "Sunne/Gräsmark. ≠ Sälgsjön Hofors / Sälsjön Visnum / Sälsjön Borås / Blekinge. Kalkningslista utan arter. Ingen lokal artprosa."
+      "notes": "Sunne/Gräsmark. ≠ Sälgsjön Hofors / Sälsjön Visnum / Sälsjön Borås / Blekinge. Kalkningslista utan arter. DEEPEN: VF/NWT endast fastighetsannonser Sälsjön Gräsmark — ingen artprosa."
     },
     {
       "namn": "Torpsjöns fvof",
       "lan": "Värmland",
       "object_id": 1256,
       "notes": "Kil/Sunne Frykerud. kil.se Torpsjöns FVO utan arter. REJECT Fränsta Torpsjön twin (Villa Stenhuset/Fränsta Marina artlista). iFiske 404."
+    }
+  ],
+  "out_of_scope_notes": [
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "object_id": 493,
+      "notes": "GAP held: arter_fvo ONLY Gädda. Mariannelunds Fiskeklubb Bruzaån prosa: öring/elritsa/bergsimpa (Natura 2000). Intersection ∅ — do not force."
     }
   ],
   "searched_sources": [
@@ -207,6 +215,18 @@
     "hittafiske.se sök Åländern/Grytgöl/Horsfjärden/Portila/Syrsjön/Elmaren — inga träffar",
     "Wikipedia Horsfjärden ÖG / Älmaren / Sälsjön disambig / Torpsjön Frykerud — utan fauna",
     "Fishbrain Horsfjärden/Värnässjön/Råden/Syrsjön/Lilla Hammarsjön ÖG — policy reject",
-    "iFiske catch reports Åländern/Hallången Överlida — policy reject + twin"
+    "iFiske catch reports Åländern/Hallången Överlida — policy reject + twin",
+    "DEEPEN: Livsmedelsverket/LST kvicksilver+kost — Vättern PFAS + nationella abborre/gädda/gös/lake; inga target-sjöar namngivna",
+    "DEEPEN: Wayback 2020-08-07 ifiske Åländern — samma Fiskarter-ikonblock (ej narrativ Om-artlista)",
+    "DEEPEN: iFiske/en fishing-alandern — Fish species icon block; Om names lakes only",
+    "DEEPEN: atvidaberg.se PDF provfiske Bysjön-Glan 2021 + Getryggen-Fallsjön-Håcklasjön 2020 — Horsfjärden metallref only",
+    "DEEPEN: NT Rippestorp — signalkräftor Övre Ripplingen ∉ arter_fvo; ingen Abborre/Gädda-prosa",
+    "DEEPEN: NT/VT/Vimmerby Tidning/Corren — Kvädöfjärden/Krön/Storån nedströms ≠ targets",
+    "DEEPEN: NWT/VF — Aplungen/Kroppkärrssjön/fastighet Sälsjön; ej Portila/Barsjön/Torpsjön/Bäverkärn art",
+    "DEEPEN: Visit Hultsfred + SFK Kroken — Stora Hammarsjön twin held; Råden/Lilla Hammarsjön/Elmaren saknas",
+    "DEEPEN: LST ÖG elfiske 2021–2023 PDF — inga target-sjöar",
+    "DEEPEN: Jönköping nätprovfiske 2010/2012 — ej ÖG targets",
+    "DEEPEN: mariannelundsfiskeklubb.se/Bruzaan — öring/elritsa/bergsimpa ∩ Gädda-only = ∅",
+    "DEEPEN: Wayback CDX wildcard 403; English iFiske catch pages Hammarsjön twins rejected"
   ]
 }
