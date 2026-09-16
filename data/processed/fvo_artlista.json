@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T03:04:49.310460+00:00",
+    "generated_at": "2026-09-16T05:32:17.178469+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1784
+      "har_vattenposter": 1790
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 2,
+      "created_vatten": 9,
       "merged_vatten": 0,
-      "touched_vatten": 481,
-      "applied_rows": 483,
+      "touched_vatten": 483,
+      "applied_rows": 492,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1782,
-        "med_arter_men_0_vatten": 92,
-        "total_vatten": 9813
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1784,
         "med_arter_men_0_vatten": 90,
         "total_vatten": 9815
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1790,
+        "med_arter_men_0_vatten": 84,
+        "total_vatten": 9824
       },
       "blocked_sources": [
         "natureit",
@@ -9205,9 +9205,30 @@
         "Sutare"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sportfiskeguide"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Antvarden",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Sutare"
+          ],
+          "kallor": [
+            "sportfiskeguide"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20220517073719/https://sportfiskeguide.se/old_/spfguide/vatten/risebo.htm"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -9233,7 +9254,10 @@
           "Sarv",
           "Sutare"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://web.archive.org/web/20220517073719/https://sportfiskeguide.se/old_/spfguide/vatten/risebo.htm"
+      ]
     },
     {
       "original_id": 1317,
@@ -19416,9 +19440,71 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "norran_se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Kedträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sik"
+          ],
+          "kallor": [
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Fäbodträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Sik"
+          ],
+          "kallor": [
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Bjurbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "norran_se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norran.se/nyheter/norsjo/artikel/norsjo-big-pike-firar-tio-ar-i-norsjovallen/jn3nzo2r"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 16,
         "antal_vatten_med_survey": 0,
@@ -19455,7 +19541,11 @@
           "Ål",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf",
+        "https://www.norran.se/nyheter/norsjo/artikel/norsjo-big-pike-firar-tio-ar-i-norsjovallen/jn3nzo2r"
+      ]
     },
     {
       "original_id": 1033,
@@ -96664,9 +96754,55 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Karsträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Holmträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 12,
         "antal_vatten_med_survey": 0,
@@ -96702,7 +96838,10 @@
           "Småspigg",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+      ]
     },
     {
       "original_id": 1050,
@@ -226767,18 +226906,53 @@
         "Gädda",
         "Gärs",
         "Harr",
+        "Lake",
         "Mört",
         "Sik"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Petikträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gärs",
+            "Lake",
+            "Sik"
+          ],
+          "kallor": [
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 6,
+        "antal_arter": 7,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Lake"
+        ],
+        "kallor_url:er": [
+          "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+        ]
       }
     },
     {
@@ -259664,9 +259838,28 @@
         "Gädda"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "slado_se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sladö sund",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "slado_se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://slado.se/projekt/fiskforyngring/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 1,
         "antal_vatten_med_survey": 0,
@@ -259680,7 +259873,10 @@
         "tillagda_arter": [
           "Gädda"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://slado.se/projekt/fiskforyngring/"
+      ]
     },
     {
       "original_id": 327,
@@ -270224,9 +270420,34 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sikträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik",
+            "Öring"
+          ],
+          "kallor": [
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 11,
         "antal_vatten_med_survey": 0,
@@ -270260,7 +270481,10 @@
           "Småspigg",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.norsjo.se/wp-content/uploads/2020/10/lis-plan-landsbygdsutveckling-i-strandnara-lagen.pdf"
+      ]
     },
     {
       "original_id": 1786,

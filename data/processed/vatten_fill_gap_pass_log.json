@@ -4015,11 +4015,59 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Ramsmora Bys fvof",
       "lan": "Stockholm",
       "vatten": "Norrviken",
       "source": "skargarden_se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "touch",
+      "fvo": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": "Släppträsket",
+      "source": "norran_se",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": "Kedträsket",
+      "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": "Fäbodträsket",
+      "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Lake",
+        "Mört",
+        "Sik"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "vatten": "Bjurbäcken",
+      "source": "norran_se",
       "tillagda_vattenarter": [
         "Gädda"
       ],
@@ -4027,14 +4075,91 @@
     },
     {
       "action": "create",
-      "fvo": "Släppträsk fvof",
+      "fvo": "Petikträsk fvof",
       "lan": "Västerbotten",
-      "vatten": "Släppträsket",
-      "source": "norran_se",
+      "vatten": "Petikträsket",
+      "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
       "tillagda_vattenarter": [
         "Abborre",
         "Gädda",
+        "Gärs",
+        "Lake",
+        "Sik"
+      ],
+      "tillagda_fvoarter": [
+        "Lake"
+      ]
+    },
+    {
+      "action": "create",
+      "fvo": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Karsträsket",
+      "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Sik",
         "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "vatten": "Holmträsket",
+      "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Stora Sikträskets fvof",
+      "lan": "Västerbotten",
+      "vatten": "Sikträsket",
+      "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Harr",
+        "Lake",
+        "Mört",
+        "Sik",
+        "Öring"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Sladö fvof",
+      "lan": "Kalmar",
+      "vatten": "Sladö sund",
+      "source": "slado_se",
+      "tillagda_vattenarter": [
+        "Gädda"
+      ],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Antvardens fvof",
+      "lan": "Östergötland",
+      "vatten": "Antvarden",
+      "source": "sportfiskeguide",
+      "tillagda_vattenarter": [
+        "Abborre",
+        "Gädda",
+        "Sutare"
       ],
       "tillagda_fvoarter": []
     },
@@ -4356,26 +4481,26 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 2,
+    "created_vatten": 9,
     "merged_vatten": 0,
-    "touched_vatten": 481,
-    "applied_rows": 483,
+    "touched_vatten": 483,
+    "applied_rows": 492,
     "unmatched": [],
     "before": {
-      "antal_fvo": 1907,
-      "har_nagon_art": 1874,
-      "saknar_arter": 33,
-      "har_vattenposter": 1782,
-      "med_arter_men_0_vatten": 92,
-      "total_vatten": 9813
-    },
-    "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
       "har_vattenposter": 1784,
       "med_arter_men_0_vatten": 90,
       "total_vatten": 9815
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1790,
+      "med_arter_men_0_vatten": 84,
+      "total_vatten": 9824
     },
     "blocked_sources": [
       "natureit",
