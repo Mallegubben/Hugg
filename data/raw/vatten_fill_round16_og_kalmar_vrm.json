@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-09-16T05:38:39Z",
+  "round": "16_og_kalmar_vrm",
+  "policy": {
+    "allowed": [
+      "Naturkartan prose",
+      "vattenagarna",
+      "municipal/tourism",
+      "brochures",
+      "FVOF sites",
+      "miljörapporter",
+      "newspapers",
+      "Wayback",
+      "iFiske Om-prose naming species for named water",
+      "Hitta Fiske prose"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports"
+    ],
+    "mapping": "1:1 water×species; species ⊆ arter_fvo; multi-lake only per named water or explicit all named lakes; no fuzzy twins",
+    "note": "Hard-reviewed gap pass Östergötland + Kalmar + Värmland targets. Empty better than wrong."
+  },
+  "stats": {
+    "targets": 24,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "rejected": 24
+  },
+  "enrichments": [],
+  "rejected": [
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "object_id": 357,
+      "vatten_csv": ["Dammen", "Gryten", "Grytgölen"],
+      "notes": "Finspång. Sjödetektiven/Wikipedia/badtexter utan fauna. Femlingen-Gryten (Älmhult) twin rejected. Eurotourism/finspang.se utan FVO-artlista. NT Gulten-kräftor ≠ arter."
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "object_id": 369,
+      "vatten_csv": ["Horsfjärden"],
+      "notes": "Kinda/Åtvidaberg. Wikipedia hydrografi utan fauna. Fishbrain rejected. Corren/SVT Storån-reduktionsfiske namnger Horsfjärden som källsjö men artfångster i Glan/Bysjön/Håcklasjön m.fl. nedströms — ej 1:1 Horsfjärden×species. atvidaberg.se listar sjön utan arter."
+    },
+    {
+      "namn": "Rippestorps fvof",
+      "lan": "Östergötland",
+      "object_id": 329,
+      "vatten_csv": ["Hagsjön", "Övre Ripplingen"],
+      "notes": "Finspång. Sjödetektiven utan fauna. Finspångs FVF/kommunprosa gäller andra sjöar. Ingen Rippestorp/Ripplingen×species."
+    },
+    {
+      "namn": "Värnasjön-Strålången fvof",
+      "lan": "Östergötland",
+      "object_id": 373,
+      "vatten_csv": ["Dyveln", "Strålången", "Värnasjön"],
+      "notes": "Åtvidaberg. Kommun listar Värnasjön utan arter. Dyveln Värmland twin. Ingen nätprovfiske/tidning 1:1. Storån-öring ≠ detta FVO."
+    },
+    {
+      "namn": "Värnässjöns fvof",
+      "lan": "Östergötland",
+      "object_id": 365,
+      "vatten_csv": ["Värnässjön"],
+      "notes": "Åtvidaberg/Linköping. arter_fvo endast Abborre+Gädda. Fishbrain (gös/abborre) rejected. Kommun listar sjön utan arter."
+    },
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "object_id": 339,
+      "vatten_csv": ["Axsjön", "Nedre Högsjön", "Vån", "Åländern", "Övre Högsjön"],
+      "notes": "Kinda. vattenagarna o=692 + iFiske Om namnger alla fem sjöar men Fiskarter = ikonblock; enda prosa »Gös Sällsynt — Fiskeförbud« — Gös ∉ arter_fvo (Abborre Benlöja Braxen Gädda Gärs Lake Mört Nors Ruda Sik Stensimpa Sutare Ål). Engelsk iFiske-sida = ikonöversättning (inkl. Sarv∉arter). Catch reports rejected. Naturkartan Åländern Runt utan fiskarter. Kindaturism utan objekt."
+    },
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "object_id": 349,
+      "vatten_csv": ["Frögöl", "Skirsjön", "Ängsjön"],
+      "notes": "Kinda. Möckeln-Skirsjöns FVOF/kindaturism artprosa = twin Skirsjön (Vimmerby/Ydre) — REJECT. Sjödetektiven/kindaturism utan Ödesjöboda×species."
+    },
+    {
+      "namn": "Österby fvof",
+      "lan": "Östergötland",
+      "object_id": 350,
+      "vatten_csv": ["Fagerhultegöl"],
+      "notes": "Kinda. Ingen Fagerhultegöl/Österby Kinda×species. SFG Österbysjön annan FVO. Hitta Fiske utan träff."
+    },
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "notes": "Nybro. Endast Sutare i arter_fvo. NORS/Wikipedia Bällsjön = Västervik twin. Ingen Nybro-Bällsjön×Sutare prosa."
+    },
+    {
+      "namn": "Elmarens fvof",
+      "lan": "Kalmar",
+      "object_id": 742,
+      "notes": "Västervik Älmaren (Hallingeberg). Wikipedia/badplats utan fauna. ≠ Hjälmaren. Fiskekortsguide utan Elmaren/Älmaren. Ingen LST/tidning 1:1."
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "notes": "KNOWN REJECT held: vastervik.com Ålsjön/Kyrksjön/Långmalmen säljs via Gunnebo & Västerviks SFK — ej Gladhammars FVOF. Ingen ny 1:1 Gladhammars-källa."
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "lan": "Kalmar",
+      "object_id": 739,
+      "notes": "Västervik/Vimmerby. REJECT twin Hallången Överlida VG (iFiske Hallången+Stora Djupasjön+Mjöasjön+Bredasjön catch/Om). Kalmar Hallången saknar prosa."
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "notes": "Västervik. Visit/Naturkartan/turism utan Abborre/Benlöja/spigg. Museum historiskt ål/strömming/torsk ∉ arter_fvo. Arholma-Idö twin rejected."
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "lan": "Kalmar",
+      "object_id": 745,
+      "notes": "Hultsfred. vattenagarna o=584 kontakt-only utan arter. Naturkartan/Hammarsjöleden vindskydd utan fiskarter. Stora Hammarsjön SFK Kroken twin risk. Fishbrain ÖG twin rejected."
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "notes": "Oskarshamn. Naturkartan/oskarshamn.com historiskt ålfiske — Ål/Abborre∉arter_fvo (Mal/Småspigg/Storspigg). Ingen Mal/spigg-prosa."
+    },
+    {
+      "namn": "Rådens fvof",
+      "lan": "Kalmar",
+      "object_id": 728,
+      "notes": "Hultsfred. Fishbrain rejected. Visit Hultsfred Stora Hammarsjön ≠ Råden. Ingen kommunprosa Abborre/Gädda."
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "notes": "Karlstad. Ingen Bäverkärn×species. Karlstad kommun/iFiske listar andra FVO."
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "object_id": 1375,
+      "notes": "Kil/Grums. Ornitologi/Artportalen rejected. Ingen Lillemsen×species."
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1287,
+      "notes": "Karlstad. ≠ Barsjön Uppland / Bårsjön Södertälje. Molkomsjön/Acksjön provfiske ≠ Barsjön. Ingen Norra Barsjön×species."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "notes": "Grums. lakevanern.se/grums.se/wikipedia rekommenderar Portilasjön utan artlista. iFiske 404. Ingen Portilasjön×species."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "notes": "Filipstad. vattenagarna o=710 tom. iFiske endast turistkort-hänvisning. Filipstad turistfiskekort: artlista (Abborre/Gädda/…) på kortnivå över 46 namngivna sjöar — Skåltjärn ej i sjölistan; kortnivå ≠ 1:1. Icons rejected prior."
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1369,
+      "notes": "Forshaga. iFiske redirect till Forshaga Fiskevårdskrets Om-prosa för 13 FVO — ej per-water. Fishbrain rejected."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "notes": "Sunne/Gräsmark. ≠ Sälgsjön Hofors / Sälsjön Visnum / Sälsjön Borås / Blekinge. Kalkningslista utan arter. Ingen lokal artprosa."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "notes": "Kil/Sunne Frykerud. kil.se Torpsjöns FVO utan arter. REJECT Fränsta Torpsjön twin (Villa Stenhuset/Fränsta Marina artlista). iFiske 404."
+    }
+  ],
+  "searched_sources": [
+    "vattenagarna.se Östergötland o=692 Åländerns — sjönamn utan arter",
+    "vattenagarna.se Kalmar o=584 Lilla Hammarsjön — kontakt utan arter",
+    "vattenagarna.se Värmland o=710 Skåltjärnshyttan — tom",
+    "iFiske fiske-alandern-m-fl-vatten.htm — Fiskarter-ikoner + Gös-prosa ∉arter_fvo",
+    "iFiske fiske-syrsjon-torptjarns-fvof.htm — redirect Forshaga Fiskevårdskrets",
+    "iFiske fiske-skaltjarnshyttans-fvof.htm + fiske-filipstad-turistfiskekort.htm — kortnivå 46 sjöar, Skåltjärn ej i listan",
+    "kindaturism.se Möckeln-Skirsjön — twin ≠ Ödesjöboda Skirsjön",
+    "atvidaberg.se Sjöar och vattendrag — Horsfjärden/Värnasjön/Värnässjön utan arter",
+    "corren.se / SVT Storån reduktionsfiske — arter i nedströms sjöar, ej Horsfjärden",
+    "finspang.se bad/paddling/fiske — kommunnivå gädda/abborre, ej Grytgöl/Rippestorp",
+    "sjodetektiven.se Gryten / Övre Ripplingen — hydrografi utan fauna",
+    "naturkartan.se Lilla Hammarsjön vindskydd / Runnö / Idö / Femlingen-Gryten twin",
+    "visithultsfred.se Hammarsjöleden PDF — Lilla Hammarsjön utan fiskarter",
+    "vastervik.com Idö / fiskekortsguide — Gladhammar twins held reject",
+    "grums.se / lakevanern.se Portilasjön — rekommenderad utan arter",
+    "kil.se Fiske och jakt — Torpsjöns FVO kontakt utan arter",
+    "visitvarmland.com Filipstad turistfiskekort — ej 1:1 Skåltjärn",
+    "hittafiske.se sök Åländern/Grytgöl/Horsfjärden/Portila/Syrsjön/Elmaren — inga träffar",
+    "Wikipedia Horsfjärden ÖG / Älmaren / Sälsjön disambig / Torpsjön Frykerud — utan fauna",
+    "Fishbrain Horsfjärden/Värnässjön/Råden/Syrsjön/Lilla Hammarsjön ÖG — policy reject",
+    "iFiske catch reports Åländern/Hallången Överlida — policy reject + twin"
+  ]
+}
