@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-09-16T02:39:15Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from FVOF/municipal/tourism/Länsstyrelsen–Naturvårdsverket prose (or iFiske prose naming species for a named water). No iFiske/Hitta Fiske/Naturkartan icon-only species lists. No Fishbrain/forum/iFiske catch reports. No fuzzy cross-county matches (Hallången Kalmar≠Överlida VG; Älesjön Ödestugu≠Svenljunga; Huljesjön-Skålåns≠Lagan-Skålåns; Marsjön Sörmland≠VG; Gulten-Hanesjön & Tången already filled). Gladhammars gruv-MKB rejected: Tjursbosjön/Ekenässjön outside Gladhammars FVO polygon."
+  },
+  "stats": {
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "searched_but_empty": 30,
+    "by_lan": {
+      "Östergötland": 10,
+      "Jönköping": 5,
+      "Kalmar": 9,
+      "Södermanland": 2,
+      "Kronoberg": 4
+    },
+    "targets_total": 30
+  },
+  "enrichments": [],
+  "searched_but_empty": [
+    {
+      "namn": "Antvardens fvof",
+      "lan": "Östergötland",
+      "object_id": 341,
+      "notes": "Vatten (CSV): Antvarden, Mossjön, Sågbäcken. Åtvidaberg/Västervik (Antvarden, Mossjön, Sågbäcken). iFiske Om endast läge/kontakt — ingen artprosa. Rejected Mossjön Vaggeryd N2000 (SE0310429 gädda/abborre — annan sjö). Rejected Vimmerby/Pelarne Mossjön tourism. Sjödetektiven/Wikipedia utan fauna; Kindaturism/Visit/sportfiskeguide CDX tom; fångstrapporter/Fishbrain ej tillåtna."
+    },
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "lan": "Jönköping",
+      "object_id": 493,
+      "notes": "Eksjö Bruzaåns Mellersta. Mariannelunds Bruzaån ej bekräftad som Mellersta FVOF — ej använd. Ingen Mellersta-specifik 1:1."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 566,
+      "notes": "Mullsjö Brännerisjön (spatial match). Hitta Fiske/Naturkartan icon-only; mullsjo.se fiske-sida 404/cookie-wall utan Brännerisjön-artprosa."
+    },
+    {
+      "namn": "Byngarens fvof",
+      "lan": "Östergötland",
+      "object_id": 368,
+      "notes": "Vatten (CSV): Byngaren. Valdemarsvik (Byngaren). Wikipedia/Sjödetektiven utan fauna; iFiske 404; kommun/turism/forum utan 1:1 water×species. Spatial FVO-polygon bekräftad."
+    },
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "notes": "Nybro (Bällsjön). nybro.se/vattenagarna/tourism utan 1:1; Wikipedia utan fauna. Spatial FVO-polygon liten."
+    },
+    {
+      "namn": "Elmarens fvof",
+      "lan": "Kalmar",
+      "object_id": 742,
+      "notes": "Västervik/Hallingeberg (Älmaren — spatial match Elmarens FVO). vastervik.com fiskeguide utan Älmaren; Wikipedia utan fauna; iFiske 404."
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "notes": "Västervik Gladhammar. Västervik.se gruv-MKB: Tjursbosjön/Ekenässjön gädda/abborre/mört m.fl. — men spatial point-in-polygon: båda sjöarna UTANFÖR Gladhammars FVO (~2–3 km); endast Kyrksjön innanför, utan namngiven artlista. Gunnebo/SFK arter ej överförbara. Avvisad."
+    },
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "object_id": 357,
+      "notes": "Vatten (CSV): Dammen, Gryten, Grytgölen. Finspång (Grytgölen, Gryten, Dammen). Finspångs FVF/Eurotourism-listor inkluderar ej Grytgöls vatten; badplatstexter utan arter; Sjödetektiven utan fauna. Ej överföra Finspångs FVF-arter."
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "lan": "Kalmar",
+      "object_id": 739,
+      "notes": "Västervik/Vimmerby Blackstad (Hallången Småland — spatial match). Rejected Överlida/VG Hallången iFiske-prosa (cross-county). Ingen Kalmar Hallången municipal/tourism artprosa. Fishbrain ej tillåten."
+    },
+    {
+      "namn": "Henarens fvof",
+      "lan": "Södermanland",
+      "object_id": 288,
+      "notes": "Flen Henaren (spatial match). Henaredalen N2000/länsstyrelsen utan fiskarter; Wikipedia utan fauna; Sörmland fiskebroschyr utan Henaren. Ej Flens FVOF Vetlanda."
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "object_id": 369,
+      "notes": "Vatten (CSV): Horsfjärden. Kinda/Åtvidaberg (Horsfjärden). Corren/Storåns vattenråd nämner Hårsfjärden/Horsfjärden i sjösystem men artprosa/provfiske gäller andra sjöar (Bysjön m.fl.) — ej 1:1. Åtvidaberg.se listar sjön geografiskt utan arter. Wikipedia utan fauna."
+    },
+    {
+      "namn": "Huljesjön-Skålåns fvof",
+      "lan": "Kronoberg",
+      "object_id": 653,
+      "notes": "Ljungby Huljesjön-Skålåns. Lagan-Skålåns FVO (Huliesjön som nordgräns) ≠ denna FVO — ej fuzzy-merge. Skålans FVO Jämtland rejected. Ingen egen 1:1 prosa."
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "notes": "Västervik skärgård Idö. Ingen municipal/tourism/Hitta Fiske artprosa."
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "lan": "Kalmar",
+      "object_id": 745,
+      "notes": "Hultsfred Lilla Hammarsjön. vattenagarna contact-only; Visit Hultsfred/Hammarsjöleden utan arter; Wikipedia Lilla Hammarsjön Åtvidaberg rejected (spatial mismatch)."
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "lan": "Södermanland",
+      "object_id": 292,
+      "notes": "Strängnäs Marsjöns fvof. FVO-polygon ~59.32°N/17.20°E (≠ Wikipedia Åkers Marsjön ~9 km S; ≠ VG Marsjöarna; ≠ Flen N2000 Marsjön). Åkers Fiske-broschyr namnger ej Marsjön (endast generella gädda/abborre — och FVO-arter endast Ruda). Naturkartan/NV utan ruda-prosa."
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "lan": "Jönköping",
+      "object_id": 449,
+      "notes": "Jönköping Norrahammar. Tabergsån/Åsasjöarna/jonkoping.net blandade FVO — ej 1:1. Jönköpings kommun nätprovfiske 2022–23 täcker ej Norrahammars vatten."
+    },
+    {
+      "namn": "Rinkabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 636,
+      "notes": "Växjö Rinkabysjön (spatial match). tavelsas.se fiskestämma utan arter; Visitkronoberg/kommun utan water×species; iFiske 404."
+    },
+    {
+      "namn": "Rippestorps fvof",
+      "lan": "Östergötland",
+      "object_id": 329,
+      "notes": "Vatten (CSV): Hagsjön, Övre Ripplingen. Finspång (Övre Ripplingen, Hagsjön). vattenagarna contact-only; ej i Finspångs FVF/Eurotourism; Sjödetektiven utan fauna. Rejected Anderstorp/Isaberg Hagsjön (annan FVO)."
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "notes": "Oskarshamn Runnö. Naturkartan reservat utan fiskarter; ingen tourism artprosa."
+    },
+    {
+      "namn": "Rådens fvof",
+      "lan": "Kalmar",
+      "object_id": 728,
+      "notes": "Hultsfred Råden (Virån). Rejected Rådanesjön VG. Ingen Hultsfred artprosa."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 527,
+      "notes": "Jönköping/Bankeryd Sjövikssjön (spatial match). NK/Hitta Fiske icon-only; ingen municipal narrative. JKPG-provfiske PDF utan Sjövikssjön."
+    },
+    {
+      "namn": "Sladö fvof",
+      "lan": "Kalmar",
+      "object_id": 759,
+      "notes": "Västervik Sladö skärgård. Ingen Hitta Fiske/tourism artprosa."
+    },
+    {
+      "namn": "Tegnabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 690,
+      "notes": "Växjö Tegnabysjön (spatial match). Naturkartan Sandvik badplats utan fiskarter; iFiske 404."
+    },
+    {
+      "namn": "Tävelsåssjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 637,
+      "notes": "Växjö Tävelsåssjön (spatial match). Bygdenyhet fiskestämma utan artlista; badplatstexter utan arter; iFiske 404."
+    },
+    {
+      "namn": "Värnasjön-Strålången fvof",
+      "lan": "Östergötland",
+      "object_id": 373,
+      "notes": "Vatten (CSV): Dyveln, Strålången, Värnasjön. Åtvidaberg (Värnasjön, Strålången, Dyveln). Sjödetektiven/Wikipedia utan fauna; SYNA org utan arter; kommun endast avrinningslista."
+    },
+    {
+      "namn": "Värnässjöns fvof",
+      "lan": "Östergötland",
+      "object_id": 365,
+      "notes": "Vatten (CSV): Värnässjön. Åtvidaberg/Linköping (Värnässjön). Sjödetektiven/Wikipedia utan fauna; ingen FVOF/tourism 1:1."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 466,
+      "notes": "Jönköping Ödestugu Älesjön (spatial match). Rejected Svenljunga Älesjön VG. Ingen put-and-take/tourism prose för Regnbåge/Öring/Gräskarp."
+    },
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "object_id": 339,
+      "notes": "Vatten (CSV): Axsjön, Nedre Högsjön, Vån, Åländern, Övre Högsjön. Kinda (Åländern, Axsjön, Vån, Högsjöarna). iFiske/vattenagarna prosa namnger sjöarna men Fiskarter = ikonlista (+ Gös-förbudstext; Gös ej i FVO arter) — ikoner ej tillåtna. Jokerbloggen/tävling = fångstrapport. Kindaturism utan Åländern-objekt."
+    },
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "object_id": 349,
+      "notes": "Vatten (CSV): Frögöl, Skirsjön, Ängsjön. Kinda (Skirsjön, Frögöl, Ängsjön). Rejected Möckeln-Skirsjöns/Vimmerby Skirsjön tourism. Sjödetektiven Kinda-Skirsjön utan fauna."
+    },
+    {
+      "namn": "Österby fvof",
+      "lan": "Östergötland",
+      "object_id": 350,
+      "notes": "Vatten (CSV): Fagerhultegöl. Kinda (Fagerhultegöl). SFG »Österbysjön« annan FVO; ingen tourism/Hitta Fiske artprosa."
+    }
+  ],
+  "rejected": [
+    "Mossjön Vaggeryd N2000 SE0310429 (gädda/abborre) — ej Antvardens Mossjön.",
+    "Vimmerby.com Mossjön Pelarne — annan Mossjön än Antvardens.",
+    "Överlida FVOF Hallången iFiske-prosa — Västra Götaland, ej Kalmar Hallången.",
+    "Gladhammars gruvor MKB Tjursbosjön/Ekenässjön — spatialt utanför Gladhammars FVO (Kyrksjön innanför men utan artlista).",
+    "Åländern iFiske ikonlista + Gös-förbudstext (Gös ej i FVO arter) — ikoner ej tillåtna.",
+    "Mariannelunds Bruzaån — ej bekräftad Bruzaåns Mellersta.",
+    "Svenljunga Älesjön — ej Ödestugu Älesjön.",
+    "Lagan-Skålåns / Skålans FVO Jämtland — ej Huljesjön-Skålåns Ljungby.",
+    "Finspångs FVF/Eurotourism arter — ej Grytgöls/Rippestorps vatten.",
+    "Möckeln-Skirsjöns/Vimmerby Skirsjön — ej Ödesjöboda Kinda Skirsjön."
+  ],
+  "search_log": {
+    "stash": "/tmp/fvo_search/r14_ost/",
+    "sources_tried": [
+      "iFiske Om pages (Antvarden, Åländern)",
+      "Eurotourism Finspång PDF (full FVO species section)",
+      "Åtvidaberg.se Storåns vattenråd + provfiske-PDFs",
+      "Corren Storån/gädda articles",
+      "Västervik.se Gladhammars gruvor MKB + spatial FVO membership check (fiskekartan gpkg)",
+      "vastervik.com / vimmerby.com fiskeguides",
+      "Finspång/Kinda/Aneby/Mullsjö/Flen/Strängnäs municipal fiske pages",
+      "Länsstyrelsen Södermanland Fiskebroschyr PDF",
+      "Henaredalen + Marsjön N2000 bevarandeplaner",
+      "Jönköpings kommun nätprovfiske 2022–23 PDF",
+      "tavelsas.se / Visitkronoberg",
+      "Sportfiskeguide Wayback CDX (archive temporarily empty/offline)",
+      "Wikipedia fauna scan for all named lakes",
+      "Local blogs (Jokerbloggen Åländern = catch/competition — rejected vs Tången-prose bar)"
+    ]
+  }
+}
