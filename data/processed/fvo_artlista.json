@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T01:59:05.684665+00:00",
+    "generated_at": "2026-09-16T02:44:32.462399+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1775
+      "har_vattenposter": 1779
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 7,
+      "created_vatten": 6,
       "merged_vatten": 0,
-      "touched_vatten": 465,
-      "applied_rows": 472,
+      "touched_vatten": 472,
+      "applied_rows": 478,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1772,
-        "med_arter_men_0_vatten": 102,
-        "total_vatten": 9797
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1775,
         "med_arter_men_0_vatten": 99,
         "total_vatten": 9804
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1779,
+        "med_arter_men_0_vatten": 95,
+        "total_vatten": 9810
       },
       "blocked_sources": [
         "natureit",
@@ -177926,9 +177926,46 @@
         "Öring"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "mellanstrom_fvo"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Makaure",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Harr",
+            "Öring"
+          ],
+          "kallor": [
+            "mellanstrom_fvo"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.mellanstrom.se/wp-content/uploads/2013/11/protokoll_arsmote_20140223.pdf"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Båtsabäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "mellanstrom_fvo"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://www.mellanstrom.se/wp-content/uploads/2020/04/Protokoll_arsstamma_Mellanstrom_fvo_200317_skannad.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -177958,7 +177995,11 @@
           "Siklöja",
           "Öring"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://www.mellanstrom.se/wp-content/uploads/2013/11/protokoll_arsmote_20140223.pdf",
+        "https://www.mellanstrom.se/wp-content/uploads/2020/04/Protokoll_arsstamma_Mellanstrom_fvo_200317_skannad.pdf"
+      ]
     },
     {
       "original_id": 1554,
@@ -234270,9 +234311,31 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "romesjons_fvof"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Romesjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Flodkräfta",
+            "Gädda",
+            "Mört"
+          ],
+          "kallor": [
+            "romesjons_fvof"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://kungalv.naturskyddsforeningen.se/wp-content/uploads/sites/155/2025/02/Overklagan-jordframstallning-Sand-o-Tra-Kungalv.pdf"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -234296,7 +234359,10 @@
           "Ruda",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://kungalv.naturskyddsforeningen.se/wp-content/uploads/sites/155/2025/02/Overklagan-jordframstallning-Sand-o-Tra-Kungalv.pdf"
+      ]
     },
     {
       "original_id": 624,
@@ -275987,9 +276053,29 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "botea_se"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Stortannsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "botea_se"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20190818074623/https://botea.se/botebygden/ovrigt_i_och_runt_botea/stortannsjon.php"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 6,
         "antal_vatten_med_survey": 0,
@@ -276013,7 +276099,10 @@
           "Mört",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://web.archive.org/web/20190818074623/https://botea.se/botebygden/ovrigt_i_och_runt_botea/stortannsjon.php"
+      ]
     },
     {
       "original_id": 1629,
@@ -295733,18 +295822,78 @@
         ]
       },
       "arter": [
+        "Abborre",
         "Gädda",
+        "Mört",
+        "Regnbåge",
         "Öring"
       ],
       "kallor": [
-        "fiskekartan"
+        "fiskekartan",
+        "fvof_passagen_wayback"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Sönnertjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "fvof_passagen_wayback"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20080327051141/http://hem.passagen.se/take/index4.htm"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Mellantjärnen",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kallor": [
+            "fvof_passagen_wayback"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20080327051141/http://hem.passagen.se/take/index4.htm"
+          ]
+        }
+      ],
       "statistik": {
-        "antal_arter": 2,
+        "antal_arter": 5,
         "antal_vatten_med_survey": 0,
         "antal_sjoar_survey": 0,
         "antal_vattendrag_survey": 0
+      },
+      "lokala_tipslankar": [
+        "https://web.archive.org/web/20080327051141/http://hem.passagen.se/take/index4.htm"
+      ],
+      "extern_enrichment": {
+        "tillagda_arter": [
+          "Abborre",
+          "Mört",
+          "Regnbåge"
+        ],
+        "kallor_url:er": [
+          "https://web.archive.org/web/20080327051141/http://hem.passagen.se/take/index4.htm"
+        ]
       }
     },
     {
