@@ -3,7 +3,6 @@
   "round": "23_fuzzy_restlista_and_zero_vatten",
   "policy": {
     "allowed": [
-      "FVO artlista as complete source (user-authorized)",
       "FÅNGA membership",
       "NORS/SERS in-polygon names",
       "FVO-name-derived water for single-lake FVO"
@@ -11,7 +10,8 @@
     "never_use": [
       "iFiske Arter icons",
       "NatureIT",
-      "Artportalen"
+      "Artportalen",
+      "FVO artlista as complete source for member waters"
     ],
     "mapping": "Only fill missing water-level rows; do not overwrite existing"
   },
@@ -1617,5 +1617,8 @@
       ],
       "notes": "round23 extra multi-name inference"
     }
-  ]
+  ],
+  "withdrawn": true,
+  "withdrawn_at": "2026-09-16T23:35:46Z",
+  "withdrawn_reason": "User requires per-lake/stream species evidence; FVO-level artlista must not be copied to member waters."
 }

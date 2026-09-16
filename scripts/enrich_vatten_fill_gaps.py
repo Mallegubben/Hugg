@@ -318,8 +318,7 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round19_langvattnet_junsele.json",
         RAW / "vatten_fill_round20_gavleborg_jamtland.json",
         RAW / "vatten_fill_round21_fanga_v377_ulvsta.json",
-        RAW / "vatten_fill_round22_fvo_complete_source.json",
-        RAW / "vatten_fill_round23_fuzzy_and_zero.json",
+        # round22/23 (fvo_artlista complete-source) withdrawn: need per-water evidence only
         RAW / "vatten_fill_hard_review_r19_rest_13.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),

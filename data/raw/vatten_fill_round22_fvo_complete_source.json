@@ -3,14 +3,14 @@
   "round": "22_fvo_complete_source_restlista_v377",
   "policy": {
     "allowed": [
-      "FVO artlista as complete source for member waters (user-authorized 2026-09-16)",
       "FÅNGA restlista v377 for FVO↔water membership",
       "Prior 1:1 FVOF/Om/LST fills remain authoritative where present"
     ],
     "never_use": [
       "iFiske Arter icons",
       "NatureIT",
-      "Artportalen"
+      "Artportalen",
+      "FVO artlista as complete source for member waters"
     ],
     "mapping": "Fill only waters lacking water-level arts; species = arter_fvo; do not overwrite richer per-water rows"
   },
@@ -56609,5 +56609,8 @@
       ],
       "notes": "FVO-komplettering: 2 FÅNGA-vatten utan tidigare vattenunik artlista fick FVO-arter."
     }
-  ]
+  ],
+  "withdrawn": true,
+  "withdrawn_at": "2026-09-16T23:35:46Z",
+  "withdrawn_reason": "User requires per-lake/stream species evidence; FVO-level artlista must not be copied to member waters."
 }
