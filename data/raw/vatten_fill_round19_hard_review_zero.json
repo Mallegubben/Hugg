@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-09-16T21:55:00Z",
+  "round": "19_hard_review_zero",
+  "policy": {
+    "allowed": [
+      "Hitta Fiske /planera-ditt-fiske/ narrative prose (NOT Arter icon blocks)",
+      "iFiske Om narrative (NOT Fiskarter icons)",
+      "Wayback FVOF pages with species prose",
+      "LST catalog.lansstyrelsen.se nätprovfiske PDFs",
+      "municipal PDFs",
+      "newspapers",
+      "vattenagarna narrative",
+      "municipal/tourism prose naming water+species"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Hitta Fiske Arter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports",
+      "fiskekortsverige icon scrapes",
+      "county-level generic species lists",
+      "fuzzy twins"
+    ],
+    "mapping": "1:1 water×species; species ⊆ arter_fvo; no twins; empty better than wrong"
+  },
+  "stats": {
+    "targets_searched": 17,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "note": "Deep pass on 17 ZERO-vatten priority FVOs (VG/Kalmar/JK). archive.org CDX offline. No acceptable 1:1 water×species fill."
+  },
+  "enrichments": [],
+  "rejected_summary": "All 17 remain empty. Hitta Fiske: only Brännerisjöns+Sjövikssjöns pages exist (Arter icons REJECT); all other slugs 404. iFiske Grosken/Vassgården/Revesjö/Hallången = icons or VG twin. Wayback CDX offline. LST nätprovfiske: no hits for targets; Stora Hästefjorden provfiske ≠ Östra. Municipal: Mellerud lists Nären/Kabbosjön etc. but not Kolungen species; Skövde Sjötorpssjön = fritt handredskap only (Ösans nedre twin hold); Visit Hultsfred Stora Hammarsjön ≠ Lilla Hammarsjön fvof. sportfiskeguide Vassgårdens FVO lists waters only, no species.",
+  "rejected": [
+    {
+      "namn": "Groskens fvof",
+      "reason": "iFiske Fiskarter icons + catch reports REJECTED; Hitta Fiske groskens/grosken 404; Ulricehamn vastsverige fiskeguide lists Lönern/Jogen/Åsunden — Grosken absent."
+    },
+    {
+      "namn": "Kolungens fvof",
+      "reason": "Mellerud municipal fiske pages name species for Nären/Kabbosjön/Teåkersjön — Kolungen absent. DIVA-7951 macroyte inventering only (no fish). Teåker kräftskötsel signalkräftor ev. Kolungen — not fish fill."
+    },
+    {
+      "namn": "Nöresjöns fvof",
+      "reason": "vattenagarna o=1030 contact-only; Hitta Fiske 404; no LST nätprovfiske PDF."
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "reason": "Svenljunga-Tranemo 2021 brochure names waters+prices only; iFiske Fiskarter icons REJECTED; sportfiskeguide lists lakes without species prose."
+    },
+    {
+      "namn": "Revesjö fvof",
+      "reason": "Same brochure + iFiske Fiskarter icons REJECTED; no per-lake species narrative."
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "reason": "Stora Hästefjorden Wikipedia/LST provfiske = twin REJECT; Fishbrain forbidden; no Östra-specific prose."
+    },
+    {
+      "namn": "Sjötorpssjöns fvof",
+      "reason": "vastsverige Skövde: Sjötorpssjön = fritt handredskap only; species list belongs to Ösans nedre FVO twin REJECT."
+    },
+    {
+      "namn": "Svänasjöns fvof",
+      "reason": "No Mark/Svänasjön 1:1 prose; fiskekortsverige county-level generic; ≠ Svansjön JK twin."
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "reason": "ale.se species for Kroksjön/Valsjön etc.; Ljusevatten not listed; Wikipedia hydro only."
+    },
+    {
+      "namn": "Månsarudssjöns fvof",
+      "reason": "Töreboda/Göta kanal tourism geography only; Tibro SFK pimpel-DM weights without species prose."
+    },
+    {
+      "namn": "Elmarens fvof",
+      "reason": "No FVO-specific species prose; Västervik municipal generic; iFiske area list omits Elmarens."
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "reason": "Kalmar org 833600-8472 Blackstad/Lundaberg — no local brochure found. iFiske/vastsverige Hallången = Överlida FVO Svenljunga VG twin REJECT."
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "reason": "Visit Hultsfred/Hammarsjöleden PDF = geography/bath only; Stora Hammarsjöns FVO/SFK Kroken twin REJECT; Naturkartan contact-only."
+    },
+    {
+      "namn": "Rådens fvof",
+      "reason": "Emån fiskevårdsplan lists Lilla Hammarsjöns fvf — not Rådens; Visit Hultsfred county-level; no Råden×species prose."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "reason": "Hitta Fiske brannerisjons-fvof = contact + Arter icon block only REJECT; Naturkartan contact-only; no LST nätprovfiske."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "reason": "Hitta Fiske sjovikssjons-fvof = contact + Arter icons REJECT; Naturkartan contact-only."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "reason": "≠ Älgsjön Arvika / ≠ Älesjön Svenljunga twins; no Ödestugu Jönköping FVO species prose found."
+    }
+  ],
+  "searched_sources": [
+    "Hitta Fiske slugs (17 targets — 2×200 with Arter icons, rest 404)",
+    "iFiske Om/Fiskarter (Grosken, Vassgården, Revesjö, Hallången — icons/twins REJECT)",
+    "archive.org CDX (*fvof*, *fiskevard*, sportfiskeguide.se/fvo/*) — TEMPORARILY OFFLINE",
+    "catalog.lansstyrelsen.se nätprovfiske (Kolungen, Nöresjön, Brännerisjön, Grosken — no hits)",
+    "vattenagarna o=1030 (Nöresjön), o=584 (Lilla Hammarsjön) — contact-only",
+    "mellerud.se/turism/fiske/* (Nären, Kabbosjön etc. — Kolungen absent)",
+    "vastsverige.com Skövde/Ulricehamn/Mellerud tourism",
+    "sportfiskeguide.se/fvo/ (Vassgårdens FVO water list, no species)",
+    "svenljunga_tranemo_fiskebroschyr_2021.txt",
+    "Naturkartan Brännerisjöns/Sjövikssjöns fvof — contact-only",
+    "Visit Hultsfred fiska + Hammarsjöleden PDF",
+    "Emån fiskevårdsplan 2000 (Lilla Hammarsjöns fvf listed, not Rådens)",
+    "DIVA diva-7951 Kolungen macroyte (not fish fauna)"
+  ]
+}
