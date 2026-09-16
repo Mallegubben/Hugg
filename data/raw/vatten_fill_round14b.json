@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-09-16T02:53:20Z",
+  "round": "14b",
+  "policy": {
+    "allowed": [
+      "Länsstyrelsen reports / fiskeguides",
+      "municipal miljö / nätprovfiske / kost-prosa",
+      "FVOF annual protocols",
+      "local newspaper / local association articles naming lake+species",
+      "university/SLU reports IF they name the water",
+      "Naturkartan prose",
+      "Hitta Fiske prose",
+      "wayback FVOF / municipal pages"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske icons / Fiskarter icon blocks",
+      "Fishbrain",
+      "unverified forums",
+      "iFiske catch reports"
+    ],
+    "mapping": "1:1 water×species; species must be subset of arter_fvo; no fuzzy cross-county",
+    "multi_lake": "assign only when source assigns per named water OR clearly same species for ALL named lakes / samtliga vatten in that FVO",
+    "note": "Alternate-source deep search. Excluded already-filling this round: Romesjöns, Mellanströms, Stortannsjöns, Sönner och Mellantjärns. iFiske Fiskarter-ikonblock (Åländern/Revesjö/Vassgården m.fl.) rejected even when page also has geography prose."
+  },
+  "stats": {
+    "targets_priority": 23,
+    "fvo_with_enrichments": 3,
+    "total_vatten_rows": 3,
+    "searched_but_empty": 20,
+    "by_lan": {
+      "Östergötland": 1,
+      "Stockholm": 1,
+      "Södermanland": 1
+    },
+    "sources_checked": [
+      "Länsstyrelsen Södermanland Fiskeguide 2010 PDF (Henaren entry)",
+      "stromshammar.se fisketävling Henaren (live 404; Wayback 2020-10-30 verified)",
+      "Botkyrka miljödatabasen Grindsjön (Wayback 2010-08-12) — Södertörnsekologernas provfiske 2002",
+      "Botkyrka miljöbarometern (no fish fauna)",
+      "Valdemarsvik.se kostrekommendationer Gusum + Arbets- och miljömedicin Exponeringsbedömning Gusum 2007 PDF (Byngaren abborre/gädda sampling)",
+      "NT.se Gusumsån/Byngaren fiskeförbud-artikel",
+      "iFiske Om/prose pages Åländern o/692 + fiske-alandern (Fiskarter-ikonblock rejected; Gös-prosa ej i arter_fvo)",
+      "iFiske Antvarden list/98 + fiske-antvarden (ingen artprosa)",
+      "iFiske Revesjö o/527 + Vassgården list/1060 (ikonblock rejected)",
+      "Naturkartan Åländern Runt / Byngaren vindskydd (ingen fiskart-prosa); Vrångsjön ÖG ≠ VG Färgelanda",
+      "Wikipedia lake pages (no Fisk-sektion for targets)",
+      "site:lansstyrelsen.se / site:diva-portal.org / site:slu.se for priority lakes (no named-water nätprovfiske for ÖG/VB/Värmland/VG targets)",
+      "Gold of Lapland / Visit Lycksele / norsjosfk (VB targets — no 1:1; Kattöggeltjärn Bjurträsk ≠ Bjurträsk fvof)",
+      "kil.se Torpsjöns FVO (kontakt/pris only; Fryken arter ej korsas)",
+      "visitvarmland/grums/lakevanern Portilasjön (namngiven utan arter)",
+      "vastsverige Färgelanda/Mellerud FVO-listor (utan artprosa)",
+      "Svenljunga-Tranemo broschyr (Revesjö/Vassgården namn utan arter)",
+      "Stockholms läns fiskeguide Tips (Byholma/Södemöja ej 1:1; Grindsjön saknas)",
+      "Fishbrain / dykarna.nu forum — not used as artdata"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Byngarens fvof",
+      "lan": "Östergötland",
+      "object_id": 368,
+      "vatten": [
+        {
+          "namn": "Byngaren",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "Arbets- och miljömedicin / Valdemarsviks kommun — Exponeringsbedömning Gusum 2007 (+ kommunal kostsida)",
+          "url": "https://www.arbetsochmiljomedicin.se/download/18.6884666618ee4faa3ad9979/1715925235570/Miljomed_bedomning_Gusum_2007.pdf",
+          "evidence": "Provtagning av fisk och kräftor har genomförts i Yxningen, Gusumsån och i Byngaren. … Fiske av abborre och gädda har skett i Yxningen (Y), i Gusumsån … och i Byngaren (B). (Även: »… högre än normalt i abborre/gädda från Gusumsån och Byngaren«; »I abborre från Byngaren …«; »PCB118 dominerade i både gädda och abborre från Gusumsån och Byngaren.« Valdemarsvik.se kostrek-gusum: »PCB-halterna i fisken från Gusumsån och Byngaren …«. Gös nämns i generella kostråd men saknas i arter_fvo — ej använd.)"
+        }
+      ]
+    },
+    {
+      "namn": "Grindsjöns fvof",
+      "lan": "Stockholm",
+      "object_id": 40,
+      "vatten": [
+        {
+          "namn": "Grindsjön",
+          "arter": [
+            "Abborre"
+          ],
+          "kalla": "Botkyrka kommun miljödatabasen (Wayback) — Södertörnsekologernas provfiske 2002",
+          "url": "https://web.archive.org/web/20100812020052/http://www.miljodatabasen.se/sjoaribotkyrka/12476.html",
+          "evidence": "Växter och djur — fiskar: Vid södertörnsekologernas provfiske 2002 hittades abborre. (Kommunal miljöprosa för Grindsjön, Botkyrka/Nynäshamn. Flodkräfta/mört/sarv ej namngivna i denna källa. Fishbrain/dykarna.nu ej använda.)"
+        }
+      ]
+    },
+    {
+      "namn": "Henarens fvof",
+      "lan": "Södermanland",
+      "object_id": 288,
+      "vatten": [
+        {
+          "namn": "Henaren",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "strömshammar.se (lokal föreningssida, Wayback) + Länsstyrelsen Södermanland Fiskeguide 2010",
+          "url": "https://web.archive.org/web/20201030161619/http://stromshammar.se/2017/07/19/fisketavlingen-157-avgjord/",
+          "evidence": "strömshammar.se: Lördagen den 15 juli avgjordes fisketävlingen på Henaren … Totalt drogs det upp 27 fiskar (gädda och abborre). … Pris största fisk … (Gädda). (Live-URL 404; Wayback 2020-10-30. Lokal artikelliknande prose 1:1 Henaren×abborre/gädda.) Korroborering Länsstyrelsen Södermanland Fiskeguide 2010 (tabell Flen nr 19) listar Henaren (med Åsten/St. Kolsleven/Kvarnsjön på samma kort) med gös, ål, sutare, gädda, nors, abborre — endast Abborre+Gädda använda här (övriga arter antingen ej i arter_fvo eller multi-lake utan per-vatten/samtliga-formulering)."
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "object_id": 339,
+      "notes": "Kinda. Vatten: Åländern, Axsjön, Vån, Övre/Nedre Högsjön. iFiske fiske-alandern / o=692: Fiskarter-ikonblock (Abborre/Gädda/Mört/…) rejected. Enda prosa »Gös Sällsynt — Fiskeförbud« — Gös saknas i arter_fvo. Naturkartan Åländern Runt utan fiskarter. Länsstyrelsen/DIVA/SLU utan namngivet nätprovfiske. Wikipedia utan fauna."
+    },
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "object_id": 357,
+      "notes": "Finspång (Grytgölen, Gryten, Dammen). Badplatstexter utan arter. Naturkartan Femlingen-Gryten (Älmhult/Kronoberg) rejected — twin. Finspångs FVF/eurotourism inkluderar ej Grytgöls vatten. Ingen Länsstyrelsen/PDF 1:1."
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "object_id": 369,
+      "notes": "Kinda/Åtvidaberg Horsfjärden. Storåns/Corren reduktionsfiske nämner andra sjöar; ingen 1:1 Horsfjärden×species. Länsstyrelsen/Wikipedia utan fauna. Juttern/Åkervristen-provfiske ej överförbara."
+    },
+    {
+      "namn": "Antvardens fvof",
+      "lan": "Östergötland",
+      "object_id": 341,
+      "notes": "Åtvidaberg/Västervik (Antvarden, Mossjön, Sågbäcken). iFiske list/98 + fiske-antvarden utan artprosa. Fishbrain rejected. Mossjön Vaggeryd N2000 twin rejected. Sjödetektiven/kommun utan fauna."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln Kussjön. Wikipedia hydrografi utan fauna. Visit Vindeln/Lycksele utan FVO-artprosa. Länsstyrelsen/DIVA utan namngivet provfiske."
+    },
+    {
+      "namn": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 182,
+      "notes": "Norsjö. norsjosfk Kattöggeltjärn (Bjurträsk) put&take regnbåge ≠ Bjurträsk fvof. Gold of Lapland karta namnger Petikträsk/Bjurträsk-området utan arter. Ingen municipal 1:1."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. visitlycksele kanotled-maltan namnger Maltträsk utan fiskarter. Fishbrain rejected. Ingen Länsstyrelsen/PDF 1:1."
+    },
+    {
+      "namn": "Petikträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 213,
+      "notes": "Norsjö/Skellefteå. Gold of Lapland karta pin utan arter. norsjosfk/Visit utan namngiven Petikträsk×species. Wikipedia/lokalhistoria utan fauna."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Visit Malå/Lycksele utan namngiven Kokträsk×species. Wikipedia Kokträsket utan fauna. iFiske ERR."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "notes": "Grums. visitvarmland/lakevanern/grums.se listar Portilasjön bland sjöar utan fiskarter. Vänern-arter får ej korsas. Wikipedia hydrografi. iFiske 404."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "notes": "Sunne (Gräsmark). Flera Sälsjön i Sverige. Wikipedia/Sunne/visit utan artprosa. iFiske 404. Ingen Länsstyrelsen-PDF 1:1."
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "notes": "Karlstad. iFiske 404. Visit Värmland/Karlstad.se utan named-water artprosa. Wikipedia saknas/utan fauna."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "notes": "Kil/Sunne (Frykerud). kil.se Torpsjöns FVO endast kontakt/pris — ingen artlista. Nedre Fryken-arter på samma sida får ej korsas. Pimpelbloggar »endast abborre räknas« = tävlingsregler/fångstrapporter ej godkända. Twin-risk andra Torpsjön."
+    },
+    {
+      "namn": "Vrångsjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 971,
+      "notes": "Färgelanda. vastsverige listar Vrångsjön bland FVO-namn utan Fiskarter. ≠ Vrångsälvens FVOF (Värmland) iFiske-prosa. ≠ Naturkartan Vrångsjön Östergötland/Sveaskog. Wikipedia utan fauna. Ingen Länsstyrelsen-PDF."
+    },
+    {
+      "namn": "Kolungens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1020,
+      "notes": "Mellerud. Teåker-kräftskötsel nämner Kolungen endast för signalkräfta (ej i fokus / otillräcklig artprosa). Wikipedia utan provfiske. vastsverige utan Fiskarter-prosa. NORS saknar Kolungen."
+    },
+    {
+      "namn": "Nöresjöns fvof",
+      "lan": "Västra Götaland",
+      "object_id": 929,
+      "notes": "Ulricehamn. vattenagarna o=1030 endast kontakt. Ej i Ulricehamn fiskeguide 2021. Wikipedia-träff saknas. Ingen narrative artprosa."
+    },
+    {
+      "namn": "Vassgårdens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 953,
+      "notes": "Tranemo/Svenljunga. Broschyr + iFiske namnger 8 sjöar utan artprosa. iFiske Fiskarter-ikonblock rejected. Catch-reports/Fishbrain ej använda."
+    },
+    {
+      "namn": "Revesjö fvof",
+      "lan": "Västra Götaland",
+      "object_id": 938,
+      "notes": "Svenljunga (Stora/Lilla Kvarnsjön). Broschyr + iFiske Om utan arter i prosa. iFiske Fiskarter-ikonblock rejected. Wikipedia utan provfiske."
+    },
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "notes": "Norrtälje skärgård. Stockholms läns fiskeguide Tips namnger ej Byholma. Skärgårdsstiftelsen/Norrtälje/visitstockholm utan 1:1 vatten×art. iFiske 404."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "notes": "Värmdö/Möja. Fiskeguide Tips: Möja (havsöring/plattfisk) — önivå, ej 1:1 Södemöja FVO. arter_fvo endast Storspigg. Skärgårdsstiftelsen utan artprosa."
+    }
+  ]
+}
