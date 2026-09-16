@@ -287,6 +287,8 @@ def load_enrichments() -> list[dict]:
         RAW / "vatten_fill_round14_misc.json",
         RAW / "vatten_fill_round14b.json",
         RAW / "vatten_fill_round14c.json",
+        RAW / "vatten_fill_round15.json",
+        RAW / "vatten_fill_round15_rest.json",
         Path("/opt/cursor/artifacts/vatten_fill_round.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round2.json"),
         Path("/opt/cursor/artifacts/vatten_fill_round3.json"),
