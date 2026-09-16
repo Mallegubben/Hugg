@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-09-15T17:42:49Z",
+  "policy": {
+    "never_use": [
+      "iFiske icons",
+      "NatureIT",
+      "Artportalen"
+    ],
+    "ifiske_prose": "allowed only when prose explicitly lists species for a named water",
+    "mapping": "1:1 FVO↔source; no fuzzy cross-county mapping",
+    "multi_lake": "assign only when source assigns per named water OR clearly same species for ALL named lakes in that FVO",
+    "prefer": [
+      "Naturkartan/Hitta Fiske prose",
+      "vattenagarna.se",
+      "municipal/tourism",
+      "FVOF sites",
+      "fishing brochures"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Jogens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Jogen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "2. Jogen – Jogens FVO, 365 ha … Species of fish: Perch, pike, roach"
+        }
+      ]
+    },
+    {
+      "namn": "Humla-Kölaby fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Ätran",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "3. Ätran … Species of fish: Pike, perch, roach. (Trout fishing forbidden) … The northern part (Humla-Kölaby FVOF) from Knektakvarn in Blidsberg to the border of the municipality"
+        }
+      ]
+    },
+    {
+      "namn": "Röstesjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Röstesjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Mört",
+            "Regnbåge",
+            "Sutare"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "7. Röstesjön, 42 ha … Species of fish: Perch, carp bream, pike, roach, tench, some rainbow trout … You may catch an unlimited amount of pike, perch and bream, but maximum three rainbow trouts."
+        }
+      ]
+    },
+    {
+      "namn": "Trehörningens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Trehörningen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Lake",
+            "Mört"
+          ],
+          "kalla": "vastsverige / ulricehamn_fiskeguide_2021",
+          "url": "https://www.vastsverige.com/contentassets/4152c830b5174ab1b3b1dc84a0626e0e/fiskeguide-2021---eng.pdf",
+          "evidence": "14. Trehörningen – Trehörningens FVO … Species of fish: Pike, perch, roach, burbot … The lake Trehörningen is located in the south-eastern part of Ulricehamn"
+        }
+      ]
+    },
+    {
+      "namn": "Björklångens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Björklången",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vastsverige / karlsborg_fiskekarta_2016",
+          "url": "https://www.vastsverige.com/globalassets/karlsborg/dokument/fiskekarta_2016.pdf",
+          "evidence": "Björklången — En klar skogssjö med de vanligaste insjöfiskarna. Här finns gott om gädda och abborre samt alla de vanligaste vitfiskarna."
+        }
+      ]
+    },
+    {
+      "namn": "Kyrksjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Kyrksjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "vastsverige / karlsborg_fiskekarta_2016",
+          "url": "https://www.vastsverige.com/globalassets/karlsborg/dokument/fiskekarta_2016.pdf",
+          "evidence": "Kyrksjön — Trots sin ringa storlek är Kyrksjön över 18 meter djup. Här finns de vanligaste vitfiskarna samt abborre och gädda. Känd för sitt fina abborrfiske."
+        }
+      ]
+    },
+    {
+      "namn": "Sjötorpasjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Sjötorpasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört",
+            "Ruda",
+            "Sutare"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/hornborgasjon/artiklar/fiskemojligheter/",
+          "evidence": "Sjötorpasjön — Liten, grund sjö med rent vatten. Här fiskar du gädda, abborre, mört, sutare och ruda. Av ekologiska skäl får fångade sutare och rudor ej släppas tillbaka i sjön."
+        }
+      ]
+    },
+    {
+      "namn": "Torskabottens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Torskabotten",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gärs",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/lerum/leder/paddla-i-torskabotten-och-ommern/",
+          "evidence": "Sjöarna Torskabotten och Ömmern … Vill du fiska under din kanottur? I sjöarna finns gott om abborre, gädda, öring och gärs. … För fiske i Torskabotten krävs inget fiskekort."
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    "Björstorps fvof — Svenljunga-Tranemo-broschyr namnger vatten utan artlista; vattenagarna/SA saknar sida; iFiske-ikoner ej använda",
+    "Groskens fvof — ingen icke-iFiske artprosa hittad (Ulricehamn-guiden saknar Grosken)",
+    "Gunneröds fvof (Orust) — ingen kommun/VA/NK-prosa med arter",
+    "Kolungens fvof (Mellerud) — förening finns men ingen artlista på vastsverige/vattenagarna",
+    "Kölvattnets fvof / Mastedalstjärnarnas fvof / Norra Lunds fvof (Bengtsfors) — saknas i Bengtsfors/Dals-Ed-guider med arter; VA tom",
+    "Lillåns fvof (Trollhättan) — Borås Lillån–Kransån är annat FVO; ingen Trollhättan-artprosa",
+    "Långens fvof (Strömstads Kommun) — ej samma som Skövde Lången; Strömstad.se utan Lången-arter; iFiske träffar andra Lången",
+    "Lökens fvof (Sotenäs) — ingen tillåten artprosa",
+    "Månsarudssjöns fvof (Töreboda) — ingen träff med arter",
+    "Nöresjöns fvof — vattenagarna o=1030 kontakt-only; ej i Ulricehamn-guiden",
+    "Oxalasjöns fvof / Oxsjöns fvof (Tranemo/Ulricehamn) — Ingsjöarna & Oxsjöns (Härryda) och Gula Kortets Oxsjön (Sisjö) är andra vatten",
+    "Revesjö fvof / Roasjön-Ramsjöns fvof / Vassgårdens fvof / Skäremosjöns fvof — Svenljunga-Tranemo namnger vatten utan artlista; VA Revesjö tom",
+    "Romesjöns fvof (Kungälv) — ingen officiell artlista",
+    "Sandsjön-Buasjöns fvof — ingen 1:1 källa",
+    "Sjötorpssjöns fvof (Skövde) — vastsverige: endast 'Fritt fiske med handredskap', inga arter",
+    "St Gunnarsvattnets fvof / Stora Ljusevatten fvof / Torp-Sollums fvof — Ale/Lilla Edet utan artprosa",
+    "Svänasjöns fvof (Mark) — ingen artlista",
+    "Sävsjö-Gärdessjö fvof (Tranemo) — broschyr/VA utan arter",
+    "Södra Järbo fvof / Vrångsjöns fvof (Färgelanda) — hittafiske Vrangsjön är Jönköping-slug (avvisad); lokal prosa saknas",
+    "Torsbo-Rotenäs fvof / Östra Hästefjordens fvof — Stora Hästefjordens FVOF är annat område; Östra utan artlista",
+    "Viskan vid Osdal fvof — boras.se listar andra Viskan-FVO men inte Osdal med arter"
+  ],
+  "sanitized_at": "2026-09-15T17:48:19.582590+00:00",
+  "sanitize_notes": [
+    "Dropped Boråssjöarnas: hiking/camping prose did not reliably bind waters to Boråssjöarnas FVOF 1:1.",
+    "Kept Ulricehamn/Karlsborg PDF + Sjötorpasjön + Torskabotten (dual-lake same-species prose OK for Torskabotten alone)."
+  ]
+}

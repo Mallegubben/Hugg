@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "round": 6,
+    "policy": "1:1 FVO↔källa; aldrig iFiske-ikoner/NatureIT/Artportalen; endast namngivna vatten×art",
+    "notes": "VG Dals-Ed fiskeguide + Västsverige/Örsås/Ydre; Emten-Flämsjön via Vallesjöarna-stycke"
+  },
+  "enrichments": [
+    {
+      "namn": "Åsens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Åstjärn",
+          "arter": ["Abborre", "Benlöja", "Gädda", "Lake", "Mört", "Ål"],
+          "kalla": "vastsverige / dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/dalsed/produkter/AsensFVO/",
+          "evidence": "Åsens FVO — Omfattning: Åstjärn, Björndalstjärn, Dammtjärn och Bergtjärn. Fiskarter: Gädda, abborre, mört, ål, lake, löja. (Bekräftat Dals-Ed Fiskeguide 2020.)"
+        },
+        {
+          "namn": "Björndalstjärn",
+          "arter": ["Abborre", "Benlöja", "Gädda", "Lake", "Mört", "Ål"],
+          "kalla": "vastsverige / dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/dalsed/produkter/AsensFVO/",
+          "evidence": "Samma FVO-artlista för Åstjärn, Björndalstjärn, Dammtjärn och Bergtjärn."
+        },
+        {
+          "namn": "Dammtjärn",
+          "arter": ["Abborre", "Benlöja", "Gädda", "Lake", "Mört", "Ål"],
+          "kalla": "vastsverige / dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/dalsed/produkter/AsensFVO/",
+          "evidence": "Samma FVO-artlista för Åstjärn, Björndalstjärn, Dammtjärn och Bergtjärn."
+        },
+        {
+          "namn": "Bergtjärn",
+          "arter": ["Abborre", "Benlöja", "Gädda", "Lake", "Mört", "Ål"],
+          "kalla": "vastsverige / dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/dalsed/produkter/AsensFVO/",
+          "evidence": "Samma FVO-artlista för Åstjärn, Björndalstjärn, Dammtjärn och Bergtjärn."
+        }
+      ]
+    },
+    {
+      "namn": "Sågtjärnens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Stora Sågtjärn",
+          "arter": ["Abborre", "Gädda", "Mört", "Sutare"],
+          "kalla": "vastsverige / dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/dalsed/produkter/lilla-stora-sagtjarns-fvo/",
+          "evidence": "Stora/Lilla Sågtjärns FVO — Omfattning: Stora/Lilla Sågtjärn. Fiskarter: Goda bestånd av Gädda, Abborre och Mört. Sparsamt med Sutare."
+        },
+        {
+          "namn": "Lilla Sågtjärn",
+          "arter": ["Abborre", "Gädda", "Mört", "Sutare"],
+          "kalla": "vastsverige / dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/dalsed/produkter/lilla-stora-sagtjarns-fvo/",
+          "evidence": "Samma artlista för Stora och Lilla Sågtjärn."
+        }
+      ]
+    },
+    {
+      "namn": "Vångsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Vångsjön",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Gärs",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/globalassets/dals-ed/dals-ed--fiskeguiden-2020.pdf",
+          "evidence": "Vångsjön — Omfattar: Vångsjön och Vägneälven. Fiskarter: Gädda, abborre, ål, sarv, gärs, björkna, lake, mört, löja, braxen, gösyngel och sutare."
+        },
+        {
+          "namn": "Vägneälven",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Björkna",
+            "Braxen",
+            "Gärs",
+            "Gädda",
+            "Gös",
+            "Lake",
+            "Mört",
+            "Sarv",
+            "Sutare",
+            "Ål"
+          ],
+          "kalla": "dals-ed_fiskeguide_2020",
+          "url": "https://www.vastsverige.com/globalassets/dals-ed/dals-ed--fiskeguiden-2020.pdf",
+          "evidence": "Samma FVO-artlista gäller Vångsjön och Vägneälven."
+        }
+      ]
+    },
+    {
+      "namn": "Emten-Flämsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Flämsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/skara/produkter/fiskemojligheter-i-skaratrakten/",
+          "evidence": "Pimpelfiske i Vallesjöarna — Flämsjön, Ämten, Skärvalången, Eggbysjön, Vagnssjön eller Bysjön: Här finns gott om fisk, såsom gädda och fina exemplar av abborre."
+        },
+        {
+          "namn": "Emten",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/skara/produkter/fiskemojligheter-i-skaratrakten/",
+          "evidence": "Ämten (=Emten) anges bland Vallesjöarna med gädda och abborre. Separat sektion Flämsjön och Ämten under samma FVO."
+        }
+      ]
+    },
+    {
+      "namn": "Enhangens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Enhangen",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Enhangens FVO täcker elva sjöar … De vanligaste fiskarterna är abborre och gädda."
+        },
+        {
+          "namn": "Skattagårdssjö",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Övre Stångsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Yttre Stångsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Ugglebosjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Lilla Abborrasjö",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Stora Kolsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Djupasjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Stora Agnsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Lilla Agnsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        },
+        {
+          "namn": "Gölen",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "orsas.se",
+          "url": "https://www.orsas.se/enhangens-fiskevardsforening/",
+          "evidence": "Samma FVO-artlista (abborre, gädda) för alla elva namngivna sjöar."
+        }
+      ]
+    },
+    {
+      "namn": "Moga-Annlarps fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Mogasjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/",
+          "evidence": "I Moga-Annlarps fiskevårdsområde ingår det fyra sjöar; Mogasjön, Annlarpssjön, Hökasjön och Gärdessjön. Här nappar de vanliga insjöfiskarna så som gädda och abborre."
+        },
+        {
+          "namn": "Annlarpssjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/",
+          "evidence": "Samma artlista för Mogasjön, Annlarpssjön, Hökasjön och Gärdessjön."
+        },
+        {
+          "namn": "Hökasjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/",
+          "evidence": "Samma artlista för Mogasjön, Annlarpssjön, Hökasjön och Gärdessjön."
+        },
+        {
+          "namn": "Gärdessjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/svenljunga-tranemo/produkter/fvo-moga-annlarp/",
+          "evidence": "Samma artlista för Mogasjön, Annlarpssjön, Hökasjön och Gärdessjön."
+        }
+      ]
+    },
+    {
+      "namn": "Tjurken-Kalvens fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Tjurken",
+          "arter": ["Abborre", "Braxen", "Gädda", "Mört", "Sutare"],
+          "kalla": "visittingsryd.se",
+          "url": "https://www.visittingsryd.se/en/fishing-tjurken-kalven",
+          "evidence": "Visit Tingsryd: Fishing license valid in Tjurken and Kalven … Fish species Roach, perch, pike, tench and bream. (FVO kommuner=Ronneby; gräns Tingsryd/Ronneby.)"
+        },
+        {
+          "namn": "Kalven",
+          "arter": ["Abborre", "Braxen", "Gädda", "Mört", "Sutare"],
+          "kalla": "visittingsryd.se",
+          "url": "https://www.visittingsryd.se/en/fishing-tjurken-kalven",
+          "evidence": "Samma artlista för Tjurken och Kalven."
+        }
+      ]
+    },
+    {
+      "namn": "Ödesjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Ödesjön",
+          "arter": ["Gös"],
+          "kalla": "ydre.se",
+          "url": "https://www.ydre.se/destinationydre/besoka/artiklar/2024-05-13-fiskesjoar",
+          "evidence": "Ydre kommun Fiskesjöar: Gös - Ödesjön, Raklången och Sommen. (Endast Gös vattenkopplad här; övriga kommunlistade arter är kommunövergripande.)"
+        }
+      ]
+    }
+  ]
+}

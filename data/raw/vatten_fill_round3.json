@@ -1,0 +1,433 @@
+{
+  "generated_at": "2026-09-15T16:44:56.965848+00:00",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "fuzzy_cross_county": false,
+    "note": "Only explicit 1:1 water×species. NEW vs round1/round2. Rejected NK tags-only and multi-water utan vattenkoppling (Käls, Kroppefjäll FVO-nivå, Flagen tags)."
+  },
+  "stats": {
+    "fvo_with_enrichments": 16,
+    "total_vatten_rows": 23,
+    "by_lan": {
+      "Östergötland": 4,
+      "Kronoberg": 1,
+      "Värmland": 1,
+      "Västra Götaland": 4,
+      "Jönköping": 1,
+      "Södermanland": 1,
+      "Västernorrland": 3,
+      "Skåne": 1
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Ristens fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Risten",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Nors",
+            "Sarv",
+            "Sutare"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/ostergotlands-lans-fiskevattenagareforbund/?o=151",
+          "evidence": "De viktigaste matfiskarna i sjön är gädda och abborre... Lake förekommer sällsynt. Av mindre fiskar finns t.ex. nors. ... vitfisk; braxen, mört, sutare och sarv."
+        }
+      ]
+    },
+    {
+      "namn": "Lagans (Hamneda-Traryd) fvof",
+      "lan": "Kronoberg",
+      "vatten": [
+        {
+          "namn": "Lagan",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/kronobergs-lans-fiskevattenagareforbund/?o=646",
+          "evidence": "I norr ... öring och regnbåge samt ... gädda. ... God tillgång på gös ... gädda och aborre håller sig i huvudsak till de grundare delarna."
+        },
+        {
+          "namn": "Trarydsdammen",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Regnbåge",
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/kronobergs-lans-fiskevattenagareforbund/?o=646",
+          "evidence": "Magasinet (Trarydsdammen) bjuder på ... Alla vattnets förekommande arter går att finna här i söder."
+        }
+      ]
+    },
+    {
+      "namn": "Dalby fvof",
+      "lan": "Värmland",
+      "vatten": [
+        {
+          "namn": "Norra Liksjötjärn",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=729",
+          "evidence": "Norra Liksjötjärn. Put and takevatten med inplanterad regnbågslax."
+        },
+        {
+          "namn": "Klarälven",
+          "arter": [
+            "Harr"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=729",
+          "evidence": "Klarälven. Harrfiske i lugnvatten."
+        },
+        {
+          "namn": "Likån",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=729",
+          "evidence": "Flera åar och bäckar med naturligt bäcköringbestånd exempelvis Likån, delar av Ljusnan."
+        },
+        {
+          "namn": "Ljusnan",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/varmlands-lans-fiskevardsforbund/?o=729",
+          "evidence": "naturligt bäcköringbestånd exempelvis Likån, delar av Ljusnan."
+        }
+      ]
+    },
+    {
+      "namn": "Varnums och Marsjöarnas fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Varnum",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=365",
+          "evidence": "Varnum, Marsjöarna — Fina gäddfiskevatten med möjlighet att fiska de riktigt stora gäddorna!"
+        },
+        {
+          "namn": "Marsjöarna",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "vattenagarna",
+          "url": "https://www.vattenagarna.se/sodra-alvsborgs-fiskevattenagareforbund/?o=365",
+          "evidence": "Samma mening; båtramp nämns i Västra Marsjön."
+        }
+      ]
+    },
+    {
+      "namn": "Övrasjöns fvof",
+      "lan": "Jönköping",
+      "vatten": [
+        {
+          "namn": "Övrasjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Röding"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/jonkopings-lan/ovrasjons-fvof",
+          "evidence": "I sjön förekommer ... storvuxen abborre och gäddor uppemot 10 kg. Storröding inplanterades 2011-2012 men all ev. fångst skall återsättas."
+        }
+      ]
+    },
+    {
+      "namn": "Årsjöns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Årsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/fiske-i-arsjon",
+          "evidence": "Främst får man upp abborre och gädda men även mört ... I Årsjön, den större sjön, finns möjlighet för varierat fiske..."
+        },
+        {
+          "namn": "Holmsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/fiske-i-holmsjon",
+          "evidence": "Årsjön, Holmsjön och Grönsjön ... Främst får man upp abborre och gädda men även mört."
+        },
+        {
+          "namn": "Grönsjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Mört"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/fiske-i-gronsjon",
+          "evidence": "Samma FVO-text för de tre sjöarna: abborre, gädda, mört."
+        }
+      ]
+    },
+    {
+      "namn": "Pickesjön fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Pickesjön",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Karp",
+            "Mört",
+            "Regnbåge",
+            "Ål"
+          ],
+          "kalla": "boras.se",
+          "url": "https://www.boras.se/upplevaochgora/friluftslivochnatur/fiske/pickesjonfiskevardsomrade.5.6ef5a1031900c68011c54e35.html",
+          "evidence": "Fisk i Pickesjön: ål, gädda, regnbågslax, abborre, mört; planteras regnbåge; Karp får inte tas upp utan skall återutsättas."
+        }
+      ]
+    },
+    {
+      "namn": "Öljarens fvof",
+      "lan": "Södermanland",
+      "vatten": [
+        {
+          "namn": "Öljaren",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös"
+          ],
+          "kalla": "oljaren.se",
+          "url": "https://www.oljaren.se/",
+          "evidence": "I sjön finns abborre, gös, gädda mm"
+        }
+      ]
+    },
+    {
+      "namn": "Gäddtjärnens fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Gäddtjärn",
+          "arter": [
+            "Abborre",
+            "Röding",
+            "Öring"
+          ],
+          "kalla": "sff-stenbiten.se",
+          "url": "https://www.sff-stenbiten.se/gaddtjarn/",
+          "evidence": "Vikt på öring 5-9/hg. Röding 5/hg- till ca 3 kg. Även abborre förekommer."
+        }
+      ]
+    },
+    {
+      "namn": "Omsjö fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Karvsjön",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "omsjo.com",
+          "url": "https://omsjo.com/fisket/",
+          "evidence": "Vi ser gärna att den gädda som fiskas upp ur Karvsjön inte sätts tillbaka ... Vi är rädda om de ädelfiskar som finns i sjön."
+        }
+      ]
+    },
+    {
+      "namn": "Borgsjö mellersta fvof",
+      "lan": "Västernorrland",
+      "vatten": [
+        {
+          "namn": "Torråstjärn",
+          "arter": [
+            "Röding"
+          ],
+          "kalla": "laget.se",
+          "url": "https://www.laget.se/BORGSJO_MELLERSTAFVO",
+          "evidence": "fiskesommar i Torråstjärn. Vi kommer i vanlig ordning att inplantera Röding inför vinter fisket"
+        }
+      ]
+    },
+    {
+      "namn": "Mollsjöns fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Mollsjön",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "mollsjon.se",
+          "url": "https://www.mollsjon.se/",
+          "evidence": "Snart nappar Abborren och Gäddan igen ... Mats med abborre på 1 kg"
+        }
+      ]
+    },
+    {
+      "namn": "Ärtingens fvof",
+      "lan": "Västra Götaland",
+      "vatten": [
+        {
+          "namn": "Ärtingen",
+          "arter": [
+            "Abborre",
+            "Benlöja",
+            "Braxen",
+            "Gädda",
+            "Lake",
+            "Mört",
+            "Regnbåge",
+            "Sarv",
+            "Sik",
+            "Siklöja",
+            "Sutare",
+            "Ål",
+            "Öring"
+          ],
+          "kalla": "vastsverige",
+          "url": "https://www.vastsverige.com/bengtsfors/produkter/artingens-fiskevardsomrade/",
+          "evidence": "Omfattning: Ärtingen. Fiskarter: Abborre, gädda, ål, sik, siklöja, mört, löja, lake, braxen, sarv, sutare och sparsamt med öring och regnbåge. Bra bestånd av grov abborre."
+        }
+      ]
+    },
+    {
+      "namn": "Vaxsjöns fvof",
+      "lan": "Skåne",
+      "vatten": [
+        {
+          "namn": "Vaxsjön",
+          "arter": [
+            "Abborre",
+            "Braxen",
+            "Gädda",
+            "Gös",
+            "Mört",
+            "Sarv",
+            "Sutare"
+          ],
+          "kalla": "vaxsjon.se",
+          "url": "https://web.archive.org/web/20190824051324id_/http://vaxsjon.se/info.html",
+          "evidence": "Fiskarter I sjön finns följande arter: Gädda, Abborre, Sutare, Mört, Sarv, Braxen och Gös."
+        }
+      ]
+    },
+    {
+      "namn": "Stångån-Linköpings fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Stångån",
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/nedre-stangan",
+          "evidence": "Stångåns nedre delar ... ingår i Stångån-Linköpings fiskevårdsområde. Här kan du fiska efter bland annat gädda och abborre mitt inne i staden."
+        }
+      ]
+    },
+    {
+      "namn": "Nedre Svartåns fvof",
+      "lan": "Östergötland",
+      "vatten": [
+        {
+          "namn": "Svartån",
+          "arter": [
+            "Abborre",
+            "Asp",
+            "Gädda"
+          ],
+          "kalla": "naturkartan",
+          "url": "https://www.naturkartan.se/sv/ostergotlands-lan/nedre-svartan",
+          "evidence": "Sträckan ingår i Nedre Svartåns fiskevårdsområde och bjuder på fint fiske efter framförallt abborre och gädda. Här finns även asp"
+        }
+      ]
+    }
+  ],
+  "rejected_near_misses": [
+    {
+      "namn": "Käls fvof",
+      "lan": "Västernorrland",
+      "reason": "vissa_vatten_fuzzy",
+      "detail": "Regnbåge/Röding i vissa vatten; Gädda/Abborre i några — ej namngivna vatten."
+    },
+    {
+      "namn": "Kroppefjälls fvof",
+      "lan": "Västra Götaland",
+      "reason": "fvo_level_species_list",
+      "detail": "vastsverige listar 11 tjärnar + gemensam artlista utan per-vatten koppling."
+    },
+    {
+      "namn": "Björsesjöns fvof",
+      "lan": "Jönköping",
+      "reason": "tags_only_no_lake_prose",
+      "detail": "NK art-taggar utan beskrivningsprosa (samma reject som round2)."
+    },
+    {
+      "namn": "Flagens fvof",
+      "lan": "Jönköping",
+      "reason": "named_waters_without_per_water_species",
+      "detail": "Flagen/Ryd/Ödshultasjön namngivna; arter endast FVO-taggar."
+    },
+    {
+      "namn": "Böljesjöns fvof",
+      "lan": "Västra Götaland",
+      "reason": "named_waters_without_per_water_species",
+      "detail": "abborresjon.se namnger flera sjöar utan explicit per-sjö arter."
+    },
+    {
+      "namn": "Leduåns fvof",
+      "lan": "Västerbotten",
+      "reason": "restoration_stocking_other_fvo",
+      "detail": "Havsöringsutsättning främst på Orrböle/Bjärtens FVO; ej tydlig etablerad artlista för Leduåns egna vatten."
+    },
+    {
+      "namn": "Mellanströms fvof",
+      "lan": "Norrbotten",
+      "reason": "multi_water_fvo_level",
+      "detail": "mellanstrom.se: många fiskevatten med abborre/gädda/harr/sik/öring utan namngiven sjö."
+    },
+    {
+      "namn": "Helgesjöns fvof",
+      "lan": "Jämtland",
+      "reason": "no_species_on_va_page",
+      "detail": "VA beskriver Helgesjön men nämner inga fiskarter."
+    }
+  ]
+}

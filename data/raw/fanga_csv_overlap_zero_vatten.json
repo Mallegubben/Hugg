@@ -1,0 +1,336 @@
+{
+  "source_csv": "data/raw/FANGA_GENUINE_SOURCE_GAPS_v356.csv",
+  "csv_rows": 4088,
+  "csv_unique_fvo": 232,
+  "artlista_zero_vatten": 130,
+  "overlap_fvo_count": 26,
+  "overlap_by_lan": {
+    "Jämtland": 3,
+    "Norrbotten": 6,
+    "Östergötland": 13,
+    "Västernorrland": 1,
+    "Västmanland": 2,
+    "Dalarna": 1
+  },
+  "overlap": [
+    {
+      "namn": "Fjällsjö fvof",
+      "lan": "Jämtland",
+      "csv_waters": 156,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Abborrtjärnen",
+        "Abborrvattnet",
+        "Backesjön",
+        "Bergsjöflärken",
+        "Bergsjöloken",
+        "Bergsjömyrtjärnen",
+        "Bergsjön",
+        "Bjurbäcken"
+      ]
+    },
+    {
+      "namn": "Holmträsk fvof",
+      "lan": "Norrbotten",
+      "csv_waters": 34,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Gåjkáhpetjärnarna",
+        "Harrokträsket",
+        "Holmträskbäcken",
+        "Holmträsket",
+        "Häbberstjärnen",
+        "Kattistjärnen",
+        "Kitnaträsket",
+        "Klarvattentjärnen"
+      ]
+    },
+    {
+      "namn": "Hemsjöns m fl sjöars fvof",
+      "lan": "Östergötland",
+      "csv_waters": 11,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Abborregöl",
+        "Bjärken",
+        "Hemsjön",
+        "Kuttgölen",
+        "Lilla Klevsgölen",
+        "Lomgölen",
+        "Namnlöst vattendrag",
+        "Nerskjulen"
+      ]
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "csv_waters": 10,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Djupbäcken",
+        "Fyringssjön",
+        "Fyrån",
+        "Kälabäcken",
+        "Lill-Raftsjön",
+        "Norsksjön",
+        "Raftan",
+        "Sandvikbäcken"
+      ]
+    },
+    {
+      "namn": "Luleå fvof",
+      "lan": "Norrbotten",
+      "csv_waters": 10,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Gammelstadsfjärden",
+        "Germandöfjärden",
+        "Harrbäcken",
+        "Hertsöfjärden",
+        "Inre Lulefjärden",
+        "Luleälven",
+        "Sandöfjärden",
+        "Storbäcken"
+      ]
+    },
+    {
+      "namn": "Mellanströms fvof",
+      "lan": "Norrbotten",
+      "csv_waters": 8,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Båtsabäcken",
+        "Harrur",
+        "Harrurbäcken",
+        "Kvarntjärnen",
+        "Makaure",
+        "Skellefteälven",
+        "Storavan",
+        "Uddjaure  (Aisjaure)"
+      ]
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "csv_waters": 7,
+      "status": "LÄNSGRANSKAD – Fiskekartan-struktur verifierad; vattenunikt artbelägg saknas",
+      "sample_waters": [
+        "Bredvikbäcken",
+        "Brändån",
+        "Muskusbäcken",
+        "Nörd-Vistträsket",
+        "Sör-Vistträsket",
+        "Vistbäcken",
+        "Vistån"
+      ]
+    },
+    {
+      "namn": "Stortannsjöns fvof",
+      "lan": "Västernorrland",
+      "csv_waters": 6,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Gåltjärnen",
+        "Oxögat",
+        "Stortannsjön",
+        "Tannån",
+        "Fäbodviken",
+        "Oxögat"
+      ]
+    },
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "csv_waters": 5,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Dammen",
+        "Gryten",
+        "Grytgölen",
+        "Namnlöst vattendrag",
+        "Namnlöst vattendrag"
+      ]
+    },
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "csv_waters": 5,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Axsjön",
+        "Nedre Högsjön",
+        "Vån",
+        "Åländern",
+        "Övre Högsjön"
+      ]
+    },
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "csv_waters": 5,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Frögöl",
+        "Namnlöst vattendrag",
+        "Namnlöst vattendrag",
+        "Skirsjön",
+        "Ängsjön"
+      ]
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "csv_waters": 4,
+      "status": "LÄNSGRANSKAD – Fiskekartan-struktur verifierad; vattenunikt artbelägg saknas",
+      "sample_waters": [
+        "Alavuomanjärvi",
+        "Pirttiniemenjoki",
+        "Saukkoriipinjärvi",
+        "Suaninkijärvi"
+      ]
+    },
+    {
+      "namn": "Antvardens fvof",
+      "lan": "Östergötland",
+      "csv_waters": 4,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Antvarden",
+        "Mossjön",
+        "Namnlöst vattendrag",
+        "Sågbäcken"
+      ]
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "csv_waters": 3,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Luleälven",
+        "Råbäcken",
+        "Sävastån"
+      ]
+    },
+    {
+      "namn": "Tappebosjöarnas fvof",
+      "lan": "Västmanland",
+      "csv_waters": 3,
+      "status": "LÄNSGRANSKAD – struktur verifierad; vattenunikt artbelägg saknas",
+      "sample_waters": [
+        "Norra Tappebosjön",
+        "Södra Tappebosjön",
+        "Viggsjön"
+      ]
+    },
+    {
+      "namn": "Rippestorps fvof",
+      "lan": "Östergötland",
+      "csv_waters": 3,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Hagsjön",
+        "Namnlöst vattendrag",
+        "Övre Ripplingen"
+      ]
+    },
+    {
+      "namn": "Värnasjön-Strålången fvof",
+      "lan": "Östergötland",
+      "csv_waters": 3,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Dyveln",
+        "Strålången",
+        "Värnasjön"
+      ]
+    },
+    {
+      "namn": "Nävdens fvof",
+      "lan": "Dalarna",
+      "csv_waters": 2,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Grytnäsån",
+        "Hällsjöbäck"
+      ]
+    },
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "csv_waters": 2,
+      "status": "UNRESOLVED",
+      "sample_waters": [
+        "Landsomsjöbäcken",
+        "Landsomsjön"
+      ]
+    },
+    {
+      "namn": "Ljömsebosjöns fvof",
+      "lan": "Västmanland",
+      "csv_waters": 2,
+      "status": "LÄNSGRANSKAD – struktur verifierad; vattenunikt artbelägg saknas",
+      "sample_waters": [
+        "Ljömsebosjön",
+        "Västanbäcksbäcken"
+      ]
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "csv_waters": 2,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Horsfjärden",
+        "Namnlöst vattendrag"
+      ]
+    },
+    {
+      "namn": "Österby fvof",
+      "lan": "Östergötland",
+      "csv_waters": 2,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Fagerhultegöl",
+        "Namnlöst vattendrag"
+      ]
+    },
+    {
+      "namn": "Byngarens fvof",
+      "lan": "Östergötland",
+      "csv_waters": 1,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Byngaren"
+      ]
+    },
+    {
+      "namn": "Gulten-Hanesjöns fvof",
+      "lan": "Östergötland",
+      "csv_waters": 1,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Gulten"
+      ]
+    },
+    {
+      "namn": "Tångens fvof",
+      "lan": "Östergötland",
+      "csv_waters": 1,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Tången"
+      ]
+    },
+    {
+      "namn": "Värnässjöns fvof",
+      "lan": "Östergötland",
+      "csv_waters": 1,
+      "status": "FVO-GODKÄND – operativ områdesartlista; vattenunik detalj kan kompletteras",
+      "sample_waters": [
+        "Värnässjön"
+      ]
+    }
+  ],
+  "note": "CSV lists named waters lacking water-unique species evidence. Overlap = still 0-vatten in artlista after round8. Do not fill from FVO-OMRÅDE alone; need water×species prose."
+}

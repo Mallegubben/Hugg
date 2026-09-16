@@ -1,0 +1,202 @@
+{
+  "generated_at": "2026-09-16T01:49:58Z",
+  "policy": {
+    "ifiske_artdata": false,
+    "natureit": false,
+    "artportalen": false,
+    "note": "Only verified 1:1 water×species from FVOF/municipal/tourism/Naturkartan/vattenagarna/brochure prose (or iFiske prose naming species for a named water). No iFiske icons/NatureIT/Artportalen. No cross-county. Species must be subset of arter_fvo. Twin caution for Långvattnets 1644≠1619; Saxnäs≠Vilhelmina; Stora Sikträsk≠Gällivare; Holmträskbygden≠Jokkmokk Holmträsk; Nordanede≠Nedre Gimån; Rörträsk-Bredträsk needs clear FVO link; Mellanström FVO-level 'exempel…' rejected."
+  },
+  "stats": {
+    "fvo_with_enrichments": 1,
+    "total_vatten_rows": 5,
+    "searched_but_empty": 20,
+    "by_lan": {
+      "Norrbotten": 1,
+      "Västerbotten": 0,
+      "Västernorrland": 0
+    }
+  },
+  "enrichments": [
+    {
+      "namn": "Holmträsk fvof",
+      "lan": "Norrbotten",
+      "object_id": 221,
+      "vatten": [
+        {
+          "namn": "Holmträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik"
+          ],
+          "kalla": "snesuddenfiske.se (Wayback)",
+          "url": "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html",
+          "evidence": "Naturligt fiskbestånd: Holmträsk (Sj nr 7) Abborre, gädda, sik, harr & lake. (Startsida: Utanför planterade vatten finns Holmträsket med sitt naturliga bestånd av abborre, gädda, mört, lake, sik och harr. Välkommen önskar Holmträsk fiskevårdsområde.)"
+        },
+        {
+          "namn": "Holmträskbäcken",
+          "arter": [
+            "Harr"
+          ],
+          "kalla": "snesuddenfiske.se (Wayback)",
+          "url": "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html",
+          "evidence": "Naturligt fiskbestånd: Holmträskbäcken (Vattendrag nr 8) Harr. (Även Om fisket: Harrokbäcken och Holmträskbäcken finns självföryngrad harr.)"
+        },
+        {
+          "namn": "Harrokbäcken",
+          "arter": [
+            "Harr"
+          ],
+          "kalla": "snesuddenfiske.se (Wayback)",
+          "url": "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html",
+          "evidence": "Naturligt fiskbestånd: Harrokbäcken (Vattendrag nr 9) Harr. (Även Om fisket: Harrokbäcken och Holmträskbäcken finns självföryngrad harr.)"
+        },
+        {
+          "namn": "Stora Utterträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kalla": "snesuddenfiske.se (Wayback)",
+          "url": "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html",
+          "evidence": "Plantering: Stora Utterträsk (Sj nr 1) öring, röding & regnbåge. Naturligt fiskbestånd: Stora Utterträsk (Sj nr 1) Abborre & gädda. (Öring/röding utelämnade — saknas i FVO arter_fvo; endast Regnbåge + naturliga abborre/gädda.)"
+        },
+        {
+          "namn": "Långträsket",
+          "arter": [
+            "Regnbåge"
+          ],
+          "kalla": "snesuddenfiske.se (Wayback)",
+          "url": "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html",
+          "evidence": "Plantering sker enligt följande: Långträsk (Sj nr 6) Röding & regnbåge. (Röding utelämnad — saknas i FVO arter_fvo.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 182,
+      "notes": "Norsjö. Visit Lycksele sök tomt. norsjosfk other_fishing nämner ej Bjurträsk-sjön (endast put&take Kattöggeltjärn '(Bjurträsk)' ≠ Bjurträsk fvof). iFiske 404/ERR. Ingen municipal/tourism 1:1."
+    },
+    {
+      "namn": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 66,
+      "notes": "Norsjö. ≠ Jokkmokk Holmträsk (snesudden) och ≠ Byssträsk-Nyliden Holmträsket (Lycksele). Visit Lycksele/norsjosfk utan 1:1 för Holmträskbygdens FVO."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Visit Lycksele/Visit Malå utan namngiven Kokträsk×species (Malåkortet endast FVO-nivå gädda/abborre/röding/öring). fiskei/huggtabell/user-catch ej godkända. Ingen municipal artprosa."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln. Visit Lycksele/Visit Vindeln utan Kussjö artprosa. Ingen FVO-sida med 1:1."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. visitlycksele kanotled-maltan nämner Maltträsk/Maltån utan fiskarter. Ingen FVO-sida med water×species."
+    },
+    {
+      "namn": "Petikträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 213,
+      "notes": "Norsjö/Skellefteå. Gold of Lapland fiskekarta märker PETIKTRÄSK som plats utan artlista. norsjosfk/Visit Lycksele utan namngiven Petikträsk artprosa. Wikipedia utan fauna."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 197,
+      "notes": "Norsjö/Malå/Lycksele. Visit Lycksele Rökå-sök träffar ej Rökåbygden FVO (Kattisavan m.fl. andra). Ingen artprosa."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "object_id": 1883,
+      "notes": "Norsjö. norsjosfk other_fishing: BREDTRÄSKET ~1,5 mil S Glommersträsk med sik + harr, öring, röding — ingen explicit FVO-länk till Rörträsk-Bredträsks fvof; röding saknas i FVO arter. Gold of Lapland-karta visar RÖRTRÄSK/BREDTRÄSK som platser utan arttext. Policy: needs clear FVO link — ej använt."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "notes": "Sorsele (Vindelälven). sportfiskeguide nämner Saxnäs FVO + Vindelälven utan arter. Rejected Vilhelmina Saxnäs/Kultsjön fjällöring-prosa (annan plats). Sorsele.se fiske-URL 404; ingen 1:1."
+    },
+    {
+      "namn": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 199,
+      "notes": "Malå/Lycksele. Visit Lycksele/Visit Malå utan FVO-sida med arter."
+    },
+    {
+      "namn": "Stora Sikträskets fvof",
+      "lan": "Västerbotten",
+      "object_id": 128,
+      "notes": "Norsjö. ≠ Gällivare Sikträsk. Gold of Lapland-karta märker SIKTRÄSKET utan arter. norsjosfk nämner ej Stora Sikträsk. User-catch/FishAngler ej godkända."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 54,
+      "notes": "Bjurholm/Vindeln/Lycksele. Visit Lycksele fiska-i-lycksele generellt utan namngiven Strömsjönäs. Ingen FVO-sida."
+    },
+    {
+      "namn": "Mellanströms fvof",
+      "lan": "Norrbotten",
+      "object_id": 246,
+      "notes": "mellanstrom.se/fiske: 'goda fångster av till exempel abborre, gädda, harr, sik och öring' — fortfarande FVO-nivå utan namngivna vatten (known reject). Fiskekarta PDF endast gränser/nätfiske, ingen artlista. Båtsabäcken nämns ej med arter."
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "object_id": 234,
+      "notes": "Pajala/Suaninkijärvi. Wikipedia nämner FVO utan artprosa; pajala.se fiske 404; ingen tourism/FVOF water×species."
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "object_id": 225,
+      "notes": "Luleå/Boden. sportfiskeguide Luleälven (Boden–Luleå / SFK Börstingen) utan 1:1 till Sävastån/Råbäcken/Unbyn; boden.se fiske 404; blogginlägg Unbyn 'fiskar lax och öring' utan namngivet vatten×FVO."
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "object_id": 245,
+      "notes": "Älvsbyn. Ingen Nörd-/Sör-Vistträsket×species-prosa; PT/Djupträsket (Älvsby SFK) ≠ Vistträsk FVO; Wikipedia ortstext utan arter."
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "object_id": 1644,
+      "notes": "Twin caution: object_id 1644 = ORIGINALID 1217 (Sollefteå/Örnsköldsvik, ingen vattenagarna-URL). Twin 1619 / VA o=545 redan fylld (Salomonstjärn m.fl.). Sollefteå.se 404 på fiske-URL; ingen separat per-vatten prosa för 1644."
+    },
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "object_id": 1617,
+      "notes": "Edsele/Sollefteå (org 888800-5876) ≠ Nedre Gimåns FVO (Ånge/Torpshammar). Ingen Sollefteå/Edsele water×species; iFiske 404."
+    },
+    {
+      "namn": "Stortannsjöns fvof",
+      "lan": "Västernorrland",
+      "object_id": 1621,
+      "notes": "iFiske 404; Naturguiden Örnsköldsvik utan sida; Sollefteå/vattenagarna utan namngivet Stortannsjön×species."
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "object_id": 1631,
+      "notes": "Timrå/Sundsvall (Indal). Timrå iFiske listar Bergeforsen/Liden/Ljustorp/Mjällån — ej Östanskär; sportfiskeguide Indalsälven ej knuten 1:1 till Östanskärs FVOF."
+    }
+  ]
+}

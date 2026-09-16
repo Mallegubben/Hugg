@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-09-16T03:02:18Z",
+  "round": "14c",
+  "policy": {
+    "allowed": [
+      "Länsstyrelsen reports / fiskeguides",
+      "municipal miljö / nätprovfiske / kost-prosa",
+      "FVOF annual protocols",
+      "local newspaper / local association articles naming lake+species",
+      "university/SLU reports IF they name the water",
+      "Naturkartan prose",
+      "Hitta Fiske prose",
+      "wayback FVOF / municipal pages",
+      "HaV/LST fredningsremisser naming FVO×water×species"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske icons / Fiskarter icon blocks",
+      "Fishbrain",
+      "unverified forums",
+      "iFiske catch reports"
+    ],
+    "mapping": "1:1 water×species; species must be subset of arter_fvo; no fuzzy cross-county",
+    "multi_lake": "assign only when source assigns per named water OR clearly same species for ALL named lakes / samtliga vatten in that FVO",
+    "note": "LAST-MILE deep hunt for remaining zeros (~90 after excluding Romesjöns, Mellanströms, Stortannsjöns, Sönner och Mellantjärns, Byngarens, Grindsjöns, Henarens). Alternate sources: local newspapers, LST/HaV fredning, municipal MKB (spatial-gated), NORS twins rejected, iFiske icon blocks rejected."
+  },
+  "stats": {
+    "targets_remaining_at_start": 90,
+    "fvo_with_enrichments": 2,
+    "total_vatten_rows": 2,
+    "searched_but_empty": 28,
+    "by_lan": {
+      "Stockholm": 1,
+      "Västerbotten": 1
+    },
+    "sources_checked": [
+      "Skärgården.se — Ramsmora by FVO gäddlek Norrviken (2022-07-18)",
+      "HaV remiss FIFS 2004:36 bilaga 5 (Norrviken, Lökaön — gäddlekplats; fiskerättsägare)",
+      "Sveriges miljömål — Norrviken biotopskydd (abborre+gädda; abborre ej i arter_fvo)",
+      "Norran — Fisketävling i Släppträsk (2015-07-29): öring/abborre/gädda-klasser",
+      "Kalmar läns museum PDF Idö/Runnö (historiskt ål/strömming/torsk; Runnö abborre/gädda ej i arter_fvo)",
+      "Västervik.se Gladhammars gruvor MKB — already spatial-rejected in r14_ost",
+      "NORS Aquarapporter (Bällsjön Kalmar=Västervik twin vs Nybro FVO; Gunneröd vatten=Uddevalla twin; Sälsjön Visnum twin)",
+      "TTELA Stora Hästefjorden ≠ Östra Hästefjordens fvof",
+      "vastsverige Färgelanda / Södra Järbo lista utan artprosa; iFiske Järbo = Gävleborg twin",
+      "Ale.se / LST Risveden — Kroksjön arter ej Stora Ljusevatten",
+      "mullsjo.se fiska — Brännerisjön ej namngiven; Hitta Fiske Arter-ikoner rejected",
+      "Mariannelunds Fiskeklubb Bruzaån — öring/elritsa (Gädda enda i arter_fvo men ej belagd på ån)",
+      "NSD Sikträsk Malmberget ≠ Stora Sikträskets fvof Norsjö",
+      "Norrtälje Vätö huvud PDF Holmsundet gädda/abborre — ej belagd FVO-membership för Västra Vätösunds",
+      "LST Stockholm Restaurering ytterskärgård R2026:04 — områdesnivå, ej 1:1 remaining FVO",
+      "jarbo-dalsland.se / malatrask.se / petiknas.se — ingen 1:1 artprosa för remaining",
+      "Wikipedia lake pages (API 403 this pass; prior rounds utan Fisk-sektion for most targets)",
+      "iFiske Om Grosken/Revesjö/Vassgården/Åländern — Fiskarter-ikonblock rejected"
+    ]
+  },
+  "enrichments": [
+    {
+      "namn": "Ramsmora Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 29,
+      "vatten": [
+        {
+          "namn": "Norrviken",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "Skärgården.se (lokal tidning) + HaV/LST remiss FIFS fredningsområden",
+          "url": "https://skargarden.se/gaddlekplats-i-mojaskargarden-har-restaurerats/",
+          "evidence": "Skärgården 2022-07-18: Under tre år har Ramsmora by fiskevårdsområde genomfört en restaurering av en lekplats för gädda i Norrviken på Lökaö, öster om Möja. … visar provfiske att mellan 200-300 gäddor vandrat in genom kanalen. Korroborering HaV remiss (LST Stockholm): Områdets namn: Norrviken, Lökaön … I Norrviken pågår ett fiskevårdsprojekt i syfte att skapa lekplats för gädda. Projektet drivs av fiskerättsägarna i samarbete med bl. a. Länsstyrelsen och Stockholms stad. (Sveriges miljömål nämner även abborre som lekart i Norrviken — Abborre saknas i arter_fvo och används ej.)"
+        }
+      ]
+    },
+    {
+      "namn": "Släppträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 199,
+      "vatten": [
+        {
+          "namn": "Släppträsket",
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Öring"
+          ],
+          "kalla": "Norran — lokal tidningsartikel om fisketävling (Släppträsk Intresseförening)",
+          "url": "https://www.norran.se/nyheter/livsstil-fritid/artikel/fisketavling-i-slapptrask/r9zv2voj",
+          "evidence": "Norran 2015-07-29: För tredje året i rad anordnade Släppträsk Intresseförening fisketävling i Släppträsket … Fisketävlingen bestod av olika klasser: öring, abborre och gädda i vuxenklass, abborre och gädda i barnklass. Vinnare i öringsklassen blev Mikael Vikström, Arvidsjaur, med en fångst på fem öringar tätt följd av Liam Björk, Malå … (Lokala deltagare Malå/Lainejaur bekräftar rätt Släppträsk i Malå/Lycksele — ej twin. Samma evidenstyp som Henaren/strömshammar.se i round 14b.)"
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "notes": "Norrtälje. LST ytterskärgård/fredningsremiss/Skärgården utan Byholma×species. Stockholms läns fiskeguide Tips namnger ej Byholma."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 33,
+      "notes": "Värmdö. Skärgårdsstiftelsen/LST reservat utan fiskart-prosa. Historisk notvarp-text utan abborre/storspigg 1:1. arter_fvo Abborre+Storspigg."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "object_id": 50,
+      "notes": "Norrtälje. Ingen tidnings-/fredningsprosa 1:1. Waxholmsbolaget endast bryggnamn."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "object_id": 31,
+      "notes": "Norrtälje. arter_fvo Elritsa/Småspigg/Storspigg — svåra att belägga i prosa. Ingen källa."
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "object_id": 46,
+      "notes": "Vallentuna/Norrtälje. Ingen lokal tidning/LST 1:1."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "notes": "Värmdö/Möja. arter_fvo endast Storspigg. Fiskeguide Tips önivå, ej 1:1."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "object_id": 17,
+      "notes": "Norrtälje. Endast Storspigg i arter_fvo. Ingen prosa."
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "object_id": 48,
+      "notes": "Norrtälje. Ingen fredning/tidning 1:1."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "object_id": 22,
+      "notes": "Norrtälje Vätö. Norrtälje Vätö huvud-PDF: Holmsundet leklokal gädda/abborre — FVO-membership ej verifierad (spatial risk). SKIP."
+    },
+    {
+      "namn": "Bjurträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 182,
+      "notes": "Norsjö. Norran badstrand Kedträsket utan arter. norsjosfk Kattöggeltjärn ≠ FVO. Gold of Lapland utan 1:1."
+    },
+    {
+      "namn": "Petikträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 213,
+      "notes": "Norsjö/Skellefteå. petiknas.se otillgänglig/utan artprosa. Gold of Lapland pin utan arter."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Norran byakamp (brännboll) ≠ fiske. malatrask.se utan namngiven Kokträsk×species."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. visitlycksele kanotled namnger utan arter."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln. Wikipedia/Visit utan fauna."
+    },
+    {
+      "namn": "Stora Sikträskets fvof",
+      "lan": "Västerbotten",
+      "object_id": 128,
+      "notes": "Norsjö. REJECT NSD/Kuriren Sikträsk Malmberget (Gällivare twin)."
+    },
+    {
+      "namn": "Holmträskbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 66,
+      "notes": "Norsjö. ≠ Lill-Holmträsket Kalvträsk (Norran) / Holmträsk-Storsjö iFiske."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "notes": "Sorsele. ≠ Saxnäs Vilhelmina/Kultsjödalens fiskecentrum fjällöring."
+    },
+    {
+      "namn": "Östra Hästefjordens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 987,
+      "notes": "Vänersborg. REJECT Stora Hästefjorden TTELA/NORS/Wikipedia. Wikipedia Östra utan Fisk-sektion. Fishbrain rejected."
+    },
+    {
+      "namn": "Gunneröds fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1051,
+      "notes": "Orust. REJECT NORS Gunneröd vatten Uddevalla twin (r13/r14)."
+    },
+    {
+      "namn": "Kolungens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1020,
+      "notes": "Mellerud. NORS saknar. Teåker signalkräfta otillräcklig. Wikipedia utan fauna."
+    },
+    {
+      "namn": "Groskens fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1153,
+      "notes": "Ulricehamn. iFiske fiske-grosken Fiskarter-ikonblock (Abborre/Gädda/Mört) rejected — samma policy som Revesjö/Vassgården. Catch-reports rejected."
+    },
+    {
+      "namn": "Södra Järbo fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1164,
+      "notes": "Färgelanda. vastsverige lista utan arter. iFiske Järbo FVOF = Gävleborg (Jädraån) twin. jarbo-dalsland.se utan artprosa."
+    },
+    {
+      "namn": "Stora Ljusevatten fvof",
+      "lan": "Västra Götaland",
+      "object_id": 1187,
+      "notes": "Ale/Risveden. LST/Ale Kroksjön regnbåge/öring/röding ≠ Ljusevatten (r14_vg)."
+    },
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "notes": "Nybro i artlista. NORS/Wikipedia Bällsjön SjöID 643397-154085 = Västervik twin. arter_fvo endast Sutare — ingen Nybro-prosa."
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "notes": "Västervik. Gruv-MKB Tjursbosjön/Ekenässjön spatialt UTANFÖR FVO (r14_ost). Kyrksjön innanför utan artlista i bilaga."
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "notes": "Västervik. Kalmar museum: ål/strömming/torsk/fjällfisk — Abborre/Benlöja/spigg ej tydligt 1:1 modern prosa."
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "notes": "Oskarshamn. Museum PDF historisk gädda/abborre — EJ i arter_fvo (Mal/Småspigg/Storspigg). Mal ej belagd."
+    },
+    {
+      "namn": "Sladö fvof",
+      "lan": "Kalmar",
+      "object_id": 759,
+      "notes": "Västervik. Tjust-broschyr/Visit nämner ö utan gädda 1:1 (arter_fvo endast Gädda). Skärgårdsnivå ≠ FVO."
+    }
+  ]
+}

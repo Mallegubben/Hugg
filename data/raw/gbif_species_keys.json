@@ -1,0 +1,212 @@
+{
+  "Perca fluviatilis": {
+    "key": 8140485,
+    "sv": "Abborre",
+    "name": "Perca fluviatilis Linnaeus, 1758"
+  },
+  "Esox lucius": {
+    "key": 2346633,
+    "sv": "Gädda",
+    "name": "Esox lucius Linnaeus, 1758"
+  },
+  "Rutilus rutilus": {
+    "key": 2359706,
+    "sv": "Mört",
+    "name": "Rutilus rutilus (Linnaeus, 1758)"
+  },
+  "Sander lucioperca": {
+    "key": 2382155,
+    "sv": "Gös",
+    "name": "Sander lucioperca (Linnaeus, 1758)"
+  },
+  "Salmo trutta": {
+    "key": 8215487,
+    "sv": "Öring",
+    "name": "Salmo trutta Linnaeus, 1758"
+  },
+  "Salvelinus alpinus": {
+    "key": 4284021,
+    "sv": "Röding",
+    "name": "Salvelinus alpinus (Linnaeus, 1758)"
+  },
+  "Thymallus thymallus": {
+    "key": 5203999,
+    "sv": "Harr",
+    "name": "Thymallus thymallus (Linnaeus, 1758)"
+  },
+  "Abramis brama": {
+    "key": 9809222,
+    "sv": "Braxen",
+    "name": "Abramis brama (Linnaeus, 1758)"
+  },
+  "Tinca tinca": {
+    "key": 2362524,
+    "sv": "Sutare",
+    "name": "Tinca tinca (Linnaeus, 1758)"
+  },
+  "Lota lota": {
+    "key": 2415460,
+    "sv": "Lake",
+    "name": "Lota lota (Linnaeus, 1758)"
+  },
+  "Coregonus albula": {
+    "key": 2351027,
+    "sv": "Siklöja",
+    "name": "Coregonus albula (Linnaeus, 1758)"
+  },
+  "Coregonus lavaretus": {
+    "key": 2351211,
+    "sv": "Sik",
+    "name": "Coregonus lavaretus (Linnaeus, 1758)"
+  },
+  "Anguilla anguilla": {
+    "key": 5212973,
+    "sv": "Ål",
+    "name": "Anguilla anguilla (Linnaeus, 1758)"
+  },
+  "Gymnocephalus cernua": {
+    "key": 5209574,
+    "sv": "Gärs",
+    "name": "Gymnocephalus cernua (Linnaeus, 1758)"
+  },
+  "Leuciscus idus": {
+    "key": 4409643,
+    "sv": "Id",
+    "name": "Leuciscus idus (Linnaeus, 1758)"
+  },
+  "Scardinius erythrophthalmus": {
+    "key": 2362635,
+    "sv": "Sarv",
+    "name": "Scardinius erythrophthalmus (Linnaeus, 1758)"
+  },
+  "Alburnus alburnus": {
+    "key": 2362925,
+    "sv": "Benlöja",
+    "name": "Alburnus alburnus (Linnaeus, 1758)"
+  },
+  "Cyprinus carpio": {
+    "key": 4286975,
+    "sv": "Karp",
+    "name": "Cyprinus carpio Linnaeus, 1758"
+  },
+  "Silurus glanis": {
+    "key": 2337607,
+    "sv": "Mal",
+    "name": "Silurus glanis Linnaeus, 1758"
+  },
+  "Phoxinus phoxinus": {
+    "key": 4409653,
+    "sv": "Elritsa",
+    "name": "Phoxinus phoxinus (Linnaeus, 1758)"
+  },
+  "Lampetra planeri": {
+    "key": 2421402,
+    "sv": "Bäcknejonöga",
+    "name": "Lampetra planeri (Bloch, 1784)"
+  },
+  "Cottus gobio": {
+    "key": 7807208,
+    "sv": "Stensimpa",
+    "name": "Cottus gobio Linnaeus, 1758"
+  },
+  "Cottus poecilopus": {
+    "key": 2334159,
+    "sv": "Bergsimpa",
+    "name": "Cottus poecilopus Heckel, 1837"
+  },
+  "Salmo salar": {
+    "key": 7595433,
+    "sv": "Lax",
+    "name": "Salmo salar Linnaeus, 1758"
+  },
+  "Oncorhynchus mykiss": {
+    "key": 5204019,
+    "sv": "Regnbåge",
+    "name": "Oncorhynchus mykiss (Walbaum, 1792)"
+  },
+  "Salvelinus fontinalis": {
+    "key": 2351271,
+    "sv": "Bäckröding",
+    "name": "Salvelinus fontinalis (Mitchill, 1814)"
+  },
+  "Blicca bjoerkna": {
+    "key": 2359471,
+    "sv": "Björkna",
+    "name": "Blicca bjoerkna (Linnaeus, 1758)"
+  },
+  "Carassius carassius": {
+    "key": 2366645,
+    "sv": "Ruda",
+    "name": "Carassius carassius (Linnaeus, 1758)"
+  },
+  "Osmerus eperlanus": {
+    "key": 2410854,
+    "sv": "Nors",
+    "name": "Osmerus eperlanus (Linnaeus, 1758)"
+  },
+  "Aspius aspius": {
+    "key": 2360181,
+    "sv": "Asp",
+    "name": "Aspius aspius (Linnaeus, 1758)"
+  },
+  "Squalius cephalus": {
+    "key": 2365685,
+    "sv": "Färna",
+    "name": "Squalius cephalus (Linnaeus, 1758)"
+  },
+  "Cobitis taenia": {
+    "key": 2368185,
+    "sv": "Nissöga",
+    "name": "Cobitis taenia Linnaeus, 1758"
+  },
+  "Barbatula barbatula": {
+    "key": 5204862,
+    "sv": "Grönling",
+    "name": "Barbatula barbatula (Linnaeus, 1758)"
+  },
+  "Pungitius pungitius": {
+    "key": 5739510,
+    "sv": "Småspigg",
+    "name": "Pungitius pungitius (Linnaeus, 1758)"
+  },
+  "Gasterosteus aculeatus": {
+    "key": 4286327,
+    "sv": "Storspigg",
+    "name": "Gasterosteus aculeatus Linnaeus, 1758"
+  },
+  "Salvelinus namaycush": {
+    "key": 2351327,
+    "sv": "Kanadaröding",
+    "name": "Salvelinus namaycush (Walbaum, 1792)"
+  },
+  "Pacifastacus leniusculus": {
+    "key": 2226990,
+    "sv": "Signalkräfta",
+    "name": "Pacifastacus leniusculus (Dana, 1852)"
+  },
+  "Astacus astacus": {
+    "key": 2226998,
+    "sv": "Flodkräfta",
+    "name": "Astacus astacus (Linnaeus, 1758)"
+  },
+  "Lampetra fluviatilis": {
+    "key": 2421365,
+    "sv": "Flodnejonöga",
+    "name": "Lampetra fluviatilis (Linnaeus, 1758)"
+  },
+  "Abramis ballerus": {
+    "key": 2367036,
+    "sv": "Faren",
+    "name": "Abramis ballerus (Linnaeus, 1758)"
+  },
+  "Leuciscus leuciscus": {
+    "key": 4409641,
+    "sv": "Stäm",
+    "name": "Leuciscus leuciscus (Linnaeus, 1758)"
+  },
+  "Pelecus cultratus": {
+    "key": 2367038,
+    "sv": "Skärkniv",
+    "name": "Pelecus cultratus (Linnaeus, 1758)"
+  }
+}
