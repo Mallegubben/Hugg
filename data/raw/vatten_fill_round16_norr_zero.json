@@ -84,7 +84,7 @@
       "namn": "Nordanede fvof",
       "lan": "Västernorrland",
       "object_id": 1617,
-      "notes": "Sollefteå/Edsele. Nordanede Pike Fight / ST (Mellansjön söder om Torpshammar, Ånge) ≠ denna FVO (twin vs Nedre Gimån/Ånge). Forum Gårdsjön Edsele ej godkänd källa. Ingen tillåten 1:1 prosa för Edsele-Nordanede vatten."
+      "notes": "Sollefteå/Edsele (oid 1617). REJECT twin: nordanedepikefight.se »Mellansjön vid Nordanede« + »stenkast från Sveriges mittpunkt« = Nordanede/Mellansjön in Ånge kommun (Nominatim Torps distrikt ~62.56N 16.44E; Flataklocken midpoint nearby) — Nedre Gimån/Ånge area ≠ Sollefteå FVO. Do NOT merge cursor/vatten-fill-hard-gaps-eacd Nordanede×Mellansjön×Gädda fill."
     },
     {
       "namn": "Östanskärs fvof",
@@ -164,9 +164,9 @@
       "why_not": "FVO-nivå / platsnamn utan per-vatten artmening; Röding∉arter_fvo; identifierar ej ORIGINALID 1217 vs twin 1619."
     },
     {
-      "candidate": "Nordanede Pike Fight + ST: Gädda i Mellansjön vid Nordanede",
+      "candidate": "nordanedepikefight.se: Gädda i Mellansjön vid Nordanede",
       "url": "https://nordanedepikefight.se/",
-      "why_not": "ST placerar Mellansjön söder om Torpshammar (Ånge) — twin ≠ Sollefteå/Edsele Nordanede fvof 1617. Fishbrain rejected."
+      "why_not": "Place is Ånge/Torps socken (Nominatim), not Sollefteå/Edsele FVO 1617. Hard-gaps branch false positive — hold reject."
     },
     {
       "candidate": "iFiske Sandvikssjön–Edsforsen listar Stor-Raftsjön + Fiskarter inkl. Gädda",
@@ -196,5 +196,7 @@
       "candidate": "LST/NV Långvattnet-reservat: naturlig fiskfauna gädda och abborre; Långvattnets fiskevårdsområde i reservatet",
       "why_not": "Tidigare knutet till twin 1619/Blåtjärn-komplex; saknar ORIGINALID 1217; Abborre/Gädda ⊆1644 men multi-lake utan namngivna 1644-vatten i FÅNGA."
     }
-  ]
+  ],
+  "deepen_note_at": "2026-09-16T06:13:55Z",
+  "deepen_note": "Follow-up: confirmed Pike Fight Nordanede is Ånge twin via Nominatim/Flataklocken; Vistträsk+Landsomsjön later filled via SERS on r16-rest (streams in FÅNGA), not covered by this empty pass."
 }
