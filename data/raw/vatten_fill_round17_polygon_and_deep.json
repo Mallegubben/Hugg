@@ -62,9 +62,9 @@
   "near_misses_rejected": [
     {
       "fvo": "Åländerns fvof",
-      "candidate": "SERS 'Bäck från Åländern' Kvarngården (~1.7 km outside polygon)",
+      "candidate": "SERS 'Bäck från Åländern' Kvarngården (~1.7–3.7 km outside polygon)",
       "intersect": ["Benlöja", "Mört"],
-      "why": "Stream named after lake but iFiske Om + FÅNGA list only Åländern/Axsjön/Vån/Övre+Nedre Högsjön — not the outflow brook; station outside polygon; Landsomsjöbäcken pattern requires FÅNGA membership"
+      "why": "Stream named after lake but iFiske Om + FÅNGA list only Åländern/Axsjön/Vån/Övre+Nedre Högsjön; sibling hard-review geo assigns membership to Ämmerns fvof (≠ Åländerns); station outside polygon"
     },
     {
       "fvo": "Bruzaåns Mellersta fvof",
@@ -128,7 +128,13 @@
     "vastsverige Mellerud/Färgelanda/Svenljunga-Tranemo guides",
     "Ulricehamn fiskeguide 2021; Visit Lycksele/Pajala/Malå",
     "LST ÖG elfiske 2021–23; Kalmar nätprovfiske 2010; VG 2003 Myresjön",
-    "Prior empty docs: round16_vg, round16_og_kalmar_vrm, round16_norr_zero, stockholm_sodermanland_zero_review, round17_jk_kronoberg_vastmanland"
+    "Prior empty docs: round16_vg, round16_og_kalmar_vrm, round16_norr_zero, stockholm_sodermanland_zero_review, round17_jk_kronoberg_vastmanland",
+    "Sibling empty deepen: vatten_fill_zero_sth_kalmar_vrm_deepen.json, vatten_fill_round17_vg_jk_zero.json, vatten_fill_hard_review_og_vb_rest_empty.json"
   ],
-  "conclusion": "No policy-clear 1:1 water×species fill among the remaining 82 ZERO-vatten FVO. Gap count stays 82. Prefer empty over proximity/twin/wrong-org near-misses."
+  "sibling_empty_docs_merged": [
+    "vatten_fill_zero_sth_kalmar_vrm_deepen.json",
+    "vatten_fill_round17_vg_jk_zero.json",
+    "vatten_fill_hard_review_og_vb_rest_empty.json"
+  ],
+  "conclusion": "No policy-clear 1:1 water×species fill among the remaining 82 ZERO-vatten FVO. Gap count stays 82. Prefer empty over proximity/twin/wrong-org near-misses. Sibling deepen agents independently confirmed 0 fills for Stockholm/Kalmar/Värmland (25), VG+JK (28), and ÖG+norr+Sala+misc (28)."
 }

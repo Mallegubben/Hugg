@@ -1,0 +1,342 @@
+{
+  "generated_at": "2026-09-16T12:40:00Z",
+  "round": "hard-review-og-vb-rest",
+  "policy": {
+    "allowed": [
+      "prose sources (FVOF/municipal/tourism/brochures/newspapers/Wayback)",
+      "LST/DIVA nätprovfiske PDFs 2020–2026",
+      "Wikipedia Fisk sections when present",
+      "NORS/SERS only with clear FVO membership AND correct geography (same lake, not county twin)",
+      "SERS streams in FÅNGA CSV with geo check (Landsomsjöbäcken/Vistträsk pattern)"
+    ],
+    "never_use": [
+      "iFiske Fiskarter icons",
+      "Hitta Fiske Arter icons",
+      "Artportalen",
+      "NatureIT",
+      "Fishbrain",
+      "forums",
+      "catch reports"
+    ],
+    "mapping": "1:1 FVO↔source; species ⊆ arter_fvo; multi-lake only per named water or explicit all named lakes; no fuzzy twins. Empty better than wrong."
+  },
+  "stats": {
+    "targets": 28,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "note": "Hard-reviewed ZERO pass across ÖG(8)+VB(7)+VN(3)+NB(2)+VLM(3)+Kronoberg(4)+Södermanland(1)+Jämtland(1). No ACCEPTABLE water×species row."
+  },
+  "enrichments": [],
+  "rejected": [
+    {
+      "namn": "Grytgöls fvof",
+      "lan": "Östergötland",
+      "id": 1487,
+      "vatten_csv": ["Dammen", "Gryten", "Grytgölen"],
+      "arter_fvo": ["Abborre", "Benlöja", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Ål"],
+      "notes": "Finspång. NORS Gryten hits are Gävleborg/Kronoberg/Örebro twins + Södra Gryten ÖG (58.13/15.57) ≠ Grytgölen Finspång (~58.80/15.56). LST ÖG elfiskeprogram 2021–2023 + DIVA nätprovfiske PDFs utan Grytgöl×species. Wikipedia/Sjödetektiven utan fauna. Prefer empty."
+    },
+    {
+      "namn": "Horsfjärdens fvof",
+      "lan": "Östergötland",
+      "id": 1413,
+      "vatten_csv": ["Horsfjärden"],
+      "arter_fvo": ["Abborre", "Benlöja", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Nors", "Ruda", "Röding", "Signalkräfta", "Sutare", "Ål"],
+      "notes": "Kinda/Åtvidaberg (~58.16/15.91). Wikipedia hydrografi utan Fisk-sektion. Åtvidaberg Bysjön–Glan PDF nämner Horsfjärden endast som uppströms metallreferens (ej nätprovfiskad). Storån-reduktionsfiske artfångster i andra sjöar. NORS saknar Horsfjärden. Prefer empty."
+    },
+    {
+      "namn": "Rippestorps fvof",
+      "lan": "Östergötland",
+      "id": 1477,
+      "vatten_csv": ["Hagsjön", "Övre Ripplingen"],
+      "arter_fvo": ["Abborre", "Benlöja", "Gädda", "Gärs", "Lake", "Mört", "Ål"],
+      "notes": "Finspång. NORS Hagsjön = Jönköping/Kronoberg twins. NT Rippestorp nämner signalkräftor i Övre Ripplingen — Signalkräfta ∉ arter_fvo. Ingen LST nätprovfiske×Ripplingen."
+    },
+    {
+      "namn": "Värnasjön-Strålången fvof",
+      "lan": "Östergötland",
+      "id": 1458,
+      "vatten_csv": ["Dyveln", "Strålången", "Värnasjön"],
+      "arter_fvo": ["Abborre", "Benlöja", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Nissöga", "Ruda", "Ål"],
+      "notes": "Åtvidaberg. Kommun listar Värnasjön utan arter. Dyveln Värmland twin. NORS/SERS/LST/DIVA utan 1:1 named-water prosa för dessa tre sjöar."
+    },
+    {
+      "namn": "Värnässjöns fvof",
+      "lan": "Östergötland",
+      "id": 1426,
+      "vatten_csv": ["Värnässjön"],
+      "arter_fvo": ["Abborre", "Gädda"],
+      "notes": "Åtvidaberg/Linköping. arter_fvo endast Abborre+Gädda. Fishbrain rejected. Ingen miljorapport/tidning/tourism 1:1. NORS fuzzy Nässjön-träffar = andra län."
+    },
+    {
+      "namn": "Åländerns fvof",
+      "lan": "Östergötland",
+      "id": 1401,
+      "vatten_csv": ["Axsjön", "Nedre Högsjön", "Vån", "Åländern", "Övre Högsjön"],
+      "arter_fvo": ["Abborre", "Benlöja", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Nors", "Ruda", "Sik", "Stensimpa", "Sutare", "Ål"],
+      "notes": "Kinda. iFiske/Hitta Fiske Fiskarter-ikoner NEVER (inkl. engelsk ikonöversättning); enda prosa »Gös Sällsynt — Fiskeförbud« — Gös ∉ arter_fvo. NORS Axsjön ÖG 649652-148582 = Linköping twin — see near_misses. SERS »Bäck från Åländern« = Ämmerns fvof membership, not this FVO — see near_misses. LST ÖG elfiske 2021–2023 namnger ej Åländern/Axsjön/Högsjön/Vån. Wikipedia Åländern utan Fisk-sektion. Prefer empty."
+    },
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "id": 1462,
+      "vatten_csv": ["Frögöl", "Skirsjön", "Ängsjön"],
+      "arter_fvo": ["Abborre", "Braxen", "Gädda", "Gärs", "Mört", "Sarv"],
+      "notes": "Kinda Skirsjön (~57.90/15.68) ≠ Möckeln-Skirsjöns FVOF twin. NORS Skirsjön = Kronoberg/Västernorrland twins. Ingen LST/tourism Ödesjöboda×species."
+    },
+    {
+      "namn": "Österby fvof",
+      "lan": "Östergötland",
+      "id": 1473,
+      "vatten_csv": ["Fagerhultegöl"],
+      "arter_fvo": ["Abborre", "Benlöja", "Gädda", "Lake", "Mört", "Siklöja", "Ål"],
+      "notes": "Kinda Fagerhultegöl (~57.92/16.00). SFG Österbysjön annan FVO. Ingen NORS/SERS/LST/tourism 1:1."
+    },
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "id": 1163,
+      "notes": "Malå Kokträsket (~65.35/18.79). Wikipedia utan fauna. Visit Malå/Lycksele/Gold of Lapland kommun-/FVO-nivå. NORS saknar Kokträsket. Norsjö LIS täcker ej Malå."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "id": 1058,
+      "notes": "Vindeln. Inga Visit/kommun/FVOF/LST nätprovfiske 1:1. Kussjö Viltvårdsområdesförening ≠ FVOF artprosa. NORS/SERS saknar."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "id": 1013,
+      "notes": "Vindeln/Lycksele. Inga Visit/Gold of Lapland/nätprovfiske 1:1 för Maltträsket×species."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "id": 1027,
+      "notes": "Norsjö/Malå/Lycksele. Norsjö LIS/ÖP nämner ej Rökå×Fisk. Rödåbygdens FvO (Vindelälven) ≠ Rökåbygden — twin SKIP. arter_fvo endast Abborre/Gädda/Lake/Mört."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "id": 1008,
+      "notes": "Norsjö. LIS/ÖP: Rörträsk endast kulturmiljö/översilning — ingen Fisk×FVO-rad. norsjosfk BREDTRÄSKET saknar explicit FVO-länk; röding∉arter_fvo — near_miss held."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "id": 1113,
+      "notes": "Sorsele/Vindelälven ≠ Vilhelmina Saxnäs/Kultsjön twin. Hitta Fiske/sorsele.se/vindelalvsfiske utan Sorsele-Saxnäs×species prosa."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "id": 1019,
+      "notes": "Bjurholm/Vindeln/Lycksele. Wikipedia Stor-/Lill-Strömsjön utan fauna. NORS Strömsjön = Blekinge twin. Inga kommun/tourism 1:1."
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "id": 1217,
+      "notes": "Junsele empty twin ≠ id 1283 (Salomonstjärn m.fl., redan fylld). langvattnetsfvo.se/iFiske Om: öring+röding i Blåtjärn/Botjärn/Stor-abborrvattnet/Långtjärn — Röding∉arter_fvo (Abborre,Bäckröding,Gädda,Mört,Öring); FÅNGA medlemskap för dessa tjärnar mot 1217 ej verifierat. Prefer empty."
+    },
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "id": 1189,
+      "notes": "Sollefteå/Edsele. REJECT Pike Fight Mellansjön = Ånge/Torps twin (Nominatim ~62.56N 16.44E; Flataklocken midpoint) ≠ Sollefteå FVO. Do NOT merge hard-gaps Nordanede×Mellansjön×Gädda."
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "id": 1249,
+      "notes": "Timrå/Sundsvall Indal. Bergeforsen/Indalsälven-prosa (lax/öring/sik/harr) ≠ Östanskärs FVO. Inga FVOF/Hitta Fiske/kommunsidor med Östanskär×species. NORS/SERS saknar."
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "id": 656,
+      "vatten_csv": ["Alavuomanjärvi", "Pirttiniemenjoki", "Saukkoriipinjärvi", "Suaninkijärvi"],
+      "arter_fvo": ["Abborre", "Gädda", "Lake", "Mört", "Sik"],
+      "notes": "Pajala Suaninkijärvi (~66.79/23.30). Visit Pajala kommunnivå arter. Naturkartan badplats utan fiskarter. Wikipedia utan fauna. NORS/SERS saknar Suaninki/Pirttiniemenjoki. Forums rejected."
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "id": 639,
+      "vatten_csv": ["Luleälven", "Råbäcken", "Sävastån"],
+      "arter_fvo": ["Abborre", "Bergsimpa", "Gädda", "Harr", "Id", "Lax", "Mört", "Stäm", "Öring"],
+      "notes": "Boden/Luleå. Sävastån (~65.75/21.77) ≠ Sävarån (VB twin; SERS dense around 63.8–64.5/20.1–20.6, ~177 km). SERS saknar Sävastån och Boden-nära Råbäcken/Luleälven. Wikipedia Sävast historiskt fiske utan namngivna arter. Prefer empty."
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "lan": "Västmanland",
+      "id": 1377,
+      "arter_fvo": ["Abborre", "Gädda", "Gös", "Mört", "Nors"],
+      "notes": "Sala/Möklinta Hällsjön (~60.05/16.56). Visit/Edens Garden »gott om fisk« utan namngivna arter. NORS SE663090-153202 Hällsjön = Västerås/Svanå twin — see near_misses. hallsjonfvo.se = Krokom twin."
+    },
+    {
+      "namn": "Ljömsebosjöns fvof",
+      "lan": "Västmanland",
+      "id": 1378,
+      "vatten_csv": ["Ljömsebosjön", "Västanbäcksbäcken"],
+      "arter_fvo": ["Abborre", "Braxen", "Gädda", "Mört", "Sutare"],
+      "notes": "Sala Ljömsebosjön (~59.95/16.44). Svartådalen listar ej Ljömsebo. SERS saknar Västanbäcksbäcken. NORS/SERS/LST utan 1:1."
+    },
+    {
+      "namn": "Tappebosjöarnas fvof",
+      "lan": "Västmanland",
+      "id": 1382,
+      "vatten_csv": ["Norra Tappebosjön", "Södra Tappebosjön", "Viggsjön"],
+      "arter_fvo": ["Abborre", "Benlöja", "Björkna", "Braxen", "Gädda", "Gärs", "Gös", "Lake", "Mört", "Sutare"],
+      "notes": "Sala. Svartådalen kontakt-only. NORS Viggsjön = Värmland Nordviggsjön twin. Ingen nätprovfiske 1:1."
+    },
+    {
+      "namn": "Huljesjön-Skålåns fvof",
+      "lan": "Kronoberg",
+      "id": 550,
+      "arter_fvo": ["Gädda"],
+      "notes": "Ljungby ≠ Sundsvall Huljesjön twin; ≠ Lagan-Skålåns FVO (Huliesjön som nordgräns + iFiske Arter-ikoner). Ljungby brochure entry Lagan-Skålån = other FVO. SERS Skålån = Dalarna/Jönköping, ej Ljungby-FVO-medlemskap. Prefer empty."
+    },
+    {
+      "namn": "Rinkabysjöns fvof",
+      "lan": "Kronoberg",
+      "id": 525,
+      "notes": "Växjö Rinkabysjön (~56.80/14.85). tavelsas.se stämma utan artlista. Visit Växjö/LST Kronoberg Fiskar och fiske 2019 namnger ej Rinkaby. NORS saknar."
+    },
+    {
+      "namn": "Tegnabysjöns fvof",
+      "lan": "Kronoberg",
+      "id": 510,
+      "notes": "Växjö. Naturkartan/badplats utan fiskarter. Ingen Visit/LST/NORS 1:1."
+    },
+    {
+      "namn": "Tävelsåssjöns fvof",
+      "lan": "Kronoberg",
+      "id": 595,
+      "notes": "Växjö Tävelsåssjön (~56.77/14.82). Samma stämma som Rinkaby utan artlista. NORS saknar."
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "lan": "Södermanland",
+      "id": 797,
+      "arter_fvo": ["Ruda"],
+      "notes": "Strängnäs/Åkers socken Marsjön (~59.23/17.19) Ruda-only. ≠ Bengtsfors Marsjöarna (~58.81/12.20, ~290 km; Abborre/Gädda-prosa). Wikipedia utan Fisk-sektion. NORS saknar Strängnäs-Marsjön. LST Södermanland fiskeguide utan Marsjön×Ruda. Prefer empty."
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "id": 1589,
+      "vatten_csv": ["Djupbäcken", "Fyringssjön", "Fyrån", "Kälabäcken", "Lill-Raftsjön", "Norsksjön", "Raftan", "Sandvikbäcken", "Stor-Raftsjön", "Töjsan"],
+      "arter_fvo": ["Gädda"],
+      "notes": "Stor-Raftsjön (~63.59/14.96). Wikipedia utan Fisk-sektion. iFiske Sandvikssjön–Edsforsen: Stor-Raftsjön/Raftan/Töjsan listade men Fiskarter = ikoner; Om-prosa namnger arter för Edsforsen/Baksjön, ej Raftsjön; vattenoverlap → medlemskapsosäkerhet. SERS Töjsan/Kälabäcken/Fyrån i Jämtland geo-near men ∩ Gädda = ∅ — see near_misses. Prefer empty."
+    }
+  ],
+  "near_misses_not_used": [
+    {
+      "candidate": "NORS Axsjön Östergötland 649652-148582 (Abborre,Gädda,Mört) 1995",
+      "url": "http://aquarapport.slu.se/default.aspx?ID=99&X=6496520&Y=1485820",
+      "station_lat": 58.5913,
+      "station_lon": 15.5617,
+      "fvo_water": "Axsjön (Åländerns fvof / Kinda)",
+      "fvo_water_lat": 58.17,
+      "fvo_water_lon": 15.82,
+      "distance_km": 49.21,
+      "also_vs_alandern_km": 50.62,
+      "alandern_lat": 58.1561,
+      "alandern_lon": 15.8162,
+      "why_not": "Station matches Linköping/Stjärnorp Axsjön (Nominatim 58.5893,15.5614), not Kinda Axsjön next to Åländern. County twin — NORS REJECT."
+    },
+    {
+      "candidate": "SERS Bäck från Åländern Kvarngården (Benlöja,Mört) 2006",
+      "url": "http://aquarapport.slu.se/default.aspx?ID=98&X=6446900&Y=1497130",
+      "station_lat": 58.1459,
+      "station_lon": 15.7565,
+      "fvo_water": "Åländern (lake; stream drains toward Ämmern)",
+      "fvo_water_lat": 58.1561,
+      "fvo_water_lon": 15.8162,
+      "distance_km": 3.68,
+      "why_not": "Geo OK (~3.7 km) but FÅNGA/Fiskekartan membership is Ämmerns fvof (index id 1425), NOT Åländerns fvof (id 1401). Stream not in Åländerns vatten_csv. Wrong FVO — REJECT."
+    },
+    {
+      "candidate": "SERS Töjsan Jämtland (Bergsimpa,Elritsa,Harr,Lake,Stensimpa,Öring) 2022–2025",
+      "url": "http://aquarapport.slu.se/default.aspx?ID=98&X=7050000&Y=1450000",
+      "stations": [
+        {"lat": 63.555, "lon": 14.7644, "arter": "Bergsimpa,Harr,Öring", "distance_km": 10.2},
+        {"lat": 63.5589, "lon": 14.7786, "arter": "Bergsimpa,Elritsa,Harr,Lake,Öring", "distance_km": 9.4},
+        {"lat": 63.5601, "lon": 14.8419, "arter": "Bergsimpa,Elritsa,Harr,Lake,Stensimpa,Öring", "distance_km": 6.47}
+      ],
+      "fvo_water": "Stor-Raftsjön",
+      "fvo_water_lat": 63.5872,
+      "fvo_water_lon": 14.9577,
+      "why_not": "Töjsan is in FÅNGA under Stor-Raftsjöns fvo and stations are 6.5–10 km from the lake, but species ∩ arter_fvo{Gädda}=∅. Also Sandvikssjön–Edsforsen lists Töjsan/Stor-Raftsjön → membership overlap. Empty better."
+    },
+    {
+      "candidate": "SERS Kälabäcken / Fyrån Jämtland (Elritsa,Öring) 2008",
+      "station_examples": [
+        {"name": "Kälabäcken", "lat": 63.6573, "lon": 15.0797, "distance_km_vs_raftsjon": 17.6},
+        {"name": "Fyrån", "lat": 63.5918, "lon": 15.2069, "distance_km_vs_raftsjon": 20.4}
+      ],
+      "fvo_water_lat": 63.5872,
+      "fvo_water_lon": 14.9577,
+      "why_not": "Named in FÅNGA for Stor-Raftsjöns fvo but farther (17–20 km) and ∩ Gädda=∅."
+    },
+    {
+      "candidate": "NORS Hällsjön Västmanland SE663090-153202 (Abborre,Benlöja,Björkna,Braxen,Gers,Gädda,Mört,Sarv,Sutare)",
+      "url": "http://aquarapport.slu.se/default.aspx?ID=99&X=6630900&Y=1532020",
+      "station_lat": 59.7964,
+      "station_lon": 16.3755,
+      "fvo_water": "Hällsjön (Sala/Möklinta)",
+      "fvo_water_lat": 60.046,
+      "fvo_water_lon": 16.561,
+      "distance_km": 29.62,
+      "why_not": "Coords match Västerås/Svanå Hällsjön twin, not Sala kommun Hällsjön used by Edens Garden/Svartådalen FVO."
+    },
+    {
+      "candidate": "iFiske Åländern Om: Gös Sällsynt — Fiskeförbud",
+      "url": "https://www.ifiske.se/fiske-alandern-m-fl-vatten.htm",
+      "why_not": "Only narrative species sentence is Gös; Gös ∉ arter_fvo. Remaining Fiskarter block = icons (NEVER). English page is icon translation, not Om-prose."
+    },
+    {
+      "candidate": "iFiske Sandvikssjön–Edsforsen Fiskarter inkl. Gädda; listar Stor-Raftsjön",
+      "url": "https://www.ifiske.se/fiske-sandvikssjon-edsforsen-m-fl-vatten.htm",
+      "why_not": "Gädda only in Fiskarter icon block; Om-prose does not name Gädda for Stor-Raftsjön. Membership overlap with 1589."
+    },
+    {
+      "candidate": "norsjosfk BREDTRÄSKET sik/harr/öring/röding",
+      "url": "http://www.norsjosfk.se/fishing/other_fishing.htm",
+      "why_not": "No explicit Rörträsk-Bredträsks fvof link; röding∉arter_fvo."
+    },
+    {
+      "candidate": "nordanedepikefight.se Gädda i Mellansjön vid Nordanede",
+      "url": "https://nordanedepikefight.se/",
+      "why_not": "Ånge/Torps socken twin, not Sollefteå Nordanede fvof 1189."
+    },
+    {
+      "candidate": "Lagan-Skålåns FVO / Ljungby brochure: gädda m.fl.; Huliesjön som nordgräns",
+      "why_not": "Different FVO than Huljesjön-Skålåns fvof (id 550). iFiske Arter icons additionally NEVER."
+    },
+    {
+      "candidate": "SERS Sävarån Västerbotten (many stations, Abborre/Gädda/Harr/…)",
+      "why_not": "Sävarån ≠ Sävastån (Sävast-Unbyns). ~177 km from Boden Sävastån. Classic twin — REJECT."
+    },
+    {
+      "candidate": "Bengtsfors/Västsverige Marsjöarna Abborre/Gädda prose",
+      "why_not": "≠ Strängnäs Marsjöns fvof (Ruda-only); ~290 km twin."
+    }
+  ],
+  "searched_sources": [
+    "NORS aggregerad — Axsjön/Hällsjön/Gryten/Skirsjön/Marsjön/Huljesjön/Kokträsk/Raftsjön geo checks",
+    "SERS aggregerad — Bäck från Åländern, Töjsan/Kälabäcken/Fyrån, Sävastån vs Sävarån, Skålån, Råbäcken, Pirttiniemenjoki, Västanbäcksbäcken, Luleälven near Boden",
+    "FANGA_GENUINE_SOURCE_GAPS_v356.csv — water membership for ÖG/NB/VLM/Jämtland targets",
+    "LST Östergötland Elfiskeprogram 2021–2023 PDF (inga Åländer/Axsjö/Horsfjärden/Grytgöl-lokaler)",
+    "DIVA/LST nätprovfiske PDFs (Ralången/Noen/Västra Lägern m.fl. — ej targets)",
+    "LST Västerbotten fiske/LIS; Norsjö LIS/ÖP (Rörträsk kultur only)",
+    "catalog.lansstyrelsen.se Fiskar och fiske i Kronobergs län DG_2019__12",
+    "Nominatim geo: Åländern, Axsjön Linköping vs Kinda, Hällsjön Sala vs Västerås, Marsjön Strängnäs, Stor-Raftsjön, Sävastån, Suaninkijärvi, Grytgölen, Fagerhultegöl, Skirsjön Ödesjöboda",
+    "Wikipedia: Åländern, Horsfjärden, Stor-Raftsjön, Marsjön Åker, Hällsjön Möklinta, Sävast, Suaninkijärvi, Kokträsket — no usable Fisk sections for fills",
+    "iFiske Åländern + Sandvikssjön–Edsforsen (icons / Gös∉arter / membership overlap held)",
+    "vattenagarna ÖG o=692 Åländerns; Visit/municipal tourism pages for VB/NB/Kronoberg/Västmanland",
+    "Prior rounds r7–r17 zero notes cross-checked (norr_zero, og_kalmar_vrm, jk_kronoberg_vastmanland, stockholm_sodermanland_zero)"
+  ]
+}
