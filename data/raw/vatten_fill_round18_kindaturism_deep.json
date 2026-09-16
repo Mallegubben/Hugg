@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-16T14:15:00Z",
+  "round": "18_kindaturism_deep",
+  "policy": {
+    "allowed": [
+      "municipal/tourism prose naming water+species",
+      "FVOF/Wayback narrative",
+      "LST/miljö/nätprovfiske",
+      "newspapers",
+      "iFiske Om-prose (not Fiskarter icons)",
+      "Hitta Fiske prose",
+      "NORS/SERS with clear FVO membership + geo"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports",
+      "proximity without membership"
+    ],
+    "mapping": "1:1 FVO↔source; species ⊆ arter_fvo; multi-lake when source names waters and assigns species to all named lakes; no fuzzy twins; empty better than wrong"
+  },
+  "stats": {
+    "fvo_with_enrichments": 1,
+    "total_vatten_rows": 4,
+    "targets_searched_deep": 40,
+    "note": "Deep pass after round17 empty: Kindaturism Ödesjöboda page was missed in round16 (prior note said no Ödesjöboda×species)."
+  },
+  "enrichments": [
+    {
+      "namn": "Ödesjöboda fvof",
+      "lan": "Östergötland",
+      "object_id": 349,
+      "vatten": [
+        {
+          "namn": "Frögöl",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visit/odesjobodafiskevardsomrade.5.5317535b1764beeac105be1f.html",
+          "evidence": "Kindaturism page titled »Ödesjöboda fiskevårdsområde«: »Sommar och vinterfiske i Sillsjön, Skirsjön, Frögöl och Ängsjön. Här kan du fånga abborre och gädda.« Explicit multi-lake same species. Abborre+Gädda ⊆ arter_fvo. Frögöl in FÅNGA for this FVO. ≠ Möckeln-Skirsjöns twin (separate FVO page)."
+        },
+        {
+          "namn": "Skirsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visit/odesjobodafiskevardsomrade.5.5317535b1764beeac105be1f.html",
+          "evidence": "Same Ödesjöboda Kindaturism prose names Skirsjön among FVO waters with abborre och gädda. This is Ödesjöboda's Skirsjön (Kinda), not Möckeln-Skirsjöns FVOF."
+        },
+        {
+          "namn": "Ängsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visit/odesjobodafiskevardsomrade.5.5317535b1764beeac105be1f.html",
+          "evidence": "Same Ödesjöboda Kindaturism prose names Ängsjön among FVO waters with abborre och gädda. Ängsjön in FÅNGA for this FVO."
+        },
+        {
+          "namn": "Sillsjön",
+          "arter": ["Abborre", "Gädda"],
+          "kalla": "kindaturism.se",
+          "url": "https://www.kindaturism.se/kindaturism/visit/odesjobodafiskevardsomrade.5.5317535b1764beeac105be1f.html",
+          "evidence": "Same Ödesjöboda Kindaturism prose names Sillsjön first among FVO waters with abborre och gädda (FVO membership via titled page even though Sillsjön absent from FÅNGA CSV)."
+        }
+      ],
+      "notes": "Same multi-lake pattern as Hemsjön round9 Kindaturism fill. Prior round16 reject ('kindaturism utan Ödesjöboda×species') outdated — dedicated /visit/odesjobodafiskevardsomrade page exists."
+    }
+  ],
+  "rejected_summary": "VG 23 still empty (icons/twins/Väktorssjöområdet). Stor-Raftsjön ≠ Sandvikssjön-Edsforsens org. Suaningi/Sävast/Grytgöl/Horsfjärden/Värnasjön/Österby/Rippestorp/Sala/VB/VN: no new 1:1 prose. Stora Hammarsjön Visit Hultsfred ≠ Lilla Hammarsjön fvof. Portilasjön named without species.",
+  "searched_sources": [
+    "kindaturism.se Ödesjöboda fiskevårdsområde (ACCEPT)",
+    "kindaturism.se Åsunden/Hemsjön/Kisasjöarna/Västerskog/Föllinge/Sommen (other FVO, not gaps)",
+    "iFiske Åländern/Revesjö/Vassgården Om — Fiskarter icons REJECTED",
+    "iFiske Sandvikssjön-Edsforsen — Stor-Raftsjön listed but Gädda icons + different org 893202-1853 ≠ Stor-Raftsjöns 893203-3429",
+    "SERS Töjsan/Kälabäcken/Fyrån near Stor-Raftsjön ∩ Gädda=∅",
+    "vastsverige Svenljunga-Tranemo brochure + Moga-Annlarp twin",
+    "LST Sollumsåns dalgång + Lilla Edet PDF (Väktorssjöområdet)",
+    "Visit Hultsfred Stora Hammarsjön (≠ Lilla Hammarsjön)",
+    "atvidaberg.se sjölistor without species for Värnasjön/Horsfjärden",
+    "Visit Pajala/Grums/Mellerud — Portilasjön/Kolungen without species",
+    "Parallel agents VG + ÖG/norr deepen (0 other accepts)"
+  ]
+}

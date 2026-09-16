@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T06:10:46.426587+00:00",
+  "generated_at": "2026-09-16T14:09:40.096340+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 6139,
+  "antal_vatten": 6141,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -2162,8 +2162,8 @@
       "med_artlista": 83,
       "utan_artlista": 4,
       "tackning_pct": 95.4,
-      "fvo_med_vattenposter": 75,
-      "antal_vattenposter": 157,
+      "fvo_med_vattenposter": 76,
+      "antal_vattenposter": 161,
       "fvo_ids": [
         1401,
         1402,
@@ -54484,6 +54484,18 @@
             "Abborre",
             "Mört",
             "Sutare"
+          ]
+        }
+      ],
+      "Frögöl": [
+        {
+          "fvo_id": 1462,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -119601,6 +119613,18 @@
           ]
         }
       ],
+      "Sillsjön": [
+        {
+          "fvo_id": 1462,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ]
+        }
+      ],
       "Silverån": [
         {
           "fvo_id": 403,
@@ -121235,6 +121259,16 @@
             "Gädda",
             "Gärs",
             "Mört"
+          ]
+        },
+        {
+          "fvo_id": 1462,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -156216,6 +156250,16 @@
             "Abborre",
             "Elritsa",
             "Röding"
+          ]
+        },
+        {
+          "fvo_id": 1462,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -379793,7 +379837,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Ödesjöboda%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "kindaturism"
       ],
       "arter": [
         "Abborre",
@@ -379804,7 +379849,64 @@
         "Sarv"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Frögöl",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Skirsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Ängsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Sillsjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "kindaturism"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1412,
