@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T05:32:17.178469+00:00",
+    "generated_at": "2026-09-16T06:10:46.116545+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1790
+      "har_vattenposter": 1792
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 9,
+      "created_vatten": 0,
       "merged_vatten": 0,
-      "touched_vatten": 483,
-      "applied_rows": 492,
+      "touched_vatten": 496,
+      "applied_rows": 496,
       "unmatched": [],
       "before": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1784,
-        "med_arter_men_0_vatten": 90,
-        "total_vatten": 9815
+        "har_vattenposter": 1792,
+        "med_arter_men_0_vatten": 82,
+        "total_vatten": 9828
       },
       "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
-        "har_vattenposter": 1790,
-        "med_arter_men_0_vatten": 84,
-        "total_vatten": 9824
+        "har_vattenposter": 1792,
+        "med_arter_men_0_vatten": 82,
+        "total_vatten": 9828
       },
       "blocked_sources": [
         "natureit",
@@ -19442,7 +19442,8 @@
         "fiskekartan",
         "gbif",
         "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-        "norran_se"
+        "norran_se",
+        "NORS"
       ],
       "vatten": [
         {
@@ -19459,7 +19460,8 @@
             "Sik"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
@@ -19480,7 +19482,8 @@
             "Sik"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
@@ -96755,7 +96758,8 @@
       ],
       "kallor": [
         "gbif",
-        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "NORS"
       ],
       "vatten": [
         {
@@ -96773,7 +96777,8 @@
             "Öring"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
@@ -96795,7 +96800,8 @@
             "Öring"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
@@ -136851,9 +136857,29 @@
         "Sik"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "SERS"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Landsomsjöbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Elritsa",
+            "Lake"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://aquarapport.slu.se/default.aspx?ID=98&X=6976786&Y=1453949"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 4,
         "antal_vatten_med_survey": 0,
@@ -136873,7 +136899,10 @@
           "Lake",
           "Sik"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "http://aquarapport.slu.se/default.aspx?ID=98&X=6976786&Y=1453949"
+      ]
     },
     {
       "original_id": 1622,
@@ -226912,7 +226941,8 @@
       ],
       "kallor": [
         "fiskekartan",
-        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "NORS"
       ],
       "vatten": [
         {
@@ -226929,7 +226959,8 @@
             "Sik"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
@@ -270421,7 +270452,8 @@
       ],
       "kallor": [
         "gbif",
-        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "NORS"
       ],
       "vatten": [
         {
@@ -270440,7 +270472,8 @@
             "Öring"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null,
           "referenser": [
@@ -327936,9 +327969,71 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "SERS"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Brändån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://aquarapport.slu.se/default.aspx?ID=98&X=7291175&Y=1717710"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Vistån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Lake",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://aquarapport.slu.se/default.aspx?ID=98&X=7306510&Y=1718260"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Vistbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://aquarapport.slu.se/default.aspx?ID=98&X=7296610&Y=1709250"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 7,
         "antal_vatten_med_survey": 0,
@@ -327952,7 +328047,12 @@
         "tillagda_arter": [
           "Elritsa"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "http://aquarapport.slu.se/default.aspx?ID=98&X=7291175&Y=1717710",
+        "http://aquarapport.slu.se/default.aspx?ID=98&X=7306510&Y=1718260",
+        "http://aquarapport.slu.se/default.aspx?ID=98&X=7296610&Y=1709250"
+      ]
     },
     {
       "original_id": 1911,

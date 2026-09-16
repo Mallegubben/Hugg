@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-16T06:08:52Z",
+  "round": "16_rest_sers",
+  "policy": {
+    "allowed": [
+      "SERS/aquarapport with clear 1:1 FVO membership",
+      "FÅNGA/Fiskekartan water membership",
+      "municipal/tourism/FVOF prose",
+      "LST nätprovfiske",
+      "newspapers",
+      "iFiske Om-prose",
+      "Hitta Fiske prose"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports"
+    ],
+    "mapping": "1:1 water×species; species ⊆ arter_fvo; no fuzzy twins",
+    "note": "SERS stream fills where FÅNGA CSV names the water under the FVO and geography confirms. Parallel empty passes for other counties held."
+  },
+  "stats": {
+    "fvo_with_enrichments": 2,
+    "total_vatten_rows": 4,
+    "targets_searched_rest": 37
+  },
+  "enrichments": [
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1797,
+      "vatten": [
+        {
+          "namn": "Landsomsjöbäcken",
+          "arter": [
+            "Elritsa",
+            "Lake"
+          ],
+          "kalla": "SERS",
+          "url": "http://aquarapport.slu.se/default.aspx?ID=98&X=6976786&Y=1453949",
+          "evidence": "SERS/aquarapport elfiske Landsomsjöbäcken (Ovan vägen; 1 tillfälle, senaste 2018): fångade arter Bergsimpa, Elritsa, Gädda, Lake. ∩ arter_fvo → Elritsa, Lake. FVO-medlemskap: FÅNGA/Fiskekartan CSV listar Landsomsjöbäcken under Landsomsjöns fvof; Wikipedia Landsomsjön (Östersund) avvattnas av Landsomsjöbäcken; SERS-lokal ~2,9 km från sjön."
+        }
+      ],
+      "notes": "SERS 1:1 named stream + CSV FVO membership + geo/Wikipedia drainage link. Bergsimpa/Gädda ∉ arter_fvo excluded."
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "object_id": 245,
+      "vatten": [
+        {
+          "namn": "Brändån",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "SERS",
+          "url": "http://aquarapport.slu.se/default.aspx?ID=98&X=7291175&Y=1717710",
+          "evidence": "SERS/aquarapport elfiske Brändån (lokaler: Uppstr slut fpm 12, Ned slut fpm 15, Nedstr fpm 7, Upp slutet av fpm 3, Nedersta; 5 poster, senaste 2024): fångade Abborre, Elritsa, Gers, Harr, Lake, Mört, Stensimpa, Öring. ∩ arter_fvo → Abborre, Elritsa, Harr, Lake, Mört, Öring. FVO-medlemskap: FÅNGA/Fiskekartan CSV listar Brändån under Vistträsk FVO (Älvsbyn); koordinater inom ~4–13 km från tätorten Vistträsk (Piteälven)."
+        },
+        {
+          "namn": "Vistån",
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Lake",
+            "Mört",
+            "Öring"
+          ],
+          "kalla": "SERS",
+          "url": "http://aquarapport.slu.se/default.aspx?ID=98&X=7306510&Y=1718260",
+          "evidence": "SERS/aquarapport elfiske Vistån (lokaler: Utlopp Manjärv, Utlopp i Sågidan; 2 poster, senaste 2022): fångade Abborre, Elritsa, Lake, Mört, Stensimpa, Öring. ∩ arter_fvo → Abborre, Elritsa, Lake, Mört, Öring. FVO-medlemskap: FÅNGA/Fiskekartan CSV listar Vistån under Vistträsk FVO (Älvsbyn); koordinater inom ~4–13 km från tätorten Vistträsk (Piteälven)."
+        },
+        {
+          "namn": "Vistbäcken",
+          "arter": [
+            "Öring"
+          ],
+          "kalla": "SERS",
+          "url": "http://aquarapport.slu.se/default.aspx?ID=98&X=7296610&Y=1709250",
+          "evidence": "SERS/aquarapport elfiske Vistbäcken (lokaler: Vid fiskodlingen; 1 poster, senaste 2013): fångade Stensimpa, Öring. ∩ arter_fvo → Öring. FVO-medlemskap: FÅNGA/Fiskekartan CSV listar Vistbäcken under Vistträsk FVO (Älvsbyn); koordinater inom ~4–13 km från tätorten Vistträsk (Piteälven)."
+        }
+      ],
+      "notes": "SERS named streams in FÅNGA water list for Vistträsk FVO; geo near Vistträsk. Stensimpa/Gärs ∉ arter_fvo excluded. Lakes Nörd-/Sör-Vistträsket still without NORS."
+    }
+  ],
+  "rejected_summary": "Stockholm 9 / Södermanland 1 / JK 5 / Kronoberg 4 / Västmanland 3 / remaining VB/VN/NB/Jämtland: see sibling round16 empty reports + prior rejects. Hitta Fiske Arter icons (Bränneri/Sjövik) held reject. GoFish FVO-level Rörträsk held reject.",
+  "searched_sources": [
+    "SERS aggregerad — Landsomsjöbäcken (Jämtland) + Brändån/Vistån/Vistbäcken (Norrbotten/Piteälven)",
+    "NORS aggregerad — no usable 1:1 for remaining lake targets (twins only)",
+    "FÅNGA_GENUINE_SOURCE_GAPS_v356.csv — water membership",
+    "Hitta Fiske /planera-ditt-fiske/ Brännerisjön+Sjövikssjön — Arter icon/image only REJECTED",
+    "GoFish Bredträsket — FVO-level arter, water artdata saknas — REJECTED",
+    "Norsjö LIS — no Rörträsk/Rökå Fisk×FVO rows",
+    "Sala.se fiske — only Sala FVF lakes ≠ Häll/Ljömsebo/Tappebo",
+    "Kronoberg LST Fiskar och fiske 2019 — no Rinkaby/Tegnaby/Tävelsås/Huljesjön",
+    "Wikipedia Landsomsjön — drains via Landsomsjöbäcken (membership corroboration)"
+  ]
+}

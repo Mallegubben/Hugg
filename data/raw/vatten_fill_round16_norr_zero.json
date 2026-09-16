@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-09-16T06:02:43Z",
+  "round": "16-norr-zero",
+  "policy": {
+    "allowed": [
+      "Naturkartan prose",
+      "vattenagarna",
+      "municipal/tourism/brochures",
+      "FVOF/Wayback narrative",
+      "LST/miljö/nätprovfiske",
+      "newspapers",
+      "Hitta Fiske prose",
+      "iFiske Om-prose naming species for named water",
+      "NORS/SERS only with clear 1:1 FVO membership"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports as artdata"
+    ],
+    "mapping": "1:1 FVO↔source; species ⊆ arter_fvo; multi-lake only per named water or explicit all named lakes; no fuzzy twins. Empty better than wrong."
+  },
+  "stats": {
+    "targets": 15,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "note": "Hard-reviewed ZERO-vatten northern batch (VB/VN/NB/Jämtland). No ACCEPTABLE 1:1 water×species evidence that clearly passes twin/subset/membership gates."
+  },
+  "enrichments": [],
+  "rejected": [
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Wikipedia Kokträsket utan fauna. Visit Malå/Lycksele/Malåkortet endast FVO-/kommunnivå. Norran/norsjosfk utan namngiven Kokträsk×species. Norsjö LIS täcker ej Malå Kokträsk. Ingen municipal/tourism 1:1."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln. Inga Visit/kommun/FVOF/naturkartan/nätprovfiske-träffar med Kussjön×species. Kussjö Viltvårdsområdesförening ≠ FVOF artprosa."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. Inga Visit Lycksele/Vindeln/Gold of Lapland/nätprovfiske 1:1 för Maltträsket×species."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 197,
+      "notes": "Norsjö/Malå/Lycksele. Norsjö LIS 2012 och ÖP 2022 nämner ej Rökå×Fisk. rokabygdens.byasida/Visit utan artprosa. Rödåbygdens FvO (Vindelälven) ≠ Rökåbygden — twin SKIP."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "object_id": 1883,
+      "notes": "Norsjö. Norsjö LIS och ÖP nämner Rörträsk endast som kulturmiljö/översilning — ingen Fisk-rad / FVO-koppling. norsjosfk BREDTRÄSKET behållen som near_miss (saknar explicit FVO-länk; röding∉arter_fvo)."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "notes": "Sorsele/Vindelälven. Vilhelmina Saxnäs/Kultsjön twin rejected. Hitta Fiske/sorsele.se/vindelalvsfiske utan Sorsele-Saxnäs×species prosa. sportfiskeguide FVO-nivå utan arter."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 54,
+      "notes": "Bjurholm/Vindeln/Lycksele. Wikipedia Stor-/Lill-Strömsjön utan fauna. Inga kommun/tourism/FVOF 1:1."
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "object_id": 1644,
+      "original_id": 1217,
+      "notes": "Twin ≠ 1619 (vattenagarna o=545 / Salomonstjärn m.fl., redan fylld). Junsele langvattnetsfvo.se + iFiske Om-prose (öring/röding i fyra tjärnar) och Sollefteå.se (Blåtjärn→Långvattnets FVO; FVO-nivå öring/röding) — near_miss: Röding∉arter_fvo; saknar explicit ORIGINALID 1217; FÅNGA vattenmedlemskap för Blåtjärn/Botjärn/Stor-Abborrvattnet/Långtjärn ej verifierat mot 1644. LST/NV-reservat gädda/abborre knyts till samma Junsele-reservatkomplex — ej använt utan 1217-länk. Prefer empty."
+    },
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "object_id": 1617,
+      "notes": "Sollefteå/Edsele. Nordanede Pike Fight / ST (Mellansjön söder om Torpshammar, Ånge) ≠ denna FVO (twin vs Nedre Gimån/Ånge). Forum Gårdsjön Edsele ej godkänd källa. Ingen tillåten 1:1 prosa för Edsele-Nordanede vatten."
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "object_id": 1631,
+      "notes": "Timrå/Sundsvall Indal. Bergeforsen/Indalsälven-prosa (lax/öring/sik/harr) ≠ Östanskärs FVO. Inga FVOF/Hitta Fiske/kommunsidor med Östanskär×species."
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "object_id": 234,
+      "notes": "Pajala. Visit Pajala kommunnivå arter (ej 1:1). Naturkartan Suaningi badplats utan fiskarter. Wikipedia Suaninkijärvi/Suaningi nämner FVO utan fauna. NORS saknar träff. Forums rejected."
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "object_id": 225,
+      "notes": "Luleå/Boden. Sävastån≠Sävarån twin. Wikipedia Sävast historiskt fiske utan namngivna arter för Luleälven/Råbäcken/Sävastån. Inga Boden/Luleå municipal 1:1."
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "object_id": 245,
+      "notes": "Älvsbyn. PT Djupträsket (Älvsby SFK: röding/öring/harr + abborre/gädda/mört) ≠ Vistträsk FVO vatten. SGU grundvattenrapport utan fisk. Ingen Nörd-/Sör-Vistträsket×species prosa."
+    },
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1797,
+      "notes": "Östersund/Pilgrimstad. ≠ Landösjön / Grimnäs-Landsom twin. Pimpelbloggar/tävlingar (Abborre) = catch-report-liknande — rejected. Wikipedia utan fauna. Ingen tourism/FVOF Om-prosa."
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "object_id": 1732,
+      "notes": "Krokom/Strömsund/Östersund. Strömsundsfiskebroschyr 2026 listar ej Stor-Raftsjöns FVO. iFiske Sandvikssjön–Edsforsens FVOF listar Stor-Raftsjön/Raftan/Töjsan bland vatten men Fiskarter är ikoner (Gädda m.fl.) utan Om-prosa per Raftsjön — och vattenoverlap med 1732 skapar medlemskapsosäkerhet. AquaRapport/LST utan Stor-Raftsjön-träff. Prefer empty (Gädda ONLY arter_fvo)."
+    }
+  ],
+  "searched_sources": [
+    "Norsjö kommun LIS-plan PDF (strandnära) — fulltext Rörträsk/Bredträsk/Rökå (ingen Fisk×FVO-rad)",
+    "Norsjö kommun Översiktsplan PDF 2022 — Rörträsk endast kultur/översilning",
+    "norsjosfk.se/fishing/other_fishing.htm — BREDTRÄSKET sik/harr/öring/röding utan FVO-länk",
+    "Gold of Lapland / weare.goldoflapland.com Fiskedestination Norsjö — inventeringsprojekt utan artlista",
+    "Visit Lycksele / Malå / Vindeln / Sorsele / Pajala / Älvsbyn / Boden municipal fiske pages",
+    "langvattnetsfvo.se (Junsele) + iFiske Blåtjärn/Botjärn/Stor-abborrvattnet/Långtjärn Om-prose",
+    "Sollefteå.se Go Sollefteå typer-av-fiske + tillgänglighetsfiske (Blåtjärn→Långvattnets FVO; FVO-nivå öring/röding)",
+    "LST Västernorrland Långvattnet naturreservat + Naturvårdsverket skötselplan (gädda/abborre; twin-risk)",
+    "vattenagarna.se Västernorrland o=545 (=1619 twin, ej 1644)",
+    "Nordanede Pike Fight + Sundsvalls Tidning 2023-08-23 (Mellansjön/Torpshammar Ånge twin)",
+    "Timrå/Bergeforsen Indalsälven friluftsprojekt PDF (≠ Östanskär)",
+    "sportfiskeguide Indalsälven / Vindelälven (Fel FVO / FVO-nivå)",
+    "Visit Pajala fiske + Naturkartan Suaningi badplats",
+    "NSD Suaningi byartikel (utan arter)",
+    "PT Djupträsket Vistträsk (Älvsby SFK ≠ Vistträsk FVO)",
+    "Strömsund fiskebroschyr 2026 txt + parsed FVO arter (ej Raftsjöns)",
+    "iFiske Sandvikssjön Edsforsen (Stor-Raftsjön listad; icon-arter)",
+    "AquaRapport/NORS aggregerad — inga tydliga 1:1 FVO-medlemskapsträffar för målssjöarna",
+    "Hitta Fiske planera-ditt-fiske (inga Saxnäs Sorsele / Östanskär / Landsomsjön-sidor)",
+    "vindelalven.laxportalen Rödåbygdens FvO (≠ Rökåbygden)",
+    "Wikipedia: Kokträsket, Suaninkijärvi, Landsomsjön, Stor-Raftsjön, Sävast",
+    "Prior rounds 7/8/11/13/14/15 norr reject notes (cross-checked, not re-accepted)"
+  ],
+  "near_misses_not_used": [
+    {
+      "candidate": "norsjosfk BREDTRÄSKET ~1,5 mil S Glommersträsk: sik + harr, öring, röding",
+      "url": "http://www.norsjosfk.se/fishing/other_fishing.htm",
+      "why_not": "Ingen explicit länk till Rörträsk-Bredträsks fvof; röding∉arter_fvo (Abborre,Gädda,Harr,Lake,Mört,Sik,Öring). Norsjö LIS/ÖP gav inte Kedträsket-mönster (FVO×Fisk) för RÖRTRÄSK/BREDTRÄSK."
+    },
+    {
+      "candidate": "langvattnetsfvo.se / iFiske Junsele: öring+röding i Blåtjärn, Botjärn, Stor-abborrvattnet, Långtjärn; Abborre-ikonnotis Botjärn+Stor-abborrvattnet",
+      "url": "https://langvattnetsfvo.se/",
+      "why_not": "Troligen Junsele-Långvattnet (≠1619 Salomonstjärn), men Röding∉1644 arter_fvo; Abborre endast under Fiskarter-ikon; saknar klar ORIGINALID 1217-koppling; vattenmedlemskap mot FÅNGA för 1644 ej bekräftat. Empty better."
+    },
+    {
+      "candidate": "Sollefteå.se: Blåtjärn = Långvattnets FVO (tillgänglighet); Långvattnets FVO listad under bättre öringsvatten och rödingplatser",
+      "url": "https://www.solleftea.se/Go-Solleftea/en/visit-us/fishing/typer-av-fiske",
+      "why_not": "FVO-nivå / platsnamn utan per-vatten artmening; Röding∉arter_fvo; identifierar ej ORIGINALID 1217 vs twin 1619."
+    },
+    {
+      "candidate": "Nordanede Pike Fight + ST: Gädda i Mellansjön vid Nordanede",
+      "url": "https://nordanedepikefight.se/",
+      "why_not": "ST placerar Mellansjön söder om Torpshammar (Ånge) — twin ≠ Sollefteå/Edsele Nordanede fvof 1617. Fishbrain rejected."
+    },
+    {
+      "candidate": "iFiske Sandvikssjön–Edsforsen listar Stor-Raftsjön + Fiskarter inkl. Gädda",
+      "url": "https://www.ifiske.se/fiske-sandvikssjon-edsforsen-m-fl-vatten.htm",
+      "why_not": "Gädda endast i Fiskarter-ikonblock; Om-prosa namnger arter för Edsforsen/Baksjön, ej Stor-Raftsjön. Vattenoverlap med Stor-Raftsjöns fvo 1732 → medlemskapsosäkerhet."
+    },
+    {
+      "candidate": "Landsomsjön pimpelbloggar/Sundsjöfiskarna tävlingsresultat (Abborre)",
+      "why_not": "Catch-report/forum-liknande; ej FVOF/kommun/tourism Om-prose. Twin-risk Landösjön bevakad men källa ändå otillåten."
+    },
+    {
+      "candidate": "PT Djupträsket utanför Vistträsk: abborre/gädda/mört + utsatt röding/öring/harr",
+      "url": "https://www.pt.se/nyheter/vad-heter-platsen/artikel/dolt-fiskeparadis-utanfor-visttrask/jnywny4l",
+      "why_not": "Älvsby sportfiskeklubb / Djupträsket ≠ Vistträsk FVO vattenlista."
+    },
+    {
+      "candidate": "Visit Pajala: ~680 sjöar med gädda, abborre, mört, sik, lake, harr, öring",
+      "url": "https://visitpajala.se/fiske/",
+      "why_not": "Kommunnivå — inte 1:1 Suaningi-vatten."
+    },
+    {
+      "candidate": "Rödåbygdens FvO (vindelalven.laxportalen): abborre, gädda, öring, harr, lax",
+      "url": "https://vindelalven.laxportalen.se/rodabygdens-fvo/",
+      "why_not": "≠ Rökåbygdens fvof (Norsjö/Malå/Lycksele)."
+    },
+    {
+      "candidate": "LST/NV Långvattnet-reservat: naturlig fiskfauna gädda och abborre; Långvattnets fiskevårdsområde i reservatet",
+      "why_not": "Tidigare knutet till twin 1619/Blåtjärn-komplex; saknar ORIGINALID 1217; Abborre/Gädda ⊆1644 men multi-lake utan namngivna 1644-vatten i FÅNGA."
+    }
+  ]
+}

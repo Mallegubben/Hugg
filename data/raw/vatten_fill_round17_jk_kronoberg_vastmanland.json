@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-09-16T06:10:00+00:00",
+  "policy": {
+    "note": "Hard-reviewed gap pass Jönköping + Kronoberg + Västmanland (Sala) ZERO-vatten targets. Empty better than wrong. Allowed: Naturkartan prose (not Arter icons), vattenagarna, municipal/tourism/brochures, FVOF/Wayback, LST/miljö/nätprovfiske PDFs, newspapers, Hitta Fiske prose, iFiske Om-prose for named water. Never: Artportalen, NatureIT, iFiske Fiskarter icons, Fishbrain, forums, catch reports. 1:1 FVO↔source; species ⊆ arter_fvo; multi-lake only per named water or explicit all named lakes; no fuzzy twins."
+  },
+  "stats": {
+    "targets_fvo": 12,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "searched_but_empty_fvo": 12
+  },
+  "enrichments": [],
+  "searched_but_empty": [
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "object_id": 493,
+      "lan": "Jönköping",
+      "kommuner": "Eksjö",
+      "notes": "arter_fvo ONLY Gädda. Mariannelunds Fiskeklubb Bruzaån Natura 2000 prose: öring/elritsa/bergsimpa — ∩ Gädda = ∅; do not force. Eksjö samrådsunderlag Bruksdammen (2026) names öring/musslor, not Gädda. No NEW source names Gädda for this FVO's waters."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "object_id": 566,
+      "lan": "Jönköping",
+      "kommuner": "Mullsjö",
+      "notes": "Naturkartan/Hitta Fiske Arter-ikonblock (Abborre/Gädda/Mört/Sutare/Ruda) — rejected (not prose). mullsjo.se fiske page 404 / does not name Brännerisjön. No municipal/brochure/LST narrative."
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "object_id": 449,
+      "lan": "Jönköping",
+      "kommuner": "Jönköping",
+      "notes": "Tabergsåns FVOF ≠ this (öring/harr prose for ån). Åsasjöarna trail texts mention sportfiske without species. jonkoping.net combined Åsasjöarna+Tabergsån list not 1:1. JKPG nätprovfiske 2022–23 PDF does not cover Norrahammars waters."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "object_id": 527,
+      "lan": "Jönköping",
+      "kommuner": "Jönköping",
+      "notes": "Naturkartan contact + Arter icons only (Abborre/Gädda/Mört/Sutare/Sarv) — rejected. Depth-map PDF without species text. JP/Bankeryd coverage is farm news, not fish. No municipal narrative."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "object_id": 466,
+      "lan": "Jönköping",
+      "kommuner": "Jönköping",
+      "notes": "Ödestugu Älesjön (≠ Svenljunga Älesjön VG twin). No put-and-take / Regnbåge stocking notice / tourism prose naming Gräskarp/Regnbåge/Öring for this lake. iFiske/Naturkartan 404 for Ödestugu slug."
+    },
+    {
+      "namn": "Huljesjön-Skålåns fvof",
+      "object_id": 653,
+      "lan": "Kronoberg",
+      "kommuner": "Ljungby",
+      "notes": "≠ Lagan-Skålåns FVO (Huliesjön as nordgräns) and ≠ Sundsvall Huljesjön twin. Ljungby 'Fiske i Ljungby' brochure lists Lagan-Skålån gädda etc. — other FVO. Håkanson LakeWeb mercury paper exists for a Huljesjön but full text/OA unavailable to quote Gädda 1:1 for Ljungby FVO. No Huljesjön-Skålåns×Gädda prosa."
+    },
+    {
+      "namn": "Rinkabysjöns fvof",
+      "object_id": 636,
+      "lan": "Kronoberg",
+      "kommuner": "Växjö",
+      "notes": "tavelsas.se fiskestämma without species. Visit Växjö / kommun fiskeguides name Växjösjöarna/Åsnen/Helgasjön — not Rinkabysjön. No LST Kronoberg nätprovfiske PDF hit. iFiske 404. NORS: no station."
+    },
+    {
+      "namn": "Tegnabysjöns fvof",
+      "object_id": 690,
+      "lan": "Kronoberg",
+      "kommuner": "Växjö",
+      "notes": "Naturkartan/badplats Sandvik without fish species. No Visit Växjö / LST nätprovfiske hit. iFiske 404. NORS: no station."
+    },
+    {
+      "namn": "Tävelsåssjöns fvof",
+      "object_id": 637,
+      "lan": "Kronoberg",
+      "kommuner": "Växjö",
+      "notes": "Same FVO-stämma as Rinkaby (tavelsas.se) without artlista. Badplats texts without species. iFiske 404. NORS: no station."
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "object_id": 1448,
+      "lan": "Västmanland",
+      "kommuner": "Sala",
+      "notes": "Visit Västmanland/Edens Garden: 'gott om fisk' without named species. Svartådalen fiskekort lists Hällsjön contact only. REJECT twins: Krokom hallsjonfvo.se; Sundsvall Stor-Hällsjön; Sveaskog Krampen Hällsjön; NORS SE663090-153202 Hällsjön = Västerås/Svanå twin (WGS≈59.80,16.38) ≠ Sala kommun Hällsjön (≈60.05,16.56)."
+    },
+    {
+      "namn": "Ljömsebosjöns fvof",
+      "object_id": 1446,
+      "lan": "Västmanland",
+      "kommuner": "Sala",
+      "notes": "Waters: Ljömsebosjön, Västanbäcksbäcken. Svartådalen does not list Ljömsebo. iFiske 404. No municipal/tourism/LST 1:1 prosa. NORS/SERS: no station."
+    },
+    {
+      "namn": "Tappebosjöarnas fvof",
+      "object_id": 1442,
+      "lan": "Västmanland",
+      "kommuner": "Sala",
+      "notes": "Waters: Norra Tappebosjön, Södra Tappebosjön, Viggsjön. Svartådalen lists contact persons only — no species. Area-level 'fiskrikaste sjöar' not 1:1. iFiske 404. NORS: no station for these lakes."
+    }
+  ],
+  "rejected": [
+    "Mariannelunds Fiskeklubb Bruzaån öring/elritsa/bergsimpa — ∩ arter_fvo{Gädda}=∅; do not force.",
+    "Naturkartan Brännerisjöns / Sjövikssjöns Arter-ikonlistor — not prose.",
+    "Hitta Fiske Arter icons for Brännerisjön/Sjövikssjön — previously rejected; no new prose.",
+    "Tabergsåns FVOF / jonkoping.net Åsasjöarna+Tabergsån combined — ≠ Norrahammars 1:1.",
+    "Svenljunga Älesjön (VG) — ≠ Ödestugu Älesjöns fvof.",
+    "Lagan-Skålåns FVO / Ljungby brochure entry 10 — ≠ Huljesjön-Skålåns fvof.",
+    "Sundsvall Hällsjö FVOF listing Huljesjön species — ≠ Ljungby Huljesjön-Skålåns.",
+    "Visit Västmanland Edens Garden 'gott om fisk' — no named species.",
+    "Svartådalen Öjesjön via Sveaskog Fiskemitt abborre/gädda — ≠ Hällsjön/Ljömsebo/Tappebo.",
+    "NORS Västmanland Hällsjön (SE663090-153202) — Västerås/Svanå twin, not Sala FVO.",
+    "Fishbrain / iFiske catch reports / Fiskarter icons — disallowed.",
+    "Sala kommun fiske page — only Sala FVF lakes (Järndammen etc.), not these FVOs."
+  ],
+  "searched_sources": [
+    "mariannelundsfiskeklubb.se/Bruzaan",
+    "eksjo.se samrådsunderlag nedre Bruksdammen Bruzaån 2026 PDF",
+    "naturkartan.se Brännerisjöns fvof + Sjövikssjöns fvof",
+    "hittafiske.se kommun/sök (Jönköping, Mullsjö targets)",
+    "mullsjo.se fiske (404 / no Brännerisjön)",
+    "Tabergsåns fvof Naturkartan",
+    "jonkoping.net / Åsasjöarna trail texts (AllTrails/NK)",
+    "naturvardsverket.diva-portal.org JKPG nätprovfiske 2022–23 PDF",
+    "upplev.vaxjo.se Fiska fint + vaxjo.se reduktionsfiske PDFs (Växjösjöarna only)",
+    "tavelsas.se fiskestämma Tävelsås+Rinkaby",
+    "svenska-badplatser / HaV Tegnabysjön+Tävelsåssjön",
+    "fliphtml5 Fiske i Ljungby brochure (Lasse Törnkvist)",
+    "sportfiskeguide.se Lagan-Skålån",
+    "catalog.lansstyrelsen.se Fiskar och fiske i Kronobergs län (DG_2019__12)",
+    "diva-portal / Crossref Håkanson Huljesjön LakeWeb mercury paper (no OA full text)",
+    "sala.se fiske (Sala FVF only)",
+    "svartadalen.se/fiskekort",
+    "visitvastmanland.com/edensgarden + edensgarden.se",
+    "lansstyrelsen.se Västmanland nätprovfiske 2013 PDF (8 other lakes)",
+    "nors_data_aggregerad.json + aquarapport (Hällsjön twin check)",
+    "sers_data_aggregerad.json (no useful hits)",
+    "iFiske Om-pages (404 for almost all targets; hallsjon.htm = wrong twin area view)",
+    "Wikipedia Älesjön disambig; Nominatim Hällsjön Sala vs Västerås",
+    "FANGA_GENUINE_SOURCE_GAPS_v356.csv water names (Ljömsebo/Tappebo)",
+    "Prior round notes r10–r16 held rejects"
+  ],
+  "near_misses_not_used": [
+    {
+      "item": "Mariannelunds Bruzaån öring/elritsa/bergsimpa",
+      "why": "Strong 1:1 prose for Bruzaån but species ∩ arter_fvo{Gädda}=empty; postcode 570 30 Mariannelund overlaps FVO list but do not force Gädda."
+    },
+    {
+      "item": "NORS 2007 Hällsjön Västmanland (Abborre,Gädda,Mört,…)",
+      "why": "Coords match Västerås/Svanå Hällsjön twin, not Sala kommun Hällsjön used by Edens Garden/Svartådalen FVO."
+    },
+    {
+      "item": "Ljungby brochure Lagan-Skålån gädda/gös/abborre",
+      "why": "Different FVO (Lagan-Skålåns); Huljesjön only as nordgräns name variant — not Huljesjön-Skålåns fvof."
+    },
+    {
+      "item": "Håkanson 2003 Lake Huljesjön mercury/LakeWeb",
+      "why": "Likely discusses pike Hg but OA full text unavailable; cannot verify Ljungby identity + quotable Gädda sentence under policy."
+    },
+    {
+      "item": "Svartådalen 'länets fiskrikaste sjöar' + Tappebosjöarna contacts",
+      "why": "Area-level / contact-only; no named species for Norra/Södra Tappebosjön or Viggsjön."
+    },
+    {
+      "item": "Visit Växjö species for Åsnen/Helgasjön/Växjösjöarna",
+      "why": "Wrong waters; does not name Rinkaby/Tegnaby/Tävelsås."
+    },
+    {
+      "item": "Naturkartan Brännerisjön/Sjövikssjön Arter chips",
+      "why": "Icon/tag species lists without narrative prose — policy reject."
+    }
+  ]
+}

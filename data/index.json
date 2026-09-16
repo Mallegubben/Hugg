@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T05:32:17.539883+00:00",
+  "generated_at": "2026-09-16T06:10:46.426587+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 6137,
+  "antal_vatten": 6139,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -361,8 +361,8 @@
       "med_artlista": 157,
       "utan_artlista": 0,
       "tackning_pct": 100.0,
-      "fvo_med_vattenposter": 155,
-      "antal_vattenposter": 1130,
+      "fvo_med_vattenposter": 156,
+      "antal_vattenposter": 1131,
       "fvo_ids": [
         1488,
         1489,
@@ -983,8 +983,8 @@
       "med_artlista": 42,
       "utan_artlista": 3,
       "tackning_pct": 93.3,
-      "fvo_med_vattenposter": 39,
-      "antal_vattenposter": 177,
+      "fvo_med_vattenposter": 40,
+      "antal_vattenposter": 180,
       "fvo_ids": [
         630,
         631,
@@ -41128,6 +41128,22 @@
             "Elritsa",
             "Gädda",
             "Lake",
+            "Öring"
+          ]
+        }
+      ],
+      "Brändån": [
+        {
+          "fvo_id": 2304,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Harr",
+            "Lake",
+            "Mört",
             "Öring"
           ]
         }
@@ -86027,6 +86043,16 @@
             "Bergsimpa",
             "Elritsa",
             "Gädda",
+            "Lake"
+          ]
+        },
+        {
+          "fvo_id": 1560,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Elritsa",
             "Lake"
           ]
         }
@@ -150409,6 +150435,17 @@
           ]
         }
       ],
+      "Vistbäcken": [
+        {
+          "fvo_id": 2304,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ]
+        }
+      ],
       "Vistån": [
         {
           "fvo_id": 662,
@@ -150419,6 +150456,19 @@
             "Elritsa",
             "Lake",
             "Stensimpa",
+            "Öring"
+          ]
+        },
+        {
+          "fvo_id": 2304,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Lake",
+            "Mört",
             "Öring"
           ]
         }
@@ -174848,7 +174898,8 @@
         "fiskekartan",
         "gbif",
         "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-        "norran_se"
+        "norran_se",
+        "NORS"
       ],
       "arter": [
         "Abborre",
@@ -174891,7 +174942,8 @@
             "Sik"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null
         },
@@ -174908,7 +174960,8 @@
             "Sik"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null
         },
@@ -221911,7 +221964,8 @@
       "url_fvof": null,
       "kallor": [
         "gbif",
-        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "NORS"
       ],
       "arter": [
         "Abborre",
@@ -221943,7 +221997,8 @@
             "Öring"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null
         },
@@ -221961,7 +222016,8 @@
             "Öring"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null
         }
@@ -246282,7 +246338,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Landsomsjöns%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "SERS"
       ],
       "arter": [
         "Abborre",
@@ -246291,7 +246348,22 @@
         "Sik"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Landsomsjöbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Elritsa",
+            "Lake"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1622,
@@ -302468,7 +302540,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "NORS"
       ],
       "arter": [
         "Abborre",
@@ -302501,7 +302574,8 @@
             "Sik"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null
         }
@@ -328452,7 +328526,8 @@
       "url_fvof": null,
       "kallor": [
         "gbif",
-        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+        "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+        "NORS"
       ],
       "arter": [
         "Abborre",
@@ -328484,7 +328559,8 @@
             "Öring"
           ],
           "kallor": [
-            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50"
+            "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
+            "NORS"
           ],
           "senaste_fiskeaar": null
         }
@@ -363362,7 +363438,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "SERS"
       ],
       "arter": [
         "Abborre",
@@ -363381,7 +363458,56 @@
         "Mört",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Brändån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Vistån",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Elritsa",
+            "Lake",
+            "Mört",
+            "Öring"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Vistbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Öring"
+          ],
+          "kallor": [
+            "SERS"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1911,
