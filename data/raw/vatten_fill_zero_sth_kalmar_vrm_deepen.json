@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-09-16T12:45:00Z",
+  "round": "zero_sth_kalmar_vrm_deepen",
+  "policy": {
+    "allowed": [
+      "Naturkartan prose (not Arter icons)",
+      "vattenagarna",
+      "municipal/tourism/brochures",
+      "FVOF/Wayback",
+      "LST/miljö/nätprovfiske PDFs",
+      "newspapers",
+      "Hitta Fiske prose",
+      "iFiske Om-prose naming species for named water",
+      "NORS/SERS only with clear FVO membership + correct geo (no twins)"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske Fiskarter icons",
+      "Fishbrain",
+      "forums",
+      "catch reports"
+    ],
+    "mapping": "1:1 FVO↔source; species ⊆ arter_fvo; multi-lake only per named water or explicit all named lakes; no fuzzy twins. Empty better than wrong."
+  },
+  "stats": {
+    "targets": 25,
+    "fvo_with_enrichments": 0,
+    "total_vatten_rows": 0,
+    "rejected": 25,
+    "by_lan": {
+      "Stockholm": 9,
+      "Kalmar": 8,
+      "Värmland": 8
+    },
+    "note": "Hard-reviewed ZERO-vatten deepen pass. New angles (2024–2026 press, Skärgårdsstiftelsen detail pages, Visit Roslagen PDFs, Västervik/Hultsfred tourism, Karlstad/Grums/Filipstad fiskeguides, mercury/kost lists, DIVA) yielded no ACCEPTABLE 1:1 water×species evidence. Prefer empty."
+  },
+  "enrichments": [],
+  "rejected": [
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "arter_fvo": ["Abborre", "Mört", "Öring"],
+      "notes": "Norrtälje/Väddö by-FVO. DEEPEN: NT 2024–2026 hits Byholmavägen/Grisslehamn real estate only — no fish. Visit Roslagen PDF/ö-pages + roslagen.se/fiska are guide-level (gädda/abborre) without Byholma named water. Väddö hembygd/Naturkartan/vattenagarna/iFiske Om empty. NORS/SERS no Byholma. Prefer empty."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 33,
+      "arter_fvo": ["Abborre", "Storspigg"],
+      "notes": "Värmdö. DEEPEN: Skärgårdsstiftelsen Hjälmö-Lådna detail page = culture/friluftsliv only (no fish species). 2026 naturvårdsnotis mentions fiskvandring at Utterklöv generically — no Abborre/Storspigg×Hjälmö water. LST reservat + Mitt i inventory without species. Fiskeguide Hjälmösundet = fredning only. Prefer empty."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "object_id": 50,
+      "arter_fvo": ["Abborre", "Storspigg"],
+      "notes": "Norrtälje Räfsnäs. DEEPEN: NT 2025 hamn-ombyggnad without fish. Fiskeguide ramp only. Visit Roslagen lists Räfsnäs as place without species. No Storspigg/Abborre prose for named Refsnäs water. Prefer empty."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "object_id": 31,
+      "arter_fvo": ["Elritsa", "Småspigg", "Storspigg"],
+      "notes": "Norrtälje ytterskärgård. DEEPEN: Skärgårdsstiftelsen Röder/Skarv/Kallskär page = boat tourism/allemansrätt; no Elritsa/Småspigg/Storspigg. County brochure 'Fiskar i Stockholms skärgård' not 1:1. Prefer empty."
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "object_id": 46,
+      "arter_fvo": ["Abborre", "Gädda", "Mört", "Ruda"],
+      "notes": "Vallentuna/Norrtälje. No named water found. Sätrasjön FVO + Vallentunasjön VFOF held as different associations (Gös∉Sätta). Hitta Fiske/Naturkartan/kommun without Sätta×species. Prefer empty."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "arter_fvo": ["Storspigg"],
+      "notes": "Värmdö/Möja. Only Storspigg in arter_fvo. DEEPEN: sodermoja.com/visitmöja/Skärgårdsstiftelsen Möja without Storspigg. Fiskeguide Möja tips = island-level + Havsöring/Skrubbskädda∉arter_fvo. Prefer empty."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "object_id": 17,
+      "arter_fvo": ["Storspigg"],
+      "notes": "Norrtälje. Only Storspigg. DEEPEN: NT Söderöra location feed — strömming catch anecdote (Strömming∉arter_fvo; catch-style). Fiskeguide Öjan = fredning only. Waxholm/Visit Roslagen tourism without Storspigg. Prefer empty."
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "object_id": 48,
+      "arter_fvo": ["Abborre", "Braxen", "Flodnejonöga", "Gädda", "Gärs", "Mört", "Småspigg", "Stensimpa", "Storspigg", "Öring"],
+      "notes": "Norrtälje/Väddö Tomta. DEEPEN: NT Tomta traffic note without fish. Tomtviken fredning = Helgö ≠ Väddö Tomta without FVO link. Naturkartan Tomta hagar = Örebro twin. Hembygd empty. Prefer empty."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "object_id": 22,
+      "arter_fvo": ["Abborre", "Braxen", "Gädda", "Id", "Mört", "Ruda", "Storspigg", "Sutare"],
+      "notes": "KNOWN REJECTS HELD: Holmsundet gädda/abborre (Norrtälje Vätö huvud PDF) — FVO membership unproven; vatofiske.se = Vätö AFF ≠ this FVO. Visit Roslagen Vätö = granite/history without species inventory for Västra Vätösunds. Prefer empty."
+    },
+    {
+      "namn": "Bällsjöns fvof",
+      "lan": "Kalmar",
+      "object_id": 748,
+      "arter_fvo": ["Sutare"],
+      "notes": "Nybro. Only Sutare. NORS 643397-154085 Bällsjön (58.03°N 16.50°E) = Västervik twin HELD — not Nybro geo; do not use despite Sutare in catch. Nybro nature guide lists other lakes (not Bällsjön×Sutare). Mercury/kost lists do not name Nybro-Bällsjön. Prefer empty."
+    },
+    {
+      "namn": "Elmarens fvof",
+      "lan": "Kalmar",
+      "object_id": 742,
+      "arter_fvo": ["Abborre", "Braxen", "Gädda", "Gös", "Sutare"],
+      "notes": "Västervik Älmaren (Hallingeberg). Wikipedia hydrografi without fauna (≠Hjälmaren). DEEPEN: VT 2017–2025 Dynestad/Gladhammar/sportfiske — no Älmaren×species. Västervik tourism/fiskekortsguide miss Elmaren. NORS no Älmaren (Hjälmaren false-positive). Prefer empty."
+    },
+    {
+      "namn": "Gladhammars fvof",
+      "lan": "Kalmar",
+      "object_id": 712,
+      "arter_fvo": ["Abborre", "Benlöja", "Gädda", "Id", "Mört", "Signalkräfta", "Storspigg"],
+      "notes": "KNOWN REJECT HELD: vastervik.com Ålsjön/Kyrksjön/Långmalmen via Gunnebo & Västerviks SFK ≠ Gladhammars FVOF. DEEPEN: VT mentions Gladhammars FVOF existence + gruv/Tjursbosjön metals — no 1:1 Abborre/… for Gladhammars waters. Prefer empty."
+    },
+    {
+      "namn": "Hallången m.fl sjöars fvof",
+      "lan": "Kalmar",
+      "object_id": 739,
+      "arter_fvo": ["Abborre", "Gädda", "Mört"],
+      "notes": "Västervik/Vimmerby. REJECT twin Hallången Överlida VG (NORS Stora/Lilla Hallången VG + iFiske Om). Kalmar Hallången lacks prose. VT/Vimmerby Tidning Krön ≠ Hallången. Prefer empty."
+    },
+    {
+      "namn": "Idö fvof",
+      "lan": "Kalmar",
+      "object_id": 705,
+      "arter_fvo": ["Abborre", "Benlöja", "Småspigg", "Storspigg"],
+      "notes": "Västervik. DEEPEN: Kalmar läns museum Idö PDF — historiskt ål/strömming/torsk/fjällfisk (Ål/Strömming/Torsk∉arter_fvo; fjällfisk too vague). Visit/Naturkartan/Västervik Outdoor = archipelago-level gädda/abborre ≠ Idö 1:1 Abborre/Benlöja/spigg. Arholma-Idö twin rejected. Prefer empty."
+    },
+    {
+      "namn": "Lilla Hammarsjön fvof",
+      "lan": "Kalmar",
+      "object_id": 745,
+      "arter_fvo": ["Abborre", "Gädda", "Lake", "Mört", "Ål"],
+      "notes": "Hultsfred. vattenagarna o=584 contact-only. KNOWN REJECT twin: Stora Hammarsjön SFK Kroken (NORS + Visit Hultsfred artprosa). Naturkartan/Hammarsjöleden vindskydd without fish. Prefer empty."
+    },
+    {
+      "namn": "Runnö fvof",
+      "lan": "Kalmar",
+      "object_id": 702,
+      "arter_fvo": ["Mal", "Småspigg", "Storspigg"],
+      "notes": "Oskarshamn. oskarshamn.com/Naturkartan — historiskt ålfiske (Ål∉arter_fvo). No Mal/spigg prose. Barometern 2025 Kalmarsund storspigg = regional survey not Runnö-named. Prefer empty."
+    },
+    {
+      "namn": "Rådens fvof",
+      "lan": "Kalmar",
+      "object_id": 728,
+      "arter_fvo": ["Abborre", "Gädda"],
+      "notes": "Hultsfred. Visit Hultsfred search → Stora Hammarsjön only. Fishbrain rejected. No municipal Abborre/Gädda×Råden. Prefer empty."
+    },
+    {
+      "namn": "Bäverkärns fvof",
+      "lan": "Värmland",
+      "object_id": 1231,
+      "arter_fvo": ["Abborre", "Björkna", "Braxen", "Bäcknejonöga", "Gädda", "Gärs", "Gös", "Lake", "Mört", "Ruda", "Sarv", "Sutare"],
+      "notes": "Karlstad. DEEPEN: NWT/VF/Karlstad kommun/iFiske without Bäverkärn×species. Molkomsjön prose ≠ Barsjön/Bäverkärn. NORS/SERS miss. Prefer empty."
+    },
+    {
+      "namn": "Lillemsens fvof",
+      "lan": "Värmland",
+      "object_id": 1375,
+      "arter_fvo": ["Abborre", "Braxen", "Flodkräfta", "Gädda", "Mört", "Nors", "Ål"],
+      "notes": "Kil/Grums. Ornitologi/Artportalen rejected. Grums/lakevanern list other lakes; no Lillemsen×species. Prefer empty."
+    },
+    {
+      "namn": "Norra Barsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1287,
+      "arter_fvo": ["Abborre", "Braxen", "Gädda", "Gärs", "Lake", "Mört", "Nors", "Ål"],
+      "notes": "Karlstad/Väse. Wikipedia hydrografi without fauna. ≠ Barsjön Uppland / Bårsjön Södertälje. Molkomsjön/Acksjön provfiske ≠ Norra Barsjön. NORS miss. Prefer empty."
+    },
+    {
+      "namn": "Portilasjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1308,
+      "arter_fvo": ["Abborre", "Braxen", "Gädda", "Gärs", "Mört", "Ruda", "Ål"],
+      "notes": "Grums. lakevanern.se/visitvarmland/grums.se name Portilasjön among lakes without artlista. Vänern species prose ≠ Portila. iFiske 404. NWT/VF without Portila art. Prefer empty."
+    },
+    {
+      "namn": "Skåltjärnshyttans fvof",
+      "lan": "Värmland",
+      "object_id": 1328,
+      "arter_fvo": ["Abborre", "Elritsa", "Flodkräfta", "Gädda", "Lake", "Mört", "Nors", "Röding", "Öring"],
+      "notes": "Filipstad. vattenagarna o=710 empty. KNOWN REJECT: Filipstad turistfiskekort artlista on card level over 46 named lakes — Skåltjärn not in sjölista; card-level ≠ 1:1. ≠ Eda Skåltjärn on Högs map. Prefer empty."
+    },
+    {
+      "namn": "Syrsjön-Torptjärns fvof",
+      "lan": "Värmland",
+      "object_id": 1369,
+      "arter_fvo": ["Abborre", "Benlöja", "Braxen", "Flodkräfta", "Gädda", "Gärs", "Lake", "Mört", "Siklöja", "Ål"],
+      "notes": "Forshaga. KNOWN REJECT multi-FVO Om held (iFiske → Forshaga Fiskevårdskrets 13 FVO). Gräsmark Torptjärn put-and-take regnbåge = different Torptjärn twin. Fishbrain/catch rejected. Prefer empty."
+    },
+    {
+      "namn": "Sälsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1236,
+      "arter_fvo": ["Abborre", "Gädda", "Mört", "Ål"],
+      "notes": "Sunne/Gräsmark. NORS 656755-141273 Sälsjön = Visnum/Kristinehamn–Degerfors twin (59.22°N 14.28°E; Sveaskog Björneborg) — NOT Gräsmark (59.80°N 12.92°E). Do not use NORS despite Abborre/Gädda/Mört ∩. iFiske Gräsmark lists Kymmen/Rottnen waters — Sälsjön absent. VF/NWT = property ads only. Prefer empty."
+    },
+    {
+      "namn": "Torpsjöns fvof",
+      "lan": "Värmland",
+      "object_id": 1256,
+      "arter_fvo": ["Abborre", "Benlöja", "Braxen", "Gädda", "Gärs", "Gös", "Mört", "Ruda", "Stensimpa", "Ål"],
+      "notes": "Kil/Sunne Frykerud. kil.se contact without arter. REJECT Fränsta Torpsjön twin (Villa Stenhuset + Y-kroken pimpel Torps kyrka/Ljunganserien). Fishbrain Värmland Torpsjön forbidden. Prefer empty."
+    }
+  ],
+  "searched_sources": [
+    "Prior: vatten_fill_stockholm_sodermanland_zero_review.json + round12_stockholm + round12_varmland + round16_og_kalmar_vrm (re-checked; rejects held)",
+    "NORS aggregerad: Bällsjön Kalmar=Västervik twin; Sälsjön Värmland=Visnum twin; Hallången=VG only; no Nybro-Bällsjön/Älmaren/Portila/Barsjön/Bäverkärn/Lillemsen/Syrsjön/Torpsjön Frykerud/Skåltjärn/Lilla Hammarsjön",
+    "SERS aggregerad: no target-water hits",
+    "Skärgårdsstiftelsen: Hjälmö-Lådna; Röder/Skarv/Kallskär/Fredlarna/Gillöga; Möjaskärgården — no fish species prose",
+    "Visit Roslagen / roslagen.se/fiska + Heyzine visitor PDF — guides/ramps without target water×species",
+    "NT Norrtälje 2024–2026: Räfsnäs hamn, Söderöra strömming anecdote, Riddersholm lekfisk (Norrsundet≠targets), Byholma/Tomta non-fish",
+    "VT Västervik: Dynestad abborre; Gladhammars FVOF mentioned without species; Gladhammar gruvor/Tjursbosjön metals",
+    "Barometern 2025 Kalmarsund storspigg survey — regional ≠ Runnö/Idö named",
+    "NWT/VF: no Portila/Barsjön/Torpsjön/Bäverkärn/Sälsjön Gräsmark artprosa",
+    "lakevanern.se + visitvarmland Fiska i Grums — Portilasjön named without arter",
+    "iFiske Filipstad turistfiskekort — Skåltjärn absent from 46-lake list; card-level held",
+    "iFiske Fiske i Gräsmark — Torptjärn P&T + Kymmen/Rottnen; Sälsjön absent; ≠ Forshaga Syrsjön-Torptjärn",
+    "iFiske Syrsjön-Torptjärns + Forshaga Fiskevårdskrets multi-FVO Om held reject",
+    "vattenagarna Kalmar o=584 Lilla Hammarsjön contact-only; Värmland o=710 Skåltjärnshyttan empty",
+    "kalmarlansmuseum.se Idö-med-Krokö PDF — ål/strömming/torsk historiskt ∉∩ arter_fvo usefully",
+    "oskarshamn.com Runnö — ålfiske historiskt; Mal/spigg absent",
+    "Wikipedia Älmaren / Norra Barsjön / Sälsjön Gräsmark vs Visnum — hydrografi; Visnum has provfiske note = wrong twin",
+    "Visit Kristinehamn Björneborg Sveaskog Sälsjön abborre/gädda/mört — Visnum twin near_miss",
+    "Mercury/kost: Livsmedelsverket generic + LST Stockholm insjöar + Hammarö Vänern — no target lakes named",
+    "DIVA/NV nätprovfiske 2024 PDFs (Allgunnen/Flåren/Hindsen/Jönköping kommun) — no target lakes",
+    "nybro.se Nature Guide PDF — other Nybro lakes; Bällsjön missing",
+    "Hitta Fiske / Naturkartan targeted search — no usable target prose",
+    "Fishbrain Torpsjön/Horsfjärden/Råden — policy reject",
+    "Y-kroken/pimpelbloggar Torpsjön + Torps kyrka — Fränsta/Ljungan twin reject"
+  ],
+  "near_misses": [
+    {
+      "candidate": "NORS Bällsjön Kalmar (643397-154085) includes Sutare",
+      "why_not": "Geo 58.03°N 16.50°E = Västervik twin; Bällsjöns fvof is Nybro. Prior twin hold; Sutare-only arter_fvo does not authorize wrong lake."
+    },
+    {
+      "candidate": "NORS Sälsjön Värmland Abborre/Gers/Gädda/Mört + Visit Kristinehamn Björneborg prose",
+      "why_not": "Visnum socken / Kristinehamn–Degerfors (≠ Sunne/Gräsmark Sälsjöns fvof). Clear twin; FVO membership fails."
+    },
+    {
+      "candidate": "Holmsundet gädda+abborre — Norrtälje Vätö huvud PDF",
+      "why_not": "Prior reject held: species ⊆ arter_fvo but Holmsundet membership in Västra Vätösunds fvof unproven; Vätö AFF different förening."
+    },
+    {
+      "candidate": "NT Söderöra 45 kg strömming",
+      "why_not": "Strömming ∉ arter_fvo{Storspigg}; catch anecdote style; intersection empty."
+    },
+    {
+      "candidate": "Kalmar museum Idö historiskt ål/strömming/torsk/fjällfisk",
+      "why_not": "Named species ∩ arter_fvo{Abborre,Benlöja,Småspigg,Storspigg}=∅; fjällfisk too vague for Abborre 1:1."
+    },
+    {
+      "candidate": "Filipstad turistfiskekort Abborre/Gädda/… + Skåltjärnshyttans FVOF as partner",
+      "why_not": "Card-level roster over 46 lakes; Skåltjärn not listed — not 1:1 named water."
+    },
+    {
+      "candidate": "Forshaga Fiskevårdskrets Om gös/abborre/gädda/braxen",
+      "why_not": "Multi-FVO (13) Om — not per Syrsjön/Torptjärn named water."
+    },
+    {
+      "candidate": "iFiske Gräsmark Torptjärn regnbåge P&T",
+      "why_not": "Different Torptjärn (Gräsmark) ≠ Forshaga Syrsjön-Torptjärns; Regnbåge∉arter_fvo."
+    },
+    {
+      "candidate": "Gunnebo/Västerviks SFK Ålsjön/Kyrksjön/Långmalmen artprosa",
+      "why_not": "Wrong förening for Gladhammars fvof — prior reject held."
+    },
+    {
+      "candidate": "Stora Hammarsjön SFK Kroken / NORS artlista",
+      "why_not": "≠ Lilla Hammarsjön fvof; twin hold."
+    },
+    {
+      "candidate": "Hallången Överlida VG iFiske/NORS",
+      "why_not": "County twin ≠ Kalmar Hallången m.fl."
+    },
+    {
+      "candidate": "Fränsta Torpsjön pimpel/Villa Stenhuset Abborre",
+      "why_not": "Västernorrland twin ≠ Kil/Sunne Torpsjöns fvof."
+    },
+    {
+      "candidate": "Fishbrain Torpsjön (Värmland) gädda/abborre",
+      "why_not": "Forbidden source class even if geo matches Frykerud."
+    },
+    {
+      "candidate": "Portilasjön named on Grums tourism as fiskevatten",
+      "why_not": "Name-only; no species sentence for Portilasjön."
+    },
+    {
+      "candidate": "Skärgårdsstiftelsen Utterklöv/Björnö gädda-abborre restoration prose",
+      "why_not": "Not Hjälmö Bys named waters; Storspigg not inventoried as FVO artdata."
+    },
+    {
+      "candidate": "Barometern Kalmarsund 90k storspigg",
+      "why_not": "Regional Kalmarsund survey — does not name Runnö/Idö waters."
+    }
+  ]
+}
