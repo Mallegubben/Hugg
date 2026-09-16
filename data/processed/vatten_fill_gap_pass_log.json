@@ -4033,133 +4033,94 @@
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Bjurträsk fvof",
       "lan": "Västerbotten",
       "vatten": "Kedträsket",
       "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Sik"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Bjurträsk fvof",
       "lan": "Västerbotten",
       "vatten": "Fäbodträsket",
       "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Lake",
-        "Mört",
-        "Sik"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Bjurträsk fvof",
       "lan": "Västerbotten",
       "vatten": "Bjurbäcken",
       "source": "norran_se",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Petikträsk fvof",
       "lan": "Västerbotten",
       "vatten": "Petikträsket",
       "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Gärs",
-        "Lake",
-        "Sik"
-      ],
-      "tillagda_fvoarter": [
-        "Lake"
-      ]
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Holmträskbygdens fvof",
       "lan": "Västerbotten",
       "vatten": "Karsträsket",
       "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr",
-        "Lake",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Holmträskbygdens fvof",
       "lan": "Västerbotten",
       "vatten": "Holmträsket",
       "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr",
-        "Lake",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Stora Sikträskets fvof",
       "lan": "Västerbotten",
       "vatten": "Sikträsket",
       "source": "norsjo_kommun_lis-plan_tillagg_till_oversiktsplan_2010_antagen_kf_2012-06-18_50",
-      "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Harr",
-        "Lake",
-        "Mört",
-        "Sik",
-        "Öring"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Sladö fvof",
       "lan": "Kalmar",
       "vatten": "Sladö sund",
       "source": "slado_se",
-      "tillagda_vattenarter": [
-        "Gädda"
-      ],
+      "tillagda_vattenarter": [],
       "tillagda_fvoarter": []
     },
     {
-      "action": "create",
+      "action": "touch",
       "fvo": "Antvardens fvof",
       "lan": "Östergötland",
       "vatten": "Antvarden",
       "source": "sportfiskeguide",
+      "tillagda_vattenarter": [],
+      "tillagda_fvoarter": []
+    },
+    {
+      "action": "create",
+      "fvo": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "vatten": "Mellansjön",
+      "source": "nordanede_pike_fight_lokal_tavlings-",
       "tillagda_vattenarter": [
-        "Abborre",
-        "Gädda",
-        "Sutare"
+        "Gädda"
       ],
       "tillagda_fvoarter": []
     },
@@ -4481,26 +4442,26 @@
   ],
   "unmatched": [],
   "stats": {
-    "created_vatten": 9,
+    "created_vatten": 1,
     "merged_vatten": 0,
-    "touched_vatten": 483,
-    "applied_rows": 492,
+    "touched_vatten": 492,
+    "applied_rows": 493,
     "unmatched": [],
     "before": {
-      "antal_fvo": 1907,
-      "har_nagon_art": 1874,
-      "saknar_arter": 33,
-      "har_vattenposter": 1784,
-      "med_arter_men_0_vatten": 90,
-      "total_vatten": 9815
-    },
-    "after": {
       "antal_fvo": 1907,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
       "har_vattenposter": 1790,
       "med_arter_men_0_vatten": 84,
       "total_vatten": 9824
+    },
+    "after": {
+      "antal_fvo": 1907,
+      "har_nagon_art": 1874,
+      "saknar_arter": 33,
+      "har_vattenposter": 1791,
+      "med_arter_men_0_vatten": 83,
+      "total_vatten": 9825
     },
     "blocked_sources": [
       "natureit",

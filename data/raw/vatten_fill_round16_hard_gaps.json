@@ -1,0 +1,364 @@
+{
+  "generated_at": "2026-09-16T05:44:57Z",
+  "round": "16_hard_gaps",
+  "policy": {
+    "allowed": [
+      "Naturkartan prose",
+      "vattenagarna",
+      "municipal/tourism fiskeguides",
+      "brochures / FVOF pages",
+      "miljörapporter / LST reports naming water×species",
+      "local newspapers / local association articles naming lake+species",
+      "Wayback FVOF / municipal / sportfiske-guide pages",
+      "iFiske Om-prose naming species for a named water",
+      "Hitta Fiske prose (not Arter icon blocks)"
+    ],
+    "never_use": [
+      "Artportalen",
+      "NatureIT",
+      "iFiske icons / Fiskarter icon blocks",
+      "Fishbrain",
+      "unverified forums",
+      "iFiske catch reports",
+      "personal catch blogs as sole evidence"
+    ],
+    "mapping": "1:1 water×species; species must be ⊆ arter_fvo; no twins; no fuzzy cross-county"
+  },
+  "stats": {
+    "targets": 37,
+    "fvo_with_enrichments": 1,
+    "total_vatten_rows": 1,
+    "searched_but_empty": 36,
+    "rejected_notes": 12
+  },
+  "searched_sources": [
+    "Norsjö kommun LIS-plan PDF — no Rökå/Rörträsk/Bredträsk sections (confirm prior)",
+    "visitlycksele.se/fiska-i-lycksele — Granån etc.; no Maltträsk/Strömsjönäs/Rökå",
+    "norsjosfk.se other_fishing — Bredträsket sik/harr/öring/röding without FVO link; röding∉1883 arter",
+    "rokabygdens.byasida.se — byaförening utan fiskarter; Rödåbygden twin noted",
+    "langvattnetsfvo.se + LST Västernorrland Långvattnet skötselplan — Junsele/Backe reservat; twin vs Husån OID 1644/1619",
+    "iFiske Om-prose Långvattnets FVOF Örnsköldsvik (Stensvattnet/Malklipp/Långvattsån) — twin-gated vs 1619",
+    "nordanedepikefight.se — Mellansjön vid Nordanede Gädda (HIT)",
+    "timra.se Indalsälvens delta — sik/lax/öring/harr not Östanskär 1:1",
+    "visitpajala.se/fiske — kommunnivå utan Suaningi",
+    "sportfiskeguide Luleälv / Boden FlipHTML5 — älvnivå; Sävarån twin rejected",
+    "pt.se Djupträsket Vistträsk — Älvsby SFK ≠ Vistträsk FVO",
+    "Stockholms läns fiskeguide / skargardsstiftelsen / sportfiskeguide skärgård — island/FVO gaps",
+    "mullsjo.se fiska + Hitta Fiske Brännerisjön icons rejected",
+    "mariannelundsfiskeklubb.se/Bruzaan — öring/elritsa/bergsimpa; Gädda ej på ån",
+    "jonkoping.se fiskekort + nätprovfiske PDF 2022–23 — targets ej namngivna",
+    "vaxjo.se / upplev.vaxjo.se fiske — Rinkaby/Tegnaby/Tävelsås ej",
+    "jkpg.com Åsabadet — sportfiske utan art; Tabergsån≠Norrahammars",
+    "strangnas tourism Åkersfiske — ingen Marsjön×Ruda; Bengtsfors Marsjöarna twin",
+    "Sala iFiske Gruvan — ≠ Hällsjön/Ljömsebo/Tappebo",
+    "NORS twin scan — no clean municipality-matched hits for remaining targets",
+    "Wayback probes langvattnetsfvo / nordanedepikefight",
+    "Fishbrain / iFiske catch reports / forums — rejected throughout"
+  ],
+  "enrichments": [
+    {
+      "namn": "Nordanede fvof",
+      "lan": "Västernorrland",
+      "object_id": 1617,
+      "vatten": [
+        {
+          "namn": "Mellansjön",
+          "arter": [
+            "Gädda"
+          ],
+          "kalla": "Nordanede Pike Fight",
+          "url": "https://nordanedepikefight.se/",
+          "evidence": "nordanedepikefight.se: »Plats: Mellansjön vid Nordanede i Västernorrland«; »Fiske: Gäddfiske med spö«; »En gäddtävling i en av Sveriges bästa gäddsjöar«. Endast Gädda (⊆ arter_fvo). ≠ Mellansjön Värmdö P&T twin; ≠ Åsasjöarna Mellansjön Jönköping."
+        }
+      ]
+    }
+  ],
+  "searched_but_empty": [
+    {
+      "namn": "Kokträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 159,
+      "notes": "Malå. Ingen Kokträsket×species prosa (visit/malå/norran/LIS). Wikipedia utan fauna."
+    },
+    {
+      "namn": "Kussjö fvof",
+      "lan": "Västerbotten",
+      "object_id": 143,
+      "notes": "Vindeln. Ingen Kussjö×species; Vindelbygden FVO twin ≠ Kussjö."
+    },
+    {
+      "namn": "Maltträsk fvof",
+      "lan": "Västerbotten",
+      "object_id": 167,
+      "notes": "Vindeln/Lycksele. visitlycksele namnger ej Maltträsket med arter. Fishbrain rejected."
+    },
+    {
+      "namn": "Rökåbygdens fvof",
+      "lan": "Västerbotten",
+      "object_id": 197,
+      "notes": "Norsjö LIS utan Rökå-sektion. rokabygdens.byasida utan fiskarter. Rödåbygden Vindeln twin rejected."
+    },
+    {
+      "namn": "Rörträsk-Bredträsks fvof",
+      "lan": "Västerbotten",
+      "object_id": 1883,
+      "notes": "Norsjö LIS utan Rörträsk/Bredträsk. norsjosfk Bredträsket: sik/harr/öring/röding — röding∉arter_fvo; ingen explicit FVO-länk; Missenträsk spatial twin prior."
+    },
+    {
+      "namn": "Saxnäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 117,
+      "notes": "Sorsele. CAUTION twin ≠ Vilhelmina/Kultsjödalen Saxnäs. Ingen Sorsele-Saxnäs×species."
+    },
+    {
+      "namn": "Strömsjönäs fvof",
+      "lan": "Västerbotten",
+      "object_id": 54,
+      "notes": "Bjurholm/Vindeln/Lycksele. visitlycksele utan Strömsjönäs. ≠ Ströms Vattudal Jämtland twin."
+    },
+    {
+      "namn": "Långvattnets fvof",
+      "lan": "Västernorrland",
+      "object_id": 1644,
+      "notes": "TWINS: object_id 1644 vs 1619 (båda Sollefteå/Örnsköldsvik, Husån). iFiske Om-prose (Stensvattnet/Malklipp) + Regnbåge matchar snarare 1619. Junsele langvattnetsfvo.se/LST reservat (Backe–Junsele) ≠ Husån-OID utan polygon-gate. SKIP."
+    },
+    {
+      "namn": "Östanskärs fvof",
+      "lan": "Västernorrland",
+      "object_id": 1631,
+      "notes": "Timrå/Sundsvall. Indalsälvens delta (Timrå.se): sik/lax/öring/harr — deltanivå ≠ Östanskär 1:1; harr∉arter_fvo."
+    },
+    {
+      "namn": "Suaningi fvof",
+      "lan": "Norrbotten",
+      "object_id": 234,
+      "notes": "Pajala. Visit Pajala kommunnivå arter utan Suaningi-namn. ≠ Suininki Kuusamo twin."
+    },
+    {
+      "namn": "Sävast-Unbyns fvof",
+      "lan": "Norrbotten",
+      "object_id": 225,
+      "notes": "Boden/Luleå. ≠ Sävarån twin. Sportfiskeguide Luleälv Boden–Luleå älvnivå ≠ Sävast-Unbyns FVO 1:1. Trångforsens FVO ≠ target."
+    },
+    {
+      "namn": "Vistträsk FVO",
+      "lan": "Norrbotten",
+      "object_id": 245,
+      "notes": "Älvsbyn. PT Djupträsket near Vistträsk = Älvsby SFK ≠ Vistträsk FVO."
+    },
+    {
+      "namn": "Byholma fvof",
+      "lan": "Stockholm",
+      "object_id": 47,
+      "notes": "Norrtälje. Stockholms läns fiskeguide Tips/fredning utan Byholma×species."
+    },
+    {
+      "namn": "Hjälmö Bys fvof",
+      "lan": "Stockholm",
+      "object_id": 33,
+      "notes": "Värmdö. Skärgårdsstiftelsen/Hjälmö utan artprosa. Fiskeguide fredning utan Abborre/Storspigg 1:1."
+    },
+    {
+      "namn": "Refsnäs fvof",
+      "lan": "Stockholm",
+      "object_id": 50,
+      "notes": "Norrtälje. Ingen tip-/fredningsprosa Refsnäs×Abborre/Storspigg."
+    },
+    {
+      "namn": "Röder och Skarfs fvof",
+      "lan": "Stockholm",
+      "object_id": 31,
+      "notes": "Norrtälje. Spigg-arter; Tips namnger ej Röder/Skarf×species."
+    },
+    {
+      "namn": "Sätta fvof",
+      "lan": "Stockholm",
+      "object_id": 46,
+      "notes": "Vallentuna/Norrtälje. Ingen 1:1 Sätta×species."
+    },
+    {
+      "namn": "Södemöja fvof",
+      "lan": "Stockholm",
+      "object_id": 12,
+      "notes": "Värmdö. Endast Storspigg. Möja önivå tip rejected."
+    },
+    {
+      "namn": "Söderöra fvof",
+      "lan": "Stockholm",
+      "object_id": 17,
+      "notes": "Norrtälje. Fredning Öjan utan art. Endast Storspigg."
+    },
+    {
+      "namn": "Tomta fvof",
+      "lan": "Stockholm",
+      "object_id": 48,
+      "notes": "Norrtälje. Tomtviken fredningslista ≠ Tomta FVO artprosa."
+    },
+    {
+      "namn": "Västra Vätösunds fvof",
+      "lan": "Stockholm",
+      "object_id": 22,
+      "notes": "Norrtälje. vatofiske.se / Vätö AFF twin rejected; Holmsundet spatial risk."
+    },
+    {
+      "namn": "Landsomsjöns fvof",
+      "lan": "Jämtland",
+      "object_id": 1797,
+      "notes": "Östersund. ≠ Landösjön twin. Pimpelbloggar/tävlingar = catch-report-liknande rejected; ingen godkänd prosa Abborre×Landsomsjön."
+    },
+    {
+      "namn": "Stor-Raftsjöns fvo",
+      "lan": "Jämtland",
+      "object_id": 1732,
+      "notes": "Sandvikssjön Edsforsens iFiske listar Stor-Raftsjön utan per-sjö artprosa; Gädda endast områdesikon. Egna bloggar rejected."
+    },
+    {
+      "namn": "Bruzaåns Mellersta fvof",
+      "lan": "Jönköping",
+      "object_id": 493,
+      "notes": "Mariannelunds Fiskeklubb Bruzaån: öring/elritsa/bergsimpa — Gädda ej belagd på ån; öring∉arter_fvo (endast Gädda). Nedre Åsjöarna≠Bruzaån."
+    },
+    {
+      "namn": "Brännerisjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 566,
+      "notes": "Mullsjö.se namnger ej Brännerisjön. Hitta Fiske Arter-ikoner rejected."
+    },
+    {
+      "namn": "Norrahammars fvof",
+      "lan": "Jönköping",
+      "object_id": 449,
+      "notes": "Tabergsån ≠ Norrahammars rejected. Åsasjöarna tourism 'sportfiske' utan art. Norr-/Sörsjön Hitta Fiske twin rejected."
+    },
+    {
+      "namn": "Sjövikssjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 527,
+      "notes": "Ingen Sjövikssjön×species; JP lantbruk ≠ fauna."
+    },
+    {
+      "namn": "Älesjöns fvof",
+      "lan": "Jönköping",
+      "object_id": 466,
+      "notes": "Ödestugu. ≠ Älgsjön Arvika / Älesjön Vena twins. Ingen P&T-prosa Gräskarp/Regnbåge/Öring."
+    },
+    {
+      "namn": "Huljesjön-Skålåns fvof",
+      "lan": "Kronoberg",
+      "object_id": 653,
+      "notes": "Ljungby. ≠ Lagan-Skålåns. Ingen Huljesjön×Gädda."
+    },
+    {
+      "namn": "Rinkabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 636,
+      "notes": "Växjö. Kommun/upplev utan Rinkabysjön×species."
+    },
+    {
+      "namn": "Tegnabysjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 690,
+      "notes": "Växjö. Ingen Tegnabysjön×species."
+    },
+    {
+      "namn": "Tävelsåssjöns fvof",
+      "lan": "Kronoberg",
+      "object_id": 637,
+      "notes": "Växjö. Ingen Tävelsåssjön×species."
+    },
+    {
+      "namn": "Marsjöns fvof",
+      "lan": "Södermanland",
+      "object_id": 292,
+      "notes": "Strängnäs. Marsjöarna Bengtsfors iFiske twin rejected. Kommun Åkersfiske utan Ruda×Marsjön."
+    },
+    {
+      "namn": "Hällsjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1448,
+      "notes": "Sala. REJECT Sundsvall/Krokom/Ockelbo/Dalarna Hällsjön twins. Sveaskog Krampen twin rejected."
+    },
+    {
+      "namn": "Ljömsebosjöns fvof",
+      "lan": "Västmanland",
+      "object_id": 1446,
+      "notes": "Sala. Ingen Ljömsebosjön×species prosa."
+    },
+    {
+      "namn": "Tappebosjöarnas fvof",
+      "lan": "Västmanland",
+      "object_id": 1442,
+      "notes": "Sala. Norra/Södra Tappebosjön utan artprosa."
+    }
+  ],
+  "rejected": [
+    {
+      "what": "Rödåbygden FvO (Vindeln) as Rökåbygdens",
+      "why": "name twin; different river system"
+    },
+    {
+      "what": "Vilhelmina/Kultsjödalen Saxnäs",
+      "why": "≠ Sorsele Saxnäs fvof (117)"
+    },
+    {
+      "what": "Ströms Vattudal / Dragans FVO",
+      "why": "≠ Strömsjönäs VB"
+    },
+    {
+      "what": "Långvattnets Junsele reservat + Örnsköldsvik iFiske Om-prose → OID 1644",
+      "why": "two Västernorrland Långvattnets FVOs (1644 vs 1619); Junsele site/LST vs Husån HARO ambiguity without polygon"
+    },
+    {
+      "what": "Indalsälvens delta → Östanskärs",
+      "why": "delta-level not Östanskär FVO 1:1"
+    },
+    {
+      "what": "Sävarån / Trångforsens → Sävast-Unbyns",
+      "why": "wrong FVO twin"
+    },
+    {
+      "what": "Djupträsket PT → Vistträsk FVO",
+      "why": "Älvsby SFK water near Vistträsk ≠ Vistträsk FVO"
+    },
+    {
+      "what": "Landösjön → Landsomsjöns",
+      "why": "known twin"
+    },
+    {
+      "what": "vatofiske.se / Vätö AFF → Västra Vätösunds",
+      "why": "twin rejected prior"
+    },
+    {
+      "what": "Möja tip → Södemöja",
+      "why": "önivå not FVO 1:1"
+    },
+    {
+      "what": "Tabergsån FVOF → Norrahammars",
+      "why": "≠ Norrahammars fvof"
+    },
+    {
+      "what": "Marsjöarna Bengtsfors iFiske → Marsjöns Södermanland",
+      "why": "cross-county twin"
+    },
+    {
+      "what": "Sveaskog Krampen / other Hällsjön → Hällsjöns Sala",
+      "why": "twins"
+    },
+    {
+      "what": "Hitta Fiske Brännerisjön Arter icons",
+      "why": "icon block policy"
+    },
+    {
+      "what": "norsjosfk Bredträsket full species list → Rörträsk-Bredträsks",
+      "why": "no FVO link; röding∉arter; spatial twin risk"
+    },
+    {
+      "what": "Mariannelunds Bruzaån öring prose → Bruzaåns Mellersta Gädda-only",
+      "why": "Gädda not attested on ån; öring∉arter_fvo"
+    },
+    {
+      "what": "Fishbrain / catch reports / pimpel blogs",
+      "why": "policy never_use"
+    }
+  ]
+}

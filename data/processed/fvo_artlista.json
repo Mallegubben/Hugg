@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T05:32:17.178469+00:00",
+    "generated_at": "2026-09-16T05:45:12.639458+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1790
+      "har_vattenposter": 1791
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 9,
+      "created_vatten": 1,
       "merged_vatten": 0,
-      "touched_vatten": 483,
-      "applied_rows": 492,
+      "touched_vatten": 492,
+      "applied_rows": 493,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1784,
-        "med_arter_men_0_vatten": 90,
-        "total_vatten": 9815
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1790,
         "med_arter_men_0_vatten": 84,
         "total_vatten": 9824
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1791,
+        "med_arter_men_0_vatten": 83,
+        "total_vatten": 9825
       },
       "blocked_sources": [
         "natureit",
@@ -199992,9 +199992,28 @@
       ],
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "nordanede_pike_fight"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mellansjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "nordanede_pike_fight"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://nordanedepikefight.se/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 9,
         "antal_vatten_med_survey": 0,
@@ -200021,7 +200040,10 @@
           "Mört",
           "Sik"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://nordanedepikefight.se/"
+      ]
     },
     {
       "original_id": 25,

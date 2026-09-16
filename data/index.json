@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:32:17.539883+00:00",
+  "generated_at": "2026-09-16T05:45:31.050413+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
   "antal_vatten": 6137,
@@ -1583,8 +1583,8 @@
       "med_artlista": 136,
       "utan_artlista": 2,
       "tackning_pct": 98.6,
-      "fvo_med_vattenposter": 133,
-      "antal_vattenposter": 591,
+      "fvo_med_vattenposter": 134,
+      "antal_vattenposter": 592,
       "fvo_ids": [
         1168,
         1170,
@@ -98450,6 +98450,15 @@
           "eu_cd": null,
           "arter": [
             "Karp"
+          ]
+        },
+        {
+          "fvo_id": 1189,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
           ]
         }
       ],
@@ -285653,7 +285662,8 @@
       "url_fvof": null,
       "kallor": [
         "fiskekartan",
-        "gbif"
+        "gbif",
+        "nordanede_pike_fight"
       ],
       "arter": [
         "Abborre",
@@ -285671,7 +285681,21 @@
         "Röding",
         "Öring"
       ],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Mellansjön",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Gädda"
+          ],
+          "kallor": [
+            "nordanede_pike_fight"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 25,
