@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T18:51:34.831532+00:00",
+  "generated_at": "2026-09-16T01:59:06.052842+00:00",
   "antal_fvo": 1907,
   "antal_arter": 90,
-  "antal_vatten": 6114,
+  "antal_vatten": 6119,
   "antal_utan_artlista": 33,
   "arter": [
     "Abborre",
@@ -983,8 +983,8 @@
       "med_artlista": 42,
       "utan_artlista": 3,
       "tackning_pct": 93.3,
-      "fvo_med_vattenposter": 37,
-      "antal_vattenposter": 170,
+      "fvo_med_vattenposter": 38,
+      "antal_vattenposter": 175,
       "fvo_ids": [
         630,
         631,
@@ -1167,8 +1167,8 @@
       "med_artlista": 15,
       "utan_artlista": 1,
       "tackning_pct": 93.8,
-      "fvo_med_vattenposter": 12,
-      "antal_vattenposter": 22,
+      "fvo_med_vattenposter": 13,
+      "antal_vattenposter": 23,
       "fvo_ids": [
         793,
         794,
@@ -2162,8 +2162,8 @@
       "med_artlista": 83,
       "utan_artlista": 4,
       "tackning_pct": 95.4,
-      "fvo_med_vattenposter": 72,
-      "antal_vattenposter": 154,
+      "fvo_med_vattenposter": 73,
+      "antal_vattenposter": 155,
       "fvo_ids": [
         1401,
         1402,
@@ -45217,6 +45217,20 @@
           ]
         }
       ],
+      "Båven": [
+        {
+          "fvo_id": 801,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mal"
+          ]
+        }
+      ],
       "Böjshån": [
         {
           "fvo_id": 1751,
@@ -65736,6 +65750,17 @@
           ]
         }
       ],
+      "Harrokbäcken": [
+        {
+          "fvo_id": 671,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Harr"
+          ]
+        }
+      ],
       "Harrsjöbergstjärn": [
         {
           "fvo_id": 1607,
@@ -68918,6 +68943,15 @@
       ],
       "Holmträskbäcken": [
         {
+          "fvo_id": 671,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Harr"
+          ]
+        },
+        {
           "fvo_id": 1092,
           "typ": "vattendrag",
           "smhi_id": null,
@@ -68929,6 +68963,20 @@
         }
       ],
       "Holmträsket": [
+        {
+          "fvo_id": 671,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik"
+          ]
+        },
         {
           "fvo_id": 1016,
           "typ": "sjö",
@@ -96020,6 +96068,17 @@
           "arter": [
             "Elritsa",
             "Öring"
+          ]
+        }
+      ],
+      "Långträsket": [
+        {
+          "fvo_id": 671,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge"
           ]
         }
       ],
@@ -128826,6 +128885,19 @@
           ]
         }
       ],
+      "Stora Utterträsket": [
+        {
+          "fvo_id": 671,
+          "typ": "sjö",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ]
+        }
+      ],
       "Stora Valsjön": [
         {
           "fvo_id": 1935,
@@ -144557,6 +144629,18 @@
           "eu_cd": NaN,
           "arter": [
             "Ål"
+          ]
+        }
+      ],
+      "Tången": [
+        {
+          "fvo_id": 1470,
+          "typ": "vattendrag",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
           ]
         }
       ],
@@ -221253,7 +221337,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Holmträsk%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "snesuddenfiske"
       ],
       "arter": [
         "Abborre",
@@ -221266,7 +221351,80 @@
         "Sik"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Holmträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Holmträskbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Harr"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Harrokbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Harr"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Utterträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Långträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Regnbåge"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 1096,
@@ -288761,7 +288919,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Norra%20Båvens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "sparreholms_fvf"
       ],
       "arter": [
         "Abborre",
@@ -288778,7 +288937,24 @@
         "Sutare"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Båven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mal"
+          ],
+          "kallor": [
+            "sparreholms_fvf"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 840,
@@ -352831,7 +353007,8 @@
       "url_fiskekartan": "https://fiskekartan.se/?fv=Tångens%20fvof&sp=false",
       "url_fvof": null,
       "kallor": [
-        "gbif"
+        "gbif",
+        "sportfiske_i_tranas"
       ],
       "arter": [
         "Abborre",
@@ -352841,7 +353018,22 @@
         "Ål"
       ],
       "fiskekartan_arter": [],
-      "vatten": []
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Tången",
+          "smhi_id": null,
+          "eu_cd": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "sportfiske_i_tranas"
+          ],
+          "senaste_fiskeaar": null
+        }
+      ]
     },
     {
       "id": 373,

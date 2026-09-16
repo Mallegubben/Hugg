@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-15T18:51:34.490064+00:00",
+    "generated_at": "2026-09-16T01:59:05.684665+00:00",
     "ram": "Fiskekartan (LST Fiskevårdsområden FVOF)",
     "antal_fvo": 1907,
     "kallor": [
@@ -44,7 +44,7 @@
       "har_ifiske_spegel_kontroll": 884,
       "har_nagon_art": 1874,
       "saknar_arter": 33,
-      "har_vattenposter": 1772
+      "har_vattenposter": 1775
     },
     "antal_unika_arter": 90,
     "gbif_enrichment": {
@@ -402,26 +402,26 @@
       ]
     },
     "vatten_fill_gap_pass": {
-      "created_vatten": 17,
+      "created_vatten": 7,
       "merged_vatten": 0,
-      "touched_vatten": 448,
-      "applied_rows": 465,
+      "touched_vatten": 465,
+      "applied_rows": 472,
       "unmatched": [],
       "before": {
-        "antal_fvo": 1907,
-        "har_nagon_art": 1874,
-        "saknar_arter": 33,
-        "har_vattenposter": 1766,
-        "med_arter_men_0_vatten": 108,
-        "total_vatten": 9780
-      },
-      "after": {
         "antal_fvo": 1907,
         "har_nagon_art": 1874,
         "saknar_arter": 33,
         "har_vattenposter": 1772,
         "med_arter_men_0_vatten": 102,
         "total_vatten": 9797
+      },
+      "after": {
+        "antal_fvo": 1907,
+        "har_nagon_art": 1874,
+        "saknar_arter": 33,
+        "har_vattenposter": 1775,
+        "med_arter_men_0_vatten": 99,
+        "total_vatten": 9804
       },
       "blocked_sources": [
         "natureit",
@@ -96257,9 +96257,103 @@
         "Sik"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "snesuddenfiske"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Holmträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Harr",
+            "Lake",
+            "Mört",
+            "Sik"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Holmträskbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Harr"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Harrokbäcken",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Harr"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html"
+          ]
+        },
+        {
+          "typ": "sjö",
+          "namn": "Stora Utterträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Regnbåge"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html"
+          ]
+        },
+        {
+          "typ": "vattendrag",
+          "namn": "Långträsket",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Regnbåge"
+          ],
+          "kallor": [
+            "snesuddenfiske"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 8,
         "antal_vatten_med_survey": 0,
@@ -96287,7 +96381,10 @@
           "Regnbåge",
           "Sik"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://web.archive.org/web/20201204111119/http://snesuddenfiske.se/fiskevatten.html"
+      ]
     },
     {
       "original_id": 1096,
@@ -205499,9 +205596,31 @@
         "Sutare"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sparreholms_fvf"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "sjö",
+          "namn": "Båven",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda",
+            "Gös",
+            "Mal"
+          ],
+          "kallor": [
+            "sparreholms_fvf"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "https://sparreholmsfiskevardsforening.com/"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 12,
         "antal_vatten_med_survey": 0,
@@ -205537,7 +205656,10 @@
           "Stensimpa",
           "Sutare"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "https://sparreholmsfiskevardsforening.com/"
+      ]
     },
     {
       "original_id": 840,
@@ -311350,9 +311472,29 @@
         "Ål"
       ],
       "kallor": [
-        "gbif"
+        "gbif",
+        "sportfiske_i_tranas"
       ],
-      "vatten": [],
+      "vatten": [
+        {
+          "typ": "vattendrag",
+          "namn": "Tången",
+          "smhi_id": null,
+          "eu_cd": null,
+          "lokaler": null,
+          "arter": [
+            "Abborre",
+            "Gädda"
+          ],
+          "kallor": [
+            "sportfiske_i_tranas"
+          ],
+          "senaste_fiskeaar": null,
+          "referenser": [
+            "http://sportfiskeitranas.blogspot.com/2014/02/tangen.html"
+          ]
+        }
+      ],
       "statistik": {
         "antal_arter": 5,
         "antal_vatten_med_survey": 0,
@@ -311374,7 +311516,10 @@
           "Mört",
           "Ål"
         ]
-      }
+      },
+      "lokala_tipslankar": [
+        "http://sportfiskeitranas.blogspot.com/2014/02/tangen.html"
+      ]
     },
     {
       "original_id": 373,
